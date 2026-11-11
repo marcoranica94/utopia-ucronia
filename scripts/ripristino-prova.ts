@@ -10,7 +10,9 @@ import {
   verificaDocumento,
 } from "./recupero/core.ts";
 
-const { values } = parseArgs({ options: { da: { type: "string" } } });
+const { values } = parseArgs({
+  options: { da: { type: "string" }, offline: { type: "boolean" } },
+});
 if (!values.da)
   throw new Error(
     "Indica --da /percorso/del/backup (cartella contenente manifest.json e originale/)",
@@ -60,7 +62,11 @@ try {
     path.join(sorgente, "manifest.json"),
     path.join(checkout, "archivio/manifest.json"),
   );
-  esegui("pnpm", ["install", "--frozen-lockfile", "--offline"], checkout);
+  esegui(
+    "pnpm",
+    ["install", "--frozen-lockfile", ...(values.offline ? ["--offline"] : [])],
+    checkout,
+  );
   esegui("pnpm", ["recupero", "verifica"], checkout);
   esegui("pnpm", ["build"], checkout);
   await scriviJson(`rapporti/ripristino-${Date.now()}.json`, {
