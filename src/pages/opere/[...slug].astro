@@ -1,0 +1,19 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+export async function getStaticPaths() {
+  return (await getCollection("opere")).map((opera) => ({
+    params: { slug: opera.id },
+    props: { opera },
+  }));
+}
+const { opera } = Astro.props;
+const { Content } = await render(opera);
+---
+<Base titolo={opera.data.titolo} lingua={opera.data.lingua}>
+  <nav aria-label="Percorso"><a href="/">Campione di lettura</a></nav>
+  <h1>{opera.data.titolo}</h1>
+  <aside class="nota">Testo recuperato, in attesa di confronto editoriale. {opera.data.lacune > 0 && <a href="/lacune/">Alcuni collegamenti o immagini non sono ancora disponibili.</a>}</aside>
+  <article><Content /></article>
+  <section class="fonti" aria-label="Provenienza"><h2>Provenienza</h2>{opera.data.origine.map((o) => <p>Copia Wayback del {o.timestamp.slice(6,8)}/{o.timestamp.slice(4,6)}/{o.timestamp.slice(0,4)}.</p>)}</section>
+</Base>

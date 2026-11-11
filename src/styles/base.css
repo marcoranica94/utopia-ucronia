@@ -1,0 +1,119 @@
+/* Impaginazione provvisoria per la prova S0; la direzione grafica si sceglie in S4. */
+:root {
+  color-scheme: light dark;
+  font-family: system-ui, sans-serif;
+  background: light-dark(#fff, #152130);
+  color: light-dark(#182c40, #e9edf3);
+  line-height: 1.65;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+header,
+main,
+footer {
+  width: min(100% - 2rem, 72rem);
+  margin-inline: auto;
+}
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 2rem;
+  padding-block: 1.5rem;
+  border-bottom: 1px solid light-dark(#c4d1dd, #53687f);
+}
+main {
+  max-width: 70ch;
+  padding-block: 3rem;
+  min-height: 65vh;
+  overflow-wrap: anywhere;
+}
+h1 {
+  font-size: clamp(2rem, 5vw, 3.25rem);
+  line-height: 1.15;
+  letter-spacing: -0.035em;
+}
+h2 {
+  line-height: 1.25;
+  margin-top: 2rem;
+}
+a {
+  color: light-dark(#075e9f, #9bd2ff);
+  text-underline-offset: 0.2em;
+}
+a:hover {
+  text-decoration-thickness: 0.15em;
+}
+header a {
+  font-weight: 750;
+  text-decoration: none;
+}
+:focus-visible {
+  outline: 3px solid light-dark(#075e9f, #9bd2ff);
+  outline-offset: 4px;
+}
+article {
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-top: 2rem;
+}
+article img {
+  max-width: 100%;
+  height: auto;
+}
+article table {
+  display: block;
+  overflow-x: auto;
+  max-width: 100%;
+  border-collapse: collapse;
+}
+article td,
+article th {
+  padding: 0.4rem;
+  border: 1px solid light-dark(#c4d1dd, #53687f);
+}
+pre {
+  white-space: pre-wrap;
+}
+.catalogo {
+  padding: 0;
+  list-style: none;
+}
+.catalogo li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  padding-block: 1rem;
+  border-bottom: 1px solid light-dark(#c4d1dd, #53687f);
+}
+.catalogo a {
+  font-size: 1.15rem;
+}
+.nota {
+  padding-inline-start: 1rem;
+  border-inline-start: 3px solid light-dark(#075e9f, #9bd2ff);
+  font-size: 0.95rem;
+  margin-block: 2rem;
+}
+.fonti,
+footer {
+  font-size: 0.9rem;
+  border-top: 1px solid light-dark(#c4d1dd, #53687f);
+  padding-block: 1rem;
+}
+.salta {
+  position: absolute;
+  inset-inline-start: 1rem;
+  top: -5rem;
+  padding: 0.5rem 1rem;
+  background: light-dark(#fff, #152130);
+  z-index: 1;
+}
+.salta:focus {
+  top: 0.5rem;
+}

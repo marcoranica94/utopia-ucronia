@@ -1,0 +1,13 @@
+---
+import { getCollection } from "astro:content";
+import Base from "../layouts/Base.astro";
+
+const opere = await getCollection("opere");
+---
+<Base titolo="Campione di lettura">
+  <h1>Le storie che avrebbero potuto essere.</h1>
+  <p>Il primo campione dell’archivio UtopiaUcronia, recuperato per tornare a leggere i suoi testi.</p>
+  <h2>Campione di lettura</h2>
+  {opere.length ? <ul class="catalogo">{opere.map((opera) => <li><a href={`/opere/${opera.id}/`}>{opera.data.titolo}</a><span>{opera.data.lingua.toUpperCase()}</span></li>)}</ul> : <p>Il recupero dei primi documenti è in corso. I testi compariranno qui dopo la verifica delle copie disponibili.</p>}
+  <p class="nota">Questa è una prova di conversione. Struttura, attribuzioni e fedeltà dei testi devono ancora essere confrontate con le fonti.</p>
+</Base>
