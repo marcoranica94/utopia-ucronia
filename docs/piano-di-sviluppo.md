@@ -139,7 +139,7 @@ Sul ramo di una pull request si fanno i passi 1–5 senza deploy.
 - [ ] Creare il repository privato `utopia-ucronia` su GitHub, con Git LFS attivo.
 - [ ] Aggiungere i segreti `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ACCOUNT_ID`; verificare che il token di uni-portale valga per tutti i Worker dell'account e per R2, altrimenti crearne uno nuovo.
 - [ ] Creare il bucket R2 `utopia-ucronia-archivio` per il backup.
-- [ ] In Cloudflare Zero Trust creare l'applicazione Access per `utopia-ucronia.marcoranica.com`, policy con la sola mia email, sessione 30 giorni.
+- [ ] In Cloudflare Zero Trust verificare l'applicazione Access per `utopia-ucronia.marcoranica.com`, policy con i tre indirizzi scelti dal proprietario, sessione 30 giorni.
 - [ ] Scegliere il disco per la terza copia.
 - [ ] Dopo il primo deploy, aprire il sottodominio da una finestra anonima e verificare che chieda il login.
 

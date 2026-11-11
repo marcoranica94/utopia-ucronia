@@ -12,7 +12,7 @@
       "contiene": "Applicazione Access",
       "stato": "waiting",
       "assegnatario": "Account",
-      "nota": "L’applicazione esiste e i secret GitHub sono configurati. La policy Allow contiene tre email: una coincide con il proprietario, due vanno rimosse prima di ripetere la verifica e pubblicare."
+      "nota": "L’applicazione esiste e i secret GitHub sono configurati. Il proprietario ha confermato di voler mantenere i tre indirizzi autorizzati; verifica e deploy in corso."
     },
     {
       "sprint": "S0",

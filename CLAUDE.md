@@ -31,7 +31,7 @@ Fuori dallo scopo: pubblicazione aperta, commenti, invio di contributi, SEO.
 
 Decisioni dell'11/11/2026, riviste dopo una revisione critica del piano.
 
-- **Privato:** Cloudflare Access sul sottodominio, policy con la sola email del proprietario. `workers_dev: false` e `preview_urls: false` sempre. Niente `robots`, sitemap o metadati social.
+- **Privato:** Cloudflare Access sul sottodominio, policy con i tre indirizzi email esplicitamente scelti dal proprietario (decisione dell’11/11/2026). `workers_dev: false` e `preview_urls: false` sempre. Niente `robots`, sitemap o metadati social.
 - **Stack:** Astro 7 in output statico, Content Collections con schema Zod, ricerca Pagefind, Cloudflare Workers con soli asset statici (`assets.directory: ./dist`, nessun `main`), rotta `utopia-ucronia.marcoranica.com` con `custom_domain: true`. Niente SSR, niente D1.
 - **Deploy:** GitHub Action `.github/workflows/deploy-sito.yml` su push a `main`, ricalcata su `uni-portale/.github/workflows/deploy-portale.yml`. Segreti `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ACCOUNT_ID`.
 - **Recupero solo dalla Wayback Machine.** Il server originale risponde "HTTP 999 – AW Special Error" (filtro anti-bot di Aruba) già alla prima richiesta da script. Nessuno script lo usa come sorgente; c'è solo `pnpm recupero sonda`, manuale, una richiesta onesta per sapere se il blocco c'è ancora. Il filtro **non va aggirato**: niente User-Agent finti, niente browser automatici.

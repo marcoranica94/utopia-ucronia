@@ -198,7 +198,7 @@ flowchart LR
 | Ricerca | Pagefind, indice generato dopo la build, in italiano, francese e spagnolo; solo nuova edizione |
 | Hosting | Cloudflare Workers con soli asset statici: `wrangler.jsonc` con `assets.directory: ./dist`, senza `main` |
 | Dominio | rotta `utopia-ucronia.marcoranica.com` con `custom_domain: true`; `workers_dev` e `preview_urls` spenti |
-| Accesso | applicazione Cloudflare Access sul sottodominio, policy con la sola mia email, sessione lunga |
+| Accesso | applicazione Cloudflare Access sul sottodominio, policy con i tre indirizzi esplicitamente scelti dal proprietario, sessione lunga |
 | Vecchi percorsi | nessun redirect: restano nel campo `origine` e in `/originale/` |
 | Repository | GitHub privato `utopia-ucronia`, binari in Git LFS |
 | CI | `.github/workflows/deploy-sito.yml`: checkout, pnpm, Node 24, test, build, controllo dei link, `wrangler deploy`, sincronizzazione R2 |

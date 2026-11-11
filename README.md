@@ -64,7 +64,7 @@ Il workflow esegue test, lint, verifica dell’archivio, build e confronto anche
 
 Prima di abilitarlo:
 
-1. Creare l’applicazione Access per l’intero dominio `utopia-ucronia.marcoranica.com`, senza restrizioni di percorso, con una sola policy Allow per l’email del proprietario e nessun bypass. Sessione proposta: 30 giorni.
+1. Configurare Access per l’intero dominio `utopia-ucronia.marcoranica.com`, senza restrizioni di percorso, con una policy Allow per i tre indirizzi email scelti dal proprietario e nessun bypass. Sessione proposta: 30 giorni.
 2. Aggiungere al repository i segreti `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `ACCESS_EMAIL_PROPRIETARIO`. Il token deve consentire anche la lettura di applicazioni e policy Access, oltre al deploy del Worker.
 3. Impostare la variabile del repository `DEPLOY_ABILITATO=true`. A ogni deploy `pnpm deploy:verifica` controlla tramite API dominio e policy; se non può provarli, fallisce prima della pubblicazione.
 4. Il bucket **privato** `utopia-ucronia-archivio` è stato creato; caricamento e ripristino dal bucket reale sono riusciti. Dare al token i permessi R2 necessari e impostare `BACKUP_R2_ABILITATO=true` per collaudare la sincronizzazione automatica. `pnpm backup --r2` carica i file verificati e il manifest per ultimo.

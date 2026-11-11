@@ -30,7 +30,7 @@ S0 è avviato. La parte locale è implementata; lo sprint **non è chiuso** finc
 
 ## Verifiche ancora necessarie
 
-- Cloudflare è autenticato con Wrangler e i tre secret GitHub sono configurati. La verifica Access tramite GitHub ha trovato l’applicazione, ma ha fermato il deploy: la policy Allow contiene tre email, delle quali solo una coincide con il secret del proprietario. Il piano richiede una sola email; occorre rimuovere le altre due e ripetere il controllo prima di pubblicare.
+- Cloudflare è autenticato con Wrangler e i tre secret GitHub sono configurati. La policy Allow contiene tre email esplicite: il proprietario ha confermato di volerle mantenere tutte il giorno 11/11/2026. Il controllo va ripetuto con il requisito aggiornato prima del deploy.
 - Sincronizzazione automatica del bucket tramite GitHub Action: occorrono i segreti e l’attivazione della variabile; il primo backup e il ripristino manuale dal bucket reale sono riusciti.
 - Copia effettiva sul drive: rinviata dal proprietario a sua cura, non bloccante per proseguire lo sviluppo; non è marcata come completata.
 - Revisione delle attribuzioni e della riorganizzazione in S2: i nomi nel testo sono conservati, i metadati editoriali non sono automaticamente approvati dal collaudo.
