@@ -1,6 +1,6 @@
 # Stato S0 — 11 novembre 2026
 
-S0 è avviato. La parte locale è implementata; lo sprint **non è chiuso** finché non riescono deploy privato, backup R2, verifica nel browser e demo da telefono.
+S0 è avviato. Deploy privato, backup R2 e verifica nel browser sono riusciti; lo sprint **non è chiuso** finché non riesce la demo da telefono fisico. La copia sul drive è rinviata dal proprietario e non blocca lo sviluppo.
 
 ## Risultati locali
 
@@ -17,7 +17,8 @@ S0 è avviato. La parte locale è implementata; lo sprint **non è chiuso** finc
 - Bucket privato R2 `utopia-ucronia-archivio` creato e primo backup caricato. Ripristino dal bucket reale riuscito: 11 file e manifest scaricati, hash verificati e build eseguita in un clone pulito.
 - Browser: 10 pagine (9 del sito e la board), temi chiaro/scuro, larghezze 320, 390, 768 e 1440 px, testo al 200% a 390 px. Nessun debordamento, immagine non caricata o violazione axe WCAG 2 A/AA e 2.1 AA rilevata. Verificate anche ricerca, filtri, dettaglio scheda e chiusura con Esc della board. Report: `rapporti/browser-s0.json`.
 - La board è ora Kanban, con schede per attività, assegnatari e dipendenze. La copia sul drive è rinviata a cura del proprietario e non blocca lo sviluppo.
-- La verifica Access precedente al deploy controlla tutte le pagine di applicazioni e policy, rifiuta eccezioni pubbliche e applicazioni separate su percorsi del dominio. Cinque test dedicati coprono policy, paginazione e configurazioni insicure; il controllo sull’account reale resta da eseguire.
+- La verifica Access precedente al deploy controlla tutte le pagine di applicazioni e policy, rifiuta eccezioni pubbliche e applicazioni separate su percorsi del dominio. I test coprono policy, paginazione e configurazioni insicure; il controllo sull’account reale è riuscito.
+- Applicazione Access verificata sull’account reale con i tre indirizzi espliciti confermati dal proprietario. Il sito è pubblicato; una richiesta senza sessione riceve HTTP 302 verso il login Cloudflare Access. La pipeline GitHub ha completato deploy e sincronizzazione R2 con successo.
 
 ## Cosa ha insegnato il campione
 
@@ -30,8 +31,7 @@ S0 è avviato. La parte locale è implementata; lo sprint **non è chiuso** finc
 
 ## Verifiche ancora necessarie
 
-- Cloudflare è autenticato con Wrangler e i tre secret GitHub sono configurati. La policy Allow contiene tre email esplicite: il proprietario ha confermato di volerle mantenere tutte il giorno 11/11/2026. Il controllo va ripetuto con il requisito aggiornato prima del deploy.
-- Sincronizzazione automatica del bucket tramite GitHub Action: occorrono i segreti e l’attivazione della variabile; il primo backup e il ripristino manuale dal bucket reale sono riusciti.
+- Verificare l’accesso effettivo con una delle tre email autorizzate e la durata della sessione configurata; il reindirizzamento anonimo al login è già verificato.
 - Copia effettiva sul drive: rinviata dal proprietario a sua cura, non bloccante per proseguire lo sviluppo; non è marcata come completata.
 - Revisione delle attribuzioni e della riorganizzazione in S2: i nomi nel testo sono conservati, i metadati editoriali non sono automaticamente approvati dal collaudo.
 - Verifica del login anonimo e demo di lettura da telefono.

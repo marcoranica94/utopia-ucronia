@@ -10,16 +10,23 @@
     {
       "sprint": "S0",
       "contiene": "Applicazione Access",
-      "stato": "waiting",
+      "stato": "done",
       "assegnatario": "Account",
-      "nota": "L’applicazione esiste e i secret GitHub sono configurati. Il proprietario ha confermato di voler mantenere i tre indirizzi autorizzati; verifica e deploy in corso."
+      "nota": "Tre indirizzi autorizzati verificati; deploy riuscito e richiesta anonima reindirizzata al login Cloudflare."
     },
     {
       "sprint": "S0",
       "contiene": "Sincronizzazione automatica R2",
-      "stato": "waiting",
+      "stato": "done",
       "assegnatario": "Sviluppo",
-      "nota": "Bucket creato; caricamento e ripristino reale verificati. Restano le credenziali GitHub e il collaudo della sincronizzazione automatica."
+      "nota": "Backup automatico GitHub completato; ripristino dal bucket reale e build verificati."
+    },
+    {
+      "sprint": "S0",
+      "contiene": "Demo da telefono fisico",
+      "stato": "todo",
+      "assegnatario": "Marco",
+      "nota": "Apri utopia-ucronia.marcoranica.com sul telefono, accedi con una delle tre email autorizzate e verifica che un testo del campione si legga bene."
     },
     {
       "sprint": "S0",
