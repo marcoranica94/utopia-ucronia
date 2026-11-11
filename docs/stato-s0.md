@@ -1,6 +1,6 @@
 # Stato S0 — 11 novembre 2026
 
-S0 è avviato. Deploy privato, backup R2 e verifica nel browser sono riusciti; lo sprint **non è chiuso** finché non riesce la demo da telefono fisico. La copia sul drive è rinviata dal proprietario e non blocca lo sviluppo.
+S0 è concluso: deploy privato, backup R2, verifica nel browser e demo da telefono fisico sono riusciti. Il proprietario ha confermato la visualizzazione e ha chiesto di rivedere la grafica provvisoria nelle epiche successive. La copia sul drive resta rinviata a sua cura e non blocca lo sviluppo.
 
 ## Risultati locali
 
@@ -10,7 +10,7 @@ S0 è avviato. Deploy privato, backup R2 e verifica nel browser sono riusciti; l
 - 12 test passano: gli 8 iniziali, un caso sui collegamenti vuoti lasciati da immagini mancanti e tre casi sul download da R2 (copia integra, file corrotto, percorso non sicuro).
 - Build, controllo TypeScript e Biome passano. Nell’HTML generato non compaiono email o elementi attivi; 145 collegamenti e risorse sono verificati dopo la rimozione di due collegamenti vuoti individuati dal collaudo axe.
 - Confronto integrale dei 6 testi riuscito: oltre 450.000 caratteri, normalizzando spazi e rimozioni dichiarate; nessuna perdita di testo, accenti, ancore o tabelle rilevata. Le immagini escluse dal campione sono conteggiate nel rapporto; i relativi link portano alla spiegazione delle lacune.
-- Configurazione Wrangler accettata dal deploy simulato; nessuna pubblicazione eseguita.
+- Configurazione Wrangler accettata dal deploy simulato, poi pubblicazione effettiva riuscita.
 - Esportazione locale di backup creata e verificata, pronta da copiare sul drive del proprietario. Non equivale ancora alla terza copia indipendente.
 - Ripristino effettivo riuscito in un clone pulito: archivio del clone eliminato, 11 file ricostruiti esclusivamente dal backup, hash verificati, dipendenze reinstallate e build completa superata. La prima prova offline ha rilevato metadati pnpm non presenti in cache: la modalità offline è ora opzionale; la prova riuscita consente la rete solo per le dipendenze.
 - Il ripristino supporta `--r2`: scarica manifest e oggetti in una cartella temporanea nuova e verifica gli hash prima della ricostruzione. Il percorso è verificato con oggetti simulati e con il bucket reale.
@@ -31,11 +31,11 @@ S0 è avviato. Deploy privato, backup R2 e verifica nel browser sono riusciti; l
 
 ## Verifiche ancora necessarie
 
-- Verificare l’accesso effettivo con una delle tre email autorizzate e la durata della sessione configurata; il reindirizzamento anonimo al login è già verificato.
+- Verificare la durata della sessione Access configurata; il reindirizzamento anonimo e l’accesso del proprietario sono verificati.
 - Copia effettiva sul drive: rinviata dal proprietario a sua cura, non bloccante per proseguire lo sviluppo; non è marcata come completata.
 - Revisione delle attribuzioni e della riorganizzazione in S2: i nomi nel testo sono conservati, i metadati editoriali non sono automaticamente approvati dal collaudo.
-- Verifica del login anonimo e demo di lettura da telefono.
+- La grafica provvisoria non è approvata: confrontare le due direzioni previste in S4 prima di realizzare quella definitiva.
 
-Il precedente blocco dello strumento browser è stato superato dopo il cambio dei permessi della sessione. La verifica visiva nel browser è stata eseguita su screenshot desktop e mobile emulato. Non equivale a una demo su telefono fisico, né alla verifica di Access sul dominio pubblico.
+Il precedente blocco dello strumento browser è stato superato dopo il cambio dei permessi della sessione. La verifica visiva è stata eseguita su desktop e mobile emulato; la demo sul telefono fisico è stata confermata dal proprietario dopo il deploy.
 
 I rapporti automatici si trovano in `rapporti/conversione.json` e `rapporti/confronto-campione.json`. La revisione umana non viene sovrascritta da quei rapporti generati: va registrata nella documentazione e, da S2, nella mappa editoriale persistente.

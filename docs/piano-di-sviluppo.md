@@ -151,7 +151,7 @@ Sul ramo di una pull request si fanno i passi 1–5 senza deploy.
 - [x] `recupero scarica --solo` sul campione: validazione, gzip, hash, esiti; rilancio senza nuovi download
 - [x] Prima conversione del campione e pagina Astro minima che lo mostra (6 documenti testuali, frameset escluso dalla lettura)
 - [x] Confronto automatico integrale di testo, accenti, ancore e tabelle; immagini mancanti registrate, PDF escluso dall’output in attesa di verifica
-- [x] Confronto visivo nel browser desktop e mobile emulato, accenti, ancore e attribuzioni conservate nel testo; axe A/AA senza violazioni, larghezze 320–1440 px e testo al 200%. La demo su telefono reale resta da fare dopo il deploy
+- [x] Confronto visivo nel browser desktop e mobile emulato, accenti, ancore e attribuzioni conservate nel testo; axe A/AA senza violazioni, larghezze 320–1440 px e testo al 200%
 - [x] `git init`, collegamento al repository indicato, Git LFS, Astro 7 statico, pnpm 12, Biome, TypeScript 6, `node --test`
 - [x] `wrangler.jsonc`, workflow con deploy disabilitato finché Access non è verificato via API, deploy simulato riuscito
 - [x] Applicazione Access, tre indirizzi autorizzati, segreti GitHub, primo deploy e verifica del reindirizzamento anonimo al login
@@ -160,7 +160,7 @@ Sul ramo di una pull request si fanno i passi 1–5 senza deploy.
 - [x] Percorso `ripristino:prova --r2` implementato e verificato con oggetti simulati: copia integra, file corrotto e percorso non sicuro
 - [x] Bucket R2 creato, campione caricato e ripristino dal bucket reale verificato in un clone pulito
 - [x] Sincronizzazione automatica R2 dalla GitHub Action configurata e collaudata
-- [ ] Demo da telefono fisico: accesso con una delle email autorizzate e lettura del campione
+- [x] Demo da telefono fisico: il proprietario conferma accesso e visualizzazione del campione; la grafica provvisoria sarà rivista nelle epiche successive
 - [ ] Copia del backup sul drive del proprietario (rinviata dal proprietario a sua cura; non blocca lo sviluppo)
 
 Dettagli, limiti e configurazione: [stato-s0.md](stato-s0.md) e [README](../README.md). Le rimozioni di dati personali e codice attivo non modificano mai gli originali. In S0 la conversione resta una prova per documento; unione e divisione editoriali appartengono a S2.
