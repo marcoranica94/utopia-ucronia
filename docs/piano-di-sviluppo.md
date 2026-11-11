@@ -106,6 +106,8 @@ L'albero è una vista in più, non la base: lettura, catalogo, ricerca e filtri 
 
 Un push su `main` compila, controlla e pubblica su `utopia-ucronia.marcoranica.com`. Access va configurato **prima** del primo deploy, così il sito non è mai visibile senza login nemmeno per un minuto.
 
+Nell’implementazione S0 il deploy richiede anche `DEPLOY_ABILITATO=true` e la verifica via API di Access. Oltre ai due segreti Cloudflare serve `ACCESS_EMAIL_PROPRIETARIO`; il token deve leggere applicazioni e policy Access. La sincronizzazione R2 si abilita separatamente con `BACKUP_R2_ABILITATO=true`. Senza queste configurazioni il workflow verifica la build e non pubblica. Dettagli nel README.
+
 **`wrangler.jsonc`:**
 
 ```jsonc
@@ -149,14 +151,15 @@ Sul ramo di una pull request si fanno i passi 1–5 senza deploy.
 - [x] `recupero scarica --solo` sul campione: validazione, gzip, hash, esiti; rilancio senza nuovi download
 - [x] Prima conversione del campione e pagina Astro minima che lo mostra (6 documenti testuali, frameset escluso dalla lettura)
 - [x] Confronto automatico integrale di testo, accenti, ancore e tabelle; immagini mancanti registrate, PDF escluso dall’output in attesa di verifica
-- [ ] Confronto visivo su browser e telefono, note e attribuzioni; completare la lista di confronto editoriale
+- [x] Confronto visivo nel browser desktop e mobile emulato, accenti, ancore e attribuzioni conservate nel testo; axe A/AA senza violazioni, larghezze 320–1440 px e testo al 200%. La demo su telefono reale resta da fare dopo il deploy
 - [x] `git init`, collegamento al repository indicato, Git LFS, Astro 7 statico, pnpm 12, Biome, TypeScript 6, `node --test`
 - [x] `wrangler.jsonc`, workflow con deploy disabilitato finché Access non è verificato via API, deploy simulato riuscito
 - [ ] Applicazione Access, segreti GitHub, primo deploy e prova del login anonimo
 - [x] Script di backup esportabile con verifica degli hash e script di prova del ripristino da cartella
 - [x] Ripristino da clone pulito riuscito: 11 file ricostruiti soltanto dal backup, hash verificati, dipendenze reinstallate e build completa superata
+- [x] Percorso `ripristino:prova --r2` implementato e verificato con oggetti simulati: copia integra, file corrotto e percorso non sicuro
 - [ ] Bucket R2 sincronizzato dalla Action e ripristino da R2 collaudato
-- [ ] Copia del backup sul drive del proprietario
+- [ ] Copia del backup sul drive del proprietario (rinviata dal proprietario a sua cura; non blocca lo sviluppo)
 
 Dettagli, limiti e configurazione: [stato-s0.md](stato-s0.md) e [README](../README.md). Le rimozioni di dati personali e codice attivo non modificano mai gli originali. In S0 la conversione resta una prova per documento; unione e divisione editoriali appartengono a S2.
 

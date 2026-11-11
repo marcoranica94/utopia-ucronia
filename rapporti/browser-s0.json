@@ -1,0 +1,599 @@
+{
+  "data": "2026-11-11T16:21:01.433Z",
+  "strumenti": {
+    "playwright": "1.62.1",
+    "axe": "4.13.0"
+  },
+  "risultati": [
+    {
+      "url": "http://127.0.0.1:4322/",
+      "scheme": "light",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4322/",
+      "scheme": "dark",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4322/",
+      "text200": true,
+      "overflow": false
+    },
+    {
+      "url": "http://127.0.0.1:4321/",
+      "scheme": "light",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/",
+      "scheme": "dark",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/",
+      "text200": true,
+      "overflow": false
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/benvenuti-in-utopiaucronia-667e9ba1/",
+      "scheme": "light",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/benvenuti-in-utopiaucronia-667e9ba1/",
+      "scheme": "dark",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/benvenuti-in-utopiaucronia-667e9ba1/",
+      "text200": true,
+      "overflow": false
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-25-luglio-1943-hitler-la-prende-male-b35b1006/",
+      "scheme": "light",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-25-luglio-1943-hitler-la-prende-male-b35b1006/",
+      "scheme": "dark",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-25-luglio-1943-hitler-la-prende-male-b35b1006/",
+      "text200": true,
+      "overflow": false
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-25-luglio-1943-ordine-del-giorno-farinacci-ef21eb1c/",
+      "scheme": "light",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-25-luglio-1943-ordine-del-giorno-farinacci-ef21eb1c/",
+      "scheme": "dark",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-25-luglio-1943-ordine-del-giorno-farinacci-ef21eb1c/",
+      "text200": true,
+      "overflow": false
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-spot-the-pod-49f6bc7d/",
+      "scheme": "light",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-spot-the-pod-49f6bc7d/",
+      "scheme": "dark",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-spot-the-pod-49f6bc7d/",
+      "text200": true,
+      "overflow": false
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-uchronies-en-francais-286c1f98/",
+      "scheme": "light",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-uchronies-en-francais-286c1f98/",
+      "scheme": "dark",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronia-uchronies-en-francais-286c1f98/",
+      "text200": true,
+      "overflow": false
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronie-preistoriche-a7ce0d18/",
+      "scheme": "light",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronie-preistoriche-a7ce0d18/",
+      "scheme": "dark",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/opere/ucronie-preistoriche-a7ce0d18/",
+      "text200": true,
+      "overflow": false
+    },
+    {
+      "url": "http://127.0.0.1:4321/lacune/",
+      "scheme": "light",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/lacune/",
+      "scheme": "dark",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/lacune/",
+      "text200": true,
+      "overflow": false
+    },
+    {
+      "url": "http://127.0.0.1:4321/404.html",
+      "scheme": "light",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/404.html",
+      "scheme": "dark",
+      "checks": [
+        {
+          "width": 320,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 390,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 768,
+          "overflow": false,
+          "brokenImages": 0
+        },
+        {
+          "width": 1440,
+          "overflow": false,
+          "brokenImages": 0
+        }
+      ],
+      "violations": []
+    },
+    {
+      "url": "http://127.0.0.1:4321/404.html",
+      "text200": true,
+      "overflow": false
+    }
+  ]
+}

@@ -40,6 +40,7 @@ Decisioni dell'11/11/2026, riviste dopo una revisione critica del piano.
 - **Email e dati personali:** non compaiono in **nessuna vista consultabile**, né nella nuova edizione né in `/originale/`. Restano solo nomi e pseudonimi; i `mailto:` diventano testo semplice. Solo l'archivio intatto le conserva, e il sito non lo serve.
 - **Backup:** l'archivio intatto sta in tre posti: repository privato su GitHub (binari in Git LFS), bucket R2 `utopia-ucronia-archivio` sincronizzato dalla Action, una copia su disco del proprietario. Il ripristino si prova davvero con `pnpm ripristino:prova` (clone pulito o solo R2 → archivio, verifica hash, build).
 - **Lingua:** testi dell'interfaccia, commenti e messaggi di commit in italiano.
+- **Drive personale (aggiornamento del proprietario):** la copia verrà eseguita da lui in futuro; resta da fare ma non blocca lo sviluppo. Non chiedere accesso al drive.
 
 ## Regole sul recupero
 

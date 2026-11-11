@@ -5,7 +5,7 @@
       "contiene": "Confronto visivo",
       "stato": "doing",
       "assegnatario": "Sviluppo",
-      "nota": "Proseguo con il collaudo su mobile e desktop. Il controllo delle attribuzioni resta editoriale."
+      "nota": "Collaudo nel browser riuscito su desktop e mobile emulato, con axe, tastiera e testo al 200%. Attribuzioni strutturate da rivedere in S2; demo su telefono fisico dopo il deploy."
     },
     {
       "sprint": "S0",
@@ -17,9 +17,9 @@
     {
       "sprint": "S0",
       "contiene": "Bucket R2",
-      "stato": "doing",
+      "stato": "waiting",
       "assegnatario": "Sviluppo",
-      "nota": "Completo il percorso di ripristino da R2; il collaudo sul bucket richiederà l’account Cloudflare."
+      "nota": "Download e ripristino da R2 implementati e coperti da test. Restano creazione del bucket e collaudo reale: le credenziali Cloudflare non sono disponibili in questa sessione."
     },
     {
       "sprint": "S0",

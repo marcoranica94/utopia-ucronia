@@ -4,7 +4,9 @@ Archivio storico personale e nuova edizione del sito UtopiaUcronia. Il sito è d
 
 Analisi e piano: [docs/analisi.md](docs/analisi.md), [docs/piano-di-sviluppo.md](docs/piano-di-sviluppo.md). Stato della prima prova: [docs/stato-s0.md](docs/stato-s0.md).
 
-La [board HTML](board.html) si apre direttamente nel browser, anche senza server e senza rete. Mostra sprint, attività, verifiche e prossimi passi; ricerca e filtri non modificano il piano. Dopo aver aggiornato la documentazione, eseguire `pnpm board` per rigenerarla. Le attività vengono lette dal piano; le evidenze tecniche si riferiscono al report S0 e ai rapporti locali.
+La [board Kanban](board.html) si apre direttamente nel browser, anche senza server e senza rete. Ha colonne Backlog, Da fare, In corso, In attesa e Completato, filtri per sprint e assegnatario, ricerca e schede apribili con dettagli e dipendenze. Le attività provengono dal piano; stati operativi, assegnatari e rinvii da `contenuti/board.json`. Dopo un aggiornamento eseguire `pnpm board`. La board non modifica il piano e non salva spostamenti locali che potrebbero falsare lo stato del lavoro.
+
+La copia sul drive del proprietario è rinviata a sua cura: resta da fare ma, per sua indicazione, non blocca lo sviluppo.
 
 ## Avvio
 
@@ -53,6 +55,8 @@ pnpm ripristino:prova --da /percorso/della/copia
 ```
 
 La prova clona il repository locale in una cartella temporanea, elimina l’archivio del clone, ricostruisce i file esclusivamente dalla copia indicata, verifica gli hash, reinstalla le dipendenze dal lockfile ed esegue la build completa. Non modifica il progetto né il backup. La rete serve per le dipendenze, non per recuperare di nuovo i documenti. `--offline` è disponibile solo con una cache pnpm completa. Il rapporto resta in `rapporti/ripristino-*.json`.
+
+Per provare il ripristino usando esclusivamente il bucket come sorgente dei documenti: `pnpm ripristino:prova --r2`. Servono le credenziali Cloudflare in ambiente. Il manifest e gli oggetti vengono scaricati in una cartella temporanea nuova, con verifica dei percorsi e degli hash prima di ricostruire il clone. Il percorso di download è coperto da test senza rete (copia integra, oggetto corrotto, percorso non sicuro); il collaudo contro il bucket reale resta necessario.
 
 ## Configurazione Cloudflare e GitHub
 

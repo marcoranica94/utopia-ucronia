@@ -223,6 +223,8 @@ La ricerca indicizza solo la nuova edizione: la copia consultabile è esclusa, c
 2. un bucket R2 su Cloudflare, aggiornato dalla GitHub Action a ogni modifica di `archivio/`;
 3. una copia su un disco mio, aggiornata a mano a ogni recupero.
 
+Aggiornamento del proprietario dell’11/11/2026: la terza copia verrà salvata sul suo drive in futuro, a sua cura. Rimane prevista e non risulta eseguita, ma è rinviata e non blocca la prosecuzione dello sviluppo. Non si richiede accesso al drive per lavorare al progetto.
+
 Il ripristino si prova davvero: da un clone pulito o dal solo bucket R2 si ricostruisce l'archivio, si verificano tutti gli hash e si ricompila il sito. La prova ha un comando (`pnpm ripristino:prova`) e chiude lo sprint delle fondamenta.
 
 ## Fasi di lavoro
