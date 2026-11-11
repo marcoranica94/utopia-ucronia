@@ -72,6 +72,17 @@ export async function verificaAccess(
     `/access/apps/${encodeURIComponent(app.id)}/policies`,
   )) as Policy[];
   const allows = policies.filter((p) => p.decision === "allow");
+  const riepilogo = policies.map((p) => ({
+    decisione: p.decision,
+    selettori: (p.include ?? []).map((rule) => ({
+      tipi: Object.keys(rule),
+      email_coincide:
+        typeof (rule.email as { email?: unknown } | undefined)?.email ===
+          "string" &&
+        (rule.email as { email: string }).email.toLowerCase() ===
+          email.toLowerCase(),
+    })),
+  }));
   if (
     policies.some((p) => !["allow", "deny"].includes(p.decision)) ||
     !allows.length ||
@@ -92,6 +103,7 @@ export async function verificaAccess(
     )
   )
     throw new Error(
-      "Access non è limitato alla sola email del proprietario: deploy bloccato",
+      `Dettaglio policy (senza indirizzi): ${JSON.stringify(riepilogo)}. ` +
+        "Access non è limitato alla sola email del proprietario: deploy bloccato",
     );
 }
