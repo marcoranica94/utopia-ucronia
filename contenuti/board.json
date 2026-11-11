@@ -12,7 +12,7 @@
       "contiene": "Applicazione Access",
       "stato": "waiting",
       "assegnatario": "Account",
-      "nota": "Wrangler è autenticato ma Cloudflare ha respinto la gestione Access per permessi insufficienti. L’applicazione indicata dal proprietario deve essere verificata; il deploy rimane disabilitato."
+      "nota": "L’applicazione esiste e i secret GitHub sono configurati. La policy Allow contiene tre email: una coincide con il proprietario, due vanno rimosse prima di ripetere la verifica e pubblicare."
     },
     {
       "sprint": "S0",
