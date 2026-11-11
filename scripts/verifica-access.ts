@@ -27,5 +27,5 @@ await verificaAccess(
   email,
 );
 console.log(
-  "Access verificato: dominio esatto, policy complete, sola email del proprietario e nessuna eccezione pubblica.",
+  "Access verificato: dominio esatto, tre indirizzi email espliciti incluso il proprietario e nessuna eccezione pubblica.",
 );

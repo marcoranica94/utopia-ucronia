@@ -72,6 +72,11 @@ export async function verificaAccess(
     `/access/apps/${encodeURIComponent(app.id)}/policies`,
   )) as Policy[];
   const allows = policies.filter((p) => p.decision === "allow");
+  const indirizzi = allows.flatMap((p) =>
+    (p.include ?? []).map(
+      (r) => (r.email as { email?: unknown } | undefined)?.email,
+    ),
+  );
   const riepilogo = policies.map((p) => ({
     decisione: p.decision,
     selettori: (p.include ?? []).map((rule) => ({
@@ -96,14 +101,20 @@ export async function verificaAccess(
             !value ||
             typeof value !== "object" ||
             typeof (value as { email?: unknown }).email !== "string" ||
-            (value as { email: string }).email.toLowerCase() !==
-              email.toLowerCase()
+            !(value as { email: string }).email.includes("@")
           );
         }),
+    ) ||
+    indirizzi.length !== 3 ||
+    new Set(
+      indirizzi.map((a) => (typeof a === "string" ? a.toLowerCase() : "")),
+    ).size !== 3 ||
+    !indirizzi.some(
+      (a) => typeof a === "string" && a.toLowerCase() === email.toLowerCase(),
     )
   )
     throw new Error(
       `Dettaglio policy (senza indirizzi): ${JSON.stringify(riepilogo)}. ` +
-        "Access non è limitato alla sola email del proprietario: deploy bloccato",
+        "Access deve consentire esclusivamente tre indirizzi email distinti, compreso quello del proprietario: deploy bloccato",
     );
 }

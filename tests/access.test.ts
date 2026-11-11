@@ -10,7 +10,11 @@ const app = {
 };
 const allow = {
   decision: "allow",
-  include: [{ email: { email: "owner@example.org" } }],
+  include: [
+    { email: { email: "owner@example.org" } },
+    { email: { email: "second@example.org" } },
+    { email: { email: "third@example.org" } },
+  ],
 };
 function api(policies: unknown[], publicOverride = false): Carica {
   return async (path) => {
@@ -46,6 +50,34 @@ test("verifica tutte le pagine e accetta la policy personale", async () => {
     api([allow, { decision: "deny" }]),
     app.domain,
     "owner@example.org",
+  );
+});
+test("blocca indirizzi aggiuntivi o criteri generici", async () => {
+  await assert.rejects(
+    verificaAccess(
+      api([
+        {
+          decision: "allow",
+          include: [
+            ...allow.include,
+            { email: { email: "fourth@example.org" } },
+          ],
+        },
+      ]),
+      app.domain,
+      "owner@example.org",
+    ),
+    /bloccato/,
+  );
+  await assert.rejects(
+    verificaAccess(
+      api([
+        { decision: "allow", include: [...allow.include, { everyone: {} }] },
+      ]),
+      app.domain,
+      "owner@example.org",
+    ),
+    /bloccato/,
   );
 });
 test("blocca un bypass in una pagina successiva", async () => {
