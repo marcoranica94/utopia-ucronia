@@ -3,6 +3,7 @@ import { copyFile, mkdir, mkdtemp, rm } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { parseArgs } from "node:util";
+import { scaricaArchivioR2 } from "./r2.ts";
 import {
   leggiManifest,
   percorsoSicuro,
@@ -11,19 +12,16 @@ import {
 } from "./recupero/core.ts";
 
 const { values } = parseArgs({
-  options: { da: { type: "string" }, offline: { type: "boolean" } },
+  options: {
+    da: { type: "string" },
+    r2: { type: "boolean" },
+    offline: { type: "boolean" },
+  },
 });
-if (!values.da)
+if (Boolean(values.da) === Boolean(values.r2))
   throw new Error(
-    "Indica --da /percorso/del/backup (cartella contenente manifest.json e originale/)",
+    "Indica una sola sorgente: --da /percorso/del/backup oppure --r2",
   );
-const sorgente = path.resolve(values.da);
-const manifest = await leggiManifest(sorgente);
-const documenti = manifest.documenti.filter((d) =>
-  d.esito.startsWith("recuperato"),
-);
-if (!documenti.length)
-  throw new Error("Un archivio vuoto non dimostra un ripristino");
 const temp = await mkdtemp(
   path.join(os.tmpdir(), "utopia-ucronia-ripristino-"),
 );
@@ -38,6 +36,16 @@ function esegui(cmd: string, args: string[], cwd: string) {
     throw new Error(`Comando fallito: ${cmd} ${args.join(" ")}`);
 }
 try {
+  const sorgente = values.r2
+    ? path.join(temp, "backup-r2")
+    : path.resolve(values.da ?? "");
+  if (values.r2) await scaricaArchivioR2(sorgente);
+  const manifest = await leggiManifest(sorgente);
+  const documenti = manifest.documenti.filter((d) =>
+    d.esito.startsWith("recuperato"),
+  );
+  if (!documenti.length)
+    throw new Error("Un archivio vuoto non dimostra un ripristino");
   esegui(
     "git",
     ["clone", "--no-hardlinks", path.resolve("."), checkout],
@@ -71,7 +79,7 @@ try {
   esegui("pnpm", ["build"], checkout);
   await scriviJson(`rapporti/ripristino-${Date.now()}.json`, {
     data: new Date().toISOString(),
-    sorgente,
+    sorgente: values.r2 ? "R2:utopia-ucronia-archivio" : sorgente,
     file: documenti.length,
     clonePulito: true,
     hash: "ok",
