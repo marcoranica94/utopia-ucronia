@@ -132,6 +132,12 @@ export function convertiHtml(
       exclusiveFilter: (frame) => frame.tag === "img" && !frame.attribs.src,
     },
   );
+  const pronto = load(pulito);
+  // Un’immagine esclusa non deve lasciare un collegamento vuoto raggiungibile da tastiera.
+  pronto("a[href]").each((_i, el) => {
+    if (!pronto(el).text().trim() && !pronto(el).find("img").length)
+      pronto(el).removeAttr("href");
+  });
   const td = new Turndown({ headingStyle: "atx", bulletListMarker: "-" });
   td.keep(["table", "sup", "sub", "u", "span", "em", "i", "strong", "b"]);
   // FrontPage usa numerazioni scritte a mano: non trasformarle in liste nuove.
@@ -156,7 +162,7 @@ export function convertiHtml(
     },
   });
   const markdown = td
-    .turndown(pulito)
+    .turndown(pronto("body").html() ?? "")
     .replace(/[\w.+-]+@[\w.-]+\.[a-z]{2,}/gi, "[email rimossa]");
   return {
     markdown,

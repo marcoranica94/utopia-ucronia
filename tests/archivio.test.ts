@@ -16,6 +16,13 @@ import {
 } from "../scripts/recupero/core.ts";
 
 const url = "https://www.fmboschetto.it/Utopiaucronia/prova.htm";
+test("un’immagine mancante non lascia un collegamento vuoto", () => {
+  const r = convertiHtml(
+    '<html><body><a href="mappa.htm"><img src="mappa.gif"></a></body></html>',
+    (_href, img) => (img ? "" : "/lacune/"),
+  );
+  assert.doesNotMatch(r.markdown, /lacune|<a|!\[/);
+});
 test("conserva il testo inglobato in un form FrontPage non chiuso", () => {
   const r = convertiHtml(
     '<html><body><form><input value="vecchio controllo"><h1>Titolo</h1><p>Una storia da conservare.</p></body></html>',
