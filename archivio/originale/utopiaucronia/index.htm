@@ -1,0 +1,403 @@
+<html>
+
+<head>
+<title>Benvenuti in UtopiaUcronia!</title>
+<LINK REL="shortcut icon" HREF="https://www.fmboschetto.it/Utopiaucronia/Arch.ico">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<meta name="GENERATOR" content="Microsoft FrontPage 6.0">
+<style>.spanstyle {
+	COLOR: blue; FONT-FAMILY: Book Antiqua; FONT-SIZE: 10pt; FONT-WEIGHT: bold; POSITION: absolute; TOP: -50px; VISIBILITY: visible
+}
+</style>
+<script LANGUAGE="JavaScript">
+<!-- Begin
+var x, y;
+var step = 10;
+var flag = 0;
+
+var message = " UtopiaUcronia, dove tutto è possibile! ";
+message = message.split("");
+var xpos = new Array();
+for (i = 0; i <= message.length - 1; i++) {
+xpos[i] = -50;
+}
+var ypos = new Array();
+for (i = 0; i <= message.length - 1; i++) {
+ypos[i]= -50;
+}
+function handlerMM(e) {
+x = (document.layers) ? e.pageX : document.body.scrollLeft + event.clientX;
+y = (document.layers) ? e.pageY : document.body.scrollTop + event.clientY;
+flag = 1;
+}
+function makesnake() {
+if (flag == 1 && document.all) {
+for (i = message.length - 1; i >= 1; i--) {
+xpos[i] = xpos[i - 1] + step;
+ypos[i] = ypos[i - 1];
+}
+xpos[0] = x + step;
+ypos[0] = y;
+for (i = 0; i < message.length - 1; i++) {
+var thisspan = eval("span" + (i) + ".style");
+thisspan.posLeft = xpos[i];
+thisspan.posTop = ypos[i];
+   }
+}
+else if (flag==1 && document.layers) {
+for (i = message.length - 1; i >= 1; i--) {
+xpos[i] = xpos[i - 1] + step;
+ypos[i] = ypos[i - 1];
+}
+xpos[0] = x + step;
+ypos[0] = y;
+for (i = 0; i < message.length - 1; i++) {
+var thisspan = eval("document.span" + i);
+thisspan.left = xpos[i];
+thisspan.top = ypos[i];
+   }
+}
+var timer = setTimeout("makesnake()", 10);
+}
+// End -->
+</script>
+
+<style TYPE="text/css"> 
+
+BODY 
+{ 
+scrollbar-base-color: yellow; 
+scrollbar-arrow-color: rgb(0,0,0);
+}
+</style>
+
+<TITLE>Esempi Javascript: esempio pratico </TITLE>
+
+<script language="JavaScript">
+<!--- hide script from old browsers                   
+	var CurrentMsg = 'hello ';                    
+function update(msg) {                           
+	var pad_str="";                           
+	n = msg.length;                           
+	if(n<72) {                                   
+		pad = (73-n)/2;                                   
+		for(var i=0; i<pad; i++) {                                           
+			pad_str+=" ";                        
+		}                        
+	}                          
+	CurrentMsg = pad_str + msg;                           
+	document.messages.field.value = CurrentMsg;                           clearTimeout(timer);                           
+	timer = setTimeout("idleMsg()",3000);        
+}                           
+
+function MakeArray(n) {                           
+	this.length=n;                           
+	for(var i = 1; i<= n; i++) {                                   
+		this[i] = "";                
+	}                           
+	return(this);        
+	}               
+	var index = 1;           
+	var notice_num = 13;                   
+	var notices = new MakeArray(notice_num);        
+	notices[1] = "Grazie per aver visitato il nostro sito,";        
+	notices[2] = "e grazie per esservi interessati alla nostra stessa passione!";
+	notices[3] = "Data di creazione: 10/11/2004. Ultimo aggionamento: 16/3/2026.";
+	notices[4] = "Questo sito è dedicato ad appassionati di storia e romanzi storici,";
+	notices[5] = "non intende violare in nessun modo alcun copyright,";   
+	notices[6] = "non ha alcun intento di propaganda politica o ideologica";
+	notices[7] = "e NON rappresenta un gioco di ruolo né simili passatempi.";
+	notices[8] = "I suoi contenuti NON vanno confusi con la storia « effettiva »,"
+	notices[9] = "ma provare a cambiare la storia a nostro piacere è un modo accattivante";
+	notices[10] = "per indurre tutti noi ad una profonda riflessione sulla nostra condotta.";
+	notices[11] = "Se il sito è di vostro gusto, inviateci il vostro parere a riguardo.";       
+	notices[12] = "Consigliate a tutti i vostri amici UtopiaUcronia!";        
+	notices[13] = "Buona navigazione, e... tornate a trovarci!";                   
+	var timer = setTimeout('idleMsg()',1500);                   
+
+function nochange() {                           
+	document.messages.field.value = CurrentMsg;        
+}                   
+
+function idleMsg() {                           
+	update(notices[index++]);                           
+	if(index>notice_num) { 
+		index=1; 
+	}  
+}
+
+// end hiding from old browsers-->                  
+</script>
+
+
+<bgsound src="bennato_isolachenonce.mid" loop="-1">
+
+
+</head>
+
+<body onload="makesnake()"
+style="OVERFLOW-X: hidden; OVERFLOW-Y: scroll; WIDTH: 100%" link="#0000FF" vlink="#FF0000" background="sfondo015.gif">
+<script LANGUAGE="JavaScript">
+<!-- Begin
+for (i = 0; i <= message.length-1; i++) {
+document.write("<span id='span"+i+"' class='spanstyle'>");
+document.write(message[i]);
+document.write("</span>");
+}
+if (document.layers) {
+document.captureEvents(Event.MOUSEMOVE);
+}
+document.onmousemove = handlerMM;
+// End -->
+</script>
+
+
+<form name="messages" onSubmit="return false">
+<FONT size=1 face="arial,helvetica" >
+<INPUT TYPE="HIDDEN" NAME="bcd" VALUE="&#247;"><INPUT TYPE="HIDDEN" NAME="_charset_" VALUE=""><INPUT type="HIDDEN" name="n" value="0"><INPUT TYPE="HIDDEN" NAME="mode" VALUE="ALL"><INPUT TYPE="HIDDEN" NAME="pageid" VALUE="r"><INPUT TYPE="HIDDEN" NAME="id" VALUE="35324942">
+</font>
+
+<table border="0" width="100%" height="1">
+  <tr>
+    <td width="31%" height="121"><b><font size="5">Entra con noi nel mondo della storia
+      alternativa!</font></b></td>
+    <td width="69%" colspan="2" height="121">
+      <p align="center"><img border="0" src="logo.gif" width="586" height="119"></td>
+  </tr>
+  <tr>
+    <td width="31%" rowspan="10" height="435" valign="bottom">
+      <p align="center"><img border="0" src="Anfora.gif" alt="Anfora attica a figure rosse: Odisseo e Nausicaa, metà sec. V a.C." width="256" height="484"></p>
+    </td>
+    <td width="69%" colspan="2" height="28">
+      <p align="center">
+<font color="#000080" size="2" face="Book Antiqua"><i>
+<input type="text" name="field" size=77 value="   " onFocus="self.status='This is a JavaScript information data field'; return true" onChange="nochange()" style="font-family: Book Antiqua; font-size: 12 pt; font-weight: bold">
+</i></font>
+
+    </td>
+  </tr>
+  <tr>
+    <td width="36%" height="54">
+      <p align="left"><font size="6"><b><a href="chisiamo.htm">Chi siamo</a></b></font>
+    </td>
+    <td width="33%" rowspan="9" height="371">
+      <p align="center">
+<applet CODE="lake.class" WIDTH="296" HEIGHT="382">
+  <param name="image" value="futurecity.jpg"><img SRC="futurecity.jpg" WIDTH="296" HEIGHT="185" LT>
+</applet>
+<br>
+<br>
+          <b><font size="3"><a href="http://www.bryceforum.de/gast077g.jpg" target="_blank">Città 
+          del futuro, tratta da</a>&nbsp;</font></b> 
+        <p align="center" style="word-spacing: 0; margin: 0"> <a href="http://www.bryceforum.de/gast077g.jpg" target="_blank"><b>www.bryceforum.de/gast077g.jpg</b></a> 
+        <p align="center" style="word-spacing: 0; margin: 0"> &nbsp; 
+      </td>
+  </tr>
+  <tr>
+    <td width="34%" height="54"><font size="6"><b><a href="introduzione.htm">Introduzione</a></b></font></td>
+  </tr>
+  <tr>
+    <td width="34%" height="54"><font size="6"><b><a href="lista_ucronie.htm">Lista delle ucronie</a></b></font></td>
+  </tr>
+  <tr>
+    <td width="34%" height="54"><font size="6"><b><a href="lavori.htm">Tutti i nostri lavori</a></b></font></td>
+  </tr>
+  <tr>
+    <td width="34%" height="55">
+      <font size="6"><b><a href="uchroniesenfrancais/Uchronies_en_Francais.htm">Uchronies
+      en Français</a></b></font></td>
+  </tr>
+  <tr>
+    <td width="34%" height="55">
+  <font size="6"><b><a href="Ucronias_en_Espanol.htm">Ucronías
+      en Español</a></b></font></td>
+  </tr>
+  <tr>
+    <td width="34%" height="55">
+  <font size="6"><b>
+	<a target="_blank" href="https://www.alternatehistory.com/wiki/doku.php">
+	Alternate History Wiki</a></b></font></td>
+  </tr>
+  <tr>
+    <td width="34%" height="55">
+  <font size="6"><b><a target="_blank" href="http://www.storialternativa.it/">
+	storialternativa.it</a></b></font></td>
+  </tr>
+  <tr>
+    <td width="34%" height="55">
+  <font size="6"><b><a href="mailto:frmboschetto@gmail.com?subject=A proposito di Utopiaucronia...">Contattaci</a></b></font>
+    </td>
+  </tr>
+</table>
+
+<p>&nbsp;</p>
+
+<div align="center">
+  <center>
+<table cellpadding=0 cellspacing=0 border=0 >
+<tr>
+	<td style="font-family: Arial, Helvetica, sans-serif; font-size: 7.5pt;">
+        <input type="hidden" name="si" value="39144820">
+		<input type="hidden" name="pid" value="r">
+		<input type="hidden" name="n" value="0">
+		<input type="hidden" name="_charset_" value="">
+		<input type="hidden" name="bcd" value="&#247;"> </form>
+	</td>
+</tr>
+</center>	
+</table>
+</div>
+
+  <div align="center">
+  <p align="center" style="word-spacing: 0; margin: 0"><font size="4">Cerca in questo sito:</font></p>
+    <center>
+    <table border="0" cellSpacing="0" cellPadding="0">
+      <tbody>
+        <tr>
+          <td style="FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 7.5pt" colSpan="2">
+            <form style="MARGIN: 4px 0px 0px" accept-charset="utf-8" method="get" action="http://search.freefind.com/find.html" target="_self">
+              <input value="39144820" type="hidden" name="si"><input value="r" type="hidden" name="pid"><input value="0" type="hidden" name="n"><input type="hidden" name="_charset_"><input value="÷" type="hidden" name="bcd"><input size="22" name="query">
+              <input value="search" type="submit">
+            </form>
+          </td>
+        </tr>
+        <tr>
+          <td style="TEXT-ALIGN: left; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 7.5pt; PADDING-TOP: 4px">
+            <p align="center"><a style="COLOR: gray; TEXT-DECORATION: none" href="http://www.freefind.com">
+			search engine by <span style="COLOR: #606060">freefind</span></a></p>
+          </td>
+          <td style="TEXT-ALIGN: right; FONT-FAMILY: Arial, Helvetica, sans-serif; FONT-SIZE: 7.5pt; PADDING-TOP: 4px">
+            <p align="center"><a href="http://search.freefind.com/find.html?si=39144820&amp;pid=a">
+			advanced</a></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    </center>
+  </div>
+
+<p align="center"><font size="1" face="arial,helvetica" color="#FFFFFF">.</font>
+<div align="center">
+  <center>
+  <table border="3" width="52%">
+    <tr>
+      <td width="94%">
+        <p align="center"><b><i><font color="#0000FF" size="4">Le ultime 
+		arrivate:</font></i></b></p>
+        <p><b><i>16/3/2026:
+		<a target="_blank" href="Cronologia_Stranger_Things.htm">Cronologia di 
+		&quot;Stranger Things&quot;</a> di <u><font color="#0000FF">aNoNimo</font></u><br>
+		19/2/2026: <a href="Fanta_Ramses_II.htm#delta">Non sarà il 
+		Nilo, ma almeno sfocia in un delta!</a> di
+		<a href="mailto:uccigiuse@gmail.com">Generalissimus</a><br>
+		27/1/2026: <a href="Ultimi.htm">Gli ultimi saranno i primi</a> di <a href="mailto:dario972211@gmail.com">Dario Carcano</a><br>
+		16/12/2025: <a target="_blank" href="Merovingi_eterni.htm">I 
+		Merovingi eterni</a> di <a href="mailto:albaret.romains@gmail.com">
+		Perchè No?</a><br>
+		25/11/2025:
+		<a target="_blank" href="pasticcio_in_salsa_longobarda.htm#Longobardi">
+		Successione dei Re dei Longobardi</a> di <u><font color="#0000FF">Lord 
+		Wilmore</font></u><br>
+		25/10/2025: <a href="cinque_rep_marinare.htm#Pisa">L'Italia 
+		unificata da Pisa</a> di <a href="mailto:ale.mammarella@gmail.com">
+		Alessio Mammarella</a><br>
+		6/10/2025: <a target="_blank" href="spotthePOD.htm#NONO">
+		L'Europa di Loriano Pasqualini</a> di <u><font color="#0000FF">Autori 
+		Vari</font></u><br>
+		2/9/2025:
+		<a target="_blank" href="Grande_Messico/Avanti_Sardegna.pdf">Avanti, 
+		Sardegna!</a> di <a href="mailto:dario972211@gmail.com">Dario 
+		Carcano</a><br>
+		21/8/2025: <a href="Restauratio_imperii.htm#Giustiniano">
+		Giustiniano e Fatima</a> di <a href="mailto:dario972211@gmail.com">Dario 
+		Carcano</a> e <u><font color="#0000FF">Lord 
+		Wilmore</font></u><br>
+		26/7/2025: <a target="_blank" href="Jalil.htm#Fracastoro">Il 
+		dente di drago</a> di
+		<a href="mailto:frmboschetto@gmail.com">William Riker</a></i></b><br>
+&nbsp;</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="94%">
+        <p align="center"><b><i><font color="#0000FF" size="4">Ucronie in 
+		vetrina:</font></i></b></p>
+        <p><b><i><a target="_blank" href="Mansa_Qu.htm">Ala ye duba i ye, Mansa 
+		Qu!</a> di <a href="mailto:pattisalvatore7@gmail.com">feder</a><br>
+		<a target="_blank" href="canale_di_Augusto.htm">Il Canale di Augusto</a> di 
+		<u><font color="#0000FF"><a href="mailto:iacopo.maffi@gmail.com">Iacopo</a></font></u><br>
+		<a target="_blank" href="Grande_Muraglia_Romana.htm">La Grande Muraglia 
+		Romana</a> di <u><font color="#0000FF">Lord Wilmore</font></u> <br>
+		<a target="_blank" href="ucronia_yavana.htm">L'Impero Yavana</a> 
+		di
+		<a href="mailto:plmlt6862@gmail.com">Paolo Maltagliati</a><br>
+		<a target="_blank" href="dipinti_Sandro/Repubblica_Illirica.pdf">La 
+		Repubblica Illirica</a> di <a href="mailto:ale.mammarella@gmail.com">Alessio 
+		Mammarella</a><br>
+		<a target="_blank" href="Dante33/Giustizia_per_Riccardo_III.pdf">
+		Giustizia per Riccardo III</a> di
+		<a href="mailto:t.mazzoni@yahoo.it">Tommaso Mazzoni</a><br>
+		<a target="_blank" href="Due_Imperi/1814_Regno_Italico.pdf">L'evitabile 
+		caduta del Regno Italico</a> di
+		<a href="mailto:massimilianopaleari1@virgilio.it">Massimiliano Paleari</a><br>
+		<a target="_blank" href="Keikyo.htm">Keikyô, il Giappone nestoriano</a> di <a href="mailto:albaret.romains@gmail.com">
+		Perchè No?</a><br>
+		<a target="_blank" href="ucronia_lombarda.htm">La Confederazione 
+		Lombarda</a> 
+		di
+		<u><font color="#0000FF">Enrica S.</font></u> e
+		<a href="mailto:frmboschetto@gmail.com">William Riker</a><br>
+		<a target="_blank" href="Villaverla.htm">Il processo di Villaverla</a> 
+		di <a href="mailto:andrea.vezzaro@libero.it">Demofilo</a> e
+		<a href="mailto:federicosangalli5@gmail.com">Federico Sangalli</a></i></b><br>
+&nbsp;</p>
+      </td>
+    </tr>
+    <tr>
+      <td width="94%">
+        <p align="center"><b><i><font color="#0000FF" size="4">Racconti in 
+		vetrina:</font></i></b></p>
+        <p><b><i><a target="_blank" href="Decameron2020.htm">Decameron 2020</a> 
+		di <font color="#0000FF"><u>Autori Vari<br>
+		</u><a target="_blank" href="Anno_7.htm">Anno 7</a></font> di
+		<a href="mailto:t.mazzoni@yahoo.it">Tommaso Mazzoni</a><br>
+		<a target="_blank" href="Liegi_1914.htm">Guerra sul Monte 
+		Kamnina</a> di <font color="#0000FF">
+		<a href="mailto:dario972211@gmail.com">Dario Carcano</a></font><br>
+		<a target="_blank" href="Kursk.htm">Kursk 1943</a> e
+		<a target="_blank" href="Capoverde1944.htm">Capoverde 1944</a> di 
+		<font color="#0000FF"><u>Sandro Degiani</u></font><br>
+		<a target="_blank" href="Terrebasse.htm">Il racconto delle Terrebasse</a> di 
+		<a href="mailto:pattisalvatore7@gmail.com">feder</a><br>
+		<a target="_blank" href="New_York_1946.htm">Mare Nero</a> di
+		<a href="mailto:uccigiuse@gmail.com">Generalissimus</a><br>
+		<a target="_blank" href="Koulmig.htm">Koulmig de la Tortue</a> di
+		<a href="mailto:plmlt6862@gmail.com">Paolo Maltagliati</a><br>
+		<a target="_blank" href="Robot_e_Primo_Impero.htm">Robot e Primo Impero 
+		Galattico</a> di <a href="mailto:albaret.romains@gmail.com">
+		Perchè No?</a></i></b><br>
+		<b><i><a target="_blank" href="../racconti/Il_Trono_del_Toro.pdf">Il 
+		Trono del Toro</a> di <u><font color="#0000FF">Riccardo Querciagrossa</font></u></i></b><br>
+		<b><i><a target="_blank" href="../racconti/Sospirava_la_notte.zip">
+		Sospirava la notte</a> di
+		<a href="mailto:frmboschetto@gmail.com">William Riker</a></i></b><br>
+&nbsp;</p>
+      </td>
+    </tr>
+  </table>
+  </center>
+</div>
+<p align="center">
+
+<A HREF="http://www.shinystat.com" target="_top">
+<IMG SRC="http://www.shinystat.it/cgi-bin/shinystat.cgi?USER=UtopiaUcronia&NC=1" 
+ALT="Free counter" BORDER="0">
+
+</a></p>
+</FORM>
+
+</form>
+<p align="center"><font size="3"><b>Sottofondo: Bennato, « L'isola che non c'è
+». Ottimizzato per un formato 1024 x 768 a 16,8 milioni di colori</b></font></p>
+</body>
+</html>
