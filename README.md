@@ -4,6 +4,8 @@ Archivio storico personale e nuova edizione del sito UtopiaUcronia. Il sito è d
 
 Analisi e piano: [docs/analisi.md](docs/analisi.md), [docs/piano-di-sviluppo.md](docs/piano-di-sviluppo.md). Stato della prima prova: [docs/stato-s0.md](docs/stato-s0.md).
 
+La [board HTML](board.html) si apre direttamente nel browser, anche senza server e senza rete. Mostra sprint, attività, verifiche e prossimi passi; ricerca e filtri non modificano il piano. Dopo aver aggiornato la documentazione, eseguire `pnpm board` per rigenerarla. Le attività vengono lette dal piano; le evidenze tecniche si riferiscono al report S0 e ai rapporti locali.
+
 ## Avvio
 
 Node 24 LTS, pnpm 12.18.0 e Git LFS. Le versioni delle dipendenze sono bloccate dal lockfile.

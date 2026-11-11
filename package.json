@@ -8,6 +8,7 @@
   },
   "packageManager": "pnpm@12.18.0",
   "scripts": {
+    "board": "node scripts/genera-board.ts",
     "dev": "astro dev --host 0.0.0.0",
     "preview": "astro preview --host 0.0.0.0",
     "recupero": "node scripts/recupero/cli.ts",
