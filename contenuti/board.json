@@ -12,7 +12,7 @@
       "contiene": "Applicazione Access",
       "stato": "waiting",
       "assegnatario": "Account",
-      "nota": "Credenziali Cloudflare non disponibili nella sessione. La pubblicazione rimane disabilitata finché Access non è verificato."
+      "nota": "Wrangler è autenticato ma Cloudflare ha respinto la gestione Access per permessi insufficienti. L’applicazione indicata dal proprietario deve essere verificata; il deploy rimane disabilitato."
     },
     {
       "sprint": "S0",

@@ -30,7 +30,7 @@ S0 è avviato. La parte locale è implementata; lo sprint **non è chiuso** finc
 
 ## Verifiche ancora necessarie
 
-- Autenticazione Cloudflare, applicazione Access, relativi segreti GitHub e primo deploy protetto. Nell’ambiente locale Wrangler non è autenticato.
+- Cloudflare è autenticato con Wrangler e il secret GitHub `CLOUDFLARE_ACCOUNT_ID` è configurato. Il workflow di verifica su GitHub è riuscito. L’autorizzazione OAuth disponibile non consente la gestione completa di Access: la creazione via API è stata respinta con HTTP 403 e l’applicazione indicata dal proprietario non è ancora verificabile dall’API account. Restano verifica effettiva della policy, secret GitHub mancanti e primo deploy protetto.
 - Sincronizzazione automatica del bucket tramite GitHub Action: occorrono i segreti e l’attivazione della variabile; il primo backup e il ripristino manuale dal bucket reale sono riusciti.
 - Copia effettiva sul drive: rinviata dal proprietario a sua cura, non bloccante per proseguire lo sviluppo; non è marcata come completata.
 - Revisione delle attribuzioni e della riorganizzazione in S2: i nomi nel testo sono conservati, i metadati editoriali non sono automaticamente approvati dal collaudo.
