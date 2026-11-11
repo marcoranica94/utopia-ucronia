@@ -1,0 +1,15 @@
+node_modules/
+dist/
+.astro/
+.wrangler/
+.idea/
+.env
+.env.*
+!.env.example
+.dev.vars*
+backup/
+rapporti/ripristino-*.json
+public/campione/
+src/content/opere/
+src/generated/
+*.tsbuildinfo

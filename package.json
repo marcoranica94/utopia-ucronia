@@ -1,0 +1,42 @@
+{
+  "name": "utopia-ucronia",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.16.0 <25"
+  },
+  "packageManager": "pnpm@12.18.0",
+  "scripts": {
+    "dev": "astro dev --host 0.0.0.0",
+    "preview": "astro preview --host 0.0.0.0",
+    "recupero": "node scripts/recupero/cli.ts",
+    "converti": "node scripts/converti.ts",
+    "check": "astro check",
+    "build": "pnpm converti && astro check && astro build && pnpm link:verifica",
+    "test": "node --test tests/*.test.ts",
+    "lint": "biome ci .",
+    "link:verifica": "node scripts/controlla-link.ts",
+    "backup": "node scripts/backup.ts",
+    "ripristino:prova": "node scripts/ripristino-prova.ts",
+    "deploy:verifica": "node scripts/verifica-access.ts"
+  },
+  "dependencies": {
+    "@astrojs/markdown-satteri": "0.4.8",
+    "astro": "7.4.10",
+    "cheerio": "1.2.0",
+    "iconv-lite": "0.7.3",
+    "sanitize-html": "2.18.1",
+    "turndown": "7.2.5",
+    "zod": "4.6.7"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.12",
+    "@biomejs/biome": "2.6.6",
+    "@types/node": "24.19.2",
+    "@types/sanitize-html": "2.16.1",
+    "@types/turndown": "5.0.6",
+    "typescript": "6.0.3",
+    "wrangler": "4.160.1"
+  }
+}
