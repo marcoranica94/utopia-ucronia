@@ -15,6 +15,7 @@ import {
   sha256,
   verificaDocumento,
 } from "./core.ts";
+import { scopri } from "./scopri.ts";
 
 const { positionals, values } = parseArgs({
   allowPositionals: true,
@@ -24,10 +25,16 @@ const { positionals, values } = parseArgs({
     pausa: { type: "string", default: "30" },
     attesa: { type: "string", default: "2" },
     "max-lotti": { type: "string" },
+    "max-pagine": { type: "string" },
   },
 });
 const manifest = await leggiManifest();
-if (positionals[0] === "verifica") {
+if (positionals[0] === "scopri") {
+  await scopri(
+    values["max-pagine"] ? Number(values["max-pagine"]) : Infinity,
+    Number(values.attesa),
+  );
+} else if (positionals[0] === "verifica") {
   const recuperati = manifest.documenti.filter((d) =>
     d.esito.startsWith("recuperato"),
   );
