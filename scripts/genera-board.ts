@@ -14,7 +14,6 @@ const sprint = [
   })),
 }));
 if (sprint.length !== 7) throw new Error("Sette sprint attesi nel piano");
-const attivo = sprint.find((s) => s.attivita.some((a) => !a.fatta))?.id ?? "S6";
 const meta = JSON.parse(await readFile("contenuti/board.json", "utf8")) as {
   regole: {
     sprint: string;
@@ -25,6 +24,17 @@ const meta = JSON.parse(await readFile("contenuti/board.json", "utf8")) as {
     nonBloccante?: boolean;
   }[];
 };
+const attivo =
+  sprint.find((s) =>
+    s.attivita.some(
+      (a) =>
+        !a.fatta &&
+        !meta.regole.some(
+          (r) =>
+            r.sprint === s.id && r.nonBloccante && a.testo.includes(r.contiene),
+        ),
+    ),
+  )?.id ?? "S6";
 const stati = ["backlog", "todo", "doing", "waiting", "done"];
 for (const r of meta.regole)
   if (!stati.includes(r.stato))
