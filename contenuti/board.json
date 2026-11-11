@@ -1,0 +1,33 @@
+{
+  "regole": [
+    {
+      "sprint": "S0",
+      "contiene": "Confronto visivo",
+      "stato": "doing",
+      "assegnatario": "Sviluppo",
+      "nota": "Proseguo con il collaudo su mobile e desktop. Il controllo delle attribuzioni resta editoriale."
+    },
+    {
+      "sprint": "S0",
+      "contiene": "Applicazione Access",
+      "stato": "waiting",
+      "assegnatario": "Account",
+      "nota": "Credenziali Cloudflare non disponibili nella sessione. La pubblicazione rimane disabilitata finché Access non è verificato."
+    },
+    {
+      "sprint": "S0",
+      "contiene": "Bucket R2",
+      "stato": "doing",
+      "assegnatario": "Sviluppo",
+      "nota": "Completo il percorso di ripristino da R2; il collaudo sul bucket richiederà l’account Cloudflare."
+    },
+    {
+      "sprint": "S0",
+      "contiene": "Copia del backup sul drive",
+      "stato": "backlog",
+      "assegnatario": "Marco",
+      "nota": "Il proprietario copierà il backup sul proprio drive in futuro. Attività rinviata e non bloccante per proseguire lo sviluppo.",
+      "nonBloccante": true
+    }
+  ]
+}
