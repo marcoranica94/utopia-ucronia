@@ -13,7 +13,8 @@ S0 è avviato. La parte locale è implementata; lo sprint **non è chiuso** finc
 - Configurazione Wrangler accettata dal deploy simulato; nessuna pubblicazione eseguita.
 - Esportazione locale di backup creata e verificata, pronta da copiare sul drive del proprietario. Non equivale ancora alla terza copia indipendente.
 - Ripristino effettivo riuscito in un clone pulito: archivio del clone eliminato, 11 file ricostruiti esclusivamente dal backup, hash verificati, dipendenze reinstallate e build completa superata. La prima prova offline ha rilevato metadati pnpm non presenti in cache: la modalità offline è ora opzionale; la prova riuscita consente la rete solo per le dipendenze.
-- Il ripristino supporta ora anche `--r2`: scarica manifest e oggetti in una cartella temporanea nuova e verifica gli hash prima della ricostruzione. Il percorso è verificato senza rete mediante oggetti simulati; la prova contro il bucket reale richiede ancora l’account.
+- Il ripristino supporta `--r2`: scarica manifest e oggetti in una cartella temporanea nuova e verifica gli hash prima della ricostruzione. Il percorso è verificato con oggetti simulati e con il bucket reale.
+- Bucket privato R2 `utopia-ucronia-archivio` creato e primo backup caricato. Ripristino dal bucket reale riuscito: 11 file e manifest scaricati, hash verificati e build eseguita in un clone pulito.
 - Browser: 10 pagine (9 del sito e la board), temi chiaro/scuro, larghezze 320, 390, 768 e 1440 px, testo al 200% a 390 px. Nessun debordamento, immagine non caricata o violazione axe WCAG 2 A/AA e 2.1 AA rilevata. Verificate anche ricerca, filtri, dettaglio scheda e chiusura con Esc della board. Report: `rapporti/browser-s0.json`.
 - La board è ora Kanban, con schede per attività, assegnatari e dipendenze. La copia sul drive è rinviata a cura del proprietario e non blocca lo sviluppo.
 - La verifica Access precedente al deploy controlla tutte le pagine di applicazioni e policy, rifiuta eccezioni pubbliche e applicazioni separate su percorsi del dominio. Cinque test dedicati coprono policy, paginazione e configurazioni insicure; il controllo sull’account reale resta da eseguire.
@@ -30,7 +31,7 @@ S0 è avviato. La parte locale è implementata; lo sprint **non è chiuso** finc
 ## Verifiche ancora necessarie
 
 - Autenticazione Cloudflare, applicazione Access, relativi segreti GitHub e primo deploy protetto. Nell’ambiente locale Wrangler non è autenticato.
-- Creazione e sincronizzazione effettiva del bucket R2 e prova del ripristino dal bucket reale; il codice è disponibile, l’account non è autenticato in questa sessione.
+- Sincronizzazione automatica del bucket tramite GitHub Action: occorrono i segreti e l’attivazione della variabile; il primo backup e il ripristino manuale dal bucket reale sono riusciti.
 - Copia effettiva sul drive: rinviata dal proprietario a sua cura, non bloccante per proseguire lo sviluppo; non è marcata come completata.
 - Revisione delle attribuzioni e della riorganizzazione in S2: i nomi nel testo sono conservati, i metadati editoriali non sono automaticamente approvati dal collaudo.
 - Verifica del login anonimo e demo di lettura da telefono.

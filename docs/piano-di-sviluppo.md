@@ -158,7 +158,8 @@ Sul ramo di una pull request si fanno i passi 1–5 senza deploy.
 - [x] Script di backup esportabile con verifica degli hash e script di prova del ripristino da cartella
 - [x] Ripristino da clone pulito riuscito: 11 file ricostruiti soltanto dal backup, hash verificati, dipendenze reinstallate e build completa superata
 - [x] Percorso `ripristino:prova --r2` implementato e verificato con oggetti simulati: copia integra, file corrotto e percorso non sicuro
-- [ ] Bucket R2 sincronizzato dalla Action e ripristino da R2 collaudato
+- [x] Bucket R2 creato, campione caricato e ripristino dal bucket reale verificato in un clone pulito
+- [ ] Sincronizzazione automatica R2 dalla GitHub Action configurata e collaudata
 - [ ] Copia del backup sul drive del proprietario (rinviata dal proprietario a sua cura; non blocca lo sviluppo)
 
 Dettagli, limiti e configurazione: [stato-s0.md](stato-s0.md) e [README](../README.md). Le rimozioni di dati personali e codice attivo non modificano mai gli originali. In S0 la conversione resta una prova per documento; unione e divisione editoriali appartengono a S2.

@@ -16,10 +16,10 @@
     },
     {
       "sprint": "S0",
-      "contiene": "Bucket R2",
+      "contiene": "Sincronizzazione automatica R2",
       "stato": "waiting",
       "assegnatario": "Sviluppo",
-      "nota": "Download e ripristino da R2 implementati e coperti da test. Restano creazione del bucket e collaudo reale: le credenziali Cloudflare non sono disponibili in questa sessione."
+      "nota": "Bucket creato; caricamento e ripristino reale verificati. Restano le credenziali GitHub e il collaudo della sincronizzazione automatica."
     },
     {
       "sprint": "S0",

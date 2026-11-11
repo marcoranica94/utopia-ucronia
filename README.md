@@ -67,7 +67,7 @@ Prima di abilitarlo:
 1. Creare l’applicazione Access per l’intero dominio `utopia-ucronia.marcoranica.com`, senza restrizioni di percorso, con una sola policy Allow per l’email del proprietario e nessun bypass. Sessione proposta: 30 giorni.
 2. Aggiungere al repository i segreti `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `ACCESS_EMAIL_PROPRIETARIO`. Il token deve consentire anche la lettura di applicazioni e policy Access, oltre al deploy del Worker.
 3. Impostare la variabile del repository `DEPLOY_ABILITATO=true`. A ogni deploy `pnpm deploy:verifica` controlla tramite API dominio e policy; se non può provarli, fallisce prima della pubblicazione.
-4. Creare il bucket **privato** `utopia-ucronia-archivio`, dare al token i permessi R2 necessari e impostare `BACKUP_R2_ABILITATO=true`. `pnpm backup --r2` carica i file verificati e il manifest per ultimo; il primo caricamento e il ripristino da R2 vanno ancora collaudati.
+4. Il bucket **privato** `utopia-ucronia-archivio` è stato creato; caricamento e ripristino dal bucket reale sono riusciti. Dare al token i permessi R2 necessari e impostare `BACKUP_R2_ABILITATO=true` per collaudare la sincronizzazione automatica. `pnpm backup --r2` carica i file verificati e il manifest per ultimo.
 5. Dopo il deploy verificare il login da finestra anonima e la lettura dal telefono.
 
 `workers_dev` e `preview_urls` sono disabilitati; non esistono un Worker applicativo, SSR o database. Per controllare la configurazione senza pubblicare: `pnpm exec wrangler deploy --dry-run`.
