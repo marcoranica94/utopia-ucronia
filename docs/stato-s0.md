@@ -16,6 +16,7 @@ S0 è avviato. La parte locale è implementata; lo sprint **non è chiuso** finc
 - Il ripristino supporta ora anche `--r2`: scarica manifest e oggetti in una cartella temporanea nuova e verifica gli hash prima della ricostruzione. Il percorso è verificato senza rete mediante oggetti simulati; la prova contro il bucket reale richiede ancora l’account.
 - Browser: 10 pagine (9 del sito e la board), temi chiaro/scuro, larghezze 320, 390, 768 e 1440 px, testo al 200% a 390 px. Nessun debordamento, immagine non caricata o violazione axe WCAG 2 A/AA e 2.1 AA rilevata. Verificate anche ricerca, filtri, dettaglio scheda e chiusura con Esc della board. Report: `rapporti/browser-s0.json`.
 - La board è ora Kanban, con schede per attività, assegnatari e dipendenze. La copia sul drive è rinviata a cura del proprietario e non blocca lo sviluppo.
+- La verifica Access precedente al deploy controlla tutte le pagine di applicazioni e policy, rifiuta eccezioni pubbliche e applicazioni separate su percorsi del dominio. Cinque test dedicati coprono policy, paginazione e configurazioni insicure; il controllo sull’account reale resta da eseguire.
 
 ## Cosa ha insegnato il campione
 
