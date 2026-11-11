@@ -1,6 +1,13 @@
 {
   "regole": [
     {
+      "sprint": "S1",
+      "contiene": "recupero scopri",
+      "stato": "doing",
+      "assegnatario": "Sviluppo",
+      "nota": "Sospeso su richiesta: prima pagina Wayback acquisita, 293 URL e 995 copie. Cursore salvato; riprendere domani con test e verifica della ripresa."
+    },
+    {
       "sprint": "S0",
       "contiene": "Confronto visivo",
       "stato": "doing",

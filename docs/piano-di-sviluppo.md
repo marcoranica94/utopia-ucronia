@@ -169,6 +169,8 @@ Demo: dal telefono, dietro login, leggo i contenuti del campione convertiti; il 
 
 ### S1 · Recupero
 
+Avviato l’11/11/2026 e sospeso su richiesta del proprietario: prima pagina CDX acquisita, 293 URL individuati e 995 copie registrate; cursore di ripresa conservato in `archivio/coda.json`. Il dettaglio è in [stato-s1.md](stato-s1.md).
+
 - [ ] `recupero scopri`: coda da CDX e da scansione dei link, con le copie disponibili per ogni URL
 - [ ] Test degli script su risposte registrate, senza rete: pagine d'errore, gzip, file troncati
 - [ ] `recupero scarica` completo in background, a lotti da 10
