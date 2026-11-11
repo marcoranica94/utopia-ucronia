@@ -145,13 +145,20 @@ Sul ramo di una pull request si fanno i passi 1–5 senza deploy.
 
 ### S0 · Prova sul campione e fondamenta
 
-- [ ] Campione di una decina di file scelti apposta: home, una pagina della Lista delle ucronie, un'opera lunga, una pagina collettiva con più autori, un'opera spezzata su più file, una pagina di sottocartella, immagini, un PDF, un testo francese con accenti
-- [ ] `recupero scarica --solo` sul campione: copia valida, gzip, hash, esiti
-- [ ] Prima conversione del campione e pagina Astro minima che lo mostra
-- [ ] Lista di confronto applicata al campione; il modello dei contenuti si corregge qui, se serve
-- [ ] `git init`, repository privato, Git LFS, Astro 7 statico, pnpm 12, Biome, TypeScript 6, `node --test`
-- [ ] Applicazione Access, `wrangler.jsonc`, workflow di deploy
-- [ ] Backup: bucket R2 sincronizzato dalla Action, copia su disco, `pnpm ripristino:prova`
+- [x] Campione di 11 file: home, Lista e frame di testo, opera lunga e collettiva, opera spezzata in due file, sottocartella francese, tre immagini e un PDF
+- [x] `recupero scarica --solo` sul campione: validazione, gzip, hash, esiti; rilancio senza nuovi download
+- [x] Prima conversione del campione e pagina Astro minima che lo mostra (6 documenti testuali, frameset escluso dalla lettura)
+- [x] Confronto automatico integrale di testo, accenti, ancore e tabelle; immagini mancanti registrate, PDF escluso dall’output in attesa di verifica
+- [ ] Confronto visivo su browser e telefono, note e attribuzioni; completare la lista di confronto editoriale
+- [x] `git init`, collegamento al repository indicato, Git LFS, Astro 7 statico, pnpm 12, Biome, TypeScript 6, `node --test`
+- [x] `wrangler.jsonc`, workflow con deploy disabilitato finché Access non è verificato via API, deploy simulato riuscito
+- [ ] Applicazione Access, segreti GitHub, primo deploy e prova del login anonimo
+- [x] Script di backup esportabile con verifica degli hash e script di prova del ripristino da cartella
+- [x] Ripristino da clone pulito riuscito: 11 file ricostruiti soltanto dal backup, hash verificati, dipendenze reinstallate e build completa superata
+- [ ] Bucket R2 sincronizzato dalla Action e ripristino da R2 collaudato
+- [ ] Copia del backup sul drive del proprietario
+
+Dettagli, limiti e configurazione: [stato-s0.md](stato-s0.md) e [README](../README.md). Le rimozioni di dati personali e codice attivo non modificano mai gli originali. In S0 la conversione resta una prova per documento; unione e divisione editoriali appartengono a S2.
 
 Demo: dal telefono, dietro login, leggo i contenuti del campione convertiti; il ripristino da un clone pulito riesce.
 
