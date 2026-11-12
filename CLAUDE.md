@@ -1,172 +1,176 @@
 # UtopiaUcronia — utopia-ucronia.marcoranica.com
 
-Ricostruzione del vecchio sito UtopiaUcronia (fmboschetto.it/Utopiaucronia, creato nel 2004 con FrontPage) come **archivio storico personale**. Il sito non è pubblico: sta dietro Cloudflare Access e lo consulta solo il proprietario.
+Reconstruction of the old UtopiaUcronia site (fmboschetto.it/Utopiaucronia, created in 2004 with FrontPage) as a **personal historical archive**. The site is not public: it sits behind Cloudflare Access and only the owner uses it.
 
-## Link
+## Links
 
-| Cosa | Link |
+| What | Link |
 | --- | --- |
-| **Analisi** (fonte di verità) | [`docs/analisi.md`](docs/analisi.md) |
-| **Piano di sviluppo, sprint S0–S6** (fonte di verità) | [`docs/piano-di-sviluppo.md`](docs/piano-di-sviluppo.md) |
-| Copia online degli stessi documenti, allineata all'11/11/2026, non più aggiornata | https://claude.ai/artifact/T8ZeZbmcU8gYEV3Xz4ZGZR |
-| Vecchio sito (bloccato agli script, non si usa) | https://www.fmboschetto.it/Utopiaucronia/ |
-| Indice Wayback Machine | https://web.archive.org/cdx/search/cdx?url=fmboschetto.it/Utopiaucronia/* |
-| Progetto di riferimento per stack, CI e qualità | `../uni-portale` (uni.marcoranica.com) |
+| **Analysis** (source of truth) | [`docs/analysis.md`](docs/analysis.md) |
+| **Development plan, sprints S0–S6** (source of truth) | [`docs/development-plan.md`](docs/development-plan.md) |
+| Online copy of the same documents: the Italian version, frozen at 11/11/2026, no longer updated | https://claude.ai/artifact/T8ZeZbmcU8gYEV3Xz4ZGZR |
+| Old site (blocks scripts, not used) | https://www.fmboschetto.it/Utopiaucronia/ |
+| Wayback Machine index | https://web.archive.org/cdx/search/cdx?url=fmboschetto.it/Utopiaucronia/* |
+| Reference project for stack, CI and quality | `../uni-portale` (uni.marcoranica.com) |
 
-## Obiettivo
+## Goal
 
-Tre versioni dello stesso materiale, nello stesso repository, con trattamenti diversi:
+Three versions of the same material, in the same repository, treated differently:
 
-| Versione | Cosa contiene | Dove sta | Servita dal sito |
+| Version | What it contains | Where it lives | Served by the site |
 | --- | --- | --- | --- |
-| Archivio intatto | i file com'erano, mai modificati, email comprese | `archivio/originale/`, repository e backup | **no** |
-| Copia consultabile | pagine del 2004 alla data di riferimento, ripulite (vedi sotto) | generata in build | sì, in `/originale/` |
-| Nuova edizione | contenuti convertiti e riorganizzati | `src/content/` | sì |
+| Untouched archive | the files as they were, never modified, emails included | `archive/original/`, repository and backups | **no** |
+| Browsable copy | 2004 pages at the reference date, cleaned (see below) | generated at build time | yes, in `/original/` |
+| New edition | converted and reorganized content | `src/content/` | yes |
 
-Il successo non è un "archivio completo", impossibile da dimostrare, ma una **raccolta documentata**: ogni URL ha un esito, la copertura è misurata, i limiti sono dichiarati.
+Success is not a "complete archive", which cannot be proven, but a **documented collection**: every URL has an outcome, coverage is measured, limits are stated.
 
-Fuori dallo scopo: pubblicazione aperta, commenti, invio di contributi, SEO.
+Out of scope: open publication, comments, contribution submissions, SEO.
 
-## Decisioni prese
+## Decisions taken
 
-Decisioni dell'11/11/2026, riviste dopo una revisione critica del piano.
+Decisions of 11/11/2026, revised after a critical review of the plan.
 
-- **Privato:** Cloudflare Access sul sottodominio, policy con i tre indirizzi email esplicitamente scelti dal proprietario (decisione dell’11/11/2026). `workers_dev: false` e `preview_urls: false` sempre. Niente `robots`, sitemap o metadati social.
-- **Stack:** Astro 7 in output statico, Content Collections con schema Zod, ricerca Pagefind, Cloudflare Workers con soli asset statici (`assets.directory: ./dist`, nessun `main`), rotta `utopia-ucronia.marcoranica.com` con `custom_domain: true`. Niente SSR, niente D1.
-- **Deploy:** GitHub Action `.github/workflows/deploy-sito.yml` su push a `main`, ricalcata su `uni-portale/.github/workflows/deploy-portale.yml`. Segreti `CLOUDFLARE_API_TOKEN` e `CLOUDFLARE_ACCOUNT_ID`.
-- **Recupero solo dalla Wayback Machine.** Il server originale risponde "HTTP 999 – AW Special Error" (filtro anti-bot di Aruba) già alla prima richiesta da script. Nessuno script lo usa come sorgente; c'è solo `pnpm recupero sonda`, manuale, una richiesta onesta per sapere se il blocco c'è ancora. Il filtro **non va aggirato**: niente User-Agent finti, niente browser automatici.
-- **Versioni:** ultime versioni stabili all'avvio (all'11/11/2026: Node 24 LTS, pnpm 12.18, Astro 7.4, Wrangler 4.160, Pagefind 1.6, Zod 4.6, Biome 2.6, Playwright 1.65; TypeScript 6 finché `astro check` non supporta il 7). Poi **bloccate dal lockfile**: ogni aggiornamento è deliberato, uno alla volta, con build e test.
-- **Piattaforma web solo dove serve:** View Transitions, animazioni legate allo scroll, Popover API e anchor positioning, container queries, OKLCH con `color-mix()` e `light-dark()` entrano solo quando migliorano una funzione precisa, come miglioramento progressivo. Il sito funziona senza. Sempre `prefers-reduced-motion`.
-- **Email e dati personali:** non compaiono in **nessuna vista consultabile**, né nella nuova edizione né in `/originale/`. Restano solo nomi e pseudonimi; i `mailto:` diventano testo semplice. Solo l'archivio intatto le conserva, e il sito non lo serve.
-- **Backup:** l'archivio intatto sta in tre posti: repository privato su GitHub (binari in Git LFS), bucket R2 `utopia-ucronia-archivio` sincronizzato dalla Action, una copia su disco del proprietario. Il ripristino si prova davvero con `pnpm ripristino:prova` (clone pulito o solo R2 → archivio, verifica hash, build).
-- **Lingua:** testi dell'interfaccia, commenti e messaggi di commit in italiano.
-- **Drive personale (aggiornamento del proprietario):** la copia verrà eseguita da lui in futuro; resta da fare ma non blocca lo sviluppo. Non chiedere accesso al drive.
+- **Private:** Cloudflare Access on the subdomain, policy with the three email addresses explicitly chosen by the owner (decision of 11/11/2026). `workers_dev: false` and `preview_urls: false` always. No `robots`, sitemap or social metadata.
+- **Stack:** Astro 7 with static output, Content Collections with Zod schema, Pagefind search, Cloudflare Workers with static assets only (`assets.directory: ./dist`, no `main`), route `utopia-ucronia.marcoranica.com` with `custom_domain: true`. No SSR, no D1.
+- **Deploy:** GitHub Action `.github/workflows/deploy-site.yml` on push to `main`, modeled on `uni-portale/.github/workflows/deploy-portale.yml`. Secrets `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID`.
+- **Recovery from the Wayback Machine only.** The original server answers "HTTP 999 – AW Special Error" (Aruba's anti-bot filter) from the very first scripted request. No script uses it as a source; there is only `pnpm recovery probe`, manual, one honest request to find out whether the block is still there. The filter **must not be circumvented**: no fake User-Agents, no automated browsers.
+- **Versions:** latest stable versions at start (as of 11/11/2026: Node 24 LTS, pnpm 12.18, Astro 7.4, Wrangler 4.160, Pagefind 1.6, Zod 4.6, Biome 2.6, Playwright 1.65; TypeScript 6 until `astro check` supports 7). Then **locked by the lockfile**: every update is deliberate, one at a time, with build and tests.
+- **Web platform only where it helps:** View Transitions, scroll-driven animations, Popover API and anchor positioning, container queries, OKLCH with `color-mix()` and `light-dark()` come in only when they improve a specific function, as progressive enhancement. The site works without them. Always `prefers-reduced-motion`.
+- **Emails and personal data:** they appear in **no browsable view**, neither in the new edition nor in `/original/`. Only names and pseudonyms remain; `mailto:` links become plain text. Only the untouched archive keeps them, and the site does not serve it.
+- **Backups:** the untouched archive lives in three places: private GitHub repository (binaries in Git LFS), R2 bucket `utopia-ucronia-archivio` synced by the Action, a copy on the owner's disk. The restore is actually tested with `pnpm restore:test` (clean clone or R2 only → archive, hash check, build).
+- **Language:** everything in English: code, comments, docs, site UI, URLs, commit messages. Only the stories, with their titles and quotations, stay in their original language (Italian, French, Spanish). Exception: the GitHub secret `ACCESS_EMAIL_PROPRIETARIO`, the GitHub variables `DEPLOY_ABILITATO` and `BACKUP_R2_ABILITATO` and the R2 bucket `utopia-ucronia-archivio` keep their Italian names because they live in external configuration (the code reads the secret as `ACCESS_OWNER_EMAIL`, mapped in the workflow).
+- **Commit identity:** every commit must be made with the personal GitHub profile **marcoranica94**, never with the work identity from the global configuration (`marco.ranica.ext@siemens.com`). The identity is set in the repository's local configuration (`git config user.name` / `git config user.email`, without `--global`); before every commit check with `git config user.email` and, if it doesn't match, fix it before committing.
+- **Personal drive (owner update):** the owner will make the copy in the future; it is still to do but does not block development. Do not ask for access to the drive.
 
-## Regole sul recupero
+## Recovery rules
 
-- Comandi: `pnpm recupero scopri|scarica|copertura|verifica|sonda` (`scripts/recupero/*.ts`, eseguiti direttamente da Node 24).
-- `scarica` lavora a **lotti da 10** (`--lotto 10 --pausa 30 --attesa 2`), una richiesta alla volta, ed è riprendibile. Altre opzioni: `--max-lotti`, `--solo <elenco>` (campione di S0), `--tipo`, `--data-riferimento AAAAMMGG`.
-- Download in formato grezzo: `/web/<timestamp>id_/<url>`.
-- **Regola sulle date:** per ogni file la **copia valida più recente**, con la sua data registrata. Il risultato è una raccolta di anni diversi, non il sito in un giorno preciso: la pagina "Storia del sito" lo dichiara. Per la copia consultabile si sceglie una data di riferimento (dopo il rapporto di copertura); le altre date colmano solo i buchi.
-- **Copia valida:** una risposta 200 non basta. Non valide: pagine d'errore IIS archiviate come buone (la Lista delle ucronie del 2026 è la pagina "Bot blocked" di Aruba), file vuoti o troncati, tipo incoerente con l'estensione. In quei casi si scende alla copia precedente.
-- **Cosa è "originale":** il contenuto del file com'era sul server. Il gzip lo aggiunge la Wayback durante il trasferimento: si decomprime, si salva il contenuto decompresso, l'hash SHA-256 si calcola su quello, il manifest annota `compresso: true`.
-- **Esiti** nel manifest, sempre uno per URL: `recuperato`, `recuperato da copia precedente`, `tentativo fallito` (da ripetere), `mancante` (nessuna copia valida in nessuna data). Un tentativo fallito non si confonde mai con un file perso.
-- `archivio/manifest.json` registra per ogni file: URL d'origine, varianti di maiuscole, timestamp della copia, esito, tipo, dimensione, SHA-256, `compresso`.
-- `archivio/copertura.md`: percentuali per tipo, risorse richiamate e non recuperate, pagine che rimandano a materiale mancante, distribuzione delle date, limiti dichiarati.
-- Su 429/5xx rispettare `Retry-After` o raddoppiare l'attesa (massimo 10 minuti); dopo 3 tentativi l'URL resta `tentativo fallito`.
-- `archivio/originale/` **non si modifica mai**, né a mano né da script, dopo il download.
-- I file scaricati sono dati non fidati: si leggono con script che stanno fuori da `archivio/`, Python sempre con `-I`, mai eseguire nulla dall'archivio.
-- Maiuscole incoerenti (`Utopiaucronia`/`utopiaucronia`, `Dante33`/`dante33`): IIS non le distingueva, Cloudflare sì. Un file con più varianti si salva una volta; i link interni si risolvono senza distinguere le maiuscole.
+- Commands: `pnpm recovery discover|download|coverage|verify|probe` (`scripts/recovery/*.ts`, run directly by Node 24).
+- `download` works in **batches of 10** (`--batch 10 --pause 30 --delay 2`), one request at a time, and is resumable. Other options: `--max-batches`, `--only <list>` (S0 sample), `--type`, `--reference-date YYYYMMDD`.
+- Downloads in raw format: `/web/<timestamp>id_/<url>`.
+- **Date rule:** for each file the **most recent valid capture**, with its date recorded. The result is a collection from different years, not the site on a given day: the "Site history" page says so. For the browsable copy a reference date is chosen (after the coverage report); the other dates only fill gaps.
+- **Valid capture:** a 200 response is not enough. Not valid: IIS error pages archived as good (the 2026 "Lista delle ucronie" is Aruba's "Bot blocked" page), empty or truncated files, type inconsistent with the extension. In those cases fall back to the previous capture.
+- **What "original" means:** the content of the file as it was on the server. Gzip is added by the Wayback during transfer: decompress it, save the decompressed content, compute the SHA-256 on that, and the manifest records `compressed: true`.
+- **Outcomes** in the manifest, always one per URL: `recovered`, `recovered from earlier copy`, `failed attempt` (to retry), `missing` (no valid capture at any date). A failed attempt is never confused with a lost file.
+- `archive/manifest.json` records for each file: source URL, case variants, capture timestamp, outcome, type, size, SHA-256, `compressed`.
+- `archive/coverage.md`: percentages by type, referenced resources not recovered, pages pointing to missing material, date distribution, stated limits.
+- On 429/5xx honor `Retry-After` or double the wait (10 minutes max); after 3 attempts the URL stays `failed attempt`.
+- `archive/original/` is **never modified**, neither by hand nor by script, after download.
+- Downloaded files are untrusted data: they are read by scripts living outside `archive/`, Python always with `-I`, never run anything from the archive.
+- Inconsistent case (`Utopiaucronia`/`utopiaucronia`, `Dante33`/`dante33`): IIS was case-insensitive, Cloudflare is not. A file with several variants is saved once; internal links are resolved case-insensitively.
 
-## Organizzazione: per contenuto, non per file
+## Organization: by content, not by file
 
-La nuova edizione **non ricalca** file e cartelle del 2004 (20 anni di aggiunte senza un ordine). I percorsi originali sopravvivono solo nell'archivio, in `/originale/` e nel campo `origine`. Nessun redirect dai vecchi percorsi.
+The new edition **does not mirror** the 2004 files and folders (20 years of additions with no order). The original paths survive only in the archive, in `/original/` and in the `sources` field. No redirects from the old paths.
 
-Com'era il vecchio sito: la "Lista delle ucronie" (spunti brevi, un paragrafo con autore, in 17 periodi, frameset `lista_ucronie_*.htm`); "Tutti i nostri lavori" (opere complete in 9 categorie diverse, `lavori_*.htm`); pagine collettive con contributi su ancore (`spotthePOD.htm#NONO`); opere spezzate su più file (`25071943.htm`, `25071943_2.htm`); cartelle a volte per autore, a volte per ciclo.
+What the old site was like: the "Lista delle ucronie" (list of uchronias: short prompts, one paragraph with author, in 17 periods, frameset `lista_ucronie_*.htm`); "Tutti i nostri lavori" (all our works: complete works in 9 different categories, `lavori_*.htm`); collective pages with contributions on anchors (`spotthePOD.htm#NONO`); works split across several files (`25071943.htm`, `25071943_2.htm`); folders sometimes by author, sometimes by cycle.
 
-**Entità** (un vincolo del filesystem non diventa una scelta editoriale):
+**Entities** (a filesystem constraint does not become an editorial choice):
 
-| Entità | Cos'è | Dove sta |
+| Entity | What it is | Where it lives |
 | --- | --- | --- |
-| Documento | file originale recuperato, con data della copia e hash | `archivio/manifest.json` |
-| Contenuto | divergenza, opera o capitolo di un mondo | file Markdown in `src/content/` |
-| Contributo | intervento firmato dentro un contenuto (risposta, commento, aggiunta) | sezione del contenuto, con autore |
+| Document | recovered original file, with capture date and hash | `archive/manifest.json` |
+| Content item | divergence, work or chapter of a world | Markdown file in `src/content/` |
+| Contribution | signed piece inside a content item (reply, comment, addition) | section of the content item, with author |
 
-Un documento può alimentare più contenuti e un contenuto può venire da più documenti: il legame sta nella mappa. Quello che Markdown non rende bene (tabelle impaginate, mappe cliccabili) resta HTML ripulito dentro il file.
+A document can feed several content items and a content item can come from several documents: the link lives in the map. What Markdown renders poorly (laid-out tables, clickable maps) stays as cleaned HTML inside the file.
 
-**Tre livelli di contenuto:**
+**Three content levels:**
 
-| Livello | Cos'è | Cartella | URL |
+| Level | What it is | Folder | URL |
 | --- | --- | --- | --- |
-| Divergenza | spunto "E se…" in un paragrafo, con autore | `src/content/divergenze/` | `/divergenze/<slug>` |
-| Opera | testo completo: ucronia, utopia, racconto, cronologia, saggio | `src/content/opere/` | `/opere/<slug>` |
-| Mondo | ciclo di molte pagine con mappe, bandiere, cronologie | `src/content/mondi/<slug>/` | `/mondi/<slug>/<capitolo>` |
+| Divergence | one-paragraph "What if…" prompt, with author | `src/content/divergences/` | `/divergences/<slug>` |
+| Work | complete text: uchronia, utopia, story, chronology, essay | `src/content/works/` | `/works/<slug>` |
+| World | cycle of many pages with maps, flags, chronologies | `src/content/worlds/<slug>/` | `/worlds/<slug>/<chapter>` |
 
-**Vie d'accesso:** titoli, autori, ricerca e filtri sono la base e funzionano da soli. Poi epoche (`/epoche/<slug>`), luoghi (`/luoghi/<slug>`), temi (`/temi/<slug>`), autori (`/autori/<slug>`). L'albero delle divergenze è una vista in più, non la base. La lingua è un filtro.
+**Ways in:** titles, authors, search and filters are the base and work on their own. Then eras (`/eras/<slug>`), places (`/places/<slug>`), themes (`/themes/<slug>`), authors (`/authors/<slug>`). The divergence tree is an extra view, not the base. Language is a filter.
 
-**Mappa di riorganizzazione** (`contenuti/mappa.yaml`): per ogni documento un agente propone un'azione — `opera`, `dividi` (pagina collettiva in più contenuti), `unisci` (file spezzati), `mondo`, `indice` (elenchi, solo fonte di metadati), `scarta` (frame, titoli, pagine tecniche) — più livello e metadati, ognuno con una riga di motivazione. Il proprietario la rivede a blocchi di 20 nella pagina `/revisione`, che esiste solo con `pnpm dev` e non va mai in build. Le decisioni del proprietario non si sovrascrivono mai rigenerando le proposte.
+**Reorganization map** (`data/map.yaml`): for each document an agent proposes an action — `work`, `split` (collective page into several content items), `merge` (split files), `world`, `index` (lists, metadata source only), `discard` (frames, title pages, technical pages) — plus level and metadata, each with one line of reasoning. The owner reviews it in blocks of 20 on the `/review` page, which exists only with `pnpm dev` and never goes into the build. The owner's decisions are never overwritten when proposals are regenerated.
 
-## Modello dei contenuti
+## Content model
 
-Frontmatter comune, validato da Zod. I campi di **fonte** si ricavano dal documento; quelli di **interpretazione** li propone l'agente.
+Shared frontmatter, validated by Zod. **Source** fields are derived from the document; **interpretation** fields are proposed by the agent.
 
-| Campo | Natura | Note |
+| Field | Nature | Notes |
 | --- | --- | --- |
-| `livello` | struttura | divergenza, opera, mondo |
-| `titolo` | fonte | per una divergenza, le prime parole dello spunto se manca un titolo |
-| `autori` | fonte | nomi o pseudonimi, mai email |
-| `pubblicata` | fonte | data dalle "Ultime arrivate", se nota |
-| `lingua` | fonte | it, fr, es |
-| `divergenze` | interpretazione | elenco di anni (negativo = a.C.), anche vuoto (un'utopia può non averne) |
-| `epoche` | interpretazione | uno o più dei 17 periodi della vecchia Lista ridefiniti in anni, più "Fuori dal tempo" |
-| `luoghi` | interpretazione | elenco di aree |
-| `temi` | interpretazione | elenco chiuso di etichette, fissato in S4 |
-| `tipo` | interpretazione | ucronia, utopia, racconto, cronologia, saggio, gioco |
-| `mondo` | struttura | slug del mondo, se ne fa parte |
-| `sviluppata_in` | struttura | slug dell'opera che sviluppa la divergenza |
-| `contributi` | struttura | autori e posizione degli interventi nel testo |
-| `allegati` | fonte | PDF e altri file |
-| `origine` | fonte | documenti d'origine (anche più d'uno, con ancora) e data della copia |
+| `level` | structure | divergence, work, world |
+| `title` | source | for a divergence, the first words of the prompt if there is no title |
+| `authors` | source | names or pseudonyms, never emails |
+| `published` | source | date from the "Ultime arrivate" (latest arrivals), if known |
+| `language` | source | it, fr, es |
+| `divergences` | interpretation | list of years (negative = BC), possibly empty (a utopia may have none) |
+| `eras` | interpretation | one or more of the 17 periods of the old Lista redefined as years, plus "Outside time" |
+| `places` | interpretation | list of areas |
+| `themes` | interpretation | closed list of labels, fixed in S4 |
+| `kind` | interpretation | uchronia, utopia, story, chronology, essay, game |
+| `world` | structure | slug of the world, if it belongs to one |
+| `developed_in` | structure | slug of the work that develops the divergence |
+| `contributions` | structure | authors and position of the contributions in the text |
+| `attachments` | source | PDFs and other files |
+| `sources` | source | source documents (possibly more than one, with anchor) and capture date |
 
-Regole di classificazione:
+Classification rules:
 
-- Ogni campo di interpretazione ammette `sconosciuto`. Catalogo, filtri e ricerca devono funzionare con metadati incompleti.
-- Ogni interpretazione registra chi l'ha data (`agente` o `proprietario`), lo stato (`proposta` o `approvata`) e una riga di motivazione che cita il testo.
-- La classificazione cresce per gradi: nessuno sprint aspetta che sia completa.
+- Every interpretation field accepts `unknown`. Catalog, filters and search must work with incomplete metadata.
+- Every interpretation records who gave it (`agent` or `owner`), its state (`proposed` or `approved`) and one line of reasoning quoting the text.
+- Classification grows step by step: no sprint waits for it to be complete.
 
-Slug dal titolo, non dal vecchio nome del file. La conversione (`scripts/converti.ts`) è ripetibile: rigenera `src/content/` senza perdere le correzioni in `contenuti/correzioni/`. Tutto il contenuto convertito è UTF-8 (originale ISO-8859-1/Windows-1252).
+Slugs come from the title, not from the old file name. Conversion (`scripts/convert.ts`) is repeatable: it regenerates `src/content/` without losing the corrections in `data/corrections/`. All converted content is UTF-8 (originals ISO-8859-1/Windows-1252).
 
-## Copia consultabile in `/originale/`
+## Browsable copy in `/original/`
 
-- Generata in build dall'archivio intatto, alla data di riferimento.
-- Tolti: `<script>`, attributi di evento (`onload`, `onmouseover`…), `<iframe>`, `<form>`, `<embed>`/`<object>`/applet, `bgsound` e MIDI, contatori (ShinyStat), ricerca FreeFind, ogni risorsa esterna, email e `mailto:`.
-- Link riscritti verso l'interno di `/originale/`; quelli verso materiale mancante portano a una pagina che spiega la lacuna.
-- Servita con una Content Security Policy che vieta gli script.
-- Esclusa dall'indice Pagefind, così i risultati non compaiono due volte. Da ogni contenuto della nuova edizione un link porta alla sua pagina d'origine.
+- Generated at build time from the untouched archive, at the reference date.
+- Removed: `<script>`, event attributes (`onload`, `onmouseover`…), `<iframe>`, `<form>`, `<embed>`/`<object>`/applets, `bgsound` and MIDI, counters (ShinyStat), FreeFind search, every external resource, emails and `mailto:`.
+- Links rewritten to stay inside `/original/`; those pointing to missing material lead to a page explaining the gap.
+- Served with a Content Security Policy that forbids scripts.
+- Excluded from the Pagefind index, so results don't appear twice. From every new-edition content item a link leads to its source page.
 
-## Qualità
+## Quality
 
-- **Lista di confronto** tra originale e conversione: titoli, paragrafi, immagini, note, tabelle, accenti, attribuzioni.
-- **Link:** zero link irrisolti **senza spiegazione**. Un errore di conversione si corregge; una lacuna dell'archivio resta visibile come tale, il link non si cancella.
-- Accessibilità e controlli della conversione dal primo componente, non a fine progetto. Contano più fedeltà dei testi, ricerca, tastiera e leggibilità del punteggio Lighthouse, che è solo un indicatore.
+- **Comparison checklist** between original and conversion: headings, paragraphs, images, notes, tables, accents, attributions.
+- **Links:** zero unresolved links **without explanation**. A conversion error is fixed; an archive gap stays visible as such, the link is not deleted.
+- Accessibility and conversion checks from the first component, not at the end of the project. Fidelity of the texts, search, keyboard and readability matter more than the Lighthouse score, which is only an indicator.
 
-## Grafica
+## Design
 
-- Metafora: **la linea del tempo che si biforca** (albero delle divergenze). Usarla solo dove informa. Va provata presto con dati veri e casi difficili: date mancanti, titoli lunghi, secoli affollati, telefono.
-- Prima di lavorare sulla grafica carica la skill `frontend-design` (da copiare in `.claude/skills/` da `../uni-portale/.claude/skills/`) ed evita i cliché che elenca: fondo crema, monospazio per i dati, una parola evidenziata nel titolo, etichette sopra ogni titolo, tutto in card uguali.
-- Due direzioni a confronto su lettura e catalogo, con contenuti veri, prima di costruire. La direzione approvata va in `src/styles/tokens.css` e in questa sezione.
-- Testi lunghi: colonna da 65–70 caratteri, serif da lettura, note cliccabili. Mobile-first, tema chiaro e scuro, caratteri in locale con `@fontsource`.
-- Mai `confirm()`/`alert()` del browser.
-- "Storia del sito": omaggio all'originale (logo, anfora, "UtopiaUcronia, dove tutto è possibile!"). La home del 2004 è una ricostruzione scritta da noi, non la pagina originale con i suoi script.
+- Metaphor: **the forking timeline** (divergence tree). Use it only where it informs. It must be tested early with real data and hard cases: missing dates, long titles, crowded centuries, phone.
+- Before working on the design, load the `frontend-design` skill (copied into `.claude/skills/` from `../uni-portale/.claude/skills/`) and avoid the clichés it lists: cream background, monospace for data, one highlighted word in the title, labels above every heading, everything in identical cards.
+- Two competing directions for reading and catalog, with real content, before building. The approved direction goes into `src/styles/tokens.css` and into this section.
+- Long texts: 65–70 character column, reading serif, clickable notes. Mobile-first, light and dark theme, local fonts with `@fontsource`.
+- Never the browser's `confirm()`/`alert()`.
+- "Site history": tribute to the original (logo, amphora, "UtopiaUcronia, dove tutto è possibile!"). The 2004 home page is a reconstruction written by us, not the original page with its scripts.
 
-## Sprint
+## Sprints
 
-Ogni sprint si chiude con una demo che deve riuscire senza ritocchi. Le attività da spuntare stanno in `docs/piano-di-sviluppo.md`: tienilo aggiornato (spunta `- [x]` a lavoro fatto, aggiungi le attività impreviste nello sprint giusto) e cambia `docs/analisi.md` quando cambia una decisione.
+Every sprint ends with a demo that must succeed without touch-ups. The tasks to tick off are in `docs/development-plan.md`: keep it up to date (tick `- [x]` when work is done, add unplanned tasks to the right sprint) and change `docs/analysis.md` when a decision changes.
 
-- **S0 Prova sul campione e fondamenta** — una decina di file rappresentativi (home, pagina della Lista, opera lunga, pagina collettiva, opera spezzata, sottocartella, immagini, PDF, testo francese) portati dal recupero alla lettura nel browser; repository, Git LFS, deploy privato, backup su R2 e disco, `pnpm ripristino:prova` riuscito.
-- **S1 Recupero** — inventario, regola sulle date, manifest con esiti, `copertura.md`; rilanciare `scarica` non scarica nulla; `recupero verifica` senza errori.
-- **S2 Conversione** — schema verificato sui casi reali, mappa proposta, correzioni persistenti; zero link irrisolti senza spiegazione; lista di confronto superata su 30 contenuti.
-- **S3 Prima versione utile** — lettura, catalogo semplice, ricerca Pagefind, link alla fonte, pagina `/revisione`; dal telefono si ritrova un testo ricordandone una frase.
-- **S4 Edizione completa** — revisione progressiva della mappa, epoche e temi fissati, mondi, autori, luoghi, temi, filtro lingua, grafica definitiva.
-- **S5 Viste speciali** — albero delle divergenze, copia consultabile in `/originale/`, Storia del sito, "E se…?".
-- **S6 Rifinitura** — Playwright + axe da 320 a 1440 px e testo al 200%, nuova prova di ripristino da zero, giro completo da telefono.
+- **S0 Sample trial and foundations** — about ten representative files (home, Lista page, long work, collective page, split work, subfolder, images, PDF, French text) taken from recovery to reading in the browser; repository, Git LFS, private deploy, backups to R2 and disk, `pnpm restore:test` successful.
+- **S1 Recovery** — inventory, date rule, manifest with outcomes, `coverage.md`; rerunning `download` downloads nothing; `recovery verify` without errors.
+- **S2 Conversion** — schema verified on real cases, proposed map, persistent corrections; zero unexplained unresolved links; comparison checklist passed on 30 content items.
+- **S3 First useful version** — reading, simple catalog, Pagefind search, link to the source, `/review` page; from the phone a text can be found by remembering one sentence.
+- **S4 Complete edition** — progressive review of the map, eras and themes fixed, worlds, authors, places, themes, language filter, final design.
+- **S5 Special views** — divergence tree, browsable copy in `/original/`, Site history, "What if…?".
+- **S6 Polish** — Playwright + axe from 320 to 1440 px and text at 200%, new restore test from scratch, full round from the phone.
 
-## Struttura prevista
+## Planned structure
 
-| Percorso | Contenuto |
+| Path | Content |
 | --- | --- |
-| `docs/` | analisi e piano di sviluppo (fonte di verità del progetto) |
-| `archivio/originale/` | archivio intatto: file recuperati, immutabili, percorsi originali |
-| `archivio/manifest.json` | registro dei documenti con esiti e hash |
-| `archivio/copertura.md` | rapporto di copertura |
-| `archivio/registro.log` | avanzamento dei download |
-| `scripts/recupero/` | `scopri`, `scarica`, `copertura`, `verifica`, `sonda` |
-| `scripts/` | mappa di riorganizzazione, conversione (`converti.ts`), copia consultabile, controllo link, `ripristino-prova.ts` |
-| `contenuti/mappa.yaml` | mappa di riorganizzazione: proposte dell'agente e decisioni del proprietario |
-| `contenuti/correzioni/` | correzioni manuali applicate dalla conversione |
-| `src/content/{divergenze,opere,mondi}/` | contenuti convertiti (generati) |
-| `src/` | pagine, componenti, stili Astro |
-| `wrangler.jsonc` | Worker con soli asset statici e rotta sul sottodominio |
-| `.github/workflows/deploy-sito.yml` | test, build, controllo link, deploy, sincronizzazione R2 |
+| `docs/` | analysis and development plan (the project's source of truth) |
+| `archive/original/` | untouched archive: recovered files, immutable, original paths |
+| `archive/manifest.json` | register of documents with outcomes and hashes |
+| `archive/queue.json` | discovery queue: URLs, variants and captures from the CDX index, with resume cursor |
+| `archive/coverage.md` | coverage report |
+| `archive/download.log` | download progress |
+| `scripts/recovery/` | `discover`, `download`, `coverage`, `verify`, `probe` |
+| `scripts/` | reorganization map, conversion (`convert.ts`), browsable copy, link check, `restore-test.ts` |
+| `data/map.yaml` | reorganization map: agent proposals and owner decisions |
+| `data/corrections/` | manual corrections applied by the conversion |
+| `data/sample.json`, `data/board.json` | S0 sample selection; board statuses, assignees and notes |
+| `reports/` | generated reports: conversion, sample comparison, browser checks, restore tests |
+| `src/content/{divergences,works,worlds}/` | converted content (generated) |
+| `src/` | Astro pages, components, styles |
+| `wrangler.jsonc` | Worker with static assets only and route on the subdomain |
+| `.github/workflows/deploy-site.yml` | tests, build, link check, deploy, R2 sync |
 
-Nota: la cartella locale si chiama `ucronia-utopia`, il repository GitHub e il Worker `utopia-ucronia`.
+Note: the local folder is called `ucronia-utopia`, the GitHub repository and the Worker `utopia-ucronia`.

@@ -1,9 +1,9 @@
-export type Pagina = {
+export type Page = {
   success: boolean;
   result: unknown;
   result_info?: { page?: number; total_pages?: number; total_count?: number };
 };
-export type Carica = (percorso: string) => Promise<Pagina>;
+export type Fetcher = (path: string) => Promise<Page>;
 type App = {
   id: string;
   domain: string;
@@ -11,77 +11,72 @@ type App = {
   destinations?: { uri?: string; overrides?: { behavior?: string }[] }[];
 };
 type Policy = { decision: string; include?: Record<string, unknown>[] };
-export async function elenco(
-  carica: Carica,
-  percorso: string,
-): Promise<unknown[]> {
+export async function list(fetcher: Fetcher, path: string): Promise<unknown[]> {
   const items: unknown[] = [];
-  let totale = 1;
-  for (let pagina = 1; pagina <= totale; pagina++) {
-    const risposta = await carica(`${percorso}?per_page=1000&page=${pagina}`);
+  let total = 1;
+  for (let page = 1; page <= total; page++) {
+    const response = await fetcher(`${path}?per_page=1000&page=${page}`);
     if (
-      !risposta.success ||
-      !Array.isArray(risposta.result) ||
-      !risposta.result_info ||
-      !Number.isInteger(risposta.result_info.total_pages) ||
-      risposta.result_info.page !== pagina
+      !response.success ||
+      !Array.isArray(response.result) ||
+      !response.result_info ||
+      !Number.isInteger(response.result_info.total_pages) ||
+      response.result_info.page !== page
     )
-      throw new Error("Risposta Access incompleta: deploy bloccato");
-    totale = risposta.result_info.total_pages ?? 0;
-    if (totale > 1000) throw new Error("Troppe pagine Access: deploy bloccato");
-    items.push(...risposta.result);
-    if (pagina === totale && risposta.result_info.total_count !== items.length)
-      throw new Error("Numero di risultati Access incoerente: deploy bloccato");
+      throw new Error("Incomplete Access response: deploy blocked");
+    total = response.result_info.total_pages ?? 0;
+    if (total > 1000) throw new Error("Too many Access pages: deploy blocked");
+    items.push(...response.result);
+    if (page === total && response.result_info.total_count !== items.length)
+      throw new Error("Inconsistent Access result count: deploy blocked");
   }
   return items;
 }
-export async function verificaAccess(
-  carica: Carica,
-  dominio: string,
+export async function verifyAccess(
+  fetcher: Fetcher,
+  domain: string,
   email: string,
 ): Promise<void> {
-  const apps = (await elenco(carica, "/access/apps")) as App[];
-  const app = apps.find(
-    (a) => a.domain === dominio && a.type === "self_hosted",
-  );
-  if (!app || apps.filter((a) => a.domain === dominio).length !== 1)
+  const apps = (await list(fetcher, "/access/apps")) as App[];
+  const app = apps.find((a) => a.domain === domain && a.type === "self_hosted");
+  if (!app || apps.filter((a) => a.domain === domain).length !== 1)
     throw new Error(
-      "Applicazione Access esatta non trovata o ambigua: deploy bloccato",
+      "Exact Access application not found or ambiguous: deploy blocked",
     );
   if (
     apps.some(
       (a) =>
         a.id !== app.id &&
-        (a.domain?.startsWith(`${dominio}/`) ||
+        (a.domain?.startsWith(`${domain}/`) ||
           a.destinations?.some(
-            (d) => d.uri === dominio || d.uri?.startsWith(`${dominio}/`),
+            (d) => d.uri === domain || d.uri?.startsWith(`${domain}/`),
           )),
     )
   )
     throw new Error(
-      "Altra applicazione Access sul dominio o su un suo percorso: deploy bloccato",
+      "Another Access application on the domain or on one of its paths: deploy blocked",
     );
   if (
     app.destinations?.some((d) =>
       d.overrides?.some((o) => o.behavior === "public"),
     )
   )
-    throw new Error("Eccezione pubblica Access rilevata: deploy bloccato");
-  const policies = (await elenco(
-    carica,
+    throw new Error("Public Access exception found: deploy blocked");
+  const policies = (await list(
+    fetcher,
     `/access/apps/${encodeURIComponent(app.id)}/policies`,
   )) as Policy[];
   const allows = policies.filter((p) => p.decision === "allow");
-  const indirizzi = allows.flatMap((p) =>
+  const addresses = allows.flatMap((p) =>
     (p.include ?? []).map(
       (r) => (r.email as { email?: unknown } | undefined)?.email,
     ),
   );
-  const riepilogo = policies.map((p) => ({
-    decisione: p.decision,
-    selettori: (p.include ?? []).map((rule) => ({
-      tipi: Object.keys(rule),
-      email_coincide:
+  const summary = policies.map((p) => ({
+    decision: p.decision,
+    selectors: (p.include ?? []).map((rule) => ({
+      types: Object.keys(rule),
+      email_matches:
         typeof (rule.email as { email?: unknown } | undefined)?.email ===
           "string" &&
         (rule.email as { email: string }).email.toLowerCase() ===
@@ -105,16 +100,16 @@ export async function verificaAccess(
           );
         }),
     ) ||
-    indirizzi.length !== 3 ||
+    addresses.length !== 3 ||
     new Set(
-      indirizzi.map((a) => (typeof a === "string" ? a.toLowerCase() : "")),
+      addresses.map((a) => (typeof a === "string" ? a.toLowerCase() : "")),
     ).size !== 3 ||
-    !indirizzi.some(
+    !addresses.some(
       (a) => typeof a === "string" && a.toLowerCase() === email.toLowerCase(),
     )
   )
     throw new Error(
-      `Dettaglio policy (senza indirizzi): ${JSON.stringify(riepilogo)}. ` +
-        "Access deve consentire esclusivamente tre indirizzi email distinti, compreso quello del proprietario: deploy bloccato",
+      `Policy details (without addresses): ${JSON.stringify(summary)}. ` +
+        "Access must allow exactly three distinct email addresses, including the owner's: deploy blocked",
     );
 }

@@ -6,5 +6,5 @@
     "erasableSyntaxOnly": true
   },
   "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist", "archivio", "node_modules"]
+  "exclude": ["dist", "archive", "node_modules"]
 }

@@ -1,4 +1,4 @@
-/* Impaginazione provvisoria per la prova S0; la direzione grafica si sceglie in S4. */
+/* Provisional layout for the S0 trial; the visual direction is chosen in S4. */
 :root {
   color-scheme: light dark;
   font-family: system-ui, sans-serif;
@@ -80,33 +80,33 @@ article th {
 pre {
   white-space: pre-wrap;
 }
-.catalogo {
+.catalog {
   padding: 0;
   list-style: none;
 }
-.catalogo li {
+.catalog li {
   display: flex;
   justify-content: space-between;
   gap: 1rem;
   padding-block: 1rem;
   border-bottom: 1px solid light-dark(#c4d1dd, #53687f);
 }
-.catalogo a {
+.catalog a {
   font-size: 1.15rem;
 }
-.nota {
+.note {
   padding-inline-start: 1rem;
   border-inline-start: 3px solid light-dark(#075e9f, #9bd2ff);
   font-size: 0.95rem;
   margin-block: 2rem;
 }
-.fonti,
+.sources,
 footer {
   font-size: 0.9rem;
   border-top: 1px solid light-dark(#c4d1dd, #53687f);
   padding-block: 1rem;
 }
-.salta {
+.skip {
   position: absolute;
   inset-inline-start: 1rem;
   top: -5rem;
@@ -114,6 +114,6 @@ footer {
   background: light-dark(#fff, #152130);
   z-index: 1;
 }
-.salta:focus {
+.skip:focus {
   top: 0.5rem;
 }

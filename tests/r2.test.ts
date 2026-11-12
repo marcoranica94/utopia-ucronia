@@ -3,60 +3,58 @@ import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
 import { test } from "node:test";
-import { scaricaArchivioR2 } from "../scripts/r2.ts";
-import { sha256 } from "../scripts/recupero/core.ts";
+import { downloadArchiveFromR2 } from "../scripts/r2.ts";
+import { sha256 } from "../scripts/recovery/core.ts";
 
-const dati = Buffer.from("Un originale conservato.");
-const documento = {
+const data = Buffer.from("A preserved original.");
+const document = {
   url: "https://www.fmboschetto.it/Utopiaucronia/prova.htm",
-  varianti: [],
-  esito: "recuperato",
-  percorso: "utopiaucronia/prova.htm",
-  sha256: sha256(dati),
-  dimensione: dati.length,
+  variants: [],
+  outcome: "recovered",
+  path: "utopiaucronia/prova.htm",
+  sha256: sha256(data),
+  size: data.length,
 };
-for (const caso of ["integro", "corrotto", "percorso non sicuro"]) {
-  test(`ripristino R2 simulato: ${caso}`, async () => {
+for (const scenario of ["intact", "corrupted", "unsafe path"]) {
+  test(`simulated R2 restore: ${scenario}`, async () => {
     const temp = await mkdtemp(path.join(os.tmpdir(), "ucronia-r2-test-"));
     const dest = path.join(temp, "backup");
-    const richieste: string[] = [];
+    const requests: string[] = [];
     const manifest = {
-      versione: 1,
-      documenti: [
+      version: 1,
+      documents: [
         {
-          ...documento,
-          ...(caso === "percorso non sicuro"
-            ? { percorso: "../../fuori.htm" }
-            : {}),
+          ...document,
+          ...(scenario === "unsafe path" ? { path: "../../outside.htm" } : {}),
         },
       ],
     };
     try {
-      const esegui = () =>
-        scaricaArchivioR2(dest, async (chiave, file) => {
-          richieste.push(chiave);
+      const run = () =>
+        downloadArchiveFromR2(dest, async (key, file) => {
+          requests.push(key);
           await writeFile(
             file,
-            chiave === "manifest.json"
+            key === "manifest.json"
               ? JSON.stringify(manifest)
-              : caso === "corrotto"
-                ? Buffer.from("alterato")
-                : dati,
+              : scenario === "corrupted"
+                ? Buffer.from("altered")
+                : data,
           );
         });
-      if (caso === "integro") {
-        await esegui();
+      if (scenario === "intact") {
+        await run();
         assert.deepEqual(
-          await readFile(path.join(dest, "originale", documento.percorso)),
-          dati,
+          await readFile(path.join(dest, "original", document.path)),
+          data,
         );
-        await assert.rejects(esegui(), /EEXIST/);
+        await assert.rejects(run(), /EEXIST/);
       } else
         await assert.rejects(
-          esegui(),
-          caso === "corrotto" ? /non integro/ : /Percorso non sicuro/,
+          run(),
+          scenario === "corrupted" ? /not intact/ : /Unsafe path/,
         );
-      assert.equal(richieste.length, caso === "percorso non sicuro" ? 1 : 2);
+      assert.equal(requests.length, scenario === "unsafe path" ? 1 : 2);
     } finally {
       await rm(temp, { recursive: true, force: true });
     }

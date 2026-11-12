@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
 import { test } from "node:test";
-import type { Carica } from "../scripts/access.ts";
-import { verificaAccess } from "../scripts/access.ts";
+import type { Fetcher } from "../scripts/access.ts";
+import { verifyAccess } from "../scripts/access.ts";
 
 const app = {
   id: "123",
@@ -16,7 +16,7 @@ const allow = {
     { email: { email: "third@example.org" } },
   ],
 };
-function api(policies: unknown[], publicOverride = false): Carica {
+function api(policies: unknown[], publicOverride = false): Fetcher {
   return async (path) => {
     const apps = path.startsWith("/access/apps?");
     const page = Number(
@@ -45,16 +45,16 @@ function api(policies: unknown[], publicOverride = false): Carica {
     };
   };
 }
-test("verifica tutte le pagine e accetta la policy personale", async () => {
-  await verificaAccess(
+test("checks every page and accepts the personal policy", async () => {
+  await verifyAccess(
     api([allow, { decision: "deny" }]),
     app.domain,
     "owner@example.org",
   );
 });
-test("blocca indirizzi aggiuntivi o criteri generici", async () => {
+test("blocks extra addresses or generic rules", async () => {
   await assert.rejects(
-    verificaAccess(
+    verifyAccess(
       api([
         {
           decision: "allow",
@@ -67,50 +67,50 @@ test("blocca indirizzi aggiuntivi o criteri generici", async () => {
       app.domain,
       "owner@example.org",
     ),
-    /bloccato/,
+    /blocked/,
   );
   await assert.rejects(
-    verificaAccess(
+    verifyAccess(
       api([
         { decision: "allow", include: [...allow.include, { everyone: {} }] },
       ]),
       app.domain,
       "owner@example.org",
     ),
-    /bloccato/,
+    /blocked/,
   );
 });
-test("blocca un bypass in una pagina successiva", async () => {
+test("blocks a bypass on a later page", async () => {
   await assert.rejects(
-    verificaAccess(
+    verifyAccess(
       api([allow, { decision: "bypass" }]),
       app.domain,
       "owner@example.org",
     ),
-    /bloccato/,
+    /blocked/,
   );
 });
-test("blocca eccezioni pubbliche sul dominio", async () => {
+test("blocks public exceptions on the domain", async () => {
   await assert.rejects(
-    verificaAccess(api([allow], true), app.domain, "owner@example.org"),
-    /pubblica/,
+    verifyAccess(api([allow], true), app.domain, "owner@example.org"),
+    /Public/,
   );
 });
-test("blocca risposte senza paginazione verificabile", async () => {
+test("blocks responses without verifiable pagination", async () => {
   await assert.rejects(
-    verificaAccess(
+    verifyAccess(
       async () => ({ success: true, result: [app] }),
       app.domain,
       "owner@example.org",
     ),
-    /incompleta/,
+    /Incomplete/,
   );
 });
 
-test("blocca una seconda applicazione su un percorso del dominio", async () => {
+test("blocks a second application on a path of the domain", async () => {
   const base = api([allow]);
   await assert.rejects(
-    verificaAccess(
+    verifyAccess(
       async (path) => {
         if (path.startsWith("/access/apps?"))
           return {
@@ -119,7 +119,7 @@ test("blocca una seconda applicazione su un percorso del dominio", async () => {
               app,
               {
                 id: "456",
-                domain: `${app.domain}/pubblico`,
+                domain: `${app.domain}/public`,
                 type: "self_hosted",
               },
             ],
@@ -130,6 +130,6 @@ test("blocca una seconda applicazione su un percorso del dominio", async () => {
       app.domain,
       "owner@example.org",
     ),
-    /percorso/,
+    /paths/,
   );
 });

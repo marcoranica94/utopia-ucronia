@@ -8,9 +8,9 @@ dist/
 !.env.example
 .dev.vars*
 backup/
-rapporti/ripristino-*.json
-rapporti/*.png
-public/campione/
-src/content/opere/
+reports/restore-*.json
+reports/*.png
+public/sample/
+src/content/works/
 src/generated/
 *.tsbuildinfo

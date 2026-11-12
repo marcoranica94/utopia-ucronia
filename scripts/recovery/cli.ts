@@ -1,0 +1,163 @@
+import { appendFile, mkdir, readFile, writeFile } from "node:fs/promises";
+import path from "node:path";
+import { setTimeout as sleep } from "node:timers/promises";
+import { parseArgs } from "node:util";
+import type { ArchiveDocument } from "./core.ts";
+import {
+  captures,
+  isRecovered,
+  originalPath,
+  prepareData,
+  readManifest,
+  request,
+  safePath,
+  sha256,
+  urlKey,
+  verifyDocument,
+  writeJson,
+} from "./core.ts";
+import { discover } from "./discover.ts";
+
+const { positionals, values } = parseArgs({
+  allowPositionals: true,
+  options: {
+    only: { type: "string" },
+    batch: { type: "string", default: "10" },
+    pause: { type: "string", default: "30" },
+    delay: { type: "string", default: "2" },
+    "max-batches": { type: "string" },
+    "max-pages": { type: "string" },
+  },
+});
+const manifest = await readManifest();
+if (positionals[0] === "discover") {
+  await discover(
+    values["max-pages"] ? Number(values["max-pages"]) : Infinity,
+    Number(values.delay),
+  );
+} else if (positionals[0] === "verify") {
+  const recovered = manifest.documents.filter(isRecovered);
+  for (const d of recovered)
+    if (!(await verifyDocument(d)))
+      throw new Error(`Wrong hash or size: ${d.url}`);
+  console.log(
+    `${recovered.length} files verified; ${manifest.documents.length - recovered.length} URLs not recovered`,
+  );
+} else if (positionals[0] === "download") {
+  if (!values.only) throw new Error("S0 requires --only data/sample.json");
+  const selection = JSON.parse(await readFile(values.only, "utf8")) as {
+    documents: { url: string }[];
+  };
+  const batch = Number(values.batch),
+    delay = Number(values.delay),
+    batchPause = Number(values.pause);
+  const maxBatches = values["max-batches"]
+    ? Number(values["max-batches"])
+    : Infinity;
+  if (
+    ![batch, delay, batchPause].every(Number.isFinite) ||
+    !Number.isInteger(batch) ||
+    batch < 1 ||
+    batch > 10 ||
+    delay < 2 ||
+    batchPause < 30 ||
+    maxBatches < 1
+  )
+    throw new Error("Limits: batch 1–10, delay ≥ 2 s, pause ≥ 30 s");
+  let stop = false,
+    done = 0;
+  process.on("SIGINT", () => {
+    stop = true;
+    console.log("Finishing the current save before stopping.");
+  });
+  const seen = new Set<string>();
+  for (const { url } of selection.documents) {
+    if (stop || done >= batch * maxBatches) break;
+    const key = urlKey(url);
+    if (seen.has(key)) continue;
+    seen.add(key);
+    const index = manifest.documents.findIndex((d) => urlKey(d.url) === key);
+    const existing = manifest.documents[index];
+    if (existing && (await verifyDocument(existing))) {
+      console.log(`Already valid: ${url}`);
+      continue;
+    }
+    if (existing?.sha256 && isRecovered(existing))
+      throw new Error(
+        `Original altered or missing: ${url}. Restore it from the backup, without overwriting it.`,
+      );
+    const document: ArchiveDocument = {
+      url,
+      variants: [...new Set([...(existing?.variants ?? []), url])],
+      outcome: "failed attempt",
+    };
+    try {
+      const available = await captures(url);
+      await sleep(delay * 1000);
+      let transient = false;
+      for (let i = 0; i < available.length && !stop; i++) {
+        const c = available[i];
+        document.variants = [...new Set([...document.variants, c.original])];
+        try {
+          const r = await request(
+            `https://web.archive.org/web/${c.timestamp}id_/${c.original}`,
+          );
+          if (r.status === 404 || r.status === 410) continue;
+          if (!r.ok) throw new Error(`HTTP ${r.status}`);
+          const type = r.headers.get("content-type") ?? c.mimetype;
+          const { data, compressed } = prepareData(
+            new Uint8Array(await r.arrayBuffer()),
+            c.original,
+            type,
+          );
+          const relative = originalPath(url),
+            dest = safePath("archive/original", relative);
+          await mkdir(path.dirname(dest), { recursive: true });
+          try {
+            await writeFile(dest, data, { flag: "wx" });
+          } catch (error) {
+            if (
+              (error as NodeJS.ErrnoException).code !== "EEXIST" ||
+              sha256(await readFile(dest)) !== sha256(data)
+            )
+              throw error;
+          }
+          Object.assign(document, {
+            outcome: i ? "recovered from earlier copy" : "recovered",
+            path: relative,
+            timestamp: c.timestamp,
+            httpStatus: 200,
+            type,
+            size: data.length,
+            sha256: sha256(data),
+            compressed,
+          });
+          delete document.error;
+          break;
+        } catch (error) {
+          document.error = String(error);
+          if (/HTTP|fetch|timeout|network|Redirect/i.test(String(error)))
+            transient = true;
+        } finally {
+          await sleep(delay * 1000);
+        }
+      }
+      if (!document.sha256)
+        document.outcome = transient || stop ? "failed attempt" : "missing";
+    } catch (error) {
+      document.error = String(error);
+    }
+    if (index < 0) manifest.documents.push(document);
+    else manifest.documents[index] = document;
+    await writeJson("archive/manifest.json", manifest);
+    const line = `${new Date().toISOString()} ${document.outcome}: ${url}`;
+    await appendFile("archive/download.log", `${line}\n`);
+    console.log(line);
+    done++;
+    if (done % batch === 0 && !stop && done < batch * maxBatches)
+      await sleep(batchPause * 1000);
+  }
+} else
+  throw new Error(
+    "Commands: download --only data/sample.json | verify | discover [--max-pages N]. coverage and probe are planned for S1.",
+  );

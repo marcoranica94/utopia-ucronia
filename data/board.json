@@ -1,0 +1,47 @@
+{
+  "rules": [
+    {
+      "sprint": "S1",
+      "contains": "`recovery discover`",
+      "status": "doing",
+      "assignee": "Development",
+      "note": "Suspended on request: first Wayback page acquired, 293 URLs and 995 captures. Cursor saved; resume with tests and a check of the resume behavior."
+    },
+    {
+      "sprint": "S0",
+      "contains": "Visual comparison",
+      "status": "doing",
+      "assignee": "Development",
+      "note": "Browser test passed on desktop and emulated mobile, with axe, keyboard and text at 200%. Structured attributions to review in S2; demo on a physical phone after the deploy."
+    },
+    {
+      "sprint": "S0",
+      "contains": "Access application",
+      "status": "done",
+      "assignee": "Account",
+      "note": "Three authorized addresses verified; deploy succeeded and an anonymous request is redirected to the Cloudflare login."
+    },
+    {
+      "sprint": "S0",
+      "contains": "Automatic R2 sync",
+      "status": "done",
+      "assignee": "Development",
+      "note": "GitHub automatic backup completed; restore from the real bucket and build verified."
+    },
+    {
+      "sprint": "S0",
+      "contains": "Demo from a physical phone",
+      "status": "todo",
+      "assignee": "Marco",
+      "note": "Open utopia-ucronia.marcoranica.com on the phone, log in with one of the three authorized emails and check that a sample text reads well."
+    },
+    {
+      "sprint": "S0",
+      "contains": "Copy of the backup to the owner's drive",
+      "status": "backlog",
+      "assignee": "Marco",
+      "note": "The owner will copy the backup to their drive in the future. Postponed task, not blocking further development.",
+      "nonBlocking": true
+    }
+  ]
+}

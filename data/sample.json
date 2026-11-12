@@ -1,47 +1,50 @@
 {
-  "nota": "Campione selezionato dai collegamenti reali delle pagine recuperate; il frameset della Lista è incluso per dimostrare la necessità di seguirne i frame. Il rapporto registra eventuali copie assenti.",
-  "documenti": [
-    { "url": "https://www.fmboschetto.it/Utopiaucronia/", "ruolo": "home" },
+  "note": "Sample chosen from the real links of the recovered pages; the Lista frameset is included to show that its frames must be followed. The report records any missing captures.",
+  "documents": [
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/",
+      "role": "home"
+    },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie.htm",
-      "ruolo": "lista"
+      "role": "list"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/spotthePOD.htm",
-      "ruolo": "collettiva"
+      "role": "collective page"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/25071943.htm",
-      "ruolo": "opera spezzata, prima parte"
+      "role": "split work, part one"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/25071943_2.htm",
-      "ruolo": "opera spezzata, seconda parte"
+      "role": "split work, part two"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_1.htm",
-      "ruolo": "testo del frame della Lista"
+      "role": "text frame of the Lista"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Uchronies_en_Francais.htm",
-      "ruolo": "testo francese in sottocartella",
-      "lingua": "fr"
+      "role": "French text in a subfolder",
+      "language": "fr"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/logo.gif",
-      "ruolo": "immagine GIF"
+      "role": "GIF image"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/Anfora.gif",
-      "ruolo": "immagine GIF"
+      "role": "GIF image"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/futurecity.jpg",
-      "ruolo": "immagine JPEG"
+      "role": "JPEG image"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/Grande_Messico/Avanti_Sardegna.pdf",
-      "ruolo": "allegato PDF"
+      "role": "PDF attachment"
     }
   ]
 }

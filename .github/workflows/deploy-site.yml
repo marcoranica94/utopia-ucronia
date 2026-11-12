@@ -1,4 +1,4 @@
-name: Verifica e deploy del sito
+name: Verify and deploy the site
 
 on:
   push:
@@ -6,8 +6,8 @@ on:
   pull_request:
   workflow_dispatch:
     inputs:
-      verifica_access:
-        description: Verifica la configurazione Access senza pubblicare
+      verify_access:
+        description: Verify the Access configuration without publishing
         type: boolean
         default: false
 
@@ -15,15 +15,17 @@ permissions:
   contents: read
 
 concurrency:
-  group: sito-${{ github.ref }}
+  group: site-${{ github.ref }}
   cancel-in-progress: false
 
+# Secret and variable names (ACCESS_EMAIL_PROPRIETARIO, DEPLOY_ABILITATO,
+# BACKUP_R2_ABILITATO) are kept as configured in the GitHub repository settings.
 jobs:
-  verifica:
+  verify:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Checkout con archivio LFS
+      - name: Checkout with the LFS archive
         uses: actions/checkout@v7
         with:
           lfs: true
@@ -34,41 +36,41 @@ jobs:
         with:
           node-version: 24
           cache: pnpm
-      - name: Dipendenze bloccate
+      - name: Locked dependencies
         run: pnpm install --frozen-lockfile
-      - name: Test degli script
+      - name: Script tests
         run: pnpm test
-      - name: Controllo stile
+      - name: Style check
         run: pnpm lint
-      - name: Integrità degli originali
-        run: pnpm recupero verifica
-      - name: Conversione, tipi, build e collegamenti
+      - name: Integrity of the originals
+        run: pnpm recovery verify
+      - name: Conversion, types, build and links
         run: pnpm build
-      - name: Conserva i rapporti di conversione
+      - name: Keep the conversion report
         uses: actions/upload-artifact@v6
         with:
-          name: rapporti-conversione
-          path: rapporti/conversione.json
+          name: conversion-report
+          path: reports/conversion.json
           retention-days: 14
-      - name: Verifica Access prima di pubblicare
-        if: github.event_name != 'pull_request' && (vars.DEPLOY_ABILITATO == 'true' || inputs.verifica_access == true)
-        run: pnpm deploy:verifica
+      - name: Verify Access before publishing
+        if: github.event_name != 'pull_request' && (vars.DEPLOY_ABILITATO == 'true' || inputs.verify_access == true)
+        run: pnpm deploy:verify
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          ACCESS_EMAIL_PROPRIETARIO: ${{ secrets.ACCESS_EMAIL_PROPRIETARIO }}
-      - name: Deploy privato su Cloudflare
+          ACCESS_OWNER_EMAIL: ${{ secrets.ACCESS_EMAIL_PROPRIETARIO }}
+      - name: Private deploy to Cloudflare
         if: github.event_name != 'pull_request' && vars.DEPLOY_ABILITATO == 'true'
         run: pnpm exec wrangler deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      - name: Backup degli originali su R2
+      - name: Back up the originals to R2
         if: github.event_name != 'pull_request' && vars.BACKUP_R2_ABILITATO == 'true'
         run: pnpm backup --r2
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      - name: Deploy in attesa della configurazione
+      - name: Deploy waiting for configuration
         if: github.event_name != 'pull_request' && vars.DEPLOY_ABILITATO != 'true'
-        run: echo '::notice::Build verificata. Configurare Access, segreti e DEPLOY_ABILITATO prima del deploy.'
+        run: echo '::notice::Build verified. Configure Access, secrets and DEPLOY_ABILITATO before deploying.'

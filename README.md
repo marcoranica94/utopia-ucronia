@@ -1,75 +1,78 @@
 # UtopiaUcronia
 
-Archivio storico personale e nuova edizione del sito UtopiaUcronia. Il sito è destinato al solo proprietario, dietro Cloudflare Access.
+Personal historical archive and new edition of the UtopiaUcronia site. The site is meant for the owner only, behind Cloudflare Access.
 
-Analisi e piano: [docs/analisi.md](docs/analisi.md), [docs/piano-di-sviluppo.md](docs/piano-di-sviluppo.md). Stato della prima prova: [docs/stato-s0.md](docs/stato-s0.md).
+Analysis and plan: [docs/analysis.md](docs/analysis.md), [docs/development-plan.md](docs/development-plan.md). Status of the first trial: [docs/status-s0.md](docs/status-s0.md).
 
-La [board Kanban](board.html) si apre direttamente nel browser, anche senza server e senza rete. Ha colonne Backlog, Da fare, In corso, In attesa e Completato, filtri per sprint e assegnatario, ricerca e schede apribili con dettagli e dipendenze. Le attività provengono dal piano; stati operativi, assegnatari e rinvii da `contenuti/board.json`. Dopo un aggiornamento eseguire `pnpm board`. La board non modifica il piano e non salva spostamenti locali che potrebbero falsare lo stato del lavoro.
+The [Kanban board](board.html) opens directly in the browser, even without a server or network. It has Backlog, To do, In progress, Waiting and Done columns, filters by sprint and assignee, search, and cards that open with details and dependencies. Tasks come from the plan; operational statuses, assignees and postponements from `data/board.json`. After an update run `pnpm board`. The board does not modify the plan and does not save local moves that could misrepresent the state of the work.
 
-La copia sul drive del proprietario è rinviata a sua cura: resta da fare ma, per sua indicazione, non blocca lo sviluppo.
+The copy to the owner's drive is postponed, to be done by the owner: it is still to do but, as the owner decided, it does not block development.
 
-## Avvio
+## Getting started
 
-Node 24 LTS, pnpm 12.18.0 e Git LFS. Le versioni delle dipendenze sono bloccate dal lockfile.
+Node 24 LTS, pnpm 12.18.0 and Git LFS. Dependency versions are locked by the lockfile.
 
 ```sh
 git lfs install --local
 pnpm install --frozen-lockfile
-pnpm recupero verifica
+pnpm recovery verify
 pnpm build
 pnpm preview
 ```
 
-La build rigenera i Markdown dai file recuperati, valida lo schema, genera il sito statico, controlla collegamenti e contenuti attivi e confronta integralmente i testi del campione con le fonti. Per sviluppare: `pnpm dev`, dopo la prima conversione. Per gli script: `pnpm test`; per tipi e stile: `pnpm exec tsc --noEmit` e `pnpm lint`.
+The build regenerates the Markdown from the recovered files, validates the schema, generates the static site, checks links and active content and fully compares the sample texts with their sources. To develop: `pnpm dev`, after the first conversion. For the scripts: `pnpm test`; for types and style: `pnpm exec tsc --noEmit` and `pnpm lint`.
 
-## Contenuti
+## Contents
 
-- `archivio/originale/`: file originali immutabili, **mai serviti dal sito**; nessuna conversione dei fine riga da parte di Git. Immagini e PDF sono in LFS.
-- `archivio/manifest.json`: provenienza, data, dimensione e SHA-256 di ogni documento.
-- `contenuti/campione.json`: selezione iniziale, con ruolo e lingua dove verificata.
-- `src/content/opere/`: Markdown generati, con metadati validati; non modificare a mano.
-- `contenuti/correzioni/<slug>.json`: eventuali correzioni persistenti, elenco di oggetti `{ "da": "testo esistente", "a": "testo corretto" }`. Una correzione non applicabile blocca la build.
-- `rapporti/`: lacune e confronto con le fonti, inclusi gli aspetti ancora da verificare.
+- `archive/original/`: immutable original files, **never served by the site**; Git does not convert their line endings. Images and PDFs are in LFS.
+- `archive/manifest.json`: provenance, date, size and SHA-256 of every document.
+- `archive/queue.json`: discovery queue from the Wayback CDX index, with resume cursor.
+- `data/sample.json`: initial selection, with role and language where verified.
+- `src/content/works/`: generated Markdown, with validated metadata; do not edit by hand.
+- `data/corrections/<slug>.json`: optional persistent corrections, a list of objects `{ "from": "existing text", "to": "corrected text" }`. A correction that cannot be applied blocks the build.
+- `reports/`: gaps and comparison with the sources, including the aspects still to verify.
 
-In S0 i documenti sono rappresentati uno per pagina, come prova di lettura. Separazione degli spunti, unione delle opere spezzate e attribuzioni strutturate arrivano in S2. Il frameset della Lista non diventa un’opera vuota: il collegamento porta al frame di testo recuperato. I PDF sono conservati ma esclusi dall’output finché non sono verificati e preparati per la consultazione.
+In S0 documents are represented one per page, as a reading trial. Splitting prompts, merging split works and structured attributions come in S2. The Lista frameset does not become an empty work: the link leads to the recovered text frame. PDFs are kept but excluded from the output until they are checked and prepared for reading.
 
 ```sh
-pnpm recupero scarica --solo contenuti/campione.json --lotto 10 --pausa 30 --attesa 2
-pnpm recupero verifica
+pnpm recovery download --only data/sample.json --batch 10 --pause 30 --delay 2
+pnpm recovery verify
 ```
 
-Il recupero usa solo Wayback, una richiesta alla volta. I file già integri non si riscaricano; un originale alterato blocca l’operazione e richiede un ripristino. I comandi di scoperta completa e copertura appartengono a S1.
+Recovery uses only the Wayback, one request at a time. Files that are already intact are not downloaded again; an altered original blocks the operation and requires a restore. The full discovery and coverage commands belong to S1.
 
-## Backup sul tuo drive
+## Backup to your drive
 
 ```sh
 pnpm backup
 ```
 
-Il comando crea una cartella in `backup/`, con originali e manifest, e verifica gli hash della copia. Copia **l’intera cartella stampata dal comando** sul tuo drive. Finché rimane sul computer del progetto non è un backup indipendente. Non servono accesso al drive o credenziali per sviluppare il sito.
+The command creates a folder in `backup/`, with originals and manifest, and verifies the copy's hashes. Copy **the whole folder printed by the command** to your drive. As long as it stays on the project computer it is not an independent backup. No drive access or credentials are needed to develop the site.
 
-Per verificare la copia, indica la cartella contenente `manifest.json` e `originale/`:
+To verify the copy, point to the folder containing `manifest.json` and `original/`:
 
 ```sh
-pnpm ripristino:prova --da /percorso/della/copia
+pnpm restore:test --from /path/to/the/copy
 ```
 
-La prova clona il repository locale in una cartella temporanea, elimina l’archivio del clone, ricostruisce i file esclusivamente dalla copia indicata, verifica gli hash, reinstalla le dipendenze dal lockfile ed esegue la build completa. Non modifica il progetto né il backup. La rete serve per le dipendenze, non per recuperare di nuovo i documenti. `--offline` è disponibile solo con una cache pnpm completa. Il rapporto resta in `rapporti/ripristino-*.json`.
+The test clones the local repository into a temporary folder, deletes the clone's archive, rebuilds the files exclusively from the given copy, verifies the hashes, reinstalls the dependencies from the lockfile and runs the full build. It modifies neither the project nor the backup. The network is needed for dependencies, not to recover the documents again. `--offline` is available only with a complete pnpm cache. The report stays in `reports/restore-*.json`.
 
-Per provare il ripristino usando esclusivamente il bucket come sorgente dei documenti: `pnpm ripristino:prova --r2`. Servono le credenziali Cloudflare in ambiente. Il manifest e gli oggetti vengono scaricati in una cartella temporanea nuova, con verifica dei percorsi e degli hash prima di ricostruire il clone. Il percorso di download è coperto da test senza rete (copia integra, oggetto corrotto, percorso non sicuro); il collaudo contro il bucket reale resta necessario.
+To test the restore using only the bucket as the source of the documents: `pnpm restore:test --r2`. Cloudflare credentials are needed in the environment. Manifest and objects are downloaded into a new temporary folder, with path and hash checks before the clone is rebuilt. The download path is covered by tests without network (intact copy, corrupt object, unsafe path); testing against the real bucket is still necessary.
 
-## Configurazione Cloudflare e GitHub
+## Cloudflare and GitHub configuration
 
-Il workflow esegue test, lint, verifica dell’archivio, build e confronto anche senza credenziali Cloudflare. Il deploy è inizialmente disabilitato.
+The workflow runs tests, lint, archive verification, build and comparison even without Cloudflare credentials. Deploy is initially disabled.
 
-Prima di abilitarlo:
+Before enabling it:
 
-1. Configurare Access per l’intero dominio `utopia-ucronia.marcoranica.com`, senza restrizioni di percorso, con una policy Allow per i tre indirizzi email scelti dal proprietario e nessun bypass. Sessione proposta: 30 giorni.
-2. Aggiungere al repository i segreti `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `ACCESS_EMAIL_PROPRIETARIO`. Il token deve consentire anche la lettura di applicazioni e policy Access, oltre al deploy del Worker.
-3. Impostare la variabile del repository `DEPLOY_ABILITATO=true`. A ogni deploy `pnpm deploy:verifica` controlla tramite API dominio e policy; se non può provarli, fallisce prima della pubblicazione.
-4. Il bucket **privato** `utopia-ucronia-archivio` è stato creato; caricamento e ripristino dal bucket reale sono riusciti. Dare al token i permessi R2 necessari e impostare `BACKUP_R2_ABILITATO=true` per collaudare la sincronizzazione automatica. `pnpm backup --r2` carica i file verificati e il manifest per ultimo.
-5. Dopo il deploy verificare il login da finestra anonima e la lettura dal telefono.
+1. Configure Access for the whole domain `utopia-ucronia.marcoranica.com`, with no path restrictions, an Allow policy for the three email addresses chosen by the owner and no bypass. Proposed session: 30 days.
+2. Add the secrets `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `ACCESS_EMAIL_PROPRIETARIO` to the repository (the workflow passes the last one to the code as `ACCESS_OWNER_EMAIL`). Besides deploying the Worker, the token must also be able to read Access applications and policies.
+3. Set the repository variable `DEPLOY_ABILITATO=true`. On every deploy `pnpm deploy:verify` checks domain and policies via the API; if it cannot prove them, it fails before publishing.
+4. The **private** bucket `utopia-ucronia-archivio` has been created; upload and restore from the real bucket succeeded. Give the token the needed R2 permissions and set `BACKUP_R2_ABILITATO=true` to test the automatic sync. `pnpm backup --r2` uploads the verified files and the manifest last.
+5. After the deploy, check the login from a private window and reading from the phone.
 
-`workers_dev` e `preview_urls` sono disabilitati; non esistono un Worker applicativo, SSR o database. Per controllare la configurazione senza pubblicare: `pnpm exec wrangler deploy --dry-run`.
+The GitHub secret and variable names and the bucket name stay in Italian because they live in external configuration.
 
-Le pull request non eseguono deploy né backup remoti. Non inserire mai token o file `.env` nel repository.
+`workers_dev` and `preview_urls` are disabled; there is no application Worker, SSR or database. To check the configuration without publishing: `pnpm exec wrangler deploy --dry-run`.
+
+Pull requests run neither deploys nor remote backups. Never put tokens or `.env` files in the repository.

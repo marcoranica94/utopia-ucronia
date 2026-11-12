@@ -2,19 +2,19 @@ import { defineCollection } from "astro:content";
 import { glob } from "astro/loaders";
 import { z } from "zod";
 
-const opere = defineCollection({
-  loader: glob({ pattern: "**/*.md", base: "./src/content/opere" }),
+const works = defineCollection({
+  loader: glob({ pattern: "**/*.md", base: "./src/content/works" }),
   schema: z.object({
-    titolo: z.string(),
-    autori: z.array(z.string()),
-    lingua: z.enum(["it", "fr", "es"]),
-    livello: z.literal("opera"),
-    divergenze: z.array(z.number().int()),
-    origine: z.array(
+    title: z.string(),
+    authors: z.array(z.string()),
+    language: z.enum(["it", "fr", "es"]),
+    level: z.literal("work"),
+    divergences: z.array(z.number().int()),
+    sources: z.array(
       z.object({ url: z.url(), timestamp: z.string().regex(/^\d{14}$/) }),
     ),
-    da_verificare: z.array(z.string()),
-    lacune: z.number().int().nonnegative(),
+    unverified: z.array(z.string()),
+    gaps: z.number().int().nonnegative(),
   }),
 });
-export const collections = { opere };
+export const collections = { works };

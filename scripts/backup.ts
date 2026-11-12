@@ -5,29 +5,26 @@ import { copyFile, mkdir } from "node:fs/promises";
 import path from "node:path";
 import { parseArgs } from "node:util";
 import {
-  leggiManifest,
-  percorsoSicuro,
-  verificaDocumento,
-} from "./recupero/core.ts";
+  isRecovered,
+  readManifest,
+  safePath,
+  verifyDocument,
+} from "./recovery/core.ts";
 
 const { values } = parseArgs({
-  options: { destinazione: { type: "string" }, r2: { type: "boolean" } },
+  options: { destination: { type: "string" }, r2: { type: "boolean" } },
 });
-const manifest = await leggiManifest();
-const documenti = manifest.documenti.filter((d) =>
-  d.esito.startsWith("recuperato"),
-);
-if (!documenti.length)
-  throw new Error(
-    "Nessun file recuperato: il backup vuoto non dimostra la conservazione",
-  );
-for (const d of documenti)
-  if (!(await verificaDocumento(d)))
-    throw new Error(`Originale non integro: ${d.url}`);
+const manifest = await readManifest();
+const documents = manifest.documents.filter(isRecovered);
+if (!documents.length)
+  throw new Error("No recovered files: an empty backup proves no preservation");
+for (const d of documents)
+  if (!(await verifyDocument(d)))
+    throw new Error(`Original not intact: ${d.url}`);
 if (values.r2) {
   if (!process.env.CLOUDFLARE_API_TOKEN || !process.env.CLOUDFLARE_ACCOUNT_ID)
-    throw new Error("Credenziali Cloudflare mancanti");
-  for (const d of documenti) {
+    throw new Error("Missing Cloudflare credentials");
+  for (const d of documents) {
     const r = spawnSync(
       "pnpm",
       [
@@ -36,16 +33,16 @@ if (values.r2) {
         "r2",
         "object",
         "put",
-        `utopia-ucronia-archivio/originale/${d.percorso}`,
+        `utopia-ucronia-archivio/original/${d.path}`,
         "--file",
-        percorsoSicuro("archivio/originale", d.percorso ?? ""),
+        safePath("archive/original", d.path ?? ""),
         "--remote",
       ],
       { stdio: "inherit" },
     );
-    if (r.status !== 0) throw new Error(`Backup R2 fallito: ${d.percorso}`);
+    if (r.status !== 0) throw new Error(`R2 backup failed: ${d.path}`);
   }
-  // Manifest pubblicato per ultimo: non dichiara file non ancora caricati.
+  // Manifest uploaded last: it never lists files that are not yet uploaded.
   const r = spawnSync(
     "pnpm",
     [
@@ -56,42 +53,38 @@ if (values.r2) {
       "put",
       "utopia-ucronia-archivio/manifest.json",
       "--file",
-      "archivio/manifest.json",
+      "archive/manifest.json",
       "--remote",
     ],
     { stdio: "inherit" },
   );
-  if (r.status !== 0) throw new Error("Backup manifest R2 fallito");
+  if (r.status !== 0) throw new Error("R2 manifest backup failed");
 } else {
-  const base =
-    values.destinazione ?? process.env.BACKUP_DESTINAZIONE ?? "backup";
+  const base = values.destination ?? process.env.BACKUP_DESTINATION ?? "backup";
   const dest = path.resolve(
     base,
     `utopia-ucronia-${new Date().toISOString().replaceAll(":", "-")}-${randomUUID().slice(0, 8)}`,
   );
-  if (dest.startsWith(`${path.resolve("archivio")}${path.sep}`))
-    throw new Error("Il backup deve stare fuori dall’archivio");
+  if (dest.startsWith(`${path.resolve("archive")}${path.sep}`))
+    throw new Error("The backup must be outside the archive");
   await mkdir(dest, { recursive: true });
-  for (const d of documenti) {
-    const target = percorsoSicuro(
-      path.join(dest, "originale"),
-      d.percorso ?? "",
-    );
+  for (const d of documents) {
+    const target = safePath(path.join(dest, "original"), d.path ?? "");
     await mkdir(path.dirname(target), { recursive: true });
     await copyFile(
-      percorsoSicuro("archivio/originale", d.percorso ?? ""),
+      safePath("archive/original", d.path ?? ""),
       target,
       constants.COPYFILE_EXCL,
     );
-    if (!(await verificaDocumento(d, dest)))
-      throw new Error(`Copia non integra: ${d.percorso}`);
+    if (!(await verifyDocument(d, dest)))
+      throw new Error(`Copy not intact: ${d.path}`);
   }
   await copyFile(
-    "archivio/manifest.json",
+    "archive/manifest.json",
     path.join(dest, "manifest.json"),
     constants.COPYFILE_EXCL,
   );
   console.log(
-    `Backup verificato (${documenti.length} file): ${dest}\nCopia questa cartella sul tuo drive. Finché rimane qui non è una copia indipendente.`,
+    `Backup verified (${documents.length} files): ${dest}\nCopy this folder to your drive. As long as it stays here it is not an independent copy.`,
   );
 }

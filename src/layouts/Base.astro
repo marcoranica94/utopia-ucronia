@@ -2,22 +2,22 @@
 import "../styles/base.css";
 
 interface Props {
-  titolo: string;
-  lingua?: string;
+  title: string;
+  language?: string;
 }
-const { titolo, lingua = "it" } = Astro.props;
+const { title, language = "en" } = Astro.props;
 ---
 <!doctype html>
-<html lang={lingua}>
+<html lang={language}>
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{titolo} | UtopiaUcronia</title>
+    <title>{title} | UtopiaUcronia</title>
   </head>
   <body>
-    <a class="salta" href="#contenuto">Vai al contenuto</a>
-    <header><a href="/">UtopiaUcronia</a><span>Archivio personale</span></header>
-    <main id="contenuto"><slot /></main>
-    <footer>Una raccolta di storie possibili. Edizione in preparazione.</footer>
+    <a class="skip" href="#content" lang="en">Skip to content</a>
+    <header lang="en"><a href="/">UtopiaUcronia</a><span>Personal archive</span></header>
+    <main id="content"><slot /></main>
+    <footer lang="en">A collection of possible stories. Edition in progress.</footer>
   </body>
 </html>

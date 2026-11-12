@@ -1,0 +1,19 @@
+---
+import { getCollection, render } from "astro:content";
+import Base from "../../layouts/Base.astro";
+export async function getStaticPaths() {
+  return (await getCollection("works")).map((work) => ({
+    params: { slug: work.id },
+    props: { work },
+  }));
+}
+const { work } = Astro.props;
+const { Content } = await render(work);
+---
+<Base title={work.data.title} language={work.data.language}>
+  <nav aria-label="Breadcrumb" lang="en"><a href="/">Reading sample</a></nav>
+  <h1>{work.data.title}</h1>
+  <aside class="note" lang="en">Recovered text, awaiting editorial comparison. {work.data.gaps > 0 && <a href="/gaps/">Some links or images are not available yet.</a>}</aside>
+  <article><Content /></article>
+  <section class="sources" aria-label="Provenance" lang="en"><h2>Provenance</h2>{work.data.sources.map((s) => <p>Wayback capture of {s.timestamp.slice(0,4)}-{s.timestamp.slice(4,6)}-{s.timestamp.slice(6,8)}.</p>)}</section>
+</Base>

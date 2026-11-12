@@ -1,10 +1,10 @@
 {
-  "data": "2026-11-11T16:21:01.433Z",
-  "strumenti": {
+  "date": "2026-11-11T16:21:01.433Z",
+  "tools": {
     "playwright": "1.62.1",
     "axe": "4.13.0"
   },
-  "risultati": [
+  "results": [
     {
       "url": "http://127.0.0.1:4322/",
       "scheme": "light",
