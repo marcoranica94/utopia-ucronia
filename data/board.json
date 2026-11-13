@@ -59,9 +59,10 @@
     {
       "sprint": "S0",
       "contains": "Automatic R2 sync",
-      "status": "done",
+      "status": "backlog",
       "assignee": "Development",
-      "note": "GitHub automatic backup completed; restore from the real bucket and build verified."
+      "note": "R2 sync was tested in S0, then paused by the owner on 13 November 2026. The bucket is empty and original archive uploads are disabled until a selective policy is agreed.",
+      "nonBlocking": true
     },
     {
       "sprint": "S0",

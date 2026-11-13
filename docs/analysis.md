@@ -219,15 +219,11 @@ flowchart LR
 
 Search indexes only the new edition: the browsable copy is excluded, so no result appears twice. From every content item a link leads to its source page.
 
-**Backup and restore.** Hashes and manifest detect a change, but they don't bring back a lost file. The untouched archive lives in three places:
-
-1. the private GitHub repository, with heavy binary files in Git LFS;
-2. an R2 bucket on Cloudflare, updated by the GitHub Action on every change to `archive/`;
-3. a copy on a disk of mine, updated by hand after every recovery.
+**Backup and restore.** Hashes and manifest detect a change, but they don't bring back a lost file. The untouched archive is currently in the private GitHub repository, with heavy binary files in Git LFS. The owner paused R2 uploads of `original/` on 13/11/2026 and the bucket was emptied. The additional copy on the owner's disk remains planned.
 
 Owner update of 11/11/2026: the third copy will be saved to the owner's drive in the future, by the owner. It remains planned and is not done, but it is postponed and does not block development. No drive access is required to work on the project.
 
-The restore is actually tested: from a clean clone or from the R2 bucket alone, the archive is rebuilt, all hashes are verified and the site is rebuilt. The test has a command (`pnpm restore:test`) and closes the foundations sprint.
+The restore from a clean clone was tested: the archive was rebuilt, all hashes verified and the site rebuilt. The R2 restore was tested before uploads were paused; it is unavailable while the bucket is empty.
 
 ## Work phases
 

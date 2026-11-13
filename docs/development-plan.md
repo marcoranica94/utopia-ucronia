@@ -106,7 +106,7 @@ The tree is an extra view, not the base: reading, catalog, search and filters wo
 
 A push to `main` builds, checks and publishes to `utopia-ucronia.marcoranica.com`. Access must be configured **before** the first deploy, so the site is never visible without login, not even for a minute.
 
-In the S0 implementation the deploy also requires `DEPLOY_ABILITATO=true` and the Access check via API. Besides the two Cloudflare secrets it needs `ACCESS_EMAIL_PROPRIETARIO` (read by the code as `ACCESS_OWNER_EMAIL`); the token must be able to read Access applications and policies. R2 sync is enabled separately with `BACKUP_R2_ABILITATO=true`. These GitHub secret and variable names stay in Italian because they live in the repository settings. Without this configuration the workflow verifies the build and does not publish. Details in the README.
+In the S0 implementation the deploy also requires `DEPLOY_ABILITATO=true` and the Access check via API. Besides the two Cloudflare secrets it needs `ACCESS_EMAIL_PROPRIETARIO` (read by the code as `ACCESS_OWNER_EMAIL`); the token must be able to read Access applications and policies. R2 sync was paused by the owner on 13/11/2026, regardless of the old `BACKUP_R2_ABILITATO` variable. These GitHub secret and variable names stay in Italian because they live in the repository settings. Without this configuration the workflow verifies the build and does not publish. Details in the README.
 
 **`wrangler.jsonc`:**
 
@@ -130,7 +130,7 @@ In the S0 implementation the deploy also requires `DEPLOY_ABILITATO=true` and th
 4. `pnpm build`: conversion, `astro check`, build, Pagefind index;
 5. link check on `dist/`: an unexplained unresolved link blocks the deploy;
 6. `wrangler deploy`, only if the secrets exist, otherwise a notice and the build stays verified;
-7. if `archive/` changed, sync to the R2 backup bucket.
+7. R2 archive sync is paused; the workflow does not upload `original/`.
 
 On a pull request branch steps 1–5 run without deploy.
 
@@ -159,7 +159,7 @@ On a pull request branch steps 1–5 run without deploy.
 - [x] Restore from a clean clone succeeded: 11 files rebuilt only from the backup, hashes verified, dependencies reinstalled and full build passed
 - [x] `restore:test --r2` path implemented and verified with simulated objects: intact copy, corrupt file and unsafe path
 - [x] R2 bucket created, sample uploaded and restore from the real bucket verified in a clean clone
-- [x] Automatic R2 sync from the GitHub Action configured and tested
+- [ ] Automatic R2 sync paused by the owner; define a selective policy before re-enabling it
 - [x] Demo from a physical phone: the owner confirms access and display of the sample; the provisional design will be revisited in later epics
 - [ ] Copy of the backup to the owner's drive (postponed by the owner, who will do it; does not block development)
 

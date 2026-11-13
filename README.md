@@ -67,7 +67,7 @@ pnpm restore:test --from /path/to/the/copy
 
 The test clones the local repository into a temporary folder, deletes the clone's archive, rebuilds the files exclusively from the given copy, verifies the hashes, reinstalls the dependencies from the lockfile and runs the full build. It modifies neither the project nor the backup. The network is needed for dependencies, not to recover the documents again. `--offline` is available only with a complete pnpm cache. The report stays in `reports/restore-*.json`.
 
-To test the restore using only the bucket as the source of the documents: `pnpm restore:test --r2`. Cloudflare credentials are needed in the environment. Manifest and objects are downloaded into a new temporary folder, with path and hash checks before the clone is rebuilt. The download path is covered by tests without network (intact copy, corrupt object, unsafe path); testing against the real bucket is still necessary.
+The R2 restore path (`pnpm restore:test --r2`) was tested before R2 uploads were paused. It cannot run while the bucket is empty. Its download and validation logic remains covered by offline tests.
 
 ## Cloudflare and GitHub configuration
 
@@ -78,11 +78,11 @@ Before enabling it:
 1. Configure Access for the whole domain `utopia-ucronia.marcoranica.com`, with no path restrictions, an Allow policy for the three email addresses chosen by the owner and no bypass. Proposed session: 30 days.
 2. Add the secrets `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, `ACCESS_EMAIL_PROPRIETARIO` to the repository (the workflow passes the last one to the code as `ACCESS_OWNER_EMAIL`). Besides deploying the Worker, the token must also be able to read Access applications and policies.
 3. Set the repository variable `DEPLOY_ABILITATO=true`. On every deploy `pnpm deploy:verify` checks domain and policies via the API; if it cannot prove them, it fails before publishing.
-4. The **private** bucket `utopia-ucronia-archivio` has been created; upload and restore from the real bucket succeeded. Give the token the needed R2 permissions and set `BACKUP_R2_ABILITATO=true` to test the automatic sync. `pnpm backup --r2` uploads the verified files and the manifest last.
+4. R2 archive uploads are paused at the owner's request. The bucket `utopia-ucronia-archivio` is empty; `pnpm backup --r2` refuses to upload originals. The archive remains in the private GitHub repository with binaries in LFS. A selective R2 policy can be designed later.
 5. After the deploy, check the login from a private window and reading from the phone.
 
 The GitHub secret and variable names and the bucket name stay in Italian because they live in external configuration.
 
 `workers_dev` and `preview_urls` are disabled; there is no application Worker, SSR or database. To check the configuration without publishing: `pnpm exec wrangler deploy --dry-run`.
 
-Pull requests run neither deploys nor remote backups. Never put tokens or `.env` files in the repository.
+Pull requests run no deploys. The workflow currently runs no remote backup. Never put tokens or `.env` files in the repository.

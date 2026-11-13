@@ -400,9 +400,13 @@ p {
     font-size: 1.2rem;
   }
   .site-nav {
+    order: 2;
     width: 100%;
     gap: 1.5rem;
     min-height: 42px;
+  }
+  .theme-toggle {
+    order: 1;
   }
   .header-note {
     display: none;

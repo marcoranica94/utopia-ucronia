@@ -460,9 +460,13 @@ p {
     font-size: 1.25rem;
   }
   .topbar nav {
+    order: 2;
     width: 100%;
     gap: 1.4rem;
     min-height: 42px;
+  }
+  .theme-toggle {
+    order: 1;
   }
   .topbar nav a {
     font-size: 0.9rem;

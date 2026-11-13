@@ -18,12 +18,17 @@ for (const file of await pages("dist")) {
   const html = await readFile(file, "utf8");
   const $ = load(html);
   const isCatalog = file === path.join("dist", "index.html");
+  const unexpectedScripts = $("script")
+    .toArray()
+    .filter((script) => !isCatalog && $(script).attr("src") !== "/theme.js");
   if (
-    (!isCatalog && $("script,iframe,form,object,embed").length) ||
+    unexpectedScripts.length ||
+    $("iframe,object,embed").length ||
+    (!isCatalog && $("form").length) ||
     /mailto:|[\w.+-]+@[\w.-]+\.[a-z]{2,}/i.test($("body").text())
   )
     errors.push(`${file}: active code or email`);
-  for (const el of $("a[href],img[src],link[href]").toArray()) {
+  for (const el of $("a[href],img[src],link[href],script[src]").toArray()) {
     const href = $(el).attr("href") ?? $(el).attr("src") ?? "";
     if (/^https?:/.test(href)) continue;
     const u = new URL(
