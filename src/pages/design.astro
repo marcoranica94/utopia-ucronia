@@ -1,0 +1,78 @@
+---
+import "@fontsource/titillium-web/latin-400.css";
+import "@fontsource/titillium-web/latin-600.css";
+import "@fontsource/titillium-web/latin-700.css";
+import "../styles/design.css";
+
+const stories = [
+  {
+    id: "luglio-1943",
+    title: "25 luglio 1943",
+    subtitle: "Ordine del giorno Farinacci",
+    category: "Storia contemporanea",
+    kind: "Racconto lungo",
+    language: "Italiano",
+    lang: "it",
+    image: null,
+    imageAlt: "",
+    marker: "1943",
+    source: "25071943.htm · 25071943_2.htm",
+    excerpt:
+      "Tutto parte da una frase en passant di Hurmar, il quale prima di partire per le vacanze estive 2007 ci scrive: «Vado a Cefalonia a pensare ucronie per salvare i soldati abbandonati là dall’Italia!»",
+    designNote:
+      "Il testo prosegue in un secondo file: nella versione completa i due capitoli avranno una navigazione continua.",
+  },
+  {
+    id: "spot-the-pod",
+    title: "Spot the POD",
+    subtitle: "Un esercizio di mondi possibili",
+    category: "Medioevo · 1000–1050",
+    kind: "Opera collettiva",
+    language: "Italiano",
+    lang: "it",
+    image: "/design/spot-the-pod.gif",
+    imageAlt: "Mappa originale di Spot the POD",
+    marker: "POD",
+    source: "spotthePOD.htm",
+    excerpt:
+      "La cartina sottostante è stata disegnata e colorata da me ad inventiva: il gioco di ruolo consiste nel proporre uno (o due) punti di divergenza che arrivino a questa situazione.",
+    designNote:
+      "La mappa e i contributi di più autori devono rimanere vicini ai passaggi che li spiegano.",
+  },
+  {
+    id: "akhenaton",
+    title: "Akhénaton superstar!",
+    subtitle: "Une autre histoire d’Aton",
+    category: "Antico Egitto",
+    kind: "Ucronia in francese",
+    language: "Français",
+    lang: "fr",
+    image: "/design/akhenaton.jpg",
+    imageAlt: "Illustrazione originale di Akhénaton superstar",
+    marker: "ATON",
+    source: "uchroniesenfrancais/Akhenaton.htm",
+    excerpt:
+      "Voilà une uchronie où le monothéisme d’Aton inventé par le pharaon hérétique Amenhotep IV/Akhénaton se développe et survit, changeant l’évolution culturelle et religieuse du monde.",
+    designNote:
+      "La lingua è riconoscibile già nell’elenco e resta associata al testo durante la lettura.",
+  },
+];
+---
+<!doctype html>
+<html lang="it">
+  <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>Anteprima grafica · UtopiaUcronia</title></head>
+  <body>
+    <a class="skip-link" href="#contenuto">Vai al contenuto</a>
+    <header class="topbar"><div class="topbar-inner"><a class="brand" href="/" aria-label="UtopiaUcronia, pagina iniziale"><svg class="brand-mark" viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 29V17M16 20 7 11M16 17l9-9M7 11 4 5M7 11l2-6M25 8l-2-5M25 8l4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="4" cy="5" r="2" fill="currentColor"/><circle cx="9" cy="5" r="2" fill="currentColor"/><circle cx="23" cy="3" r="2" fill="currentColor"/><circle cx="29" cy="4" r="2" fill="currentColor"/></svg><span>UtopiaUcronia</span></a><nav aria-label="Navigazione anteprima"><a class="active" href="#inizio" aria-current="page">Panoramica</a><a href="#raccolta">Ucronie</a><a href="#lettura">Lettura</a></nav><span class="preview-label">Anteprima grafica</span></div></header>
+    <main id="contenuto" class="container">
+      <section id="inizio" class="page-intro" aria-labelledby="page-title"><div><p class="context">Un archivio di storie possibili</p><h1 id="page-title">Tre ucronie, tre modi di leggere</h1><p>Una prima prova del catalogo e della pagina di lettura, costruita con testi e immagini recuperati dall’archivio.</p></div><p class="intro-count">3 opere campione<br />2 lingue</p></section>
+      <div class="overview">
+        <section class="overview-panel" aria-labelledby="overview-title"><div class="panel-heading"><h2 id="overview-title">L’albero delle possibilità</h2><span>Ogni ramo, una storia</span></div><svg class="branch-tree" viewBox="0 0 520 300" fill="none" aria-hidden="true"><path class="tree-trunk" d="M260 300V258C260 241 260 230 260 218"/><path class="tree-major" d="M260 255C238 238 198 230 180 204M260 255C282 238 322 230 340 204M180 204C153 187 129 173 111 144M180 204C204 186 220 171 224 143M340 204C314 183 300 164 298 141M340 204C365 184 392 174 409 145"/><path class="tree-minor" d="M111 144C88 126 75 109 67 80M111 144C117 118 127 103 143 77M224 143C203 123 189 104 184 75M224 143C240 116 246 98 249 69M298 141C280 119 272 96 270 67M298 141C312 113 327 96 340 73M409 145C390 122 379 103 376 77M409 145C429 118 440 104 454 80"/><path class="tree-twigs" d="M67 80 46 42M67 80 75 38M143 77 126 35M143 77 160 37M184 75 174 33M184 75 205 31M249 69 233 30M249 69 261 29M270 67 267 27M270 67 289 29M340 73 321 30M340 73 354 32M376 77 368 38M376 77 395 36M454 80 437 40M454 80 470 42"/><g class="tree-leaves"><circle cx="46" cy="42" r="4"/><circle cx="75" cy="38" r="4"/><circle cx="126" cy="35" r="4"/><circle cx="160" cy="37" r="4"/><circle cx="174" cy="33" r="4"/><circle cx="205" cy="31" r="4"/><circle cx="233" cy="30" r="4"/><circle cx="261" cy="29" r="4"/><circle cx="267" cy="27" r="4"/><circle cx="289" cy="29" r="4"/><circle cx="321" cy="30" r="4"/><circle cx="354" cy="32" r="4"/><circle cx="368" cy="38" r="4"/><circle cx="395" cy="36" r="4"/><circle cx="437" cy="40" r="4"/><circle cx="470" cy="42" r="4"/></g><g class="tree-selected"><circle cx="111" cy="144" r="7"/><circle cx="298" cy="141" r="7"/><circle cx="454" cy="80" r="7"/></g></svg><ol class="tree-links">{stories.map((story, index) => <li><a href={`#${story.id}`}><span>0{index + 1}</span>{story.title}</a></li>)}</ol></section>
+        <section class="featured" aria-labelledby="featured-title"><p class="context accent">Da dove cominciare</p><h2 id="featured-title">25 luglio 1943</h2><p>Una frase su Cefalonia apre una storia alternativa che continua in due documenti. È il caso più utile per provare la lettura di un testo lungo.</p><a class="primary-action" href="#luglio-1943">Apri l’anteprima <span aria-hidden="true">→</span></a><p class="featured-foot">Racconto lungo · Italiano</p></section>
+      </div>
+      <section id="raccolta" class="collection" aria-labelledby="collection-title"><div class="section-head"><div><p class="context">La raccolta</p><h2 id="collection-title">Le tre ucronie</h2></div><p>Testi reali, formati diversi. Le immagini restano associate alle opere da cui provengono.</p></div><div class="work-list">{stories.map((story) => <article class="work-row"><a class="work-thumb" href={`#${story.id}`} aria-label={`Vai a ${story.title}`}>{story.image ? <img src={story.image} alt={story.imageAlt} loading="lazy" /> : <span aria-hidden="true">{story.marker}</span>}</a><div class="work-info"><p class="work-meta">{story.kind} · {story.language}</p><h3><a href={`#${story.id}`} lang={story.lang}>{story.title}</a></h3><p lang={story.lang}>{story.subtitle}</p></div><a class="row-action" href={`#${story.id}`} aria-label={`Leggi l’anteprima di ${story.title}`}>Leggi <span aria-hidden="true">→</span></a></article>)}</div></section>
+      <section id="lettura" class="reading" aria-labelledby="reading-title"><div class="section-head"><div><p class="context">Lettura</p><h2 id="reading-title">Il testo al centro</h2></div><p>Un’anteprima breve per verificare spazio, gerarchia e provenienza prima della conversione completa.</p></div>{stories.map((story) => <article class="reading-item" id={story.id}><div class="reading-meta"><span>{story.kind}</span><span>{story.language}</span></div><div class="reading-body"><div><h3 lang={story.lang}>{story.title}</h3><p class="reading-subtitle" lang={story.lang}>{story.subtitle}</p><p class="reading-excerpt" lang={story.lang}>{story.excerpt}</p><p class="source">Fonte recuperata: {story.source}</p></div>{story.image && <figure><img src={story.image} alt={story.imageAlt} loading="lazy" /><figcaption>Immagine dalla pagina originale</figcaption></figure>}</div><p class="design-note"><strong>Da risolvere nella versione completa</strong> {story.designNote}</p></article>)}</section>
+    </main>
+    <footer class="footer"><div class="container"><span>UtopiaUcronia</span><p>Anteprima grafica con tre opere recuperate. Struttura editoriale e testi in revisione.</p><a href="#inizio">Torna su ↑</a></div></footer>
+  </body>
+</html>

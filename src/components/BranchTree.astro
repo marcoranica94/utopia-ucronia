@@ -1,0 +1,33 @@
+---
+interface Props {
+  links?: { href: string; label: string }[];
+}
+const { links = [] } = Astro.props;
+const points = [
+  { x: 111, y: 144 },
+  { x: 298, y: 141 },
+  { x: 454, y: 80 },
+];
+---
+<svg class="branch-tree" viewBox="0 0 520 300" fill="none" aria-hidden={links.length === 0 ? "true" : undefined} role={links.length ? "group" : undefined} aria-label={links.length ? "Tre ucronie nell’albero delle possibilità" : undefined}>
+  <path class="trunk" d="M260 300V258C260 241 260 230 260 218" />
+  <path class="major" d="M260 255C238 238 198 230 180 204M260 255C282 238 322 230 340 204M180 204C153 187 129 173 111 144M180 204C204 186 220 171 224 143M340 204C314 183 300 164 298 141M340 204C365 184 392 174 409 145" />
+  <path class="minor" d="M111 144C88 126 75 109 67 80M111 144C117 118 127 103 143 77M224 143C203 123 189 104 184 75M224 143C240 116 246 98 249 69M298 141C280 119 272 96 270 67M298 141C312 113 327 96 340 73M409 145C390 122 379 103 376 77M409 145C429 118 440 104 454 80" />
+  <path class="twigs" d="M67 80 46 42M67 80 75 38M143 77 126 35M143 77 160 37M184 75 174 33M184 75 205 31M249 69 233 30M249 69 261 29M270 67 267 27M270 67 289 29M340 73 321 30M340 73 354 32M376 77 368 38M376 77 395 36M454 80 437 40M454 80 470 42" />
+  <g class="leaves"><circle cx="46" cy="42" r="4" /><circle cx="75" cy="38" r="4" /><circle cx="126" cy="35" r="4" /><circle cx="160" cy="37" r="4" /><circle cx="174" cy="33" r="4" /><circle cx="205" cy="31" r="4" /><circle cx="233" cy="30" r="4" /><circle cx="261" cy="29" r="4" /><circle cx="267" cy="27" r="4" /><circle cx="289" cy="29" r="4" /><circle cx="321" cy="30" r="4" /><circle cx="354" cy="32" r="4" /><circle cx="368" cy="38" r="4" /><circle cx="395" cy="36" r="4" /><circle cx="437" cy="40" r="4" /><circle cx="470" cy="42" r="4" /></g>
+  <g class="selected">{points.map((point, index) => links[index] ? <a href={links[index].href} aria-label={links[index].label}><circle class="hit-area" cx={point.x} cy={point.y} r="20" /><circle cx={point.x} cy={point.y} r="7" /></a> : <circle cx={point.x} cy={point.y} r="7" />)}</g>
+</svg>
+<style>
+  .branch-tree { display: block; width: 100%; height: var(--tree-height, 174px); }
+  .trunk, .major, .minor, .twigs { stroke: var(--branch); stroke-linecap: round; stroke-linejoin: round; }
+  .trunk { stroke-width: 8; }
+  .major { stroke-width: 5; }
+  .minor { stroke-width: 3; }
+  .twigs { stroke-width: 1.7; opacity: .75; }
+  .leaves { fill: #b2bbbf; opacity: .75; }
+  .selected { fill: #f3a371; stroke: var(--night); stroke-width: 2; }
+  .selected a { cursor: pointer; }
+  .selected .hit-area { fill: transparent; stroke: none; }
+  .selected a:hover circle:not(.hit-area), .selected a:focus-visible circle:not(.hit-area) { fill: white; stroke: var(--accent); stroke-width: 4; }
+  .selected a:focus-visible { outline: none; }
+</style>

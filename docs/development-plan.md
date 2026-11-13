@@ -98,7 +98,7 @@ From uni-portale we take the method, not the look. There a strong, informative i
 - **"What if…?":** a button opens a random content item, starting from its divergence.
 - **Site history:** the 2004 home page reconstructed by us in a frame, with the text that follows the mouse, as a tribute.
 
-The tree is an extra view, not the base: reading, catalog, search and filters work on their own and come first (S3). The tree comes in S5, tested with real data and the hard cases.
+The tree is an extra view, not the base: reading, catalog, search and filters work on their own and come first (S3). A three-work navigation prototype and title/language filters are now available; the full tree comes in S5, tested with verified divergence data and the hard cases.
 
 **Method, as in uni-portale:** `frontend-design` skill loaded before touching the design, and clichés to avoid (cream background, monospace for data, highlighted word in the title, labels above every heading, identical cards). Two competing directions with real content. Testing at 320, 390, 768, 1024 and 1440 px, light and dark, text at 200%, axe with no WCAG A/AA violations.
 
@@ -169,12 +169,12 @@ Demo: from the phone, behind login, I read the converted sample content; the res
 
 ### S1 · Recovery
 
-Started on 11/11/2026 and suspended at the owner's request: first CDX page acquired, 293 URLs found and 995 captures recorded; resume cursor kept in `archive/queue.json`. Details in [status-s1.md](status-s1.md).
+Started on 11/11/2026 and resumed on 12/11/2026. The CDX index and recovered-page link scan are complete; the remaining archive gaps are documented in [status-s1.md](status-s1.md).
 
 - [x] Repository translated to English (docs, code, data formats, site UI, URLs): manifest and queue migrated to the English fields, hashes re-verified
-- [ ] `recovery discover`: queue from CDX and from link scanning, with the available captures for each URL
-- [ ] Script tests on recorded responses, without network: error pages, gzip, truncated files
-- [ ] Full `recovery download` in the background, in batches of 10
+- [x] `recovery discover`: queue from CDX and from link scanning, with the available captures for each URL
+- [x] Script tests on recorded responses, without network: error pages, gzip, truncated files
+- [x] Full recovery download in the background, in batches of 20
 - [ ] `recovery coverage` and manual search for gaps in other archives
 - [ ] Choice of the reference date for `/original/`
 
@@ -207,7 +207,7 @@ Demo: from the phone I find a work by remembering just one sentence, and from th
 - [ ] Progressive review of the map: first worlds and pages to split or merge
 - [ ] Eras fixed and theme list closed
 - [ ] Pages for worlds, authors, eras, places and themes; language filter
-- [ ] Two design directions for reading and catalog, with real content; choice and `tokens.css`
+- [x] Two design directions for reading and catalog, with real content; choice and `tokens.css`
 - [ ] View Transitions between catalog and reading, if they improve orientation
 
 Demo: the chosen direction, on phone and desktop, light and dark; filters work even on content not yet reviewed.

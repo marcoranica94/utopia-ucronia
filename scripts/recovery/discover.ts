@@ -29,7 +29,11 @@ type Queue = {
 };
 const source = "www.fmboschetto.it/Utopiaucronia/*";
 
-export async function discover(maxPages: number, delay: number): Promise<void> {
+export async function discover(
+  maxPages: number,
+  delay: number,
+  fetchPage = request,
+): Promise<void> {
   if (
     (!Number.isInteger(maxPages) && maxPages !== Infinity) ||
     maxPages < 1 ||
@@ -80,13 +84,8 @@ export async function discover(maxPages: number, delay: number): Promise<void> {
   const manifest = await readManifest();
   for (const d of manifest.documents) {
     add(d.url);
-    if (!d.path || !/text\/html/i.test(d.type ?? "") || !isRecovered(d))
-      continue;
-    const $ = load(
-      decode(await readFile(safePath("archive/original", d.path))),
-    );
-    $("a[href],img[src],frame[src],link[href]").each((_i, el) => {
-      const href = $(el).attr("href") ?? $(el).attr("src");
+    if (!d.path || !isRecovered(d)) continue;
+    const addLink = (href: string | undefined) => {
       if (!href || href.startsWith("#")) return;
       try {
         const u = new URL(href, d.url);
@@ -95,8 +94,42 @@ export async function discover(maxPages: number, delay: number): Promise<void> {
       } catch {
         /* Malformed URL in the source. */
       }
+    };
+    const addCss = (css: string) => {
+      for (const match of css.matchAll(/url\(\s*['"]?([^'"\s)]+)['"]?\s*\)/gi))
+        addLink(match[1]);
+      for (const match of css.matchAll(/@import\s+["']([^"']+)["']/gi))
+        addLink(match[1]);
+    };
+    if (/\.css$/i.test(new URL(d.url).pathname)) {
+      addCss(decode(await readFile(safePath("archive/original", d.path))));
+      continue;
+    }
+    if (!/text\/html/i.test(d.type ?? "")) continue;
+    const $ = load(
+      decode(await readFile(safePath("archive/original", d.path))),
+    );
+    $("a[href],area[href],link[href]").each((_i, el) =>
+      addLink($(el).attr("href")),
+    );
+    $(
+      "img[src],frame[src],iframe[src],source[src],input[src],video[poster],object[data],embed[src],bgsound[src]",
+    ).each((_i, el) => {
+      addLink($(el).attr("src") ?? $(el).attr("poster") ?? $(el).attr("data"));
+    });
+    $("[background]").each((_i, el) => addLink($(el).attr("background")));
+    $("[srcset]").each((_i, el) => {
+      for (const candidate of ($(el).attr("srcset") ?? "").split(","))
+        addLink(candidate.trim().split(/\s+/)[0]);
+    });
+    $("[style],style").each((_i, el) => {
+      const css = $(el).attr("style") ?? $(el).text();
+      addCss(css);
     });
   }
+  // Persist links even if the first CDX request fails.
+  queue.documents = [...entries.values()];
+  await writeJson("archive/queue.json", queue);
   let count = 0;
   while (!queue.complete && count < maxPages) {
     const query = new URLSearchParams({
@@ -108,7 +141,7 @@ export async function discover(maxPages: number, delay: number): Promise<void> {
       showResumeKey: "true",
     });
     if (queue.resumeKey) query.set("resumeKey", queue.resumeKey);
-    const response = await request(
+    const response = await fetchPage(
       `https://web.archive.org/cdx/search/cdx?${query}`,
     );
     if (!response.ok) throw new Error(`CDX HTTP ${response.status}`);

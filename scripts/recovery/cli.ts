@@ -16,6 +16,7 @@ import {
   verifyDocument,
   writeJson,
 } from "./core.ts";
+import { coverage } from "./coverage.ts";
 import { discover } from "./discover.ts";
 
 const { positionals, values } = parseArgs({
@@ -25,6 +26,7 @@ const { positionals, values } = parseArgs({
     batch: { type: "string", default: "10" },
     pause: { type: "string", default: "30" },
     delay: { type: "string", default: "2" },
+    concurrency: { type: "string", default: "1" },
     "max-batches": { type: "string" },
     "max-pages": { type: "string" },
   },
@@ -35,6 +37,8 @@ if (positionals[0] === "discover") {
     values["max-pages"] ? Number(values["max-pages"]) : Infinity,
     Number(values.delay),
   );
+} else if (positionals[0] === "coverage") {
+  await coverage();
 } else if (positionals[0] === "verify") {
   const recovered = manifest.documents.filter(isRecovered);
   for (const d of recovered)
@@ -44,13 +48,24 @@ if (positionals[0] === "discover") {
     `${recovered.length} files verified; ${manifest.documents.length - recovered.length} URLs not recovered`,
   );
 } else if (positionals[0] === "download") {
-  if (!values.only) throw new Error("S0 requires --only data/sample.json");
-  const selection = JSON.parse(await readFile(values.only, "utf8")) as {
-    documents: { url: string }[];
+  const selection = JSON.parse(
+    await readFile(values.only ?? "archive/queue.json", "utf8"),
+  ) as {
+    documents: {
+      url: string;
+      variants?: string[];
+      captures?: { url: string; timestamp: string; type: string }[];
+    }[];
+    complete?: boolean;
   };
+  if (!values.only && !selection.complete)
+    throw new Error(
+      "Discovery is incomplete; finish it before downloading the full queue",
+    );
   const batch = Number(values.batch),
     delay = Number(values.delay),
-    batchPause = Number(values.pause);
+    batchPause = Number(values.pause),
+    concurrency = Number(values.concurrency);
   const maxBatches = values["max-batches"]
     ? Number(values["max-batches"])
     : Infinity;
@@ -58,12 +73,17 @@ if (positionals[0] === "discover") {
     ![batch, delay, batchPause].every(Number.isFinite) ||
     !Number.isInteger(batch) ||
     batch < 1 ||
-    batch > 10 ||
+    batch > 30 ||
+    !Number.isInteger(concurrency) ||
+    concurrency < 1 ||
+    concurrency > 10 ||
     delay < 2 ||
     batchPause < 30 ||
     maxBatches < 1
   )
-    throw new Error("Limits: batch 1–10, delay ≥ 2 s, pause ≥ 30 s");
+    throw new Error(
+      "Limits: batch 1–30, concurrency 1–10, delay ≥ 2 s, pause ≥ 30 s",
+    );
   let stop = false,
     done = 0;
   process.on("SIGINT", () => {
@@ -71,28 +91,32 @@ if (positionals[0] === "discover") {
     console.log("Finishing the current save before stopping.");
   });
   const seen = new Set<string>();
-  for (const { url } of selection.documents) {
-    if (stop || done >= batch * maxBatches) break;
-    const key = urlKey(url);
-    if (seen.has(key)) continue;
-    seen.add(key);
-    const index = manifest.documents.findIndex((d) => urlKey(d.url) === key);
-    const existing = manifest.documents[index];
-    if (existing && (await verifyDocument(existing))) {
-      console.log(`Already valid: ${url}`);
-      continue;
-    }
-    if (existing?.sha256 && isRecovered(existing))
-      throw new Error(
-        `Original altered or missing: ${url}. Restore it from the backup, without overwriting it.`,
-      );
+  let save = Promise.resolve();
+  const downloadOne = async (
+    item: (typeof selection.documents)[number],
+    existing: ArchiveDocument | undefined,
+  ) => {
+    const { url } = item;
     const document: ArchiveDocument = {
       url,
       variants: [...new Set([...(existing?.variants ?? []), url])],
       outcome: "failed attempt",
     };
     try {
+      const indexed = (item.captures ?? []).map((c) => ({
+        timestamp: c.timestamp,
+        original: c.url,
+        mimetype: c.type,
+      }));
       const available = await captures(url);
+      for (const c of indexed)
+        if (
+          !available.some(
+            (v) => v.timestamp === c.timestamp && v.original === c.original,
+          )
+        )
+          available.push(c);
+      available.sort((a, b) => b.timestamp.localeCompare(a.timestamp));
       await sleep(delay * 1000);
       let transient = false;
       for (let i = 0; i < available.length && !stop; i++) {
@@ -147,15 +171,50 @@ if (positionals[0] === "discover") {
     } catch (error) {
       document.error = String(error);
     }
-    if (index < 0) manifest.documents.push(document);
-    else manifest.documents[index] = document;
-    await writeJson("archive/manifest.json", manifest);
-    const line = `${new Date().toISOString()} ${document.outcome}: ${url}`;
-    await appendFile("archive/download.log", `${line}\n`);
-    console.log(line);
-    done++;
-    if (done % batch === 0 && !stop && done < batch * maxBatches)
-      await sleep(batchPause * 1000);
+    save = save.then(async () => {
+      const index = manifest.documents.findIndex(
+        (d) => urlKey(d.url) === urlKey(url),
+      );
+      if (index < 0) manifest.documents.push(document);
+      else manifest.documents[index] = document;
+      await writeJson("archive/manifest.json", manifest);
+      const line = `${new Date().toISOString()} ${document.outcome}: ${url}`;
+      await appendFile("archive/download.log", `${line}\n`);
+      console.log(line);
+    });
+    await save;
+  };
+  let active: Promise<void>[] = [];
+  const finish = async () => {
+    const results = await Promise.allSettled(active);
+    active = [];
+    const failure = results.find((r) => r.status === "rejected");
+    if (failure?.status === "rejected") throw failure.reason;
+  };
+  try {
+    for (const item of selection.documents) {
+      const { url } = item;
+      if (stop || done >= batch * maxBatches) break;
+      const key = urlKey(url);
+      if (seen.has(key)) continue;
+      seen.add(key);
+      const existing = manifest.documents.find((d) => urlKey(d.url) === key);
+      if (!values.only && existing?.outcome === "missing") continue;
+      if (existing && (await verifyDocument(existing))) continue;
+      if (existing?.sha256 && isRecovered(existing))
+        throw new Error(
+          `Original altered or missing: ${url}. Restore it from the backup, without overwriting it.`,
+        );
+      if (active.length) await sleep(delay * 1000);
+      if (stop) break;
+      active.push(downloadOne(item, existing));
+      done++;
+      if (active.length >= concurrency || done % batch === 0) await finish();
+      if (done % batch === 0 && !stop && done < batch * maxBatches)
+        await sleep(batchPause * 1000);
+    }
+  } finally {
+    await finish();
   }
 } else
   throw new Error(

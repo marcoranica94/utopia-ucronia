@@ -3,16 +3,51 @@
     {
       "sprint": "S1",
       "contains": "`recovery discover`",
+      "status": "done",
+      "assignee": "Development",
+      "note": "The CDX index was exhausted after 10 pages. Repeated scans of recovered HTML and CSS expanded the queue to 6,985 URLs, including images and referring-page links."
+    },
+    {
+      "sprint": "S1",
+      "contains": "Full recovery download",
+      "status": "done",
+      "assignee": "Development",
+      "note": "All 6,985 queued URLs were checked through Wayback and/or the original server. Coverage is 6,878 recovered (98.5%); 107 unresolved URLs are documented. Final retry and hash verification completed on 13 November 2026."
+    },
+    {
+      "sprint": "S1",
+      "contains": "`recovery coverage`",
       "status": "doing",
       "assignee": "Development",
-      "note": "Suspended on request: first Wayback page acquired, 293 URLs and 995 captures. Cursor saved; resume with tests and a check of the resume behavior."
+      "note": "Coverage report is complete: 6,878 of 6,985 queued URLs recovered. The 107 unresolved URLs need a targeted search in other archives and gap classification."
+    },
+    {
+      "sprint": "S4",
+      "contains": "Two design directions for reading and catalog",
+      "status": "done",
+      "assignee": "Development",
+      "note": "The owner chose the clean branching-tree direction after rejecting the ornate and uni-portale-like prototypes. Shared tokens, catalog, reading page, light/dark themes and three-work preview are implemented."
+    },
+    {
+      "sprint": "S4",
+      "contains": "Pages for worlds, authors, eras, places and themes",
+      "status": "doing",
+      "assignee": "Development",
+      "note": "The sample catalog now filters titles and language, and keeps the filters in the URL. World, author, era, place and theme pages await structured metadata from S2."
+    },
+    {
+      "sprint": "S5",
+      "contains": "Divergence tree, tested with the hard cases",
+      "status": "doing",
+      "assignee": "Development",
+      "note": "A responsive three-work navigation prototype is available at /tree/, with clickable and keyboard-accessible branch points plus text links. The full dated tree and hard-case checks await verified divergence metadata."
     },
     {
       "sprint": "S0",
       "contains": "Visual comparison",
-      "status": "doing",
+      "status": "done",
       "assignee": "Development",
-      "note": "Browser test passed on desktop and emulated mobile, with axe, keyboard and text at 200%. Structured attributions to review in S2; demo on a physical phone after the deploy."
+      "note": "Browser and physical phone checks passed. Structured attributions will be reviewed in S2; the provisional design will be revisited in S4."
     },
     {
       "sprint": "S0",
@@ -31,9 +66,9 @@
     {
       "sprint": "S0",
       "contains": "Demo from a physical phone",
-      "status": "todo",
+      "status": "done",
       "assignee": "Marco",
-      "note": "Open utopia-ucronia.marcoranica.com on the phone, log in with one of the three authorized emails and check that a sample text reads well."
+      "note": "The owner confirmed access and display of the sample on a physical phone."
     },
     {
       "sprint": "S0",

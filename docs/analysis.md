@@ -161,13 +161,15 @@ A document can feed several content items and a content item can come from sever
 
 ## Design direction
 
+The owner chose the restrained branching-tree direction on 13 November 2026 after rejecting an ornate editorial prototype and a version too close to uni-portale. The implemented palette is slate blue, warm white and copper (`src/styles/tokens.css`). Titillium Web is served locally for the interface; Georgia is the reading face. The branch mark appears in navigation, and the tree is the single prominent graphic on the sample catalog and the three-work preview. The actual catalog and reading pages now share these tokens in light and dark themes. The compact top navigation remains visible on phones; a bottom bar would duplicate the reference project without helping this small archive navigation.
+
 The proposed metaphor is the **forking timeline**. Real history is a thin line, and every work is a branch that leaves it in the year of its divergence. The metaphor is used only where it informs.
 
 - **Divergence tree:** the map of branches from antiquity to the future, dense where uchronias are many (twentieth century, Rome). Tapping a branch opens the work.
 - **Reading page:** at the top the divergence ("What if in 1848…"), then author, world, attachments and a link to the source page. Text in a book-like column (65–70 characters), clickable notes, side table of contents for long texts.
 - **Catalog:** filters by era, place, theme, kind, author and language, which combine and stay in the URL.
 - **Typefaces:** a reading serif for long texts and a single sans for the interface, both served locally with `@fontsource`. The exact choice is made in the prototypes.
-- **Themes:** light and dark, mobile-first, bottom navigation on phones as in uni-portale.
+- **Themes:** light and dark, mobile-first, compact top navigation on phones.
 - **Tribute to the old site:** a "Site history" page with logo, amphora, original background, the phrase "dove tutto è possibile!" and a reconstruction of the 2004 home page in a frame.
 
 The tree is an extra view of the catalog, not the basis of navigation: titles, authors, search and filters work on their own. It is tested early with real data and the hard cases: missing dates, long titles, dozens of works in the same century, a phone screen. The 2004 home page in the Site history is a reconstruction written by us, not the original page with its scripts.

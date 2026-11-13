@@ -11,7 +11,13 @@ const works = defineCollection({
     level: z.literal("work"),
     divergences: z.array(z.number().int()),
     sources: z.array(
-      z.object({ url: z.url(), timestamp: z.string().regex(/^\d{14}$/) }),
+      z.object({
+        url: z.url(),
+        timestamp: z
+          .string()
+          .regex(/^\d{14}$/)
+          .optional(),
+      }),
     ),
     unverified: z.array(z.string()),
     gaps: z.number().int().nonnegative(),

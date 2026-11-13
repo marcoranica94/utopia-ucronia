@@ -12,6 +12,7 @@
     "dev": "astro dev --host 0.0.0.0",
     "preview": "astro preview --host 0.0.0.0",
     "recovery": "node scripts/recovery/cli.ts",
+    "recovery:origin": "node scripts/recovery/origin.ts",
     "convert": "node scripts/convert.ts",
     "check": "astro check",
     "build": "pnpm convert && astro check && astro build && pnpm links:check && pnpm compare:sample",
@@ -25,6 +26,7 @@
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "0.4.8",
+    "@fontsource/titillium-web": "5.3.0",
     "astro": "7.4.10",
     "cheerio": "1.2.0",
     "iconv-lite": "0.7.3",

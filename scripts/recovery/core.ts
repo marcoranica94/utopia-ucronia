@@ -28,6 +28,10 @@ export const documentSchema = z.object({
     .optional(),
   compressed: z.boolean().optional(),
   error: z.string().optional(),
+  source: z.enum(["wayback", "origin"]).optional(),
+  retrievedAt: z.iso.datetime().optional(),
+  fetchedFrom: z.url().optional(),
+  lastModified: z.string().optional(),
 });
 export const manifestSchema = z.object({
   version: z.literal(1),

@@ -1,13 +1,50 @@
 ---
 import { getCollection } from "astro:content";
+import BranchTree from "../components/BranchTree.astro";
 import Base from "../layouts/Base.astro";
 
-const works = await getCollection("works");
+const works = (await getCollection("works")).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title, "it"),
+);
 ---
-<Base title="Reading sample">
-  <h1>The stories that might have been.</h1>
-  <p>The first sample of the UtopiaUcronia archive, recovered so its texts can be read again.</p>
-  <h2>Reading sample</h2>
-  {works.length ? <ul class="catalog">{works.map((work) => <li><a href={`/works/${work.id}/`} lang={work.data.language}>{work.data.title}</a><span>{work.data.language.toUpperCase()}</span></li>)}</ul> : <p>Recovery of the first documents is under way. The texts will appear here once the available captures have been checked.</p>}
-  <p class="note">This is a conversion trial. Structure, attributions and fidelity of the texts have yet to be compared with the sources.</p>
+<Base title="Le storie possibili">
+  <div class="home-top">
+    <div class="page-intro"><p class="page-kicker">Un archivio di storie possibili</p><h1 class="page-title">Le storie che avrebbero potuto essere</h1><p class="page-lede">UtopiaUcronia raccoglie racconti, mappe e idee di storia alternativa. Questa è la prima selezione convertita dall’archivio recuperato.</p></div>
+    <aside class="home-feature" aria-labelledby="feature-title"><h2 id="feature-title">Ogni storia apre un ramo</h2><BranchTree /><p>Tre punti di partenza, molte strade possibili. L’albero guida alle prime ucronie campione.</p><a href="/tree/">Esplora l’albero delle ucronie</a></aside>
+  </div>
+  <section aria-labelledby="catalog-title"><div class="section-heading"><h2 id="catalog-title">Documenti del campione</h2><p id="catalog-count" aria-live="polite">{works.length} testi disponibili</p></div><form class="catalog-filters" role="search" aria-label="Filtra i documenti"><label for="catalog-search">Cerca un titolo<input id="catalog-search" type="search" name="q" autocomplete="off" placeholder="Es. 25 luglio" /></label><label for="catalog-language">Lingua<select id="catalog-language" name="lang"><option value="">Tutte le lingue</option><option value="it">Italiano</option><option value="fr">Francese</option><option value="es">Spagnolo</option></select></label></form>{works.length ? <><ul class="catalog">{works.map((work) => <li data-work data-title={work.data.title} data-language={work.data.language}><div><a href={`/works/${work.id}/`} lang={work.data.language}>{work.data.title}</a><small>{work.data.gaps > 0 ? "Contiene collegamenti o immagini da verificare" : "Testo recuperato"}</small></div><span class="language-tag">{work.data.language.toUpperCase()}</span></li>)}</ul><p id="catalog-empty" class="small-note" hidden>Nessun documento corrisponde ai filtri. Prova un altro titolo o una lingua diversa.</p></> : <p class="small-note">I primi testi appariranno qui dopo la conversione.</p>}</section>
+  <p class="small-note">La raccolta è in revisione: titoli, attribuzioni e collegamenti saranno controllati durante la conversione editoriale.</p>
 </Base>
+<script>
+  const search = document.querySelector<HTMLInputElement>("#catalog-search");
+  const language = document.querySelector<HTMLSelectElement>("#catalog-language");
+  const count = document.querySelector<HTMLElement>("#catalog-count");
+  const empty = document.querySelector<HTMLElement>("#catalog-empty");
+  const items = [...document.querySelectorAll<HTMLLIElement>("[data-work]")];
+  if (search && language && count) {
+    const url = new URL(location.href);
+    search.value = url.searchParams.get("q") ?? "";
+    language.value = url.searchParams.get("lang") ?? "";
+    const fold = (value: string) => value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLocaleLowerCase("it");
+    const update = (saveUrl: boolean) => {
+      const query = fold(search.value.trim());
+      let shown = 0;
+      for (const item of items) {
+        const match = fold(item.dataset.title ?? "").includes(query) && (!language.value || item.dataset.language === language.value);
+        item.hidden = !match;
+        if (match) shown++;
+      }
+      count.textContent = `${shown} ${shown === 1 ? "testo disponibile" : "testi disponibili"}`;
+      if (empty) empty.hidden = shown > 0;
+      if (saveUrl) {
+        if (search.value.trim()) url.searchParams.set("q", search.value.trim()); else url.searchParams.delete("q");
+        if (language.value) url.searchParams.set("lang", language.value); else url.searchParams.delete("lang");
+        history.replaceState(null, "", url);
+      }
+    };
+    search.addEventListener("input", () => update(true));
+    language.addEventListener("change", () => update(true));
+    document.querySelector(".catalog-filters")?.addEventListener("submit", (event) => event.preventDefault());
+    update(false);
+  }
+</script>

@@ -1,23 +1,23 @@
 ---
+import "@fontsource/titillium-web/latin-400.css";
+import "@fontsource/titillium-web/latin-600.css";
+import "@fontsource/titillium-web/latin-700.css";
 import "../styles/base.css";
 
 interface Props {
   title: string;
   language?: string;
 }
-const { title, language = "en" } = Astro.props;
+const { title, language = "it" } = Astro.props;
+const path = Astro.url.pathname;
 ---
 <!doctype html>
 <html lang={language}>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title} | UtopiaUcronia</title>
-  </head>
+  <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><title>{title} | UtopiaUcronia</title></head>
   <body>
-    <a class="skip" href="#content" lang="en">Skip to content</a>
-    <header lang="en"><a href="/">UtopiaUcronia</a><span>Personal archive</span></header>
-    <main id="content"><slot /></main>
-    <footer lang="en">A collection of possible stories. Edition in progress.</footer>
+    <a class="skip" href="#content" lang="it">Vai al contenuto</a>
+    <header class="site-header" lang="it"><div class="site-header-inner"><a class="brand" href="/" aria-label="UtopiaUcronia, pagina iniziale"><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 29V17M16 20 7 11M16 17l9-9M7 11 4 5M7 11l2-6M25 8l-2-5M25 8l4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="4" cy="5" r="2" fill="currentColor"/><circle cx="9" cy="5" r="2" fill="currentColor"/><circle cx="23" cy="3" r="2" fill="currentColor"/><circle cx="29" cy="4" r="2" fill="currentColor"/></svg><span>UtopiaUcronia</span></a><nav class="site-nav" aria-label="Navigazione principale"><a href="/" aria-current={path === "/" ? "page" : undefined}>Ucronie</a><a href="/tree/" aria-current={path.startsWith("/tree") ? "page" : undefined}>Albero</a><a href="/design/" aria-current={path.startsWith("/design") ? "page" : undefined}>Anteprima</a></nav><span class="header-note">Archivio personale di storie possibili</span></div></header>
+    <main class="page-shell" id="content"><slot /></main>
+    <footer class="site-footer" lang="it"><div class="site-footer-inner"><strong>UtopiaUcronia</strong><p>Archivio in lavorazione. Testi e attribuzioni in revisione.</p></div></footer>
   </body>
 </html>

@@ -45,6 +45,8 @@ Decisions of 11/11/2026, revised after a critical review of the plan.
 
 ## Recovery rules
 
+Owner update, 12 November 2026: the ten-image origin trial succeeded, and the owner explicitly authorized autonomous recovery from the original server. This supersedes the earlier Wayback-only restriction for `pnpm recovery:origin`. Preserve existing originals, record live provenance separately from capture timestamps, retain source paths and referring-page relationships, and stop on blocking responses. The resumable command and progress output are documented in README.md.
+
 - Commands: `pnpm recovery discover|download|coverage|verify|probe` (`scripts/recovery/*.ts`, run directly by Node 24).
 - `download` works in **batches of 10** (`--batch 10 --pause 30 --delay 2`), one request at a time, and is resumable. Other options: `--max-batches`, `--only <list>` (S0 sample), `--type`, `--reference-date YYYYMMDD`.
 - Downloads in raw format: `/web/<timestamp>id_/<url>`.
@@ -135,7 +137,7 @@ Slugs come from the title, not from the old file name. Conversion (`scripts/conv
 
 - Metaphor: **the forking timeline** (divergence tree). Use it only where it informs. It must be tested early with real data and hard cases: missing dates, long titles, crowded centuries, phone.
 - Before working on the design, load the `frontend-design` skill (copied into `.claude/skills/` from `../uni-portale/.claude/skills/`) and avoid the clichés it lists: cream background, monospace for data, one highlighted word in the title, labels above every heading, everything in identical cards.
-- Two competing directions for reading and catalog, with real content, before building. The approved direction goes into `src/styles/tokens.css` and into this section.
+- The owner chose the clean branching-tree direction after rejecting ornate editorial and uni-portale-like versions. Its shared light/dark palette is in `src/styles/tokens.css`: slate blue, warm white, copper; the tree is the only prominent graphic. Titillium Web is local for the interface, Georgia for long reading. Use the compact top navigation on phones. `/design/` shows three real works; the catalog and reading sample use the same tokens.
 - Long texts: 65–70 character column, reading serif, clickable notes. Mobile-first, light and dark theme, local fonts with `@fontsource`.
 - Never the browser's `confirm()`/`alert()`.
 - "Site history": tribute to the original (logo, amphora, "UtopiaUcronia, dove tutto è possibile!"). The 2004 home page is a reconstruction written by us, not the original page with its scripts.

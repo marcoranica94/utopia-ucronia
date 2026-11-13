@@ -1,0 +1,36 @@
+/* UtopiaUcronia: the branching tree carries the identity; reading stays quiet. */
+:root {
+  color-scheme: light dark;
+  --paper: #faf8f4;
+  --surface: #fffefd;
+  --surface-soft: #eeeae3;
+  --ink: #202a38;
+  --muted: #626b76;
+  --line: #dedbd4;
+  --accent: #a34635;
+  --accent-hover: #833428;
+  --night: #26344c;
+  --night-hover: #17243a;
+  --on-night: #f6f1e9;
+  --branch: #e2b69b;
+  --font-ui: "Titillium Web", "Segoe UI", Arial, sans-serif;
+  --font-reading: Georgia, "Times New Roman", serif;
+  --content-width: 1180px;
+  --reading-width: 70ch;
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --paper: #141b27;
+    --surface: #1b2634;
+    --surface-soft: #273344;
+    --ink: #f2f2ef;
+    --muted: #b5bfca;
+    --line: #354353;
+    --accent: #eea386;
+    --accent-hover: #ffd0b7;
+    --night: #26344c;
+    --night-hover: #344762;
+    --on-night: #f6f1e9;
+    --branch: #e2b69b;
+  }
+}

@@ -1,0 +1,49 @@
+---
+import { getCollection } from "astro:content";
+import BranchTree from "../components/BranchTree.astro";
+import Base from "../layouts/Base.astro";
+import "../styles/tree.css";
+
+const works = await getCollection("works");
+const workUrl = (ending: string) => {
+  const work = works.find((entry) =>
+    entry.data.sources.some((source) =>
+      source.url.toLowerCase().endsWith(ending.toLowerCase()),
+    ),
+  );
+  if (!work) throw new Error(`Missing tree work for ${ending}`);
+  return `/works/${work.id}/`;
+};
+const branches = [
+  {
+    period: "XIV secolo a.C.",
+    title: "Akhénaton superstar!",
+    description: "E se il culto di Aton fosse sopravvissuto?",
+    href: "/design/#akhenaton",
+    language: "fr",
+    state: "Anteprima grafica",
+  },
+  {
+    period: "1000–1050",
+    title: "Spot the POD",
+    description: "Una mappa diventa il punto di partenza di più storie.",
+    href: workUrl("spotthePOD.htm"),
+    language: "it",
+    state: "Testo recuperato",
+  },
+  {
+    period: "25 luglio 1943",
+    title: "Ordine del giorno Farinacci",
+    description:
+      "Una decisione diversa al Gran Consiglio cambia il percorso della guerra.",
+    href: workUrl("25071943.htm"),
+    language: "it",
+    state: "Testo recuperato",
+  },
+];
+---
+<Base title="Albero delle possibilità">
+  <div class="page-intro"><p class="page-kicker">Tre divergenze campione</p><h1 class="page-title">L’albero delle possibilità</h1><p class="page-lede">Ogni ramo parte da una domanda diversa. Scegli una storia per leggerla; l’elenco resta disponibile anche senza il disegno.</p></div>
+  <div class="tree-layout"><div class="tree-stage"><BranchTree links={branches.map((branch) => ({ href: branch.href, label: `Apri ${branch.title}` }))} /><p>I punti color rame aprono le tre ucronie campione. Gli altri rami mostrano come la raccolta potrà crescere.</p></div><nav class="branch-navigation" aria-label="Scegli un ramo"><h2>Segui un ramo</h2><ul>{branches.map((branch) => <li><span class="branch-period">{branch.period}</span><a href={branch.href} lang={branch.language}>{branch.title}</a><p>{branch.description}</p><small>{branch.state}</small></li>)}</ul></nav></div>
+  <p class="tree-caveat">Le date qui seguono i testi campione e saranno verificate durante la catalogazione. La vista completa dell’albero arriverà quando ogni opera avrà il suo punto di divergenza.</p>
+</Base>

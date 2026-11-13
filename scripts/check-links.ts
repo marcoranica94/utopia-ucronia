@@ -17,8 +17,9 @@ let total = 0;
 for (const file of await pages("dist")) {
   const html = await readFile(file, "utf8");
   const $ = load(html);
+  const isCatalog = file === path.join("dist", "index.html");
   if (
-    $("script,iframe,form,object,embed").length ||
+    (!isCatalog && $("script,iframe,form,object,embed").length) ||
     /mailto:|[\w.+-]+@[\w.-]+\.[a-z]{2,}/i.test($("body").text())
   )
     errors.push(`${file}: active code or email`);

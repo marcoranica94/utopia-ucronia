@@ -10,6 +10,16 @@ The copy to the owner's drive is postponed, to be done by the owner: it is still
 
 ## Getting started
 
+## Autonomous recovery from the original server
+
+The owner authorized original-server recovery after a ten-image trial succeeded on 12 November 2026. Run `pnpm recovery:origin` from the project directory. It uses batches of 20 with starts two seconds apart, a 30-second pause between batches, a progress bar and a summary every 60 seconds. It needs no model to keep running. Keep the terminal open.
+
+Ctrl+C finishes active saves; run the same command to resume. Existing recovered files are hash-checked and skipped. New files retain their original relative paths. The manifest records `source: origin`, `fetchedFrom`, `retrievedAt` and, when available, `lastModified`; these are current files, not historical captures. Referring pages remain in the queue's `foundIn` field. Publication requires a later conversion.
+
+The command rescans recovered HTML/CSS, follows newly discovered archive links, retries network failures once per run and stops on HTTP 403, 429 or 999. Final results are in `archive/origin-run.json`, `archive/coverage.md` and `archive/download.log`. Use `pnpm recovery:origin --limit 10` for a limited run. Use `pnpm recovery:origin --retry-missing-once` for one more attempt at every unresolved URL, including confirmed 404/410 responses. Only one origin recovery process may run at a time; do not run the Wayback downloader simultaneously.
+
+## Local setup
+
 Node 24 LTS, pnpm 12.18.0 and Git LFS. Dependency versions are locked by the lockfile.
 
 ```sh
