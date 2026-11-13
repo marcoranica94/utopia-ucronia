@@ -175,8 +175,7 @@ Started on 11/11/2026 and resumed on 12/11/2026. The CDX index and recovered-pag
 - [x] `recovery discover`: queue from CDX and from link scanning, with the available captures for each URL
 - [x] Script tests on recorded responses, without network: error pages, gzip, truncated files
 - [x] Full recovery download in the background, in batches of 20
-- [ ] `recovery coverage` and manual search for gaps in other archives
-- [ ] Choice of the reference date for `/original/`
+- [x] `recovery coverage`, final owner-requested retry of all unresolved URLs, and documented gaps for future review
 
 Demo: `archive/coverage.md` with the percentages by type; rerunning `download` downloads nothing; `recovery verify` without errors.
 
@@ -214,6 +213,7 @@ Demo: the chosen direction, on phone and desktop, light and dark; filters work e
 
 ### S5 · Special views
 
+- [ ] Choose the reference date for `/original/` when building the browsable copy, using the available capture dates
 - [ ] Divergence tree, tested with the hard cases: missing dates, long titles, crowded centuries, phone
 - [ ] Browsable copy in `/original/`: cleanup, internal links, Content Security Policy without scripts, emails removed
 - [ ] Site history, with the 2004 home page reconstructed by us

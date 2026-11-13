@@ -79,7 +79,7 @@ export async function coverage(): Promise<void> {
     `Generated: ${new Date().toISOString()}`,
     `CDX index exhausted: ${queue.complete ? "yes" : "no"}`,
     "",
-    "| Type | Recovered | Missing | Retry | Not attempted | Total | Recovered % |",
+    "| Type | Recovered | Missing | Failed attempt | Not attempted | Total | Recovered % |",
     "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
   ];
   for (const [kind, row] of [...counts].sort(([a], [b]) =>
@@ -110,7 +110,7 @@ export async function coverage(): Promise<void> {
     "",
     "## Limits",
     "",
-    "The queue combines the indexed captures with links found in scanned recovered documents. It cannot prove the original site or all resources were archived. Links in scripts, complex CSS and external sites may be absent. Missing means no valid capture was found by the current checks; failed attempts remain retryable. Percentages describe this queue, not the original site.",
+    "The queue combines the indexed captures with links found in scanned recovered documents. It cannot prove the original site or all resources were archived. Links in scripts, complex CSS and external sites may be absent. Missing means no valid capture was found by the current checks; failed attempts remain recorded for possible future work. Percentages describe this queue, not the original site.",
     "",
   );
   await writeFile("archive/coverage.md", lines.join("\n"));

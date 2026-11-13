@@ -263,7 +263,7 @@ The main risk is that the Wayback doesn't have everything, or that it saved erro
 **To decide:**
 
 - [ ] Frozen or living archive? A historical copy only, or the ability to add new works in the future.
-- [ ] Reference date for the browsable copy in `/original/`: chosen after the coverage report, looking at which year has the most valid captures.
+- [ ] Reference date for the browsable copy in `/original/`: choose in S5, when the copy is built, using the available captures and documenting any fallback.
 - [ ] Disk for the third backup copy.
 - [ ] Typeface pair, to choose in the prototypes.
 - [ ] Access session length (proposed: 30 days, for convenience on the phone).

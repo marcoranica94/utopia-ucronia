@@ -1,9 +1,9 @@
 # Archive coverage
 
-Generated: 2026-11-13T08:56:11.859Z
+Generated: 2026-11-13T10:55:27.285Z
 CDX index exhausted: yes
 
-| Type | Recovered | Missing | Retry | Not attempted | Total | Recovered % |
+| Type | Recovered | Missing | Failed attempt | Not attempted | Total | Recovered % |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | HTML or extensionless | 829 | 10 | 5 | 0 | 844 | 98.2% |
 | Images | 5710 | 69 | 7 | 0 | 5786 | 98.7% |
@@ -150,4 +150,4 @@ Matching filenames are only leads: they do not establish identical content and m
 
 ## Limits
 
-The queue combines the indexed captures with links found in scanned recovered documents. It cannot prove the original site or all resources were archived. Links in scripts, complex CSS and external sites may be absent. Missing means no valid capture was found by the current checks; failed attempts remain retryable. Percentages describe this queue, not the original site.
+The queue combines the indexed captures with links found in scanned recovered documents. It cannot prove the original site or all resources were archived. Links in scripts, complex CSS and external sites may be absent. Missing means no valid capture was found by the current checks; failed attempts remain recorded for possible future work. Percentages describe this queue, not the original site.

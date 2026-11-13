@@ -17,9 +17,9 @@
     {
       "sprint": "S1",
       "contains": "`recovery coverage`",
-      "status": "doing",
+      "status": "done",
       "assignee": "Development",
-      "note": "Coverage report is complete: 6,878 of 6,985 queued URLs recovered. The 107 unresolved URLs need a targeted search in other archives and gap classification."
+      "note": "Coverage report is complete: 6,878 of 6,985 queued URLs recovered. The owner requested one final retry of all 107 unresolved URLs; it recovered zero. The remaining links are documented and deferred for future review. The reference date for /original/ moved to S5."
     },
     {
       "sprint": "S4",
