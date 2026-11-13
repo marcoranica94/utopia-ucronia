@@ -26395,12 +26395,17 @@
       "variants": [
         "https://www.fmboschetto.it/utopiaucronia/Keikyo/United_Nations_Moon.jpg"
       ],
-      "outcome": "failed attempt",
-      "source": "origin",
-      "retrievedAt": "2026-11-13T10:48:29.343Z",
-      "fetchedFrom": "https://www.fmboschetto.it/utopiaucronia/Keikyo/United_Nations_Moon.jpg",
+      "outcome": "recovered",
+      "path": "utopiaucronia/keikyo/united_nations_moon.jpg",
+      "timestamp": "20260801214824",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated JPEG"
+      "type": "image/jpeg",
+      "size": 12499,
+      "sha256": "bb22e58002ce45cfebe3602f354f15885cd85acb56f08b2718d07ae25f0f8903",
+      "compressed": false,
+      "defects": [
+        "GIF data with .jpg extension"
+      ]
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/La_Politica_del_Narcisismo.pdf",
@@ -30146,12 +30151,17 @@
         "http://www.fmboschetto.it:80/Utopiaucronia/Napoleone_IV.htm",
         "http://www.fmboschetto.it/Utopiaucronia/Napoleone_IV.htm"
       ],
-      "outcome": "failed attempt",
-      "source": "origin",
-      "retrievedAt": "2026-11-13T10:48:29.652Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Napoleone_IV.htm",
+      "outcome": "recovered",
+      "path": "utopiaucronia/napoleone_iv.htm",
+      "timestamp": "20220822065039",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated HTML, or mismatched type"
+      "type": "text/html",
+      "size": 96884,
+      "sha256": "be91cc94e0c33daca87525c96904c6afddacffd243ffef79293924a128702e9c",
+      "compressed": false,
+      "defects": [
+        "HTML without closing </html>, </body> or </frameset> (content may still be complete)"
+      ]
     },
     {
       "url": "http://www.fmboschetto.it:80/Utopiaucronia/niente_guerra_di_Libia.htm",
@@ -39393,11 +39403,11 @@
         "https://www.fmboschetto.it/Utopiaucronia/giorgiotosco@hotmail.it"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:31.737Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/giorgiotosco@hotmail.it",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/giorgiotosco@hotmail.it"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/impero_romano_enclavi.gif",
@@ -44859,12 +44869,20 @@
       "variants": [
         "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Louis_XIV/Joseph_Stahl.jpg"
       ],
-      "outcome": "failed attempt",
+      "outcome": "recovered",
       "source": "origin",
-      "retrievedAt": "2026-11-13T10:48:33.743Z",
+      "retrievedAt": "2026-11-13T11:07:46.079Z",
       "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Louis_XIV/Joseph_Stahl.jpg",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated JPEG"
+      "path": "utopiaucronia/uchroniesenfrancais/louis_xiv/joseph_stahl.jpg",
+      "type": "image/jpeg",
+      "size": 20444,
+      "sha256": "a0ebc947a8696bb441645172493939fb6befd3865a16f03aec371ee71544567b",
+      "compressed": false,
+      "lastModified": "Fri, 02 Apr 2010 19:05:38 GMT",
+      "defects": [
+        "Truncated JPEG or 3 bytes after the end marker"
+      ]
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Louis_XIV/Republique_Democratique_d_Italie.gif",
@@ -45807,11 +45825,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Germaniinoriente/Saluto_alla_bandiera.zip"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:35.765Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Germaniinoriente/Saluto_alla_bandiera.zip",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Germaniinoriente/Saluto_alla_bandiera.zip"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/saluto.jpg",
@@ -45819,11 +45837,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/saluto.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:37.787Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/saluto.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/saluto.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Egypte/MidEarthEurope.gif",
@@ -46425,12 +46443,20 @@
       "variants": [
         "http://www.fmboschetto.it/Utopiaucronia/Egypte/Alessandro_Shi_Huangdi.jpg"
       ],
-      "outcome": "failed attempt",
+      "outcome": "recovered",
       "source": "origin",
-      "retrievedAt": "2026-11-13T10:48:39.800Z",
+      "retrievedAt": "2026-11-13T11:07:48.111Z",
       "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Egypte/Alessandro_Shi_Huangdi.jpg",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated JPEG"
+      "path": "utopiaucronia/egypte/alessandro_shi_huangdi.jpg",
+      "type": "image/jpeg",
+      "size": 436750,
+      "sha256": "6973cdeba263a84e1b72a30d76d9e38091f8a7a791ffd8dbc4eb339a00a07b3d",
+      "compressed": false,
+      "lastModified": "Fri, 02 Apr 2010 18:13:29 GMT",
+      "defects": [
+        "BMP data with .jpg extension"
+      ]
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Egypte/John_Woo_Alessandro.jpg",
@@ -47233,11 +47259,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/albaret.romain@orange.fr"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:41.806Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/albaret.romain@orange.fr",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/albaret.romain@orange.fr"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Grande_Messico/apocalisseditobia1.jpg",
@@ -48333,11 +48359,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/ICcomics.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:43.818Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/ICcomics.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/ICcomics.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/utopiaucronia/dipinti_Sandro/ultimobastione.jpg",
@@ -51592,11 +51618,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Odissea_in_America/Grandizer_U.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:45.840Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Odissea_in_America/Grandizer_U.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Odissea_in_America/Grandizer_U.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/utopiaucronia/Tony/Paperopoli/Barks_Paperone.jpg",
@@ -54035,11 +54061,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/canale/Europe_Venn.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:47.861Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/Europe_Venn.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/Europe_Venn.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/avanzata.gif",
@@ -54047,11 +54073,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/avanzata.gif"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:49.883Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/avanzata.gif",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/avanzata.gif"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Evangelion1.jpg",
@@ -55178,11 +55204,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Grande_Australia/Confit_flag.gif"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:51.886Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Grande_Australia/Confit_flag.gif",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Grande_Australia/Confit_flag.gif"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Grande_Australia/colonie_1904.jpg",
@@ -55190,11 +55216,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Grande_Australia/colonie_1904.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:53.898Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Grande_Australia/colonie_1904.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Grande_Australia/colonie_1904.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Quadruplice1.gif",
@@ -55389,11 +55415,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/etruschi/kingsuperman.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:55.909Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/etruschi/kingsuperman.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/etruschi/kingsuperman.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Pala.gif",
@@ -56710,11 +56736,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/bhrihskwobhloukstroy@gmail.com"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:57.912Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/bhrihskwobhloukstroy@gmail.com",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/bhrihskwobhloukstroy@gmail.com"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Dante33/stemma_Gonzaga.gif",
@@ -58847,11 +58873,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Poland_Russia.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:48:59.916Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Poland_Russia.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Poland_Russia.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Canalis1.jpg",
@@ -59029,11 +59055,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/fanta_WWIII.htm"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:00.210Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/fanta_WWIII.htm",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/fanta_WWIII.htm"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Francia_Italia/coluche.jpg",
@@ -59262,11 +59288,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Nascita_Luigi_IX.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:02.214Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Nascita_Luigi_IX.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Nascita_Luigi_IX.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/saintechapelle.jpg",
@@ -59274,11 +59300,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/saintechapelle.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:04.215Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/saintechapelle.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/saintechapelle.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/U_Europa_1290AD.gif",
@@ -59286,11 +59312,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/U_Europa_1290AD.gif"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:34.526Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/U_Europa_1290AD.gif",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/U_Europa_1290AD.gif"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/U_mondo_1290AD.gif",
@@ -59298,11 +59324,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/U_mondo_1290AD.gif"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:36.532Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/U_mondo_1290AD.gif",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/U_mondo_1290AD.gif"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/xandalphon@hotmail.it",
@@ -59310,11 +59336,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/xandalphon@hotmail.it"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:38.539Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/xandalphon@hotmail.it",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/xandalphon@hotmail.it"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Nouivelle_France/goy3mai.jpg",
@@ -60427,11 +60453,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Dante33/Wakanda.png"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:40.545Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Dante33/Wakanda.png",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Dante33/Wakanda.png"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Dante33/Wakanda_flag.png",
@@ -61816,11 +61842,11 @@
         "http://www.fmboschetto.it/utopiaucronia/dipinti_Sandro/Mongoli_a_Roma.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:42.549Z",
-      "fetchedFrom": "https://www.fmboschetto.it/utopiaucronia/dipinti_Sandro/Mongoli_a_Roma.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/utopiaucronia/dipinti_Sandro/Mongoli_a_Roma.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Dante33/sommo_poeta.jpg",
@@ -62525,11 +62551,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Timeo.htm"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:44.552Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Timeo.htm",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Timeo.htm"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Egypte/Jupiter8.jpg",
@@ -64237,11 +64263,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Baal_vs_Elia.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:46.555Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Baal_vs_Elia.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Baal_vs_Elia.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/canale/XP.jpg",
@@ -66611,12 +66637,20 @@
       "variants": [
         "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/ilcavalierepallido.jpg"
       ],
-      "outcome": "failed attempt",
+      "outcome": "recovered",
       "source": "origin",
-      "retrievedAt": "2026-11-13T10:49:48.557Z",
+      "retrievedAt": "2026-11-13T11:07:50.113Z",
       "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/ilcavalierepallido.jpg",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated JPEG"
+      "path": "utopiaucronia/dipinti_sandro/ilcavalierepallido.jpg",
+      "type": "image/jpeg",
+      "size": 482714,
+      "sha256": "e30c4027defee6e344b4d9c508def080a08cacf0d26a1234aeb15c15baaa55ec",
+      "compressed": false,
+      "lastModified": "Mon, 03 Jul 2023 13:37:20 GMT",
+      "defects": [
+        "PNG data with .jpg extension"
+      ]
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Attila_XI.jpg",
@@ -67933,11 +67967,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/fascsumar.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:50.558Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/fascsumar.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/fascsumar.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/canale/Vichy_coatofarms.gif",
@@ -68081,11 +68115,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/mondo_Disney.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:52.563Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/mondo_Disney.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/mondo_Disney.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Pinocchio1.jpg",
@@ -68093,11 +68127,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Pinocchio1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:54.566Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Pinocchio1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Pinocchio1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Fantasia1.jpg",
@@ -68105,11 +68139,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Fantasia1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:56.570Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Fantasia1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Fantasia1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Fantasia2.jpg",
@@ -68117,11 +68151,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Fantasia2.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:49:58.592Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Fantasia2.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Fantasia2.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Dumbo1.jpg",
@@ -68129,11 +68163,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Dumbo1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:00.608Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Dumbo1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Dumbo1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Bambi1.gif",
@@ -68141,11 +68175,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Bambi1.gif"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:00.930Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Bambi1.gif",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Bambi1.gif"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Caballeros1.jpg",
@@ -68153,11 +68187,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Caballeros1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:02.959Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Caballeros1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Caballeros1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Alice1.jpg",
@@ -68165,11 +68199,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Alice1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:04.980Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Alice1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Alice1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/PeterPan1.jpg",
@@ -68177,11 +68211,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/PeterPan1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:07.026Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/PeterPan1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/PeterPan1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Lilli1.jpg",
@@ -68189,11 +68223,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Lilli1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:09.027Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Lilli1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Lilli1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/carica1.jpg",
@@ -68201,11 +68235,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/carica1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:11.031Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/carica1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/carica1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aristogatti1.jpg",
@@ -68213,11 +68247,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aristogatti1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:41.393Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aristogatti1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aristogatti1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Robin2.gif",
@@ -68225,11 +68259,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Robin2.gif"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:43.419Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Robin2.gif",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Robin2.gif"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Robin1.jpg",
@@ -68237,11 +68271,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Robin1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:45.449Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Robin1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Robin1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/redetoby1.jpg",
@@ -68249,11 +68283,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/redetoby1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:47.474Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/redetoby1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/redetoby1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/redetoby2.jpg",
@@ -68261,11 +68295,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/redetoby2.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:49.491Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/redetoby2.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/redetoby2.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Taron1.jpg",
@@ -68273,11 +68307,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Taron1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:51.506Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Taron1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Taron1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Taron2.jpg",
@@ -68285,11 +68319,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Taron2.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:53.521Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Taron2.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Taron2.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Basil1.jpg",
@@ -68297,11 +68331,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Basil1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:55.525Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Basil1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Basil1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Basil2.jpg",
@@ -68309,11 +68343,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Basil2.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:57.528Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Basil2.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Basil2.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Oliver1.jpg",
@@ -68321,11 +68355,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Oliver1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:50:59.531Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Oliver1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Oliver1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Belle2.jpg",
@@ -68333,11 +68367,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Belle2.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:01.535Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Belle2.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Belle2.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Belle1.jpg",
@@ -68345,11 +68379,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Belle1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:01.829Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Belle1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Belle1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aladdin2.jpg",
@@ -68357,11 +68391,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aladdin2.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:03.842Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aladdin2.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aladdin2.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aladdin1.jpg",
@@ -68369,11 +68403,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aladdin1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:05.848Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aladdin1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Aladdin1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Riccardo_III.jpg",
@@ -68381,11 +68415,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Riccardo_III.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:07.854Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Riccardo_III.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Riccardo_III.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Pocahontas1.jpg",
@@ -68393,11 +68427,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Pocahontas1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:09.858Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Pocahontas1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Pocahontas1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Tawantinsuyu_flag.gif",
@@ -68422,11 +68456,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Quasimodo1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:11.862Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Quasimodo1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Quasimodo1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Hercules1.jpg",
@@ -68434,11 +68468,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Hercules1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:13.865Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Hercules1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Hercules1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Tarzan1.jpg",
@@ -68446,11 +68480,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Tarzan1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:15.870Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Tarzan1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Tarzan1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/follie1.jpg",
@@ -68458,11 +68492,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/follie1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:17.873Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/follie1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/follie1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/ranocchio1.jpg",
@@ -68470,11 +68504,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/ranocchio1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:48.166Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/ranocchio1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/ranocchio1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/ranocchio2.jpg",
@@ -68482,11 +68516,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/ranocchio2.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:50.169Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/ranocchio2.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/ranocchio2.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Rapunzel1.jpg",
@@ -68494,11 +68528,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Rapunzel1.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:52.173Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Rapunzel1.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Rapunzel1.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Grande_Messico/Apollo_XI.jpg",
@@ -71226,11 +71260,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Pytheas1.zip"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:54.177Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Pytheas1.zip",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Pytheas1.zip"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/miniature/Atlantideromana.gif",
@@ -73414,11 +73448,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/mappa_pace.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:56.180Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/mappa_pace.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/mappa_pace.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Valentino/magicovstecnologico.jpg",
@@ -73426,11 +73460,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Valentino/magicovstecnologico.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:51:58.184Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Valentino/magicovstecnologico.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Valentino/magicovstecnologico.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Utopiaucronia/index.htm",
@@ -73438,11 +73472,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Utopiaucronia/index.htm"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:00.198Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Utopiaucronia/index.htm",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Utopiaucronia/index.htm"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Egypte/U_impero_seleucide.gif",
@@ -73739,11 +73773,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/canale/Al_Kibar.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:02.202Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/Al_Kibar.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/Al_Kibar.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/canale/Chavez.jpg",
@@ -75995,11 +76029,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Dante33/Europa_RJP_I.gif"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:04.208Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Dante33/Europa_RJP_I.gif",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Dante33/Europa_RJP_I.gif"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Dante33/Europa_RJP_II.gif",
@@ -76007,11 +76041,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Dante33/Europa_RJP_II.gif"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:04.497Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Dante33/Europa_RJP_II.gif",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Dante33/Europa_RJP_II.gif"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/U_Europa_814.jpg",
@@ -77073,11 +77107,11 @@
         "http://www.fmboschetto.it/UtopiaUcronia/pivosquash@hotmail.it"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:06.500Z",
-      "fetchedFrom": "https://www.fmboschetto.it/UtopiaUcronia/pivosquash@hotmail.it",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/UtopiaUcronia/pivosquash@hotmail.it"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Magellania/who.gif",
@@ -78173,11 +78207,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/respublicaspqr.forumcommunity.net/"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:08.505Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/respublicaspqr.forumcommunity.net/",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/respublicaspqr.forumcommunity.net/"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Masaniello.htm",
@@ -78202,11 +78236,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/fanta_Risorgimento_2.htm"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:10.509Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/fanta_Risorgimento_2.htm",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/fanta_Risorgimento_2.htm"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/utopia_asburgica.pdf",
@@ -78248,11 +78282,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Uchronie_du_duc_de_Guise.zip"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:12.511Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Uchronie_du_duc_de_Guise.zip",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Uchronie_du_duc_de_Guise.zip"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Realismo_anziche_Restaurazione.htm",
@@ -80215,11 +80249,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Deutschland_mon_amour.htm"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:14.514Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Deutschland_mon_amour.htm",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Deutschland_mon_amour.htm"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Il_Re_Non_Buono.htm",
@@ -80227,11 +80261,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Il_Re_Non_Buono.htm"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:16.518Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Il_Re_Non_Buono.htm",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Il_Re_Non_Buono.htm"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/ucronia_afghana.htm",
@@ -80239,11 +80273,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/ucronia_afghana.htm"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:18.549Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/ucronia_afghana.htm",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/ucronia_afghana.htm"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Confederacy_history.zip",
@@ -80285,11 +80319,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Germaniinoriente/Terza_e_Quarta_Guerra_Mondiale.zip"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:20.551Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Germaniinoriente/Terza_e_Quarta_Guerra_Mondiale.zip",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Germaniinoriente/Terza_e_Quarta_Guerra_Mondiale.zip"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Dante33/Eudopolafinedellinvasione%20turca.gif",
@@ -80331,11 +80365,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/sopravvivenza_dell_impero_romano.pdf"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:22.560Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/sopravvivenza_dell_impero_romano.pdf",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/sopravvivenza_dell_impero_romano.pdf"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Luigi_XIX_1.jpg",
@@ -81057,11 +81091,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/canale/JFK_Pop_Art.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:24.565Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/JFK_Pop_Art.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/JFK_Pop_Art.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/canale/Babushka.jpg",
@@ -83058,11 +83092,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Egypte/onda123.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:54.857Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Egypte/onda123.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Egypte/onda123.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/romadeipoli_flag.png",
@@ -83206,11 +83240,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/canale/young_Hitler.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:56.862Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/young_Hitler.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/young_Hitler.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/canale/caccia.jpg",
@@ -83218,11 +83252,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/canale/caccia.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:52:58.874Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/caccia.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/caccia.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/canale/Tuna.jpg",
@@ -83230,11 +83264,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/canale/Tuna.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:00.876Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/Tuna.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/Tuna.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/canale/Knhum.jpg",
@@ -83242,11 +83276,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/canale/Knhum.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:02.879Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/Knhum.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/Knhum.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/quasi_ucronico_2.htm",
@@ -83254,11 +83288,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/quasi_ucronico_2.htm"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:04.882Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/quasi_ucronico_2.htm",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/quasi_ucronico_2.htm"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/canale/ABITANTI_VILLAGGIO.pdf",
@@ -83266,11 +83300,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/canale/ABITANTI_VILLAGGIO.pdf"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:05.160Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/ABITANTI_VILLAGGIO.pdf",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/ABITANTI_VILLAGGIO.pdf"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/ladri.jpg",
@@ -84638,11 +84672,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Dante33/new_churches.gif"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:07.163Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Dante33/new_churches.gif",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Dante33/new_churches.gif"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Superba.gif",
@@ -85211,11 +85245,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/franco.boschetto@tin.it"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:09.166Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/franco.boschetto@tin.it",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/franco.boschetto@tin.it"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Donau_flag.gif",
@@ -85409,12 +85443,20 @@
       "variants": [
         "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Ulivi.jpg"
       ],
-      "outcome": "failed attempt",
+      "outcome": "recovered",
       "source": "origin",
-      "retrievedAt": "2026-11-13T10:53:11.181Z",
+      "retrievedAt": "2026-11-13T11:07:50.492Z",
       "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Ulivi.jpg",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated JPEG"
+      "path": "utopiaucronia/dipinti_sandro/ulivi.jpg",
+      "type": "image/jpeg",
+      "size": 1621720,
+      "sha256": "ad3a5677b19a2681b6ae96c589ad354143febb8806821c38262a7e8889d943ce",
+      "compressed": false,
+      "lastModified": "Tue, 04 Apr 2023 22:26:24 GMT",
+      "defects": [
+        "Truncated JPEG or 98 bytes after the end marker"
+      ]
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Grande_Australia/Ampsicora.jpg",
@@ -85864,11 +85906,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/San_Klingon.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:13.193Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/San_Klingon.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Due_Imperi/San_Klingon.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Magellania/Enterprise_a_Napoli.jpg",
@@ -89310,11 +89352,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/sandro.degiani@yahoo.it"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:15.196Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/sandro.degiani@yahoo.it",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/sandro.degiani@yahoo.it"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/etruschi/Meteo21122012.jpg",
@@ -93249,11 +93291,11 @@
         "http://www.fmboschetto.it/utopiaucronia/Ucroniasenespanol/piottigio@tin.it"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:17.206Z",
-      "fetchedFrom": "https://www.fmboschetto.it/utopiaucronia/Ucroniasenespanol/piottigio@tin.it",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/utopiaucronia/Ucroniasenespanol/piottigio@tin.it"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/index.htm",
@@ -93261,11 +93303,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/index.htm"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:19.231Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/index.htm",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/index.htm"
     },
     {
       "url": "http://www.fmboschetto.it/utopiaucronia/dipinti_Sandro/FIFU.gif",
@@ -95432,11 +95474,11 @@
         "http://www.fmboschetto.it/utopiaucronia/VSSA/Sante_Monique_flag.gif"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:21.254Z",
-      "fetchedFrom": "https://www.fmboschetto.it/utopiaucronia/VSSA/Sante_Monique_flag.gif",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/utopiaucronia/VSSA/Sante_Monique_flag.gif"
     },
     {
       "url": "http://www.fmboschetto.it/utopiaucronia/Grande_Messico/Bond2.jpg",
@@ -95869,11 +95911,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/canale/beep.wav"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:23.277Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/beep.wav",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/canale/beep.wav"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/GMR/celtic_sfondo.gif",
@@ -96000,11 +96042,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/ossrom.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:25.296Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/ossrom.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/ossrom.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Tony/ossrom.jpg",
@@ -96029,11 +96071,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/ossrom2.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:27.319Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/ossrom2.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/ossrom2.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/thumbnail58.jpg",
@@ -96041,11 +96083,11 @@
         "http://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/thumbnail58.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:53:29.323Z",
-      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/thumbnail58.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/thumbnail58.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/sfondoetrusco.gif",
@@ -97769,12 +97811,20 @@
       "variants": [
         "https://www.fmboschetto.it/Utopiaucronia/Grande_Milano/Kashmir1.jpg"
       ],
-      "outcome": "failed attempt",
+      "outcome": "recovered",
       "source": "origin",
-      "retrievedAt": "2026-11-13T10:53:31.335Z",
+      "retrievedAt": "2026-11-13T11:07:52.494Z",
       "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Grande_Milano/Kashmir1.jpg",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated JPEG"
+      "path": "utopiaucronia/grande_milano/kashmir1.jpg",
+      "type": "image/jpeg",
+      "size": 60312,
+      "sha256": "006f2bc39bf0335a1e868651d5f5317207c00d4d60c171bf3c6e87a01bd40af2",
+      "compressed": false,
+      "lastModified": "Sat, 24 Aug 2019 14:10:45 GMT",
+      "defects": [
+        "PNG data with .jpg extension"
+      ]
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/Grande_Milano/Kashmir2.jpg",
@@ -99566,12 +99616,20 @@
       "variants": [
         "http://www.fmboschetto.it/Utopiaucronia/Valentino/mini_Fanta_Crociate_1815.jpg"
       ],
-      "outcome": "failed attempt",
+      "outcome": "recovered",
       "source": "origin",
-      "retrievedAt": "2026-11-13T10:54:01.622Z",
+      "retrievedAt": "2026-11-13T11:07:54.579Z",
       "fetchedFrom": "https://www.fmboschetto.it/Utopiaucronia/Valentino/mini_Fanta_Crociate_1815.jpg",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated JPEG"
+      "path": "utopiaucronia/valentino/mini_fanta_crociate_1815.jpg",
+      "type": "image/jpeg",
+      "size": 53680,
+      "sha256": "c1c193a836298fd6e8115537d6f2b25e5528ce84682f453958df7aa8b686e5f4",
+      "compressed": false,
+      "lastModified": "Sat, 12 Aug 2017 17:27:48 GMT",
+      "defects": [
+        "GIF data with .jpg extension"
+      ]
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Valentino/Balcania_flag.gif",
@@ -107365,11 +107423,11 @@
         "http://www.fmboschetto.it/racconti/Utopiaucronia/marb18.jpg"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:54:03.627Z",
-      "fetchedFrom": "https://www.fmboschetto.it/racconti/Utopiaucronia/marb18.jpg",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/Utopiaucronia/marb18.jpg"
     },
     {
       "url": "http://www.fmboschetto.it/racconti/sfondo018.jpg",
@@ -107767,48 +107825,80 @@
       "variants": [
         "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_21.htm"
       ],
-      "outcome": "failed attempt",
+      "outcome": "recovered",
       "source": "origin",
-      "retrievedAt": "2026-11-13T10:54:05.630Z",
+      "retrievedAt": "2026-11-13T11:07:56.584Z",
       "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_21.htm",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated HTML, or mismatched type"
+      "path": "racconti/roma_in_america/roma_in_america_21.htm",
+      "type": "text/html",
+      "size": 94046,
+      "sha256": "c82fff36ddfe72f6d243d11a321a1632eec10ece4aff458f45a4986412a1b937",
+      "compressed": false,
+      "lastModified": "Mon, 13 Feb 2006 21:56:11 GMT",
+      "defects": [
+        "HTML without closing </html>, </body> or </frameset> (content may still be complete)"
+      ]
     },
     {
       "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_22.htm",
       "variants": [
         "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_22.htm"
       ],
-      "outcome": "failed attempt",
+      "outcome": "recovered",
       "source": "origin",
-      "retrievedAt": "2026-11-13T10:54:05.934Z",
+      "retrievedAt": "2026-11-13T11:07:58.599Z",
       "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_22.htm",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated HTML, or mismatched type"
+      "path": "racconti/roma_in_america/roma_in_america_22.htm",
+      "type": "text/html",
+      "size": 62674,
+      "sha256": "a5e8db4b97195a2b86363f15ed8c73dcec0b46ade9c3f2f494506ca4887a57b4",
+      "compressed": false,
+      "lastModified": "Sun, 05 Mar 2006 22:06:40 GMT",
+      "defects": [
+        "HTML without closing </html>, </body> or </frameset> (content may still be complete)"
+      ]
     },
     {
       "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_23.htm",
       "variants": [
         "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_23.htm"
       ],
-      "outcome": "failed attempt",
+      "outcome": "recovered",
       "source": "origin",
-      "retrievedAt": "2026-11-13T10:54:07.935Z",
+      "retrievedAt": "2026-11-13T11:08:00.610Z",
       "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_23.htm",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated HTML, or mismatched type"
+      "path": "racconti/roma_in_america/roma_in_america_23.htm",
+      "type": "text/html",
+      "size": 55549,
+      "sha256": "d73a57384d995f3575777bb2faf3dc4ecfd5903a38be27708cd847391c1e1a01",
+      "compressed": false,
+      "lastModified": "Sat, 04 Mar 2006 22:14:51 GMT",
+      "defects": [
+        "HTML without closing </html>, </body> or </frameset> (content may still be complete)"
+      ]
     },
     {
       "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_24.htm",
       "variants": [
         "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_24.htm"
       ],
-      "outcome": "failed attempt",
+      "outcome": "recovered",
       "source": "origin",
-      "retrievedAt": "2026-11-13T10:54:09.938Z",
+      "retrievedAt": "2026-11-13T11:08:02.695Z",
       "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_24.htm",
       "httpStatus": 200,
-      "error": "Error: Invalid or truncated HTML, or mismatched type"
+      "path": "racconti/roma_in_america/roma_in_america_24.htm",
+      "type": "text/html",
+      "size": 144233,
+      "sha256": "14d5c71358e9df6032c752faa0bcb7c5e3763535cd914a0d7ffe983be3ad7483",
+      "compressed": false,
+      "lastModified": "Sat, 22 Mar 2025 15:21:39 GMT",
+      "defects": [
+        "HTML without closing </html>, </body> or </frameset> (content may still be complete)"
+      ]
     },
     {
       "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Stati_USE.htm",
@@ -108802,11 +108892,11 @@
         "http://www.fmboschetto.it/racconti/iperimpero/www.focus.it/edicola/index_edic.asp"
       ],
       "outcome": "missing",
+      "httpStatus": 404,
+      "error": "Error: HTTP 404",
       "source": "origin",
       "retrievedAt": "2026-11-13T10:54:11.941Z",
-      "fetchedFrom": "https://www.fmboschetto.it/racconti/iperimpero/www.focus.it/edicola/index_edic.asp",
-      "httpStatus": 404,
-      "error": "Error: HTTP 404"
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/iperimpero/www.focus.it/edicola/index_edic.asp"
     },
     {
       "url": "http://www.fmboschetto.it/racconti/iperimpero/Buon_Pastore.gif",
@@ -110558,6 +110648,176 @@
       "retrievedAt": "2026-11-13T08:47:05.142Z",
       "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/U_UAFAflag.gif",
       "lastModified": "Sun, 19 Feb 2006 20:34:33 GMT"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Americhe1949.gif",
+      "variants": [
+        "http://www.fmboschetto.it/racconti/Roma_in_America/Americhe1949.gif"
+      ],
+      "outcome": "recovered",
+      "source": "origin",
+      "retrievedAt": "2026-11-13T11:08:11.527Z",
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/Americhe1949.gif",
+      "httpStatus": 200,
+      "path": "racconti/roma_in_america/americhe1949.gif",
+      "type": "image/gif",
+      "size": 54463,
+      "sha256": "d88bfd4bbcc217eae5996d32cdc199364a26fbacc2b00426bed879e8182baf41",
+      "compressed": false,
+      "lastModified": "Fri, 20 Jan 2006 21:57:52 GMT"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/planisfero1950.gif",
+      "variants": [
+        "http://www.fmboschetto.it/racconti/Roma_in_America/planisfero1950.gif"
+      ],
+      "outcome": "recovered",
+      "source": "origin",
+      "retrievedAt": "2026-11-13T11:08:13.545Z",
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/planisfero1950.gif",
+      "httpStatus": 200,
+      "path": "racconti/roma_in_america/planisfero1950.gif",
+      "type": "image/gif",
+      "size": 32106,
+      "sha256": "117cf59a7406f06fa6a24327e4c52a6f91a88b14c8b04e130bf3ce6babd7dfad",
+      "compressed": false,
+      "lastModified": "Fri, 20 Jan 2006 21:58:14 GMT"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Africa1975.gif",
+      "variants": [
+        "http://www.fmboschetto.it/racconti/Roma_in_America/Africa1975.gif"
+      ],
+      "outcome": "recovered",
+      "source": "origin",
+      "retrievedAt": "2026-11-13T11:08:15.551Z",
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/Africa1975.gif",
+      "httpStatus": 200,
+      "path": "racconti/roma_in_america/africa1975.gif",
+      "type": "image/gif",
+      "size": 78690,
+      "sha256": "ac22709aedf2ad6faeb259bdde6c7f1e00839bb670564ed8da930cb6d4e7dd81",
+      "compressed": false,
+      "lastModified": "Fri, 20 Jan 2006 21:57:31 GMT"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/U_Antille.gif",
+      "variants": [
+        "http://www.fmboschetto.it/racconti/Roma_in_America/U_Antille.gif"
+      ],
+      "outcome": "recovered",
+      "source": "origin",
+      "retrievedAt": "2026-11-13T11:08:17.618Z",
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/U_Antille.gif",
+      "httpStatus": 200,
+      "path": "racconti/roma_in_america/u_antille.gif",
+      "type": "image/gif",
+      "size": 34022,
+      "sha256": "b9553cc903ea994bc6d9ae3a13b38f510afdda2011bc15b9e00bdbb3b197b38b",
+      "compressed": false,
+      "lastModified": "Mon, 30 Jan 2006 16:37:36 GMT"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/UE_in_Atlantide.gif",
+      "variants": [
+        "http://www.fmboschetto.it/racconti/Roma_in_America/UE_in_Atlantide.gif"
+      ],
+      "outcome": "recovered",
+      "source": "origin",
+      "retrievedAt": "2026-11-13T11:08:19.672Z",
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/UE_in_Atlantide.gif",
+      "httpStatus": 200,
+      "path": "racconti/roma_in_america/ue_in_atlantide.gif",
+      "type": "image/gif",
+      "size": 51168,
+      "sha256": "26a507650ac4e6f9016550554905972af14c6d21692edc555136c5bbe6a4b2f2",
+      "compressed": false,
+      "lastModified": "Sat, 10 May 2008 18:19:27 GMT"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/U_Cina_1950.gif",
+      "variants": [
+        "http://www.fmboschetto.it/racconti/Roma_in_America/U_Cina_1950.gif"
+      ],
+      "outcome": "recovered",
+      "source": "origin",
+      "retrievedAt": "2026-11-13T11:08:19.968Z",
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/U_Cina_1950.gif",
+      "httpStatus": 200,
+      "path": "racconti/roma_in_america/u_cina_1950.gif",
+      "type": "image/gif",
+      "size": 111165,
+      "sha256": "b205119610ef115e1b65e5e3160339d43690ce73e51da668d8c9e1e74510c505",
+      "compressed": false,
+      "lastModified": "Sat, 04 Mar 2006 22:15:50 GMT"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/U_Jugoslavia1995.gif",
+      "variants": [
+        "http://www.fmboschetto.it/racconti/Roma_in_America/U_Jugoslavia1995.gif"
+      ],
+      "outcome": "recovered",
+      "source": "origin",
+      "retrievedAt": "2026-11-13T11:08:22.054Z",
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/U_Jugoslavia1995.gif",
+      "httpStatus": 200,
+      "path": "racconti/roma_in_america/u_jugoslavia1995.gif",
+      "type": "image/gif",
+      "size": 86396,
+      "sha256": "9618943af6476a5b0e5380fe18ce604e065f983428f4762577c980067901a0ac",
+      "compressed": false,
+      "lastModified": "Thu, 09 Feb 2006 10:51:36 GMT"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Iran2003.gif",
+      "variants": [
+        "http://www.fmboschetto.it/racconti/Roma_in_America/Iran2003.gif"
+      ],
+      "outcome": "recovered",
+      "source": "origin",
+      "retrievedAt": "2026-11-13T11:08:24.057Z",
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/Iran2003.gif",
+      "httpStatus": 200,
+      "path": "racconti/roma_in_america/iran2003.gif",
+      "type": "image/gif",
+      "size": 22467,
+      "sha256": "5993924de945e9e3d45271287e5dd47b4274fcabb6749cefeeba6be1a0e5eef8",
+      "compressed": false,
+      "lastModified": "Sat, 04 Feb 2006 22:00:47 GMT"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/newyork.jpg",
+      "variants": [
+        "http://www.fmboschetto.it/racconti/Roma_in_America/newyork.jpg"
+      ],
+      "outcome": "recovered",
+      "source": "origin",
+      "retrievedAt": "2026-11-13T11:08:26.082Z",
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/newyork.jpg",
+      "httpStatus": 200,
+      "path": "racconti/roma_in_america/newyork.jpg",
+      "type": "image/jpeg",
+      "size": 278568,
+      "sha256": "a4858f294b71e2d689d34c6d20cf13b37d3c1ecb6c307549d9380d49cafeeb29",
+      "compressed": false,
+      "lastModified": "Tue, 10 Oct 2023 17:33:58 GMT"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/BXVI_HC.jpg",
+      "variants": [
+        "http://www.fmboschetto.it/racconti/Roma_in_America/BXVI_HC.jpg"
+      ],
+      "outcome": "recovered",
+      "source": "origin",
+      "retrievedAt": "2026-11-13T11:08:28.094Z",
+      "fetchedFrom": "https://www.fmboschetto.it/racconti/Roma_in_America/BXVI_HC.jpg",
+      "httpStatus": 200,
+      "path": "racconti/roma_in_america/bxvi_hc.jpg",
+      "type": "image/jpeg",
+      "size": 126203,
+      "sha256": "9a0617abbf7e47b4d6503688ce6d9fa8ef0b7d83a290dbe595dd0167e1fb6614",
+      "compressed": false,
+      "lastModified": "Fri, 21 Mar 2025 15:41:16 GMT"
     }
   ]
 }

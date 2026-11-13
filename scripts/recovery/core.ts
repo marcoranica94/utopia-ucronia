@@ -32,6 +32,7 @@ export const documentSchema = z.object({
   retrievedAt: z.iso.datetime().optional(),
   fetchedFrom: z.url().optional(),
   lastModified: z.string().optional(),
+  defects: z.array(z.string()).optional(),
 });
 export const manifestSchema = z.object({
   version: z.literal(1),
@@ -98,11 +99,35 @@ export async function verifyDocument(
     return false;
   }
 }
+const imageFormats: [string, (d: Buffer) => boolean][] = [
+  ["JPEG", (d) => d[0] === 0xff && d[1] === 0xd8 && d[2] === 0xff],
+  [
+    "PNG",
+    (d) =>
+      d.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10])),
+  ],
+  ["GIF", (d) => /^GIF8[79]a/.test(d.subarray(0, 6).toString("latin1"))],
+  ["BMP", (d) => d[0] === 0x42 && d[1] === 0x4d],
+];
+const expectedImage: Record<string, string> = {
+  ".jpg": "JPEG",
+  ".jpeg": "JPEG",
+  ".png": "PNG",
+  ".gif": "GIF",
+};
+/**
+ * Checks a downloaded file. Strict mode rejects anything incomplete or
+ * mismatched, so that an earlier, clean capture is preferred. Lenient mode is
+ * for when no clean copy exists: it still rejects error pages and files of the
+ * wrong kind, but accepts the file as the server holds it and lists its
+ * defects, so the archive keeps it with an honest note.
+ */
 export function prepareData(
   input: Uint8Array,
   url: string,
   type: string,
-): { data: Buffer; compressed: boolean } {
+  { lenient = false }: { lenient?: boolean } = {},
+): { data: Buffer; compressed: boolean; defects: string[] } {
   const compressed = input[0] === 0x1f && input[1] === 0x8b;
   const data = compressed ? gunzipSync(input) : Buffer.from(input);
   if (!data.length) throw new Error("Empty file");
@@ -113,37 +138,44 @@ export function prepareData(
     )
   )
     throw new Error("Archived error page");
+  const defects: string[] = [];
+  const defect = (message: string) => {
+    if (!lenient) throw new Error(message);
+    defects.push(message);
+  };
   const ext = path.extname(new URL(url).pathname).toLowerCase();
-  if (
-    ext === ".pdf" &&
-    (!text.startsWith("%PDF-") || !text.slice(-2048).includes("%%EOF"))
-  )
-    throw new Error("Invalid or truncated PDF");
-  if (
-    [".htm", ".html", ""].includes(ext) &&
-    (!/text\/html|application\/xhtml/i.test(type) ||
-      !/<(?:html|frameset|body)[\s>]/i.test(text) ||
-      !/<\/(?:html|frameset|body)\s*>/i.test(text))
-  )
-    throw new Error("Invalid or truncated HTML, or mismatched type");
-  if (
-    ext === ".png" &&
-    !data.subarray(0, 8).equals(Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]))
-  )
-    throw new Error("Invalid PNG");
-  if (
-    [".jpg", ".jpeg"].includes(ext) &&
-    !(
-      data[0] === 255 &&
-      data[1] === 216 &&
-      data.at(-2) === 255 &&
-      data.at(-1) === 217
-    )
-  )
-    throw new Error("Invalid or truncated JPEG");
-  if (ext === ".gif" && !/^GIF8[79]a/.test(text))
-    throw new Error("Invalid GIF");
-  return { data, compressed };
+  if (ext === ".pdf") {
+    if (!text.startsWith("%PDF-")) throw new Error("Invalid PDF");
+    if (!text.slice(-2048).includes("%%EOF"))
+      defect("Truncated PDF: no %%EOF marker");
+  }
+  if ([".htm", ".html", ""].includes(ext)) {
+    if (!/<(?:html|head|title|frameset|body)[\s>]/i.test(text.slice(0, 4000)))
+      throw new Error("Invalid HTML");
+    if (!/text\/html|application\/xhtml/i.test(type))
+      defect(`HTML served as ${type || "no content type"}`);
+    if (!/<(?:html|frameset|body)[\s>]/i.test(text))
+      defect("HTML without <html>, <body> or <frameset>");
+    if (!/<\/(?:html|frameset|body)\s*>/i.test(text))
+      defect(
+        "HTML without closing </html>, </body> or </frameset> (content may still be complete)",
+      );
+  }
+  const expected = expectedImage[ext];
+  if (expected) {
+    const found = imageFormats.find(([, test]) => test(data))?.[0];
+    if (!found) throw new Error(`Invalid ${expected}: not an image`);
+    if (found !== expected) defect(`${found} data with ${ext} extension`);
+    if (found === "JPEG") {
+      const end = data.lastIndexOf(Buffer.from([0xff, 0xd9]));
+      if (end < 0) defect("Truncated JPEG: no end marker");
+      else if (end !== data.length - 2)
+        defect(
+          `Truncated JPEG or ${data.length - end - 2} bytes after the end marker`,
+        );
+    }
+  }
+  return { data, compressed, defects };
 }
 export function retryDelay(
   header: string | null,

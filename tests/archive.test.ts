@@ -67,6 +67,49 @@ test("rejects 200 error pages, truncated HTML and PDF, and fake images", () => {
     ),
   );
 });
+test("lenient mode keeps incomplete originals and lists their defects", () => {
+  const gif = Buffer.concat([
+    Buffer.from("GIF89a"),
+    Buffer.alloc(20),
+    Buffer.from([0x3b]),
+  ]);
+  const jpgUrl = url.replace(".htm", ".jpg");
+  assert.throws(() => prepareData(gif, jpgUrl, "image/jpeg"));
+  assert.deepEqual(
+    prepareData(gif, jpgUrl, "image/jpeg", { lenient: true }).defects,
+    ["GIF data with .jpg extension"],
+  );
+  const jpeg = Buffer.from([0xff, 0xd8, 0xff, 0xe0, 1, 2, 0xff, 0xd9, 0, 0]);
+  assert.throws(() => prepareData(jpeg, jpgUrl, "image/jpeg"));
+  assert.match(
+    prepareData(jpeg, jpgUrl, "image/jpeg", { lenient: true }).defects[0],
+    /2 bytes after the end marker/,
+  );
+  const page = Buffer.from(
+    "<html><head><title>Nades</title></head><body>Torna indietro",
+  );
+  assert.match(
+    prepareData(page, url, "text/html", { lenient: true }).defects.join(),
+    /HTML without closing/,
+  );
+  assert.deepEqual(
+    prepareData(Buffer.from("<html><body>ok</body></html>"), url, "text/html")
+      .defects,
+    [],
+  );
+});
+test("lenient mode still rejects error pages and files of the wrong kind", () => {
+  const jpgUrl = url.replace(".htm", ".jpg");
+  for (const [data, u] of [
+    ["<html><body>Bot blocked</body></html>", url],
+    ["<html><body>not found</body></html>", jpgUrl],
+    ["plain text, no markup", url],
+    ["<html>error</html>", url.replace(".htm", ".pdf")],
+  ])
+    assert.throws(() =>
+      prepareData(Buffer.from(data), u, "text/html", { lenient: true }),
+    );
+});
 test("folds letter case without allowing escapes from the archive", () => {
   assert.equal(
     urlKey(url),

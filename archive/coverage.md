@@ -1,12 +1,12 @@
 # Archive coverage
 
-Generated: 2026-11-13T10:55:27.285Z
+Generated: 2026-11-13T11:09:54.423Z
 CDX index exhausted: yes
 
 | Type | Recovered | Missing | Failed attempt | Not attempted | Total | Recovered % |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| HTML or extensionless | 829 | 10 | 5 | 0 | 844 | 98.2% |
-| Images | 5710 | 69 | 7 | 0 | 5786 | 98.7% |
+| HTML or extensionless | 834 | 10 | 0 | 0 | 844 | 98.8% |
+| Images | 5727 | 69 | 0 | 0 | 5796 | 98.8% |
 | Other | 113 | 14 | 0 | 0 | 127 | 89.0% |
 | PDF | 226 | 2 | 0 | 0 | 228 | 99.1% |
 
@@ -25,21 +25,17 @@ CDX index exhausted: yes
 - 2019: 25
 - 2020: 86
 - 2021: 150
-- 2022: 234
+- 2022: 235
 - 2023: 148
 - 2024: 269
 - 2025: 336
-- 2026: 468
+- 2026: 469
 
 ## Unrecovered URLs and referring sources
 
-- failed: https://www.fmboschetto.it/utopiaucronia/Keikyo/United_Nations_Moon.jpg — referenced by: https://www.fmboschetto.it/Utopiaucronia/Keikyo.htm
-- failed: http://www.fmboschetto.it:80/Utopiaucronia/Napoleone_IV.htm — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/lavori_5.htm, http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_5.htm
 - missing: https://www.fmboschetto.it/Utopiaucronia/giorgiotosco@hotmail.it — referenced by: https://www.fmboschetto.it/Utopiaucronia/cinque_rep_marinare.htm
-- failed: https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Louis_XIV/Joseph_Stahl.jpg — referenced by: https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/sans_Louis_XIV_3.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/Germaniinoriente/Saluto_alla_bandiera.zip — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/Adelchi2100.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/saluto.jpg — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/Adelchi2100.htm
-- failed: http://www.fmboschetto.it/Utopiaucronia/Egypte/Alessandro_Shi_Huangdi.jpg — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/Alessandro_Shi_Huangdi.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/albaret.romain@orange.fr — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/antichita_galattica.htm, http://www.fmboschetto.it/Utopiaucronia/Fine_del_colonialismo.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/ICcomics.jpg — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/Black_Hornet.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/Odissea_in_America/Grandizer_U.jpg — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/crossover_nipporobotico.htm
@@ -60,7 +56,6 @@ CDX index exhausted: yes
 - missing: http://www.fmboschetto.it/utopiaucronia/dipinti_Sandro/Mongoli_a_Roma.jpg — referenced by: http://www.fmboschetto.it/utopiaucronia/fanta_Mongoli.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/Timeo.htm — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Olimpo.htm, http://www.fmboschetto.it:80/Utopiaucronia/intervista_sull_ucronia.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Baal_vs_Elia.jpg — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/fanta_Salomone.htm
-- failed: http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/ilcavalierepallido.jpg — referenced by: http://www.fmboschetto.it/Utopiaucronia/Fanta_Unni.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/fascsumar.jpg — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/FantaFascsuMar.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/mondo_Disney.jpg — referenced by: http://www.fmboschetto.it/Utopiaucronia/fiabe_storicizzate.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Pinocchio1.jpg — referenced by: http://www.fmboschetto.it/Utopiaucronia/fiabe_storicizzate.htm
@@ -122,7 +117,6 @@ CDX index exhausted: yes
 - missing: http://www.fmboschetto.it/Utopiaucronia/canale/ABITANTI_VILLAGGIO.pdf — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/quasi_ucronico.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/Dante33/new_churches.gif — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/Sacco_di_Roma.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/franco.boschetto@tin.it — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/settembre_1943.htm
-- failed: http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Ulivi.jpg — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/Serenissima.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/San_Klingon.jpg — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/Star_Trek_Star_Wars.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/sandro.degiani@yahoo.it — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/ucronia_pessimista.htm
 - missing: http://www.fmboschetto.it/utopiaucronia/Ucroniasenespanol/piottigio@tin.it — referenced by: http://www.fmboschetto.it/utopiaucronia/Ucroniasenespanol/noche_del_espejo.htm
@@ -132,14 +126,25 @@ CDX index exhausted: yes
 - missing: http://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/ossrom.jpg — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/Tony/generali.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/ossrom2.jpg — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/Tony/generali.htm
 - missing: http://www.fmboschetto.it/Utopiaucronia/Tony/ucro1_file/thumbnail58.jpg — referenced by: http://www.fmboschetto.it:80/Utopiaucronia/Tony/generali.htm
-- failed: https://www.fmboschetto.it/Utopiaucronia/Grande_Milano/Kashmir1.jpg — referenced by: https://www.fmboschetto.it/Utopiaucronia/Il_Grande_Gioco.htm
-- failed: http://www.fmboschetto.it/Utopiaucronia/Valentino/mini_Fanta_Crociate_1815.jpg — referenced by: http://www.fmboschetto.it/Utopiaucronia/Fanta_Crociate.htm
 - missing: http://www.fmboschetto.it/racconti/Utopiaucronia/marb18.jpg — referenced by: http://www.fmboschetto.it/racconti/poesie%20colleghi/arco.htm
-- failed: http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_21.htm — referenced by: http://www.fmboschetto.it/racconti/Roma_in_America/Intestazione.htm, http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_20.htm
-- failed: http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_22.htm — referenced by: http://www.fmboschetto.it/racconti/Roma_in_America/Intestazione.htm
-- failed: http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_23.htm — referenced by: http://www.fmboschetto.it/racconti/Roma_in_America/Intestazione.htm
-- failed: http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_24.htm — referenced by: http://www.fmboschetto.it/racconti/Roma_in_America/Intestazione.htm, http://www.fmboschetto.it/racconti/Roma_in_America/Stati_USE.htm
 - missing: http://www.fmboschetto.it/racconti/iperimpero/www.focus.it/edicola/index_edic.asp — referenced by: http://www.fmboschetto.it/racconti/iperimpero/iperimp7.htm
+
+## Recovered with defects
+
+No clean copy exists for these files. They are kept as the server or the latest capture holds them, with the defect noted; a defect is not a transfer error.
+
+- https://www.fmboschetto.it/utopiaucronia/Keikyo/United_Nations_Moon.jpg — GIF data with .jpg extension
+- http://www.fmboschetto.it:80/Utopiaucronia/Napoleone_IV.htm — HTML without closing </html>, </body> or </frameset> (content may still be complete)
+- https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Louis_XIV/Joseph_Stahl.jpg — Truncated JPEG or 3 bytes after the end marker
+- http://www.fmboschetto.it/Utopiaucronia/Egypte/Alessandro_Shi_Huangdi.jpg — BMP data with .jpg extension
+- http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/ilcavalierepallido.jpg — PNG data with .jpg extension
+- http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Ulivi.jpg — Truncated JPEG or 98 bytes after the end marker
+- https://www.fmboschetto.it/Utopiaucronia/Grande_Milano/Kashmir1.jpg — PNG data with .jpg extension
+- http://www.fmboschetto.it/Utopiaucronia/Valentino/mini_Fanta_Crociate_1815.jpg — GIF data with .jpg extension
+- http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_21.htm — HTML without closing </html>, </body> or </frameset> (content may still be complete)
+- http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_22.htm — HTML without closing </html>, </body> or </frameset> (content may still be complete)
+- http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_23.htm — HTML without closing </html>, </body> or </frameset> (content may still be complete)
+- http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_24.htm — HTML without closing </html>, </body> or </frameset> (content may still be complete)
 
 ## Possible image matches to review
 

@@ -73,6 +73,9 @@ export async function coverage(): Promise<void> {
       }
     }
   }
+  const withDefects = manifest.documents
+    .filter((d) => isRecovered(d) && d.defects?.length)
+    .map((d) => `- ${d.url} — ${d.defects?.join("; ")}`);
   const lines = [
     "# Archive coverage",
     "",
@@ -101,6 +104,12 @@ export async function coverage(): Promise<void> {
     "## Unrecovered URLs and referring sources",
     "",
     ...(missing.length ? missing : ["None in the current queue."]),
+    "",
+    "## Recovered with defects",
+    "",
+    "No clean copy exists for these files. They are kept as the server or the latest capture holds them, with the defect noted; a defect is not a transfer error.",
+    "",
+    ...(withDefects.length ? withDefects : ["None."]),
     "",
     "## Possible image matches to review",
     "",

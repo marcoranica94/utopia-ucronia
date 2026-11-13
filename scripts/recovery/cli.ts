@@ -119,6 +119,47 @@ if (positionals[0] === "discover") {
       available.sort((a, b) => b.timestamp.localeCompare(a.timestamp));
       await sleep(delay * 1000);
       let transient = false;
+      // Most recent capture that only passes the lenient check: used when no
+      // capture is clean, so an incomplete original is kept rather than lost.
+      let fallback:
+        | {
+            i: number;
+            c: (typeof available)[number];
+            type: string;
+            prepared: ReturnType<typeof prepareData>;
+          }
+        | undefined;
+      const store = async (
+        i: number,
+        c: (typeof available)[number],
+        type: string,
+        { data, compressed, defects }: ReturnType<typeof prepareData>,
+      ) => {
+        const relative = originalPath(url),
+          dest = safePath("archive/original", relative);
+        await mkdir(path.dirname(dest), { recursive: true });
+        try {
+          await writeFile(dest, data, { flag: "wx" });
+        } catch (error) {
+          if (
+            (error as NodeJS.ErrnoException).code !== "EEXIST" ||
+            sha256(await readFile(dest)) !== sha256(data)
+          )
+            throw error;
+        }
+        Object.assign(document, {
+          outcome: i ? "recovered from earlier copy" : "recovered",
+          path: relative,
+          timestamp: c.timestamp,
+          httpStatus: 200,
+          type,
+          size: data.length,
+          sha256: sha256(data),
+          compressed,
+          defects: defects.length ? defects : undefined,
+        });
+        delete document.error;
+      };
       for (let i = 0; i < available.length && !stop; i++) {
         const c = available[i];
         document.variants = [...new Set([...document.variants, c.original])];
@@ -129,34 +170,27 @@ if (positionals[0] === "discover") {
           if (r.status === 404 || r.status === 410) continue;
           if (!r.ok) throw new Error(`HTTP ${r.status}`);
           const type = r.headers.get("content-type") ?? c.mimetype;
-          const { data, compressed } = prepareData(
-            new Uint8Array(await r.arrayBuffer()),
-            c.original,
-            type,
-          );
-          const relative = originalPath(url),
-            dest = safePath("archive/original", relative);
-          await mkdir(path.dirname(dest), { recursive: true });
+          const bytes = new Uint8Array(await r.arrayBuffer());
+          let prepared: ReturnType<typeof prepareData>;
           try {
-            await writeFile(dest, data, { flag: "wx" });
+            prepared = prepareData(bytes, c.original, type);
           } catch (error) {
-            if (
-              (error as NodeJS.ErrnoException).code !== "EEXIST" ||
-              sha256(await readFile(dest)) !== sha256(data)
-            )
-              throw error;
+            if (!fallback)
+              try {
+                fallback = {
+                  i,
+                  c,
+                  type,
+                  prepared: prepareData(bytes, c.original, type, {
+                    lenient: true,
+                  }),
+                };
+              } catch {
+                /* not even a damaged original: discard */
+              }
+            throw error;
           }
-          Object.assign(document, {
-            outcome: i ? "recovered from earlier copy" : "recovered",
-            path: relative,
-            timestamp: c.timestamp,
-            httpStatus: 200,
-            type,
-            size: data.length,
-            sha256: sha256(data),
-            compressed,
-          });
-          delete document.error;
+          await store(i, c, type, prepared);
           break;
         } catch (error) {
           document.error = String(error);
@@ -166,6 +200,8 @@ if (positionals[0] === "discover") {
           await sleep(delay * 1000);
         }
       }
+      if (!document.sha256 && fallback && !transient && !stop)
+        await store(fallback.i, fallback.c, fallback.type, fallback.prepared);
       if (!document.sha256)
         document.outcome = transient || stop ? "failed attempt" : "missing";
     } catch (error) {

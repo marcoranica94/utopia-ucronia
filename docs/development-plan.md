@@ -65,7 +65,7 @@ A single command, `pnpm recovery`, downloads from the Wayback Machine all pages 
 
 **How it behaves:**
 
-1. **Valid capture.** For each URL it starts from the most recent capture and goes back to earlier ones until it finds a valid one. Not valid: IIS error pages archived with status 200 ("Bot blocked", "Detailed Error"), empty or truncated files, type inconsistent with the extension.
+1. **Valid capture.** For each URL it starts from the most recent capture and goes back to earlier ones until it finds a valid one. Not valid: IIS error pages archived with status 200 ("Bot blocked", "Detailed Error"), empty or truncated files, type inconsistent with the extension. If no capture is clean (13/11/2026), the most recent copy that is still the right kind of file and not an error page is kept with its `defects` listed in the manifest and in `coverage.md` (for example a GIF saved as `.jpg`, or a page without its closing tags on the server itself): an incomplete original is preserved, not counted as lost. Origin downloads use this lenient check directly, since `fetch` already rejects bodies shorter than `Content-Length`.
 2. **Gzip and hash.** It recognizes undeclared gzip and decompresses it. It saves the decompressed content, i.e. the file as it was on the server; the hash is computed on that and the manifest notes that the response was compressed.
 3. **Outcomes.** Every URL ends up in one state: `recovered`, `recovered from earlier copy`, `failed attempt` (retried on the next run), `missing` (no valid capture at any date).
 4. **Network errors.** On 429 or 5xx it honors `Retry-After`, otherwise it doubles the wait up to 10 minutes. After 3 attempts the URL stays `failed attempt` and it moves on.
@@ -176,6 +176,8 @@ Started on 11/11/2026 and resumed on 12/11/2026. The CDX index and recovered-pag
 - [x] Script tests on recorded responses, without network: error pages, gzip, truncated files
 - [x] Full recovery download in the background, in batches of 20
 - [x] `recovery coverage`, final owner-requested retry of all unresolved URLs, and documented gaps for future review
+- [x] Lenient fallback for originals with no clean copy, recorded as `defects` (13/11/2026): `United_Nations_Moon.jpg` (GIF data) and `Napoleone_IV.htm` (no closing tags) recovered from the Wayback
+- [x] Retry of the 10 origin-only failed attempts with `pnpm recovery:origin`: all recovered with defects noted, plus 10 newly linked Roma_in_America images. Final: 6,995 URLs, 6,900 recovered, 95 missing, 0 failed attempts; `verify` clean, `download` rerun downloads nothing
 
 Demo: `archive/coverage.md` with the percentages by type; rerunning `download` downloads nothing; `recovery verify` without errors.
 

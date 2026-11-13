@@ -65,7 +65,7 @@ async function save(doc: ArchiveDocument) {
     await writeJson("archive/manifest.json", manifest);
     await appendFile(
       "archive/download.log",
-      `${new Date().toISOString()} origin ${doc.outcome}: ${doc.url}${doc.error ? ` ${doc.error}` : ""}\n`,
+      `${new Date().toISOString()} origin ${doc.outcome}: ${doc.url}${doc.error ? ` ${doc.error}` : ""}${doc.defects ? ` defects: ${doc.defects.join("; ")}` : ""}\n`,
     );
   });
   await saving;
@@ -101,10 +101,13 @@ async function download(url: string) {
       doc.outcome = "missing";
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const type = response.headers.get("content-type") ?? "";
-    const { data, compressed } = prepareData(
+    // fetch rejects a body shorter than Content-Length, so a completed
+    // response is the file as the server holds it: keep it, noting defects.
+    const { data, compressed, defects } = prepareData(
       new Uint8Array(await response.arrayBuffer()),
       target.href,
       type,
+      { lenient: true },
     );
     const relative = originalPath(url);
     const dest = safePath("archive/original", relative);
@@ -130,7 +133,9 @@ async function download(url: string) {
       sha256: sha256(data),
       compressed,
       lastModified: response.headers.get("last-modified") ?? undefined,
+      defects: defects.length ? defects : undefined,
     });
+    delete doc.error;
     recovered++;
   } catch (error) {
     const cause =
