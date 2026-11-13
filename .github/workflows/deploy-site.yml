@@ -65,12 +65,6 @@ jobs:
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-      - name: Back up the originals to R2
-        if: github.event_name != 'pull_request' && vars.BACKUP_R2_ABILITATO == 'true'
-        run: pnpm backup --r2
-        env:
-          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
-          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
       - name: Deploy waiting for configuration
         if: github.event_name != 'pull_request' && vars.DEPLOY_ABILITATO != 'true'
         run: echo '::notice::Build verified. Configure Access, secrets and DEPLOY_ABILITATO before deploying.'
