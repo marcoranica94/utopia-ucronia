@@ -36,6 +36,8 @@ for (const file of await pages("dist")) {
       (script) =>
         ![
           "/theme.js",
+          "/search-shortcut.js",
+          ...(/^\/(?:en\/)?search\//.test(pathname) ? ["/search.js"] : []),
           "/rail.js",
           "/reader.js",
           ...(isCatalog ? ["/catalog.js"] : []),

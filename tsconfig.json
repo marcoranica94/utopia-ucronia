@@ -6,5 +6,12 @@
     "erasableSyntaxOnly": true
   },
   "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist", "archive", "node_modules"]
+  "exclude": [
+    "dist",
+    "archive",
+    "node_modules",
+    "public/pagefind",
+    "public/browse-data",
+    "public/periods"
+  ]
 }

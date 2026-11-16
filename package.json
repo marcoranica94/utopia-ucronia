@@ -15,7 +15,7 @@
     "recovery:origin": "node scripts/recovery/origin.ts",
     "convert": "node scripts/convert.ts",
     "check": "astro check",
-    "build": "pnpm convert && pnpm browse:generate && pnpm sources:generate && astro check && astro build && pnpm browse:payloads && pnpm links:check && pnpm compare:sample && pnpm browse:check",
+    "build": "pnpm convert && pnpm browse:generate && pnpm sources:generate && astro check && astro build && pnpm browse:payloads && pnpm search:build && pnpm links:check && pnpm compare:sample && pnpm browse:check",
     "compare:sample": "node scripts/compare-sample.ts",
     "test": "node --test tests/*.test.ts",
     "lint": "biome ci .",
@@ -29,7 +29,8 @@
     "browse:generate": "node scripts/generate-browse.ts",
     "browse:check": "node scripts/check-browse.ts",
     "browse:payloads": "node scripts/generate-browse-payloads.ts",
-    "sources:generate": "node scripts/generate-sources.ts"
+    "sources:generate": "node scripts/generate-sources.ts",
+    "search:build": "node scripts/build-search.ts"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "0.4.8",
@@ -50,6 +51,7 @@
     "@types/sanitize-html": "2.16.1",
     "@types/turndown": "5.0.6",
     "typescript": "6.0.3",
-    "wrangler": "4.160.1"
+    "wrangler": "4.160.1",
+    "pagefind": "1.6.0"
   }
 }

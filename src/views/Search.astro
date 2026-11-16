@@ -1,0 +1,28 @@
+---
+import { getCollection } from "astro:content";
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import "../styles/discovery.css";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const readingCount = (await getCollection("works")).length;
+const labels = Object.fromEntries(
+  ["loading", "empty", "error", "count", "one", "hint"].map((key) => [
+    key,
+    t(`search.${key}` as Parameters<typeof t>[0]),
+  ]),
+);
+---
+<Base title={t("search.title")} lang={lang}>
+ <div class="discovery-page" data-search-page data-search-labels={JSON.stringify(labels)} data-search-lang={lang} data-search-source-label={t("search.source")}>
+ <h1 class="page-title">{t("search.title")}</h1><p>{t("search.intro")}</p><p class="discovery-note">{t("search.scope",{count:readingCount})}</p>
+ <div class="search-fields"><label for="search-input">{t("search.label")}<input id="search-input" type="search" data-fulltext-input autocomplete="off" aria-describedby="search-hint" /></label><label>{t("search.language")}<select data-search-language><option value="">{t("search.allLanguages")}</option>{["it","fr","es","en","unknown"].map(language=><option value={language}>{t(`work.language.${language}` as Parameters<typeof t>[0])}</option>)}</select></label></div>
+ <p id="search-hint" class="discovery-note">{t("search.hint")}</p><p role="status" aria-live="polite" data-search-status></p><button type="button" data-search-retry hidden>{t("search.retry")}</button>
+ <ol class="search-results" data-search-results></ol><button type="button" data-search-more hidden>{t("search.more")}</button>
+ <noscript><p>{t("search.nojs")}</p></noscript><p><a href={localePath(lang,"/works/")}>{t("site.nav.completeWorks")}</a> · <a href={localePath(lang,"/divergences/")}>{t("site.nav.prompts")}</a></p>
+ </div><script is:inline type="module" src="/search.js"></script>
+</Base>
