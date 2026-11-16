@@ -15,7 +15,7 @@
     "recovery:origin": "node scripts/recovery/origin.ts",
     "convert": "node scripts/convert.ts",
     "check": "astro check",
-    "build": "pnpm convert && pnpm browse:generate && astro check && astro build && pnpm browse:payloads && pnpm links:check && pnpm compare:sample && pnpm browse:check",
+    "build": "pnpm convert && pnpm browse:generate && pnpm sources:generate && astro check && astro build && pnpm browse:payloads && pnpm links:check && pnpm compare:sample && pnpm browse:check",
     "compare:sample": "node scripts/compare-sample.ts",
     "test": "node --test tests/*.test.ts",
     "lint": "biome ci .",
@@ -28,7 +28,8 @@
     "editorial:enrich": "node scripts/enrich-map.ts",
     "browse:generate": "node scripts/generate-browse.ts",
     "browse:check": "node scripts/check-browse.ts",
-    "browse:payloads": "node scripts/generate-browse-payloads.ts"
+    "browse:payloads": "node scripts/generate-browse-payloads.ts",
+    "sources:generate": "node scripts/generate-sources.ts"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "0.4.8",

@@ -1,6 +1,9 @@
 ---
 import { readFile } from "node:fs/promises";
+import { documentId } from "../../scripts/editorial-core";
 import type { Gap } from "../../scripts/link-resolution";
+import { isRecovered, readManifest, urlKey } from "../../scripts/recovery/core";
+import sources from "../generated/sources.json";
 import { type Lang, localePath, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
 
@@ -9,13 +12,23 @@ interface Props {
 }
 const { lang } = Astro.props;
 const t = useTranslations(lang);
+const manifest = await readManifest();
+const resource = (url: string) => {
+  try {
+    return manifest.documents.find(
+      (d) => urlKey(d.url) === urlKey(url.split("#")[0]),
+    );
+  } catch {
+    return undefined;
+  }
+};
 const gaps = JSON.parse(
   await readFile("reports/link-gaps.json", "utf8"),
 ) as Gap[];
 ---
 <Base title={t("gaps.title")} lang={lang}>
   <div class="plain-page"><p class="page-kicker">{t("gaps.kicker")}</p><h1 class="page-title">{t("gaps.heading")}</h1><p>{t("gaps.text1")}</p><p>{t("gaps.text2")}</p><a class="back-link" href={localePath(lang, "/")}>{t("back.works")}</a></div>
-  <div class="gap-register">{gaps.map(gap=><section class="gap-record" id={gap.id}><h2>{t(`gaps.reason.${gap.reason}`)}</h2><dl><dt>{t("gaps.resource")}</dt><dd>{gap.resource}</dd><dt>{t("gaps.referrer")}</dt><dd>{gap.source}</dd></dl></section>)}</div>
+  <div class="gap-register">{gaps.map(gap=><section class="gap-record" id={gap.id}><h2>{t(`gaps.reason.${gap.reason}`)}</h2><dl><dt>{t("gaps.resource")}</dt><dd>{gap.resource}</dd><dt>{t("gaps.referrer")}</dt><dd>{gap.source}</dd></dl>{sources.some(source=>source.id===documentId(gap.source))&&<p><a href={localePath(lang,`/sources/${documentId(gap.source)}/`)}>{t("source.open")}</a></p>}{resource(gap.resource)&&<div><p>{t(isRecovered(resource(gap.resource)!)?"source.recovered":"source.missing")}</p><p>{resource(gap.resource)?.type}</p>{resource(gap.resource)?.sha256&&<p>{t("source.hash")}: {resource(gap.resource)?.sha256}</p>}</div>}</section>)}</div>
 </Base>
 <style>
 .gap-register { margin-top:3rem; }

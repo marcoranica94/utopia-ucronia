@@ -1,0 +1,22 @@
+---
+import records from "../generated/sources.json";
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import "../styles/discovery.css";
+
+interface Props {
+  id: string;
+  lang: Lang;
+}
+const { id, lang } = Astro.props;
+const source = records.find((record) => record.id === id);
+if (!source) throw Error("Unknown source");
+const t = useTranslations(lang);
+---
+<Base title={`${t("source.title")} · ${source.title}`} lang={lang}>
+ <div class="discovery-page source-page"><h1 class="page-title">{source.title}</h1><p>{t("source.intro")}</p><dl class="source-facts"><dt>{t("source.original")}</dt><dd>{source.url}</dd><dt>{t("source.captured")}</dt><dd>{source.timestamp?`${source.timestamp.slice(0,4)}-${source.timestamp.slice(4,6)}-${source.timestamp.slice(6,8)}`:t("source.origin")}</dd><dt>{t("source.format")}</dt><dd>{source.mediaType}</dd><dt>{t("source.hash")}</dt><dd>{source.sha256}</dd></dl>
+ <h2>{t("source.editions")}</h2><ul>{source.items.map(item=><li><a href={localePath(lang,item.href)}>{item.title}</a></li>)}</ul>
+ {source.gaps.length>0&&<section><h2>{t("source.notes")}</h2><p>{t("source.resourcesHint")}</p><ul class="source-resource-list">{source.gaps.map(gap=><li><a href={localePath(lang,`/gaps/#${gap.id}`)}>{gap.resource.split("/").at(-1) || gap.resource}</a><span>{t(`gaps.reason.${gap.reason}` as Parameters<typeof t>[0])}</span></li>)}</ul></section>}
+ <details class="source-text" open><summary>{t("source.text")}</summary><div lang={source.language==="unknown"?undefined:source.language}>{source.text.map((text,index)=><p id={`source-block-${index}`}>{text}</p>)}</div></details>
+ </div>
+</Base>

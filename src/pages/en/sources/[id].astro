@@ -1,0 +1,8 @@
+---
+import records from "../../../generated/sources.json";
+import Source from "../../../views/Source.astro";
+export function getStaticPaths() {
+  return records.map((record) => ({ params: { id: record.id } }));
+}
+---
+<Source id={Astro.params.id!} lang="en" />
