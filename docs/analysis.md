@@ -271,3 +271,5 @@ The main risk is that the Wayback doesn't have everything, or that it saved erro
 **Already decided on 11/11/2026, after a critical review of the plan:** recovery from the Wayback only; emails removed from all browsable views; browsable copy in `/original/`, cleaned; sample trial and backups before everything else; search in the first useful version; divergence tree as an extra view; versions locked by the lockfile after start.
 
 **Decided on 12/11/2026:** the repository is in English (docs, code, data formats, URLs, commit messages; the site interface is bilingual, Italian at `/` and English under `/en/`, owner decision of 13/11/2026); only the stories stay in their original language.
+
+**Owner update, 16/11/2026:** reading uses the full page width with small responsive gutters; no permanent side rail, author column or date column. Preserve the separate story branches (especially the presidential uchronias), but make their labels and dates readable in an expandable contents panel. Provide explicit light mode and back-to-top navigation. This supersedes the earlier 65–70-character reading-column target.

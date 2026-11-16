@@ -30,12 +30,12 @@ const options = [
 <style>
   .theme-switch { display: inline-flex; gap: 2px; padding: 2px; border: 1px solid var(--line); border-radius: 8px; background: var(--surface); }
   .theme-switch[hidden] { display: none; }
-  .theme-switch button { display: inline-flex; align-items: center; gap: .35rem; min-height: 32px; padding: .25rem .55rem; border: 0; border-radius: 6px; background: transparent; color: var(--muted); font: 600 .82rem / 1 var(--font-ui); cursor: pointer; }
+  .theme-switch button { display: inline-flex; align-items: center; gap: .35rem; min-height: 40px; padding: .25rem .55rem; border: 0; border-radius: 6px; background: transparent; color: var(--muted); font: 600 .82rem / 1 var(--font-ui); cursor: pointer; }
   .theme-switch button:hover { color: var(--accent); }
   .theme-switch button[aria-pressed="true"] { background: var(--surface-soft); color: var(--ink); }
   .theme-switch svg { width: 16px; height: 16px; flex: none; }
   /* On narrow screens the options keep only their icons; names stay for screen readers. */
-  @media (max-width: 900px) {
+  @media (max-width: 600px) {
     .theme-label { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap; }
     .theme-switch button { padding: .25rem .45rem; }
   }

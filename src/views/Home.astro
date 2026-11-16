@@ -1,8 +1,8 @@
 ---
 import { getCollection } from "astro:content";
-import BranchTree from "../components/BranchTree.astro";
 import { type Lang, localePath, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
+import "../styles/catalog.css";
 
 interface Props {
   lang: Lang;
@@ -16,11 +16,8 @@ const count = (n: number) =>
   `${n} ${n === 1 ? t("home.count.one") : t("home.count.many")}`;
 ---
 <Base title={t("home.title")} lang={lang}>
-  <div class="home-top">
-    <div class="page-intro"><p class="page-kicker">{t("home.kicker")}</p><h1 class="page-title">{t("home.heading")}</h1><p class="page-lede">{t("home.lede")}</p></div>
-    <aside class="home-feature" aria-labelledby="feature-title"><h2 id="feature-title">{t("home.featureTitle")}</h2><BranchTree /><p>{t("home.featureText")}</p><a href={localePath(lang, "/tree/")}>{t("home.featureLink")}</a></aside>
-  </div>
-  <section aria-labelledby="catalog-title"><div class="section-heading"><h2 id="catalog-title">{t("home.catalogTitle")}</h2><p id="catalog-count" aria-live="polite" data-one={t("home.count.one")} data-many={t("home.count.many")}>{count(works.length)}</p></div><form class="catalog-filters" role="search" aria-label={t("home.filters")}><label for="catalog-search">{t("home.search")}<input id="catalog-search" type="search" name="q" autocomplete="off" placeholder={t("home.searchPlaceholder")} /></label><label for="catalog-language">{t("home.language")}<select id="catalog-language" name="lang"><option value="">{t("home.allLanguages")}</option><option value="it">{t("lang.it")}</option><option value="fr">{t("lang.fr")}</option><option value="es">{t("lang.es")}</option></select></label></form>{works.length ? <><ul class="catalog">{works.map((work) => <li data-work data-title={work.data.title} data-language={work.data.language}><div><a href={localePath(lang, `/works/${work.id}/`)} lang={work.data.language}>{work.data.title}</a><small>{work.data.gaps > 0 ? t("home.gaps") : t("home.recovered")}</small></div><span class="language-tag">{work.data.language.toUpperCase()}</span></li>)}</ul><p id="catalog-empty" class="small-note" hidden>{t("home.empty")}</p></> : <p class="small-note">{t("home.none")}</p>}</section>
+  <header class="collection-intro"><div><h1 class="page-title">{t("home.heading")}</h1><p class="page-lede">{t("home.lede")}</p></div><a class="collection-explore" href={localePath(lang, "/tree/")}>{t("home.featureLink")}</a></header>
+  <section aria-labelledby="catalog-title"><div class="section-heading"><h2 id="catalog-title">{t("home.catalogTitle")}</h2><p id="catalog-count" aria-live="polite" data-one={t("home.count.one")} data-many={t("home.count.many")}>{count(works.length)}</p></div><form class="catalog-filters" role="search" aria-label={t("home.filters")}><label for="catalog-search">{t("home.search")}<input id="catalog-search" type="search" name="q" autocomplete="off" placeholder={t("home.searchPlaceholder")} /></label><label for="catalog-language">{t("home.language")}<select id="catalog-language" name="lang"><option value="">{t("home.allLanguages")}</option><option value="it">{t("lang.it")}</option><option value="fr">{t("lang.fr")}</option><option value="es">{t("lang.es")}</option></select></label></form>{works.length ? <><ul class="catalog">{works.map((work) => <li data-work data-title={`${work.data.title} ${work.data.authors.join(" ")}`} data-language={work.data.language}><div><a href={localePath(lang, `/works/${work.id}/`)} lang={work.data.language}>{work.data.title}</a><small>{work.data.authors.join(", ") || t("home.recovered")}{work.data.shape && ` · ${t(`shape.${work.data.shape}`)}`}</small></div><span class="language-tag">{work.data.language.toUpperCase()}</span></li>)}</ul><p id="catalog-empty" class="small-note" hidden>{t("home.empty")}</p></> : <p class="small-note">{t("home.none")}</p>}</section>
   <p class="small-note">{t("home.note")}</p>
 </Base>
 <script>

@@ -1,21 +1,21 @@
 /* UtopiaUcronia: the branching tree carries the identity; reading stays quiet. */
 :root {
   color-scheme: light;
-  --paper: #faf8f4;
-  --surface: #fffefd;
-  --surface-soft: #eeeae3;
-  --ink: #202a38;
-  --muted: #626b76;
-  --line: #dedbd4;
-  --accent: #a34635;
-  --accent-hover: #833428;
+  --paper: #ffffff;
+  --surface: #f7f9fc;
+  --surface-soft: #edf2f7;
+  --ink: #202e3d;
+  --muted: #586b7c;
+  --line: #dbe3eb;
+  --accent: #315f83;
+  --accent-hover: #204866;
   --night: #26344c;
   --night-hover: #17243a;
   --on-night: #f6f1e9;
   --branch: #e2b69b;
   --font-ui: "Titillium Web", "Segoe UI", Arial, sans-serif;
   --font-reading: Georgia, "Times New Roman", serif;
-  --content-width: 1180px;
+  --content-width: 1440px;
   --reading-width: 70ch;
 }
 @media (prefers-color-scheme: dark) {
@@ -27,8 +27,8 @@
     --ink: #f2f2ef;
     --muted: #b5bfca;
     --line: #354353;
-    --accent: #eea386;
-    --accent-hover: #ffd0b7;
+    --accent: #99c7ed;
+    --accent-hover: #c7e4ff;
     --night: #26344c;
     --night-hover: #344762;
     --on-night: #f6f1e9;
@@ -43,8 +43,8 @@
   --ink: #f2f2ef;
   --muted: #b5bfca;
   --line: #354353;
-  --accent: #eea386;
-  --accent-hover: #ffd0b7;
+  --accent: #99c7ed;
+  --accent-hover: #c7e4ff;
   --night: #26344c;
   --night-hover: #344762;
   --on-night: #f6f1e9;

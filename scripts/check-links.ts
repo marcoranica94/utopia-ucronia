@@ -26,7 +26,9 @@ for (const file of await pages("dist")) {
     .filter(
       (script) =>
         !isCatalog &&
-        !["/theme.js", "/rail.js"].includes($(script).attr("src") ?? ""),
+        !["/theme.js", "/rail.js", "/reader.js"].includes(
+          $(script).attr("src") ?? "",
+        ),
     );
   if (
     unexpectedScripts.length ||

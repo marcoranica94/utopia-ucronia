@@ -1,0 +1,65 @@
+---
+import { isKey, type Lang, useTranslations } from "../i18n";
+import type { OutlineItem } from "../outline";
+
+interface Props {
+  outline: OutlineItem[];
+  lang: Lang;
+  textLang: string;
+}
+const { outline, lang, textLang } = Astro.props;
+const t = useTranslations(lang);
+const label = (value: string) => {
+  const key = `outline.${value.slice(1)}`;
+  return value.startsWith("@") && isKey(key) ? t(key) : value;
+};
+type Branch = { item: OutlineItem; entries: OutlineItem[] };
+const branches: Branch[] = [];
+let current: Branch | undefined;
+for (const item of outline) {
+  if (
+    item.kind === "contribution" ||
+    item.kind === "piece" ||
+    item.id === "start"
+  ) {
+    current = { item, entries: [] };
+    branches.push(current);
+  } else if (item.kind === "entry") current?.entries.push(item);
+}
+const mapped = branches.filter(
+  (b) => b.entries.length || b.item.contribution === "variant",
+);
+const sections = outline.filter(
+  (i) => i.kind === "section" || i.kind === "pod" || i.kind === "piece",
+);
+const voices = outline.filter((i) => i.kind === "contribution");
+const date = (item: OutlineItem) => {
+  const value = item.label.split("|")[0];
+  return item.start !== undefined &&
+    item.start < 0 &&
+    !/a\.?\s*c\.?|av\.|\bbc\b/i.test(value)
+    ? `${value} ${lang === "it" ? "a.C." : "BC"}`
+    : value;
+};
+---
+<div class="reader-navigation" aria-label={t("reader.tools")}>
+  <details class="reader-contents" data-reader-contents>
+    <summary><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.5" /></svg><span>{t("reader.open")}</span><span class="reader-chevron" aria-hidden="true">⌄</span></summary>
+    <div class="contents-panel">
+      <div class="contents-sections">
+        <nav aria-label={t("reader.contents")}><h2>{t("reader.contents")}</h2><ol>{sections.map((item) => <li><a href={`#${item.id}`} data-reader-link>{label(item.label)}</a></li>)}</ol></nav>
+        {voices.length > 0 && <nav aria-label={t("outline.discussion")}><h2>{t("outline.discussion")}</h2><ol>{voices.map((item) => <li><a href={`#${item.id}`} data-reader-link><span>{label(item.label)}</span><small>{t(`kind.${item.contribution ?? "comment"}`)}</small></a></li>)}</ol></nav>}
+      </div>
+      {mapped.length > 0 && <nav class="contents-branches" aria-label={t("reader.branches")}>
+        <h2>{t("reader.branches")}</h2><p class="contents-note">{t("reader.branchNote")}</p>
+        <a class="branch-root" href={`#${sections[0]?.id ?? outline[0]?.id}`} data-reader-link>{t("reader.main")}</a>
+        <ol class="branch-map">{mapped.map((branch) => <li class:list={["map-branch", branch.item.contribution === "variant" && "map-variant"]}>
+          <div class="branch-heading"><a href={`#${branch.item.id}`} data-reader-link>{branch.item.id === "start" ? t("rail.uchronia") : label(branch.item.label)}</a><span>{branch.item.contribution ? t(`kind.${branch.item.contribution}`) : t("reader.dates")}{branch.entries.length > 0 && ` · ${date(branch.entries[0])}${branch.entries.length > 1 ? ` – ${date(branch.entries.at(-1)!)}` : ""}`}</span></div>
+          {branch.entries.length > 0 && <details class="branch-events"><summary>{t("reader.events", { n: branch.entries.length })}</summary><ol>{branch.entries.map((entry) => <li><a href={`#${entry.id}`} data-reader-link><time>{date(entry)}</time><span lang={textLang}>{entry.label.split("|").slice(1).join("|")}</span></a></li>)}</ol></details>}
+        </li>)}</ol>
+      </nav>}
+    </div>
+  </details>
+  <span class="reader-position" data-reader-position aria-hidden="true"></span>
+  <a class="reader-top" href="#work-title" aria-label={t("reader.top")}>↑ <span>{t("reader.top")}</span></a>
+</div>

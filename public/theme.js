@@ -16,12 +16,13 @@
     if (choice === "system") delete root.dataset.theme;
     else root.dataset.theme = choice;
   };
-  apply(read());
+  let selected = read();
+  apply(selected);
   const update = () => {
     const group = document.querySelector("[data-theme-switch]");
     if (!group) return;
     group.hidden = false;
-    const choice = read();
+    const choice = selected;
     for (const button of group.querySelectorAll("[data-theme-set]"))
       button.setAttribute(
         "aria-pressed",
@@ -38,6 +39,7 @@
         } catch {
           /* The choice still applies to this page. */
         }
+        selected = choice;
         apply(choice);
         update();
       });

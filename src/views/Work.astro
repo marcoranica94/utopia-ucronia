@@ -1,9 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import { render } from "astro:content";
-import ThreadRail from "../components/ThreadRail.astro";
-import TimelineRail from "../components/TimelineRail.astro";
-import TimeRail from "../components/TimeRail.astro";
+import WorkContents from "../components/WorkContents.astro";
 import { type Lang, localePath, localizeHtml, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
 import "../styles/reading.css";
@@ -11,10 +9,10 @@ import "../styles/reading.css";
 interface Props {
   work: CollectionEntry<"works">;
   lang: Lang;
-  /** Reading design under comparison: "a" annals, "b" dialogue. */
+  /** Retained for links to the earlier comparison routes. */
   direction?: "a" | "b";
 }
-const { work, lang, direction = "a" } = Astro.props;
+const { work, lang } = Astro.props;
 const t = useTranslations(lang);
 const data = work.data;
 const { Content } = await render(work);
@@ -50,22 +48,17 @@ const byline =
           : "")
     : "";
 ---
-<Base title={data.title} lang={lang}>
+<Base title={data.title} lang={lang} reading>
   <a class="back-link" href={localePath(lang, "/")}>{t("back.works")}</a>
   {data.shape ? (
-    <div class:list={["uchronia", `dir-${direction}`]}>
-      {showRail ? (
-        <aside class="uchronia-rail">
-          <div class="rail-desktop">{direction === "a" ? <TimeRail outline={outline} lang={lang} /> : <ThreadRail outline={outline} lang={lang} />}</div>
-          <TimelineRail outline={outline} lang={lang} textLang={data.language} />
-        </aside>
-      ) : <div aria-hidden="true"></div>}
+    <div class="uchronia">
       <div class="uchronia-main">
         <header class="uchronia-head">
-          <h1 class="page-title" lang={data.language}>{data.title}</h1>
+          <h1 id="work-title" class="page-title" lang={data.language}>{data.title}</h1>
           {byline && <p class="uchronia-byline">{byline}</p>}
           <p class="uchronia-facts">{t(`shape.${data.shape}`)}{facts.length > 0 && `: ${facts.join(", ")}.`} {t(`work.language.${data.language}`)}</p>
         </header>
+        {showRail && <WorkContents outline={outline} lang={lang} textLang={data.language} />}
         <article class="reading-copy structured" lang={data.language}><Fragment set:html={html} /></article>
         <footer class="uchronia-source">
           {data.sources.map((source) => <p>{captured(source.timestamp) ? t("work.sourceCaptured", { url: source.url, date: captured(source.timestamp) ?? "" }) : t("work.source", { url: source.url })}</p>)}
@@ -75,8 +68,10 @@ const byline =
       </div>
     </div>
   ) : (
-    <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 class="page-title" lang={data.language}>{data.title}</h1><aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language}><Content /></article></div>
+    <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 id="work-title" class="page-title" lang={data.language}>{data.title}</h1><aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language}><Content /></article></div>
       <aside class="reading-aside" aria-labelledby="source-title"><h2 id="source-title">{t("work.provenance")}</h2>{data.sources.map((source) => <div><p>{source.timestamp ? t("work.captured", { date: captured(source.timestamp) ?? "" }) : t("work.fromOrigin")}</p><p>{source.url}</p></div>)}<p>{t("work.kept")}</p></aside>
     </div>
   )}
+  <a class="back-top" href="#work-title" data-back-top>↑ {t("reader.top")}</a>
+  <script is:inline src="/reader.js" defer></script>
 </Base>
