@@ -73,7 +73,7 @@ flowchart LR
 
 **How the old site was ordered** (read from the archived indexes):
 
-- **"Lista delle ucronie":** a catalog of short prompts, one paragraph each with its author, divided into 17 periods: from the "Ucronie preistoriche" (prehistoric uchronias) to those "del presente e del futuro" (of the present and the future), plus "fantastiche e fantaletterarie" (fantasy and literary-fantasy). About 20 pages inside a frameset.
+- **"Lista delle ucronie":** a catalog of short prompts, one paragraph each with its author, divided into 18 menu sections (17 chronological and one fantastic/literary section): from the "Ucronie preistoriche" (prehistoric uchronias) to those "del presente e del futuro" (of the present and the future), plus "fantastiche e fantaletterarie" (fantasy and literary-fantasy). About 20 pages inside a frameset.
 - **"Tutti i nostri lavori":** the complete works, in 9 categories different from the 17 periods (ancient, Roman, medieval, modern, 1860–1940, 1940–1960, post 1960, Fantastorie, Utopias and stories).
 - **Collective pages:** a page with contributions from different authors, reached by anchor (`spotthePOD.htm#NONO`, `cinque_rep_marinare.htm#Pisa`).
 - **Split works:** one text across several files (`25071943.htm`, `25071943_2.htm`, `25071943_doppio.htm`).
@@ -273,3 +273,10 @@ The main risk is that the Wayback doesn't have everything, or that it saved erro
 **Decided on 12/11/2026:** the repository is in English (docs, code, data formats, URLs, commit messages; the site interface is bilingual, Italian at `/` and English under `/en/`, owner decision of 13/11/2026); only the stories stay in their original language.
 
 **Owner update, 16/11/2026:** reading uses the full page width with small responsive gutters; no permanent side rail, author column or date column. Preserve the separate story branches (especially the presidential uchronias), but make their labels and dates readable in an expandable contents panel. Provide explicit light mode and back-to-top navigation. This supersedes the earlier 65–70-character reading-column target.
+
+
+## Historical indexes requested by the owner, 16 November 2026
+
+The new site must retain two distinct source-based entrances: the full Lista of prompts grouped by the periods in its recovered menu, with references to developed works/discussions; and the full works catalog grouped by its own nine categories, including Utopias and stories. These are now available at `/divergences/` and `/works/` in both interface languages, independently of the 46-item prepared reading edition.
+
+There are 18 sections in the recovered Lista menu (17 historical plus fantasy), with 6,797 entries. A separate recovered 2013 early-modern list adds 296 historical entries and possible variants; it is explicitly separated rather than mixed into a claim of 7,093 distinct current ideas. Source navigation is not a new approved era taxonomy. Missing source links do not prove that a prompt was never developed, and recovered files do not automatically count as published reading editions. See `docs/historical-indexes.md` and the generated browse reports for provenance, checks and limitations.

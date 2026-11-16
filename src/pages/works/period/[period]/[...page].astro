@@ -1,0 +1,6 @@
+---
+import { periodPages } from "../../../../browse/data";
+import BrowsePeriod from "../../../../views/BrowsePeriod.astro";
+export const getStaticPaths = () => periodPages("works");
+---
+<BrowsePeriod {...Astro.props} lang="it" />

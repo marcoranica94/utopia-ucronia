@@ -1,0 +1,37 @@
+---
+import { browse, periodPath, promptLocations } from "../browse/data";
+import type { BrowseTarget } from "../browse/model";
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import "../styles/browse.css";
+
+interface Props {
+  lang: Lang;
+  target: BrowseTarget;
+}
+const { lang, target } = Astro.props;
+const t = useTranslations(lang);
+const groups = browse.workGroups.filter((group) =>
+  browse.entries.some(
+    (entry) => entry.group === group.id && entry.targets.includes(target.id),
+  ),
+);
+const prompts = browse.prompts.filter(
+  (prompt) =>
+    prompt.targets.includes(target.id) || prompt.references.includes(target.id),
+);
+const captured = target.timestamp
+  ? `${target.timestamp.slice(6, 8)}/${target.timestamp.slice(4, 6)}/${target.timestamp.slice(0, 4)}`
+  : undefined;
+const external =
+  /^https?:\/\//.test(target.source) &&
+  !target.source.includes("[email removed]");
+---
+<Base title={target.title} lang={lang}>
+  <div class="browse-page archive-record"><a class="back-link" href={localePath(lang,"/works/")}>{t("browse.works.back")}</a><header class="browse-heading"><p class:list={["browse-status",`status-${target.status}`]}>{t(`browse.status.${target.status}`)}</p><h1>{target.title}</h1><p class="browse-intro">{t(`browse.record.${target.status}`)}</p>{target.fragmentMissing&&<p class="browse-note">{t("browse.fragmentMissing")}</p>}</header>
+    <div class="record-actions">{target.readingHref&&<a class="record-button" href={localePath(lang,target.readingHref)}>{t("browse.readWork")}</a>}{external&&target.status!=="missing"&&<a href={target.source} target="_blank" rel="noopener noreferrer">{t(target.status==="external"?"browse.openExternal":"browse.openOriginal")} ↗</a>}</div>
+    {groups.length>0&&<section class="record-groups"><h2>{t("browse.inCategories")}</h2><ul>{groups.map(group=><li><a href={localePath(lang,periodPath("works",group.id))}>{group.title[lang]}</a></li>)}</ul></section>}
+    {prompts.length>0&&<section class="record-prompts"><h2>{t("browse.relatedPrompts")}</h2><ul>{prompts.map(prompt=><li><a href={localePath(lang,promptLocations.get(prompt.id) ?? "/divergences/")}>{prompt.title}</a>{browse.promptGroups.find(g=>g.id===prompt.group)?.historical&&<small>{t("browse.historicalShort")}</small>}</li>)}</ul></section>}
+    <footer class="record-source"><h2>{t("browse.source")}</h2><p>{target.source}</p>{captured&&<p>{t("browse.capture",{date:captured})}</p>}{target.mediaType&&<p>{t("browse.format",{format:target.mediaType})}</p>}</footer>
+  </div>
+</Base>

@@ -53,6 +53,12 @@ pnpm recovery verify
 
 Recovery uses only the Wayback, one request at a time. Files that are already intact are not downloaded again; an altered original blocks the operation and requires a restore. The full discovery and coverage commands belong to S1.
 
+## Historical indexes
+
+`/divergences/` contains the complete recovered Lista by period, with prompt text and links to related developments. `/works/` contains all nine original works categories, including Utopias and stories. Both have English counterparts, native pagination and source records showing whether a linked text is already readable, recovered, missing or external. The 2013 historical prompt list is separated from the current menu's 18 sections.
+
+`pnpm browse:generate` derives these indexes from hash-verified original menus, catalog cells and the editorial map; `pnpm browse:check` compares all rendered entries and records in both languages. Normal `pnpm build` runs both, alongside the existing reading fidelity checks. Details: [historical-indexes.md](docs/historical-indexes.md).
+
 ## Backup to your drive
 
 ```sh

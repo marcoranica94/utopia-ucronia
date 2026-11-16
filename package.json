@@ -15,7 +15,7 @@
     "recovery:origin": "node scripts/recovery/origin.ts",
     "convert": "node scripts/convert.ts",
     "check": "astro check",
-    "build": "pnpm convert && astro check && astro build && pnpm links:check && pnpm compare:sample",
+    "build": "pnpm convert && pnpm browse:generate && astro check && astro build && pnpm links:check && pnpm compare:sample && pnpm browse:check",
     "compare:sample": "node scripts/compare-sample.ts",
     "test": "node --test tests/*.test.ts",
     "lint": "biome ci .",
@@ -25,7 +25,9 @@
     "deploy:verify": "node scripts/verify-access.ts",
     "editorial:map": "node scripts/generate-map.ts",
     "editorial:sample": "node scripts/select-validation.ts",
-    "editorial:enrich": "node scripts/enrich-map.ts"
+    "editorial:enrich": "node scripts/enrich-map.ts",
+    "browse:generate": "node scripts/generate-browse.ts",
+    "browse:check": "node scripts/check-browse.ts"
   },
   "dependencies": {
     "@astrojs/markdown-satteri": "0.4.8",

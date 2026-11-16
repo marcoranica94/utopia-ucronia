@@ -7,6 +7,80 @@ export const languages = ["it", "en"] as const;
 export type Lang = (typeof languages)[number];
 
 const it = {
+  "browse.otherReferences": "Altri riferimenti citati",
+  "site.nav.prompts": "Spunti",
+  "site.nav.completeWorks": "Opere",
+  "browse.indexes": "Indici della raccolta",
+  "browse.prompts.short": "Spunti per periodo",
+  "browse.works.short": "Opere per periodo",
+  "browse.prompts.title": "Lista delle ucronie",
+  "browse.works.title": "Tutti i nostri lavori",
+  "browse.prompts.intro":
+    "Gli spunti del sito originale, dalla preistoria al futuro. Ogni idea conserva il suo testo, gli autori indicati e i rimandi agli sviluppi e alle discussioni.",
+  "browse.works.intro":
+    "Le opere segnalate nel catalogo originale, ordinate per epoca. Fantastorie, utopie e racconti hanno anche le loro sezioni, oltre i confini della cronologia.",
+  "browse.prompts.count": "{n} voci nelle {groups} sezioni del menu originale.",
+  "browse.works.count":
+    "{n} voci nelle {groups} categorie del catalogo originale.",
+  "browse.linkedCount": "{n} spunti rimandano a opere o discussioni.",
+  "browse.prompts.choose": "Da quale periodo vuoi partire?",
+  "browse.works.choose": "Epoche e altre storie",
+  "browse.prompts.entries": "{n} spunti",
+  "browse.works.entries": "{n} voci",
+  "browse.historical": "Altre liste conservate",
+  "browse.historicalShort": "Lista storica",
+  "browse.historicalNote":
+    "È conservata anche una precedente lista dell’età moderna, dalla copia del 2013. Può contenere varianti di spunti presenti nelle sezioni più recenti.",
+  "browse.availability": "Dall’idea alla lettura",
+  "browse.availabilityNote":
+    "“Leggibile qui” apre il testo nella nuova edizione. “In archivio” indica un file recuperato che attende la preparazione per la lettura. Le fonti mancanti e i riferimenti esterni hanno una scheda distinta.",
+  "browse.noLinkNote":
+    "L’assenza di un rimando significa che la fonte non ne indica uno: non dimostra che lo spunto non sia mai stato sviluppato.",
+  "browse.toWorks": "Esplora le opere complete per periodo",
+  "browse.toPrompts": "Esplora gli spunti per periodo",
+  "browse.periodNavigation": "Cambia periodo o categoria",
+  "browse.prompts.back": "← Tutti i periodi della Lista",
+  "browse.works.back": "← Tutte le categorie delle opere",
+  "browse.prompts.periodIntro":
+    "Spunti nell’ordine della lista originale. Apri il testo completo o segui i rimandi agli sviluppi.",
+  "browse.works.periodIntro":
+    "Opere nell’ordine del catalogo originale. Ogni voce indica dove puoi leggerla e quali materiali sono conservati.",
+  "browse.range": "Voci {start}–{end} di {total}",
+  "browse.pagination": "Pagine dell’elenco",
+  "browse.page": "Pagina {n}",
+  "browse.previous": "← Precedente",
+  "browse.next": "Successiva →",
+  "browse.by": "di {names}",
+  "browse.readPrompt": "Leggi lo spunto completo",
+  "browse.readEdition": "Apri lo spunto nella nuova edizione",
+  "browse.developments": "Sviluppi e discussioni nella fonte",
+  "browse.noDevelopment": "Nessuno sviluppo collegato nella fonte.",
+  "browse.readWork": "Leggi l’opera",
+  "browse.viewRecord": "Apri la scheda",
+  "browse.status.ready": "Leggibile qui",
+  "browse.status.recovered": "In archivio",
+  "browse.status.missing": "Fonte non recuperata",
+  "browse.status.external": "Riferimento esterno",
+  "browse.record.ready": "Il testo è già disponibile nella nuova edizione.",
+  "browse.record.recovered":
+    "Questa opera è citata nella fonte e il file del collegamento è conservato nell’archivio. La sua versione di lettura non è ancora disponibile qui.",
+  "browse.record.missing":
+    "La fonte cita questa opera, ma il file del collegamento non è stato recuperato. Questo non significa che l’opera non sia stata scritta.",
+  "browse.record.external":
+    "La fonte rimanda a un sito esterno. Il collegamento è conservato come riferimento; il testo non fa parte della copia di lettura disponibile qui.",
+  "browse.fragmentMissingShort": "Sezione citata non ritrovata",
+  "browse.fragmentMissing":
+    "Il file è conservato, ma la specifica sezione indicata dal collegamento non è stata ritrovata nella copia recuperata.",
+  "browse.openOriginal": "Apri sul sito originale",
+  "browse.openExternal": "Visita il riferimento esterno",
+  "browse.inCategories": "Nel catalogo",
+  "browse.relatedPrompts": "Spunti collegati",
+  "browse.source": "Riferimento nella fonte",
+  "browse.capture": "Copia conservata del {date}",
+  "browse.format": "Formato della fonte: {format}",
+  "browse.sourceGrouping": "Raggruppamento e ordine dalla pagina originale:",
+  "browse.homeIntro": "Cerchi tutte le idee o le opere per epoca?",
+
   "source.image": "Immagine dal documento originale",
   "source.pdfImage": "Illustrazione dal PDF, pagina {n}",
   "atlas.type.divergence": "Spunti",
@@ -217,6 +291,82 @@ const it = {
 };
 
 const en: Record<keyof typeof it, string> = {
+  "browse.otherReferences": "Other cited references",
+  "site.nav.prompts": "Prompts",
+  "site.nav.completeWorks": "Works",
+  "browse.indexes": "Collection indexes",
+  "browse.prompts.short": "Prompts by period",
+  "browse.works.short": "Works by period",
+  "browse.prompts.title": "The list of alternate histories",
+  "browse.works.title": "All our works",
+  "browse.prompts.intro":
+    "The original site’s prompts, from prehistory to the future. Each idea retains its text, credited authors and references to developments and discussions.",
+  "browse.works.intro":
+    "Works listed in the original catalog, arranged by period. Imaginary histories, utopias and stories also have their own sections beyond chronology.",
+  "browse.prompts.count":
+    "{n} entries in the original menu’s {groups} sections.",
+  "browse.works.count":
+    "{n} entries in the original catalog’s {groups} categories.",
+  "browse.linkedCount": "{n} prompts refer to works or discussions.",
+  "browse.prompts.choose": "Where in history will you start?",
+  "browse.works.choose": "Periods and other stories",
+  "browse.prompts.entries": "{n} prompts",
+  "browse.works.entries": "{n} entries",
+  "browse.historical": "Other preserved lists",
+  "browse.historicalShort": "Historical list",
+  "browse.historicalNote":
+    "An earlier list of early modern prompts is also preserved in a 2013 capture. It may contain variants of prompts in the more recent sections.",
+  "browse.availability": "From idea to reading",
+  "browse.availabilityNote":
+    "“Read here” opens a text in the new edition. “In the archive” means a recovered file awaits preparation for reading. Missing sources and external references have separate records.",
+  "browse.noLinkNote":
+    "No reference means the source does not provide one; it does not prove the prompt was never developed.",
+  "browse.toWorks": "Explore complete works by period",
+  "browse.toPrompts": "Explore prompts by period",
+  "browse.periodNavigation": "Change period or category",
+  "browse.prompts.back": "← All periods in the list",
+  "browse.works.back": "← All work categories",
+  "browse.prompts.periodIntro":
+    "Prompts in their original order. Open the complete text or follow references to developments.",
+  "browse.works.periodIntro":
+    "Works in their original catalog order. Each entry shows where you can read it and which materials are preserved.",
+  "browse.range": "Entries {start}–{end} of {total}",
+  "browse.pagination": "List pages",
+  "browse.page": "Page {n}",
+  "browse.previous": "← Previous",
+  "browse.next": "Next →",
+  "browse.by": "by {names}",
+  "browse.readPrompt": "Read the complete prompt",
+  "browse.readEdition": "Open this prompt in the new edition",
+  "browse.developments":
+    "Developments and discussions referenced by the source",
+  "browse.noDevelopment": "No development linked in the source.",
+  "browse.readWork": "Read the work",
+  "browse.viewRecord": "Open the record",
+  "browse.status.ready": "Read here",
+  "browse.status.recovered": "In the archive",
+  "browse.status.missing": "Source not recovered",
+  "browse.status.external": "External reference",
+  "browse.record.ready": "This text is already available in the new edition.",
+  "browse.record.recovered":
+    "This work is cited by the source, and the linked file is preserved in the archive. Its reading edition is not yet available here.",
+  "browse.record.missing":
+    "The source cites this work, but the linked file was not recovered. This does not mean the work was never written.",
+  "browse.record.external":
+    "The source refers to an external website. The link is retained as a reference; the text is not part of the reading edition available here.",
+  "browse.fragmentMissingShort": "Referenced section not found",
+  "browse.fragmentMissing":
+    "The file is preserved, but the specific section referenced by the link was not found in the recovered copy.",
+  "browse.openOriginal": "Open on the original site",
+  "browse.openExternal": "Visit the external reference",
+  "browse.inCategories": "In the catalog",
+  "browse.relatedPrompts": "Related prompts",
+  "browse.source": "Source reference",
+  "browse.capture": "Preserved capture dated {date}",
+  "browse.format": "Source format: {format}",
+  "browse.sourceGrouping": "Grouping and order from the original page:",
+  "browse.homeIntro": "Looking for all the ideas or works by period?",
+
   "source.image": "Image from the original document",
   "source.pdfImage": "PDF illustration, page {n}",
   "atlas.type.divergence": "Divergences",

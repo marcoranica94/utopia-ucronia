@@ -1,0 +1,346 @@
+{
+  "passed": true,
+  "promptsPerLanguage": 7093,
+  "catalogEntriesPerLanguage": 825,
+  "recordsPerLanguage": 927,
+  "listPages": 420,
+  "contentDigest": "340b0fcfede6ddfa662162340496230b513ecd01ca3aa7934451c6b6ffbd0c51",
+  "checks": [
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "prehistory",
+      "count": 263
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "ancient",
+      "count": 426
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "roman",
+      "count": 383
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "early-medieval",
+      "count": 430
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "1000-1200",
+      "count": 282
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "1300-1400",
+      "count": 376
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "1500s",
+      "count": 464
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "1600s",
+      "count": 270
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "1700s",
+      "count": 366
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "1800s",
+      "count": 470
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "belle-epoque",
+      "count": 356
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "first-world-war",
+      "count": 409
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "second-world-war",
+      "count": 414
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "postwar",
+      "count": 562
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "1970s-1990s",
+      "count": 477
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "2000s",
+      "count": 193
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "present-future",
+      "count": 254
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "fantasy",
+      "count": 402
+    },
+    {
+      "lang": "it",
+      "kind": "divergences",
+      "group": "early-modern-historical",
+      "count": 296
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "ancient",
+      "count": 72
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "roman",
+      "count": 66
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "medieval",
+      "count": 120
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "modern",
+      "count": 114
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "1860-1940",
+      "count": 81
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "1940-1960",
+      "count": 67
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "post-1960",
+      "count": 70
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "fantasy",
+      "count": 120
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "utopias-stories",
+      "count": 115
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "prehistory",
+      "count": 263
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "ancient",
+      "count": 426
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "roman",
+      "count": 383
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "early-medieval",
+      "count": 430
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "1000-1200",
+      "count": 282
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "1300-1400",
+      "count": 376
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "1500s",
+      "count": 464
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "1600s",
+      "count": 270
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "1700s",
+      "count": 366
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "1800s",
+      "count": 470
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "belle-epoque",
+      "count": 356
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "first-world-war",
+      "count": 409
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "second-world-war",
+      "count": 414
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "postwar",
+      "count": 562
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "1970s-1990s",
+      "count": 477
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "2000s",
+      "count": 193
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "present-future",
+      "count": 254
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "fantasy",
+      "count": 402
+    },
+    {
+      "lang": "en",
+      "kind": "divergences",
+      "group": "early-modern-historical",
+      "count": 296
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "ancient",
+      "count": 72
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "roman",
+      "count": 66
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "medieval",
+      "count": 120
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "modern",
+      "count": 114
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "1860-1940",
+      "count": 81
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "1940-1960",
+      "count": 67
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "post-1960",
+      "count": 70
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "fantasy",
+      "count": 120
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "utopias-stories",
+      "count": 115
+    }
+  ]
+}

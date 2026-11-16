@@ -1,0 +1,701 @@
+{
+  "prompts": 7093,
+  "workEntries": 825,
+  "uniqueTargets": 927,
+  "promptGroups": [
+    {
+      "id": "prehistory",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_1.htm",
+      "title": {
+        "it": "Preistoria",
+        "en": "Prehistory"
+      },
+      "count": 263
+    },
+    {
+      "id": "ancient",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_2.htm",
+      "title": {
+        "it": "Antichità",
+        "en": "Ancient history"
+      },
+      "count": 426
+    },
+    {
+      "id": "roman",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_2_1.htm",
+      "title": {
+        "it": "Roma antica",
+        "en": "Ancient Rome"
+      },
+      "count": 383
+    },
+    {
+      "id": "early-medieval",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_3.htm",
+      "title": {
+        "it": "Alto Medioevo",
+        "en": "Early Middle Ages"
+      },
+      "count": 430
+    },
+    {
+      "id": "1000-1200",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_3_1.htm",
+      "title": {
+        "it": "Dall’anno Mille al Duecento",
+        "en": "1000–1299"
+      },
+      "count": 282
+    },
+    {
+      "id": "1300-1400",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_3_2.htm",
+      "title": {
+        "it": "Trecento e Quattrocento",
+        "en": "1300–1499"
+      },
+      "count": 376
+    },
+    {
+      "id": "1500s",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_4.htm",
+      "title": {
+        "it": "Cinquecento",
+        "en": "1500s"
+      },
+      "count": 464
+    },
+    {
+      "id": "1600s",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_4_1_1.htm",
+      "title": {
+        "it": "Seicento",
+        "en": "1600s"
+      },
+      "count": 270
+    },
+    {
+      "id": "1700s",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_4_1_2.htm",
+      "title": {
+        "it": "Settecento",
+        "en": "1700s"
+      },
+      "count": 366
+    },
+    {
+      "id": "1800s",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_4_2.htm",
+      "title": {
+        "it": "Ottocento",
+        "en": "1800s"
+      },
+      "count": 470
+    },
+    {
+      "id": "belle-epoque",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_5.htm",
+      "title": {
+        "it": "Belle Époque",
+        "en": "Belle Époque"
+      },
+      "count": 356
+    },
+    {
+      "id": "first-world-war",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_5_1.htm",
+      "title": {
+        "it": "Prima guerra mondiale",
+        "en": "First World War"
+      },
+      "count": 409
+    },
+    {
+      "id": "second-world-war",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_6.htm",
+      "title": {
+        "it": "Seconda guerra mondiale",
+        "en": "Second World War"
+      },
+      "count": 414
+    },
+    {
+      "id": "postwar",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_6_1.htm",
+      "title": {
+        "it": "Dopoguerra",
+        "en": "Postwar years"
+      },
+      "count": 562
+    },
+    {
+      "id": "1970s-1990s",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_6_2.htm",
+      "title": {
+        "it": "Anni Settanta, Ottanta e Novanta",
+        "en": "1970s, 1980s and 1990s"
+      },
+      "count": 477
+    },
+    {
+      "id": "2000s",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_6_3.htm",
+      "title": {
+        "it": "Anni Duemila",
+        "en": "2000s"
+      },
+      "count": 193
+    },
+    {
+      "id": "present-future",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_7.htm",
+      "title": {
+        "it": "Presente e futuro",
+        "en": "Present and future"
+      },
+      "count": 254
+    },
+    {
+      "id": "fantasy",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_8.htm",
+      "title": {
+        "it": "Fantastiche e fantaletterarie",
+        "en": "Fantasy and literary worlds"
+      },
+      "count": 402
+    },
+    {
+      "id": "early-modern-historical",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_4_1.htm",
+      "title": {
+        "it": "Età moderna, lista storica",
+        "en": "Early modern history, historical list"
+      },
+      "count": 296,
+      "historical": true,
+      "timestamp": "20130302024903"
+    }
+  ],
+  "workGroups": [
+    {
+      "id": "ancient",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lavori_1.htm",
+      "title": {
+        "it": "Antichità",
+        "en": "Ancient history"
+      },
+      "count": 72
+    },
+    {
+      "id": "roman",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lavori_2.htm",
+      "title": {
+        "it": "Roma antica",
+        "en": "Ancient Rome"
+      },
+      "count": 66
+    },
+    {
+      "id": "medieval",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lavori_3.htm",
+      "title": {
+        "it": "Medioevo",
+        "en": "Middle Ages"
+      },
+      "count": 120
+    },
+    {
+      "id": "modern",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lavori_4.htm",
+      "title": {
+        "it": "Età moderna",
+        "en": "Early modern history"
+      },
+      "count": 114
+    },
+    {
+      "id": "1860-1940",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lavori_5.htm",
+      "title": {
+        "it": "1860–1940",
+        "en": "1860–1940"
+      },
+      "count": 81
+    },
+    {
+      "id": "1940-1960",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lavori_6.htm",
+      "title": {
+        "it": "1940–1960",
+        "en": "1940–1960"
+      },
+      "count": 67
+    },
+    {
+      "id": "post-1960",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lavori_7.htm",
+      "title": {
+        "it": "Dopo il 1960",
+        "en": "After 1960"
+      },
+      "count": 70
+    },
+    {
+      "id": "fantasy",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lavori_8.htm",
+      "title": {
+        "it": "Fantastorie",
+        "en": "Imaginary histories"
+      },
+      "count": 120
+    },
+    {
+      "id": "utopias-stories",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/lavori_9.htm",
+      "title": {
+        "it": "Utopie e racconti",
+        "en": "Utopias and stories"
+      },
+      "count": 115
+    }
+  ],
+  "linkedPrompts": 280,
+  "statuses": {
+    "ready": 28,
+    "recovered": 820,
+    "missing": 8,
+    "external": 71
+  },
+  "verifiedSources": [
+    {
+      "url": "http://www.fmboschetto.it/racconti/Alessandro/fanta_Alessandro.htm",
+      "sha256": "56fc0d03c859d6fc727e3fd6a2e90a5a75951df12757daffe8ce0a5d384c8fab"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/racconti.htm",
+      "sha256": "9cd1165f9618daa2a6e40096baaa8f495576f7d7ab70c2cfeb9c336cf73c101a"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/25071943.htm",
+      "sha256": "b79ce40428340d77dfe7cbfe11bc91ddb87a48ad9b10135f8317efcdf3b90c1d"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/25071943_2.htm",
+      "sha256": "656046b2a87216328aa83c8f3728290004c9bd8e71a5d9ff9f81001819dbb9a3"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Amores_ucronici.htm",
+      "sha256": "d78cbfbdf7e29665eab00be7455fa58215df0bf0dbd4278100d5d09c7824d8be"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/Australia_austriaca.htm",
+      "sha256": "fa43dea6c6561ac86a2ef8372d1f7d164d3ebd25de9e2e5448c22655a2d664c9"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Aviz.htm",
+      "sha256": "91adf4a106491408c6f44c068dbb3403112479cf9b7a21f83e8922e6eae326dc"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Deutsche_Arbeiter_Reich.htm",
+      "sha256": "7d3a82366c77768a8c1c7a0fdd6781be90b9e725a0d067b6d10b8438cfa857e0"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Akhenaten.htm",
+      "sha256": "b4dbd357e9e973e60362678f790430dd7b676597c88f30f20e50c62ac1004bdc"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/fanta_Antartide.htm",
+      "sha256": "e91ffffd7757d4e077f012f6fcc9328b86dafb93f2837460a312f000004fd567"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Area51.htm",
+      "sha256": "81b9a8c48f1eee45f41ba4e9fcdefe13b573af46588c4e4b1cb7b42a8395e123"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Autari.htm",
+      "sha256": "ef77b981e1c1a2fde41ad4796af5512217f466fd4d8f1618ace5a8e304262267"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Comneni.htm",
+      "sha256": "0c43e47a9caddf7193d013b679895589be82707cf8de96534dc2f8756a8c2c76"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Comneni_2.htm",
+      "sha256": "6a53bf8d6d737d61211c3abd152d471b3bf35004f0870b9f92abdbe9545036bd"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Fenicia.htm",
+      "sha256": "93f2370072367841b05d5c2475be7c22ca71d3acb1910eb8fcac5e6750a2e2b0"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_fine_di_Stalin.htm",
+      "sha256": "5449b29a49036e847672b1e7596a59850a376f3c7fec5b527426213235dc5d8c"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Iraq.htm",
+      "sha256": "8f2f850d3fbf84f181650b09db0298a50139241ca14cf99da6b30c7ab6c4c2ba"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Jimmy_Carter.htm",
+      "sha256": "6672119b2e6b99f1407b6671b0eefb58d8b38a5ab68977fed5cf59175b014183"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Lipsia.htm",
+      "sha256": "1e9d590ceae315fbc514ef160ccefc39c3891b7dff0b5bade03eb414cc8ce565"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Marvel.htm",
+      "sha256": "0f1286e5eabf675b7b4df6ef1c414ab0213a5c30dfcb63ea2029affc52a20518"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Odissea.htm",
+      "sha256": "6493c1ab19fdb9c9cab7fa698d0f3c15c0a12e3a020760ace66e84641bccfa6e"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/fanta_Presidenti_USA.htm",
+      "sha256": "3c1fbfb054a44bbfcf420cddfb08a7cfc7d26cbe2f6330322c403df1a78c84e3"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Rabin.htm",
+      "sha256": "e9f17f7db9ea4aed7b7cc3c283e3f21615a3417b3dde8995db68452718ce6204"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Romania.htm",
+      "sha256": "f449b4fefc7793cb53d103d2bf0a84b7810c8c88d18f5f3874a9d201a5e90b77"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm",
+      "sha256": "1282faf7905b8a527da052e15fbe4dc3358849b266a4bf5a571ac9100767592a"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fath_Ali.htm",
+      "sha256": "db456189adc81f50cd3973b66df1d90a090e238bb707de758feec2f1a34672f4"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/Giappone_con_l_Alleanza.htm",
+      "sha256": "360af1555139472ff099c13c3b1b2c85c6a22dc3c86c2a95f361189611d144ae"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/grande_Torino.htm",
+      "sha256": "24e12520b35e988359943b28750242312638f83d52277bffeb53dc1ade14a0ed"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/impero_romano_feudale.htm",
+      "sha256": "d2adb14ac1fe5591085918c4ce0f99facfbf8a84ef5c73f0d32bcb80f5c6f859"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/impero_serbo.htm",
+      "sha256": "f999ce1a8bb91482dfc0c9da9a6b201dd082eb87c82f2b5f7b2b64f09f9e6f43"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Spagnolo.htm",
+      "sha256": "ddd5640af25aef22a109f4f7579de0319b86586b2a8bf1d8c7ae010321d7a0d7"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
+      "sha256": "0261b4a99edaf8a6d527e3255b65d95a81218104b365d386263692665ed090f8"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Italia_disintegrata.htm",
+      "sha256": "c5ff31da019f8731e0ccd1afff0c589b0d74c65da88785c45ff7f35482d1580f"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Italia_Jugoslavia.htm",
+      "sha256": "cb165d0a2a10425964a059749d1744c1ef52901f829b2d1709ec3163183d53b5"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Itlerelli.htm",
+      "sha256": "2c29551e2d3f494f90f239888d6d83b28b8515d622a1fe495e1849a2fd9894fe"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/lavori_1.htm",
+      "sha256": "847dc2e920da831e3b41f6f4ba4d4040680db538ef3f65320888c0d1dc9cd4db"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lavori_2.htm",
+      "sha256": "fad6bd0fc1a43094973d3e9e54e647108442434bec8825647309d1e5d7e44ef8"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/lavori_3.htm",
+      "sha256": "9c9d2d2a4a785273811dd7fbae7eb8ae322e7359074c13b76d60adbcab9b60bb"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lavori_4.htm",
+      "sha256": "d57ba205bd2b892223cc0e20825ee32df161e86dd1b1524ccd7de991c56afda9"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lavori_5.htm",
+      "sha256": "51f0a9e4a224e41ce0888c1a4689219946e2c1fdeb87179a8bd522d074dafb8b"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lavori_6.htm",
+      "sha256": "c701bc88b20babb37a40f9bf13c05dcb65270829f2ee1e0703181813d8334206"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/lavori_7.htm",
+      "sha256": "eac308d9911f9e0ec2a683b3dbf9753ddef7ae131dd3f4c9fa4309208ea5da8e"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/lavori_8.htm",
+      "sha256": "efe5e109963f2ce1da5c30fae014e8544e1cb05160ffb2f5e97520ffa95b6236"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/lavori_9.htm",
+      "sha256": "9269577aa53e6e1db2d0d1eda56f2c58d3641d0e8b4c7b98c91f876989d432c7"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/lavori_home.htm",
+      "sha256": "04a1592b44b53e2da0a5a70b836dc0cb22af0dc6ff5d83b998f9804e93e2a4b1"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_1.htm",
+      "sha256": "99392850b14fa381bec380b73313abc29c43ed0b4e572ab764c79941348fd02a"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_2.htm",
+      "sha256": "4069c2e4c249c8562f78a16ab045c8d104a627f93649ad3ab5e79aa61ccb1cfa"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_2_1.htm",
+      "sha256": "a749373fc35a24e213234424d623a8984cc23938f0bba8c3e8da200a7e7fd093"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_3.htm",
+      "sha256": "ffabdb7428798e8f92a83f0ae5a3b886aef99e06f09b0c208e333296d7e2e746"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_3_1.htm",
+      "sha256": "fd03b72b7a9b6477eb4647b54998f50078451e71bb0d1c0af437cd3c748d50c9"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/lista_ucronie_3_2.htm",
+      "sha256": "d829aeee14a602211766798cd9f8ba2aaad50030874a93700683228cf8c37b63"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_4.htm",
+      "sha256": "db3f119138dfda8a9a2e84b8e78e031443bd57675f6cadb89be8d2904350bad9"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_4_1.htm",
+      "sha256": "7bfbea30d08defce65b9015b2e2d07726865c3f5b089c687f4eb09a747b0eff9"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_4_1_1.htm",
+      "sha256": "e639571f4c77c610fba385400883600dbbc0f0ac332fd3fd57bb1ea8701a7cce"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_4_1_2.htm",
+      "sha256": "896d992bbbf567a063579768cb830681c4b22f3585ef686be4136dc9f6a52d41"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_4_2.htm",
+      "sha256": "74c343e4805593ae3b8d0f2924993d1f29a7324f8f8d223303c513ca07cbd570"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_5.htm",
+      "sha256": "6350615f9223f78713ba96e3a0769a4bbd21a9df1860ed9bf8296d779ce79f2d"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_5_1.htm",
+      "sha256": "8584b50d752998137457eada64b47d74488ce22df72c83cd0ea494038ab019e0"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_6.htm",
+      "sha256": "85b0648173d76753491cab41cc2afc2e8b77137df87c250646d0609319d7ab1a"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_6_1.htm",
+      "sha256": "4f272c8d83b3587cb5ef5a64dd44076afac0fab96801d8443780e2222f6e602b"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_6_2.htm",
+      "sha256": "fa9b02c8ba1676cd3521cce9b713c9fb82dc2322e48e20bd93f4692c21cee9a3"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_6_3.htm",
+      "sha256": "dc9a11c3f86c6287639478721178551c187349d25406d984f25d180c236fb3e3"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_7.htm",
+      "sha256": "1bdd0f17fbfbd17e77c70b575327e46949f6a24b6ab8213694730d683c0fc121"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/lista_ucronie_8.htm",
+      "sha256": "b2a1c5d13b4bf5bc6285a0852740cdb28b01f42571e06050325cfbc37f72841f"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_left.htm",
+      "sha256": "d0af0a23a51e67b60e1d96d6c47706605d39bf40ad747093263f1bf6d2766e5d"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/Mar_Cimmerio.htm",
+      "sha256": "db6beb583c822cf4cd16fc7ab718b421164f33ba983389331603b5501f496a59"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
+      "sha256": "004a949949d16a0334fc3755c18334c1cb93c8177c75b12e57b82b1e231f2d83"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/niente_iconoclastia.htm",
+      "sha256": "2e1d7056cd45df6e37a22e70e9e5bdc91f5038eccad34b862d0ac241bd01fea6"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/nottedeigenerali2.htm",
+      "sha256": "d3d8c84607fcabb0a0ad042fac582935e0d336edcce450208c0c6c74bc59fee2"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/penisola_britannica.htm",
+      "sha256": "ce3c013a3c8290acb715b83d7bb75e8dee9ae62c58a5fabb6a3c21d1704c2575"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Perche_no_nel_basso_impero.htm",
+      "sha256": "60eb578fd0548df40ebf716718843f7095c9390f2b84f62aa85f1c81230bfcb4"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Persia-Eterna.htm",
+      "sha256": "a452556a7ad1c3b341c8aee9e92c243f9e5943d5cf0bdab59fdbc363ab556a84"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Petrovia.htm",
+      "sha256": "06c4a476be7acf84c453874ebb44cd8fc1af891388851dd1d58baac952cc059f"
+    },
+    {
+      "url": "http://www.fmboschetto.it/utopiaucronia/Pietro_Bailardo.htm",
+      "sha256": "8729a88a098479124cdab1dd91286c17cec3976ea5bec8490cedd358d284a12c"
+    },
+    {
+      "url": "http://www.fmboschetto.it/utopiaucronia/raccontini_natalizi.htm",
+      "sha256": "192dbc281bfdeb8d6f8719a842a4d41fd8ce3ee60a4cbbb3f4729df9f8abb74a"
+    },
+    {
+      "url": "http://www.fmboschetto.it/utopiaucronia/reami_eterni.htm",
+      "sha256": "4c5081c4c9ee97dd9f1566f32401fb9953755a7e08de9fd3923bd66e01c9055e"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/Regno_di_Croazia.htm",
+      "sha256": "74e7f5e526d918fe177449c5f67a72766666ef8878ebac7d88b2aa1bcf1fe0df"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/rivoluzione_liberale.htm",
+      "sha256": "a34b3361d4a3353bb22e1e3334d2fad8bd6088c343d9ebc4ca9a2d883a9d943d"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Roma_e_la_cometa.htm",
+      "sha256": "5954ee9c69a0412030a0360ffc781461251e138bf997d0fe9226ab23a85839b8"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/sacco_di_Genova.htm",
+      "sha256": "f3d4ffa26a550575ac07f54a6548cfcc65f346539210ad7c43479fbd0b61c9c1"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/scimmietta.htm",
+      "sha256": "63d04572bf2d8cff287a84130ff5cc233d114ebcbbb350497fef39dfb1cd6d60"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Sekigahara.htm",
+      "sha256": "4f12b628407768d1b7f1facd2e6c537d899283dda624fff8e3285599ac2e61f5"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/UtopiaUcronia/Senza_Kaiser.htm",
+      "sha256": "12ddac6bd49b9357bcbc6b56793bd255984ceb0f12ad9b2c121281c2e60acad9"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/senza_petrolio.htm",
+      "sha256": "5b2a6f34b576b049d414a08f394fbbad19f389ff1fd7eea9a98dcd7dc8a6ba61"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/settembre_1943.htm",
+      "sha256": "274c67c5a3166f1d661b23ecb01981cf69291f61a8b1a3eda3edef924e612f47"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/Simpson_in_Italia.htm",
+      "sha256": "9124039c6da12106ac7a21664dead2a39f565b656e6a1153bbd51312815fa717"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/spotthePOD.htm",
+      "sha256": "bd9b34f36f74797081f9b1b2c22ce069e2796196318f91419603b6e126fa7826"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Tolkien_per_davvero_2.htm",
+      "sha256": "a18a761e29e27eeb9a02bab6d32cc596dc206f3f3f93a306d935d73ec37b5aeb"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Akhenaton.htm",
+      "sha256": "7d8f00be4442c05d6fbc3d3640a82b6be3d534c59bfc4da537f57cc43006755a"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_normanna.htm",
+      "sha256": "2374c9771a1dae2d6746f0c3860c0203f0d6489bfd958baa16096284c3660bfd"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/ucronia_pontica.htm",
+      "sha256": "3ba475754af10314e8e62d53cbf7df7132f0097a90978470e8cfc4a2dacf0b38"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_pontica_2.htm",
+      "sha256": "1175b1b380724d3b512be944248ed95c77c4546a5ef15ee768e5b41299176f55"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_pontica_3.htm",
+      "sha256": "22ee29e0c5a123b6cba939288165bbe473aec495e4ca66764e074bc0f15b7ba0"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_pontica_4.htm",
+      "sha256": "c44d6f247fc4b7d27585bc507c20d4ba010534c9709c1b18c85e7db481eb16d3"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_pontica_5.htm",
+      "sha256": "8819a53a40c63d8fa8de1da365b2d7348c3d317ccc744add2701168fae1fcf57"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/ucronia_yavana.htm",
+      "sha256": "ddbdc8a567404e26171291a311af3e2151c2fa5edec16ae86fad054be66ac1ee"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Rey_Escorpion.htm",
+      "sha256": "a1812649e62a3f7e2ea4445905e4ea20f5c6333aab083cae70b4da6181601091"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_carolingie.htm",
+      "sha256": "ee4160e6f5cfbb3f9ce3233e5e767c31c30a59e7171b0ade88e046a92cc7b698"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_Dans.htm",
+      "sha256": "2c1250a20e042611ee0c0d19f764ee095f8bdb28c2b86e73b92fea6d16709594"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_etrusche.htm",
+      "sha256": "bf10efb8d6b0fd50fe4d3af76dfca5bab25821233a8fec67e2ace1dbae931b9a"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_prima_repubblica.htm",
+      "sha256": "994c491e6e550a992c00cdc8df1a0c836b0eeffad852ef0b857541a85fe3665b"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_reazionarie.htm",
+      "sha256": "1fc7b6e0cb55e62bdbbad2e5af8864b14d7770d63edb5cd226e81532f174d67c"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_seconda_repubblica.htm",
+      "sha256": "57882ff7f10817395d261ef04a0c491dd2e82b723fd0286e08d3f3463cfecf33"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Ulisse_in_America.htm",
+      "sha256": "2e9cae12b54acdb0513e16ecd0ce4f232387c7092e6c1292af212e69c1fe39a5"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/Villaverla.htm",
+      "sha256": "7430b7b474ff8f95144a1c26489103a7d91906d5ffde0b21e5233b3249f44471"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/WWII_anticipata.htm",
+      "sha256": "7636945c14e9ae6096fc1a9eee08a8abc45e869b8aae4f475641476a9e347247"
+    }
+  ],
+  "notes": [
+    "Groups follow the recovered menus, not inferred era classification.",
+    "Source links indicate related developments/discussions; absence of a link is not proof that a prompt was never developed.",
+    "Original text is retained without email addresses; missing and unpublished works have distinct local records."
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "prompts": [
+    ["prehistory", "lista_ucronie_1.htm", "Preistoria", "Prehistory"],
+    ["ancient", "lista_ucronie_2.htm", "Antichità", "Ancient history"],
+    ["roman", "lista_ucronie_2_1.htm", "Roma antica", "Ancient Rome"],
+    [
+      "early-medieval",
+      "lista_ucronie_3.htm",
+      "Alto Medioevo",
+      "Early Middle Ages"
+    ],
+    [
+      "1000-1200",
+      "lista_ucronie_3_1.htm",
+      "Dall’anno Mille al Duecento",
+      "1000–1299"
+    ],
+    [
+      "1300-1400",
+      "lista_ucronie_3_2.htm",
+      "Trecento e Quattrocento",
+      "1300–1499"
+    ],
+    ["1500s", "lista_ucronie_4.htm", "Cinquecento", "1500s"],
+    ["1600s", "lista_ucronie_4_1_1.htm", "Seicento", "1600s"],
+    ["1700s", "lista_ucronie_4_1_2.htm", "Settecento", "1700s"],
+    ["1800s", "lista_ucronie_4_2.htm", "Ottocento", "1800s"],
+    ["belle-epoque", "lista_ucronie_5.htm", "Belle Époque", "Belle Époque"],
+    [
+      "first-world-war",
+      "lista_ucronie_5_1.htm",
+      "Prima guerra mondiale",
+      "First World War"
+    ],
+    [
+      "second-world-war",
+      "lista_ucronie_6.htm",
+      "Seconda guerra mondiale",
+      "Second World War"
+    ],
+    ["postwar", "lista_ucronie_6_1.htm", "Dopoguerra", "Postwar years"],
+    [
+      "1970s-1990s",
+      "lista_ucronie_6_2.htm",
+      "Anni Settanta, Ottanta e Novanta",
+      "1970s, 1980s and 1990s"
+    ],
+    ["2000s", "lista_ucronie_6_3.htm", "Anni Duemila", "2000s"],
+    [
+      "present-future",
+      "lista_ucronie_7.htm",
+      "Presente e futuro",
+      "Present and future"
+    ],
+    [
+      "fantasy",
+      "lista_ucronie_8.htm",
+      "Fantastiche e fantaletterarie",
+      "Fantasy and literary worlds"
+    ]
+  ],
+  "works": [
+    ["ancient", "lavori_1.htm", "Antichità", "Ancient history"],
+    ["roman", "lavori_2.htm", "Roma antica", "Ancient Rome"],
+    ["medieval", "lavori_3.htm", "Medioevo", "Middle Ages"],
+    ["modern", "lavori_4.htm", "Età moderna", "Early modern history"],
+    ["1860-1940", "lavori_5.htm", "1860–1940", "1860–1940"],
+    ["1940-1960", "lavori_6.htm", "1940–1960", "1940–1960"],
+    ["post-1960", "lavori_7.htm", "Dopo il 1960", "After 1960"],
+    ["fantasy", "lavori_8.htm", "Fantastorie", "Imaginary histories"],
+    [
+      "utopias-stories",
+      "lavori_9.htm",
+      "Utopie e racconti",
+      "Utopias and stories"
+    ]
+  ],
+  "historicalPrompts": [
+    [
+      "early-modern-historical",
+      "lista_ucronie_4_1.htm",
+      "Età moderna, lista storica",
+      "Early modern history, historical list"
+    ]
+  ]
+}

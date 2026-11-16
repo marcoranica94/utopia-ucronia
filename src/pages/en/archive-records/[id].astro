@@ -1,0 +1,10 @@
+---
+import { browse } from "../../../browse/data";
+import ArchiveRecord from "../../../views/ArchiveRecord.astro";
+export const getStaticPaths = () =>
+  browse.targets.map((target) => ({
+    params: { id: target.id },
+    props: { target },
+  }));
+---
+<ArchiveRecord target={Astro.props.target} lang="en" />

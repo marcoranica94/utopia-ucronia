@@ -460,6 +460,19 @@
     }
   }
 
+  @media (min-width: 601px) and (max-width: 900px) {
+    .site-header-inner {
+      flex-wrap: wrap;
+      gap: 0.5rem 1.25rem;
+      padding-block: 0.6rem;
+    }
+    .site-nav {
+      order: 2;
+      flex-basis: 100%;
+      min-height: 44px;
+    }
+  }
+
   /* Wrapping rows also accommodate text enlargement on narrow screens. */
   @media (max-width: 600px) {
     .site-header-inner {
