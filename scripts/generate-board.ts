@@ -15,6 +15,7 @@ const sprints = [
 }));
 if (sprints.length !== 7) throw new Error("Seven sprints expected in the plan");
 const meta = JSON.parse(await readFile("data/board.json", "utf8")) as {
+  priorities: { title: string; detail: string }[];
   rules: {
     sprint: string;
     contains: string;
@@ -71,6 +72,7 @@ for (const r of meta.rules)
 const manifest = await readManifest();
 const data = {
   active,
+  priorities: meta.priorities,
   updated: new Date().toLocaleString("en-GB", {
     timeZone: "Europe/Rome",
     dateStyle: "long",

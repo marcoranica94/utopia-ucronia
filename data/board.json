@@ -26,21 +26,21 @@
       "contains": "Two design directions for reading and catalog",
       "status": "done",
       "assignee": "Development",
-      "note": "The owner chose the clean branching-tree direction after rejecting the ornate and uni-portale-like prototypes. Shared tokens, catalog, reading page, light/dark themes and three-work preview are implemented."
+      "note": "Owner-approved design delivered: atlas home/catalog, full-width reader with year/contributor rail and branch drawer, light/dark/system modes and back-to-top. The three-work tree remains a separate S5 prototype. Evidence: docs/home-design.md and docs/reading-design.md."
     },
     {
       "sprint": "S4",
       "contains": "Pages for worlds, authors, eras, places and themes",
-      "status": "doing",
+      "status": "backlog",
       "assignee": "Development",
-      "note": "The catalog supports partial metadata and language filters. S2 provides the editorial model and map; full taxonomy and world/author/era/place/theme pages await progressive review in S4."
+      "note": "Not implemented: no author/world/era/place/theme routes exist. The model and source-period indexes are foundations, not delivery of these pages. Requires progressive metadata review in S4; language filters are tracked separately as completed."
     },
     {
       "sprint": "S5",
       "contains": "Divergence tree, tested with the hard cases",
       "status": "doing",
       "assignee": "Development",
-      "note": "A responsive three-work navigation prototype is available at /tree/, with clickable and keyboard-accessible branch points plus text links. The full dated tree and hard-case checks await verified divergence metadata."
+      "note": "Partial only: /tree/ contains three fixed example branches. The reader drawer already has real contribution branches, but the full archive tree, verified dates and crowded/undated hard cases remain unimplemented. See src/views/Tree.astro."
     },
     {
       "sprint": "S0",
@@ -123,10 +123,105 @@
     },
     {
       "sprint": "S3",
-      "contains": "Reading page: text, notes",
-      "status": "doing",
+      "contains": "Reading page for the validated edition",
+      "status": "done",
       "assignee": "Development",
-      "note": "The approved reader publishes 46 source-faithful items with images, contributions, branch navigation, light/dark modes and back-to-top. Dedicated source pages and the remaining S3 reading requirements are still pending; S2 conversion validation is complete."
+      "note": "Published and owner-approved: 46 source-faithful items (43 canonical plus three legacy previews), including images, attributed contributions, branching reader navigation, themes and back-to-top. Full archive publication is separate S4 work. Evidence: docs/status-s2.md, reports/sample-comparison.json and reports/s2-browser.json."
+    },
+    {
+      "sprint": "S3",
+      "contains": "Complete source-page navigation",
+      "status": "todo",
+      "assignee": "Development",
+      "note": "Reading provenance currently appears as source URLs and capture dates. Historical-index resource records exist, but they do not complete source navigation for all 46 reading items. Implement safe local provenance pages/links before closing S3."
+    },
+    {
+      "sprint": "S3",
+      "contains": "Audit notes and attachment navigation",
+      "status": "todo",
+      "assignee": "Development",
+      "note": "The converter preserves source content, but a separate all-item navigation audit and completion of notes/attachment links have not been delivered. Test available, missing and unsupported attachments without modifying originals."
+    },
+    {
+      "sprint": "S3",
+      "contains": "Pagefind search",
+      "status": "todo",
+      "assignee": "Development",
+      "note": "Not installed or integrated: package.json has no Pagefind dependency/build step and no full-edition search route. Current home/period filtering is distinct from full-text search through reading content. Highest next implementation priority, including the / shortcut."
+    },
+    {
+      "sprint": "S3",
+      "contains": "`/review` page",
+      "status": "todo",
+      "assignee": "Development",
+      "note": "No /review route exists. Build a development-only queue of 20 proposals with source excerpts, reasoning, explicit unknowns and durable owner decisions; never publish it or auto-approve the map."
+    },
+    {
+      "sprint": "S3",
+      "contains": "Keyboard use and responsive phone reading",
+      "status": "done",
+      "assignee": "Development",
+      "note": "Verified on the current published interfaces: keyboard navigation, modal focus/Escape/return, reader drawer, responsive layouts, light/dark themes and text at 200%. Evidence: reports/s2-browser.json, reports/browse-table-browser.json and reports/browse-filter-browser.json. S6 comprehensive axe/assistive-technology testing remains open."
+    },
+    {
+      "sprint": "S4",
+      "contains": "Language filters on the published catalog",
+      "status": "done",
+      "assignee": "Development",
+      "note": "Published home catalog supports language filtering; historical indexes and records have matching Italian/English interface routes. Story text remains in its source language."
+    },
+    {
+      "sprint": "S4",
+      "contains": "Progressive review of the map",
+      "status": "backlog",
+      "assignee": "Development",
+      "note": "The map proposes 8,509 items across 6,900 recovered documents. Proposals are not owner-approved. Review infrastructure in S3 comes first; then review worlds, splits/merges and attribution progressively."
+    },
+    {
+      "sprint": "S4",
+      "contains": "Eras fixed and theme list closed",
+      "status": "backlog",
+      "assignee": "Development",
+      "note": "Source menu periods are available, but final reviewed era/theme vocabularies are not closed. Do not infer that the historical indexes complete this classification task."
+    },
+    {
+      "sprint": "S6",
+      "contains": "Playwright and axe on all views",
+      "status": "backlog",
+      "assignee": "Development",
+      "note": "Reader and historical-index browser checks exist; complete all-view axe A/AA and assistive-technology/device coverage are still due. Do not equate the current regression checks with S6 completion."
+    },
+    {
+      "sprint": "S6",
+      "contains": "New restore test from scratch",
+      "status": "backlog",
+      "assignee": "Development",
+      "note": "S0 restore tests passed historically. A fresh complete-edition restore and rebuild remains due after the remaining publication work."
+    },
+    {
+      "sprint": "S6",
+      "contains": "README and `CLAUDE.md` updated",
+      "status": "backlog",
+      "assignee": "Development",
+      "note": "Documents receive incremental updates, but the final all-feature documentation reconciliation is not complete. The current board audit is documented in docs/board-audit.md."
+    }
+  ],
+  "priorities": [
+    {
+      "title": "Finish full-text search (S3)",
+      "detail": "Index the published reading edition with Pagefind, provide IT/EN search and the / shortcut, and verify finding a work from a remembered sentence."
+    },
+    {
+      "title": "Complete reading/source navigation (S3)",
+      "detail": "Provide local provenance navigation for all reading items and audit notes and attachments, including missing resources."
+    },
+    {
+      "title": "Build the development-only review queue (S3)",
+      "detail": "Review proposals in batches of 20 with persistent explicit owner decisions; keep the queue out of production."
+    },
+    {
+      "title": "Publish more of the recovered archive (S4)",
+      "detail": "Use reviewed metadata and source-fidelity checks to convert and publish works progressively; then build author/world/theme pages and the full tree."
     }
   ]
 }

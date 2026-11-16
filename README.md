@@ -4,7 +4,7 @@ Personal historical archive and new edition of the UtopiaUcronia site. The site 
 
 Analysis and plan: [docs/analysis.md](docs/analysis.md), [docs/development-plan.md](docs/development-plan.md). Conversion status: [docs/status-s2.md](docs/status-s2.md). The first trial is documented in [docs/status-s0.md](docs/status-s0.md).
 
-The [Kanban board](board.html) opens directly in the browser, even without a server or network. It has Backlog, To do, In progress, Waiting and Done columns, filters by sprint and assignee, search, and cards that open with details and dependencies. Tasks come from the plan; operational statuses, assignees and postponements from `data/board.json`. After an update run `pnpm board`. The board does not modify the plan and does not save local moves that could misrepresent the state of the work.
+The [Kanban board](board.html) opens directly in the browser, even without a server or network. It shows verified Backlog, To do, In progress / partial, Waiting and Done states, with sprint/assignee filters, search, evidence notes and the next implementation priorities. Tasks come from the plan; operational statuses, assignees, postponements and priorities come from `data/board.json`. After an update run `pnpm board`. Cards are read-only; browser-local moves never override verified results. See the [implementation audit and next steps](docs/board-audit.md).
 
 The copy to the owner's drive is postponed, to be done by the owner: it is still to do but, as the owner decided, it does not block development.
 

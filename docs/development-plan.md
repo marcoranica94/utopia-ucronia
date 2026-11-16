@@ -1,6 +1,6 @@
 # Development plan
 
-Updated 16/11/2026. Analysis, content model and risks are in [analysis.md](analysis.md).
+Updated 16/11/2026; board reconciled with implementation and validation evidence. Analysis, content model and risks are in [analysis.md](analysis.md).
 
 Seven sprints, S0 to S6. The first proves that the material can be recovered and converted well, on about ten files chosen on purpose, and sets up repository, private deploy and backups. The third already delivers a useful version: reading, simple catalog and search. Classification, final design and the divergence tree grow around it. Every sprint ends with a demo: we move to the next one only if it succeeds without touch-ups.
 
@@ -199,11 +199,15 @@ Demo: passed on 16/11/2026; valid 6,900-document map, zero unexplained unresolve
 
 ### S3 · First useful version
 
-- [ ] Reading page: text, notes, attachments, images, contributions with author, link to the source page
+Active, partially delivered. Reader and catalog checks pass for the published edition; full-text search, source navigation and the development review queue are still open. See [board-audit.md](board-audit.md).
+
+- [x] Reading page for the validated edition: 46 complete source-faithful items, images, attributed contributions, branch/year navigation, themes and back-to-top
+- [ ] Complete source-page navigation from every reading item; source records currently cover historical-index references, while reading pages show source provenance as text
+- [ ] Audit notes and attachment navigation across the validated edition; preserve file availability distinctions and provide usable reading/source links
 - [x] Simple catalog: titles, authors and filters on what exists, even with partial metadata
 - [ ] Pagefind search on the new edition, with the `/` shortcut
 - [ ] `/review` page, development only, to review the map in blocks of 20
-- [ ] Keyboard use and phone reading verified
+- [x] Keyboard use and responsive phone reading verified for the published reader, catalog and historical lists; final all-view axe/device certification remains S6
 
 Demo: from the phone I find a work by remembering just one sentence, and from there I open its source page.
 
@@ -218,11 +222,13 @@ Demo: from the phone I find a work by remembering just one sentence, and from th
 
 - [x] Home and collection redesigned after owner rejection, 16/11/2026: atlas-style map opening, original-image and typographic covers, introductions, format/language/search filters and cover/list views. Production-header browser checks pass; see [home-design.md](home-design.md). The owner approved the direction ("Bello").
 
+- [ ] Publish the remaining recovered works progressively after review and full source-fidelity validation; 825 catalog entries do not mean 825 reading editions
 - [ ] Progressive review of the map: first worlds and pages to split or merge
 - [ ] Eras fixed and theme list closed
-- [ ] Pages for worlds, authors, eras, places and themes; language filter
+- [x] Language filters on the published catalog and IT/EN navigation on historical indexes
+- [ ] Pages for worlds, authors, eras, places and themes, based on reviewed metadata
 - [x] Two design directions for reading and catalog, with real content; choice and `tokens.css`
-- [ ] View Transitions between catalog and reading, if they improve orientation
+- [ ] View Transitions between catalog and reading, if they improve orientation (optional; no dependency for publication)
 
 Demo: the chosen direction, on phone and desktop, light and dark; filters work even on content not yet reviewed.
 
@@ -231,7 +237,7 @@ Demo: the chosen direction, on phone and desktop, light and dark; filters work e
 - [ ] Choose the reference date for `/original/` when building the browsable copy, using the available capture dates
 - [ ] Divergence tree, tested with the hard cases: missing dates, long titles, crowded centuries, phone
 - [ ] Browsable copy in `/original/`: cleanup, internal links, Content Security Policy without scripts, emails removed
-- [ ] Site history, with the 2004 home page reconstructed by us
+- [ ] Publish site history and capture-date explanation, with the 2004 home page reconstructed by us
 - [ ] "What if…?": a random content item
 
 Demo: from the tree to a twentieth-century work and to its cleaned original page, with no 2004 script running.
