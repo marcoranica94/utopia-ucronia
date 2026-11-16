@@ -289,13 +289,13 @@
   clip-path: inset(50%);
 }
 .browse-col-title {
-  width: 28%;
+  width: 22%;
 }
 .browse-col-text {
-  width: 44%;
+  width: 56%;
 }
 .browse-col-links {
-  width: 28%;
+  width: 22%;
 }
 .browse-table-works .browse-col-title {
   width: 65%;
@@ -376,6 +376,12 @@
   font: 1rem / 1.7 var(--font-reading);
   margin: 0 0 0.5rem;
   overflow-wrap: anywhere;
+}
+.browse-prompt-copy > .browse-excerpt {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .browse-prompt-copy:has(.browse-prompt-text[open]) > .browse-excerpt {
   display: none;
@@ -729,4 +735,90 @@
     width: 100%;
     max-width: 100%;
   }
+}
+
+.browse-filters {
+  margin: 1.5rem 0;
+  padding: 1.2rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+}
+.browse-filter-fields {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: end;
+}
+.browse-filter-fields :where(label) {
+  display: grid;
+  gap: 0.4rem;
+  flex: 1 1 12rem;
+  min-width: 0;
+}
+.browse-filter-fields :where(.browse-search) {
+  flex-grow: 2;
+}
+.browse-filter-fields :where(input, select, button) {
+  min-height: 44px;
+  width: 100%;
+  min-width: 0;
+  padding: 0.5rem;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 0.3rem;
+  font: inherit;
+}
+.browse-filter-fields :where(button) {
+  width: auto;
+  cursor: pointer;
+}
+.browse-filters :where(p) {
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+
+.browse-dialog {
+  width: min(76ch, calc(100vw - 2rem));
+  max-height: 85dvh;
+  padding: 1.5rem;
+  border: 1px solid var(--line);
+  border-radius: 0.5rem;
+  color: var(--ink);
+  background: var(--surface);
+}
+.browse-dialog::backdrop {
+  background: rgb(0 0 0 / 65%);
+}
+.browse-dialog-heading {
+  display: flex;
+  align-items: start;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.browse-dialog-heading :where(h2) {
+  margin-top: 0;
+}
+.browse-dialog-heading :where(button) {
+  min-height: 44px;
+  padding: 0.5rem 1rem;
+  font: inherit;
+  cursor: pointer;
+  color: inherit;
+  background: var(--surface);
+  border: 1px solid var(--line);
+}
+.browse-dialog-body {
+  white-space: pre-line;
+  font:
+    1.1rem / 1.8 Georgia,
+    serif;
+}
+.browse-empty {
+  padding: 2rem;
+  border: 1px solid var(--line);
+}
+
+.browse-period-page [hidden] {
+  display: none;
 }

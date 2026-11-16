@@ -7,7 +7,13 @@ import {
 } from "../src/browse/model.ts";
 import type { EditorialSource } from "../src/editorial/model.ts";
 import { blocks } from "./anatomy.ts";
-import { catalogCells, isIndex, recordId, resourceKey } from "./browse-core.ts";
+import {
+  catalogCells,
+  isDocumentedDevelopment,
+  isIndex,
+  recordId,
+  resourceKey,
+} from "./browse-core.ts";
 import { decode, documentTitle } from "./conversion.ts";
 import { readMap, redact } from "./editorial-core.ts";
 import {
@@ -229,6 +235,7 @@ for (const group of data.workGroups) {
       id: entry.id,
       title: entry.title,
       caption: entry.caption,
+      authors: entry.authors,
       group: group.id,
       source: group.source,
       cell: entry.cell,
@@ -270,6 +277,7 @@ for (const item of map.items
   const $ = load(selectedHtml);
   const links: string[] = [];
   const references: string[] = [];
+  const developments: { target: string; evidence: string }[] = [];
   for (const a of $("a[href]").toArray()) {
     let url: URL;
     try {
@@ -305,7 +313,39 @@ for (const item of map.items
           ? redact(documentTitle(await html(d.url)))
           : item.title;
     }
-    links.push((await target(url.href, title ?? item.title)).id);
+    const record = await target(url.href, title ?? item.title);
+    links.push(record.id);
+    const marker = "BROWSE_REFERENCE_MARKER";
+    const clone = $.root().clone();
+    const matching = clone
+      .find("a[href]")
+      .eq($("a[href]").toArray().indexOf(a));
+    matching.replaceWith(marker);
+    const marked = redact(clone.text());
+    const position = marked.indexOf(marker);
+    const before =
+      position >= 0 ? marked.slice(Math.max(0, position - 160), position) : "";
+    const evidence = redact(
+      before +
+        " " +
+        $(a).text() +
+        " " +
+        (position >= 0
+          ? marked.slice(
+              position + marker.length,
+              position + marker.length + 100,
+            )
+          : ""),
+    );
+    if (
+      isDocumentedDevelopment(
+        redact($(a).text()),
+        before,
+        Boolean(catalogTitle),
+        record,
+      )
+    )
+      developments.push({ target: record.id, evidence });
   }
   data.prompts.push({
     id: item.id,
@@ -323,6 +363,9 @@ for (const item of map.items
       : {}),
     targets: [...new Set(links)],
     references: [...new Set(references)].filter((id) => !links.includes(id)),
+    developments: [
+      ...new Map(developments.map((value) => [value.target, value])).values(),
+    ],
   });
   group.count++;
 }
@@ -337,6 +380,8 @@ await writeJson("reports/browse.json", {
   promptGroups: data.promptGroups,
   workGroups: data.workGroups,
   linkedPrompts: data.prompts.filter((p) => p.targets.length).length,
+  documentedDevelopments: data.prompts.filter((p) => p.developments.length)
+    .length,
   statuses: Object.fromEntries(
     ["ready", "recovered", "missing", "external"].map((status) => [
       status,

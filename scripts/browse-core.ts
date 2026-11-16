@@ -135,8 +135,47 @@ export function catalogCells(html: string, source: string) {
           cell: index,
           title,
           caption,
+          authors: [
+            ...new Set(
+              c
+                .find('a[href^="mailto:" i]')
+                .toArray()
+                .map((a) => redact($(a).text()))
+                .filter(Boolean),
+            ),
+          ],
           links,
         },
       ];
     });
+}
+
+/** A source reference is not sufficient evidence of a developed text. */
+export function isDocumentedDevelopment(
+  label: string,
+  context: string,
+  inCatalog: boolean,
+  target: { status: string; fragmentMissing?: boolean; source: string },
+) {
+  if (!["ready", "recovered"].includes(target.status) || target.fragmentMissing)
+    return false;
+  if (
+    /\/utopiaucronia\/(?:index|ultimi|lista_ucronie|lavori)(?:[_.]|$)/i.test(
+      target.source,
+    )
+  )
+    return false;
+  if (/discuss|comment|appunti|schema|trailer/i.test(label)) return false;
+  if (
+    /\b(?:discussione|commento|appunti|schema|trailer)\b[^.!?;:]{0,35}$/i.test(
+      context,
+    )
+  )
+    return false;
+  return (
+    inCatalog ||
+    /svilupp|svolgiment|realizzat|scritt|versione|racconto|trattazion|cronologia/i.test(
+      `${label} ${context}`,
+    )
+  );
 }

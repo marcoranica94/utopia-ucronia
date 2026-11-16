@@ -59,6 +59,7 @@ jobs:
             reports/link-gaps.json
             reports/browse.json
             reports/browse-validation.json
+            reports/browse-filter-payloads.json
           retention-days: 14
       - name: Verify Access before publishing
         if: github.event_name != 'pull_request' && (vars.DEPLOY_ABILITATO == 'true' || inputs.verify_access == true)

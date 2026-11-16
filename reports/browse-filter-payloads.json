@@ -1,0 +1,397 @@
+{
+  "passed": true,
+  "groups": [
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "prehistory",
+      "entries": 263,
+      "documented": 8
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "ancient",
+      "entries": 426,
+      "documented": 24
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "roman",
+      "entries": 383,
+      "documented": 22
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "early-medieval",
+      "entries": 430,
+      "documented": 17
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "1000-1200",
+      "entries": 282,
+      "documented": 8
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "1300-1400",
+      "entries": 376,
+      "documented": 6
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "1500s",
+      "entries": 464,
+      "documented": 10
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "1600s",
+      "entries": 270,
+      "documented": 3
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "1700s",
+      "entries": 366,
+      "documented": 10
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "1800s",
+      "entries": 470,
+      "documented": 10
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "belle-epoque",
+      "entries": 356,
+      "documented": 9
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "first-world-war",
+      "entries": 409,
+      "documented": 11
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "second-world-war",
+      "entries": 414,
+      "documented": 11
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "postwar",
+      "entries": 562,
+      "documented": 17
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "1970s-1990s",
+      "entries": 477,
+      "documented": 17
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "2000s",
+      "entries": 193,
+      "documented": 4
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "present-future",
+      "entries": 254,
+      "documented": 5
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "fantasy",
+      "entries": 402,
+      "documented": 18
+    },
+    {
+      "lang": "it",
+      "kind": "prompts",
+      "group": "early-modern-historical",
+      "entries": 296,
+      "documented": 12
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "ancient",
+      "entries": 72,
+      "documented": 0
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "roman",
+      "entries": 66,
+      "documented": 0
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "medieval",
+      "entries": 120,
+      "documented": 0
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "modern",
+      "entries": 114,
+      "documented": 0
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "1860-1940",
+      "entries": 81,
+      "documented": 0
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "1940-1960",
+      "entries": 67,
+      "documented": 0
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "post-1960",
+      "entries": 70,
+      "documented": 0
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "fantasy",
+      "entries": 120,
+      "documented": 0
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "utopias-stories",
+      "entries": 115,
+      "documented": 0
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "prehistory",
+      "entries": 263,
+      "documented": 8
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "ancient",
+      "entries": 426,
+      "documented": 24
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "roman",
+      "entries": 383,
+      "documented": 22
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "early-medieval",
+      "entries": 430,
+      "documented": 17
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "1000-1200",
+      "entries": 282,
+      "documented": 8
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "1300-1400",
+      "entries": 376,
+      "documented": 6
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "1500s",
+      "entries": 464,
+      "documented": 10
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "1600s",
+      "entries": 270,
+      "documented": 3
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "1700s",
+      "entries": 366,
+      "documented": 10
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "1800s",
+      "entries": 470,
+      "documented": 10
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "belle-epoque",
+      "entries": 356,
+      "documented": 9
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "first-world-war",
+      "entries": 409,
+      "documented": 11
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "second-world-war",
+      "entries": 414,
+      "documented": 11
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "postwar",
+      "entries": 562,
+      "documented": 17
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "1970s-1990s",
+      "entries": 477,
+      "documented": 17
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "2000s",
+      "entries": 193,
+      "documented": 4
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "present-future",
+      "entries": 254,
+      "documented": 5
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "fantasy",
+      "entries": 402,
+      "documented": 18
+    },
+    {
+      "lang": "en",
+      "kind": "prompts",
+      "group": "early-modern-historical",
+      "entries": 296,
+      "documented": 12
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "ancient",
+      "entries": 72,
+      "documented": 0
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "roman",
+      "entries": 66,
+      "documented": 0
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "medieval",
+      "entries": 120,
+      "documented": 0
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "modern",
+      "entries": 114,
+      "documented": 0
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "1860-1940",
+      "entries": 81,
+      "documented": 0
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "1940-1960",
+      "entries": 67,
+      "documented": 0
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "post-1960",
+      "entries": 70,
+      "documented": 0
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "fantasy",
+      "entries": 120,
+      "documented": 0
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "utopias-stories",
+      "entries": 115,
+      "documented": 0
+    }
+  ]
+}

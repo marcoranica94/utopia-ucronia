@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "date": "2026-11-16",
+  "server": "Wrangler local with production CSP",
+  "wholePeriodSearch": "Matched entry 251 from the first page",
+  "documentedDevelopment": "24 matches in Ancient history; 222 across all source sections",
+  "pagination": [
+    "filtered page 2",
+    "20 and 80 rows",
+    "reload with filters and page",
+    "Italian/English switch",
+    "browser back",
+    "zero results and reset"
+  ],
+  "popup": [
+    "six rendered lines threshold",
+    "mobile native dialog",
+    "Tab focus containment",
+    "Escape close",
+    "focus returned to summary",
+    "dark mode",
+    "no JavaScript native disclosure without duplicate preview"
+  ],
+  "viewportWidths": [
+    320,
+    768,
+    1024,
+    1440,
+    1920
+  ],
+  "enlargedText": {
+    "percent": 200,
+    "viewport": 320,
+    "clientWidth": 305,
+    "scrollWidth": 305
+  },
+  "pageErrors": []
+}

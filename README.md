@@ -96,3 +96,5 @@ The new edition permits only same-origin external scripts; inline scripts stay b
 `workers_dev` and `preview_urls` are disabled; there is no application Worker, SSR or database. To check the configuration without publishing: `pnpm exec wrangler deploy --dry-run`.
 
 Pull requests run no deploys. The workflow currently runs no remote backup. Never put tokens or `.env` files in the repository.
+
+Historical period lists include whole-period text/author/availability filters and a documented-development filter for prompts, with shareable query URLs and synchronized pagination. Long proposals open in a reading popup after six rendered lines. Run `pnpm build` before local development to generate the full-period filter payloads. See [historical indexes](docs/historical-indexes.md).

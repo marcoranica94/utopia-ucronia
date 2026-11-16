@@ -47,8 +47,12 @@ export const promptSchema = z.object({
   readingHref: localPath.optional(),
   targets: z.array(z.string()),
   references: z.array(z.string()).default([]),
+  developments: z
+    .array(z.object({ target: z.string(), evidence: publicText.min(1) }))
+    .default([]),
 });
 export const catalogEntrySchema = z.object({
+  authors: z.array(publicText).default([]),
   id: z.string(),
   title: publicText,
   caption: publicText,
@@ -75,6 +79,20 @@ export const browseSchema = z
     )
       ctx.addIssue({ code: "custom", message: "Duplicate browse identifiers" });
     const targets = new Set(data.targets.map((t) => t.id));
+    for (const prompt of data.prompts)
+      for (const development of prompt.developments) {
+        const target = data.targets.find((t) => t.id === development.target);
+        if (
+          !prompt.targets.includes(development.target) ||
+          !target ||
+          !["ready", "recovered"].includes(target.status) ||
+          target.fragmentMissing
+        )
+          ctx.addIssue({
+            code: "custom",
+            message: `Unsubstantiated development: ${prompt.id}`,
+          });
+      }
     for (const entry of [...data.prompts, ...data.entries])
       for (const id of [
         ...entry.targets,

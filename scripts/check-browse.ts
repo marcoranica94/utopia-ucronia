@@ -20,6 +20,38 @@ for (const lang of ["it", "en"] as const) {
   ] as const) {
     for (const group of groups) {
       const expected = entries.filter((entry) => entry.group === group.id);
+      const payload = JSON.parse(
+        await readFile(
+          safePath(
+            "dist",
+            `browse-data/${lang}/${kind === "divergences" ? "prompts" : "works"}/${group.id}.json`,
+          ),
+          "utf8",
+        ),
+      );
+      assert.equal(payload.version, 1);
+      assert.equal(payload.total, expected.length);
+      assert.deepEqual(
+        payload.entries.map((entry: { id: string }) => entry.id),
+        expected.map((entry) => entry.id),
+      );
+      for (const [index, entry] of expected.entries()) {
+        const row = payload.entries[index];
+        assert.equal(row.title, entry.title);
+        assert.deepEqual(row.authors, entry.authors);
+        assert.equal(
+          row.development,
+          "developments" in entry && entry.developments.length > 0,
+        );
+        assert.equal(row.related, entry.targets.length > 0);
+        const html = load(`<table><tbody>${row.html}</tbody></table>`);
+        assert.equal(html(".browse-entry").attr("id"), entry.id);
+        if ("body" in entry)
+          assert.equal(
+            normalize(html(".browse-prompt-text > p").text()),
+            normalize(entry.body),
+          );
+      }
       for (const size of pageSizes) {
         const seen = new Set<string>();
         for (let offset = 0; offset < expected.length; offset += size) {

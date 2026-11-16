@@ -1,5 +1,10 @@
 ---
-import { type BrowseKind, browseRoot, targets } from "../browse/data";
+import {
+  type BrowseKind,
+  browseRoot,
+  periodPath,
+  targets,
+} from "../browse/data";
 import type { BrowseEntry, BrowseGroup, BrowsePrompt } from "../browse/model";
 import BrowsePageIndex from "../components/BrowsePageIndex.astro";
 import BrowsePager from "../components/BrowsePager.astro";
@@ -19,16 +24,57 @@ interface Props {
 }
 const { kind, lang, group, entries, page, pages, size } = Astro.props;
 const t = useTranslations(lang);
+const labels = Object.fromEntries(
+  [
+    "filterTitle",
+    "search",
+    "author",
+    "allAuthors",
+    "filterAvailability",
+    "allAvailability",
+    "development",
+    "allDevelopment",
+    "documented",
+    "related",
+    "unlinked",
+    "filterHint",
+    "reset",
+    "loading",
+    "filterError",
+    "noResults",
+    "popup",
+    "close",
+    "pageOf",
+    "range",
+    "previous",
+    "next",
+    "page",
+    "onThisPage",
+  ].map((key) => [key, t(`browse.${key}` as Parameters<typeof t>[0])]),
+);
 const start = (page - 1) * size + 1;
 ---
 <Base title={`${group.title[lang]} · ${t(`browse.${kind}.short`)}${page>1?` · ${t("browse.page",{n:page})}`:""}`} lang={lang} wide>
-  <div class="browse-page browse-period-page">
+  <div class="browse-page browse-period-page" data-browse-base={localePath(lang,periodPath(kind,group.id))} data-browse-payload={`/browse-data/${lang}/${kind}/${group.id}.json`} data-browse-size={size} data-browse-page={page} data-browse-labels={JSON.stringify(labels)}>
     <header class="browse-heading" id="browse-title"><a class="back-link" href={localePath(lang,browseRoot(kind))}>{t(`browse.${kind}.back`)}</a><h1>{group.title[lang]}</h1><p class="browse-intro">{t(`browse.${kind}.periodIntro`)}</p>{group.historical&&<p class="browse-note">{t("browse.historicalNote")}</p>}</header>
     <details class="browse-period-picker"><summary>{t("browse.periodNavigation")}</summary><BrowsePeriods kind={kind} current={group.id} lang={lang} size={size}/></details>
+    <div class="browse-filters" hidden data-browse-filters>
+      <h2>{t("browse.filterTitle")}</h2>
+      <div class="browse-filter-fields">
+        <label class="browse-search">{t("browse.search")}<input type="search" name="q" autocomplete="off" /></label>
+        <label>{t("browse.author")}<select name="author"><option value="">{t("browse.allAuthors")}</option></select></label>
+        <label>{t("browse.filterAvailability")}<select name="availability"><option value="">{t("browse.allAvailability")}</option>{["ready","recovered","missing","external"].map(status=><option value={status}>{t(`browse.status.${status}` as Parameters<typeof t>[0])}</option>)}</select></label>
+        {kind==="prompts"&&<label>{t("browse.development")}<select name="development"><option value="">{t("browse.allDevelopment")}</option><option value="documented">{t("browse.documented")}</option><option value="related">{t("browse.related")}</option><option value="unlinked">{t("browse.unlinked")}</option></select></label>}
+        <button type="button" data-browse-reset>{t("browse.reset")}</button>
+      </div>
+      {kind==="prompts"&&<p>{t("browse.filterHint")}</p>}
+      <p role="status" aria-live="polite" data-browse-status></p>
+    </div>
     <div class="browse-layout">
       <div class="browse-results">
         <details class="browse-mobile-titles"><summary>{t("browse.onThisPage")} · {entries.length}</summary><BrowsePageIndex entries={entries} start={start} lang={lang}/></details>
         <BrowsePager kind={kind} group={group.id} page={page} pages={pages} size={size} total={group.count} position="top" lang={lang}/>
+        <p class="browse-empty" hidden data-browse-empty>{t("browse.noResults")}</p>
         <table class:list={["browse-table",kind==="works"&&"browse-table-works"]} role="table"><caption class="visually-hidden">{group.title[lang]} — {t("browse.range",{start,end:start+entries.length-1,total:group.count})}</caption><colgroup><col class="browse-col-title"/>{kind==="prompts"&&<col class="browse-col-text"/>}<col class="browse-col-links"/></colgroup><thead><tr><th scope="col">{t("browse.titleAuthor")}</th>{kind==="prompts"&&<th scope="col">{t("browse.promptColumn")}</th>}<th scope="col">{t("browse.linksColumn")}</th></tr></thead><tbody>{entries.map((entry,index)=>{
           const references=entry.targets.flatMap(id=>{const target=targets.get(id);return target?[target]:[];});
           const prompt="body" in entry?entry:undefined;
@@ -36,7 +82,7 @@ const start = (page - 1) * size + 1;
           const primary=references[0];
           return <tr id={entry.id} class:list={["browse-entry",prompt?"browse-prompt":"browse-work"]}>
             <td class="browse-title-cell"><span class="browse-row-number" aria-hidden="true">{start+index}</span><div><h2>{work&&primary?<a href={localePath(lang,primary.href)}>{entry.title}</a>:entry.title}</h2>{prompt&&prompt.authors.length>0&&<p class="browse-attribution">{t("browse.by",{names:prompt.authors.join(", ")})}</p>}{work?.caption&&<p class="browse-attribution" lang="it">{work.caption}</p>}</div></td>
-            {prompt&&<td class="browse-text-cell"><div class="browse-prompt-copy">{prompt.body.length>220?<><p class="browse-excerpt" lang="it" data-pagefind-ignore>{`${prompt.body.slice(0,220).replace(/\s+\S*$/,"")}…`}</p><details class="browse-prompt-text"><summary><span class="prompt-open-label">{t("browse.readPrompt")}</span><span class="prompt-close-label">{t("browse.closePrompt")}</span></summary><p lang="it">{prompt.body}</p></details></>:<p class="browse-excerpt" lang="it">{prompt.body}</p>}</div>{prompt.readingHref&&<a class="browse-reading-link" href={localePath(lang,prompt.readingHref)}>{t("browse.readEdition")}</a>}</td>}
+            {prompt&&<td class="browse-text-cell"><div class="browse-prompt-copy"><p class="browse-excerpt" lang="it" data-pagefind-ignore>{prompt.body.length>900?`${prompt.body.slice(0,900).replace(/\s+\S*$/,"")}…`:prompt.body}</p><details class="browse-prompt-text"><summary><span class="prompt-open-label">{t("browse.readPrompt")}</span><span class="prompt-close-label">{t("browse.closePrompt")}</span></summary><p lang="it">{prompt.body}</p></details></div>{prompt.readingHref&&<a class="browse-reading-link" href={localePath(lang,prompt.readingHref)}>{t("browse.readEdition")}</a>}</td>}
             <td class="browse-links-cell" data-label={t("browse.linksColumn")}>
               {references.length>0?<div class="browse-references browse-work-references"><ul>{references.map(target=><li><a href={localePath(lang,target.href)}>{prompt||references.length>1?target.title:target.status==="ready"?t("browse.readWork"):t("browse.viewRecord")}</a><span class:list={["browse-status",`status-${target.status}`]}>{t(`browse.status.${target.status}`)}</span>{target.fragmentMissing&&<small>{t("browse.fragmentMissingShort")}</small>}</li>)}</ul></div>:prompt&&<p class="browse-no-link">{t("browse.noDevelopment")}</p>}
               {prompt&&prompt.references.length>0&&<div class="browse-references browse-additional-references"><h3>{t("browse.otherReferences")}</h3><ul>{prompt.references.map(id=>targets.get(id)).filter(target=>target!==undefined).map(target=><li><a href={localePath(lang,target.href)}>{target.title}</a><span class:list={["browse-status",`status-${target.status}`]}>{t(`browse.status.${target.status}`)}</span></li>)}</ul></div>}
@@ -48,7 +94,8 @@ const start = (page - 1) * size + 1;
       </div>
       <aside class="browse-page-sidebar"><div class="browse-index-heading"><h2>{t("browse.onThisPage")}</h2><span>{entries.length}</span></div><BrowsePageIndex entries={entries} start={start} lang={lang}/></aside>
     </div>
+    <dialog class="browse-dialog" aria-labelledby="browse-dialog-title"><div class="browse-dialog-heading"><h2 id="browse-dialog-title"></h2><button type="button" data-dialog-close>{t("browse.close")}</button></div><p lang="it" class="browse-dialog-body"></p></dialog>
     <a class="browse-top" href="#browse-title">↑ {t("reader.top")}</a>
   </div>
-  <script is:inline src="/browse.js" defer></script>
+  <script is:inline type="module" src="/browse.js"></script>
 </Base>
