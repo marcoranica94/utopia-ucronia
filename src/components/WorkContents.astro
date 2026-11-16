@@ -41,11 +41,37 @@ const date = (item: OutlineItem) => {
     ? `${value} ${lang === "it" ? "a.C." : "BC"}`
     : value;
 };
+// The narrow rail keeps one stop per consecutive year within each branch.
+// Undated contributions retain an author preview instead of an invented date.
+const stops: { item: OutlineItem; year?: number; text: string }[] = [];
+let branch = "main";
+let previousYear = "";
+for (const item of outline) {
+  if (item.kind === "contribution" || item.kind === "piece") {
+    branch = item.id;
+    previousYear = "";
+    if (
+      item.kind === "contribution" &&
+      branches.find((b) => b.item.id === item.id)?.entries.length
+    )
+      continue;
+    stops.push({ item, text: label(item.label) });
+  } else if (item.kind === "entry" && item.start !== undefined) {
+    const key = `${branch}:${item.start}`;
+    if (key !== previousYear)
+      stops.push({ item, year: item.start, text: date(item) });
+    previousYear = key;
+  } else if (item.kind === "pod") {
+    stops.push({ item, text: label(item.label) });
+  }
+}
 ---
 <div class="reader-navigation" aria-label={t("reader.tools")}>
   <details class="reader-contents" data-reader-contents>
-    <summary><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.5" /></svg><span>{t("reader.open")}</span><span class="reader-chevron" aria-hidden="true">⌄</span></summary>
-    <div class="contents-panel">
+    <summary aria-label={t("reader.open")} aria-controls="reader-drawer"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" stroke-width="1.5" /></svg><span class="reader-toggle-text">{t("reader.contents")}</span><span class="reader-tab-current" data-reader-short aria-hidden="true"></span></summary>
+    <div class="reader-scrim" data-reader-scrim aria-hidden="true"></div>
+    <div class="contents-panel" id="reader-drawer" aria-labelledby="reader-drawer-title">
+      <header class="reader-drawer-head"><div><p id="reader-drawer-title">{t("reader.open")}</p><span class="reader-position" data-reader-position aria-hidden="true"></span></div><button type="button" data-reader-close aria-label={t("reader.close")} hidden>×</button></header>
       <div class="contents-sections">
         <nav aria-label={t("reader.contents")}><h2>{t("reader.contents")}</h2><ol>{sections.map((item) => <li><a href={`#${item.id}`} data-reader-link>{label(item.label)}</a></li>)}</ol></nav>
         {voices.length > 0 && <nav aria-label={t("outline.discussion")}><h2>{t("outline.discussion")}</h2><ol>{voices.map((item) => <li><a href={`#${item.id}`} data-reader-link><span>{label(item.label)}</span><small>{t(`kind.${item.contribution ?? "comment"}`)}</small></a></li>)}</ol></nav>}
@@ -60,6 +86,6 @@ const date = (item: OutlineItem) => {
       </nav>}
     </div>
   </details>
-  <span class="reader-position" data-reader-position aria-hidden="true"></span>
-  <a class="reader-top" href="#work-title" aria-label={t("reader.top")}>↑ <span>{t("reader.top")}</span></a>
+  <nav class="reader-minimap" aria-label={t("reader.quick")}><ol>{stops.map(({item, year, text}) => <li><a href={`#${item.id}`} data-reader-link data-reader-stop aria-label={text} title={text} class:list={[item.contribution === "variant" && "rail-stop-variant"]}>{year !== undefined ? <><span class="rail-stop-year">{Math.abs(year)}</span>{year < 0 && <small>{lang === "it" ? "a.C." : "BC"}</small>}</> : <span class="rail-stop-name">{text}</span>}</a></li>)}</ol></nav>
+  <a class="reader-top" href="#work-title" aria-label={t("reader.top")} title={t("reader.top")} data-reader-link>↑</a>
 </div>

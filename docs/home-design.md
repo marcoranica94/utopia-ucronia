@@ -22,4 +22,4 @@ The repository's frontend-design skill guided the direction. The recognizable el
 - JavaScript-disabled browser: all 15 works visible, inactive filter controls hidden. Text at 200% on a 1440 px viewport fits the page.
 - Desktop and phone screenshots inspected. Type checks, 35 script tests, lint with no warnings, link/CSP checks and full comparison of the 14 HTML texts pass. The PDF is outside that automated fidelity comparison.
 
-Owner visual review remains pending. This completes the implementation of this revision, not the remaining editorial work in S2–S6.
+The owner approved the new home direction ("Bello") on 16 November 2026, then requested a left-side reading drawer. This completes the implementation of this revision, not the remaining editorial work in S2–S6.

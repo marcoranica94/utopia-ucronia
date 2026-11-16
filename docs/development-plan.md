@@ -183,6 +183,7 @@ Demo: `archive/coverage.md` with the percentages by type; rerunning `download` d
 
 ### S2 · Conversion
 
+- [ ] Left-side reading navigation requested on 16/11/2026: a narrow year/contributor rail and an overlay drawer preserve wide text. Phone uses a compact side tab. Branches, focus handling and current-position highlighting are retained; see [reading-design.md](reading-design.md). Pending: owner review.
 - [ ] Reading redesign revised on 16/11/2026 after owner review: full-width text, author and date headings above paragraphs, an expandable contents panel with separate story branches and dated events, explicit light/dark/system modes and a floating back-to-top link. The earlier A/B URLs now share this reader. See [reading-design.md](reading-design.md) for research and browser checks. Pending: owner visual review
 - [x] Bilingual interface (owner decision of 13/11/2026): Italian at `/`, English under `/en/`, IT/EN switch in the header, strings in `src/i18n.ts`, converter placeholders filled by the page; the S0 `/design/` preview stays Italian only
 - [ ] Trial on 10 deliberately different uchronias (`data/trial.json`), started 13/11/2026: `scripts/anatomy.ts` reads the page structure (header, main text, POD, dated entries, contributions with kind and reply target, collections on anchors), `scripts/structured.ts` writes sections and an outline, the reading page shows a timeline rail where variants branch off; two-step fidelity check passes on all nine HTML cases. PDF case converted with `unpdf@1.7.0` (layout-based headings and paragraphs; the fidelity check covers HTML only). Pending: owner review in the browser
@@ -208,7 +209,7 @@ Demo: from the phone I find a work by remembering just one sentence, and from th
 
 ### S4 · Complete edition
 
-- [ ] Home and collection redesigned after owner rejection, 16/11/2026: atlas-style map opening, original-image and typographic covers, introductions, format/language/search filters and cover/list views. Production-header browser checks pass; see [home-design.md](home-design.md). Pending: owner visual review.
+- [x] Home and collection redesigned after owner rejection, 16/11/2026: atlas-style map opening, original-image and typographic covers, introductions, format/language/search filters and cover/list views. Production-header browser checks pass; see [home-design.md](home-design.md). The owner approved the direction ("Bello").
 
 - [ ] Progressive review of the map: first worlds and pages to split or merge
 - [ ] Eras fixed and theme list closed

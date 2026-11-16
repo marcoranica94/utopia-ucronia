@@ -141,6 +141,8 @@ const it = {
   "reader.branchNote":
     "Ogni ramo è un racconto o una variante. Apri gli eventi per seguirne le date, nell’ordine del testo.",
   "reader.events": "Mostra gli eventi ({n})",
+  "reader.close": "Chiudi indice",
+  "reader.quick": "Anni e contributori, navigazione rapida",
   "reader.contents": "Indice",
   "reader.dates": "Date nel testo",
   "reader.dateNote":
@@ -321,6 +323,8 @@ const en: Record<keyof typeof it, string> = {
   "reader.branchNote":
     "Each branch is a narrative or a variant. Open its events to follow the dates in the order of the text.",
   "reader.events": "Show events ({n})",
+  "reader.close": "Close contents",
+  "reader.quick": "Years and contributors, quick navigation",
   "reader.contents": "Contents",
   "reader.dates": "Dates in the text",
   "reader.dateNote":
