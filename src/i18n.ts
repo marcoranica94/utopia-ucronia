@@ -7,6 +7,7 @@ export const languages = ["it", "en"] as const;
 export type Lang = (typeof languages)[number];
 
 const it = {
+  "site.version": "Versione",
   "site.skip": "Vai al contenuto",
   "site.home": "UtopiaUcronia, pagina iniziale",
   "site.navLabel": "Navigazione principale",
@@ -154,6 +155,7 @@ const it = {
 };
 
 const en: Record<keyof typeof it, string> = {
+  "site.version": "Version",
   "site.skip": "Skip to content",
   "site.home": "UtopiaUcronia, home page",
   "site.navLabel": "Main navigation",

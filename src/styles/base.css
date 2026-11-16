@@ -489,3 +489,11 @@
     }
   }
 }
+
+.build-revision {
+  display: inline-block;
+  margin-inline-start: 0.8rem;
+  font-size: 0.8rem;
+  color: var(--muted);
+  white-space: nowrap;
+}

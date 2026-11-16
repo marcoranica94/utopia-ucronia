@@ -206,14 +206,14 @@ p {
   padding: 0.8rem 0 0;
   border-top: 1px solid rgb(255 255 255 / 0.16);
 }
-.tree-links a {
+.tree-links > li > a {
   display: block;
   color: var(--on-night);
   font-size: 0.78rem;
   line-height: 1.3;
   text-decoration: none;
 }
-.tree-links a:hover {
+.tree-links > li > a:hover {
   text-decoration: underline;
 }
 .tree-links span {

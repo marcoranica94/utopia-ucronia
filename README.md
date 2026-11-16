@@ -83,6 +83,8 @@ Before enabling it:
 
 The GitHub secret and variable names and the bucket name stay in Italian because they live in external configuration.
 
+The new edition permits only same-origin external scripts; inline scripts stay blocked. `/original/*` adds a stricter policy that forbids all scripts. The build validates script compatibility with these headers. To test the actual response policies locally after building, use `pnpm exec wrangler dev --local`; Astro preview alone does not apply `_headers`. Production pages show the deployed GitHub revision in the footer.
+
 `workers_dev` and `preview_urls` are disabled; there is no application Worker, SSR or database. To check the configuration without publishing: `pnpm exec wrangler deploy --dry-run`.
 
 Pull requests run no deploys. The workflow currently runs no remote backup. Never put tokens or `.env` files in the repository.

@@ -1,6 +1,7 @@
 import { access, readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { load } from "cheerio";
+import { allowsSameOriginScripts, contentPolicies } from "./header-policies.ts";
 import { safePath } from "./recovery/core.ts";
 
 async function pages(dir: string): Promise<string[]> {
@@ -13,10 +14,17 @@ async function pages(dir: string): Promise<string[]> {
   return result;
 }
 const errors: string[] = [];
+const responseHeaders = await readFile("dist/_headers", "utf8");
 let total = 0;
 for (const file of await pages("dist")) {
   const html = await readFile(file, "utf8");
   const $ = load(html);
+  const pathname = `/${path.relative("dist", file).replace(/index\.html$/, "")}`;
+  if (
+    $("script[src]").length &&
+    !allowsSameOriginScripts(contentPolicies(responseHeaders, pathname))
+  )
+    errors.push(`${file}: response CSP blocks the interface scripts`);
   const isCatalog = [
     path.join("dist", "index.html"),
     path.join("dist", "en", "index.html"),
@@ -25,10 +33,12 @@ for (const file of await pages("dist")) {
     .toArray()
     .filter(
       (script) =>
-        !isCatalog &&
-        !["/theme.js", "/rail.js", "/reader.js"].includes(
-          $(script).attr("src") ?? "",
-        ),
+        ![
+          "/theme.js",
+          "/rail.js",
+          "/reader.js",
+          ...(isCatalog ? ["/catalog.js"] : []),
+        ].includes($(script).attr("src") ?? ""),
     );
   if (
     unexpectedScripts.length ||

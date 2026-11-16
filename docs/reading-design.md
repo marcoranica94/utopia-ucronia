@@ -28,3 +28,13 @@ Checks run against the built static site, not just the development server:
 - The content converter and originals are unchanged. The build still compares all 14 HTML texts; the PDF remains outside that automated fidelity comparison.
 
 Screenshots are local review artifacts in `reports/` and are ignored by Git. This is a reading redesign, not completion of S2 or final accessibility certification.
+
+## Production-header correction, 16 November 2026
+
+A follow-up report exposed a gap in the initial checks: Astro's preview does not apply Cloudflare's `_headers`. The global `script-src 'none'` hid the theme selector and blocked reading controls; Astro also inlined the small catalog script. Reproduced this using `wrangler dev --local` against the built assets: the theme group was hidden and the browser logged CSP violations.
+
+The new edition now permits same-origin external scripts, while `/original/*` adds a second policy forbidding all scripts. Catalog filtering lives in `/catalog.js`, with inline scripts still forbidden. The build checks each page's external scripts against the matching response policies and rejects inline scripts even in the catalog. Three regression tests cover both languages and the combined restrictive original-page policy. The lint warning in the old design preview was also removed.
+
+Verified the correction in Wrangler's local runtime at 390 px: light mode, persisted filters (one presidential result), story-branch navigation and back-to-top all work, without console errors. A request under `/original/` returns both policies, retaining `script-src 'none'`. The footer and the HTML `data-build` attribute now show the GitHub commit revision, so deployed versions can be distinguished directly. Cloudflare's active deployment and custom-domain mapping were checked; no competing Worker routes were present. The authenticated production HTML cannot be inspected anonymously through Access.
+
+Header composition follows [Cloudflare's static-asset header rules](https://developers.cloudflare.com/workers/static-assets/headers/); script restrictions follow [MDN's CSP documentation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CSP).

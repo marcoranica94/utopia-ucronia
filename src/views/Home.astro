@@ -20,36 +20,4 @@ const count = (n: number) =>
   <section aria-labelledby="catalog-title"><div class="section-heading"><h2 id="catalog-title">{t("home.catalogTitle")}</h2><p id="catalog-count" aria-live="polite" data-one={t("home.count.one")} data-many={t("home.count.many")}>{count(works.length)}</p></div><form class="catalog-filters" role="search" aria-label={t("home.filters")}><label for="catalog-search">{t("home.search")}<input id="catalog-search" type="search" name="q" autocomplete="off" placeholder={t("home.searchPlaceholder")} /></label><label for="catalog-language">{t("home.language")}<select id="catalog-language" name="lang"><option value="">{t("home.allLanguages")}</option><option value="it">{t("lang.it")}</option><option value="fr">{t("lang.fr")}</option><option value="es">{t("lang.es")}</option></select></label></form>{works.length ? <><ul class="catalog">{works.map((work) => <li data-work data-title={`${work.data.title} ${work.data.authors.join(" ")}`} data-language={work.data.language}><div><a href={localePath(lang, `/works/${work.id}/`)} lang={work.data.language}>{work.data.title}</a><small>{work.data.authors.join(", ") || t("home.recovered")}{work.data.shape && ` · ${t(`shape.${work.data.shape}`)}`}</small></div><span class="language-tag">{work.data.language.toUpperCase()}</span></li>)}</ul><p id="catalog-empty" class="small-note" hidden>{t("home.empty")}</p></> : <p class="small-note">{t("home.none")}</p>}</section>
   <p class="small-note">{t("home.note")}</p>
 </Base>
-<script>
-  const search = document.querySelector<HTMLInputElement>("#catalog-search");
-  const language = document.querySelector<HTMLSelectElement>("#catalog-language");
-  const count = document.querySelector<HTMLElement>("#catalog-count");
-  const empty = document.querySelector<HTMLElement>("#catalog-empty");
-  const items = [...document.querySelectorAll<HTMLLIElement>("[data-work]")];
-  if (search && language && count) {
-    const url = new URL(location.href);
-    search.value = url.searchParams.get("q") ?? "";
-    language.value = url.searchParams.get("lang") ?? "";
-    const fold = (value: string) => value.normalize("NFD").replace(/\p{Diacritic}/gu, "").toLocaleLowerCase();
-    const update = (saveUrl: boolean) => {
-      const query = fold(search.value.trim());
-      let shown = 0;
-      for (const item of items) {
-        const match = fold(item.dataset.title ?? "").includes(query) && (!language.value || item.dataset.language === language.value);
-        item.hidden = !match;
-        if (match) shown++;
-      }
-      count.textContent = `${shown} ${shown === 1 ? count.dataset.one : count.dataset.many}`;
-      if (empty) empty.hidden = shown > 0;
-      if (saveUrl) {
-        if (search.value.trim()) url.searchParams.set("q", search.value.trim()); else url.searchParams.delete("q");
-        if (language.value) url.searchParams.set("lang", language.value); else url.searchParams.delete("lang");
-        history.replaceState(null, "", url);
-      }
-    };
-    search.addEventListener("input", () => update(true));
-    language.addEventListener("change", () => update(true));
-    document.querySelector(".catalog-filters")?.addEventListener("submit", (event) => event.preventDefault());
-    update(false);
-  }
-</script>
+<script is:inline src="/catalog.js" defer></script>
