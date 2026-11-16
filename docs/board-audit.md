@@ -7,7 +7,7 @@ Reconciled against source routes, build scripts, package dependencies, the edito
 | S0 | Foundations, Access-gated deploy, initial backups and historical restore trials | R2 sync paused by the owner; drive copy deferred to the owner. Both remain non-blocking. |
 | S1 | Recovery closed: 6,900 files recovered, 95 documented missing, no failed attempts | Missing sources remain recorded gaps, not unfinished download jobs. |
 | S2 | Conversion demo closed: model/map, fixed validation sample, 46 source-faithful reading items and approved reader | Editorial proposals are not approved; publishing every recovered work belongs to S4. |
-| S3 | Reader, simple catalog, current-interface keyboard/mobile checks | Full-text Pagefind search and `/` shortcut; local source navigation for every reading item; notes/attachment navigation audit; development-only `/review` queue. |
+| S3 | Complete for the 46-item edition: reader/catalog, Pagefind search, local source text/provenance, note/resource audit, local review queue and faded period illustrations | No remaining implementation task in S3. Full archive publication and final certification remain S4/S6. See [status-s3.md](status-s3.md). |
 | S4 | Approved home/catalog, light/dark UI, all historical indexes, tables, pagination, title shortcuts, whole-period filters and reading popup | Progressive editorial review and publication; final era/theme vocabularies; author/world/era/place/theme pages. View Transitions remain optional. |
 | S5 | Three-work tree prototype; real contribution branches in the reader | Full archive divergence tree with verified dates and hard cases; reference-date decision and cleaned `/original/`; site history; random-content view. |
 | S6 | Existing targeted regression evidence is available | All-view axe/device/assistive-technology audit, Lighthouse assessment, fresh final restore and final documentation reconciliation. |
@@ -22,16 +22,15 @@ Reconciled against source routes, build scripts, package dependencies, the edito
 
 Evidence: `docs/status-s2.md`, `reports/sample-comparison.json`, `reports/browse-validation.json`, `reports/browse-filter-browser.json` and `reports/browse-filter-payloads.json`. Published implementation commit `4c30549` passed 63 tests, 256,684 link/resource checks, all 46 reading comparisons and complete historical-index validation in both languages. Its Cloudflare deployment was verified active at 100%.
 
-## Execution order
+## Execution order after S3
 
-1. **Pagefind search on the published reading edition.** Search full text rather than only catalog metadata or the selected historical period. Include IT/EN interface, `/` shortcut, no-result behavior and a test finding a work from a remembered sentence.
-2. **Finish source, note and attachment navigation.** Reading pages currently display provenance as source URLs/capture dates. Historical resource records do not cover the complete reading-to-source requirement. Preserve available/missing distinctions.
-3. **Development-only review queue.** Twenty proposals per batch, original excerpts and reasons, explicit unknowns, durable owner decisions. Keep review data and the queue out of the production interface.
-4. **Close S3 with its end-to-end demo.** From a phone, find a work from a sentence, read it and open its local source/provenance page.
-5. **Expand publication in S4.** Review metadata and work boundaries progressively, publish with source-fidelity checks, then build thematic/author/world pages. Use the reviewed divergence data for the full S5 tree.
+1. **Review the next publication batch in S4.** The local development queue is ready for explicit owner decisions; no live proposals have been approved automatically.
+2. **Expand reading publication.** Convert reviewed works progressively beyond the validated 46 items, including pending attachments, with full source-fidelity checks.
+3. **Complete reviewed classification and discovery pages.** Final era/theme vocabularies and author/world/era/place/theme pages still need implementation and metadata review.
+4. **Build the full S5 tree and cleaned original-layout copy**, followed by the complete S6 audit/restore.
 
 The final classification, full archive tree and complete publication should not be labelled done merely because the source lists are browsable.
 
 ## Board verification
 
-The regenerated board contains 61 tasks: 41 done, four to do, one partial and 15 in backlog (including the two non-blocking deferrals). S3 is active with three delivered tasks and four open tasks. Browser checks verified all five columns, sprint/search/reset controls, the four next-step priorities, immunity to stale local card overrides and no horizontal overflow at 390 and 1440 pixels. No browser errors occurred; repository lint and whitespace checks passed. These task counts measure the plan, not the percentage of archive texts published.
+After S3 delivery the regenerated board contains 62 tasks: 46 done, two to do, one partial and 13 in backlog (including two non-blocking deferrals). S4 is active; all eight S3 tasks are delivered. Browser checks verified all five columns, sprint/search/reset controls, next-step priorities, immunity to stale local overrides and responsive layouts. These task counts measure the plan, not the percentage of archive texts published. S3 feature verification is documented separately in [status-s3.md](status-s3.md).

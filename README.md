@@ -98,3 +98,5 @@ The new edition permits only same-origin external scripts; inline scripts stay b
 Pull requests run no deploys. The workflow currently runs no remote backup. Never put tokens or `.env` files in the repository.
 
 Historical period lists include whole-period text/author/availability filters and a documented-development filter for prompts, with shareable query URLs and synchronized pagination. Long proposals open in a reading popup after six rendered lines. Run `pnpm build` before local development to generate the full-period filter payloads. See [historical indexes](docs/historical-indexes.md).
+
+S3 is delivered for the 46-item reading edition: [status and checks](docs/status-s3.md). Use `/search/` (or `/en/search/`) for full-text search; `/` opens/focuses it. Reading pages link to safe local source text/provenance. After `pnpm build`, run `pnpm dev` and open `/review/` locally to review proposals in blocks of 20. Each explicit owner decision is saved in `data/review-decisions.json`; it is separate from automatic proposals and survives regeneration. The development queue and raw decision/map files are not deployed. Full archive publication remains S4 work.

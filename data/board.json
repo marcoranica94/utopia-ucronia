@@ -119,7 +119,7 @@
       "contains": "Simple catalog: titles, authors and filters",
       "status": "done",
       "assignee": "Development",
-      "note": "The published home catalog and historical works lists provide titles, credited authors and filters over available metadata. Historical lists now support whole-category search, author and availability filters. Pagefind full-edition search and the development-only review page remain separate open S3 tasks."
+      "note": "Published home and historical works lists provide titles, credited authors and metadata filters. S3 now also adds full-text Pagefind search as a separate navigation path."
     },
     {
       "sprint": "S3",
@@ -131,30 +131,30 @@
     {
       "sprint": "S3",
       "contains": "Complete source-page navigation",
-      "status": "todo",
+      "status": "done",
       "assignee": "Development",
-      "note": "Reading provenance currently appears as source URLs and capture dates. Historical-index resource records exist, but they do not complete source navigation for all 46 reading items. Implement safe local provenance pages/links before closing S3."
+      "note": "Delivered: all 46 reading items link to 46 local source-text/provenance pages, including merged-work sources. 100 IT/EN source links verified; original hashes checked and no active archived HTML is served. The full original-layout archive remains S5."
     },
     {
       "sprint": "S3",
       "contains": "Audit notes and attachment navigation",
-      "status": "todo",
+      "status": "done",
       "assignee": "Development",
-      "note": "The converter preserves source content, but a separate all-item navigation audit and completion of notes/attachment links have not been delivered. Test available, missing and unsupported attachments without modifying originals."
+      "note": "Delivered: 134 in-page links and every explained unavailable reference checked. Gap records show format/hash/recovered status and link back to local source pages. Five recovered attachments still await reading publication; they are explicitly labelled, not broken or silently dropped. Full file publication remains S4/S5."
     },
     {
       "sprint": "S3",
       "contains": "Pagefind search",
-      "status": "todo",
+      "status": "done",
       "assignee": "Development",
-      "note": "Not installed or integrated: package.json has no Pagefind dependency/build step and no full-edition search route. Current home/period filtering is distinct from full-text search through reading content. Highest next implementation priority, including the / shortcut."
+      "note": "Delivered: /search/ and /en/search/, full reading text across original languages, text-language filter, excerpts, 10-result batches, query/locale persistence, error/retry and / shortcut. All 46 reading items matched text probes in each interface (92 checks), under production CSP."
     },
     {
       "sprint": "S3",
       "contains": "`/review` page",
-      "status": "todo",
+      "status": "done",
       "assignee": "Development",
-      "note": "No /review route exists. Build a development-only queue of 20 proposals with source excerpts, reasoning, explicit unknowns and durable owner decisions; never publish it or auto-approve the map."
+      "note": "Delivered in local development only: 20 proposals per batch, original quotes/hash provenance, proposed metadata, filters and explicit per-proposal approval/defer with a required reason. Atomic on-disk decisions survive map regeneration; changed/stale/forged writes are rejected. Fixture tests only; the live decision ledger remains empty. Review routes/data are absent from dist."
     },
     {
       "sprint": "S3",
@@ -173,9 +173,9 @@
     {
       "sprint": "S4",
       "contains": "Progressive review of the map",
-      "status": "backlog",
-      "assignee": "Development",
-      "note": "The map proposes 8,509 items across 6,900 recovered documents. Proposals are not owner-approved. Review infrastructure in S3 comes first; then review worlds, splits/merges and attribution progressively."
+      "status": "todo",
+      "assignee": "Marco",
+      "note": "S3 review infrastructure is ready at /review/ in local development, 20 proposals at a time. No live proposals have been approved. Review worlds and split/merge boundaries before expanding publication; classifications require their own explicit decisions."
     },
     {
       "sprint": "S4",
@@ -204,24 +204,38 @@
       "status": "backlog",
       "assignee": "Development",
       "note": "Documents receive incremental updates, but the final all-feature documentation reconciliation is not complete. The current board audit is documented in docs/board-audit.md."
+    },
+    {
+      "sprint": "S3",
+      "contains": "Owner-requested period illustrations",
+      "status": "done",
+      "assignee": "Development",
+      "note": "Delivered: 18 verified archive illustrations, softly faded behind prompt periods and reused across all nine work categories. Optimized derivatives total under 0.5 MB; originals untouched. Checked in both themes, phone/desktop and 200% text. Evidence: reports/period-images.json."
+    },
+    {
+      "sprint": "S4",
+      "contains": "Publish the remaining recovered works progressively",
+      "status": "todo",
+      "assignee": "Development",
+      "note": "The 46-item reading edition and all historical catalog entries are available. Expand work by work after structural review, preserving unknown metadata, immutable-source provenance and full-text/image/link fidelity checks."
     }
   ],
   "priorities": [
     {
-      "title": "Finish full-text search (S3)",
-      "detail": "Index the published reading edition with Pagefind, provide IT/EN search and the / shortcut, and verify finding a work from a remembered sentence."
+      "title": "Review the next publication batch (S4)",
+      "detail": "Use the local /review/ queue to make explicit owner decisions on work boundaries, worlds and split/merge proposals. Start with text proposals; no real decisions have been made automatically."
     },
     {
-      "title": "Complete reading/source navigation (S3)",
-      "detail": "Provide local provenance navigation for all reading items and audit notes and attachments, including missing resources."
+      "title": "Publish more recovered works (S4)",
+      "detail": "Expand beyond the 46 validated reading items, preserving full source-fidelity checks and safe handling of attachments. Catalogue entries alone do not mean reading editions exist."
     },
     {
-      "title": "Build the development-only review queue (S3)",
-      "detail": "Review proposals in batches of 20 with persistent explicit owner decisions; keep the queue out of production."
+      "title": "Complete reviewed classification and discovery pages (S4)",
+      "detail": "Set final eras/themes progressively and build author/world/era/place/theme pages from reviewed metadata."
     },
     {
-      "title": "Publish more of the recovered archive (S4)",
-      "detail": "Use reviewed metadata and source-fidelity checks to convert and publish works progressively; then build author/world/theme pages and the full tree."
+      "title": "Build the complete archive tree and original-layout copy (S5)",
+      "detail": "Replace the three-work prototype with verified divergence data and hard-case checks, then complete the cleaned historical archive and final S6 audit."
     }
   ]
 }

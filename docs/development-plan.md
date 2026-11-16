@@ -127,7 +127,7 @@ In the S0 implementation the deploy also requires `DEPLOY_ABILITATO=true` and th
 1. checkout (with Git LFS), pnpm, Node 24 with cache;
 2. `pnpm install --frozen-lockfile`;
 3. `pnpm test` (recovery, conversion, accessibility checks) and `biome ci`;
-4. `pnpm build`: conversion, `astro check`, build, Pagefind index;
+4. `pnpm build`: conversion, historical indexes, local source pages and period images, `astro check`, static build, full-period payloads, Pagefind index and fidelity/S3 checks;
 5. link check on `dist/`: an unexplained unresolved link blocks the deploy;
 6. `wrangler deploy`, only if the secrets exist, otherwise a notice and the build stays verified;
 7. R2 archive sync is paused; the workflow does not upload `original/`.
@@ -199,17 +199,19 @@ Demo: passed on 16/11/2026; valid 6,900-document map, zero unexplained unresolve
 
 ### S3 · First useful version
 
-Active, partially delivered. Reader and catalog checks pass for the published edition; full-text search, source navigation and the development review queue are still open. See [board-audit.md](board-audit.md).
+- [x] Owner-requested period illustrations: relevant archive images softly faded behind each historical-period block, preserving title/count contrast in light and dark modes and on phones.
+
+Delivered and validated on 16/11/2026. Full-text search covers all 46 published reading items; local source-text/provenance pages, note/resource checks and the development-only review queue are implemented. The mobile sentence → work → local source demo passed. See [status-s3.md](status-s3.md).
 
 - [x] Reading page for the validated edition: 46 complete source-faithful items, images, attributed contributions, branch/year navigation, themes and back-to-top
-- [ ] Complete source-page navigation from every reading item; source records currently cover historical-index references, while reading pages show source provenance as text
-- [ ] Audit notes and attachment navigation across the validated edition; preserve file availability distinctions and provide usable reading/source links
+- [x] Complete source-page navigation from every reading item; all reading items now link to local source-text/provenance pages independently of historical-index records
+- [x] Audit notes and attachment navigation across the validated edition; preserve file availability distinctions and provide usable reading/source links
 - [x] Simple catalog: titles, authors and filters on what exists, even with partial metadata
-- [ ] Pagefind search on the new edition, with the `/` shortcut
-- [ ] `/review` page, development only, to review the map in blocks of 20
+- [x] Pagefind search on the new edition, with the `/` shortcut
+- [x] `/review` page, development only, to review the map in blocks of 20
 - [x] Keyboard use and responsive phone reading verified for the published reader, catalog and historical lists; final all-view axe/device certification remains S6
 
-Demo: from the phone I find a work by remembering just one sentence, and from there I open its source page.
+Demo: passed in a 390 px phone viewport with a remembered Petrov sentence → reading edition → full local source text. All 46 items were also found through text probes in both interfaces (92 successful checks). Review writes were tested only on isolated fixtures; no live proposals were approved.
 
 ### S4 · Complete edition
 

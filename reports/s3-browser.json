@@ -1,0 +1,54 @@
+{
+  "passed": true,
+  "date": "2026-11-16",
+  "server": "Wrangler local with production CSP; Astro local review separately",
+  "searchProbes": {
+    "it": 46,
+    "en": 46,
+    "failures": 0
+  },
+  "mobileDemo": {
+    "viewport": 390,
+    "query": "erano troppo potenti per combattersi",
+    "reading": "/works/e-se-stanislav-petrov-non-fosse-stato-al-suo-posto-5f300921/",
+    "source": "/sources/doc-8d2600ab410a/",
+    "sourceContainsSentence": true
+  },
+  "search": [
+    "slash focus/navigation",
+    "French original-text filter",
+    "unknown-language filter",
+    "IT/EN query preservation",
+    "reload restoration",
+    "10 to 20 results with load more",
+    "no-results",
+    "blocked-index error and successful retry"
+  ],
+  "periodImages": {
+    "prompts": 18,
+    "workCategories": 9,
+    "themes": [
+      "light",
+      "dark"
+    ],
+    "originalsUntouched": true
+  },
+  "viewports": [
+    320,
+    768,
+    1440,
+    1920
+  ],
+  "enlargedTextPercent": 200,
+  "horizontalOverflow": false,
+  "review": {
+    "localBatches": [
+      20,
+      20
+    ],
+    "english": true,
+    "realDecisionsWritten": 0,
+    "productionStatus": 404
+  },
+  "pageErrors": []
+}

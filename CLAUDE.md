@@ -180,3 +180,7 @@ Note: the local folder is called `ucronia-utopia`, the GitHub repository and the
 ## Discovery design update, 16 November 2026
 
 The owner rejected the minimal home and plain catalog. The new home is a visual atlas with the original Spot the POD map, original-image and typographic covers, short bilingual introductions, format/language/search filters and cover/list views. The reader remains full-width. See `docs/home-design.md`; the owner approved this direction ("Bello") and requested left-side timeline navigation.
+
+## S3 delivery, 16 November 2026
+
+Search is available at `/search/` and `/en/search/`, indexing only the 46 prepared reading items. Source text/provenance pages are under `/sources/`; the complete original-layout copy remains S5. The local-only `/review/` integration is never emitted to production. Explicit owner proposal decisions live in `data/review-decisions.json`; preserve them, validate fingerprints and never fabricate live approvals. Tests must write only isolated fixture ledgers. Build before local development to generate Pagefind, filter payloads and period-image assets. The 18 faded archive illustrations requested during S3 are generated from verified originals using `data/period-images.json`. See `docs/status-s3.md`.

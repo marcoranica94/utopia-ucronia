@@ -60,6 +60,9 @@ jobs:
             reports/browse.json
             reports/browse-validation.json
             reports/browse-filter-payloads.json
+            reports/search-index.json
+            reports/s3-validation.json
+            reports/period-images.json
           retention-days: 14
       - name: Verify Access before publishing
         if: github.event_name != 'pull_request' && (vars.DEPLOY_ABILITATO == 'true' || inputs.verify_access == true)
