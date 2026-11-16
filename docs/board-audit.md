@@ -33,4 +33,4 @@ The final classification, full archive tree and complete publication should not 
 
 ## Board verification
 
-After S3 delivery the regenerated board contains 62 tasks: 46 done, two to do, one partial and 13 in backlog (including two non-blocking deferrals). S4 is active; all eight S3 tasks are delivered. Browser checks verified all five columns, sprint/search/reset controls, next-step priorities, immunity to stale local overrides and responsive layouts. These task counts measure the plan, not the percentage of archive texts published. S3 feature verification is documented separately in [status-s3.md](status-s3.md).
+After S3 delivery the regenerated board contains 62 tasks: 46 done, three to do, one partial and 12 in backlog (including two non-blocking deferrals). S4 is active; all eight S3 tasks are delivered. Browser checks verified all five columns, sprint/search/reset controls, next-step priorities, immunity to stale local overrides and responsive layouts. These task counts measure the plan, not the percentage of archive texts published. S3 feature verification is documented separately in [status-s3.md](status-s3.md).
