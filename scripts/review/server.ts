@@ -1,5 +1,5 @@
 import { randomBytes } from "node:crypto";
-import { readFile, rename, writeFile } from "node:fs/promises";
+import { open, readFile, rename, rm, writeFile } from "node:fs/promises";
 import type { IncomingMessage, ServerResponse } from "node:http";
 import type { AstroIntegration } from "astro";
 import { mapSchema } from "../../src/editorial/model.ts";
@@ -237,6 +237,16 @@ export function localReviewPlugin(
                 ].sort((a, b) => a.proposalId.localeCompare(b.proposalId)),
               });
               mapSchema.parse(applyDecisions(map, updated));
+              let lock;
+              try {
+                lock = await open(`${decisionPath}.lock`, "wx");
+              } catch (error) {
+                if ((error as NodeJS.ErrnoException).code === "EEXIST")
+                  return send(409, {
+                    error: "Another local server is saving a decision",
+                  });
+                throw error;
+              }
               writing = true;
               try {
                 // Recheck immediately before atomic replacement: concurrent/stale decisions never overwrite one another.
@@ -249,6 +259,7 @@ export function localReviewPlugin(
                   ) !== revision
                 )
                   return send(409, { error: "Review state changed" });
+                await rm(`${decisionPath}.tmp`, { force: true });
                 await writeFile(
                   `${decisionPath}.tmp`,
                   `${JSON.stringify(updated, null, 2)}\n`,
@@ -257,6 +268,8 @@ export function localReviewPlugin(
                 await rename(`${decisionPath}.tmp`, decisionPath);
               } finally {
                 writing = false;
+                await lock.close();
+                await rm(`${decisionPath}.lock`, { force: true });
               }
               send(200, { saved: true });
             } catch (error) {

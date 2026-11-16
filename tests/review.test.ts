@@ -172,6 +172,10 @@ test("local review API batches, rejects forged/stale writes, persists and restor
       (await post({ ...body, fingerprint: "d".repeat(64) })).status,
       409,
     );
+    await writeFile(`${decisionPath}.lock`, "another local server");
+    assert.equal((await post(body)).status, 409);
+    await assert.rejects(readFile(decisionPath, "utf8"));
+    await rm(`${decisionPath}.lock`);
     assert.equal((await post(body)).status, 200);
     assert.equal((await post(body)).status, 409);
     const stored = decisionFileSchema.parse(
