@@ -7,6 +7,17 @@ export const languages = ["it", "en"] as const;
 export type Lang = (typeof languages)[number];
 
 const it = {
+  "browse.pageOf": "Pagina {page} di {pages}",
+  "browse.rowsPerPage": "Voci per pagina",
+  "browse.goToPage": "Vai alla pagina",
+  "browse.apply": "Applica",
+  "browse.go": "Vai",
+  "browse.onThisPage": "Titoli in questa pagina",
+  "browse.titleAuthor": "Titolo e autore",
+  "browse.promptColumn": "Spunto",
+  "browse.linksColumn": "Sviluppi e disponibilità",
+  "browse.closePrompt": "Richiudi lo spunto",
+
   "browse.otherReferences": "Altri riferimenti citati",
   "site.nav.prompts": "Spunti",
   "site.nav.completeWorks": "Opere",
@@ -291,6 +302,17 @@ const it = {
 };
 
 const en: Record<keyof typeof it, string> = {
+  "browse.pageOf": "Page {page} of {pages}",
+  "browse.rowsPerPage": "Entries per page",
+  "browse.goToPage": "Go to page",
+  "browse.apply": "Apply",
+  "browse.go": "Go",
+  "browse.onThisPage": "Titles on this page",
+  "browse.titleAuthor": "Title and author",
+  "browse.promptColumn": "Prompt",
+  "browse.linksColumn": "Developments and availability",
+  "browse.closePrompt": "Collapse the prompt",
+
   "browse.otherReferences": "Other cited references",
   "site.nav.prompts": "Prompts",
   "site.nav.completeWorks": "Works",

@@ -144,3 +144,29 @@ test("source indentation inside a linked title is not mistaken for an author lin
   assert.equal(entry.title, "Albe di Cieli Lontani");
   assert.equal(entry.caption, "[saggio] di Ada");
 });
+
+test("page-size routes preserve existing links and locate the current first entry", async () => {
+  const { periodPath, pageForSize, pageSizes } = await import(
+    "../src/browse/pagination.ts"
+  );
+  assert.equal(
+    periodPath("prompts", "ancient"),
+    "/divergences/period/ancient/",
+  );
+  assert.equal(periodPath("works", "roman", 2), "/works/period/roman/2/");
+  assert.equal(
+    periodPath("prompts", "ancient", 3, 20),
+    "/divergences/period/ancient/size/20/3/",
+  );
+  assert.equal(pageForSize(2, 40, 20, 426), 3);
+  assert.equal(pageForSize(11, 40, 100, 426), 5);
+  for (const size of pageSizes)
+    for (const next of pageSizes)
+      for (let page = 1; page <= Math.ceil(426 / size); page++) {
+        const first = (page - 1) * size;
+        const nextPage = pageForSize(page, size, next, 426);
+        assert.ok(first >= (nextPage - 1) * next && first < nextPage * next);
+      }
+  assert.throws(() => periodPath("works", "roman", 0));
+  assert.throws(() => periodPath("works", "roman", 1, 30));
+});

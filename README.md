@@ -30,7 +30,7 @@ pnpm build
 pnpm preview
 ```
 
-The build regenerates the Markdown from the recovered files, validates the schema, generates the static site, checks links and active content and fully compares the sample texts with their sources. To develop: `pnpm dev`, after the first conversion. For the scripts: `pnpm test`; for types and style: `pnpm exec tsc --noEmit` and `pnpm lint`.
+The build regenerates the Markdown from the recovered files, validates the schema, generates the static site, checks links and active content and fully compares the sample texts with their sources. To develop: `pnpm dev`, after the first build. For the scripts: `pnpm test`; for types and style: `pnpm exec tsc --noEmit` and `pnpm lint`.
 
 ## Contents
 
@@ -55,7 +55,7 @@ Recovery uses only the Wayback, one request at a time. Files that are already in
 
 ## Historical indexes
 
-`/divergences/` contains the complete recovered Lista by period, with prompt text and links to related developments. `/works/` contains all nine original works categories, including Utopias and stories. Both have English counterparts, native pagination and source records showing whether a linked text is already readable, recovered, missing or external. The 2013 historical prompt list is separated from the current menu's 18 sections.
+`/divergences/` contains the complete recovered Lista by period, with prompt text and links to related developments. `/works/` contains all nine original works categories, including Utopias and stories. Both have English counterparts, wide tables with current-page title navigation, adjustable pagination (20/40/80/100 entries) and source records showing whether a linked text is already readable, recovered, missing or external. The 2013 historical prompt list is separated from the current menu's 18 sections.
 
 `pnpm browse:generate` derives these indexes from hash-verified original menus, catalog cells and the editorial map; `pnpm browse:check` compares all rendered entries and records in both languages. Normal `pnpm build` runs both, alongside the existing reading fidelity checks. Details: [historical-indexes.md](docs/historical-indexes.md).
 

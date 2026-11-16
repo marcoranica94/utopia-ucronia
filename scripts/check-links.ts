@@ -39,6 +39,9 @@ for (const file of await pages("dist")) {
           "/rail.js",
           "/reader.js",
           ...(isCatalog ? ["/catalog.js"] : []),
+          ...(/^\/(?:en\/)?(?:divergences|works)\/period\//.test(pathname)
+            ? ["/browse.js"]
+            : []),
         ].includes($(script).attr("src") ?? ""),
     );
   if (

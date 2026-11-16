@@ -1,6 +1,7 @@
 ---
-import { type BrowseKind, browseRoot, pageSize, targets } from "../browse/data";
+import { type BrowseKind, browseRoot, targets } from "../browse/data";
 import type { BrowseEntry, BrowseGroup, BrowsePrompt } from "../browse/model";
+import BrowsePageIndex from "../components/BrowsePageIndex.astro";
 import BrowsePager from "../components/BrowsePager.astro";
 import BrowsePeriods from "../components/BrowsePeriods.astro";
 import { type Lang, localePath, useTranslations } from "../i18n";
@@ -14,35 +15,40 @@ interface Props {
   entries: (BrowsePrompt | BrowseEntry)[];
   page: number;
   pages: number;
+  size: number;
 }
-const { kind, lang, group, entries, page, pages } = Astro.props;
+const { kind, lang, group, entries, page, pages, size } = Astro.props;
 const t = useTranslations(lang);
-const start = (page - 1) * pageSize + 1;
+const start = (page - 1) * size + 1;
 ---
-<Base title={`${group.title[lang]} · ${t(`browse.${kind}.short`)}${page>1?` · ${t("browse.page",{n:page})}`:""}`} lang={lang}>
-  <div class="browse-page">
-    <header class="browse-heading" id="browse-title"><a class="back-link" href={localePath(lang,browseRoot(kind))}>{t(`browse.${kind}.back`)}</a><h1>{group.title[lang]}</h1><p class="browse-intro">{t(`browse.${kind}.periodIntro`)}</p>{group.historical&&<p class="browse-note">{t("browse.historicalNote")}</p>}<p class="browse-count">{t("browse.range",{start,end:start+entries.length-1,total:group.count})}</p></header>
-    <div class="browse-layout"><aside class="browse-sidebar"><h2>{t("browse.periodNavigation")}</h2><BrowsePeriods kind={kind} current={group.id} lang={lang}/></aside>
-      <div class="browse-results"><details class="browse-mobile-periods"><summary>{t("browse.periodNavigation")}</summary><BrowsePeriods kind={kind} current={group.id} lang={lang}/></details>
-        <BrowsePager kind={kind} group={group.id} page={page} pages={pages} lang={lang}/>
-        <ol class="browse-entries" start={start}>{entries.map(entry=> {
+<Base title={`${group.title[lang]} · ${t(`browse.${kind}.short`)}${page>1?` · ${t("browse.page",{n:page})}`:""}`} lang={lang} wide>
+  <div class="browse-page browse-period-page">
+    <header class="browse-heading" id="browse-title"><a class="back-link" href={localePath(lang,browseRoot(kind))}>{t(`browse.${kind}.back`)}</a><h1>{group.title[lang]}</h1><p class="browse-intro">{t(`browse.${kind}.periodIntro`)}</p>{group.historical&&<p class="browse-note">{t("browse.historicalNote")}</p>}</header>
+    <details class="browse-period-picker"><summary>{t("browse.periodNavigation")}</summary><BrowsePeriods kind={kind} current={group.id} lang={lang} size={size}/></details>
+    <div class="browse-layout">
+      <div class="browse-results">
+        <details class="browse-mobile-titles"><summary>{t("browse.onThisPage")} · {entries.length}</summary><BrowsePageIndex entries={entries} start={start} lang={lang}/></details>
+        <BrowsePager kind={kind} group={group.id} page={page} pages={pages} size={size} total={group.count} position="top" lang={lang}/>
+        <table class:list={["browse-table",kind==="works"&&"browse-table-works"]} role="table"><caption class="visually-hidden">{group.title[lang]} — {t("browse.range",{start,end:start+entries.length-1,total:group.count})}</caption><colgroup><col class="browse-col-title"/>{kind==="prompts"&&<col class="browse-col-text"/>}<col class="browse-col-links"/></colgroup><thead><tr><th scope="col">{t("browse.titleAuthor")}</th>{kind==="prompts"&&<th scope="col">{t("browse.promptColumn")}</th>}<th scope="col">{t("browse.linksColumn")}</th></tr></thead><tbody>{entries.map((entry,index)=>{
           const references=entry.targets.flatMap(id=>{const target=targets.get(id);return target?[target]:[];});
           const prompt="body" in entry?entry:undefined;
           const work="caption" in entry?entry:undefined;
           const primary=references[0];
-          return <li><article id={entry.id} class:list={["browse-entry",prompt?"browse-prompt":"browse-work"]}>
-            <h2>{work&&primary?<a href={localePath(lang,primary.href)}>{entry.title}</a>:entry.title}</h2>
-            {prompt&&prompt.authors.length>0&&<p class="browse-attribution">{t("browse.by",{names:prompt.authors.join(", ")})}</p>}
-            {work?.caption&&<p class="browse-attribution" lang="it">{work.caption}</p>}
-            {prompt&&<><p class="browse-excerpt" lang="it" data-pagefind-ignore>{prompt.body.length>300?`${prompt.body.slice(0,300).replace(/\s+\S*$/,"")}…`:prompt.body}</p>{prompt.body.length>300&&<details class="browse-prompt-text"><summary>{t("browse.readPrompt")}</summary><p lang="it">{prompt.body}</p></details>}{prompt.readingHref&&<a class="browse-reading-link" href={localePath(lang,prompt.readingHref)}>{t("browse.readEdition")}</a>}</>}
-            {references.length>0?<div class="browse-references browse-work-references">{prompt&&<h3>{t("browse.developments")}</h3>}<ul>{references.map(target=><li><a href={localePath(lang,target.href)}>{prompt||references.length>1?target.title:target.status==="ready"?t("browse.readWork"):t("browse.viewRecord")}</a><span class:list={["browse-status",`status-${target.status}`]}>{t(`browse.status.${target.status}`)}</span>{target.fragmentMissing&&<small>{t("browse.fragmentMissingShort")}</small>}</li>)}</ul></div>:prompt&&<p class="browse-no-link">{t("browse.noDevelopment")}</p>}
-            {prompt&&prompt.references.length>0&&<div class="browse-references browse-additional-references"><h3>{t("browse.otherReferences")}</h3><ul>{prompt.references.map(id=>targets.get(id)).filter(target=>target!==undefined).map(target=><li><a href={localePath(lang,target.href)}>{target.title}</a><span class:list={["browse-status",`status-${target.status}`]}>{t(`browse.status.${target.status}`)}</span></li>)}</ul></div>}
-          </article></li>;
-        })}</ol>
-        <BrowsePager kind={kind} group={group.id} page={page} pages={pages} lang={lang}/>
+          return <tr id={entry.id} class:list={["browse-entry",prompt?"browse-prompt":"browse-work"]}>
+            <td class="browse-title-cell"><span class="browse-row-number" aria-hidden="true">{start+index}</span><div><h2>{work&&primary?<a href={localePath(lang,primary.href)}>{entry.title}</a>:entry.title}</h2>{prompt&&prompt.authors.length>0&&<p class="browse-attribution">{t("browse.by",{names:prompt.authors.join(", ")})}</p>}{work?.caption&&<p class="browse-attribution" lang="it">{work.caption}</p>}</div></td>
+            {prompt&&<td class="browse-text-cell"><div class="browse-prompt-copy">{prompt.body.length>220?<><p class="browse-excerpt" lang="it" data-pagefind-ignore>{`${prompt.body.slice(0,220).replace(/\s+\S*$/,"")}…`}</p><details class="browse-prompt-text"><summary><span class="prompt-open-label">{t("browse.readPrompt")}</span><span class="prompt-close-label">{t("browse.closePrompt")}</span></summary><p lang="it">{prompt.body}</p></details></>:<p class="browse-excerpt" lang="it">{prompt.body}</p>}</div>{prompt.readingHref&&<a class="browse-reading-link" href={localePath(lang,prompt.readingHref)}>{t("browse.readEdition")}</a>}</td>}
+            <td class="browse-links-cell" data-label={t("browse.linksColumn")}>
+              {references.length>0?<div class="browse-references browse-work-references"><ul>{references.map(target=><li><a href={localePath(lang,target.href)}>{prompt||references.length>1?target.title:target.status==="ready"?t("browse.readWork"):t("browse.viewRecord")}</a><span class:list={["browse-status",`status-${target.status}`]}>{t(`browse.status.${target.status}`)}</span>{target.fragmentMissing&&<small>{t("browse.fragmentMissingShort")}</small>}</li>)}</ul></div>:prompt&&<p class="browse-no-link">{t("browse.noDevelopment")}</p>}
+              {prompt&&prompt.references.length>0&&<div class="browse-references browse-additional-references"><h3>{t("browse.otherReferences")}</h3><ul>{prompt.references.map(id=>targets.get(id)).filter(target=>target!==undefined).map(target=><li><a href={localePath(lang,target.href)}>{target.title}</a><span class:list={["browse-status",`status-${target.status}`]}>{t(`browse.status.${target.status}`)}</span></li>)}</ul></div>}
+            </td>
+          </tr>;
+        })}</tbody></table>
+        <BrowsePager kind={kind} group={group.id} page={page} pages={pages} size={size} total={group.count} position="bottom" lang={lang}/>
         <p class="browse-source-note">{t("browse.sourceGrouping")} {group.source}</p>
       </div>
+      <aside class="browse-page-sidebar"><div class="browse-index-heading"><h2>{t("browse.onThisPage")}</h2><span>{entries.length}</span></div><BrowsePageIndex entries={entries} start={start} lang={lang}/></aside>
     </div>
     <a class="browse-top" href="#browse-title">↑ {t("reader.top")}</a>
   </div>
+  <script is:inline src="/browse.js" defer></script>
 </Base>

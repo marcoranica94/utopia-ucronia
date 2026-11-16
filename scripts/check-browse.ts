@@ -2,6 +2,7 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { load } from "cheerio";
 import { browseSchema } from "../src/browse/model.ts";
+import { pageSizes, periodPath } from "../src/browse/pagination.ts";
 import { safePath, sha256, writeJson } from "./recovery/core.ts";
 
 const data = browseSchema.parse(
@@ -19,83 +20,108 @@ for (const lang of ["it", "en"] as const) {
   ] as const) {
     for (const group of groups) {
       const expected = entries.filter((entry) => entry.group === group.id);
-      const seen = new Set<string>();
-      for (let offset = 0; offset < expected.length; offset += 40) {
-        const n = offset / 40 + 1;
-        const path = `${lang === "en" ? "en/" : ""}${kind}/period/${group.id}/${n > 1 ? `${n}/` : ""}index.html`;
-        const page = load(await readFile(safePath("dist", path), "utf8"));
-        visited.add(path);
-        assert.equal(
-          page(".browse-entry").length,
-          Math.min(40, expected.length - offset),
-          `Page size: ${path}`,
-        );
-        for (const entry of expected.slice(offset, offset + 40)) {
-          const article = page(".browse-entry").filter(
-            (_i, el) => page(el).attr("id") === entry.id,
-          );
+      for (const size of pageSizes) {
+        const seen = new Set<string>();
+        for (let offset = 0; offset < expected.length; offset += size) {
+          const n = offset / size + 1;
+          const path = `${lang === "en" ? "en/" : ""}${periodPath(kind === "divergences" ? "prompts" : "works", group.id, n, size).slice(1)}index.html`;
+          const page = load(await readFile(safePath("dist", path), "utf8"));
+          visited.add(path);
           assert.equal(
-            article.length,
-            1,
-            `Missing or duplicate entry ${entry.id} on ${path}`,
+            page(".browse-entry").length,
+            Math.min(size, expected.length - offset),
+            `Page size: ${path}`,
           );
-          assert.ok(!seen.has(entry.id), `Repeated page entry: ${entry.id}`);
-          seen.add(entry.id);
-          assert.equal(
-            normalize(article.find("h2").text()),
-            normalize(entry.title),
-          );
-          if ("body" in entry) {
-            const text = article.find(".browse-prompt-text > p").length
-              ? article.find(".browse-prompt-text > p").text()
-              : article.find(".browse-excerpt").text();
-            assert.equal(
-              normalize(text),
-              normalize(entry.body),
-              `Complete prompt text: ${entry.id}`,
-            );
-            for (const author of entry.authors)
-              assert.ok(
-                normalize(article.find(".browse-attribution").text()).includes(
-                  normalize(author),
-                ),
-                `Attribution: ${entry.id}`,
-              );
-          } else
-            assert.equal(
-              normalize(article.find(".browse-attribution").text()),
-              normalize(entry.caption),
-              `Source caption: ${entry.id}`,
-            );
-          if ("references" in entry)
-            assert.deepEqual(
-              article
-                .find(".browse-additional-references li a")
-                .toArray()
-                .map((el) => page(el).attr("href")),
-              entry.references.map(
-                (id) =>
-                  `${lang === "en" ? "/en" : ""}${targetById.get(id)?.href}`,
-              ),
-              `Additional source references: ${entry.id}`,
-            );
-          const links = article
-            .find(".browse-work-references li a")
-            .toArray()
-            .map((el) => page(el).attr("href"));
+          const currentEntries = expected.slice(offset, offset + size);
           assert.deepEqual(
-            links,
-            entry.targets.map((id) => {
-              const target = targetById.get(id);
-              assert.ok(target);
-              return `${lang === "en" ? "/en" : ""}${target.href}`;
-            }),
-            `Source references: ${entry.id}`,
+            page(".browse-page-sidebar [data-browse-title]")
+              .toArray()
+              .map((el) => page(el).attr("href")),
+            currentEntries.map((entry) => `#${entry.id}`),
+            `Current-page title index: ${path}`,
           );
+          assert.equal(
+            page(".browse-table thead th").length,
+            kind === "divergences" ? 3 : 2,
+            `Table columns: ${path}`,
+          );
+          assert.equal(
+            page("#browse-bottom-page option").length,
+            Math.ceil(expected.length / size),
+            `Page selector count: ${path}`,
+          );
+          assert.equal(
+            page("#browse-bottom-size option[selected]").text(),
+            String(size),
+            `Page size selector: ${path}`,
+          );
+          for (const entry of currentEntries) {
+            const article = page(".browse-entry").filter(
+              (_i, el) => page(el).attr("id") === entry.id,
+            );
+            assert.equal(
+              article.length,
+              1,
+              `Missing or duplicate entry ${entry.id} on ${path}`,
+            );
+            assert.ok(!seen.has(entry.id), `Repeated page entry: ${entry.id}`);
+            seen.add(entry.id);
+            assert.equal(
+              normalize(article.find("h2").text()),
+              normalize(entry.title),
+            );
+            if ("body" in entry) {
+              const text = article.find(".browse-prompt-text > p").length
+                ? article.find(".browse-prompt-text > p").text()
+                : article.find(".browse-excerpt").text();
+              assert.equal(
+                normalize(text),
+                normalize(entry.body),
+                `Complete prompt text: ${entry.id}`,
+              );
+              for (const author of entry.authors)
+                assert.ok(
+                  normalize(
+                    article.find(".browse-attribution").text(),
+                  ).includes(normalize(author)),
+                  `Attribution: ${entry.id}`,
+                );
+            } else
+              assert.equal(
+                normalize(article.find(".browse-attribution").text()),
+                normalize(entry.caption),
+                `Source caption: ${entry.id}`,
+              );
+            if ("references" in entry)
+              assert.deepEqual(
+                article
+                  .find(".browse-additional-references li a")
+                  .toArray()
+                  .map((el) => page(el).attr("href")),
+                entry.references.map(
+                  (id) =>
+                    `${lang === "en" ? "/en" : ""}${targetById.get(id)?.href}`,
+                ),
+                `Additional source references: ${entry.id}`,
+              );
+            const links = article
+              .find(".browse-work-references li a")
+              .toArray()
+              .map((el) => page(el).attr("href"));
+            assert.deepEqual(
+              links,
+              entry.targets.map((id) => {
+                const target = targetById.get(id);
+                assert.ok(target);
+                return `${lang === "en" ? "/en" : ""}${target.href}`;
+              }),
+              `Source references: ${entry.id}`,
+            );
+          }
         }
+        assert.equal(seen.size, group.count, `Complete period: ${group.id}`);
+        checks.push({ lang, kind, group: group.id, size, count: seen.size });
       }
-      assert.equal(seen.size, group.count, `Complete period: ${group.id}`);
-      checks.push({ lang, kind, group: group.id, count: seen.size });
     }
   }
   for (const target of data.targets) {
@@ -121,6 +147,8 @@ await writeJson("reports/browse-validation.json", {
   catalogEntriesPerLanguage: data.entries.length,
   recordsPerLanguage: data.targets.length,
   listPages: visited.size,
+  pageSizes: [...pageSizes],
+  defaultPageSize: 40,
   contentDigest: sha256(Buffer.from(JSON.stringify(data))),
   checks,
 });

@@ -5,9 +5,10 @@ import { type Lang, localePath, useTranslations } from "../i18n";
 interface Props {
   kind: BrowseKind;
   current?: string;
+  size?: number;
   lang: Lang;
 }
-const { kind, current, lang } = Astro.props;
+const { kind, current, lang, size = 40 } = Astro.props;
 const t = useTranslations(lang);
 ---
-<nav aria-label={t("browse.periodNavigation")} class="browse-period-links"><ul>{groupsFor(kind).map(group=><li class:list={[group.historical&&"period-historical"]}><a href={localePath(lang,periodPath(kind,group.id))} aria-current={group.id===current?"page":undefined}><span>{group.title[lang]}</span><small>{group.count}</small></a></li>)}</ul></nav>
+<nav aria-label={t("browse.periodNavigation")} class="browse-period-links"><ul>{groupsFor(kind).map(group=><li class:list={[group.historical&&"period-historical"]}><a href={localePath(lang,periodPath(kind,group.id,1,size))} aria-current={group.id===current?"page":undefined}><span>{group.title[lang]}</span><small>{group.count}</small></a></li>)}</ul></nav>

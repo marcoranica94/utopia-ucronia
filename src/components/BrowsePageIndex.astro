@@ -1,0 +1,13 @@
+---
+import type { BrowseEntry, BrowsePrompt } from "../browse/model";
+import { type Lang, useTranslations } from "../i18n";
+
+interface Props {
+  entries: (BrowsePrompt | BrowseEntry)[];
+  start: number;
+  lang: Lang;
+}
+const { entries, start, lang } = Astro.props;
+const t = useTranslations(lang);
+---
+<nav class="browse-title-links" aria-label={t("browse.onThisPage")}><ol start={start}>{entries.map((entry,index)=><li><a href={`#${entry.id}`} data-browse-title={entry.id}><span class="browse-title-number" aria-hidden="true">{start+index}</span><span>{entry.title}</span></a></li>)}</ol></nav>

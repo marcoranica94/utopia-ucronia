@@ -1,5 +1,10 @@
 ---
-import { type BrowseKind, periodPath } from "../browse/data";
+import {
+  type BrowseKind,
+  pageForSize,
+  pageSizes,
+  periodPath,
+} from "../browse/pagination";
 import { type Lang, localePath, useTranslations } from "../i18n";
 
 interface Props {
@@ -8,15 +13,26 @@ interface Props {
   page: number;
   pages: number;
   lang: Lang;
+  size: number;
+  total: number;
+  position: "top" | "bottom";
 }
-const { kind, group, page, pages, lang } = Astro.props;
+const { kind, group, page, pages, lang, size, total, position } = Astro.props;
 const t = useTranslations(lang);
 const visible = Array.from({ length: pages }, (_, index) => index + 1).filter(
   (n) => n === 1 || n === pages || Math.abs(n - page) <= 1,
 );
+const id = `browse-${position}`;
 ---
-{pages>1 && <nav class="browse-pager" aria-label={t("browse.pagination")}>
-  {page>1?<a rel="prev" href={localePath(lang,periodPath(kind,group,page-1))}>{t("browse.previous")}</a>:<span class="pager-unavailable">{t("browse.previous")}</span>}
-  <ol>{visible.map((n,index)=><>{index>0&&n>visible[index-1]+1&&<li aria-hidden="true">…</li>}<li><a href={localePath(lang,periodPath(kind,group,n))} aria-label={t("browse.page",{n})} aria-current={n===page?"page":undefined}>{n}</a></li></>)}</ol>
-  {page<pages?<a rel="next" href={localePath(lang,periodPath(kind,group,page+1))}>{t("browse.next")}</a>:<span class="pager-unavailable">{t("browse.next")}</span>}
-</nav>}
+<div class="browse-pagination" data-pagination={position}>
+  <div class="browse-page-summary"><strong>{t("browse.pageOf",{page,pages})}</strong><span>{t("browse.range",{start:(page-1)*size+1,end:Math.min(page*size,total),total})}</span></div>
+  <nav class="browse-pager" aria-label={t("browse.pagination")}>
+    {page>1?<a rel="prev" href={localePath(lang,periodPath(kind,group,page-1,size))}>{t("browse.previous")}</a>:<span class="pager-unavailable">{t("browse.previous")}</span>}
+    <ol>{visible.map((n,index)=><>{index>0&&n>visible[index-1]+1&&<li aria-hidden="true">…</li>}<li><a href={localePath(lang,periodPath(kind,group,n,size))} aria-label={t("browse.page",{n})} aria-current={n===page?"page":undefined}>{n}</a></li></>)}</ol>
+    {page<pages?<a rel="next" href={localePath(lang,periodPath(kind,group,page+1,size))}>{t("browse.next")}</a>:<span class="pager-unavailable">{t("browse.next")}</span>}
+  </nav>
+  {position==="bottom"&&<><div class="browse-select-controls" hidden data-browse-controls>
+    <div class="browse-select-control"><label for={`${id}-size`}>{t("browse.rowsPerPage")}</label><div><select id={`${id}-size`}>{pageSizes.map(value=><option value={localePath(lang,periodPath(kind,group,pageForSize(page,size,value,total),value))} selected={value===size}>{value}</option>)}</select><button type="button" data-browse-go>{t("browse.apply")}</button></div></div>
+    <div class="browse-select-control"><label for={`${id}-page`}>{t("browse.goToPage")}</label><div><select id={`${id}-page`}>{Array.from({length:pages},(_,index)=><option value={localePath(lang,periodPath(kind,group,index+1,size))} selected={index+1===page}>{t("browse.pageOf",{page:index+1,pages})}</option>)}</select><button type="button" data-browse-go>{t("browse.go")}</button></div></div>
+  </div><noscript><div class="browse-size-links"><span>{t("browse.rowsPerPage")}</span>{pageSizes.map(value=><a href={localePath(lang,periodPath(kind,group,pageForSize(page,size,value,total),value))} aria-current={value===size?"true":undefined}>{value}</a>)}</div></noscript></>}
+</div>

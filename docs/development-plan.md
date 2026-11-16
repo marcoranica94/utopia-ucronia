@@ -209,6 +209,8 @@ Demo: from the phone I find a work by remembering just one sentence, and from th
 
 ### S4 · Complete edition
 
+- [x] Owner-requested table refinement: full-width period lists, distinct rows, current-page title shortcuts, page/total counts, 20/40/80/100 entries per page and direct page selection. Expanding a prompt replaces its preview instead of repeating the beginning. See `docs/historical-indexes.md`.
+
 - [x] Owner-requested period indexes (16/11/2026): `/divergences/` lists all 6,797 prompts in the recovered menu's 18 sections, plus 296 entries from an older 2013 list kept separately; source links distinguish developments from additional references and never equate an absent link with an unwritten work.
 - [x] `/works/` recreates all 825 entries of the original nine-category works catalog, including Utopias and stories. Both indexes provide paginated period/category lists, IT/EN navigation and local records distinguishing published, recovered, missing and external sources. Era classification and complete work publication remain separate pending tasks. See [historical-indexes.md](historical-indexes.md).
 
