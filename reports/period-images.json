@@ -1,0 +1,139 @@
+{
+  "passed": true,
+  "images": [
+    {
+      "period": "prehistory",
+      "source": "http://www.fmboschetto.it/racconti/iperimpero/menhir.jpg",
+      "sha256": "a9428226a348186bf9618161ddc895b855b80487d28e5cec3aa32283c05cbd2a",
+      "derived": "/periods/prehistory.webp",
+      "bytes": 12496
+    },
+    {
+      "period": "ancient",
+      "source": "http://www.fmboschetto.it/racconti/Alessandro/babilonia1.jpg",
+      "sha256": "d2870f24987a3269fb3f68ad56915e8e66529f39926a54910c47f112b24eef43",
+      "derived": "/periods/ancient.webp",
+      "bytes": 7276
+    },
+    {
+      "period": "roman",
+      "source": "http://www.fmboschetto.it/racconti/iperimpero/colonna_traiana.jpg",
+      "sha256": "3885c598006ca93c5d7624b48a81dabcda0532ec5ebeca1a522de13ab5cf782b",
+      "derived": "/periods/roman.webp",
+      "bytes": 9774
+    },
+    {
+      "period": "early-medieval",
+      "source": "http://www.fmboschetto.it/racconti/iperimpero/drakkar.jpg",
+      "sha256": "2c727f31878750ffde8f0d4bfe7b289d919bfdb0f3db2cc4763eb213e8d8116c",
+      "derived": "/periods/early-medieval.webp",
+      "bytes": 11636
+    },
+    {
+      "period": "1000-1200",
+      "source": "http://www.fmboschetto.it/racconti/iperimpero/cavaliere.jpg",
+      "sha256": "3694ab4646862b98e6108d9c18de65c92daafa5a81c8aa3cb0ec3e9b1053c2dd",
+      "derived": "/periods/1000-1200.webp",
+      "bytes": 19212
+    },
+    {
+      "period": "1300-1400",
+      "source": "http://www.fmboschetto.it/racconti/iperimpero/Colombo.jpg",
+      "sha256": "7b4531bfc5ab073dfd99bf3254b0479ca4c001da542907924be4cedb385ce942",
+      "derived": "/periods/1300-1400.webp",
+      "bytes": 2498
+    },
+    {
+      "period": "1500s",
+      "source": "http://www.fmboschetto.it/Utopiaucronia/Odissea_in_America/Carlo_V.jpg",
+      "sha256": "7c0acfb7070121bfa962f73ed9049cdf27da375ff985af7e29bf656f35018f94",
+      "derived": "/periods/1500s.webp",
+      "bytes": 3124
+    },
+    {
+      "period": "1600s",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/Germaniinoriente/Germaniinoriente1600.gif",
+      "sha256": "d35025c4f5e49b375293a18da973d1a828e5d5c9d68f113db413dc1718ec0d7d",
+      "derived": "/periods/1600s.webp",
+      "bytes": 39574
+    },
+    {
+      "period": "1700s",
+      "source": "http://www.fmboschetto.it/racconti/iperimpero/Bastiglia.jpg",
+      "sha256": "b323aaa8b7e42ce87e88d40e2521f290f5ff93e1ad68a54007fe155056dd4754",
+      "derived": "/periods/1700s.webp",
+      "bytes": 28550
+    },
+    {
+      "period": "1800s",
+      "source": "http://www.fmboschetto.it/racconti/iperimpero/Napoleone_David.jpg",
+      "sha256": "c8ff6e10426a81eb7f3583b253c0080b617e8db8b68bab96fde6652758ff735b",
+      "derived": "/periods/1800s.webp",
+      "bytes": 37246
+    },
+    {
+      "period": "belle-epoque",
+      "source": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Zeppelin.jpg",
+      "sha256": "a241de099c261f5e7165656ec1c036cc3bf26037d9c6c769cc3bfc93614fc826",
+      "derived": "/periods/belle-epoque.webp",
+      "bytes": 25806
+    },
+    {
+      "period": "first-world-war",
+      "source": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/Trincea.jpg",
+      "sha256": "a326767ecfd0e4f180d300c0e8c5daa2141dc54102c7b9fa0927c78c3c0ec8a4",
+      "derived": "/periods/first-world-war.webp",
+      "bytes": 16316
+    },
+    {
+      "period": "second-world-war",
+      "source": "http://www.fmboschetto.it/Utopiaucronia/Germaniinoriente/Rooseveltdeclareswar.jpg",
+      "sha256": "edb34b194dd17a1ed55aa14309f4e2bf3d498283c00ba6552719c70b1bf5a0bf",
+      "derived": "/periods/second-world-war.webp",
+      "bytes": 11424
+    },
+    {
+      "period": "postwar",
+      "source": "http://www.fmboschetto.it/Utopiaucronia/orma_armstrong.jpg",
+      "sha256": "cfa95c1369ecb2e8decd8fccc00c3ebaaef5ae3e30b172e2d615241081381926",
+      "derived": "/periods/postwar.webp",
+      "bytes": 12682
+    },
+    {
+      "period": "1970s-1990s",
+      "source": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/cadutamuro.jpg",
+      "sha256": "645e638ae9cc4a7caf625c59fb73b84c8323fe87d96d6c87496bbc0d3275f98f",
+      "derived": "/periods/1970s-1990s.webp",
+      "bytes": 27514
+    },
+    {
+      "period": "2000s",
+      "source": "http://www.fmboschetto.it/Utopiaucronia/Mondiali2010/stadio_Barca.jpg",
+      "sha256": "03d82c98b990f9aa4e708fe08eb917ec636e3aaba8807ea56b7f27bdfd1342a3",
+      "derived": "/periods/2000s.webp",
+      "bytes": 31656
+    },
+    {
+      "period": "present-future",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/futurecity.jpg",
+      "sha256": "5af808c74a4152af607c2781a85f625f080ea535970a659907c8b15265bfaf42",
+      "derived": "/periods/present-future.webp",
+      "bytes": 14854
+    },
+    {
+      "period": "fantasy",
+      "source": "http://www.fmboschetto.it/utopiaucronia/ForbiddenPlanet.jpg",
+      "sha256": "f7f5e7e2d1338d7594ba2e722a65c5a8da164b75495594bed4a8281ee75c03d8",
+      "derived": "/periods/fantasy.webp",
+      "bytes": 16516
+    }
+  ],
+  "aliases": {
+    "medieval": "1000-1200",
+    "modern": "1500s",
+    "1860-1940": "belle-epoque",
+    "1940-1960": "second-world-war",
+    "post-1960": "postwar",
+    "utopias-stories": "present-future"
+  }
+}

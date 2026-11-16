@@ -1,0 +1,30 @@
+{
+  "images": {
+    "prehistory": "racconti/iperimpero/menhir.jpg",
+    "ancient": "racconti/alessandro/babilonia1.jpg",
+    "roman": "racconti/iperimpero/colonna_traiana.jpg",
+    "early-medieval": "racconti/iperimpero/drakkar.jpg",
+    "1000-1200": "racconti/iperimpero/cavaliere.jpg",
+    "1300-1400": "racconti/iperimpero/colombo.jpg",
+    "1500s": "utopiaucronia/odissea_in_america/carlo_v.jpg",
+    "1600s": "utopiaucronia/germaniinoriente/germaniinoriente1600.gif",
+    "1700s": "racconti/iperimpero/bastiglia.jpg",
+    "1800s": "racconti/iperimpero/napoleone_david.jpg",
+    "belle-epoque": "utopiaucronia/due_imperi/zeppelin.jpg",
+    "first-world-war": "utopiaucronia/due_imperi/trincea.jpg",
+    "second-world-war": "utopiaucronia/germaniinoriente/rooseveltdeclareswar.jpg",
+    "postwar": "utopiaucronia/orma_armstrong.jpg",
+    "1970s-1990s": "utopiaucronia/due_imperi/cadutamuro.jpg",
+    "2000s": "utopiaucronia/mondiali2010/stadio_barca.jpg",
+    "present-future": "utopiaucronia/futurecity.jpg",
+    "fantasy": "utopiaucronia/forbiddenplanet.jpg"
+  },
+  "aliases": {
+    "medieval": "1000-1200",
+    "modern": "1500s",
+    "1860-1940": "belle-epoque",
+    "1940-1960": "second-world-war",
+    "post-1960": "postwar",
+    "utopias-stories": "present-future"
+  }
+}
