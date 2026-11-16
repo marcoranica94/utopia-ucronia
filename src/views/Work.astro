@@ -1,0 +1,82 @@
+---
+import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
+import ThreadRail from "../components/ThreadRail.astro";
+import TimelineRail from "../components/TimelineRail.astro";
+import TimeRail from "../components/TimeRail.astro";
+import { type Lang, localePath, localizeHtml, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import "../styles/reading.css";
+
+interface Props {
+  work: CollectionEntry<"works">;
+  lang: Lang;
+  /** Reading design under comparison: "a" annals, "b" dialogue. */
+  direction?: "a" | "b";
+}
+const { work, lang, direction = "a" } = Astro.props;
+const t = useTranslations(lang);
+const data = work.data;
+const { Content } = await render(work);
+// Structured works carry interface placeholders: fill them in the reader's language.
+const html = data.shape ? localizeHtml(work.rendered?.html ?? "", lang) : "";
+const outline = data.outline ?? [];
+const entries = outline.filter((i) => i.kind === "entry").length;
+const interventions = outline.filter((i) => i.kind === "contribution").length;
+const pieces = outline.filter((i) => i.kind === "piece").length;
+const variants = outline.filter((i) => i.contribution === "variant").length;
+// A plain story has nothing to navigate: no rail for a single "Inizio".
+const showRail = outline.filter((i) => i.id !== "start").length >= 2;
+const counted = (
+  n: number,
+  key: "stories" | "dates" | "contributions" | "variants",
+) => `${n} ${t(`count.${key}.${n === 1 ? "one" : "many"}`)}`;
+const facts = [
+  data.shape === "collection" && counted(pieces, "stories"),
+  entries > 0 && counted(entries, "dates"),
+  interventions > 0 && counted(interventions, "contributions"),
+  variants > 0 && counted(variants, "variants"),
+].filter(Boolean);
+const others = data.contributors ?? [];
+const captured = (s?: string) =>
+  s ? `${s.slice(6, 8)}/${s.slice(4, 6)}/${s.slice(0, 4)}` : undefined;
+const byline =
+  data.authors.length > 0
+    ? t("work.by", { names: data.authors.join(", ") }) +
+      (others.length === 1
+        ? t("work.withOne")
+        : others.length > 1
+          ? t("work.withMany", { n: others.length })
+          : "")
+    : "";
+---
+<Base title={data.title} lang={lang}>
+  <a class="back-link" href={localePath(lang, "/")}>{t("back.works")}</a>
+  {data.shape ? (
+    <div class:list={["uchronia", `dir-${direction}`]}>
+      {showRail ? (
+        <aside class="uchronia-rail">
+          <div class="rail-desktop">{direction === "a" ? <TimeRail outline={outline} lang={lang} /> : <ThreadRail outline={outline} lang={lang} />}</div>
+          <TimelineRail outline={outline} lang={lang} textLang={data.language} />
+        </aside>
+      ) : <div aria-hidden="true"></div>}
+      <div class="uchronia-main">
+        <header class="uchronia-head">
+          <h1 class="page-title" lang={data.language}>{data.title}</h1>
+          {byline && <p class="uchronia-byline">{byline}</p>}
+          <p class="uchronia-facts">{t(`shape.${data.shape}`)}{facts.length > 0 && `: ${facts.join(", ")}.`} {t(`work.language.${data.language}`)}</p>
+        </header>
+        <article class="reading-copy structured" lang={data.language}><Fragment set:html={html} /></article>
+        <footer class="uchronia-source">
+          {data.sources.map((source) => <p>{captured(source.timestamp) ? t("work.sourceCaptured", { url: source.url, date: captured(source.timestamp) ?? "" }) : t("work.source", { url: source.url })}</p>)}
+          <p>{t("work.kept")}</p>
+          <p>{t("work.automatic")}</p>
+        </footer>
+      </div>
+    </div>
+  ) : (
+    <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 class="page-title" lang={data.language}>{data.title}</h1><aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language}><Content /></article></div>
+      <aside class="reading-aside" aria-labelledby="source-title"><h2 id="source-title">{t("work.provenance")}</h2>{data.sources.map((source) => <div><p>{source.timestamp ? t("work.captured", { date: captured(source.timestamp) ?? "" }) : t("work.fromOrigin")}</p><p>{source.url}</p></div>)}<p>{t("work.kept")}</p></aside>
+    </div>
+  )}
+</Base>

@@ -1,0 +1,137 @@
+---
+import { centuryLabel, isKey, type Lang, useTranslations } from "../i18n";
+
+/**
+ * The trunk of the uchronia: sections, dated entries and contributions in
+ * reading order. Variants with their own dates leave the trunk as branches.
+ */
+type Item = {
+  id: string;
+  label: string;
+  kind: "section" | "pod" | "entry" | "contribution" | "piece";
+  depth: number;
+  start?: number;
+  end?: number;
+  author?: string;
+  contribution?: "comment" | "addition" | "variant" | "reply";
+};
+interface Props {
+  outline: Item[];
+  lang: Lang;
+  /** Language of the work: entry summaries are quoted from its text. */
+  textLang: string;
+}
+const { outline, lang, textLang } = Astro.props;
+const t = useTranslations(lang);
+// Labels starting with "@" are interface keys written by the converter.
+const label = (text: string) => {
+  const key = `outline.${text.slice(1)}`;
+  return text.startsWith("@") && isKey(key) ? t(key) : text;
+};
+
+const century = (year: number) => centuryLabel(lang, year);
+const kindLabel = (kind?: string) =>
+  t(
+    kind === "addition"
+      ? "rail.kind.addition"
+      : kind === "variant"
+        ? "rail.kind.variant"
+        : kind === "reply"
+          ? "rail.kind.reply"
+          : "rail.kind.comment",
+  );
+
+// Nest the flat outline: entries and sub-items hang under their parent.
+type Node = Item & { children: Node[] };
+const roots: Node[] = [];
+const stack: Node[] = [];
+for (const item of outline) {
+  const node: Node = { ...item, children: [] };
+  while (stack.length && (stack.at(-1) as Node).depth >= item.depth)
+    stack.pop();
+  if (stack.length) (stack.at(-1) as Node).children.push(node);
+  else roots.push(node);
+  stack.push(node);
+}
+// Long chronologies are grouped by century so the trunk stays readable.
+type Group = { label?: string; items: Node[] };
+const grouped = (children: Node[]): Group[] => {
+  const entries = children.filter((c) => c.kind === "entry");
+  if (entries.length < 24) return [{ items: children }];
+  const groups: Group[] = [];
+  for (const c of children) {
+    const label = c.start !== undefined ? century(c.start) : undefined;
+    const last = groups.at(-1);
+    if (last && (label === undefined || last.label === label))
+      last.items.push(c);
+    else groups.push({ label, items: [c] });
+  }
+  return groups;
+};
+const split = (label: string) => {
+  const i = label.indexOf("|");
+  return i < 0 ? [label, ""] : [label.slice(0, i), label.slice(i + 1)];
+};
+const entryCount = outline.filter((i) => i.kind === "entry").length;
+---
+<details class="rail-shell" data-rail>
+  <summary class="rail-toggle"><span>{t("rail.toggle")}</span><span class="rail-current" data-rail-current></span></summary>
+  <nav class="rail" aria-label={t("rail.label")}>
+    {entryCount > 0 && <p class="rail-count">{entryCount} {t(entryCount === 1 ? "count.dates.one" : "count.dates.many")}</p>}
+    <ol class="rail-trunk">
+      {roots.map((node) => (
+        <li class:list={["rail-node", `rail-${node.kind}`]}>
+          <a href={`#${node.id}`} data-rail-link={node.id}>{node.kind === "piece" ? <><span class="rail-title">{label(node.label)}</span>{node.author && <span class="rail-sub">{node.author}</span>}</> : label(node.label)}</a>
+          {node.children.length > 0 && (
+            <ol class="rail-children">
+              {grouped(node.children).map((group) => (
+                <>
+                  {group.label && <li class="rail-century" aria-hidden="true">{group.label}</li>}
+                  {group.items.map((child) => (
+                    <li class:list={["rail-node", `rail-${child.kind}`, child.contribution && `kind-${child.contribution}`, child.children.some((g) => g.kind === "entry") && "has-branch"]}>
+                      <a href={`#${child.id}`} data-rail-link={child.id}>
+                        {child.kind === "entry" ? (
+                          <><span class="rail-year">{split(child.label)[0]}</span><span class="rail-text" lang={textLang}>{split(child.label)[1]}</span></>
+                        ) : child.kind === "contribution" ? (
+                          <><span class="rail-title">{label(child.label)}</span><span class="rail-sub">{kindLabel(child.contribution)}</span></>
+                        ) : label(child.label)}
+                      </a>
+                      {child.children.length > 0 && (
+                        <ol class="rail-branch">
+                          {child.children.map((leaf) => (
+                            <li class:list={["rail-node", `rail-${leaf.kind}`, leaf.contribution && `kind-${leaf.contribution}`, leaf.children.some((g) => g.kind === "entry") && "has-branch"]}>
+                              <a href={`#${leaf.id}`} data-rail-link={leaf.id}>
+                                {leaf.kind === "entry" ? (
+                                  <><span class="rail-year">{split(leaf.label)[0]}</span><span class="rail-text" lang={textLang}>{split(leaf.label)[1]}</span></>
+                                ) : leaf.kind === "contribution" ? (
+                                  <><span class="rail-title">{label(leaf.label)}</span><span class="rail-sub">{kindLabel(leaf.contribution)}</span></>
+                                ) : label(leaf.label)}
+                              </a>
+                              {leaf.children.length > 0 && (
+                                <ol class="rail-branch">
+                                  {leaf.children.map((twig) => (
+                                    <li class:list={["rail-node", `rail-${twig.kind}`]}>
+                                      <a href={`#${twig.id}`} data-rail-link={twig.id}>
+                                        {twig.kind === "entry" ? <><span class="rail-year">{split(twig.label)[0]}</span><span class="rail-text" lang={textLang}>{split(twig.label)[1]}</span></> : label(twig.label)}
+                                      </a>
+                                    </li>
+                                  ))}
+                                </ol>
+                              )}
+                            </li>
+                          ))}
+                        </ol>
+                      )}
+                    </li>
+                  ))}
+                </>
+              ))}
+            </ol>
+          )}
+        </li>
+      ))}
+    </ol>
+  </nav>
+</details>
+
+<script is:inline src="/rail.js" defer></script>

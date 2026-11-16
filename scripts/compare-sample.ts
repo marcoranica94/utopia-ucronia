@@ -1,7 +1,8 @@
 import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import { load } from "cheerio";
-import { decode } from "./conversion.ts";
+import { anatomy } from "./anatomy.ts";
+import { decode, documentTitle } from "./conversion.ts";
 import { readManifest, safePath, writeJson } from "./recovery/core.ts";
 
 // The text must match after only the declared removals, with whitespace normalized.
@@ -12,10 +13,20 @@ function normalize(text: string): string {
     .replace(/\s/g, "")
     .normalize("NFC");
 }
+// Reports only where two texts part, with some context on each side.
+function sameText(actual: string, expected: string, message: string): void {
+  if (actual === expected) return;
+  let i = 0;
+  while (i < actual.length && actual[i] === expected[i]) i++;
+  const around = (t: string) => t.slice(Math.max(0, i - 80), i + 80);
+  assert.fail(
+    `${message} at character ${i}\n  converted: …${around(actual)}…\n  expected:  …${around(expected)}…`,
+  );
+}
 const manifest = await readManifest();
 const conversions = JSON.parse(
   await readFile("reports/conversion.json", "utf8"),
-) as { slug: string; source: string }[];
+) as { slug: string; source: string; structured?: boolean }[];
 assert.ok(
   conversions.length > 0,
   "The comparison cannot pass on an empty sample",
@@ -24,9 +35,11 @@ const reports = [];
 for (const c of conversions) {
   const document = manifest.documents.find((d) => d.url === c.source);
   assert.ok(document?.path);
-  const source = load(
-    decode(await readFile(safePath("archive/original", document.path))),
+  if (c.structured && !/\.html?$/i.test(document.path)) continue;
+  const html = decode(
+    await readFile(safePath("archive/original", document.path)),
   );
+  const source = load(html);
   source(
     "script,style,iframe,input,button,select,textarea,object,embed,applet,bgsound,noscript",
   ).remove();
@@ -34,12 +47,41 @@ for (const c of conversions) {
     await readFile(safePath("dist/works", `${c.slug}/index.html`), "utf8"),
   );
   const original = normalize(source("body").text());
+  // Labels added by the reading interface are not part of the text.
+  page("article [data-ui]").remove();
   const converted = normalize(page("article").text());
   assert.ok(original.length > 0, `Empty source: ${c.slug}`);
-  assert.equal(converted, original, `Converted text does not match: ${c.slug}`);
+  // Structured pages are checked in two steps: the parser read the whole
+  // page, and the page shows everything the parser kept, in order. The
+  // removals (header shown above the text, navigation, contact lines,
+  // separators) are listed in reports/conversion.json.
+  const parsed = c.structured ? anatomy(html, documentTitle(html)) : undefined;
+  if (parsed) {
+    sameText(
+      normalize(parsed.blocks.map((b) => b.text).join("")),
+      original,
+      `Parser missed text: ${c.slug}`,
+    );
+    const kept = normalize(
+      parsed.blocks
+        .filter((b) => !parsed.removed.has(b))
+        .map((b) => b.text)
+        .join(""),
+    );
+    sameText(converted, kept, `Converted text does not match: ${c.slug}`);
+  } else
+    sameText(converted, original, `Converted text does not match: ${c.slug}`);
+  const keptSource = parsed
+    ? load(
+        parsed.blocks
+          .filter((b) => !parsed.removed.has(b))
+          .map((b) => b.html)
+          .join(""),
+      )
+    : source;
   const anchors = [
     ...new Set(
-      source("a[name]")
+      keptSource("a[name]")
         .toArray()
         .map((e) => source(e).attr("name")),
     ),
@@ -52,7 +94,7 @@ for (const c of conversions) {
     assert.ok(ids.includes(anchor), `Anchor lost in ${c.slug}`);
   assert.equal(
     page("article table").length,
-    source("table").length,
+    keptSource("table").length,
     `Table lost: ${c.slug}`,
   );
   const sourceImages = source("img").length;

@@ -1,0 +1,13 @@
+---
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+<Base title={t("gaps.title")} lang={lang}>
+  <div class="plain-page"><p class="page-kicker">{t("gaps.kicker")}</p><h1 class="page-title">{t("gaps.heading")}</h1><p>{t("gaps.text1")}</p><p>{t("gaps.text2")}</p><a class="back-link" href={localePath(lang, "/")}>{t("back.works")}</a></div>
+</Base>

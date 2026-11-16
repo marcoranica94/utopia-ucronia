@@ -19,7 +19,6 @@
       "Merovingi_eterni.htm",
       "pasticcio_in_salsa_longobarda.htm#Longobardi",
       "cinque_rep_marinare.htm#Pisa",
-      "Grande_Messico/Avanti_Sardegna.pdf",
       "Restauratio_imperii.htm#Giustiniano",
       "Jalil.htm#Fracastoro",
       "Mansa_Qu.htm",
@@ -89,8 +88,7 @@
       "http://www.alternatehistory.com/",
       "UAI/canale/1.png",
       "UAI/canale/2.png",
-      "UAI/canale/3.png",
-      "ucronia.gif"
+      "UAI/canale/3.png"
     ],
     "comparison": {
       "headings": "to verify",
@@ -107,8 +105,7 @@
     "source": "https://www.fmboschetto.it/Utopiaucronia/25071943.htm",
     "title": "[ucronia] 25 luglio 1943, ordine del giorno Farinacci",
     "gaps": [
-      "Francia_Italia/UQ.gif",
-      "ucronia.gif"
+      "Francia_Italia/UQ.gif"
     ],
     "comparison": {
       "headings": "to verify",
@@ -121,12 +118,15 @@
     }
   },
   {
-    "slug": "ucronia-25-luglio-1943-hitler-la-prende-male-b35b1006",
+    "slug": "25-luglio-1943-hitler-la-prende-male-b35b1006",
     "source": "https://www.fmboschetto.it/Utopiaucronia/25071943_2.htm",
-    "title": "[ucronia] 25 luglio 1943, Hitler la prende male",
-    "gaps": [
-      "ucronia.gif"
+    "title": "25 luglio 1943, Hitler la prende male",
+    "structured": true,
+    "removed": [
+      "Torna indietro",
+      "Se volete farmi sapere che ne pensate, scrivetemi a quest'indirizzo."
     ],
+    "gaps": [],
     "comparison": {
       "headings": "to verify",
       "paragraphs": "to verify",
@@ -176,7 +176,6 @@
       "utopieuchronie.gif",
       "leroiscorpion.htm",
       "les_grands_Comnenes.htm",
-      "Akhenaton.htm",
       "samouraisdoccident.htm",
       "la_guerre_d_Egypte.htm",
       "De_Terra_Incognita.htm",
@@ -198,6 +197,224 @@
       "al_Andalus.htm",
       "http://uchronies.glenatbd.com/",
       "HGM.htm"
+    ],
+    "comparison": {
+      "headings": "to verify",
+      "paragraphs": "to verify",
+      "images": "to verify",
+      "notes": "to verify",
+      "tables": "to verify",
+      "accents": "to verify",
+      "attributions": "to verify"
+    }
+  },
+  {
+    "slug": "avanti-sardegna-come-la-sardegna-ha-riunito-l-italia-1249f6c1",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Grande_Messico/Avanti_Sardegna.pdf",
+    "title": "Avanti Sardegna! - Come la Sardegna ha riunito l'Italia",
+    "structured": true,
+    "removed": [],
+    "gaps": [],
+    "comparison": {
+      "headings": "to verify",
+      "paragraphs": "to verify",
+      "images": "to verify",
+      "notes": "to verify",
+      "tables": "to verify",
+      "accents": "to verify",
+      "attributions": "to verify"
+    }
+  },
+  {
+    "slug": "akhenaton-superstar-633d74ed",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Akhenaton.htm",
+    "title": "Akhénaton superstar!",
+    "structured": true,
+    "removed": [
+      "Retour"
+    ],
+    "gaps": [],
+    "comparison": {
+      "headings": "to verify",
+      "paragraphs": "to verify",
+      "images": "to verify",
+      "notes": "to verify",
+      "tables": "to verify",
+      "accents": "to verify",
+      "attributions": "to verify"
+    }
+  },
+  {
+    "slug": "fantacomneni-2cf7f0fc",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Comneni.htm",
+    "title": "FantaComneni!",
+    "structured": true,
+    "removed": [
+      "Torna indietro",
+      "Per suggerimenti e commenti, scriveteci a questo indirizzo"
+    ],
+    "gaps": [
+      "fanta_Lepanto.htm",
+      "Fanta_Comneni_2.htm"
+    ],
+    "comparison": {
+      "headings": "to verify",
+      "paragraphs": "to verify",
+      "images": "to verify",
+      "notes": "to verify",
+      "tables": "to verify",
+      "accents": "to verify",
+      "attributions": "to verify"
+    }
+  },
+  {
+    "slug": "ucronie-presidenziali-americane-7418c6de",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Iraq.htm",
+    "title": "Ucronie Presidenziali Americane",
+    "structured": true,
+    "removed": [
+      "Torna indietro",
+      "Per partecipare alle discussioni in corso, scriveteci a questo indirizzo."
+    ],
+    "gaps": [
+      "http://palinaspresident.us/",
+      "http://althistory.wikia.com/wiki/Hillary_Clinton_(President_Clinton)",
+      "dipinti_Sandro/Hillary_and_Obama.jpg",
+      "dipinti_Sandro/Hillary_and_Elizabeth.jpg",
+      "https://en.wikipedia.org/wiki/Ali_Abu_Awwad",
+      "dipinti_Sandro/Francis_coat_of_arms.gif",
+      "dipinti_Sandro/Poland_Russia.jpg",
+      "https://twitter.com/AlexGirola",
+      "https://alessandrogirola.me/2017/04/30/se-elisabetta-canalis-fosse-diventata-first-lady/",
+      "https://www.vanityfair.it",
+      "https://www.vanityfair.it/news/politica/16/10/31/clooney-presidente-usa",
+      "http://rampini.blogautore.repubblica.it/",
+      "http://www.repubblica.it/venerdi/",
+      "http://www.passiglieditori.it/da-noi-non-puo-succedere"
+    ],
+    "comparison": {
+      "headings": "to verify",
+      "paragraphs": "to verify",
+      "images": "to verify",
+      "notes": "to verify",
+      "tables": "to verify",
+      "accents": "to verify",
+      "attributions": "to verify"
+    }
+  },
+  {
+    "slug": "marvel-universe-a50cf232",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Marvel.htm",
+    "title": "Marvel Universe!",
+    "structured": true,
+    "removed": [
+      "Torna indietro",
+      "Per partecipare alle discussioni in corso, scriveteci a questo indirizzo.",
+      "Se volete fornirmi suggerimenti o commenti, scrivetemi a questo indirizzo!"
+    ],
+    "gaps": [
+      "http://marvel.com/",
+      "http://borg.com/2013/11/22/original-kennedy-and-superman-comic-book-art-50-years-later/#more-17176",
+      "Dante33/Wakanda.png",
+      "https://www.wired.it/play/fumetti/2016/12/02/10-crossover-fumetti-ricordare/",
+      "https://www.avvenire.it/papa/pagine/papa-francesco-incontra-spider-man"
+    ],
+    "comparison": {
+      "headings": "to verify",
+      "paragraphs": "to verify",
+      "images": "to verify",
+      "notes": "to verify",
+      "tables": "to verify",
+      "accents": "to verify",
+      "attributions": "to verify"
+    }
+  },
+  {
+    "slug": "come-il-mago-pietro-bailardo-si-salvo-l-anima-con-l-aiuto-del-diavolo-1b190b4f",
+    "source": "http://www.fmboschetto.it/utopiaucronia/Pietro_Bailardo.htm",
+    "title": "Come il mago Pietro Bailardo si salvò l'anima con l'aiuto del diavolo",
+    "structured": true,
+    "removed": [
+      "Torna indietro",
+      "Per contribuire alle discussioni in corso, scriveteci a questo indirizzo."
+    ],
+    "gaps": [
+      "http://www.villasantostefano.com/villass/arturo_iorio/index.htm",
+      "http://www.villasantostefano.com/villass/arturo_iorio/pietro_bailardo.htm"
+    ],
+    "comparison": {
+      "headings": "to verify",
+      "paragraphs": "to verify",
+      "images": "to verify",
+      "notes": "to verify",
+      "tables": "to verify",
+      "accents": "to verify",
+      "attributions": "to verify"
+    }
+  },
+  {
+    "slug": "raccontini-natalizi-49f0a05d",
+    "source": "http://www.fmboschetto.it/utopiaucronia/raccontini_natalizi.htm",
+    "title": "Raccontini... natalizi",
+    "structured": true,
+    "removed": [
+      "Torna indietro"
+    ],
+    "gaps": [
+      "http://www.ariberti.it/",
+      "http://nelricciodijane.blogspot.it/",
+      "https://www.veronica-maya.it/",
+      "https://100giannirodari.com/",
+      "https://www.sanfrancescopatronoditalia.it/notizie/religione/il-racconto-di-natale-dell-ateo-jean-paul-sartre-47452",
+      "http://www.gliscritti.it/bambini/perugini081207.htm"
+    ],
+    "comparison": {
+      "headings": "to verify",
+      "paragraphs": "to verify",
+      "images": "to verify",
+      "notes": "to verify",
+      "tables": "to verify",
+      "accents": "to verify",
+      "attributions": "to verify"
+    }
+  },
+  {
+    "slug": "settembre-1943-fine-indolore-della-seconda-guerra-mondiale-6d19be6d",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/settembre_1943.htm",
+    "title": "Settembre 1943, fine indolore della Seconda Guerra Mondiale",
+    "structured": true,
+    "removed": [
+      "Torna indietro",
+      "Se volete fornirci suggerimenti o pareri, scriveteci a questo indirizzo."
+    ],
+    "gaps": [
+      "[email removed]"
+    ],
+    "comparison": {
+      "headings": "to verify",
+      "paragraphs": "to verify",
+      "images": "to verify",
+      "notes": "to verify",
+      "tables": "to verify",
+      "accents": "to verify",
+      "attributions": "to verify"
+    }
+  },
+  {
+    "slug": "el-rey-escorpion-6b4f2bf9",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Rey_Escorpion.htm",
+    "title": "El Rey Escorpión",
+    "structured": true,
+    "removed": [],
+    "gaps": [
+      "http://www.narmer.pl/ima_tyt/00-06-01.gif",
+      "http://www.narmer.pl/dyn/00en.htm",
+      "http://www.narmer.pl/dyn/ima/skorpio2.gif",
+      "http://www.narmer.pl/dyn/ima/skorpio1.gif",
+      "http://xoomer.alice.it/francescoraf/hesyra/palettes/narmerp.htm",
+      "http://xoomer.alice.it/francescoraf/hesyra/palettes/sm-narmerp1.jpg",
+      "http://xoomer.alice.it/francescoraf/hesyra/palettes/sm-narmerp.jpg",
+      "../Ucronias_en_Espanol.htm"
     ],
     "comparison": {
       "headings": "to verify",

@@ -21,8 +21,8 @@
     "tables": 0,
     "images": {
       "source": 33,
-      "viewable": 0,
-      "excludedFromSample": 33
+      "viewable": 1,
+      "excludedFromSample": 32
     },
     "visualCheck": "to run in the browser",
     "editorialAttributions": "to verify"
@@ -35,14 +35,14 @@
     "tables": 0,
     "images": {
       "source": 2,
-      "viewable": 0,
-      "excludedFromSample": 2
+      "viewable": 1,
+      "excludedFromSample": 1
     },
     "visualCheck": "to run in the browser",
     "editorialAttributions": "to verify"
   },
   {
-    "slug": "ucronia-25-luglio-1943-hitler-la-prende-male-b35b1006",
+    "slug": "25-luglio-1943-hitler-la-prende-male-b35b1006",
     "characters": 62716,
     "text": "identical after whitespace normalization and declared removals",
     "anchors": 0,
@@ -79,6 +79,118 @@
       "source": 2,
       "viewable": 1,
       "excludedFromSample": 1
+    },
+    "visualCheck": "to run in the browser",
+    "editorialAttributions": "to verify"
+  },
+  {
+    "slug": "akhenaton-superstar-633d74ed",
+    "characters": 15598,
+    "text": "identical after whitespace normalization and declared removals",
+    "anchors": 0,
+    "tables": 0,
+    "images": {
+      "source": 2,
+      "viewable": 1,
+      "excludedFromSample": 1
+    },
+    "visualCheck": "to run in the browser",
+    "editorialAttributions": "to verify"
+  },
+  {
+    "slug": "fantacomneni-2cf7f0fc",
+    "characters": 70649,
+    "text": "identical after whitespace normalization and declared removals",
+    "anchors": 0,
+    "tables": 0,
+    "images": {
+      "source": 3,
+      "viewable": 2,
+      "excludedFromSample": 1
+    },
+    "visualCheck": "to run in the browser",
+    "editorialAttributions": "to verify"
+  },
+  {
+    "slug": "ucronie-presidenziali-americane-7418c6de",
+    "characters": 57112,
+    "text": "identical after whitespace normalization and declared removals",
+    "anchors": 1,
+    "tables": 6,
+    "images": {
+      "source": 17,
+      "viewable": 15,
+      "excludedFromSample": 2
+    },
+    "visualCheck": "to run in the browser",
+    "editorialAttributions": "to verify"
+  },
+  {
+    "slug": "marvel-universe-a50cf232",
+    "characters": 134547,
+    "text": "identical after whitespace normalization and declared removals",
+    "anchors": 0,
+    "tables": 10,
+    "images": {
+      "source": 20,
+      "viewable": 17,
+      "excludedFromSample": 3
+    },
+    "visualCheck": "to run in the browser",
+    "editorialAttributions": "to verify"
+  },
+  {
+    "slug": "come-il-mago-pietro-bailardo-si-salvo-l-anima-con-l-aiuto-del-diavolo-1b190b4f",
+    "characters": 16485,
+    "text": "identical after whitespace normalization and declared removals",
+    "anchors": 0,
+    "tables": 0,
+    "images": {
+      "source": 1,
+      "viewable": 0,
+      "excludedFromSample": 1
+    },
+    "visualCheck": "to run in the browser",
+    "editorialAttributions": "to verify"
+  },
+  {
+    "slug": "raccontini-natalizi-49f0a05d",
+    "characters": 69104,
+    "text": "identical after whitespace normalization and declared removals",
+    "anchors": 18,
+    "tables": 0,
+    "images": {
+      "source": 8,
+      "viewable": 7,
+      "excludedFromSample": 1
+    },
+    "visualCheck": "to run in the browser",
+    "editorialAttributions": "to verify"
+  },
+  {
+    "slug": "settembre-1943-fine-indolore-della-seconda-guerra-mondiale-6d19be6d",
+    "characters": 40840,
+    "text": "identical after whitespace normalization and declared removals",
+    "anchors": 0,
+    "tables": 0,
+    "images": {
+      "source": 3,
+      "viewable": 2,
+      "excludedFromSample": 1
+    },
+    "visualCheck": "to run in the browser",
+    "editorialAttributions": "to verify"
+  },
+  {
+    "slug": "el-rey-escorpion-6b4f2bf9",
+    "characters": 14576,
+    "text": "identical after whitespace normalization and declared removals",
+    "anchors": 0,
+    "tables": 0,
+    "images": {
+      "source": 6,
+      "viewable": 1,
+      "excludedFromSample": 5
     },
     "visualCheck": "to run in the browser",
     "editorialAttributions": "to verify"

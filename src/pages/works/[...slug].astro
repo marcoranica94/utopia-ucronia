@@ -1,6 +1,6 @@
 ---
-import { getCollection, render } from "astro:content";
-import Base from "../../layouts/Base.astro";
+import { getCollection } from "astro:content";
+import Work from "../../views/Work.astro";
 
 export async function getStaticPaths() {
   return (await getCollection("works")).map((work) => ({
@@ -8,12 +8,5 @@ export async function getStaticPaths() {
     props: { work },
   }));
 }
-const { work } = Astro.props;
-const { Content } = await render(work);
 ---
-<Base title={work.data.title} language={work.data.language}>
-  <a class="back-link" href="/" lang="it">← Torna alle ucronie</a>
-  <div class="reading-layout"><div class="reading-main"><p class="page-kicker" lang="it">Documento recuperato · {work.data.language.toUpperCase()}</p><h1 class="page-title">{work.data.title}</h1><aside class="notice" lang="it">Testo in revisione editoriale. {work.data.gaps > 0 && <>Alcuni collegamenti o immagini richiedono un controllo: <a href="/gaps/">vedi le lacune note</a>.</>}</aside><article class="reading-copy"><Content /></article></div>
-    <aside class="reading-aside" aria-labelledby="source-title" lang="it"><h2 id="source-title">Provenienza</h2>{work.data.sources.map((source) => <div><p>{source.timestamp ? `Cattura del ${source.timestamp.slice(6, 8)}/${source.timestamp.slice(4, 6)}/${source.timestamp.slice(0, 4)}` : "File recuperato dal sito originale"}</p><p>{source.url}</p></div>)}<p>Il file originale resta conservato nell’archivio.</p></aside>
-  </div>
-</Base>
+<Work work={Astro.props.work} lang="it" />

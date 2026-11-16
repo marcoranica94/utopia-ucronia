@@ -158,7 +158,9 @@ export function convertHtml(
         allowedTags: [],
         allowedAttributes: {},
       }).replace(/["<>]/g, "");
-      return `<span id="${id}"></span>\n\n${content}\n\n`;
+      // An anchor around a few words stays inline: breaking lines here would
+      // split a paragraph ("E" / "ora, un'ucronia…").
+      return `<span id="${id}"></span>${content}`;
     },
   });
   const markdown = td

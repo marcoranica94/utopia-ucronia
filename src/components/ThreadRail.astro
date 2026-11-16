@@ -1,0 +1,152 @@
+---
+import { isKey, type Lang, useTranslations } from "../i18n";
+/**
+ * Direction B, "dialogue": the page as a map of voices. One node per
+ * contribution, sized by its length; replies arc back to what they answer;
+ * variants move to their own lane, with a tick for each of their dates.
+ */
+import type { OutlineItem } from "../outline";
+
+interface Props {
+  outline: OutlineItem[];
+  lang: Lang;
+}
+const { outline, lang } = Astro.props;
+const t = useTranslations(lang);
+const label = (text: string) => {
+  const key = `outline.${text.slice(1)}`;
+  return text.startsWith("@") && isKey(key) ? t(key) : text;
+};
+const kindName = (k?: string) =>
+  t(
+    k === "addition"
+      ? "rail.kind.addition"
+      : k === "variant"
+        ? "rail.kind.variant"
+        : k === "reply"
+          ? "rail.kind.reply"
+          : "rail.kind.comment",
+  );
+const cut = (s: string, n = 22) => (s.length > n ? `${s.slice(0, n - 1)}…` : s);
+
+type Node = {
+  id: string;
+  title: string;
+  sub: string;
+  kind: string;
+  size: number;
+  replyTo?: string;
+  dates: number;
+  x: number;
+  y: number;
+  r: number;
+  heading?: string;
+};
+const nodes: Node[] = [];
+let owner: Node | undefined;
+for (const item of outline) {
+  if (item.kind === "section" && item.id === "start") {
+    owner = {
+      id: item.id,
+      title: t("part.main.discussion"),
+      sub: item.author ?? "",
+      kind: "main",
+      size: item.size ?? 0,
+      dates: 0,
+      x: 0,
+      y: 0,
+      r: 0,
+    };
+    nodes.push(owner);
+  } else if (item.kind === "section" && item.id === "discussion") {
+    const next = outline[outline.indexOf(item) + 1];
+    if (next)
+      (nodes as { id: string; heading?: string }[]).push({
+        id: `heading-${next.id}`,
+        heading: t("outline.discussion"),
+      });
+  } else if (item.kind === "piece") {
+    owner = {
+      id: item.id,
+      title: label(item.label),
+      sub: item.author ?? "",
+      kind: "piece",
+      size: item.size ?? 0,
+      dates: 0,
+      x: 0,
+      y: 0,
+      r: 0,
+    };
+    nodes.push(owner);
+  } else if (item.kind === "contribution") {
+    owner = {
+      id: item.id,
+      title: label(item.label),
+      sub: kindName(item.contribution),
+      kind: item.contribution ?? "comment",
+      size: item.size ?? 0,
+      replyTo: item.replyTo,
+      dates: 0,
+      x: 0,
+      y: 0,
+      r: 0,
+    };
+    nodes.push(owner);
+  } else if (item.kind === "entry" && owner) owner.dates++;
+}
+const spine = 58;
+const variantX = 82;
+let y = 24;
+const placed: Node[] = [];
+const headings: { y: number; text: string }[] = [];
+for (const n of nodes) {
+  if (n.heading) {
+    y += 14;
+    headings.push({ y, text: n.heading });
+    y += 22;
+    continue;
+  }
+  n.r = Math.max(4, Math.min(11, 3 + Math.sqrt(n.size) / 16));
+  n.x = n.kind === "variant" ? variantX : spine;
+  n.y = y + n.r;
+  const tail =
+    n.kind === "variant" && n.dates ? Math.min(60, n.dates * 4) + 8 : 0;
+  y = n.y + n.r + Math.max(22, tail) + 8;
+  placed.push(n);
+}
+const height = y + 16;
+const width = 250;
+const byId = new Map(placed.map((n) => [n.id, n]));
+const spineNodes = placed.filter((n) => n.x === spine);
+const arc = (from: Node, to: Node) => {
+  const bend = 10 + Math.min(40, (from.y - to.y) / 8);
+  return `M${from.x - from.r} ${from.y} C${spine - bend} ${from.y} ${spine - bend} ${to.y} ${to.x - to.r - 2} ${to.y}`;
+};
+---
+<div class="thread-rail">
+  <svg class="thread-svg" viewBox={`0 0 ${width} ${height}`} width={width} height={height} role="group" aria-label={t("rail.voices")}>
+    {spineNodes.length > 1 && <line class="spine" x1={spine} y1={spineNodes[0].y} x2={spine} y2={spineNodes.at(-1)?.y} />}
+    {headings.map((h) => <text class="thread-heading" x="0" y={h.y}>{h.text}</text>)}
+    {placed.filter((n) => n.kind === "variant").map((n) => (
+      <path class="variant-link" d={`M${spine} ${n.y - n.r - 18} C${spine} ${n.y - 4} ${variantX} ${n.y - n.r - 12} ${variantX} ${n.y - n.r}`} />
+    ))}
+    {placed.filter((n) => n.replyTo && byId.get(n.replyTo)).map((n) => (
+      <path class="reply-arc" d={arc(n, byId.get(n.replyTo as string) as Node)} />
+    ))}
+    {placed.map((n) => (
+      <a href={`#${n.id}`} data-rail-link={n.id} class:list={["node", `node-${n.kind}`]}>
+        <title>{`${n.title} — ${n.sub}`}</title>
+        {n.kind === "variant" && n.dates > 0 && (
+          <g class="variant-dates">
+            <line x1={n.x} y1={n.y + n.r} x2={n.x} y2={n.y + n.r + Math.min(60, n.dates * 4) + 4} />
+            {Array.from({ length: Math.min(15, n.dates) }, (_, i) => <line class="tick" x1={n.x - 3} x2={n.x + 3} y1={n.y + n.r + 6 + i * 4} y2={n.y + n.r + 6 + i * 4} />)}
+          </g>
+        )}
+        <rect class="hit" x={n.x - 14} y={n.y - 14} width={width - n.x + 14} height="28" />
+        <circle class="node-dot" cx={n.x} cy={n.y} r={n.r} />
+        <text class="node-title" x={n.x + 16} y={n.y - 1}>{cut(n.title, n.x === spine ? 24 : 21)}</text>
+        <text class="node-sub" x={n.x + 16} y={n.y + 12}>{cut(n.sub, 26)}{n.dates > 0 ? `, ${n.dates} ${t(n.dates === 1 ? "count.dates.one" : "count.dates.many")}` : ""}</text>
+      </a>
+    ))}
+  </svg>
+</div>

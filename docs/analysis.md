@@ -270,4 +270,4 @@ The main risk is that the Wayback doesn't have everything, or that it saved erro
 
 **Already decided on 11/11/2026, after a critical review of the plan:** recovery from the Wayback only; emails removed from all browsable views; browsable copy in `/original/`, cleaned; sample trial and backups before everything else; search in the first useful version; divergence tree as an extra view; versions locked by the lockfile after start.
 
-**Decided on 12/11/2026:** the repository is in English (docs, code, data formats, site UI, URLs, commit messages); only the stories stay in their original language.
+**Decided on 12/11/2026:** the repository is in English (docs, code, data formats, URLs, commit messages; the site interface is bilingual, Italian at `/` and English under `/en/`, owner decision of 13/11/2026); only the stories stay in their original language.

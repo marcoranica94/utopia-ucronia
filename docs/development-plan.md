@@ -183,6 +183,9 @@ Demo: `archive/coverage.md` with the percentages by type; rerunning `download` d
 
 ### S2 · Conversion
 
+- [ ] Reading page redesign after owner feedback ("timeline dozzinale", text hard to follow): two competing directions on the ten trial works, A "annals" at `/works/` (drawn timeline in compressed time, speaker in a sticky margin) and B "dialogue" at `/design/b/` (map of voices with reply arcs, initials, variant panels); three-way theme switch Auto/Light/Dark. Pending: owner choice
+- [x] Bilingual interface (owner decision of 13/11/2026): Italian at `/`, English under `/en/`, IT/EN switch in the header, strings in `src/i18n.ts`, converter placeholders filled by the page; the S0 `/design/` preview stays Italian only
+- [ ] Trial on 10 deliberately different uchronias (`data/trial.json`), started 13/11/2026: `scripts/anatomy.ts` reads the page structure (header, main text, POD, dated entries, contributions with kind and reply target, collections on anchors), `scripts/structured.ts` writes sections and an outline, the reading page shows a timeline rail where variants branch off; two-step fidelity check passes on all nine HTML cases. PDF case converted with `unpdf@1.7.0` (layout-based headings and paragraphs; the fidelity check covers HTML only). Pending: owner review in the browser
 - [ ] Zod schema for documents, content items, contributions, authors, eras, places, themes
 - [ ] Agent that proposes the reorganization map (`data/map.yaml`): action, level and metadata, each with its reasoning
 - [ ] Extraction of divergences from the "Lista delle ucronie" and of contributions from collective pages

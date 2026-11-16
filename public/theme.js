@@ -1,40 +1,44 @@
+// Theme: automatic (system), light or dark. The choice persists when storage
+// is available; otherwise it applies to the current page only.
 (() => {
   const key = "utopia-ucronia-theme";
   const root = document.documentElement;
   const system = window.matchMedia("(prefers-color-scheme: dark)");
-  try {
-    const saved = localStorage.getItem(key);
-    if (saved === "light" || saved === "dark") root.dataset.theme = saved;
-  } catch {
-    // The system preference still works when storage is unavailable.
-  }
-  const current = () =>
-    root.dataset.theme || (system.matches ? "dark" : "light");
+  const read = () => {
+    try {
+      const saved = localStorage.getItem(key);
+      return saved === "light" || saved === "dark" ? saved : "system";
+    } catch {
+      return "system";
+    }
+  };
+  const apply = (choice) => {
+    if (choice === "system") delete root.dataset.theme;
+    else root.dataset.theme = choice;
+  };
+  apply(read());
   const update = () => {
-    const button = document.querySelector("[data-theme-toggle]");
-    if (!button) return;
-    const theme = current();
-    button.hidden = false;
-    button.dataset.activeTheme = theme;
-    button.setAttribute(
-      "aria-label",
-      theme === "dark" ? "Attiva tema chiaro" : "Attiva tema scuro",
-    );
-    button.setAttribute("aria-pressed", String(theme === "dark"));
-    button.querySelector("[data-theme-label]").textContent =
-      theme === "dark" ? "Scuro" : "Chiaro";
+    const group = document.querySelector("[data-theme-switch]");
+    if (!group) return;
+    group.hidden = false;
+    const choice = read();
+    for (const button of group.querySelectorAll("[data-theme-set]"))
+      button.setAttribute(
+        "aria-pressed",
+        String(button.getAttribute("data-theme-set") === choice),
+      );
   };
   document.addEventListener("DOMContentLoaded", () => {
-    document
-      .querySelector("[data-theme-toggle]")
-      ?.addEventListener("click", () => {
-        const next = current() === "dark" ? "light" : "dark";
-        root.dataset.theme = next;
+    for (const button of document.querySelectorAll("[data-theme-set]"))
+      button.addEventListener("click", () => {
+        const choice = button.getAttribute("data-theme-set") ?? "system";
         try {
-          localStorage.setItem(key, next);
+          if (choice === "system") localStorage.removeItem(key);
+          else localStorage.setItem(key, choice);
         } catch {
           /* The choice still applies to this page. */
         }
+        apply(choice);
         update();
       });
     system.addEventListener("change", update);

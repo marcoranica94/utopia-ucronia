@@ -20,6 +20,29 @@ const works = defineCollection({
       }),
     ),
     unverified: z.array(z.string()),
+    // Structure read by scripts/anatomy.ts; absent on unstructured pages.
+    shape: z
+      .enum(["chronology", "discussion", "narrative", "collection"])
+      .optional(),
+    contributors: z.array(z.string()).optional(),
+    outline: z
+      .array(
+        z.object({
+          id: z.string(),
+          label: z.string(),
+          kind: z.enum(["section", "pod", "entry", "contribution", "piece"]),
+          depth: z.number().int().min(0).max(4),
+          start: z.number().int().optional(),
+          end: z.number().int().optional(),
+          author: z.string().optional(),
+          contribution: z
+            .enum(["comment", "addition", "variant", "reply"])
+            .optional(),
+          replyTo: z.string().optional(),
+          size: z.number().int().nonnegative().optional(),
+        }),
+      )
+      .optional(),
     gaps: z.number().int().nonnegative(),
   }),
 });

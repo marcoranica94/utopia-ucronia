@@ -1,0 +1,55 @@
+---
+import { getCollection } from "astro:content";
+import BranchTree from "../components/BranchTree.astro";
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import "../styles/tree.css";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const works = await getCollection("works");
+const workUrl = (ending: string) => {
+  const work = works.find((entry) =>
+    entry.data.sources.some((source) =>
+      source.url.toLowerCase().endsWith(ending.toLowerCase()),
+    ),
+  );
+  if (!work) throw new Error(`Missing tree work for ${ending}`);
+  return localePath(lang, `/works/${work.id}/`);
+};
+const recovered = t("home.recovered");
+const branches = [
+  {
+    period: t("tree.bc14"),
+    title: "Akhénaton superstar!",
+    description: t("tree.akhenaton"),
+    href: "/design/#akhenaton",
+    language: "fr",
+    state: t("tree.preview"),
+  },
+  {
+    period: "1000–1050",
+    title: "Spot the POD",
+    description: t("tree.spot"),
+    href: workUrl("spotthePOD.htm"),
+    language: "it",
+    state: recovered,
+  },
+  {
+    period: lang === "it" ? "25 luglio 1943" : "25 July 1943",
+    title: "Ordine del giorno Farinacci",
+    description: t("tree.farinacci"),
+    href: workUrl("25071943.htm"),
+    language: "it",
+    state: recovered,
+  },
+];
+---
+<Base title={t("tree.title")} lang={lang}>
+  <div class="page-intro"><p class="page-kicker">{t("tree.kicker")}</p><h1 class="page-title">{t("tree.heading")}</h1><p class="page-lede">{t("tree.lede")}</p></div>
+  <div class="tree-layout"><div class="tree-stage"><BranchTree label={t("tree.group")} links={branches.map((branch) => ({ href: branch.href, label: `${t("tree.open")} ${branch.title}` }))} /><p>{t("tree.stage")}</p></div><nav class="branch-navigation" aria-label={t("tree.navLabel")}><h2>{t("tree.follow")}</h2><ul>{branches.map((branch) => <li><span class="branch-period">{branch.period}</span><a href={branch.href} lang={branch.language}>{branch.title}</a><p>{branch.description}</p><small>{branch.state}</small></li>)}</ul></nav></div>
+  <p class="tree-caveat">{t("tree.caveat")}</p>
+</Base>

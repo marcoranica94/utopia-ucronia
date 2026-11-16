@@ -1,0 +1,13 @@
+---
+// Direction B of the reading page, kept beside direction A (/works/) until
+// the owner chooses. Only structured works have it.
+import { getCollection } from "astro:content";
+import Work from "../../../../views/Work.astro";
+
+export async function getStaticPaths() {
+  return (await getCollection("works"))
+    .filter((work) => work.data.shape)
+    .map((work) => ({ params: { slug: work.id }, props: { work } }));
+}
+---
+<Work work={Astro.props.work} lang="en" direction="b" />

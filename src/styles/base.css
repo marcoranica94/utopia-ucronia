@@ -98,6 +98,26 @@ p {
   height: 3px;
   background: var(--accent);
 }
+.lang-switch {
+  display: flex;
+  gap: 0.2rem;
+  margin-left: auto;
+  font-size: 0.86rem;
+  font-weight: 600;
+}
+.lang-switch a {
+  padding: 0.35rem 0.5rem;
+  border-radius: 6px;
+  color: var(--muted);
+  text-decoration: none;
+}
+.lang-switch a:hover {
+  color: var(--accent);
+}
+.lang-switch a[aria-current] {
+  color: var(--ink);
+  background: var(--surface-soft);
+}
 .header-note {
   margin-left: auto;
   color: var(--muted);
@@ -405,7 +425,10 @@ p {
     gap: 1.5rem;
     min-height: 42px;
   }
-  .theme-toggle {
+  .lang-switch {
+    order: 1;
+  }
+  .theme-switch {
     order: 1;
   }
   .header-note {

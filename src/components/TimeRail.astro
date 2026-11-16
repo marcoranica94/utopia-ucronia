@@ -1,0 +1,169 @@
+---
+import { isKey, type Lang, useTranslations } from "../i18n";
+/**
+ * Direction A, "annals": a drawn timeline in compressed time. The grey line
+ * is our history; the uchronia leaves it at its first date and each variant
+ * with dates of its own leaves as a copper branch.
+ */
+import type { OutlineItem } from "../outline";
+
+interface Props {
+  outline: OutlineItem[];
+  lang: Lang;
+}
+const { outline, lang } = Astro.props;
+const t = useTranslations(lang);
+const label = (text: string) => {
+  const key = `outline.${text.slice(1)}`;
+  return text.startsWith("@") && isKey(key) ? t(key) : text;
+};
+const yearLabel = (y: number) =>
+  y < 0 ? `${-y} ${lang === "it" ? "a.C." : "BC"}` : String(y);
+const summary = (l: string) => l.slice(l.indexOf("|") + 1);
+const dateText = (l: string) => l.slice(0, l.indexOf("|"));
+
+type Entry = OutlineItem & { branch: string; order: number };
+type Branch = {
+  id: string;
+  name: string;
+  variant: boolean;
+  entries: Entry[];
+  lane?: number;
+  from?: string;
+  pod?: string;
+};
+const branches = new Map<string, Branch>();
+let current = "main";
+let order = 0;
+let podId: string | undefined;
+for (const item of outline) {
+  if (item.kind === "contribution") {
+    current = item.id;
+    branches.set(item.id, {
+      id: item.id,
+      name: item.author ?? label(item.label),
+      variant: item.contribution === "variant",
+      entries: [],
+    });
+  } else if (item.kind === "piece") current = "main";
+  else if (item.kind === "pod") {
+    if (current === "main") podId = item.id;
+    else {
+      const b = branches.get(current);
+      if (b) b.pod = item.id;
+    }
+  } else if (item.kind === "entry" && item.start !== undefined) {
+    if (!branches.has(current))
+      branches.set(current, {
+        id: current,
+        name: t("rail.uchronia"),
+        variant: false,
+        entries: [],
+      });
+    branches
+      .get(current)
+      ?.entries.push({ ...item, branch: current, order: order++ });
+  }
+}
+const drawn = [...branches.values()].filter((b) => b.entries.length > 0);
+const main = drawn.find((b) => b.id === "main");
+if (main) main.pod = podId;
+// Lanes: the uchronia first, then each branch in reading order.
+let nextLane = main ? 1 : 0;
+for (const b of drawn) b.lane = b === main ? 0 : nextLane++;
+
+// Compressed time scale: every distinct year gets a slot; the space between
+// two slots grows with the logarithm of the gap, so centuries do not explode.
+const years = [
+  ...new Set(drawn.flatMap((b) => b.entries.map((e) => e.start as number))),
+].sort((a, b) => a - b);
+const top = 78;
+const steps = years.map((year, i) =>
+  i === 0 ? 0 : Math.min(64, 15 + 13 * Math.log10(year - years[i - 1] + 1)),
+);
+// Few dates would make a tiny drawing: stretch short timelines to a readable height.
+const natural = steps.reduce((a, b) => a + b, 0);
+const stretch = natural > 0 && natural < 320 ? Math.min(3, 320 / natural) : 1;
+const yOf = new Map<number, number>();
+let y = top;
+years.forEach((year, i) => {
+  y += steps[i] * stretch;
+  yOf.set(year, y);
+});
+const height = y + 40;
+const baseX = 66;
+const laneX = (lane: number) => baseX + 24 + lane * 20;
+const width = Math.max(200, laneX(drawn.length) + 96);
+const startY = (b: Branch) => yOf.get(b.entries[0].start as number) ?? top;
+const endY = (b: Branch) => yOf.get(b.entries.at(-1)?.start as number) ?? top;
+for (const b of drawn) {
+  if (b === main) b.from = "base";
+  else if (
+    main &&
+    (b.entries[0].start as number) >= (main.entries[0].start as number)
+  )
+    b.from = "main";
+  else b.from = "base";
+}
+const originX = (b: Branch) =>
+  b.from === "main" && main ? laneX(main.lane ?? 0) : baseX;
+const branchPath = (b: Branch) => {
+  const x0 = originX(b);
+  const x1 = laneX(b.lane ?? 0);
+  const y1 = startY(b);
+  const y0 = y1 - 26;
+  return `M${x0} ${y0} C${x0} ${y1 - 10} ${x1} ${y1 - 16} ${x1} ${y1} L${x1} ${Math.max(endY(b), y1) + 10}`;
+};
+// Year labels on the left, skipped where they would collide.
+const labels: { y: number; text: string }[] = [];
+let lastLabel = -100;
+for (const year of years) {
+  const ly = yOf.get(year) as number;
+  if (ly - lastLabel >= 15) {
+    labels.push({ y: ly, text: yearLabel(year) });
+    lastLabel = ly;
+  }
+}
+const sections = outline.filter(
+  (i) => i.kind === "section" || i.kind === "piece",
+);
+const voices = outline.filter((i) => i.kind === "contribution");
+---
+<div class="time-rail">
+  <ol class="rail-sections">
+    {sections.map((s) => <li><a href={`#${s.id}`} data-rail-link={s.id}>{label(s.label)}</a></li>)}
+  </ol>
+  {drawn.length > 0 ? (
+    <svg class="time-svg" viewBox={`0 0 ${width} ${height}`} width={width} height={height} role="group" aria-label={t("rail.label")}>
+      <text class="lane-name base-name" x={baseX} y="14" text-anchor="middle">{t("rail.ourHistory")}</text>
+      <line class="base-line" x1={baseX} y1="24" x2={baseX} y2={height - 12} />
+      {labels.map((l) => <text class="year-label" x={baseX - 12} y={l.y + 4} text-anchor="end">{l.text}</text>)}
+      {drawn.map((b) => (
+        <g class:list={["branch", b === main ? "is-main" : b.variant ? "is-variant" : "is-other"]}>
+          <path class="branch-line" d={branchPath(b)} />
+          {b.pod ? (
+            <a href={`#${b.pod}`} data-rail-link={b.pod}><title>{t("outline.pod")}</title><rect class="pod-mark" x={originX(b) - 5} y={startY(b) - 31} width="10" height="10" transform={`rotate(45 ${originX(b)} ${startY(b) - 26})`} /></a>
+          ) : (
+            <circle class="origin-mark" cx={originX(b)} cy={startY(b) - 26} r="3" />
+          )}
+          <text class="lane-name" x={laneX(b.lane ?? 0) + 9} y={startY(b) - 12}>{b === main ? t("rail.uchronia") : b.name.length > 20 ? `${b.name.slice(0, 19)}…` : b.name}</text>
+          {b.entries.map((e) => (
+            <a href={`#${e.id}`} data-rail-link={e.id}>
+              <title>{`${dateText(e.label)} — ${summary(e.label)}`}</title>
+              <circle class="hit" cx={laneX(b.lane ?? 0)} cy={yOf.get(e.start as number)} r="9" />
+              <circle class="dot" cx={laneX(b.lane ?? 0)} cy={yOf.get(e.start as number)} r="4" />
+            </a>
+          ))}
+        </g>
+      ))}
+    </svg>
+  ) : null}
+  {voices.length > 0 && (
+    <>
+      <p class="rail-voices-title">{t("rail.voices")}</p>
+      <ol class="rail-voices">
+        {voices.map((v) => <li class:list={[`kind-${v.contribution}`]}><a href={`#${v.id}`} data-rail-link={v.id}>{label(v.label)}<span>{t(v.contribution === "addition" ? "rail.kind.addition" : v.contribution === "variant" ? "rail.kind.variant" : v.contribution === "reply" ? "rail.kind.reply" : "rail.kind.comment")}</span></a></li>)}
+      </ol>
+    </>
+  )}
+</div>

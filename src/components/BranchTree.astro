@@ -1,15 +1,16 @@
 ---
 interface Props {
   links?: { href: string; label: string }[];
+  label?: string;
 }
-const { links = [] } = Astro.props;
+const { links = [], label } = Astro.props;
 const points = [
   { x: 111, y: 144 },
   { x: 298, y: 141 },
   { x: 454, y: 80 },
 ];
 ---
-<svg class="branch-tree" viewBox="0 0 520 300" fill="none" aria-hidden={links.length === 0 ? "true" : undefined} role={links.length ? "group" : undefined} aria-label={links.length ? "Tre ucronie nell’albero delle possibilità" : undefined}>
+<svg class="branch-tree" viewBox="0 0 520 300" fill="none" aria-hidden={links.length === 0 ? "true" : undefined} role={links.length ? "group" : undefined} aria-label={links.length ? label : undefined}>
   <path class="trunk" d="M260 300V258C260 241 260 230 260 218" />
   <path class="major" d="M260 255C238 238 198 230 180 204M260 255C282 238 322 230 340 204M180 204C153 187 129 173 111 144M180 204C204 186 220 171 224 143M340 204C314 183 300 164 298 141M340 204C365 184 392 174 409 145" />
   <path class="minor" d="M111 144C88 126 75 109 67 80M111 144C117 118 127 103 143 77M224 143C203 123 189 104 184 75M224 143C240 116 246 98 249 69M298 141C280 119 272 96 270 67M298 141C312 113 327 96 340 73M409 145C390 122 379 103 376 77M409 145C429 118 440 104 454 80" />

@@ -1,4 +1,9 @@
 ---
+import { useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
+
+// One 404 page serves both languages: Italian first, English below.
+const it = useTranslations("it");
+const en = useTranslations("en");
 ---
-<Base title="Pagina non trovata"><div class="plain-page"><p class="page-kicker">404</p><h1 class="page-title">Questa pagina non è nell’archivio</h1><p>Controlla l’indirizzo oppure torna alle ucronie disponibili.</p><a class="back-link" href="/">← Torna alle ucronie</a></div></Base>
+<Base title={it("notFound.title")} lang="it"><div class="plain-page"><p class="page-kicker">404</p><h1 class="page-title">{it("notFound.heading")}</h1><p>{it("notFound.text")}</p><a class="back-link" href="/">{it("back.works")}</a><div lang="en"><h2>{en("notFound.heading")}</h2><p>{en("notFound.text")}</p><a class="back-link" href="/en/">{en("back.works")}</a></div></div></Base>

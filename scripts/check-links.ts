@@ -17,10 +17,17 @@ let total = 0;
 for (const file of await pages("dist")) {
   const html = await readFile(file, "utf8");
   const $ = load(html);
-  const isCatalog = file === path.join("dist", "index.html");
+  const isCatalog = [
+    path.join("dist", "index.html"),
+    path.join("dist", "en", "index.html"),
+  ].includes(file);
   const unexpectedScripts = $("script")
     .toArray()
-    .filter((script) => !isCatalog && $(script).attr("src") !== "/theme.js");
+    .filter(
+      (script) =>
+        !isCatalog &&
+        !["/theme.js", "/rail.js"].includes($(script).attr("src") ?? ""),
+    );
   if (
     unexpectedScripts.length ||
     $("iframe,object,embed").length ||
