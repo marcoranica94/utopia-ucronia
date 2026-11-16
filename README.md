@@ -2,7 +2,7 @@
 
 Personal historical archive and new edition of the UtopiaUcronia site. The site is meant for the owner only, behind Cloudflare Access.
 
-Analysis and plan: [docs/analysis.md](docs/analysis.md), [docs/development-plan.md](docs/development-plan.md). Status of the first trial: [docs/status-s0.md](docs/status-s0.md).
+Analysis and plan: [docs/analysis.md](docs/analysis.md), [docs/development-plan.md](docs/development-plan.md). Conversion status: [docs/status-s2.md](docs/status-s2.md). The first trial is documented in [docs/status-s0.md](docs/status-s0.md).
 
 The [Kanban board](board.html) opens directly in the browser, even without a server or network. It has Backlog, To do, In progress, Waiting and Done columns, filters by sprint and assignee, search, and cards that open with details and dependencies. Tasks come from the plan; operational statuses, assignees and postponements from `data/board.json`. After an update run `pnpm board`. The board does not modify the plan and does not save local moves that could misrepresent the state of the work.
 
@@ -42,7 +42,9 @@ The build regenerates the Markdown from the recovered files, validates the schem
 - `data/corrections/<slug>.json`: optional persistent corrections, a list of objects `{ "from": "existing text", "to": "corrected text" }`. A correction that cannot be applied blocks the build.
 - `reports/`: gaps and comparison with the sources, including the aspects still to verify.
 
-In S0 documents are represented one per page, as a reading trial. Splitting prompts, merging split works and structured attributions come in S2. The Lista frameset does not become an empty work: the link leads to the recovered text frame. PDFs are kept but excluded from the output until they are checked and prepared for reading.
+S2 uses the editorial map rather than one page per original file. The selected edition contains 46 items: the fixed random sample of 30, previous trials and an explicit five-document merge. Ten short prompts have their own `/divergences/` routes. The prepared Sardinia PDF includes its text layer and three illustrations; other raw attachments remain unserved. The map contains proposals for the full recovered inventory, awaiting progressive review.
+
+See [the content model](docs/content-model.md) for schemas, provenance, review preservation and the fixed sample. To regenerate proposals deliberately, run `pnpm editorial:map`, `pnpm editorial:sample`, then `pnpm editorial:enrich`. Normal builds consume the committed map and sample without redrawing them. Use `pnpm exec wrangler dev --local` after building when checking production CSP and interactive controls; Astro preview does not apply `_headers`.
 
 ```sh
 pnpm recovery download --only data/sample.json --batch 10 --pause 30 --delay 2

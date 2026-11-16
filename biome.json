@@ -4,6 +4,7 @@
     "includes": [
       "**",
       "!!archive",
+      "!!data/map.yaml",
       "!!dist",
       "!!.astro",
       "!!.wrangler",

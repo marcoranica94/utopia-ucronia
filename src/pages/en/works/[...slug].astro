@@ -3,10 +3,12 @@ import { getCollection } from "astro:content";
 import Work from "../../../views/Work.astro";
 
 export async function getStaticPaths() {
-  return (await getCollection("works")).map((work) => ({
-    params: { slug: work.id },
-    props: { work },
-  }));
+  return (await getCollection("works"))
+    .filter((work) => work.data.level === "work")
+    .map((work) => ({
+      params: { slug: work.id },
+      props: { work },
+    }));
 }
 ---
 <Work work={Astro.props.work} lang="en" />

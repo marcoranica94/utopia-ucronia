@@ -1,0 +1,476 @@
+{
+  "seed": "e949a318daddf0643c1251da096fde1f",
+  "method": "Stratified random sample without replacement; SHA-256 ranking with a recorded random seed. No rejection or resampling after failures.",
+  "groups": [
+    {
+      "name": "works",
+      "count": 15,
+      "population": 780
+    },
+    {
+      "name": "divergences",
+      "count": 10,
+      "population": 7093
+    },
+    {
+      "name": "anchored-pieces",
+      "count": 5,
+      "population": 635
+    }
+  ],
+  "randomCount": 30,
+  "totalCount": 46,
+  "allPassed": true,
+  "items": [
+    {
+      "id": "item-01cfe4c70e3c",
+      "slug": "paella-western-01cfe4c7",
+      "path": "/divergences/paella-western-01cfe4c7/",
+      "characters": 494,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 0,
+        "viewable": 0,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-19d8bc93286f",
+      "slug": "l-ordine-degli-istari-19d8bc93",
+      "path": "/works/l-ordine-degli-istari-19d8bc93/",
+      "characters": 6011,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 1,
+      "images": {
+        "sourceKept": 1,
+        "viewable": 1,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-1ee21bfcd0dc",
+      "slug": "il-business-plot-1ee21bfc",
+      "path": "/divergences/il-business-plot-1ee21bfc/",
+      "characters": 1244,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 0,
+        "viewable": 0,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-2df2ab08b8b1",
+      "slug": "i-simpson-in-italia-961c6b78",
+      "path": "/works/i-simpson-in-italia-961c6b78/",
+      "characters": 94936,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 4,
+        "viewable": 4,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-32811a9da57d",
+      "slug": "la-francia-potenza-navale-32811a9d",
+      "path": "/divergences/la-francia-potenza-navale-32811a9d/",
+      "characters": 1993,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 0,
+        "viewable": 0,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-420d4218cf92",
+      "slug": "l-austria-o-l-australia-1a533aaa",
+      "path": "/works/l-austria-o-l-australia-1a533aaa/",
+      "characters": 89179,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 9,
+        "viewable": 9,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-4809ad47a8cd",
+      "slug": "la-seconda-guerra-mondiale-anticipata-7d70160d",
+      "path": "/works/la-seconda-guerra-mondiale-anticipata-7d70160d/",
+      "characters": 73178,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 15,
+        "viewable": 15,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-4953943776a0",
+      "slug": "capitolo-xvi-la-guerra-delle-montagne-antiche-seconda-parte-49539437",
+      "path": "/works/capitolo-xvi-la-guerra-delle-montagne-antiche-seconda-parte-49539437/",
+      "characters": 3082,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 1,
+      "images": {
+        "sourceKept": 0,
+        "viewable": 0,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-51b6636278af",
+      "slug": "x-sovrani-di-aceh-51b66362",
+      "path": "/works/x-sovrani-di-aceh-51b66362/",
+      "characters": 4372,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 1,
+      "images": {
+        "sourceKept": 1,
+        "viewable": 1,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-54014ff947d0",
+      "slug": "l-onorevole-bonvi-54014ff9",
+      "path": "/divergences/l-onorevole-bonvi-54014ff9/",
+      "characters": 1366,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 0,
+        "viewable": 0,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-55f1fe3018da",
+      "slug": "la-seconda-repubblica-di-genova-c1e98698",
+      "path": "/works/la-seconda-repubblica-di-genova-c1e98698/",
+      "characters": 83657,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 1,
+      "images": {
+        "sourceKept": 6,
+        "viewable": 6,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-5f3009215a5d",
+      "slug": "e-se-stanislav-petrov-non-fosse-stato-al-suo-posto-5f300921",
+      "path": "/works/e-se-stanislav-petrov-non-fosse-stato-al-suo-posto-5f300921/",
+      "characters": 27210,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 1,
+      "images": {
+        "sourceKept": 2,
+        "viewable": 2,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-650be1829792",
+      "slug": "papa-filippo-i-650be182",
+      "path": "/divergences/papa-filippo-i-650be182/",
+      "characters": 335,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 0,
+        "viewable": 0,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-6ff42bd45ba4",
+      "slug": "4-novembre-1995-ygal-amir-fa-cilecca-ac1aacb3",
+      "path": "/works/4-novembre-1995-ygal-amir-fa-cilecca-ac1aacb3/",
+      "characters": 56364,
+      "tables": 1,
+      "headings": 0,
+      "anchors": 1,
+      "images": {
+        "sourceKept": 8,
+        "viewable": 8,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-80fda13bb94e",
+      "slug": "deutsche-arbeiter-reich-1fd7850d",
+      "path": "/works/deutsche-arbeiter-reich-1fd7850d/",
+      "characters": 67879,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 5,
+        "viewable": 5,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-86e4d7d1678a",
+      "slug": "l-ucronia-di-al-bano-86e4d7d1",
+      "path": "/divergences/l-ucronia-di-al-bano-86e4d7d1/",
+      "characters": 1069,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 0,
+        "viewable": 0,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-96e96077fb6b",
+      "slug": "il-regno-di-croazia-e42ac962",
+      "path": "/works/il-regno-di-croazia-e42ac962/",
+      "characters": 18766,
+      "tables": 1,
+      "headings": 0,
+      "anchors": 1,
+      "images": {
+        "sourceKept": 3,
+        "viewable": 3,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-a36aa586df6d",
+      "slug": "la-valanga-azzurra-continua-a36aa586",
+      "path": "/divergences/la-valanga-azzurra-continua-a36aa586/",
+      "characters": 1931,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 0,
+        "viewable": 0,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-aa74e689a3e5",
+      "slug": "ucronia-normanna-42e920c0",
+      "path": "/works/ucronia-normanna-42e920c0/",
+      "characters": 42476,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 3,
+        "viewable": 3,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-af00ba6ed2d0",
+      "slug": "una-scimmietta-cambia-la-storia-c2ddaa37",
+      "path": "/works/una-scimmietta-cambia-la-storia-c2ddaa37/",
+      "characters": 91207,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 1,
+      "images": {
+        "sourceKept": 12,
+        "viewable": 12,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-af568f5cd0a7",
+      "slug": "671-il-mediterraneo-islamico-1fcafcd0",
+      "path": "/works/671-il-mediterraneo-islamico-1fcafcd0/",
+      "characters": 87087,
+      "tables": 1,
+      "headings": 0,
+      "anchors": 3,
+      "images": {
+        "sourceKept": 19,
+        "viewable": 19,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-be404a6ee00c",
+      "slug": "tiberio-ii-be404a6e",
+      "path": "/divergences/tiberio-ii-be404a6e/",
+      "characters": 688,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 0,
+        "viewable": 0,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-c04a88d695c6",
+      "slug": "ventidio-alto-c04a88d6",
+      "path": "/divergences/ventidio-alto-c04a88d6/",
+      "characters": 238,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 0,
+        "viewable": 0,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-c3de98760f99",
+      "slug": "l-impero-romano-feudale-4b167117",
+      "path": "/works/l-impero-romano-feudale-4b167117/",
+      "characters": 97303,
+      "tables": 1,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 1,
+        "viewable": 1,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-c818ae803d0d",
+      "slug": "la-vestale-fu-fatale-c818ae80",
+      "path": "/divergences/la-vestale-fu-fatale-c818ae80/",
+      "characters": 791,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 0,
+        "viewable": 0,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-d2d89629518b",
+      "slug": "ulisse-in-america-9ccc8d22",
+      "path": "/works/ulisse-in-america-9ccc8d22/",
+      "characters": 42344,
+      "tables": 12,
+      "headings": 0,
+      "anchors": 14,
+      "images": {
+        "sourceKept": 17,
+        "viewable": 8,
+        "explainedGaps": 1,
+        "explainedOccurrences": 9
+      }
+    },
+    {
+      "id": "item-d55a7d7301ca",
+      "slug": "fantacomneni-c4b37807",
+      "path": "/works/fantacomneni-c4b37807/",
+      "characters": 62759,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 1,
+        "viewable": 1,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-ddf96bead166",
+      "slug": "6-l-altra-amazzonia-ddf96bea",
+      "path": "/works/6-l-altra-amazzonia-ddf96bea/",
+      "characters": 21441,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 2,
+      "images": {
+        "sourceKept": 3,
+        "viewable": 3,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-e00e1de31a52",
+      "slug": "fath-ali-il-restauratore-1f959330",
+      "path": "/works/fath-ali-il-restauratore-1f959330/",
+      "characters": 42878,
+      "tables": 3,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 2,
+        "viewable": 2,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    },
+    {
+      "id": "item-e4fca6b0c1e0",
+      "slug": "il-giappone-con-la-triplice-alleanza-0a0803e2",
+      "path": "/works/il-giappone-con-la-triplice-alleanza-0a0803e2/",
+      "characters": 96260,
+      "tables": 0,
+      "headings": 0,
+      "anchors": 0,
+      "images": {
+        "sourceKept": 10,
+        "viewable": 10,
+        "explainedGaps": 0,
+        "explainedOccurrences": 0
+      }
+    }
+  ]
+}

@@ -16,6 +16,7 @@ async function pages(dir: string): Promise<string[]> {
 const errors: string[] = [];
 const responseHeaders = await readFile("dist/_headers", "utf8");
 let total = 0;
+const checked = new Map<string, Set<string> | null>();
 for (const file of await pages("dist")) {
   const html = await readFile(file, "utf8");
   const $ = load(html);
@@ -59,17 +60,26 @@ for (const file of await pages("dist")) {
     if (relative && u.pathname.endsWith("/"))
       target = path.join(target, "index.html");
     try {
-      await access(target);
-      if (u.hash && target.endsWith(".html")) {
-        const dest = load(await readFile(target, "utf8"));
-        const id = decodeURIComponent(u.hash.slice(1));
-        if (
-          !dest("[id]")
-            .toArray()
-            .some((e) => dest(e).attr("id") === id)
-        )
-          throw new Error(`Missing anchor: ${id}`);
+      if (!checked.has(target)) {
+        await access(target);
+        if (target.endsWith(".html")) {
+          const dest = load(await readFile(target, "utf8"));
+          checked.set(
+            target,
+            new Set(
+              dest("[id]")
+                .toArray()
+                .map((e) => dest(e).attr("id") ?? ""),
+            ),
+          );
+        } else checked.set(target, null);
       }
+      if (
+        u.hash &&
+        target.endsWith(".html") &&
+        !checked.get(target)?.has(decodeURIComponent(u.hash.slice(1)))
+      )
+        throw new Error(`Missing anchor: ${u.hash}`);
     } catch {
       errors.push(`${file}: ${href}`);
     }

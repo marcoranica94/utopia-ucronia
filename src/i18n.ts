@@ -7,6 +7,33 @@ export const languages = ["it", "en"] as const;
 export type Lang = (typeof languages)[number];
 
 const it = {
+  "source.image": "Immagine dal documento originale",
+  "source.pdfImage": "Illustrazione dal PDF, pagina {n}",
+  "atlas.type.divergence": "Spunti",
+  "shape.divergence": "Spunto di divergenza",
+  "lang.en": "Inglese",
+  "lang.unknown": "Lingua da verificare",
+  "work.language.en": "Testo in inglese.",
+  "work.language.unknown": "Lingua da verificare.",
+  "gaps.reason.archive-missing":
+    "Il file non è stato recuperato: la lacuna è registrata nell’archivio.",
+  "gaps.reason.edition-pending":
+    "Il documento è stato recuperato, ma non è ancora incluso in questa edizione.",
+  "gaps.reason.attachment-pending":
+    "L’allegato è conservato nell’archivio e attende la preparazione per la lettura.",
+  "gaps.reason.external-excluded":
+    "È una risorsa esterna, esclusa dalla copia di lettura.",
+  "gaps.reason.unsupported-format":
+    "Questo formato rimane conservato nell’archivio, ma non viene pubblicato dal sito.",
+  "gaps.reason.unsupported-query":
+    "Il collegamento contiene una richiesta dinamica che la copia statica non esegue.",
+  "gaps.reason.archive-unlisted":
+    "Non è disponibile un documento corrispondente nell’inventario recuperato.",
+  "gaps.reason.anchor-missing":
+    "La destinazione interna indicata dalla fonte non è disponibile nella conversione.",
+  "gaps.resource": "Risorsa",
+  "gaps.referrer": "Pagina che la cita",
+
   "atlas.signature": "UtopiaUcronia, dal 2004",
   "atlas.heading": "La storia ha\naltre strade.",
   "atlas.description":
@@ -190,6 +217,33 @@ const it = {
 };
 
 const en: Record<keyof typeof it, string> = {
+  "source.image": "Image from the original document",
+  "source.pdfImage": "PDF illustration, page {n}",
+  "atlas.type.divergence": "Divergences",
+  "shape.divergence": "Divergence prompt",
+  "lang.en": "English",
+  "lang.unknown": "Language unverified",
+  "work.language.en": "Text in English.",
+  "work.language.unknown": "Language not yet verified.",
+  "gaps.reason.archive-missing":
+    "The file was not recovered; this gap is recorded in the archive.",
+  "gaps.reason.edition-pending":
+    "The document was recovered but is not yet included in this edition.",
+  "gaps.reason.attachment-pending":
+    "The attachment is preserved in the archive and awaits preparation for reading.",
+  "gaps.reason.external-excluded":
+    "This external resource is excluded from the reading copy.",
+  "gaps.reason.unsupported-format":
+    "This format is preserved in the archive but is not published by the site.",
+  "gaps.reason.unsupported-query":
+    "The link contains a dynamic request that the static copy does not execute.",
+  "gaps.reason.archive-unlisted":
+    "No matching document is available in the recovered inventory.",
+  "gaps.reason.anchor-missing":
+    "The internal destination specified by the source is unavailable in the conversion.",
+  "gaps.resource": "Resource",
+  "gaps.referrer": "Referring source",
+
   "atlas.signature": "UtopiaUcronia, since 2004",
   "atlas.heading": "History has\nother paths.",
   "atlas.description":
@@ -440,6 +494,11 @@ export function centuryLabel(lang: Lang, year: number): string {
 export function localizeHtml(html: string, lang: Lang): string {
   const t = useTranslations(lang);
   return html
+    .replace(/alt="@source.image"/g, `alt="${t("source.image")}"`)
+    .replace(
+      /alt="@pdf.image.(\d+)"/g,
+      (_whole, page: string) => `alt="${t("source.pdfImage", { n: page })}"`,
+    )
     .replace(
       /<span data-t="([\w.]+)"(?: data-n="(\d+)")?><\/span>/g,
       (whole, key: string, n?: string) => {
@@ -448,7 +507,9 @@ export function localizeHtml(html: string, lang: Lang): string {
         return isKey(k) ? `<span>${t(k, { n: n ?? "" })}</span>` : whole;
       },
     )
-    .replace(/href="\/(works|gaps)\//g, (whole, section: string) =>
-      lang === "en" ? `href="/en/${section}/` : whole,
+    .replace(
+      /href="\/(works|divergences|worlds|gaps)\//g,
+      (whole, section: string) =>
+        lang === "en" ? `href="/en/${section}/` : whole,
     );
 }

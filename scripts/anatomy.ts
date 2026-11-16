@@ -20,6 +20,7 @@ export type Block = {
   text: string;
   names: string[];
   anchor?: string;
+  anchors?: string[];
   bold: boolean;
   image: boolean;
   hr: boolean;
@@ -38,9 +39,11 @@ export type Segment = {
   author?: string;
   /** The original line that introduced the contribution, kept verbatim. */
   intro?: string;
+  introBlock?: Block;
   title?: string;
   /** Original anchor name, kept so that the page's own links still work. */
   anchor?: string;
+  anchors?: string[];
   kind?: ContributionKind;
   replyTo?: string;
   pod?: Entry;
@@ -60,6 +63,8 @@ export type Anatomy = {
   /** Every block of the page, and those deliberately left out of the text. */
   blocks: Block[];
   removed: Set<Block>;
+  headerAnchors?: string[];
+  footerAnchors?: string[];
 };
 
 const blockTags = new Set([
@@ -92,11 +97,19 @@ const norm = (s: string) =>
     .trim();
 
 /** Flattens the body into paragraph-level blocks, whatever the nesting. */
-export function blocks(html: string): Block[] {
+export function blocks(html: string, preserveWrapperAnchors = false): Block[] {
   const $ = load(html);
-  $("script,style,noscript,iframe,object,embed,applet,bgsound").remove();
+  $(
+    "script,style,noscript,iframe,input,button,select,textarea,object,embed,applet,bgsound",
+  ).remove();
   const out: Block[] = [];
   let run: AnyNode[] = [];
+  let pendingAnchors: string[] = [];
+  const preserve = (node: Element) => {
+    if (!preserveWrapperAnchors) return;
+    const id = $(node).attr("id") ?? $(node).attr("name");
+    if (id) pendingAnchors.push(id);
+  };
   const make = (nodes: AnyNode[], tag?: string) => {
     const $w = load("<div></div>");
     const wrap = $w("div");
@@ -114,7 +127,22 @@ export function blocks(html: string): Block[] {
     const text = clean(wrap.text());
     const image = wrap.find("img").length > 0 || tag === "img";
     const hr = tag === "hr" || wrap.find("hr").length > 0;
-    if (!text && !image && !hr) return;
+    if (!text && !image && !hr) {
+      if (preserveWrapperAnchors)
+        pendingAnchors.push(
+          ...wrap
+            .find("[id],a[name]")
+            .toArray()
+            .map((el) => $w(el).attr("id") ?? $w(el).attr("name") ?? "")
+            .filter(Boolean),
+        );
+      return;
+    }
+    if (pendingAnchors.length) {
+      for (const id of [...new Set(pendingAnchors)].reverse())
+        wrap.prepend($w("<a></a>").attr("name", id));
+      pendingAnchors = [];
+    }
     const names = wrap
       .find('a[href^="mailto:" i]')
       .toArray()
@@ -128,6 +156,15 @@ export function blocks(html: string): Block[] {
       text,
       names,
       anchor,
+      anchors: [
+        ...new Set(
+          wrap
+            .find("[id],a[name]")
+            .toArray()
+            .map((el) => $w(el).attr("id") ?? $w(el).attr("name") ?? "")
+            .filter(Boolean),
+        ),
+      ],
       bold: text.length > 0 && boldText.length >= text.length * 0.8,
       image,
       hr,
@@ -150,6 +187,7 @@ export function blocks(html: string): Block[] {
       if (tag === "form" || tag === "font" || tag === "span" || tag === "a") {
         // Inline wrappers that FrontPage stretches around whole paragraphs.
         if (hasBlockChild($(node))) {
+          preserve(node);
           walk($(node).contents());
           return;
         }
@@ -172,11 +210,27 @@ export function blocks(html: string): Block[] {
       flush();
       if (atomicTags.has(tag) || tag === "hr" || !hasBlockChild($(node)))
         make([node], tag);
-      else walk($(node).contents());
+      else {
+        preserve(node);
+        walk($(node).contents());
+      }
     });
     flush();
   };
   walk($("body").length ? $("body").contents() : $.root().contents());
+  if (pendingAnchors.length)
+    out.push({
+      html: pendingAnchors
+        .map((id) => `<span id="${id.replace(/["<>&]/g, "")}"></span>`)
+        .join(""),
+      text: "",
+      names: [],
+      anchors: pendingAnchors,
+      bold: false,
+      image: false,
+      hr: false,
+      marquee: false,
+    });
   return out;
 }
 
@@ -349,13 +403,44 @@ function structure(segment: Segment, body: Block[], idPrefix: string): void {
   }
 }
 
+function isNavigationGraphic(block: Block): boolean {
+  if (!block.image || block.text) return false;
+  const $ = load(block.html);
+  return (
+    $("a[href]")
+      .toArray()
+      .some((a) =>
+        /^(?:mailto:)|(?:^|\/)(?:index|lista_ucronie|lavori)\.html?(?:#.*)?$/i.test(
+          $(a).attr("href") ?? "",
+        ),
+      ) ||
+    $("img")
+      .toArray()
+      .some((img) =>
+        /(?:logo|e-?mail|torna indietro)/i.test(
+          [$(img).attr("alt"), $(img).attr("title")].join(" "),
+        ),
+      )
+  );
+}
+
 export function anatomy(html: string, documentTitle: string): Anatomy {
-  const all = blocks(html);
+  const all = blocks(html, true);
   const dropped: string[] = [];
   const removed = new Set<Block>();
   // Header: everything up to the first rule, if the rule comes early.
   const firstHr = all.findIndex((b) => b.hr && !b.text);
-  const headerEnd = firstHr >= 0 && firstHr <= 8 ? firstHr + 1 : 0;
+  const candidate = firstHr >= 0 && firstHr <= 8 ? all.slice(0, firstHr) : [];
+  const sourceTitle = norm(documentTitle.replace(/^\[[^\]]*\]\s*/, ""));
+  const metadataOnly = candidate.every((b) =>
+    !b.text
+      ? !b.image || isNavigationGraphic(b)
+      : b.marquee ||
+        Boolean(authorLine(b.text)) ||
+        norm(b.text) === sourceTitle,
+  );
+  // An early horizontal rule is not proof that preceding prose is a header.
+  const headerEnd = candidate.length > 0 && metadataOnly ? firstHr + 1 : 0;
   const header = all.slice(0, headerEnd);
   // The header's title and author line are shown in the page header instead.
   for (const b of header) removed.add(b);
@@ -376,9 +461,9 @@ export function anatomy(html: string, documentTitle: string): Anatomy {
     const b = rest.at(-1) as Block;
     if (
       (b.hr && !b.text) ||
-      navRe.test(b.text) ||
-      (b.image && !b.text) ||
-      inviteRe.test(b.text) ||
+      (navRe.test(b.text) && load(b.html)("a[href]").length > 0) ||
+      isNavigationGraphic(b) ||
+      (inviteRe.test(b.text) && b.text.length < 200) ||
       b.text === "."
     ) {
       if (b.text && b.text !== ".") dropped.push(b.text);
@@ -405,6 +490,10 @@ export function anatomy(html: string, documentTitle: string): Anatomy {
   for (const b of rest) {
     const body = bodies.get(current) as Block[];
     if ((b.hr && !b.text) || b.text === "." || b.text === "*") {
+      if (b.anchors?.length) {
+        body.push(b);
+        continue;
+      }
       removed.add(b);
       continue;
     }
@@ -418,6 +507,7 @@ export function anatomy(html: string, documentTitle: string): Anatomy {
         id: `p${++pieces}`,
         role: "piece",
         title: b.text,
+        anchors: b.anchors,
         ...(b.anchor ? { anchor: b.anchor } : {}),
         lead: [],
         entries: [],
@@ -431,6 +521,7 @@ export function anatomy(html: string, documentTitle: string): Anatomy {
     if (by && b.text.length < 80 && !body.length && !current.author) {
       current.author = clean(by);
       current.byline = b.text;
+      current.anchors = [...(current.anchors ?? []), ...(b.anchors ?? [])];
       continue;
     }
     if (isSignature(b, current.author)) {
@@ -467,6 +558,7 @@ export function anatomy(html: string, documentTitle: string): Anatomy {
         role: "contribution",
         author: speaker,
         intro: b.text,
+        introBlock: b,
         kind,
         ...(kind === "reply" && target ? { replyTo: target.id } : {}),
         lead: [],
@@ -498,6 +590,10 @@ export function anatomy(html: string, documentTitle: string): Anatomy {
     dropped,
     blocks: all,
     removed,
+    headerAnchors: header.flatMap((b) => b.anchors ?? []),
+    footerAnchors: [...removed]
+      .filter((b) => !header.includes(b))
+      .flatMap((b) => b.anchors ?? []),
   };
 }
 

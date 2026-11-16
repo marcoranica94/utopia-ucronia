@@ -151,6 +151,7 @@ body.reader-drawer-open {
   cursor: pointer;
 }
 .contents-panel {
+  overflow-wrap: anywhere;
   position: fixed;
   top: 0;
   bottom: 0;
@@ -422,6 +423,9 @@ body.reader-drawer-open {
   font-family: var(--font-ui);
 }
 .contribution-author {
+  min-width: 0;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   font-weight: 600;
   font-size: 1.25rem;
 }

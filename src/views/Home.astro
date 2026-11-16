@@ -2,6 +2,7 @@
 import { getCollection } from "astro:content";
 import catalogNotes from "../../data/catalog.json";
 import CatalogCover from "../components/CatalogCover.astro";
+import { contentPath } from "../content-path";
 import { type Lang, localePath, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
 import "../styles/catalog.css";
@@ -36,11 +37,16 @@ const works = (await getCollection("works")).sort((a, b) => {
 });
 const clean = (s: string) => s.replace(/^\[ucronia\]\s*/i, "");
 const format = (work: (typeof works)[number]) =>
-  notes[work.id]?.motif === "archive" ? "archive" : (work.data.shape ?? "work");
+  work.data.level === "divergence"
+    ? "divergence"
+    : notes[work.id]?.motif === "archive"
+      ? "archive"
+      : (work.data.shape ?? "work");
 const count = (n: number) =>
   `${n} ${n === 1 ? t("home.count.one") : t("home.count.many")}`;
 const types = [
   "all",
+  "divergence",
   "chronology",
   "narrative",
   "discussion",
@@ -71,20 +77,20 @@ const featuredPath = featured
       <div class="collection-heading"><div><h2 id="catalog-title">{t("atlas.collection")}</h2><p>{t("atlas.collectionIntro")}</p></div><div class="catalog-view-switch" role="group" aria-label={t("atlas.view")} data-catalog-tools hidden><button type="button" data-view="covers" aria-pressed="true"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2h6v6H2zm10 0h6v6h-6zM2 12h6v6H2zm10 0h6v6h-6z" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.covers")}</button><button type="button" data-view="list" aria-pressed="false"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 4h16M2 10h16M2 16h16" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.list")}</button></div></div>
       <form class="atlas-filters" role="search" aria-label={t("home.filters")} data-catalog-tools hidden>
         <div class="atlas-search"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.7"/></svg><label class="visually-hidden" for="catalog-search">{t("home.search")}</label><input id="catalog-search" name="q" type="search" placeholder={t("atlas.searchPlaceholder")} autocomplete="off" /></div>
-        <label class="atlas-language" for="catalog-language"><span>{t("home.language")}</span><select id="catalog-language" name="lang"><option value="">{t("home.allLanguages")}</option><option value="it">{t("lang.it")}</option><option value="fr">{t("lang.fr")}</option><option value="es">{t("lang.es")}</option></select></label>
+        <label class="atlas-language" for="catalog-language"><span>{t("home.language")}</span><select id="catalog-language" name="lang"><option value="">{t("home.allLanguages")}</option><option value="it">{t("lang.it")}</option><option value="fr">{t("lang.fr")}</option><option value="es">{t("lang.es")}</option><option value="en">{t("lang.en")}</option><option value="unknown">{t("lang.unknown")}</option></select></label>
       </form>
       <div class="catalog-toolbar"><div class="format-filters" role="group" aria-label={t("atlas.format")} data-catalog-tools hidden>{types.map(type => <button type="button" data-format={type} aria-pressed={type === "all" ? "true" : "false"}>{t(`atlas.type.${type}`)}</button>)}</div><p id="catalog-count" role="status" data-one={t("home.count.one")} data-many={t("home.count.many")}>{count(works.length)}</p></div>
       <ul class="atlas-catalog" data-catalog data-view="covers">
         {works.map((work) => {
           const note = notes[work.id];
           const title = clean(work.data.title);
-          const summary = note?.[lang] ?? "";
+          const summary = note?.[lang] ?? work.data.summary ?? "";
           const authors = work.data.authors;
           const variants = work.data.outline?.filter(i => i.contribution === "variant").length ?? 0;
           return <li data-work data-title={`${title} ${authors.join(" ")} ${(work.data.contributors ?? []).join(" ")} ${summary}`} data-language={work.data.language} data-format={format(work)}>
-            <a class="work-card" href={localePath(lang, `/works/${work.id}/`)} aria-labelledby={`title-${work.id}`}>
-              <CatalogCover image={note?.cover} motif={note?.motif ?? "archive"} title={title} />
-              <div class="work-info"><div class="work-card-meta"><span>{t(`atlas.type.${format(work)}`)}</span><span>{t(`lang.${work.data.language}`)}</span></div><h3 id={`title-${work.id}`} lang={work.data.language}>{title}</h3><p class="work-description">{summary}</p><div class="work-card-foot"><span>{authors.length ? authors.join(", ") : work.data.contributors?.length ? t("atlas.collective") : t("atlas.fromArchive")}</span><span class="work-read">{variants > 0 ? t("atlas.variants", { n: variants }) : t("atlas.read")}<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></span></div></div>
+            <a class="work-card" href={localePath(lang, contentPath(work))} aria-labelledby={`title-${work.id}`}>
+              <CatalogCover image={note?.cover ?? work.data.cover} motif={note?.motif ?? "story"} title={title} />
+              <div class="work-info"><div class="work-card-meta"><span>{t(`atlas.type.${format(work)}`)}</span><span>{t(`lang.${work.data.language}`)}</span></div><h3 id={`title-${work.id}`} lang={work.data.language === "unknown" ? "" : work.data.language}>{title}</h3><p class="work-description" lang={note ? lang : work.data.language === "unknown" ? "" : work.data.language}>{summary}</p><div class="work-card-foot"><span>{authors.length ? authors.join(", ") : work.data.contributors?.length ? t("atlas.collective") : t("atlas.fromArchive")}</span><span class="work-read">{variants > 0 ? t("atlas.variants", { n: variants }) : t("atlas.read")}<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></span></div></div>
             </a>
           </li>;
         })}

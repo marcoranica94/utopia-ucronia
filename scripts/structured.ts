@@ -73,6 +73,11 @@ export function renderStructured(
 ): { body: string; outline: OutlineItem[]; contributors: string[] } {
   const outline: OutlineItem[] = [];
   const out: string[] = [];
+  const anchorMarkup = (ids: string[] = []) =>
+    [...new Set(ids)]
+      .map((id) => `<span id="${escapeHtml(id)}"></span>`)
+      .join("");
+  out.push(anchorMarkup(a.headerAnchors));
   const byId = new Map(a.segments.map((s) => [s.id, s]));
   const md = (blocks: Block[]) =>
     blocks.length ? toMarkdown(blocks.map((b) => b.html).join("\n")) : "";
@@ -177,8 +182,13 @@ export function renderStructured(
       folded
         ? `<details class="${classes}" id="${s.id}"><summary><span class="contribution-head" data-ui>${head}</span><span class="contribution-preview" data-ui>${escapeHtml(summary(s.lead, 14))}</span></summary>`
         : `<section class="${classes}" id="${s.id}"><header class="contribution-head" data-ui>${head}</header>`,
+      anchorMarkup(s.anchors),
       `<div class="contribution-body">`,
-      s.intro ? `<p class="contribution-intro">${escapeHtml(s.intro)}</p>` : "",
+      s.introBlock
+        ? `<div class="contribution-intro">\n\n${md([s.introBlock])}\n\n</div>`
+        : s.intro
+          ? `<p class="contribution-intro">${escapeHtml(s.intro)}</p>`
+          : "",
       "",
     );
     segmentBody(s, depth + 1);
@@ -201,7 +211,10 @@ export function renderStructured(
       });
       out.push(
         `<section class="piece" id="${owner.id}">`,
-        owner.anchor ? `<span id="${escapeHtml(owner.anchor)}"></span>` : "",
+        anchorMarkup([
+          ...(owner.anchors ?? []),
+          ...(owner.anchor ? [owner.anchor] : []),
+        ]),
         `<header class="piece-head"><h2 class="piece-title">${escapeHtml(owner.title ?? "")}</h2>${owner.byline ? `<p class="piece-byline">${escapeHtml(owner.byline)}</p>` : ""}</header>`,
         `<div class="piece-body">`,
         "",
@@ -222,6 +235,7 @@ export function renderStructured(
     });
     out.push(
       `<section class="part part-main" id="start">`,
+      anchorMarkup(owner.anchors),
       `<header class="part-head" data-ui><span class="part-label">${ui(`part.main.${a.shape}`)}</span>${owner.author ? `<span class="part-author">${escapeHtml(owner.author)}</span>` : ""}</header>`,
       `<div class="part-body">`,
       "",
@@ -244,6 +258,7 @@ export function renderStructured(
       out.push("</section>", "");
     }
   }
+  out.push(anchorMarkup(a.footerAnchors));
   const contributors = [
     ...new Set(
       a.segments

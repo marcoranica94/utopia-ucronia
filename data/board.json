@@ -12,14 +12,14 @@
       "contains": "Full recovery download",
       "status": "done",
       "assignee": "Development",
-      "note": "All 6,985 queued URLs were checked through Wayback and/or the original server. Coverage is 6,878 recovered (98.5%); 107 unresolved URLs are documented. Final retry and hash verification completed on 13 November 2026."
+      "note": "All 6,995 inventoried URLs were checked. Final coverage: 6,900 recovered, 95 missing and zero failed attempts; all recovered hashes verified."
     },
     {
       "sprint": "S1",
       "contains": "`recovery coverage`",
       "status": "done",
       "assignee": "Development",
-      "note": "Coverage report is complete: 6,878 of 6,985 queued URLs recovered. The owner requested one final retry of all 107 unresolved URLs; it recovered zero. The remaining links are documented and deferred for future review. The reference date for /original/ moved to S5."
+      "note": "Coverage is complete: 6,900 of 6,995 inventoried URLs recovered. All 95 remaining gaps are documented. The cleaned /original/ copy remains S5 work."
     },
     {
       "sprint": "S4",
@@ -33,7 +33,7 @@
       "contains": "Pages for worlds, authors, eras, places and themes",
       "status": "doing",
       "assignee": "Development",
-      "note": "The sample catalog now filters titles and language, and keeps the filters in the URL. World, author, era, place and theme pages await structured metadata from S2."
+      "note": "The catalog supports partial metadata and language filters. S2 provides the editorial model and map; full taxonomy and world/author/era/place/theme pages await progressive review in S4."
     },
     {
       "sprint": "S5",

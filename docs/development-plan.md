@@ -1,6 +1,6 @@
 # Development plan
 
-Updated 12/11/2026. Analysis, content model and risks are in [analysis.md](analysis.md).
+Updated 16/11/2026. Analysis, content model and risks are in [analysis.md](analysis.md).
 
 Seven sprints, S0 to S6. The first proves that the material can be recovered and converted well, on about ten files chosen on purpose, and sets up repository, private deploy and backups. The third already delivers a useful version: reading, simple catalog and search. Classification, final design and the divergence tree grow around it. Every sprint ends with a demo: we move to the next one only if it succeeds without touch-ups.
 
@@ -183,19 +183,19 @@ Demo: `archive/coverage.md` with the percentages by type; rerunning `download` d
 
 ### S2 · Conversion
 
-- [ ] Left-side reading navigation requested on 16/11/2026: a narrow year/contributor rail and an overlay drawer preserve wide text. Phone uses a compact side tab. Branches, focus handling and current-position highlighting are retained; see [reading-design.md](reading-design.md). Pending: owner review.
-- [ ] Reading redesign revised on 16/11/2026 after owner review: full-width text, author and date headings above paragraphs, an expandable contents panel with separate story branches and dated events, explicit light/dark/system modes and a floating back-to-top link. The earlier A/B URLs now share this reader. See [reading-design.md](reading-design.md) for research and browser checks. Pending: owner visual review
+- [x] Left-side reading navigation requested on 16/11/2026: a narrow year/contributor rail and an overlay drawer preserve wide text. Phone uses a compact side tab. Branches, focus handling and current-position highlighting are retained; see [reading-design.md](reading-design.md). Approved by the owner ("Bello bello"), 16/11/2026.
+- [x] Reading redesign revised on 16/11/2026 after owner review: full-width text, author and date headings above paragraphs, an expandable contents panel with separate story branches and dated events, explicit light/dark/system modes and a floating back-to-top link. The earlier A/B URLs now share this reader. See [reading-design.md](reading-design.md) for research and browser checks. Approved by the owner on 16/11/2026
 - [x] Bilingual interface (owner decision of 13/11/2026): Italian at `/`, English under `/en/`, IT/EN switch in the header, strings in `src/i18n.ts`, converter placeholders filled by the page; the S0 `/design/` preview stays Italian only
-- [ ] Trial on 10 deliberately different uchronias (`data/trial.json`), started 13/11/2026: `scripts/anatomy.ts` reads the page structure (header, main text, POD, dated entries, contributions with kind and reply target, collections on anchors), `scripts/structured.ts` writes sections and an outline, the reading page shows a timeline rail where variants branch off; two-step fidelity check passes on all nine HTML cases. PDF case converted with `unpdf@1.7.0` (layout-based headings and paragraphs; the fidelity check covers HTML only). Pending: owner review in the browser
-- [ ] Zod schema for documents, content items, contributions, authors, eras, places, themes
-- [ ] Agent that proposes the reorganization map (`data/map.yaml`): action, level and metadata, each with its reasoning
-- [ ] Extraction of divergences from the "Lista delle ucronie" and of contributions from collective pages
-- [ ] `convert`: encoding, FrontPage cleanup, Markdown (cleaned HTML where needed), merging and splitting, links and anchors rewritten, emails removed, images merged
-- [ ] Manual corrections in `data/corrections/`
-- [ ] Link check: every unresolved link is explained, as an error to fix or an archive gap
-- [ ] First accessibility checks on the reading components
+- [x] Trial on 10 deliberately different uchronias (`data/trial.json`): the nine HTML cases and prepared PDF pass full source fidelity. The PDF retains all three illustrations and independently checked text. Reading UI approved by the owner on 16/11/2026; browser conversion checks recorded in `reports/s2-browser.json`.
+- [x] Zod schema for documents, content items, contributions, authors, eras, places, themes
+- [x] Agent that proposes the reorganization map (`data/map.yaml`): action, level and metadata, each with its reasoning
+- [x] Extraction of divergences from the "Lista delle ucronie" and of contributions from collective pages
+- [x] `convert`: encoding, FrontPage cleanup, Markdown (cleaned HTML where needed), merging and splitting, links and anchors rewritten, emails removed, images merged
+- [x] Manual corrections in `data/corrections/`
+- [x] Link check: every unresolved link is explained, as an error to fix or an archive gap
+- [x] First accessibility checks on the reading components
 
-Demo: schema without errors; zero unexplained unresolved links; comparison checklist passed on 30 randomly chosen content items.
+Demo: passed on 16/11/2026; valid 6,900-document map, zero unexplained unresolved links, full comparison on all 30 fixed randomly selected content items plus 16 regression/trial views. See [status-s2.md](status-s2.md) for the seed, checks, limits and evidence. Editorial proposals remain unapproved; progressive owner review and complete publication belong to S3/S4.
 
 ### S3 · First useful version
 

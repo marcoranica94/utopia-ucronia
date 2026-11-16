@@ -1,0 +1,1121 @@
+{
+  "date": "2026-11-16",
+  "server": "Wrangler local with production _headers",
+  "seed": "e949a318daddf0643c1251da096fde1f",
+  "scope": "First S2 browser pass; full axe and assistive-technology audit remains S6.",
+  "lightDesktop": {
+    "width": 1440,
+    "height": 900,
+    "items": 30,
+    "http200": 30,
+    "loadedRetainedImages": true,
+    "pageOverflow": false,
+    "missingAlt": 0,
+    "screenshots": "All 30 opening screens inspected in three QA contact sheets; image/table/long-text cases also inspected directly."
+  },
+  "lightDetailedLast20": [
+    {
+      "path": "/works/la-seconda-repubblica-di-genova-c1e98698/",
+      "slug": "la-seconda-repubblica-di-genova-c1e98698",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 99803,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "La Seconda Repubblica di Genova"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/e-se-stanislav-petrov-non-fosse-stato-al-suo-posto-5f300921/",
+      "slug": "e-se-stanislav-petrov-non-fosse-stato-al-suo-posto-5f300921",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 32322,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Coluche"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/divergences/papa-filippo-i-650be182/",
+      "slug": "papa-filippo-i-650be182",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "text": 415,
+        "images": [],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/4-novembre-1995-ygal-amir-fa-cilecca-ac1aacb3/",
+      "slug": "4-novembre-1995-ygal-amir-fa-cilecca-ac1aacb3",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 68566,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 1,
+        "headings": 1
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/deutsche-arbeiter-reich-1fd7850d/",
+      "slug": "deutsche-arbeiter-reich-1fd7850d",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 79379,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "La Falange Rossa"
+          },
+          {
+            "loaded": true,
+            "alt": "Bandiera del Deutsche Arbeiter Reich (grazie ad Ainelif)"
+          },
+          {
+            "loaded": true,
+            "alt": "Karl Liebknecht (HL 1871-1919)"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/divergences/l-ucronia-di-al-bano-86e4d7d1/",
+      "slug": "l-ucronia-di-al-bano-86e4d7d1",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 1283,
+        "images": [],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/il-regno-di-croazia-e42ac962/",
+      "slug": "il-regno-di-croazia-e42ac962",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 22001,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Bandiera dell'Austra-Croazia-Ungheria"
+          },
+          {
+            "loaded": true,
+            "alt": "Bandiera del Regno di Croazia dal 1918"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 1,
+        "headings": 1
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/divergences/la-valanga-azzurra-continua-a36aa586/",
+      "slug": "la-valanga-azzurra-continua-a36aa586",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 2298,
+        "images": [],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/ucronia-normanna-42e920c0/",
+      "slug": "ucronia-normanna-42e920c0",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 50655,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/una-scimmietta-cambia-la-storia-c2ddaa37/",
+      "slug": "una-scimmietta-cambia-la-storia-c2ddaa37",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 108634,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Situazione dopo il trattato di Losanna del 1923"
+          },
+          {
+            "loaded": true,
+            "alt": "La basilica di Aghia Sophia restituita al culto"
+          },
+          {
+            "loaded": true,
+            "alt": "La Turchia all'epoca della Guerra Fredda"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 0,
+        "headings": 1
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/671-il-mediterraneo-islamico-1fcafcd0/",
+      "slug": "671-il-mediterraneo-islamico-1fcafcd0",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 104070,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Bandiera panaraba di anglokhanate (da questo sito)"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Sembra che i cosiddetti numeri arabi si riferiscano agli angoli che i loro simboli formano: 1 presenta un angolo, 4 ne ha quattro, 0 nessuno e così via!"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 1,
+        "headings": 1
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/divergences/tiberio-ii-be404a6e/",
+      "slug": "tiberio-ii-be404a6e",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 835,
+        "images": [],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/divergences/ventidio-alto-c04a88d6/",
+      "slug": "ventidio-alto-c04a88d6",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1440,
+        "text": 297,
+        "images": [],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/l-impero-romano-feudale-4b167117/",
+      "slug": "l-impero-romano-feudale-4b167117",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 116256,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 1,
+        "headings": 1
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/divergences/la-vestale-fu-fatale-c818ae80/",
+      "slug": "la-vestale-fu-fatale-c818ae80",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 959,
+        "images": [],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/ulisse-in-america-9ccc8d22/",
+      "slug": "ulisse-in-america-9ccc8d22",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 50257,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Attenzione! Questa è una finta pagina di Wikipedia!"
+          },
+          {
+            "loaded": true,
+            "alt": "Attenzione! Questa è una finta pagina di Wikipedia!"
+          },
+          {
+            "loaded": true,
+            "alt": "Il mondo miceneo nel Mar delle Antille secondo René Gérard"
+          },
+          {
+            "loaded": true,
+            "alt": "Questa foto dimostrerebbe come la Guadalupa vista dal mare assomigli effettivamente ad uno scudo, come afferma l'Odissea"
+          },
+          {
+            "loaded": true,
+            "alt": "Il periplo di Ulisse e quello degli Argonauti intorno al Sudamerica secondo René Gérard"
+          },
+          {
+            "loaded": true,
+            "alt": "L'isola di North Caicos, da Gérard identificata con l'omerica Itaca"
+          },
+          {
+            "loaded": true,
+            "alt": "Attenzione! Questa è una finta pagina di Wikipedia!"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 12,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/fantacomneni-c4b37807/",
+      "slug": "fantacomneni-c4b37807",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 74715,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 0,
+        "headings": 1
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/6-l-altra-amazzonia-ddf96bea/",
+      "slug": "6-l-altra-amazzonia-ddf96bea",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 26019,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/fath-ali-il-restauratore-1f959330/",
+      "slug": "fath-ali-il-restauratore-1f959330",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 50745,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 3,
+        "headings": 1
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    },
+    {
+      "path": "/works/il-giappone-con-la-triplice-alleanza-0a0803e2/",
+      "slug": "il-giappone-con-la-triplice-alleanza-0a0803e2",
+      "status": 200,
+      "desktop": {
+        "width": 1440,
+        "scrollWidth": 1425,
+        "text": 113647,
+        "images": [
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          },
+          {
+            "loaded": true,
+            "alt": "Immagine dal documento originale"
+          }
+        ],
+        "tables": 0,
+        "headings": 0
+      },
+      "mobile": {
+        "width": 320,
+        "scrollWidth": 305
+      }
+    }
+  ],
+  "darkMobile": {
+    "results": [
+      {
+        "path": "/divergences/paella-western-01cfe4c7/",
+        "slug": "paella-western-01cfe4c7",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Marco Zucca",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/works/l-ordine-degli-istari-19d8bc93/",
+        "slug": "l-ordine-degli-istari-19d8bc93",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/divergences/il-business-plot-1ee21bfc/",
+        "slug": "il-business-plot-1ee21bfc",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Federico Pozzi, Enrica S.",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/works/i-simpson-in-italia-961c6b78/",
+        "slug": "i-simpson-in-italia-961c6b78",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Never75, con interventi di altri 10 autori",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/divergences/la-francia-potenza-navale-32811a9d/",
+        "slug": "la-francia-potenza-navale-32811a9d",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Federico Pozzi",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/works/l-austria-o-l-australia-1a533aaa/",
+        "slug": "l-austria-o-l-australia-1a533aaa",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Lord Wilmore, con interventi di altri 8 autori",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/works/la-seconda-guerra-mondiale-anticipata-7d70160d/",
+        "slug": "la-seconda-guerra-mondiale-anticipata-7d70160d",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Lord Wilmore",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/works/capitolo-xvi-la-guerra-delle-montagne-antiche-seconda-parte-49539437/",
+        "slug": "capitolo-xvi-la-guerra-delle-montagne-antiche-seconda-parte-49539437",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/works/x-sovrani-di-aceh-51b66362/",
+        "slug": "x-sovrani-di-aceh-51b66362",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/divergences/l-onorevole-bonvi-54014ff9/",
+        "slug": "l-onorevole-bonvi-54014ff9",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Enrico Pizzo",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/works/la-seconda-repubblica-di-genova-c1e98698/",
+        "slug": "la-seconda-repubblica-di-genova-c1e98698",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/works/e-se-stanislav-petrov-non-fosse-stato-al-suo-posto-5f300921/",
+        "slug": "e-se-stanislav-petrov-non-fosse-stato-al-suo-posto-5f300921",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/divergences/papa-filippo-i-650be182/",
+        "slug": "papa-filippo-i-650be182",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di William Riker",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/works/4-novembre-1995-ygal-amir-fa-cilecca-ac1aacb3/",
+        "slug": "4-novembre-1995-ygal-amir-fa-cilecca-ac1aacb3",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Ipotetico Sole, con interventi di altri 25 autori",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/works/deutsche-arbeiter-reich-1fd7850d/",
+        "slug": "deutsche-arbeiter-reich-1fd7850d",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Ainelif, con interventi di altri 2 autori",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/divergences/l-ucronia-di-al-bano-86e4d7d1/",
+        "slug": "l-ucronia-di-al-bano-86e4d7d1",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Lord Wilmore",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/works/il-regno-di-croazia-e42ac962/",
+        "slug": "il-regno-di-croazia-e42ac962",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Tommaso Mazzoni",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/divergences/la-valanga-azzurra-continua-a36aa586/",
+        "slug": "la-valanga-azzurra-continua-a36aa586",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Pavel Tonkov",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/works/ucronia-normanna-42e920c0/",
+        "slug": "ucronia-normanna-42e920c0",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Francesco Dessolis, con interventi di altri 5 autori",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/works/una-scimmietta-cambia-la-storia-c2ddaa37/",
+        "slug": "una-scimmietta-cambia-la-storia-c2ddaa37",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di dDuck, con interventi di altri 13 autori",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/works/671-il-mediterraneo-islamico-1fcafcd0/",
+        "slug": "671-il-mediterraneo-islamico-1fcafcd0",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Falecius, con interventi di altri 13 autori",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/divergences/tiberio-ii-be404a6e/",
+        "slug": "tiberio-ii-be404a6e",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di William Riker",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/divergences/ventidio-alto-c04a88d6/",
+        "slug": "ventidio-alto-c04a88d6",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Falecius",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/works/l-impero-romano-feudale-4b167117/",
+        "slug": "l-impero-romano-feudale-4b167117",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Iacopo, con interventi di altri 5 autori",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/divergences/la-vestale-fu-fatale-c818ae80/",
+        "slug": "la-vestale-fu-fatale-c818ae80",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Never75",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/works/ulisse-in-america-9ccc8d22/",
+        "slug": "ulisse-in-america-9ccc8d22",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": false
+      },
+      {
+        "path": "/works/fantacomneni-c4b37807/",
+        "slug": "fantacomneni-c4b37807",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Iacopo Maffi, con interventi di altri 2 autori",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/works/6-l-altra-amazzonia-ddf96bea/",
+        "slug": "6-l-altra-amazzonia-ddf96bea",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/works/fath-ali-il-restauratore-1f959330/",
+        "slug": "fath-ali-il-restauratore-1f959330",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Tommaso Mazzoni, con interventi di altri 4 autori",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      },
+      {
+        "path": "/works/il-giappone-con-la-triplice-alleanza-0a0803e2/",
+        "slug": "il-giappone-con-la-triplice-alleanza-0a0803e2",
+        "theme": "dark",
+        "width": 320,
+        "scrollWidth": 305,
+        "bodyFont": "17.92px",
+        "byline": "di Yoccio Liberanome, con interventi di un altro autore",
+        "missingAlt": 0,
+        "brokenControls": 0,
+        "rail": true
+      }
+    ],
+    "errors": []
+  },
+  "merge": {
+    "chapters": 5,
+    "focusInside": true,
+    "escapeCloses": true,
+    "jump": "#chapter-5",
+    "mobileOverflow": false
+  },
+  "pdf": {
+    "pages": 7,
+    "images": 3,
+    "allLoaded": true,
+    "independentTextLayerCompared": true,
+    "imagePlacement": "Before the text on each original page, not original PDF geometry."
+  },
+  "interactions": {
+    "englishBranches": 5,
+    "tabFocusTrapped": true,
+    "escapeReturnsFocus": true,
+    "backToTop": true,
+    "englishCatalogDivergences": 10,
+    "themePersists": true
+  },
+  "textEnlargement": {
+    "status": "passed",
+    "percent": 200,
+    "width": 320,
+    "scrollWidth": 305,
+    "bodyFont": "35.84px",
+    "drawer": {
+      "width": 259,
+      "scrollWidth": 259
+    }
+  },
+  "notes": [
+    "Image and table rendering checked against source counts and exact image hashes/order by the separate fidelity audit.",
+    "An initial 200% overflow in titles/header/contributor names was fixed; final check recorded below."
+  ],
+  "imageDisplay": {
+    "pdf": {
+      "width": 480,
+      "loaded": true
+    },
+    "pdfMobile": {
+      "width": 320,
+      "scrollWidth": 305
+    },
+    "sourceImage": {
+      "width": 250.5625,
+      "loaded": true
+    },
+    "englishAlt": "PDF illustration, page 1"
+  }
+}

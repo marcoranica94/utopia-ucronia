@@ -137,6 +137,7 @@
     font-size: 0.875rem;
   }
   .page-title {
+    overflow-wrap: anywhere;
     font-size: clamp(2.1rem, 3.5vw, 3rem);
     font-weight: 600;
     line-height: 1.15;
@@ -459,33 +460,36 @@
     }
   }
 
-  /* Compact phone header: navigation and theme share the second row. */
+  /* Wrapping rows also accommodate text enlargement on narrow screens. */
   @media (max-width: 600px) {
     .site-header-inner {
-      display: grid;
-      grid-template-columns: minmax(0, 1fr) auto;
+      display: flex;
+      flex-wrap: wrap;
       gap: 0.25rem 0.5rem;
       padding-block: 0.6rem;
     }
     .site-header-inner .brand {
-      grid-column: 1;
-      grid-row: 1;
+      flex: 1 1 9rem;
+      min-width: 0;
+      white-space: normal;
+      overflow-wrap: anywhere;
     }
     .site-header-inner .lang-switch {
-      grid-column: 2;
-      grid-row: 1;
-      justify-self: end;
+      flex: 0 0 auto;
+      order: 0;
     }
     .site-header-inner .site-nav {
-      grid-column: 1;
-      grid-row: 2;
+      order: 1;
+      flex: 1 1 7rem;
+      flex-wrap: wrap;
+      min-width: 0;
       width: auto;
-      gap: 1.5rem;
+      gap: 0.5rem;
     }
     .site-header-inner .theme-switch {
-      grid-column: 2;
-      grid-row: 2;
-      justify-self: end;
+      order: 1;
+      flex: 0 0 auto;
+      margin-left: auto;
     }
   }
 }

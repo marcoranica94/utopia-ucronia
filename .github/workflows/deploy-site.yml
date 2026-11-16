@@ -50,7 +50,13 @@ jobs:
         uses: actions/upload-artifact@v6
         with:
           name: conversion-report
-          path: reports/conversion.json
+          path: |
+            reports/conversion.json
+            reports/sample-comparison.json
+            reports/s2-validation.json
+            reports/editorial-map.json
+            reports/editorial-selection.json
+            reports/link-gaps.json
           retention-days: 14
       - name: Verify Access before publishing
         if: github.event_name != 'pull_request' && (vars.DEPLOY_ABILITATO == 'true' || inputs.verify_access == true)

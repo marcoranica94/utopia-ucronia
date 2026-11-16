@@ -21,7 +21,12 @@ const word =
               ? "☉"
               : motif === "archive"
                 ? "UU"
-                : title.split(" ")[0];
+                : title
+                    .split(" ")
+                    .slice(0, 2)
+                    .map((word) => word[0])
+                    .join("")
+                    .toUpperCase();
 ---
 <div class:list={["work-cover", `cover-${motif}`, !image && "cover-type"]} aria-hidden="true">
   {image ? <img src={image} alt="" loading={eager ? "eager" : "lazy"} decoding="async" /> : <><svg class="cover-lines" viewBox="0 0 400 200" fill="none"><path d="M-30 190H100Q160 190 160 130V-20M-30 190H100Q220 190 220 110V-20M-30 190H100Q290 190 290 70V-20M-30 190H100Q350 190 350 20V-20" stroke="currentColor" stroke-width="1.5"/><circle cx="160" cy="74" r="5" fill="currentColor"/><circle cx="290" cy="54" r="5" fill="currentColor"/></svg><span>{word}</span></>}

@@ -54,12 +54,12 @@ const byline =
     <div class="uchronia">
       <div class="uchronia-main">
         <header class="uchronia-head">
-          <h1 id="work-title" class="page-title" lang={data.language}>{data.title}</h1>
+          <h1 id="work-title" class="page-title" lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1>
           {byline && <p class="uchronia-byline">{byline}</p>}
-          <p class="uchronia-facts">{t(`shape.${data.shape}`)}{facts.length > 0 && `: ${facts.join(", ")}.`} {t(`work.language.${data.language}`)}</p>
+          <p class="uchronia-facts">{data.level === "divergence" ? t("shape.divergence") : t(`shape.${data.shape}`)}{facts.length > 0 && `: ${facts.join(", ")}.`} {t(`work.language.${data.language}`)}</p>
         </header>
         {showRail && <WorkContents outline={outline} lang={lang} textLang={data.language} />}
-        <article class="reading-copy structured" lang={data.language}><Fragment set:html={html} /></article>
+        <article class="reading-copy structured" lang={data.language === "unknown" ? "" : data.language}><Fragment set:html={html} /></article>
         <footer class="uchronia-source">
           {data.sources.map((source) => <p>{captured(source.timestamp) ? t("work.sourceCaptured", { url: source.url, date: captured(source.timestamp) ?? "" }) : t("work.source", { url: source.url })}</p>)}
           <p>{t("work.kept")}</p>
@@ -68,7 +68,7 @@ const byline =
       </div>
     </div>
   ) : (
-    <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 id="work-title" class="page-title" lang={data.language}>{data.title}</h1><aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language}><Content /></article></div>
+    <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 id="work-title" class="page-title" lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1><aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language === "unknown" ? "" : data.language}><Content /></article></div>
       <aside class="reading-aside" aria-labelledby="source-title"><h2 id="source-title">{t("work.provenance")}</h2>{data.sources.map((source) => <div><p>{source.timestamp ? t("work.captured", { date: captured(source.timestamp) ?? "" }) : t("work.fromOrigin")}</p><p>{source.url}</p></div>)}<p>{t("work.kept")}</p></aside>
     </div>
   )}

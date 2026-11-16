@@ -46,7 +46,11 @@ export function convertHtml(
     $(el).replaceWith($(el).contents());
   });
   $('a[href^="mailto:"]').each((_i, el) => {
-    $(el).replaceWith($("<span>").text($(el).text()));
+    $(el).replaceWith(
+      $("<span>")
+        .attr("id", $(el).attr("id") ?? $(el).attr("name") ?? "")
+        .append($(el).contents()),
+    );
   });
   $("a[name]").each((_i, el) => {
     $(el).attr("id", $(el).attr("name") ?? "");
@@ -125,7 +129,7 @@ export function convertHtml(
           attribs: {
             ...attrs,
             src: resolve(attrs.src ?? "", true),
-            alt: attrs.alt ?? "Image from the original document",
+            alt: attrs.alt ?? "@source.image",
           },
         }),
       },
@@ -133,17 +137,40 @@ export function convertHtml(
     },
   );
   const ready = load(clean);
+  // Turndown discards ids on headings/paragraphs. Preserve them as separate
+  // anchors; table ids already survive because tables remain cleaned HTML.
+  ready("[id]").each((_i, el) => {
+    if (ready(el).closest("table").length || el.tagName === "a") return;
+    const id = ready(el).attr("id");
+    const anchor = ready("<span></span>").attr("id", id ?? "");
+    ready(el).before(anchor);
+    ready(el).removeAttr("id");
+  });
   // An excluded image must not leave an empty link reachable by keyboard.
   ready("a[href]").each((_i, el) => {
     if (!ready(el).text().trim() && !ready(el).find("img").length)
       ready(el).removeAttr("href");
   });
-  const td = new Turndown({ headingStyle: "atx", bulletListMarker: "-" });
+  const td = new Turndown({
+    headingStyle: "atx",
+    bulletListMarker: "-",
+    blankReplacement: (_content, node) => {
+      const element = node as HTMLElement;
+      return element.getAttribute?.("id") ? element.outerHTML : "\n\n";
+    },
+  });
   td.keep(["table", "sup", "sub", "u", "span", "em", "i", "strong", "b"]);
   // FrontPage uses hand-typed numbering: do not turn it into new lists.
   const escapeMarkdown = td.escape.bind(td);
   td.escape = (text) =>
-    escapeMarkdown(text).replace(/^(\s*\d+)\)(?=\s)/gm, "$1\\)");
+    escapeMarkdown(
+      text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"),
+    ).replace(/^(\s*\d+)\)(?=\s)/gm, "$1\\)");
+  // Retain source display dimensions; Turndown's image rule drops them.
+  td.addRule("sourceIllustrations", {
+    filter: "img",
+    replacement: (_content, node) => (node as HTMLElement).outerHTML,
+  });
   td.addRule("frontPageEmphasis", {
     filter: ["em", "i", "strong", "b"],
     replacement: (_content, node) => (node as HTMLElement).outerHTML,
