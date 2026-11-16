@@ -23,6 +23,7 @@ import {
   urlKey,
   writeJson,
 } from "./recovery/core.ts";
+import { applyDecisions, readDecisions } from "./review-decisions.ts";
 
 const manifest = await readManifest();
 const recovered = manifest.documents.filter(
@@ -562,6 +563,7 @@ try {
 } catch (error) {
   if ((error as NodeJS.ErrnoException).code !== "ENOENT") throw error;
 }
+applyDecisions(map, await readDecisions());
 map.items.sort((a, b) => a.id.localeCompare(b.id));
 map.documents.sort((a, b) => a.id.localeCompare(b.id));
 map.authors.sort((a, b) => a.id.localeCompare(b.id));

@@ -7,6 +7,75 @@ export const languages = ["it", "en"] as const;
 export type Lang = (typeof languages)[number];
 
 const it = {
+  "search.nav": "Cerca",
+  "review.stateLabel": "Stato della revisione",
+  "review.actionLabel": "Tipo di proposta",
+  "search.title": "Cerca nei testi",
+  "search.intro":
+    "Cerca una frase, un nome o un luogo nelle opere già pubblicate. La ricerca include tutte le lingue originali.",
+  "search.label": "Parole da cercare",
+  "search.hint": "Scrivi per cercare. Usa le virgolette per una frase esatta.",
+  "search.loading": "Ricerca in corso…",
+  "search.empty":
+    "Nessun risultato. Prova meno parole o cambia il filtro della lingua.",
+  "search.error":
+    "Ricerca non disponibile. Riprova con il pulsante oppure consulta il catalogo.",
+  "search.retry": "Riprova",
+  "search.count": "{count} risultati",
+  "search.one": "1 risultato",
+  "search.more": "Mostra altri risultati",
+  "search.allLanguages": "Tutte le lingue dei testi",
+  "search.language": "Lingua del testo",
+  "search.nojs":
+    "Attiva JavaScript per cercare nel testo oppure consulta il catalogo e gli indici per periodo.",
+  "search.source": "Apri la fonte",
+  "search.scope":
+    "Ricerca nelle {count} edizioni di lettura disponibili; le opere ancora da pubblicare restano negli indici per periodo.",
+  "source.title": "Fonte e provenienza",
+  "source.open": "Apri fonte e provenienza",
+  "source.intro":
+    "Testo della fonte recuperata, mostrato senza codice attivo e senza indirizzi email. La struttura grafica originale sarà disponibile nella futura copia navigabile dell’archivio.",
+  "source.original": "Indirizzo della fonte",
+  "source.captured": "Data della copia",
+  "source.origin": "Recuperato dal server originale",
+  "source.hash": "Impronta SHA-256",
+  "source.format": "Formato",
+  "source.editions": "Edizioni che usano questa fonte",
+  "source.text": "Testo della fonte",
+  "source.resources": "Rimandi non disponibili in lettura",
+  "source.notes": "Note, collegamenti e allegati",
+  "source.resourcesHint":
+    "I rimandi aprono una scheda che distingue i file recuperati, quelli mancanti e i riferimenti esterni. Nessun file originale viene eseguito.",
+  "source.recovered":
+    "File recuperato; pubblicazione in lettura ancora da completare.",
+  "source.missing": "File non recuperato o non presente nell’inventario.",
+  "review.title": "Revisione della mappa",
+  "review.loading": "Caricamento delle proposte…",
+  "review.intro":
+    "Solo sviluppo locale. Valuta una proposta alla volta: approvare l’organizzazione non approva automaticamente le classificazioni e non pubblica nuovi testi.",
+  "review.next": "Blocco successivo",
+  "review.previous": "Blocco precedente",
+  "review.reason": "Motivo della decisione",
+  "review.approve": "Approva questa proposta",
+  "review.defer": "Rimanda questa proposta",
+  "review.saved": "Decisione salvata su disco.",
+  "review.conflict":
+    "La mappa o le decisioni sono cambiate. Ricarica prima di salvare.",
+  "review.error":
+    "Salvataggio non riuscito. Riprova; la decisione non è stata confermata.",
+  "review.source": "Estratto originale",
+  "review.proposal": "Proposta e motivazione",
+  "review.metadata": "Metadati proposti (non approvati)",
+  "review.pending": "Da revisionare",
+  "review.all": "Tutte le proposte",
+  "review.approved": "Approvate",
+  "review.deferred": "Rimandate",
+  "review.reload": "Ricarica",
+  "review.empty": "Nessuna proposta in questo filtro.",
+  "review.batch": "Proposte {start}–{end} di {total} · blocchi di 20",
+  "review.local":
+    "Le decisioni richiedono un motivo e restano nel progetto anche dopo una rigenerazione della mappa.",
+
   "browse.pageOf": "Pagina {page} di {pages}",
   "browse.rowsPerPage": "Voci per pagina",
   "browse.goToPage": "Vai alla pagina",
@@ -323,6 +392,71 @@ const it = {
 };
 
 const en: Record<keyof typeof it, string> = {
+  "search.nav": "Search",
+  "review.stateLabel": "Review state",
+  "review.actionLabel": "Proposal type",
+  "search.title": "Search the texts",
+  "search.intro":
+    "Find a sentence, a name or a place in the published reading edition, across all original languages.",
+  "search.label": "Search words",
+  "search.hint": "Type to search. Use quotation marks for an exact phrase.",
+  "search.loading": "Searching…",
+  "search.empty": "No results. Try fewer words or change the language filter.",
+  "search.error":
+    "Search unavailable. Retry using the button or browse the catalogue.",
+  "search.retry": "Retry",
+  "search.count": "{count} results",
+  "search.one": "1 result",
+  "search.more": "Show more results",
+  "search.allLanguages": "All text languages",
+  "search.language": "Text language",
+  "search.nojs":
+    "Enable JavaScript to search full text, or browse the catalogue and period indexes.",
+  "search.source": "Open source",
+  "search.scope":
+    "Search the {count} available reading editions; works awaiting publication remain in the period indexes.",
+  "source.title": "Source and provenance",
+  "source.open": "Open source and provenance",
+  "source.intro":
+    "Recovered source text, shown without active code or email addresses. The original visual layout will be available in the future browsable archive copy.",
+  "source.original": "Source address",
+  "source.captured": "Capture date",
+  "source.origin": "Recovered from the original server",
+  "source.hash": "SHA-256 fingerprint",
+  "source.format": "Format",
+  "source.editions": "Editions using this source",
+  "source.text": "Source text",
+  "source.resources": "References unavailable in the reading edition",
+  "source.notes": "Notes, links and attachments",
+  "source.resourcesHint":
+    "References open records distinguishing recovered files, missing files and external references. Original files are never executed.",
+  "source.recovered": "File recovered; reading publication remains pending.",
+  "source.missing": "File not recovered or absent from the inventory.",
+  "review.title": "Map review",
+  "review.loading": "Loading proposals…",
+  "review.intro":
+    "Local development only. Review one proposal at a time: approving its organization does not approve classifications or publish new texts.",
+  "review.next": "Next batch",
+  "review.previous": "Previous batch",
+  "review.reason": "Reason for the decision",
+  "review.approve": "Approve this proposal",
+  "review.defer": "Defer this proposal",
+  "review.saved": "Decision saved to disk.",
+  "review.conflict": "The map or decisions changed. Reload before saving.",
+  "review.error": "Could not save. Retry; the decision was not confirmed.",
+  "review.source": "Source excerpt",
+  "review.proposal": "Proposal and reasoning",
+  "review.metadata": "Proposed metadata (not approved)",
+  "review.pending": "Awaiting review",
+  "review.all": "All proposals",
+  "review.approved": "Approved",
+  "review.deferred": "Deferred",
+  "review.reload": "Reload",
+  "review.empty": "No proposals match this filter.",
+  "review.batch": "Proposals {start}–{end} of {total} · batches of 20",
+  "review.local":
+    "Decisions require a reason and remain in the project after map regeneration.",
+
   "browse.pageOf": "Page {page} of {pages}",
   "browse.rowsPerPage": "Entries per page",
   "browse.goToPage": "Go to page",

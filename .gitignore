@@ -16,3 +16,7 @@ src/generated/
 *.tsbuildinfo
 
 public/browse-data/
+
+public/pagefind/
+data/review-decisions.json.tmp
+public/periods/

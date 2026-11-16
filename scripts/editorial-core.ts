@@ -11,6 +11,7 @@ import { blocks } from "./anatomy.ts";
 import { decode, titleSlug } from "./conversion.ts";
 import { pdfToHtml } from "./pdf.ts";
 import { safePath, sha256, urlKey } from "./recovery/core.ts";
+import { applyDecisions, readDecisions } from "./review-decisions.ts";
 
 export const redact = (text: string) =>
   text
@@ -56,7 +57,9 @@ export async function readMap(): Promise<EditorialMap> {
   for (const item of raw.items)
     if (!item.composition && item.sources.length > 1)
       item.composition = "chapters";
-  return mapSchema.parse(raw);
+  return mapSchema.parse(
+    applyDecisions(mapSchema.parse(raw), await readDecisions()),
+  );
 }
 export async function sourceHtml(
   source: EditorialSource,
