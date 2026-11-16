@@ -208,6 +208,8 @@ Demo: from the phone I find a work by remembering just one sentence, and from th
 
 ### S4 · Complete edition
 
+- [ ] Home and collection redesigned after owner rejection, 16/11/2026: atlas-style map opening, original-image and typographic covers, introductions, format/language/search filters and cover/list views. Production-header browser checks pass; see [home-design.md](home-design.md). Pending: owner visual review.
+
 - [ ] Progressive review of the map: first worlds and pages to split or merge
 - [ ] Eras fixed and theme list closed
 - [ ] Pages for worlds, authors, eras, places and themes; language filter

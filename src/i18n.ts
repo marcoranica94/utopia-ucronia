@@ -7,6 +7,39 @@ export const languages = ["it", "en"] as const;
 export type Lang = (typeof languages)[number];
 
 const it = {
+  "atlas.signature": "UtopiaUcronia, dal 2004",
+  "atlas.heading": "La storia ha\naltre strade.",
+  "atlas.description":
+    "Mappe, racconti e cronologie per esplorare ciò che sarebbe potuto accadere. Un archivio di mondi possibili, una storia alla volta.",
+  "atlas.explore": "Entra nella raccolta",
+  "atlas.originalSince": "Testi originali. Altri mondi.",
+  "atlas.tree": "Segui le diramazioni",
+  "atlas.mapAlt":
+    "Mappa alternativa dell’Europa e del Mediterraneo, dal gioco Spot the POD",
+  "atlas.mapPrompt": "Riconosci questo mondo?",
+  "atlas.startHere": "Una mappa, molte storie",
+  "atlas.collection": "Scegli la tua prossima storia",
+  "atlas.collectionIntro":
+    "Una divergenza, un racconto, un mondo da attraversare.",
+  "atlas.view": "Vista della raccolta",
+  "atlas.covers": "Copertine",
+  "atlas.list": "Elenco",
+  "atlas.searchPlaceholder": "Cerca un titolo, un autore o uno spunto…",
+  "atlas.format": "Formato del testo",
+  "atlas.type.all": "Tutti",
+  "atlas.type.chronology": "Cronologie",
+  "atlas.type.narrative": "Racconti",
+  "atlas.type.discussion": "Proposte e discussioni",
+  "atlas.type.collection": "Raccolte",
+  "atlas.type.archive": "Dall’archivio",
+  "atlas.type.work": "Opera",
+  "atlas.collective": "Più voci, una storia",
+  "atlas.fromArchive": "Dall’archivio originale",
+  "atlas.variants": "{n} varianti",
+  "atlas.read": "Leggi",
+  "atlas.noResults": "Qui la storia prende un’altra strada.",
+  "atlas.reset": "Mostra tutta la raccolta",
+
   "site.version": "Versione",
   "site.skip": "Vai al contenuto",
   "site.home": "UtopiaUcronia, pagina iniziale",
@@ -155,6 +188,38 @@ const it = {
 };
 
 const en: Record<keyof typeof it, string> = {
+  "atlas.signature": "UtopiaUcronia, since 2004",
+  "atlas.heading": "History has\nother paths.",
+  "atlas.description":
+    "Maps, stories and chronologies exploring what might have happened. An archive of possible worlds, one story at a time.",
+  "atlas.explore": "Explore the collection",
+  "atlas.originalSince": "Original stories. Other worlds.",
+  "atlas.tree": "Follow the branches",
+  "atlas.mapAlt":
+    "An alternative map of Europe and the Mediterranean, from Spot the POD",
+  "atlas.mapPrompt": "Do you recognise this world?",
+  "atlas.startHere": "One map, many stories",
+  "atlas.collection": "Choose your next story",
+  "atlas.collectionIntro": "A divergence, a story, a world to explore.",
+  "atlas.view": "Collection view",
+  "atlas.covers": "Covers",
+  "atlas.list": "List",
+  "atlas.searchPlaceholder": "Find a title, an author or an idea…",
+  "atlas.format": "Text format",
+  "atlas.type.all": "All",
+  "atlas.type.chronology": "Chronologies",
+  "atlas.type.narrative": "Stories",
+  "atlas.type.discussion": "Proposals and discussions",
+  "atlas.type.collection": "Collections",
+  "atlas.type.archive": "From the archive",
+  "atlas.type.work": "Work",
+  "atlas.collective": "Many voices, one story",
+  "atlas.fromArchive": "From the original archive",
+  "atlas.variants": "{n} variants",
+  "atlas.read": "Read",
+  "atlas.noResults": "No stories found here yet.",
+  "atlas.reset": "Show the whole collection",
+
   "site.version": "Version",
   "site.skip": "Skip to content",
   "site.home": "UtopiaUcronia, home page",

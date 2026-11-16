@@ -176,3 +176,7 @@ Every sprint ends with a demo that must succeed without touch-ups. The tasks to 
 | `.github/workflows/deploy-site.yml` | tests, build, link check, private deploy; R2 sync paused |
 
 Note: the local folder is called `ucronia-utopia`, the GitHub repository and the Worker `utopia-ucronia`.
+
+## Discovery design update, 16 November 2026
+
+The owner rejected the minimal home and plain catalog. The new home is a visual atlas with the original Spot the POD map, original-image and typographic covers, short bilingual introductions, format/language/search filters and cover/list views. The reader remains full-width. See `docs/home-design.md`; visual owner approval is still pending.
