@@ -200,7 +200,7 @@ Demo: passed on 16/11/2026; valid 6,900-document map, zero unexplained unresolve
 ### S3 · First useful version
 
 - [ ] Reading page: text, notes, attachments, images, contributions with author, link to the source page
-- [ ] Simple catalog: titles, authors and filters on what exists, even with partial metadata
+- [x] Simple catalog: titles, authors and filters on what exists, even with partial metadata
 - [ ] Pagefind search on the new edition, with the `/` shortcut
 - [ ] `/review` page, development only, to review the map in blocks of 20
 - [ ] Keyboard use and phone reading verified
