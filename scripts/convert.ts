@@ -4,6 +4,7 @@ import { load } from "cheerio";
 import { workContentSchema } from "../src/editorial/content.ts";
 import type { EditorialItem, EditorialSource } from "../src/editorial/model.ts";
 import { type Anatomy, anatomy } from "./anatomy.ts";
+import { openCache } from "./build-cache.ts";
 import {
   convertHtml,
   decode,
@@ -64,9 +65,32 @@ for (const document of recovered)
     throw new Error(`Original not intact: ${document.url}`);
 const documents = new Map(manifest.documents.map((d) => [urlKey(d.url), d]));
 const authorNames = new Map(map.authors.map((a) => [a.id, a.name]));
+/** What the edition needs to know about one source part without parsing it
+ * again: derived only from the part's source bytes and its page descriptor. */
+type PartFacts = {
+  title: string;
+  anchors: string[];
+  images: string[];
+  fullAnchors?: string[];
+  structured: boolean;
+  shape?: Anatomy["shape"];
+  headerText: string[];
+  dropped: string[];
+  longText?: string;
+};
+type Lookup = { href: string; image: boolean; result: string };
+type Conversion = {
+  markdown: string;
+  outline: OutlineItem[];
+  contributors: string[];
+  removed: { source: string; text: string[] }[];
+  /** Every routing lookup made while converting, per part, in call order. */
+  lookups: Lookup[][];
+};
+type CacheEntry = { parts: PartFacts[]; conversion: Conversion };
 type Part = {
   source: EditorialSource;
-  html: string;
+  html?: string;
   parsed?: Anatomy;
   prefix: string;
 };
@@ -77,29 +101,124 @@ type Page = {
   parts: Part[];
   language: "it" | "fr" | "es" | "en" | "unknown";
   legacy?: boolean;
+  key?: string;
+  facts?: PartFacts[];
+  cached?: CacheEntry;
 };
+const cache = await openCache<CacheEntry>("convert");
+const pdfCache = await openCache<{ id: string; png: string }[]>("convert-pdf");
 const pages: Page[] = [];
+const sourceFile = (source: EditorialSource) => {
+  const document = map.documents.find((d) => d.id === source.documentId);
+  if (!document) throw new Error(`Unknown source: ${source.documentId}`);
+  return document;
+};
+// A page's unit key: its descriptor (item, parts, title, language), the
+// document record and current bytes of every source, and its corrections.
+// Routing tables are not in the key: the lookups are replayed instead.
+async function pageKey(page: Page, html?: string) {
+  const inputs: (string | Uint8Array)[] = [
+    JSON.stringify({
+      slug: page.slug,
+      title: page.title,
+      item: page.item ?? null,
+      language: page.language,
+      legacy: Boolean(page.legacy),
+      parts: page.parts.map((p) => ({ source: p.source, prefix: p.prefix })),
+    }),
+    JSON.stringify(await correctionsFor(page.slug)),
+  ];
+  if (html !== undefined) inputs.push(html);
+  else
+    for (const part of page.parts) {
+      const document = sourceFile(part.source);
+      inputs.push(
+        JSON.stringify(document),
+        await readFile(safePath("archive/original", document.path)),
+      );
+    }
+  return cache.key(...inputs);
+}
+async function prepare(page: Page) {
+  if (!page.item) return;
+  for (const part of page.parts) {
+    if (part.html !== undefined) continue;
+    part.html = await sourceHtml(part.source, map);
+    part.parsed = anatomy(part.html, page.item.title);
+  }
+}
+const rawAnchors = (html: string) => {
+  const $ = load(html);
+  return $("[id],a[name]")
+    .toArray()
+    .map((e) => $(e).attr("id") ?? $(e).attr("name") ?? "")
+    .filter(Boolean);
+};
+async function partFacts(part: Part): Promise<PartFacts> {
+  const html = part.html as string;
+  const $ = load(
+    part.parsed
+      ? part.parsed.blocks
+          .filter((b) => !part.parsed?.removed.has(b))
+          .map((b) => b.html)
+          .join("\n")
+      : html,
+  );
+  let fullAnchors: string[] | undefined;
+  if (part.source.selection.kind === "blocks") {
+    const document = map.documents.find((d) => d.id === part.source.documentId);
+    if (!document) throw new Error("Missing fragment source");
+    fullAnchors = rawAnchors(
+      decode(await readFile(safePath("archive/original", document.path))),
+    );
+  }
+  return {
+    title: documentTitle(html),
+    anchors: rawAnchors(html),
+    images: $("img[src]")
+      .toArray()
+      .map((e) => $(e).attr("src") ?? ""),
+    ...(fullAnchors ? { fullAnchors } : {}),
+    structured: Boolean(part.parsed),
+    ...(part.parsed ? { shape: part.parsed.shape } : {}),
+    headerText: part.parsed?.headerText ?? [],
+    dropped: part.parsed?.dropped ?? [],
+    ...(part.parsed
+      ? {
+          longText: part.parsed.blocks.find(
+            (b) => !part.parsed?.removed.has(b) && b.text.length > 100,
+          )?.text,
+        }
+      : {}),
+  };
+}
+async function factsFor(page: Page) {
+  page.cached = page.key ? await cache.get(page.key) : undefined;
+  if (page.cached?.parts.length === page.parts.length)
+    page.facts = page.cached.parts;
+  else {
+    page.cached = undefined;
+    await prepare(page);
+    page.facts = [];
+    for (const part of page.parts) page.facts.push(await partFacts(part));
+  }
+}
 for (const item of selected) {
   const sources =
     item.composition === "equivalent" ? item.sources.slice(0, 1) : item.sources;
-  const parts: Part[] = [];
-  for (const [index, source] of sources.entries()) {
-    const html = await sourceHtml(source, map);
-    const parsed = anatomy(html, item.title);
-    parts.push({
-      source,
-      html,
-      parsed,
-      prefix: item.composition === "chapters" ? `chapter-${index + 1}-` : "",
-    });
-  }
-  pages.push({
+  const page: Page = {
     slug: item.slug,
     title: item.title,
     item,
-    parts,
+    parts: sources.map((source, index) => ({
+      source,
+      prefix: item.composition === "chapters" ? `chapter-${index + 1}-` : "",
+    })),
     language: item.language.value,
-  });
+  };
+  page.key = await pageKey(page);
+  await factsFor(page);
+  pages.push(page);
 }
 // Keep the already published S0 source previews reachable. Index previews are
 // compatibility views, excluded from canonical editorial sampling and proposals.
@@ -129,7 +248,7 @@ for (const entry of sample.documents) {
   const slug = `${titleSlug(title)}-${sha256(Buffer.from(urlKey(document.url))).slice(0, 8)}`;
   const doc = map.documents.find((d) => urlKey(d.url) === urlKey(document.url));
   if (!doc) throw new Error(`Unmapped document: ${document.url}`);
-  pages.push({
+  const page: Page = {
     slug,
     title,
     language: entry.language ?? "it",
@@ -146,18 +265,15 @@ for (const entry of sample.documents) {
         },
       },
     ],
-  });
+  };
+  page.key = await pageKey(page, html);
+  await factsFor(page);
+  pages.push(page);
 }
+const factsOf = (page: Page) => page.facts as PartFacts[];
 const pathFor = (p: Page) => (p.item ? itemPath(p.item) : `/works/${p.slug}/`);
 const roots = new Map<string, string>();
 const anchorRoutes = new Map<string, string>();
-const rawAnchors = (html: string) => {
-  const $ = load(html);
-  return $("[id],a[name]")
-    .toArray()
-    .map((e) => $(e).attr("id") ?? $(e).attr("name") ?? "")
-    .filter(Boolean);
-};
 for (const page of [...pages].sort(
   (a, b) =>
     Number(a.parts[0].source.selection.kind === "blocks") -
@@ -168,7 +284,7 @@ for (const page of [...pages].sort(
     const target = pathFor(page);
     if (part.source.selection.kind === "whole")
       roots.set(key, target + (part.prefix ? `#chapter-${index + 1}` : ""));
-    for (const anchor of rawAnchors(part.html))
+    for (const anchor of factsOf(page)[index].anchors)
       anchorRoutes.set(`${key}#${anchor}`, `${target}#${part.prefix}${anchor}`);
     if (new URL(part.source.url).pathname.endsWith("/")) {
       roots.set(`${key}index.htm`, target);
@@ -181,24 +297,11 @@ if (oldList) roots.set("/utopiaucronia/lista_ucronie.htm", oldList);
 // Publish only the non-executable images referenced by this edition, deduplicated by hash.
 const needed = new Set(sample.documents.map((d) => urlKey(d.url)));
 for (const page of pages)
-  for (const part of page.parts) {
-    const $ = load(
-      part.parsed
-        ? part.parsed.blocks
-            .filter((b) => !part.parsed?.removed.has(b))
-            .map((b) => b.html)
-            .join("\n")
-        : part.html,
-    );
-    for (const e of $("img[src]").toArray())
+  for (const [index, part] of page.parts.entries())
+    for (const src of factsOf(page)[index].images)
       try {
-        needed.add(
-          urlKey(
-            new URL($(e).attr("src") ?? "", part.source.url).href.split("#")[0],
-          ),
-        );
+        needed.add(urlKey(new URL(src, part.source.url).href.split("#")[0]));
       } catch {}
-  }
 const assets = new Map<string, string>();
 await rm("public/sample", { recursive: true, force: true });
 await mkdir("public/sample", { recursive: true });
@@ -223,10 +326,21 @@ for (const page of pages)
     if (!document)
       throw new Error(`Missing source document: ${part.source.documentId}`);
     if (!document.mediaType.includes("pdf")) continue;
-    const edition = await pdfEdition(
-      await readFile(safePath("archive/original", document.path)),
-    );
-    for (const image of edition?.images ?? []) {
+    const bytes = await readFile(safePath("archive/original", document.path));
+    // Illustrations depend only on the PDF bytes (and the toolchain).
+    const key = pdfCache.key(bytes);
+    let images = await pdfCache.get(key);
+    if (!images) {
+      images = ((await pdfEdition(bytes))?.images ?? []).map((image) => ({
+        id: image.id,
+        png: image.bytes.toString("base64"),
+      }));
+      await pdfCache.set(key, images);
+    }
+    for (const image of images.map((i) => ({
+      id: i.id,
+      bytes: Buffer.from(i.png, "base64"),
+    }))) {
       const filename = `${sha256(image.bytes)}.png`;
       await writeFile(`public/sample/${filename}`, image.bytes);
       assets.set(
@@ -237,21 +351,15 @@ for (const page of pages)
   }
 const fullSourceAnchors = new Map<string, Set<string>>();
 for (const page of pages)
-  for (const part of page.parts) {
+  for (const [index, part] of page.parts.entries()) {
     if (
       part.source.selection.kind !== "blocks" ||
       fullSourceAnchors.has(part.source.documentId)
     )
       continue;
-    const document = map.documents.find((d) => d.id === part.source.documentId);
-    if (!document) throw new Error("Missing fragment source");
     fullSourceAnchors.set(
-      document.id,
-      new Set(
-        rawAnchors(
-          decode(await readFile(safePath("archive/original", document.path))),
-        ),
-      ),
+      part.source.documentId,
+      new Set(factsOf(page)[index].fullAnchors),
     );
   }
 const gapRegistry = new Map<string, Gap>();
@@ -276,41 +384,79 @@ const escapeHtml = (text: string) =>
     .replace(/</g, "&lt;")
     .replace(/>/g, "&gt;")
     .replace(/"/g, "&quot;");
-for (const page of pages) {
+// The routing decision for one link of one part; registers its gap, if any.
+function resolver(
+  part: Part,
+  registry: Map<string, Gap>,
+  gaps: Set<string>,
+  lookups?: Lookup[],
+) {
+  const route = (href: string, image: boolean) => {
+    let reason: GapReason | undefined;
+    try {
+      const u = new URL(href, part.source.url);
+      const key = urlKey(u.href.split("#")[0]);
+      const decodedHash = u.hash ? decodeURIComponent(u.hash.slice(1)) : "";
+      const known = image
+        ? (assets.get(`${key}#${decodedHash}`) ?? assets.get(key))
+        : decodedHash
+          ? anchorRoutes.get(`${key}#${decodedHash}`)
+          : (roots.get(key) ?? assets.get(key));
+      if (known) return known;
+      // Generated in-page sections are handled after all bodies are known.
+      if (href.startsWith("#") && !image) {
+        if (
+          part.source.selection.kind === "blocks" &&
+          fullSourceAnchors.get(part.source.documentId)?.has(decodedHash)
+        )
+          reason = "edition-pending";
+        else return `#${decodedHash}`;
+      }
+    } catch {}
+    const gap = explainedGap(href, part.source.url, image, documents, reason);
+    registry.set(gap.id, gap);
+    gaps.add(gap.id);
+    return image ? "" : `/gaps/#${gap.id}`;
+  };
+  return (href: string, image: boolean) => {
+    const result = route(href, image);
+    lookups?.push({ href, image, result });
+    return result;
+  };
+}
+/** Replays a cached page's lookups against the current routing tables. Only
+ * if every lookup still gives the recorded result is the cached conversion
+ * identical to a fresh one; its gaps are then registered as a fresh run would. */
+function replay(page: Page, conversion: Conversion) {
+  const registry = new Map<string, Gap>();
+  const gaps = new Set<string>();
+  for (const [index, part] of page.parts.entries()) {
+    const resolve = resolver(part, registry, gaps);
+    for (const lookup of conversion.lookups[index] ?? [])
+      if (resolve(lookup.href, lookup.image) !== lookup.result)
+        return undefined;
+  }
+  for (const [id, gap] of registry) gapRegistry.set(id, gap);
+  return gaps;
+}
+async function convertPage(page: Page): Promise<{
+  conversion: Conversion;
+  gaps: Set<string>;
+}> {
+  await prepare(page);
+  const facts = factsOf(page);
   const out: string[] = [];
   const outline: OutlineItem[] = [];
   const contributors = new Set<string>();
   const gaps = new Set<string>();
   const removed: Result["removed"] = [];
+  const lookups: Lookup[][] = [];
   for (const [index, part] of page.parts.entries()) {
-    const resolve = (href: string, image: boolean) => {
-      let reason: GapReason | undefined;
-      try {
-        const u = new URL(href, part.source.url);
-        const key = urlKey(u.href.split("#")[0]);
-        const decodedHash = u.hash ? decodeURIComponent(u.hash.slice(1)) : "";
-        const known = image
-          ? (assets.get(`${key}#${decodedHash}`) ?? assets.get(key))
-          : decodedHash
-            ? anchorRoutes.get(`${key}#${decodedHash}`)
-            : (roots.get(key) ?? assets.get(key));
-        if (known) return known;
-        // Generated in-page sections are handled after all bodies are known.
-        if (href.startsWith("#") && !image) {
-          if (
-            part.source.selection.kind === "blocks" &&
-            fullSourceAnchors.get(part.source.documentId)?.has(decodedHash)
-          )
-            reason = "edition-pending";
-          else return `#${decodedHash}`;
-        }
-      } catch {}
-      const gap = explainedGap(href, part.source.url, image, documents, reason);
-      gapRegistry.set(gap.id, gap);
-      gaps.add(gap.id);
-      return image ? "" : `/gaps/#${gap.id}`;
-    };
-    const clean = part.parsed ? undefined : convertHtml(part.html, resolve);
+    const partLookups: Lookup[] = [];
+    lookups.push(partLookups);
+    const resolve = resolver(part, gapRegistry, gaps, partLookups);
+    const html = part.html as string;
+    const clean = part.parsed ? undefined : convertHtml(html, resolve);
     // Blocks are converted one at a time: keep the first of any id the
     // source repeats (a browser resolves #anchor to the first one too).
     const seenIds = new Set<string>();
@@ -324,11 +470,11 @@ for (const page of pages) {
       : undefined;
     if (part.prefix) {
       out.push(
-        `<section class="source-chapter"><header data-ui><h2 id="chapter-${index + 1}">${escapeHtml(documentTitle(part.html))}</h2></header>`,
+        `<section class="source-chapter"><header data-ui><h2 id="chapter-${index + 1}">${escapeHtml(facts[index].title)}</h2></header>`,
       );
       outline.push({
         id: `chapter-${index + 1}`,
-        label: documentTitle(part.html),
+        label: facts[index].title,
         kind: "section",
         depth: 0,
       });
@@ -351,13 +497,32 @@ for (const page of pages) {
     await correctionsFor(page.slug),
     page.slug,
   );
+  return {
+    conversion: {
+      markdown,
+      outline,
+      contributors: [...contributors],
+      removed,
+      lookups,
+    },
+    gaps,
+  };
+}
+for (const page of pages) {
+  const reused = page.cached && replay(page, page.cached.conversion);
+  const { conversion, gaps } =
+    page.cached && reused
+      ? { conversion: page.cached.conversion, gaps: reused }
+      : await convertPage(page);
+  if (!reused && page.key)
+    await cache.set(page.key, { parts: factsOf(page), conversion });
   results.push({
     page,
-    markdown,
-    outline,
-    contributors: [...contributors],
+    markdown: conversion.markdown,
+    outline: conversion.outline,
+    contributors: conversion.contributors,
     gaps,
-    removed,
+    removed: conversion.removed,
   });
 }
 // Resolve fragment failures against the final output; every unresolved target
@@ -403,14 +568,10 @@ const report = [];
 for (const result of results) {
   const { page } = result;
   const item = page.item;
-  const summaryBlock = page.parts.flatMap(
-    (p) =>
-      p.parsed?.blocks.filter(
-        (b) => !p.parsed?.removed.has(b) && b.text.length > 100,
-      ) ?? [],
-  )[0];
-  const summary = summaryBlock
-    ? `${redact(summaryBlock.text)
+  const facts = factsOf(page);
+  const summaryText = facts.find((f) => f.longText !== undefined)?.longText;
+  const summary = summaryText
+    ? `${redact(summaryText)
         .slice(0, 240)
         .replace(/\s+\S*$/, "")}…`
     : undefined;
@@ -426,11 +587,7 @@ for (const result of results) {
     .trim();
   const meta = workContentSchema.parse({
     title,
-    sourceHeaders: [
-      ...new Set(
-        page.parts.flatMap((part) => part.parsed?.headerText ?? []).map(redact),
-      ),
-    ],
+    sourceHeaders: [...new Set(facts.flatMap((f) => f.headerText).map(redact))],
     authors: item
       ? item.authors
           .map((id) => authorNames.get(id))
@@ -457,12 +614,10 @@ for (const result of results) {
       timestamp: p.source.timestamp,
     })),
     unverified: ["title", "authors", "language", "structure", "classification"],
-    ...(page.parts[0].parsed
+    ...(facts[0].structured
       ? {
           shape:
-            item?.composition === "chapters"
-              ? "collection"
-              : page.parts[0].parsed.shape,
+            item?.composition === "chapters" ? "collection" : facts[0].shape,
           outline: result.outline,
           contributors: result.contributors,
         }
@@ -484,7 +639,7 @@ for (const result of results) {
     source: page.parts[0].source.url,
     sources: page.parts.map((p) => p.source),
     title,
-    structured: Boolean(page.parts[0].parsed),
+    structured: facts[0].structured,
     randomValidation: Boolean(item && validation.items.includes(item.id)),
     publicationSelection: Boolean(
       item && publication.extraIds.includes(item.id),
@@ -500,6 +655,9 @@ await writeJson(
   "reports/link-gaps.json",
   [...gapRegistry.values()].sort((a, b) => a.id.localeCompare(b.id)),
 );
+await cache.prune();
+await pdfCache.prune();
 console.log(
   `${pages.length} content items converted from the editorial map, including the fixed 30-item validation sample; every gap has an explicit reason.`,
 );
+console.log(`${cache.summary()}; ${pdfCache.summary()}`);
