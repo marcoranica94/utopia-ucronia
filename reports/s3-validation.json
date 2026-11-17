@@ -1,18 +1,18 @@
 {
   "passed": true,
-  "readingItems": 226,
-  "sourceDocuments": 226,
-  "sourceLinks": 460,
-  "localNoteLinks": 780,
-  "searchIndexCountPerInterface": 226,
+  "readingItems": 266,
+  "sourceDocuments": 266,
+  "sourceLinks": 540,
+  "localNoteLinks": 920,
+  "searchIndexCountPerInterface": 266,
   "reviewExcludedFromProduction": true,
   "explainedResources": {
-    "edition-pending": 770,
-    "external-excluded": 250,
-    "archive-missing": 11,
-    "anchor-missing": 21,
-    "attachment-pending": 11,
-    "archive-unlisted": 16,
+    "edition-pending": 862,
+    "archive-unlisted": 20,
+    "external-excluded": 281,
+    "archive-missing": 12,
+    "anchor-missing": 23,
+    "attachment-pending": 22,
     "unsupported-format": 2
   }
 }

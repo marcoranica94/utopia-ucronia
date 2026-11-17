@@ -384,10 +384,14 @@ for (const result of results) {
   result.markdown = result.markdown
     .replace(/href="([^"]+)"/g, (_m, href) => `href="${fix(href)}"`)
     .replace(
-      // A destination with spaces ("#Betsy Ross Flag") is written as <…>.
-      /\]\((?:<([^>\n]*)>|([^\s)]+))([^)]*)\)/g,
+      // A destination with spaces ("#Betsy Ross Flag") is written as <…>;
+      // Turndown escapes parentheses in a plain one ("#\(1\)" for "#(1)").
+      /\]\((?:<([^>\n]*)>|((?:\\.|[^\s)\\])+))([^)]*)\)/g,
       (_m, bracketed: string | undefined, plain: string | undefined, tail) => {
-        if (bracketed === undefined) return `](${fix(plain ?? "")}${tail})`;
+        if (bracketed === undefined) {
+          const fixed = fix((plain ?? "").replace(/\\([()])/g, "$1"));
+          return `](${fixed.replace(/[()]/g, "\\$&")}${tail})`;
+        }
         const fixed = fix(bracketed);
         return `](${/\s/.test(fixed) ? `<${fixed}>` : fixed}${tail})`;
       },

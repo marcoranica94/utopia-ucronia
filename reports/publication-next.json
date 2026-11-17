@@ -5,555 +5,554 @@
   "note": "Read-only review packet. No owner approval, publication selection or live ledger was changed.",
   "entries": [
     {
-      "proposalId": "proposal-doc-3b59fc42a563",
+      "proposalId": "proposal-doc-4984243ba9bb",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-3b59fc42a563",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4984243ba9bb",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Kursk 1943 di Sandro Degiani Un altro racconto sul Bene ed il Male a confronto… nella realtà scritto prima di Capoverde 1944, anche se collocato temporalmente dopo. Nei miei racconti di guerra c’è sempre una deriva tecni",
+      "quote": "Il vecchio maestro di Andrea Marcobelli Ed ecco due racconti ucronici in cui, in altrettanti mondi diversi dal nostro, la vita di un personaggio storico è stata indirizzata in maniera decisamente diversa... . Mi ricordo",
       "items": [
         {
-          "id": "item-cf23ffb14583",
-          "title": "Kursk 1943, di Sandro Degiani",
-          "path": "/works/kursk-1943-di-sandro-degiani-3b59fc42/",
+          "id": "item-64669b1334dd",
+          "title": "Il vecchio maestro",
+          "path": "/works/il-vecchio-maestro-4984243b/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-3b59fc42a563",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/Kursk.htm",
-              "timestamp": "20250512204331",
+              "documentId": "doc-4984243ba9bb",
+              "url": "http://www.fmboschetto.it/utopiaucronia/il_vecchio_maestro.htm",
+              "timestamp": "20260525185604",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "226cd1c3dd8019db1f5f7a783c45dc4c80f71cd2cf78802271bb572f17379b6b",
-              "localReviewPath": "/review/source/doc-3b59fc42a563/"
+              "sha256": "c988d0229a0a4e4978efa18305e17bb5af41ffe0b7db6a5b90dd2c642dfe2dcb",
+              "localReviewPath": "/review/source/doc-4984243ba9bb/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-3c066277fe8d",
+      "proposalId": "proposal-doc-4a452aa839c1",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-3c066277fe8d",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4a452aa839c1",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Gli Imperatori Romani di Britannia di Lord Wilmore Bandiera dell'Impero Romano di Britannia Più volte ci siamo chiesti quale stato potesse dirsi nei secoli erede legittimo dell'antico Impero Romano. Le risposte sono stat",
+      "quote": "De Vita Caesaris di Falecius . Quest'ucronia è uno spin-off del mio \"de Bello Dacico\", scritta basandomi su una affidabile \"tavola dei popoli\" che contiene informazioni più dettagliate sui rapporti con Roma, per l'area m",
       "items": [
         {
-          "id": "item-58ecf752d4db",
-          "title": "Successione ininterrotta degli Imperatori Romani di Britannia",
-          "path": "/works/successione-ininterrotta-degli-imperatori-romani-di-britannia-3c066277/",
+          "id": "item-badd0f798e6a",
+          "title": "De vita Caesaris",
+          "path": "/works/de-vita-caesaris-4a452aa8/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-3c066277fe8d",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Imperatori_di_Britannia.htm",
-              "timestamp": "20261016101306",
+              "documentId": "doc-4a452aa839c1",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/de_vita_Caesaris.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "6023d326fc6b766b8e67dd549ace66925e0ddb0c4d293e721faaf37e04e4de73",
-              "localReviewPath": "/review/source/doc-3c066277fe8d/"
+              "sha256": "ddb20a0531c9c8c752ccc23d70d47e5541669b77d687ecfd059d9a993f6611ba",
+              "localReviewPath": "/review/source/doc-4a452aa839c1/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-3c84f92918a4",
+      "proposalId": "proposal-doc-4ab92cceae22",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-3c84f92918a4",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4ab92cceae22",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Sargon l'immortale di Blade87 2296 a.C., nel cuore dell’Asia Minore: . Il sole tramontava lentamente, tingendo il cielo di rosa e gettando una luce sanguigna sul luogo della battaglia appena conclusa; migliaia di corpi d",
+      "quote": "Maxima Facta Patrvm « IL CRIVELLO DI ERATOSTENE » quotidiano tecnico-scientifico fondato a Genova nel 2007 EDIZIONE STRAORDINARIA del 3 ottobre 2010 UNO STRAORDINARIO RITROVAMENTO: MAXIMA FACTA PATRVM! [Genova] Una notiz",
       "items": [
         {
-          "id": "item-9b856082f956",
-          "title": "Sargon l'Immortale",
-          "path": "/works/sargon-l-immortale-3c84f929/",
+          "id": "item-c8cfb792270e",
+          "title": "Maxima Facta Patrvm",
+          "path": "/works/maxima-facta-patrvm-4ab92cce/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-3c84f92918a4",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Sargon.htm",
-              "timestamp": "20210411093820",
+              "documentId": "doc-4ab92cceae22",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Annales2010.htm",
+              "timestamp": "20120318010802",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "8188d24091006fc1bf3c25fae1e03885164d10df7fd3129e7cb0c6816112ef0e",
-              "localReviewPath": "/review/source/doc-3c84f92918a4/"
+              "sha256": "385594fa09a4d2153e95728100cc2e20ddd91b7b61da49f9b4efbf4e1ea640d7",
+              "localReviewPath": "/review/source/doc-4ab92cceae22/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-3ceb77702251",
+      "proposalId": "proposal-doc-4afc290ab473",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-3ceb77702251",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4afc290ab473",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "ispirata a questo sito Antefatto 1816, 11 dicembre: l'Indiana diventa il 19° stato degli Stati Uniti d'America 1825, 15 luglio: nello stato dell'Indiana viene fondata la città di Hawkins. 1848, 13 settembre: mentre lavor",
+      "quote": "2 giugno 1946, la vittoria della Monarchia di Demofilo 25 luglio 1943, la svolta di Roma Dopo aver fatto arrestare Mussolini il 25 luglio 1943, il Re Imperatore Vittorio Emanuele III decide di abdicare in favore del figl",
       "items": [
         {
-          "id": "item-bceedd394af6",
-          "title": "Cronologia di \"Stranger Things\"",
-          "path": "/works/cronologia-di-stranger-things-3ceb7770/",
+          "id": "item-3cafb59485a6",
+          "title": "2 giugno 1946, la vittoria della Monarchia",
+          "path": "/works/2-giugno-1946-la-vittoria-della-monarchia-4afc290a/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-3ceb77702251",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/Cronologia_Stranger_Things.htm",
+              "documentId": "doc-4afc290ab473",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_vittoria_della_monarchia.htm",
+              "timestamp": "20230921165414",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "d4b0e02ce0514e7ad49e0d7bf89ff13906cba24805b025c67f0cab6b1a10894f",
-              "localReviewPath": "/review/source/doc-3ceb77702251/"
+              "sha256": "018e000eba681c25220c89292a36fa205d29c8d9b066276b3ce3d27979366f18",
+              "localReviewPath": "/review/source/doc-4afc290ab473/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-3d0a050c3f65",
+      "proposalId": "proposal-doc-4b0a9c968cd0",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-3d0a050c3f65",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4b0a9c968cd0",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "La Seconda Guerra Mondiale in Sudamerica . La proposta di Michele Ghilardelli è semplice e lapidaria: Questa è la foto. Il POD raccontatelo voi... . Paolo Maltagliati gli replica: Ottima idea! Che accade se gli stati sud",
+      "quote": "L'impero di Alessandro di Filobeche POD: Alessandro non muore ma per febbri malariche ma rimane talmente debilitato che non sarà in grado di guidare nuove conquiste militari. Durante gli anni del suo regno pacifico (323",
       "items": [
         {
-          "id": "item-2e9633714874",
-          "title": "La Seconda Guerra Mondiale in Sudamerica",
-          "path": "/works/la-seconda-guerra-mondiale-in-sudamerica-3d0a050c/",
+          "id": "item-4b699f6a7bed",
+          "title": "L'impero di Alessandro secondo Fiolobeche",
+          "path": "/works/l-impero-di-alessandro-secondo-fiolobeche-4b0a9c96/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-3d0a050c3f65",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/WWII_in_Sudamerica.htm",
+              "documentId": "doc-4b0a9c968cd0",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/impero_di_Alessandro.htm",
+              "timestamp": "20210503092251",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "20a3c2424e4a7af4dd241bf340dd631f319fc2b2722f2b0d13ee7a839c0c1f02",
-              "localReviewPath": "/review/source/doc-3d0a050c3f65/"
+              "sha256": "abfde39fb27b759f12bf13d3b1c3a53679a8c5a46506bbe9c80aacbe90e4592a",
+              "localReviewPath": "/review/source/doc-4b0a9c968cd0/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-3d54c4d5204f",
+      "proposalId": "proposal-doc-4b1cafbf4221",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-3d54c4d5204f",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4b1cafbf4221",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Le Tre Italie di Enrica S. scritta per celebrare la Festa di Utopiaucronia il 28 giugno 2016 POD: il 15 giugno 1837, durante la guerra per l'indipendenza della Repubblica del Rio Grande, Giuseppe Garibaldi, che si trova",
+      "quote": "Attila imperatore di Perchè no? Un'idea pazzesca, no? Però a me piace, ecco come vedo le cose: Le relazioni di gioventù tra Attila, futuro khan degli Unni, e il romano Flavio Ezio sono conosciute, ma poi Ezio é tornato a",
       "items": [
         {
-          "id": "item-b8d5b1147c46",
-          "title": "Le Tre Italie",
-          "path": "/works/le-tre-italie-3d54c4d5/",
+          "id": "item-989ec0cc4dd2",
+          "title": "Attila imperatore",
+          "path": "/works/attila-imperatore-4b1cafbf/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-3d54c4d5204f",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/tre_Italie.htm",
-              "timestamp": "20220817051825",
+              "documentId": "doc-4b1cafbf4221",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Attila.htm",
+              "timestamp": "20160713085018",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "9c88a6b34157a63f3726a28683d6397c0aed2efa2637c93887ea45dbc03e595c",
-              "localReviewPath": "/review/source/doc-3d54c4d5204f/"
+              "sha256": "ccd35d9e0c417009091e9666033ddc3f845c23c7494a053f73ac96900f00d3fb",
+              "localReviewPath": "/review/source/doc-4b1cafbf4221/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-3d7b3f11c44b",
+      "proposalId": "proposal-doc-4b50ae60d9ff",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-3d7b3f11c44b",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4b50ae60d9ff",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Il Console di Sandro Degiani Qui vi devo dire proprio poche parole… se siete davvero molto forti in Storia Antica avrete una reazione diversa da chi, come me prima che mi documentassi a fondo per scriverlo, ne ha una con",
+      "quote": "La Svezia nella Prima Guerra Mondiale Ecco le proposte dell'amico Basileus TFT per il nostro gioco ucronico consistente nello scrivere tutti un'ucronia che preveda una Prima o una Seconda Guerra Mondiale \"alternativa\". C",
       "items": [
         {
-          "id": "item-3051a8ae12e7",
-          "title": "Il Console, di Sandro Degiani",
-          "path": "/works/il-console-di-sandro-degiani-3d7b3f11/",
+          "id": "item-7b2fa3a00ef9",
+          "title": "La Svezia nella Prima Guerra Mondiale!",
+          "path": "/works/la-svezia-nella-prima-guerra-mondiale-4b50ae60/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-3d7b3f11c44b",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/console.htm",
-              "timestamp": "20251209023759",
+              "documentId": "doc-4b50ae60d9ff",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Svezia_%20nella_WWI.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "e903bbcdc68d06332b6c92ea2480929b33a58b8918dacdb8a0bfe200eb262a16",
-              "localReviewPath": "/review/source/doc-3d7b3f11c44b/"
+              "sha256": "62fb81955a21d8f85d165444c605fff3c470699b7b2cf1dd6a27d9e2305ade2e",
+              "localReviewPath": "/review/source/doc-4b50ae60d9ff/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-3db81bb00e5c",
+      "proposalId": "proposal-doc-4b7697c21bd1",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-3db81bb00e5c",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4b7697c21bd1",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Star Trek e Star Wars! Ad aprire le danze è stato il vulcanico Marziano: Immaginate che l'astronave di Capitan Kirk capiti nella Galassia Lontana Lontana di Star Wars. Mettiamo proprio per assistere alla distruzione de \"",
+      "quote": "Il Giudice di Dario Carcano Introduzione Autunno. Il sole era appena sorto, e la sua cresta rosata illuminava le vette dei monti che circondavano Laresinio. Gli abitanti del villaggio incastrato tra le montagne si erano",
       "items": [
         {
-          "id": "item-b686cf0176ef",
-          "title": "Star Trek e Star Wars",
-          "path": "/works/star-trek-e-star-wars-3db81bb0/",
+          "id": "item-335d1627c8b0",
+          "title": "Pilota, di Sandro Degiani",
+          "path": "/works/pilota-di-sandro-degiani-4b7697c2/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-3db81bb00e5c",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Star_Trek_Star_Wars.htm",
-              "timestamp": "20250418231234",
+              "documentId": "doc-4b7697c21bd1",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Pilota.htm",
+              "timestamp": "20250523085325",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "eda5d0aea3afd43ffefc0675afcc68394a52c523a6be0e8848fc5a35fb20be08",
-              "localReviewPath": "/review/source/doc-3db81bb00e5c/"
+              "sha256": "c4ea92c8f1323ceed474b7896a591287e0d802ef50a10efb8d03f5113be96b1b",
+              "localReviewPath": "/review/source/doc-4b7697c21bd1/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-3eaff5922f3c",
+      "proposalId": "proposal-doc-4c1cbc7cd2a3",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-3eaff5922f3c",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4c1cbc7cd2a3",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "La Via Crucis Con questo brano poetico, invero un po' composito, ho voluto augurare a tutti Buona Pasqua in occasione della Pasqua 2005. Si tratta di una \"lauda dialogata\" ispirata alla Via Crucis, che ho composto per la",
+      "quote": "L'Olanda nella Prima Guerra Mondiale di Konstantinos XI Ed ecco come Konstantinos XI ha riscritto nel suo sito \"Basileia Total War\" l'ucronia di Falecius dedicata all'intervento dell'Olanda nella Prima Guerra Mondiale: .",
       "items": [
         {
-          "id": "item-102e4196a3ad",
-          "title": "La Via Crucis, lauda dialogata",
-          "path": "/works/la-via-crucis-lauda-dialogata-3eaff592/",
+          "id": "item-d87fb2fd350d",
+          "title": "L'Olanda nella Prima Guerra Mondiale secondo Konstantinos XI",
+          "path": "/works/l-olanda-nella-prima-guerra-mondiale-secondo-konstantinos-xi-4c1cbc7c/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-3eaff5922f3c",
-              "url": "http://www.fmboschetto.it/racconti/Via_Crucis.htm",
+              "documentId": "doc-4c1cbc7cd2a3",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Olanda_nella_WWI_Konst.htm",
+              "timestamp": "20200129154030",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "1c2f7088184a9985b54a03131ba2adff0a80dff508122ba7c18efe2f390b8fff",
-              "localReviewPath": "/review/source/doc-3eaff5922f3c/"
+              "sha256": "4dbae8f9931f2a20ed078142f1d6b3549115df44b2ba84c5e712aa8c532b21f1",
+              "localReviewPath": "/review/source/doc-4c1cbc7cd2a3/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-3f926e2c6a50",
+      "proposalId": "proposal-doc-4c6a08826c13",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-3f926e2c6a50",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4c6a08826c13",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "La Guerra d'Egitto di Filippo l'Italico, alias Filobeche Proemio Vi narrerò, come mi sono state raccontate e come ho potuto io stesso leggere, le vicende di Pericle condottiero che piegò al suo volere la terra d'Egitto e",
+      "quote": "Carausio, primo re della Britannia romana di Spartac Alla fine del III secolo d.C. l'usurpatore Carausio viene volutamente \"dimenticato\" da Diocleziano e Massimiano in Britannia. Il tentativo di Allecto di eliminarlo con",
       "items": [
         {
-          "id": "item-7344be64e378",
-          "title": "La Guerra d'Egitto",
-          "path": "/works/la-guerra-d-egitto-3f926e2c/",
+          "id": "item-e13e175d0f74",
+          "title": "Carausio, primo re della Britannia romana",
+          "path": "/works/carausio-primo-re-della-britannia-romana-4c6a0882/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-3f926e2c6a50",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Guerra_d_Egitto.htm",
-              "timestamp": "20130829021956",
+              "documentId": "doc-4c6a08826c13",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Carausio.htm",
+              "timestamp": "20200130021043",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "d0fb09e63adc1258baef78a937665b8528e2f37c76e5b31b57047572d0c7410a",
-              "localReviewPath": "/review/source/doc-3f926e2c6a50/"
+              "sha256": "7267853d0bc560fbd48a4db442f1e4bc1324e112bbd510f3efbff58e03e43d9c",
+              "localReviewPath": "/review/source/doc-4c6a08826c13/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-404c4dd5af8a",
+      "proposalId": "proposal-doc-4cb4df587203",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-404c4dd5af8a",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4cb4df587203",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "La fine del colonialismo! . Ed ecco ora un'originale proposta di Lord Wilmore: Nelle mie scorribande in Internet ho trovato questa Lista dei Territori Non Autonomi delle Nazioni Unite, cioè una lista di territori che non",
+      "quote": "Maria Teresa e Luigi XV Tutto è partito da questa proposta di Bhrghowidhon,: « Noi Carlo Francesco Giuseppe Venceslao Baldassarre Giovanni Antonio Ignazio d'Asburgo, col Favore della Divina Clemenza Eletto Carlo VI. Impe",
       "items": [
         {
-          "id": "item-14525c22c492",
-          "title": "La fine del colonialismo",
-          "path": "/works/la-fine-del-colonialismo-404c4dd5/",
+          "id": "item-be598e26aa0e",
+          "title": "Maria Teresa e Luigi XV",
+          "path": "/works/maria-teresa-e-luigi-xv-4cb4df58/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-404c4dd5af8a",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/Fine_del_colonialismo.htm",
-              "timestamp": "20211016045651",
+              "documentId": "doc-4cb4df587203",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Maria_Teresa_e_Luigi_XV.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "09478aaeed3e415394df60856ce21cb91991f611659aa989b9317777258ae7a7",
-              "localReviewPath": "/review/source/doc-404c4dd5af8a/"
+              "sha256": "fc4d7bddaaa58eb82e992051cf3f28b1a579e403293f628385f39bd7f0f499b4",
+              "localReviewPath": "/review/source/doc-4cb4df587203/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4053587333e8",
+      "proposalId": "proposal-doc-4cc1a0c26b91",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4053587333e8",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4cc1a0c26b91",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Il Trono di Spade per davvero di Jeck86 e MorteBianca Salve a tutti, sono Jeck86. Le \"Cronache del ghiaccio e del fuoco\" sono una saga fantasy opera dello scrittore statunitense George R. R. Martin, dal quale è stata tra",
+      "quote": "Nerón se convierte al cristianismo de William Riker Año 54 d.C., Agripina Menor hace envenenar a su marido Claudio con los famosos hongos trifolati, no precisamente comestibles, por temor a que éste nombrara sucesor a su",
       "items": [
         {
-          "id": "item-f7ecc500d511",
-          "title": "Il Trono di Spade per davvero",
-          "path": "/works/il-trono-di-spade-per-davvero-40535873/",
+          "id": "item-16a1b0e42b38",
+          "title": "Nerón se convierte al cristianismo",
+          "path": "/works/neron-se-convierte-al-cristianismo-4cc1a0c2/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4053587333e8",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Game_of_Thrones.htm",
-              "timestamp": "20210411103346",
+              "documentId": "doc-4cc1a0c26b91",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Ucroniasenespanol/Neron.htm",
+              "timestamp": "20230329231056",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "73061c8e4a17058b68699d91c717984c288fb74a5a55d9dba7aa057094e308cd",
-              "localReviewPath": "/review/source/doc-4053587333e8/"
+              "sha256": "14098106971431ed1545f8cec0d41e821a216642d495de7f9adbbeb56190c3b0",
+              "localReviewPath": "/review/source/doc-4cc1a0c26b91/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-40fa8dfa49ac",
+      "proposalId": "proposal-doc-4d34cd15441d",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-40fa8dfa49ac",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4d34cd15441d",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "« Tu con nu, nu con ti! » di Basileus TFT Nel 1797 la città di Perasto (vedi foto sottostante), presso le bocche di Cattaro, Gonfaloniera di Venezia da metà del '300, si rifiuta sottomettersi agli austriaci nonostante Ve",
+      "quote": "Morire per Kiev? di Mattiopolis Ecco una nuova ucronia ispirata alla Terza Guerra Mondiale, opera di Mattiopolis, che per questa ucronia si è basato sull'ipotesi di una guerra civile in Ucraina tra sostenitori di Unione",
       "items": [
         {
-          "id": "item-13568f76642e",
-          "title": "« Tu con nu, nu con ti! »",
-          "path": "/works/tu-con-nu-nu-con-ti-40fa8dfa/",
+          "id": "item-5519bb080909",
+          "title": "Morire per Kiev?",
+          "path": "/works/morire-per-kiev-4d34cd15/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-40fa8dfa49ac",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Perasto.htm",
-              "timestamp": "20170103081135",
+              "documentId": "doc-4d34cd15441d",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_WWIII_4.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "bec0955ab29fa21847f7ba49010f066578550e4c6b6db3708ab2d0e7c30b2550",
-              "localReviewPath": "/review/source/doc-40fa8dfa49ac/"
+              "sha256": "797606422397f407a7b9739ff310a146c00442791080d3b87032bf36f0ec2bd3",
+              "localReviewPath": "/review/source/doc-4d34cd15441d/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-41535df9abc3",
+      "proposalId": "proposal-doc-4d4f753d7a45",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-41535df9abc3",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4d4f753d7a45",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "La seconda invasione dell'India Infatti nel 305 a.C. il grande re indiano Chandragupta, della casa di Maurya, tenta di sloggiare i Greci dal Penjab per costruire un vasto stato esteso a tutta l'India del nord. Per l'invi",
+      "quote": "Senza Rivoluzione... di Perché No? La rivoluzione francese, che sia definita in modo stretto (1789-1815), largo (1789-1875) o internazionale (la rivoluzione atlantica 1770-1850) é stato l'evento maggiore degli ultimi 500",
       "items": [
         {
-          "id": "item-69e38ac490b7",
-          "title": "Fanta-Alessandro Magno",
-          "path": "/works/fanta-alessandro-magno-41535df9/",
+          "id": "item-a3f9b8933f8e",
+          "title": "Senza Rivoluzione...",
+          "path": "/works/senza-rivoluzione-4d4f753d/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-41535df9abc3",
-              "url": "http://www.fmboschetto.it/racconti/Alessandro/Alessandro_4.htm",
+              "documentId": "doc-4d4f753d7a45",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/senza_Rivoluzione_Francese.htm",
+              "timestamp": "20211016061301",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "97492ee28b79f1b3a0d112faff8510eaf3fa5496d19bf28cca9a15977df98f6b",
-              "localReviewPath": "/review/source/doc-41535df9abc3/"
+              "sha256": "874217948350262fb310ed341dbb2cd0c6b00cdbd00028385468e472bb1a0e92",
+              "localReviewPath": "/review/source/doc-4d4f753d7a45/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-41665f4da7c5",
+      "proposalId": "proposal-doc-4dacc4ccd68a",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-41665f4da7c5",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4dacc4ccd68a",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Storia della Galassia: L'era del sole di Filobeche 2000 d.C.-0 E.S. (Era Solare, a volte anche Era Marziana): L'umanità più o meno unita lancia una serie di missioni spaziali che la portano ad installare basi semipermane",
+      "quote": "IL VENTENNIO DELLE SCORRERIE (1043 - 1066 aUc = 290 - 313 d.C.) Il ventennio nero E' inutile dire che, spesso, le popolazioni latine e celtiche percepiscono l'arrivo dei popoli trasferiti come delle vere e proprie scorre",
       "items": [
         {
-          "id": "item-0de02c64ec63",
-          "title": "La storia della Galassia secondo Filobeche",
-          "path": "/works/la-storia-della-galassia-secondo-filobeche-41665f4d/",
+          "id": "item-cbba924c438f",
+          "title": "Il ventennio delle scorrerie",
+          "path": "/works/il-ventennio-delle-scorrerie-4dacc4cc/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-41665f4da7c5",
-              "url": "http://www.fmboschetto.it/utopiaucronia/storia_della_Galassia.htm",
-              "timestamp": "20250418230151",
+              "documentId": "doc-4dacc4ccd68a",
+              "url": "http://www.fmboschetto.it/racconti/iperimpero/iperimp4.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "3cd9d22399f8b3e11a1b6d843bf45ac3dc99ae653968f3b3833d5145f5fb90f2",
-              "localReviewPath": "/review/source/doc-41665f4da7c5/"
+              "sha256": "7538aa834a94c67f7e8fa7a9360b0c1b6004ad18ddb0ffc01d89e5f68fe6668d",
+              "localReviewPath": "/review/source/doc-4dacc4ccd68a/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-41b5c3f8f111",
+      "proposalId": "proposal-doc-4e4b46c30cf0",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-41b5c3f8f111",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4e4b46c30cf0",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Code Geass per davvero! di Inuyasha Han'yō 55 a.C. 26 agosto: Giulio Cesare dirige la prima invasione romana della Britannia, molto probabilmente una spedizione di esplorazione in armi, come risposta all'aiuto militare c",
+      "quote": "I Regni Uniti d'America di Tommaso Mazzoni P.o.D.: Ce ne sono svariati, ma il più importante è questo: le 13 Colonie sono organizzate come 13 Ducati, ciascuno con un Duca ereditario e non un governatore nominato dal Re.",
       "items": [
         {
-          "id": "item-baed4bc67c4c",
-          "title": "Code Geass per davvero!",
-          "path": "/works/code-geass-per-davvero-41b5c3f8/",
+          "id": "item-e4804d96ae1f",
+          "title": "United Kingdoms of America",
+          "path": "/works/united-kingdoms-of-america-4e4b46c3/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-41b5c3f8f111",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/Code_Geass.htm",
-              "timestamp": "20250418233336",
+              "documentId": "doc-4e4b46c30cf0",
+              "url": "http://www.fmboschetto.it/utopiaucronia/UKA.htm",
+              "timestamp": "20221031084652",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "161a694857d8614ed2db272b79877b96968676696e3e99afa72e82bf4464f19c",
-              "localReviewPath": "/review/source/doc-41b5c3f8f111/"
+              "sha256": "f5727b6d54e74c5677e85bb155485d8c499dfe4953fb10e9fe8b064205b77e3e",
+              "localReviewPath": "/review/source/doc-4e4b46c30cf0/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-41b6c22438ac",
+      "proposalId": "proposal-doc-4e5c3599cbfe",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-41b6c22438ac",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4e5c3599cbfe",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Grande Guerra, grande sconfitta L’Italia si schiera con la Triplice, e perde di Rivoluzionario Liberale Giolitti patrocinò l’avventura coloniale in Libia nel 1912, anche se non si dimostrò d’accordo con l’ingresso dell’I",
+      "quote": "Adelchi 1989 di Francesco Dessolis Ho provato per scherzo a riscrivere il famoso coro dell'Adelchi, ambientandolo in un universo ucronico in cui l'Italia nel secondo dopoguerra è stata occupata dai sovietici, che ne hann",
       "items": [
         {
-          "id": "item-ee524db0fc0f",
-          "title": "Grande Guerra, grande sconfitta",
-          "path": "/works/grande-guerra-grande-sconfitta-41b6c224/",
+          "id": "item-dcaf3552b76f",
+          "title": "Il viaggio di Daniel",
+          "path": "/works/il-viaggio-di-daniel-4e5c3599/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-41b6c22438ac",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/grande_sconfitta.htm",
-              "timestamp": "20200130183820",
+              "documentId": "doc-4e5c3599cbfe",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_Daniel.htm",
+              "timestamp": "20250418232133",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "ad239ccda0d68f264068283a4dd39aca64eefec15acaaadedd5d4a9b7a7c76b6",
-              "localReviewPath": "/review/source/doc-41b6c22438ac/"
+              "sha256": "e9337cd7eb90b9b14157c44cd2641c43dc86b7a4d0178edeeb44b5c31e06c277",
+              "localReviewPath": "/review/source/doc-4e5c3599cbfe/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4217369e79c0",
+      "proposalId": "proposal-doc-4ff69c6c8e6a",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4217369e79c0",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4ff69c6c8e6a",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Thèmata cronaca di una rivoluzione riuscita di Konstantinos XI \"La sede dell'Impero Romano è Costantinopoli, e colui che è e rimane Imperatore dei Romani è anche l'Imperatore di tutta la Terra.\" . Anno 6499 dalla Creazio",
+      "quote": "L'Atlantonesia di William Riker in memoria di Enrica Soldavini Ispirandosi alla vignetta soprastante e a questo sito, William Riker è stato affascinato dall'idea di una cintura di isole tra Vecchio e Nuovo Mondo attraver",
       "items": [
         {
-          "id": "item-139a488ec449",
-          "title": "Thèmata",
-          "path": "/works/themata-4217369e/",
+          "id": "item-0ee56beedb61",
+          "title": "La Macaronesia punica",
+          "path": "/works/la-macaronesia-punica-4ff69c6c/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4217369e79c0",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Themata.htm",
-              "timestamp": "20130404012532",
+              "documentId": "doc-4ff69c6c8e6a",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Macaronesia.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "2c881fb0741756bb068ed7eb2839b34fb4234988b4ca92d5564390105a317b37",
-              "localReviewPath": "/review/source/doc-4217369e79c0/"
+              "sha256": "faa9f037912315fbffc39ad137f8c00610a98488ac20ece1d4ce54a4477a47bd",
+              "localReviewPath": "/review/source/doc-4ff69c6c8e6a/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-42732f1dfd75",
+      "proposalId": "proposal-doc-50935a938b32",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-42732f1dfd75",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-50935a938b32",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Il nuovo millennio 2001 d.C., 4 gennaio: viene aperta un'inchiesta sui decessi di alcuni soldati reduci dalle missioni in Kosovo; si sospetta che la loro morte sia causata dall'uso di armi all'uranio impoverito usate dal",
+      "quote": "Rodolfo III d'Asburgo Lo sceneggiato dedicato da Rai Uno alla vicenda dello sfortunato Arciduca Rodolfo d'Asburgo ha ispirato al nostro Webmaster William Riker la seguente ucronia. Il 10 maggio 1881 Rodolfo d'Asburgo-Lor",
       "items": [
         {
-          "id": "item-6650d879c53b",
-          "title": "Il nuovo millennio",
-          "path": "/works/il-nuovo-millennio-42732f1d/",
+          "id": "item-fd31651b7da7",
+          "title": "Rodolfo III d'Asburgo",
+          "path": "/works/rodolfo-iii-d-asburgo-50935a93/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-42732f1dfd75",
-              "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_24.htm",
+              "documentId": "doc-50935a938b32",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Rodolfo_III.htm",
+              "timestamp": "20200129153654",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "14d5c71358e9df6032c752faa0bcb7c5e3763535cd914a0d7ffe983be3ad7483",
-              "localReviewPath": "/review/source/doc-42732f1dfd75/"
+              "sha256": "9f6f0b4cd1e4cfd8ea631076ff5989e851a25397863d9b87f6fa5139d54384dd",
+              "localReviewPath": "/review/source/doc-50935a938b32/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-42aa19ecff9c",
+      "proposalId": "proposal-doc-51364162cace",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-42aa19ecff9c",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-51364162cace",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Le cinque repubbliche marinare di Det0 POD: Assistiamo alla nascita di cinque repubbliche marinare in Italia: alle quattro tradizionali si aggiunge anche Ravenna, che riesce a mantenere una certa importanza e indipendenz",
+      "quote": "718, Costantinopoli cade di Falecius e *Bhrg'howidhHô(n-) Ad aprire questa discussione è stato Falecius: Riprendo una mia vecchia idea su Costantinopoli e gli Arabi. nell'ultimo assedio della città (718) le forze Umayyad",
       "items": [
         {
-          "id": "item-4ab479743d06",
-          "title": "Le cinque Repubbliche Marinare",
-          "path": "/works/le-cinque-repubbliche-marinare-42aa19ec/",
+          "id": "item-b890c61caee5",
+          "title": "718, Costantinopoli cade",
+          "path": "/works/718-costantinopoli-cade-51364162/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-42aa19ecff9c",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/cinque_rep_marinare.htm",
-              "timestamp": "20260420031951",
+              "documentId": "doc-51364162cace",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Costantinopoli_cade.htm",
+              "timestamp": "20160614084210",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "36deee4104610c1f373915a084087a8a9d26767ce53bb7bc103f7d0847a6fa5a",
-              "localReviewPath": "/review/source/doc-42aa19ecff9c/"
+              "sha256": "62dc80a80b2e56328aeaa7bedb0f7e81f63819334de5ebf09caa0547b24a42a1",
+              "localReviewPath": "/review/source/doc-51364162cace/"
             }
           ]
         }

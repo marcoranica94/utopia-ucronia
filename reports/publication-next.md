@@ -2,402 +2,402 @@
 
 Read-only proposals for owner review. No approval or publication selection has been recorded. Review links open on the local development server after `pnpm dev`; they are absent from the deployed site.
 
-## 1. Kursk 1943, di Sandro Degiani
+## 1. Il vecchio maestro
 
-Proposal: `proposal-doc-3b59fc42a563` · action: `work`
+Proposal: `proposal-doc-4984243ba9bb` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-3b59fc42a563)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4984243ba9bb)
 
-> Kursk 1943 di Sandro Degiani Un altro racconto sul Bene ed il Male a confronto… nella realtà scritto prima di Capoverde 1944, anche se collocato temporalmente dopo. Nei miei racconti di guerra c’è sempre una deriva tecni
+> Il vecchio maestro di Andrea Marcobelli Ed ecco due racconti ucronici in cui, in altrettanti mondi diversi dal nostro, la vita di un personaggio storico è stata indirizzata in maniera decisamente diversa... . Mi ricordo
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/kursk-1943-di-sandro-degiani-3b59fc42/` · composition: `single`
+Target: `/works/il-vecchio-maestro-4984243b/` · composition: `single`
 
-[Full source for local review](/review/source/doc-3b59fc42a563/)
+[Full source for local review](/review/source/doc-4984243ba9bb/)
 
-Source: https://www.fmboschetto.it/Utopiaucronia/Kursk.htm
+Source: http://www.fmboschetto.it/utopiaucronia/il\_vecchio\_maestro.htm
 
-SHA-256: `226cd1c3dd8019db1f5f7a783c45dc4c80f71cd2cf78802271bb572f17379b6b`
+SHA-256: `c988d0229a0a4e4978efa18305e17bb5af41ffe0b7db6a5b90dd2c642dfe2dcb`
 
 Selection: `{"kind":"whole"}`
 
-## 2. Successione ininterrotta degli Imperatori Romani di Britannia
+## 2. De vita Caesaris
 
-Proposal: `proposal-doc-3c066277fe8d` · action: `work`
+Proposal: `proposal-doc-4a452aa839c1` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-3c066277fe8d)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4a452aa839c1)
 
-> Gli Imperatori Romani di Britannia di Lord Wilmore Bandiera dell'Impero Romano di Britannia Più volte ci siamo chiesti quale stato potesse dirsi nei secoli erede legittimo dell'antico Impero Romano. Le risposte sono stat
+> De Vita Caesaris di Falecius . Quest'ucronia è uno spin-off del mio "de Bello Dacico", scritta basandomi su una affidabile "tavola dei popoli" che contiene informazioni più dettagliate sui rapporti con Roma, per l'area m
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/successione-ininterrotta-degli-imperatori-romani-di-britannia-3c066277/` · composition: `single`
+Target: `/works/de-vita-caesaris-4a452aa8/` · composition: `single`
 
-[Full source for local review](/review/source/doc-3c066277fe8d/)
+[Full source for local review](/review/source/doc-4a452aa839c1/)
 
-Source: https://www.fmboschetto.it/Utopiaucronia/Fanta\_Imperatori\_di\_Britannia.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/de\_vita\_Caesaris.htm
 
-SHA-256: `6023d326fc6b766b8e67dd549ace66925e0ddb0c4d293e721faaf37e04e4de73`
+SHA-256: `ddb20a0531c9c8c752ccc23d70d47e5541669b77d687ecfd059d9a993f6611ba`
 
 Selection: `{"kind":"whole"}`
 
-## 3. Sargon l'Immortale
+## 3. Maxima Facta Patrvm
 
-Proposal: `proposal-doc-3c84f92918a4` · action: `work`
+Proposal: `proposal-doc-4ab92cceae22` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-3c84f92918a4)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4ab92cceae22)
 
-> Sargon l'immortale di Blade87 2296 a.C., nel cuore dell’Asia Minore: . Il sole tramontava lentamente, tingendo il cielo di rosa e gettando una luce sanguigna sul luogo della battaglia appena conclusa; migliaia di corpi d
+> Maxima Facta Patrvm « IL CRIVELLO DI ERATOSTENE » quotidiano tecnico-scientifico fondato a Genova nel 2007 EDIZIONE STRAORDINARIA del 3 ottobre 2010 UNO STRAORDINARIO RITROVAMENTO: MAXIMA FACTA PATRVM! \[Genova\] Una notiz
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/sargon-l-immortale-3c84f929/` · composition: `single`
+Target: `/works/maxima-facta-patrvm-4ab92cce/` · composition: `single`
 
-[Full source for local review](/review/source/doc-3c84f92918a4/)
+[Full source for local review](/review/source/doc-4ab92cceae22/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Sargon.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Annales2010.htm
 
-SHA-256: `8188d24091006fc1bf3c25fae1e03885164d10df7fd3129e7cb0c6816112ef0e`
+SHA-256: `385594fa09a4d2153e95728100cc2e20ddd91b7b61da49f9b4efbf4e1ea640d7`
 
 Selection: `{"kind":"whole"}`
 
-## 4. Cronologia di "Stranger Things"
+## 4. 2 giugno 1946, la vittoria della Monarchia
 
-Proposal: `proposal-doc-3ceb77702251` · action: `work`
+Proposal: `proposal-doc-4afc290ab473` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-3ceb77702251)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4afc290ab473)
 
-> ispirata a questo sito Antefatto 1816, 11 dicembre: l'Indiana diventa il 19° stato degli Stati Uniti d'America 1825, 15 luglio: nello stato dell'Indiana viene fondata la città di Hawkins. 1848, 13 settembre: mentre lavor
+> 2 giugno 1946, la vittoria della Monarchia di Demofilo 25 luglio 1943, la svolta di Roma Dopo aver fatto arrestare Mussolini il 25 luglio 1943, il Re Imperatore Vittorio Emanuele III decide di abdicare in favore del figl
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/cronologia-di-stranger-things-3ceb7770/` · composition: `single`
+Target: `/works/2-giugno-1946-la-vittoria-della-monarchia-4afc290a/` · composition: `single`
 
-[Full source for local review](/review/source/doc-3ceb77702251/)
+[Full source for local review](/review/source/doc-4afc290ab473/)
 
-Source: https://www.fmboschetto.it/Utopiaucronia/Cronologia\_Stranger\_Things.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_vittoria\_della\_monarchia.htm
 
-SHA-256: `d4b0e02ce0514e7ad49e0d7bf89ff13906cba24805b025c67f0cab6b1a10894f`
+SHA-256: `018e000eba681c25220c89292a36fa205d29c8d9b066276b3ce3d27979366f18`
 
 Selection: `{"kind":"whole"}`
 
-## 5. La Seconda Guerra Mondiale in Sudamerica
+## 5. L'impero di Alessandro secondo Fiolobeche
 
-Proposal: `proposal-doc-3d0a050c3f65` · action: `work`
+Proposal: `proposal-doc-4b0a9c968cd0` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-3d0a050c3f65)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4b0a9c968cd0)
 
-> La Seconda Guerra Mondiale in Sudamerica . La proposta di Michele Ghilardelli è semplice e lapidaria: Questa è la foto. Il POD raccontatelo voi... . Paolo Maltagliati gli replica: Ottima idea! Che accade se gli stati sud
+> L'impero di Alessandro di Filobeche POD: Alessandro non muore ma per febbri malariche ma rimane talmente debilitato che non sarà in grado di guidare nuove conquiste militari. Durante gli anni del suo regno pacifico (323
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-seconda-guerra-mondiale-in-sudamerica-3d0a050c/` · composition: `single`
+Target: `/works/l-impero-di-alessandro-secondo-fiolobeche-4b0a9c96/` · composition: `single`
 
-[Full source for local review](/review/source/doc-3d0a050c3f65/)
+[Full source for local review](/review/source/doc-4b0a9c968cd0/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/WWII\_in\_Sudamerica.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/impero\_di\_Alessandro.htm
 
-SHA-256: `20a3c2424e4a7af4dd241bf340dd631f319fc2b2722f2b0d13ee7a839c0c1f02`
+SHA-256: `abfde39fb27b759f12bf13d3b1c3a53679a8c5a46506bbe9c80aacbe90e4592a`
 
 Selection: `{"kind":"whole"}`
 
-## 6. Le Tre Italie
+## 6. Attila imperatore
 
-Proposal: `proposal-doc-3d54c4d5204f` · action: `work`
+Proposal: `proposal-doc-4b1cafbf4221` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-3d54c4d5204f)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4b1cafbf4221)
 
-> Le Tre Italie di Enrica S. scritta per celebrare la Festa di Utopiaucronia il 28 giugno 2016 POD: il 15 giugno 1837, durante la guerra per l'indipendenza della Repubblica del Rio Grande, Giuseppe Garibaldi, che si trova
+> Attila imperatore di Perchè no? Un'idea pazzesca, no? Però a me piace, ecco come vedo le cose: Le relazioni di gioventù tra Attila, futuro khan degli Unni, e il romano Flavio Ezio sono conosciute, ma poi Ezio é tornato a
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/le-tre-italie-3d54c4d5/` · composition: `single`
+Target: `/works/attila-imperatore-4b1cafbf/` · composition: `single`
 
-[Full source for local review](/review/source/doc-3d54c4d5204f/)
+[Full source for local review](/review/source/doc-4b1cafbf4221/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/tre\_Italie.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Attila.htm
 
-SHA-256: `9c88a6b34157a63f3726a28683d6397c0aed2efa2637c93887ea45dbc03e595c`
+SHA-256: `ccd35d9e0c417009091e9666033ddc3f845c23c7494a053f73ac96900f00d3fb`
 
 Selection: `{"kind":"whole"}`
 
-## 7. Il Console, di Sandro Degiani
+## 7. La Svezia nella Prima Guerra Mondiale!
 
-Proposal: `proposal-doc-3d7b3f11c44b` · action: `work`
+Proposal: `proposal-doc-4b50ae60d9ff` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-3d7b3f11c44b)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4b50ae60d9ff)
 
-> Il Console di Sandro Degiani Qui vi devo dire proprio poche parole… se siete davvero molto forti in Storia Antica avrete una reazione diversa da chi, come me prima che mi documentassi a fondo per scriverlo, ne ha una con
+> La Svezia nella Prima Guerra Mondiale Ecco le proposte dell'amico Basileus TFT per il nostro gioco ucronico consistente nello scrivere tutti un'ucronia che preveda una Prima o una Seconda Guerra Mondiale "alternativa". C
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-console-di-sandro-degiani-3d7b3f11/` · composition: `single`
+Target: `/works/la-svezia-nella-prima-guerra-mondiale-4b50ae60/` · composition: `single`
 
-[Full source for local review](/review/source/doc-3d7b3f11c44b/)
+[Full source for local review](/review/source/doc-4b50ae60d9ff/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/console.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Svezia\_%20nella\_WWI.htm
 
-SHA-256: `e903bbcdc68d06332b6c92ea2480929b33a58b8918dacdb8a0bfe200eb262a16`
+SHA-256: `62fb81955a21d8f85d165444c605fff3c470699b7b2cf1dd6a27d9e2305ade2e`
 
 Selection: `{"kind":"whole"}`
 
-## 8. Star Trek e Star Wars
+## 8. Pilota, di Sandro Degiani
 
-Proposal: `proposal-doc-3db81bb00e5c` · action: `work`
+Proposal: `proposal-doc-4b7697c21bd1` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-3db81bb00e5c)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4b7697c21bd1)
 
-> Star Trek e Star Wars! Ad aprire le danze è stato il vulcanico Marziano: Immaginate che l'astronave di Capitan Kirk capiti nella Galassia Lontana Lontana di Star Wars. Mettiamo proprio per assistere alla distruzione de "
+> Il Giudice di Dario Carcano Introduzione Autunno. Il sole era appena sorto, e la sua cresta rosata illuminava le vette dei monti che circondavano Laresinio. Gli abitanti del villaggio incastrato tra le montagne si erano
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/star-trek-e-star-wars-3db81bb0/` · composition: `single`
+Target: `/works/pilota-di-sandro-degiani-4b7697c2/` · composition: `single`
 
-[Full source for local review](/review/source/doc-3db81bb00e5c/)
+[Full source for local review](/review/source/doc-4b7697c21bd1/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Star\_Trek\_Star\_Wars.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Pilota.htm
 
-SHA-256: `eda5d0aea3afd43ffefc0675afcc68394a52c523a6be0e8848fc5a35fb20be08`
+SHA-256: `c4ea92c8f1323ceed474b7896a591287e0d802ef50a10efb8d03f5113be96b1b`
 
 Selection: `{"kind":"whole"}`
 
-## 9. La Via Crucis, lauda dialogata
+## 9. L'Olanda nella Prima Guerra Mondiale secondo Konstantinos XI
 
-Proposal: `proposal-doc-3eaff5922f3c` · action: `work`
+Proposal: `proposal-doc-4c1cbc7cd2a3` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-3eaff5922f3c)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4c1cbc7cd2a3)
 
-> La Via Crucis Con questo brano poetico, invero un po' composito, ho voluto augurare a tutti Buona Pasqua in occasione della Pasqua 2005. Si tratta di una "lauda dialogata" ispirata alla Via Crucis, che ho composto per la
+> L'Olanda nella Prima Guerra Mondiale di Konstantinos XI Ed ecco come Konstantinos XI ha riscritto nel suo sito "Basileia Total War" l'ucronia di Falecius dedicata all'intervento dell'Olanda nella Prima Guerra Mondiale: .
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-via-crucis-lauda-dialogata-3eaff592/` · composition: `single`
+Target: `/works/l-olanda-nella-prima-guerra-mondiale-secondo-konstantinos-xi-4c1cbc7c/` · composition: `single`
 
-[Full source for local review](/review/source/doc-3eaff5922f3c/)
+[Full source for local review](/review/source/doc-4c1cbc7cd2a3/)
 
-Source: http://www.fmboschetto.it/racconti/Via\_Crucis.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Olanda\_nella\_WWI\_Konst.htm
 
-SHA-256: `1c2f7088184a9985b54a03131ba2adff0a80dff508122ba7c18efe2f390b8fff`
+SHA-256: `4dbae8f9931f2a20ed078142f1d6b3549115df44b2ba84c5e712aa8c532b21f1`
 
 Selection: `{"kind":"whole"}`
 
-## 10. La Guerra d'Egitto
+## 10. Carausio, primo re della Britannia romana
 
-Proposal: `proposal-doc-3f926e2c6a50` · action: `work`
+Proposal: `proposal-doc-4c6a08826c13` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-3f926e2c6a50)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4c6a08826c13)
 
-> La Guerra d'Egitto di Filippo l'Italico, alias Filobeche Proemio Vi narrerò, come mi sono state raccontate e come ho potuto io stesso leggere, le vicende di Pericle condottiero che piegò al suo volere la terra d'Egitto e
+> Carausio, primo re della Britannia romana di Spartac Alla fine del III secolo d.C. l'usurpatore Carausio viene volutamente "dimenticato" da Diocleziano e Massimiano in Britannia. Il tentativo di Allecto di eliminarlo con
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-guerra-d-egitto-3f926e2c/` · composition: `single`
+Target: `/works/carausio-primo-re-della-britannia-romana-4c6a0882/` · composition: `single`
 
-[Full source for local review](/review/source/doc-3f926e2c6a50/)
+[Full source for local review](/review/source/doc-4c6a08826c13/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Guerra\_d\_Egitto.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Carausio.htm
 
-SHA-256: `d0fb09e63adc1258baef78a937665b8528e2f37c76e5b31b57047572d0c7410a`
+SHA-256: `7267853d0bc560fbd48a4db442f1e4bc1324e112bbd510f3efbff58e03e43d9c`
 
 Selection: `{"kind":"whole"}`
 
-## 11. La fine del colonialismo
+## 11. Maria Teresa e Luigi XV
 
-Proposal: `proposal-doc-404c4dd5af8a` · action: `work`
+Proposal: `proposal-doc-4cb4df587203` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-404c4dd5af8a)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4cb4df587203)
 
-> La fine del colonialismo! . Ed ecco ora un'originale proposta di Lord Wilmore: Nelle mie scorribande in Internet ho trovato questa Lista dei Territori Non Autonomi delle Nazioni Unite, cioè una lista di territori che non
+> Maria Teresa e Luigi XV Tutto è partito da questa proposta di Bhrghowidhon,: « Noi Carlo Francesco Giuseppe Venceslao Baldassarre Giovanni Antonio Ignazio d'Asburgo, col Favore della Divina Clemenza Eletto Carlo VI. Impe
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-fine-del-colonialismo-404c4dd5/` · composition: `single`
+Target: `/works/maria-teresa-e-luigi-xv-4cb4df58/` · composition: `single`
 
-[Full source for local review](/review/source/doc-404c4dd5af8a/)
+[Full source for local review](/review/source/doc-4cb4df587203/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Fine\_del\_colonialismo.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Maria\_Teresa\_e\_Luigi\_XV.htm
 
-SHA-256: `09478aaeed3e415394df60856ce21cb91991f611659aa989b9317777258ae7a7`
+SHA-256: `fc4d7bddaaa58eb82e992051cf3f28b1a579e403293f628385f39bd7f0f499b4`
 
 Selection: `{"kind":"whole"}`
 
-## 12. Il Trono di Spade per davvero
+## 12. Nerón se convierte al cristianismo
 
-Proposal: `proposal-doc-4053587333e8` · action: `work`
+Proposal: `proposal-doc-4cc1a0c26b91` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4053587333e8)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4cc1a0c26b91)
 
-> Il Trono di Spade per davvero di Jeck86 e MorteBianca Salve a tutti, sono Jeck86. Le "Cronache del ghiaccio e del fuoco" sono una saga fantasy opera dello scrittore statunitense George R. R. Martin, dal quale è stata tra
+> Nerón se convierte al cristianismo de William Riker Año 54 d.C., Agripina Menor hace envenenar a su marido Claudio con los famosos hongos trifolati, no precisamente comestibles, por temor a que éste nombrara sucesor a su
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-trono-di-spade-per-davvero-40535873/` · composition: `single`
+Target: `/works/neron-se-convierte-al-cristianismo-4cc1a0c2/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4053587333e8/)
+[Full source for local review](/review/source/doc-4cc1a0c26b91/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Game\_of\_Thrones.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Ucroniasenespanol/Neron.htm
 
-SHA-256: `73061c8e4a17058b68699d91c717984c288fb74a5a55d9dba7aa057094e308cd`
+SHA-256: `14098106971431ed1545f8cec0d41e821a216642d495de7f9adbbeb56190c3b0`
 
 Selection: `{"kind":"whole"}`
 
-## 13. « Tu con nu, nu con ti! »
+## 13. Morire per Kiev?
 
-Proposal: `proposal-doc-40fa8dfa49ac` · action: `work`
+Proposal: `proposal-doc-4d34cd15441d` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-40fa8dfa49ac)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4d34cd15441d)
 
-> « Tu con nu, nu con ti! » di Basileus TFT Nel 1797 la città di Perasto (vedi foto sottostante), presso le bocche di Cattaro, Gonfaloniera di Venezia da metà del '300, si rifiuta sottomettersi agli austriaci nonostante Ve
+> Morire per Kiev? di Mattiopolis Ecco una nuova ucronia ispirata alla Terza Guerra Mondiale, opera di Mattiopolis, che per questa ucronia si è basato sull'ipotesi di una guerra civile in Ucraina tra sostenitori di Unione
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/tu-con-nu-nu-con-ti-40fa8dfa/` · composition: `single`
+Target: `/works/morire-per-kiev-4d34cd15/` · composition: `single`
 
-[Full source for local review](/review/source/doc-40fa8dfa49ac/)
+[Full source for local review](/review/source/doc-4d34cd15441d/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Perasto.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Fanta\_WWIII\_4.htm
 
-SHA-256: `bec0955ab29fa21847f7ba49010f066578550e4c6b6db3708ab2d0e7c30b2550`
+SHA-256: `797606422397f407a7b9739ff310a146c00442791080d3b87032bf36f0ec2bd3`
 
 Selection: `{"kind":"whole"}`
 
-## 14. Fanta-Alessandro Magno
+## 14. Senza Rivoluzione...
 
-Proposal: `proposal-doc-41535df9abc3` · action: `work`
+Proposal: `proposal-doc-4d4f753d7a45` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-41535df9abc3)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4d4f753d7a45)
 
-> La seconda invasione dell'India Infatti nel 305 a.C. il grande re indiano Chandragupta, della casa di Maurya, tenta di sloggiare i Greci dal Penjab per costruire un vasto stato esteso a tutta l'India del nord. Per l'invi
+> Senza Rivoluzione... di Perché No? La rivoluzione francese, che sia definita in modo stretto (1789-1815), largo (1789-1875) o internazionale (la rivoluzione atlantica 1770-1850) é stato l'evento maggiore degli ultimi 500
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/fanta-alessandro-magno-41535df9/` · composition: `single`
+Target: `/works/senza-rivoluzione-4d4f753d/` · composition: `single`
 
-[Full source for local review](/review/source/doc-41535df9abc3/)
+[Full source for local review](/review/source/doc-4d4f753d7a45/)
 
-Source: http://www.fmboschetto.it/racconti/Alessandro/Alessandro\_4.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/senza\_Rivoluzione\_Francese.htm
 
-SHA-256: `97492ee28b79f1b3a0d112faff8510eaf3fa5496d19bf28cca9a15977df98f6b`
+SHA-256: `874217948350262fb310ed341dbb2cd0c6b00cdbd00028385468e472bb1a0e92`
 
 Selection: `{"kind":"whole"}`
 
-## 15. La storia della Galassia secondo Filobeche
+## 15. Il ventennio delle scorrerie
 
-Proposal: `proposal-doc-41665f4da7c5` · action: `work`
+Proposal: `proposal-doc-4dacc4ccd68a` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-41665f4da7c5)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4dacc4ccd68a)
 
-> Storia della Galassia: L'era del sole di Filobeche 2000 d.C.-0 E.S. (Era Solare, a volte anche Era Marziana): L'umanità più o meno unita lancia una serie di missioni spaziali che la portano ad installare basi semipermane
+> IL VENTENNIO DELLE SCORRERIE (1043 - 1066 aUc = 290 - 313 d.C.) Il ventennio nero E' inutile dire che, spesso, le popolazioni latine e celtiche percepiscono l'arrivo dei popoli trasferiti come delle vere e proprie scorre
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-storia-della-galassia-secondo-filobeche-41665f4d/` · composition: `single`
+Target: `/works/il-ventennio-delle-scorrerie-4dacc4cc/` · composition: `single`
 
-[Full source for local review](/review/source/doc-41665f4da7c5/)
+[Full source for local review](/review/source/doc-4dacc4ccd68a/)
 
-Source: http://www.fmboschetto.it/utopiaucronia/storia\_della\_Galassia.htm
+Source: http://www.fmboschetto.it/racconti/iperimpero/iperimp4.htm
 
-SHA-256: `3cd9d22399f8b3e11a1b6d843bf45ac3dc99ae653968f3b3833d5145f5fb90f2`
+SHA-256: `7538aa834a94c67f7e8fa7a9360b0c1b6004ad18ddb0ffc01d89e5f68fe6668d`
 
 Selection: `{"kind":"whole"}`
 
-## 16. Code Geass per davvero!
+## 16. United Kingdoms of America
 
-Proposal: `proposal-doc-41b5c3f8f111` · action: `work`
+Proposal: `proposal-doc-4e4b46c30cf0` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-41b5c3f8f111)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4e4b46c30cf0)
 
-> Code Geass per davvero! di Inuyasha Han'yō 55 a.C. 26 agosto: Giulio Cesare dirige la prima invasione romana della Britannia, molto probabilmente una spedizione di esplorazione in armi, come risposta all'aiuto militare c
+> I Regni Uniti d'America di Tommaso Mazzoni P.o.D.: Ce ne sono svariati, ma il più importante è questo: le 13 Colonie sono organizzate come 13 Ducati, ciascuno con un Duca ereditario e non un governatore nominato dal Re.
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/code-geass-per-davvero-41b5c3f8/` · composition: `single`
+Target: `/works/united-kingdoms-of-america-4e4b46c3/` · composition: `single`
 
-[Full source for local review](/review/source/doc-41b5c3f8f111/)
+[Full source for local review](/review/source/doc-4e4b46c30cf0/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Code\_Geass.htm
+Source: http://www.fmboschetto.it/utopiaucronia/UKA.htm
 
-SHA-256: `161a694857d8614ed2db272b79877b96968676696e3e99afa72e82bf4464f19c`
+SHA-256: `f5727b6d54e74c5677e85bb155485d8c499dfe4953fb10e9fe8b064205b77e3e`
 
 Selection: `{"kind":"whole"}`
 
-## 17. Grande Guerra, grande sconfitta
+## 17. Il viaggio di Daniel
 
-Proposal: `proposal-doc-41b6c22438ac` · action: `work`
+Proposal: `proposal-doc-4e5c3599cbfe` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-41b6c22438ac)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4e5c3599cbfe)
 
-> Grande Guerra, grande sconfitta L’Italia si schiera con la Triplice, e perde di Rivoluzionario Liberale Giolitti patrocinò l’avventura coloniale in Libia nel 1912, anche se non si dimostrò d’accordo con l’ingresso dell’I
+> Adelchi 1989 di Francesco Dessolis Ho provato per scherzo a riscrivere il famoso coro dell'Adelchi, ambientandolo in un universo ucronico in cui l'Italia nel secondo dopoguerra è stata occupata dai sovietici, che ne hann
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/grande-guerra-grande-sconfitta-41b6c224/` · composition: `single`
+Target: `/works/il-viaggio-di-daniel-4e5c3599/` · composition: `single`
 
-[Full source for local review](/review/source/doc-41b6c22438ac/)
+[Full source for local review](/review/source/doc-4e5c3599cbfe/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/grande\_sconfitta.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/viaggio\_di\_Daniel.htm
 
-SHA-256: `ad239ccda0d68f264068283a4dd39aca64eefec15acaaadedd5d4a9b7a7c76b6`
+SHA-256: `e9337cd7eb90b9b14157c44cd2641c43dc86b7a4d0178edeeb44b5c31e06c277`
 
 Selection: `{"kind":"whole"}`
 
-## 18. Thèmata
+## 18. La Macaronesia punica
 
-Proposal: `proposal-doc-4217369e79c0` · action: `work`
+Proposal: `proposal-doc-4ff69c6c8e6a` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4217369e79c0)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4ff69c6c8e6a)
 
-> Thèmata cronaca di una rivoluzione riuscita di Konstantinos XI "La sede dell'Impero Romano è Costantinopoli, e colui che è e rimane Imperatore dei Romani è anche l'Imperatore di tutta la Terra." . Anno 6499 dalla Creazio
+> L'Atlantonesia di William Riker in memoria di Enrica Soldavini Ispirandosi alla vignetta soprastante e a questo sito, William Riker è stato affascinato dall'idea di una cintura di isole tra Vecchio e Nuovo Mondo attraver
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/themata-4217369e/` · composition: `single`
+Target: `/works/la-macaronesia-punica-4ff69c6c/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4217369e79c0/)
+[Full source for local review](/review/source/doc-4ff69c6c8e6a/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Themata.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Macaronesia.htm
 
-SHA-256: `2c881fb0741756bb068ed7eb2839b34fb4234988b4ca92d5564390105a317b37`
+SHA-256: `faa9f037912315fbffc39ad137f8c00610a98488ac20ece1d4ce54a4477a47bd`
 
 Selection: `{"kind":"whole"}`
 
-## 19. Il nuovo millennio
+## 19. Rodolfo III d'Asburgo
 
-Proposal: `proposal-doc-42732f1dfd75` · action: `work`
+Proposal: `proposal-doc-50935a938b32` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-42732f1dfd75)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-50935a938b32)
 
-> Il nuovo millennio 2001 d.C., 4 gennaio: viene aperta un'inchiesta sui decessi di alcuni soldati reduci dalle missioni in Kosovo; si sospetta che la loro morte sia causata dall'uso di armi all'uranio impoverito usate dal
+> Rodolfo III d'Asburgo Lo sceneggiato dedicato da Rai Uno alla vicenda dello sfortunato Arciduca Rodolfo d'Asburgo ha ispirato al nostro Webmaster William Riker la seguente ucronia. Il 10 maggio 1881 Rodolfo d'Asburgo-Lor
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-nuovo-millennio-42732f1d/` · composition: `single`
+Target: `/works/rodolfo-iii-d-asburgo-50935a93/` · composition: `single`
 
-[Full source for local review](/review/source/doc-42732f1dfd75/)
+[Full source for local review](/review/source/doc-50935a938b32/)
 
-Source: http://www.fmboschetto.it/racconti/Roma\_in\_America/Roma\_in\_America\_24.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Rodolfo\_III.htm
 
-SHA-256: `14d5c71358e9df6032c752faa0bcb7c5e3763535cd914a0d7ffe983be3ad7483`
+SHA-256: `9f6f0b4cd1e4cfd8ea631076ff5989e851a25397863d9b87f6fa5139d54384dd`
 
 Selection: `{"kind":"whole"}`
 
-## 20. Le cinque Repubbliche Marinare
+## 20. 718, Costantinopoli cade
 
-Proposal: `proposal-doc-42aa19ecff9c` · action: `work`
+Proposal: `proposal-doc-51364162cace` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-42aa19ecff9c)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-51364162cace)
 
-> Le cinque repubbliche marinare di Det0 POD: Assistiamo alla nascita di cinque repubbliche marinare in Italia: alle quattro tradizionali si aggiunge anche Ravenna, che riesce a mantenere una certa importanza e indipendenz
+> 718, Costantinopoli cade di Falecius e \*Bhrg'howidhHô(n-) Ad aprire questa discussione è stato Falecius: Riprendo una mia vecchia idea su Costantinopoli e gli Arabi. nell'ultimo assedio della città (718) le forze Umayyad
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/le-cinque-repubbliche-marinare-42aa19ec/` · composition: `single`
+Target: `/works/718-costantinopoli-cade-51364162/` · composition: `single`
 
-[Full source for local review](/review/source/doc-42aa19ecff9c/)
+[Full source for local review](/review/source/doc-51364162cace/)
 
-Source: https://www.fmboschetto.it/Utopiaucronia/cinque\_rep\_marinare.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Costantinopoli\_cade.htm
 
-SHA-256: `36deee4104610c1f373915a084087a8a9d26767ce53bb7bc103f7d0847a6fa5a`
+SHA-256: `62dc80a80b2e56328aeaa7bedb0f7e81f63819334de5ebf09caa0547b24a42a1`
 
 Selection: `{"kind":"whole"}`
