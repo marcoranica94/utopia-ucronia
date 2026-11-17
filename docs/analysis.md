@@ -288,3 +288,7 @@ S3 is implemented for the validated 46-item edition: full-text Pagefind search i
 ## Reading and signature discovery, 17 November 2026
 
 The header now separates `/library/` (canonical works already prepared to read) from `/works/` (the full historical catalog, including pending publications). The home collection retains short divergences and legacy previews. `/authors/` and matching IT/EN signature pages provide source-attribution navigation across the current canonical edition, separating principal works/prompts from collective contributions and linking directly to signed interventions. Group only exact NFC-normalized source spellings; alias reconciliation and missing attributions remain editorial decisions. This increment does not approve proposals or publish additional texts. See [status-s4-discovery.md](status-s4-discovery.md).
+
+## Reviewed publication selections, 17 November 2026
+
+Structural owner approvals and publication selections are separate persisted decisions. The converter retains the S2 baseline and adds only proposals explicitly selected in `data/publication.json`, validated against the current owner ledger, source/structure fingerprints and existing source boundaries. The local review queue now provides complete inert source text and reference destinations. No automatic approval, classification or deployment follows from generating a next-batch packet. See [status-s4-publication.md](status-s4-publication.md).

@@ -104,3 +104,7 @@ S3 is delivered for the 46-item reading edition: [status and checks](docs/status
 ### Reading and author navigation
 
 Use `/library/` (English: `/en/library/`, **Read** in the header) for canonical works already prepared for reading. `/works/` remains the complete historical works index, including works awaiting publication. `/authors/` and `/en/authors/` list source signatures in the canonical reading edition, with separate works, prompts and signed contributions. Possible aliases remain separate until editorial review. `pnpm discovery:check`, included in `pnpm build`, verifies both libraries, author routes and signed anchors. See [S4 discovery delivery](docs/status-s4-discovery.md).
+
+### Progressive reading publication
+
+`pnpm publication status` shows the baseline, explicit selections and approvals eligible for selection. `pnpm publication next` prepares a read-only batch of up to 20 pending proposals in `reports/publication-next.md`; run `pnpm dev` to follow its local review and full-source links. After an explicit owner review, `pnpm publication select <proposal-id> --dry-run` validates a choice, and the command without `--dry-run` writes `data/publication.json`. Run `pnpm build` before deployment: every selected addition must pass the full source-fidelity and membership checks. Approval alone never selects or deploys a text. See [S4 publication workflow](docs/status-s4-publication.md) for split/merge handling, source conflicts and removal.

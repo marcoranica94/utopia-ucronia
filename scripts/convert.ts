@@ -16,6 +16,11 @@ import {
 import { explainedGap, type Gap, type GapReason } from "./link-resolution.ts";
 import { pdfEdition } from "./pdf.ts";
 import {
+  baselineIds,
+  publicationItems,
+  readPublication,
+} from "./publication-core.ts";
+import {
   isRecovered,
   readManifest,
   safePath,
@@ -24,6 +29,7 @@ import {
   verifyDocument,
   writeJson,
 } from "./recovery/core.ts";
+import { readDecisions } from "./review-decisions.ts";
 import { type OutlineItem, renderStructured } from "./structured.ts";
 
 const manifest = await readManifest();
@@ -38,16 +44,14 @@ const sample = JSON.parse(await readFile("data/sample.json", "utf8")) as {
 const validation = JSON.parse(
   await readFile("data/validation-sample.json", "utf8"),
 ) as { items: string[] };
-const extra = JSON.parse(
-  await readFile("reports/editorial-selection.json", "utf8"),
-) as { additional: { id: string }[] };
-const selectedIds = new Set([
-  ...validation.items,
-  ...extra.additional.map((i) => i.id),
-]);
-const selected = map.items.filter((i) => selectedIds.has(i.id));
-if (selectedIds.size !== selected.length)
-  throw new Error("A selected editorial item is missing from the map");
+const publication = publicationItems(
+  map,
+  await readDecisions(),
+  await readPublication(),
+  await baselineIds(),
+);
+const selectedIds = new Set(publication.items.map((item) => item.id));
+const selected = map.items.filter((item) => selectedIds.has(item.id));
 const recovered = manifest.documents.filter(isRecovered);
 for (const document of recovered)
   if (!(await verifyDocument(document)))
@@ -453,6 +457,9 @@ for (const result of results) {
     title: page.title,
     structured: Boolean(page.parts[0].parsed),
     randomValidation: Boolean(item && validation.items.includes(item.id)),
+    publicationSelection: Boolean(
+      item && publication.extraIds.includes(item.id),
+    ),
     legacyPreview: Boolean(page.legacy),
     removed: result.removed,
     gaps: [...result.gaps],

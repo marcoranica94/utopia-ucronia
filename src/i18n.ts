@@ -7,6 +7,10 @@ export const languages = ["it", "en"] as const;
 export type Lang = (typeof languages)[number];
 
 const it = {
+  "review.fullSource": "Leggi la fonte integrale",
+  "review.sourceReferences": "Rimandi presenti nella fonte",
+  "review.sourceNote":
+    "Testo della fonte recuperata per la revisione. La struttura grafica originale non è riprodotta; approvazioni e selezioni di pubblicazione restano separate.",
   "library.nav": "Leggi",
   "library.title": "Opere da leggere",
   "library.intro":
@@ -421,6 +425,10 @@ const it = {
 };
 
 const en: Record<keyof typeof it, string> = {
+  "review.fullSource": "Read the full source",
+  "review.sourceReferences": "References present in the source",
+  "review.sourceNote":
+    "Recovered source text for review. The original visual layout is not reproduced; approval and publication selection remain separate.",
   "library.nav": "Read",
   "library.title": "Works to read",
   "library.intro":

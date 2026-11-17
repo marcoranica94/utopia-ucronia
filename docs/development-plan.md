@@ -215,6 +215,8 @@ Demo: passed in a 390 px phone viewport with a remembered Petrov sentence → re
 
 ### S4 · Complete edition
 
+- [x] Reviewed publication workflow: persistent explicit selections, conversion beyond the fixed sample, overlap/stale-decision checks, dry-run and full local source text for the next review batch
+
 - [x] Direct reading library at `/library/` and `/en/library/`: only canonical works already available to read, with existing catalog filters and a clear link to the historical index
 - [x] Author and contributor index and pages for the published edition: exact source spellings, separate principal works/prompts and collective contributions, direct signed-intervention links in both languages
 

@@ -1,0 +1,283 @@
+{
+  "queue": {
+    "cards": 20,
+    "links": 20,
+    "target": "proposal-doc-001fa9f2fc98"
+  },
+  "source": {
+    "title": "Leggi la fonte integrale",
+    "paragraphs": 4,
+    "hasEnding": true,
+    "scripts": 0,
+    "email": false
+  },
+  "layouts": [
+    {
+      "path": "/review/?state=pending&action=work",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "path": "/review/?state=pending&action=work",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/review/?state=pending&action=work",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/review/?state=pending&action=work",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/review/source/doc-001fa9f2fc98/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "path": "/review/source/doc-001fa9f2fc98/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/review/source/doc-001fa9f2fc98/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/review/source/doc-001fa9f2fc98/",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/en/review/?state=pending&action=work",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "path": "/en/review/?state=pending&action=work",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/en/review/?state=pending&action=work",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/en/review/?state=pending&action=work",
+      "width": 1440,
+      "overflow": false
+    },
+    {
+      "path": "/en/review/source/doc-001fa9f2fc98/",
+      "width": 320,
+      "overflow": false
+    },
+    {
+      "path": "/en/review/source/doc-001fa9f2fc98/",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "path": "/en/review/source/doc-001fa9f2fc98/",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "path": "/en/review/source/doc-001fa9f2fc98/",
+      "width": 1440,
+      "overflow": false
+    }
+  ],
+  "sourcePostStatus": 405,
+  "unknownSourceStatus": 400,
+  "sources": [
+    {
+      "path": "/review/source/doc-001fa9f2fc98/",
+      "status": 200,
+      "paragraphs": 4,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-005bfe47becd/",
+      "status": 200,
+      "paragraphs": 32,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-007d9cd30693/",
+      "status": 200,
+      "paragraphs": 193,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-00fa65e3b7c3/",
+      "status": 200,
+      "paragraphs": 567,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-01b1ddf7e539/",
+      "status": 200,
+      "paragraphs": 475,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-01f65012d6d1/",
+      "status": 200,
+      "paragraphs": 133,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-023ad4c75d7b/",
+      "status": 200,
+      "paragraphs": 153,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-0340d8f03c44/",
+      "status": 200,
+      "paragraphs": 271,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-036a76d10573/",
+      "status": 200,
+      "paragraphs": 134,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-04516f579ce1/",
+      "status": 200,
+      "paragraphs": 142,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-047023b4e5f6/",
+      "status": 200,
+      "paragraphs": 53,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-0538fc5c4a24/",
+      "status": 200,
+      "paragraphs": 67,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-05c5cdc6f41b/",
+      "status": 200,
+      "paragraphs": 109,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-073667dad16b/",
+      "status": 200,
+      "paragraphs": 261,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-0736d445aeef/",
+      "status": 200,
+      "paragraphs": 221,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-0897a53431e9/",
+      "status": 200,
+      "paragraphs": 129,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-08de9e6f794c/",
+      "status": 200,
+      "paragraphs": 1499,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-0929511e1bcb/",
+      "status": 200,
+      "paragraphs": 785,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-092f5001e01d/",
+      "status": 200,
+      "paragraphs": 190,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    },
+    {
+      "path": "/review/source/doc-09c5bc7b4940/",
+      "status": 200,
+      "paragraphs": 95,
+      "references": 0,
+      "activeContent": 0,
+      "email": false,
+      "archivedActiveLinks": 0
+    }
+  ],
+  "passed": true,
+  "date": "2026-11-17",
+  "scope": "Local development review/source routes only; no owner review POSTs or publication selections were made"
+}

@@ -39,6 +39,7 @@ async function load() {
     if (!data.entries.length) entries.append(node("p", labels.empty));
     for (const proposal of data.entries) {
       const article = node("article");
+      article.id = proposal.id;
       article.dataset.proposal = proposal.id;
       article.append(
         node("h2", `${proposal.action} · ${proposal.id}`),
@@ -52,13 +53,21 @@ async function load() {
       const quote = node("p", proposal.review.quote);
       quote.className = "quote";
       source.append(quote);
-      for (const document of proposal.documents)
+      for (const document of proposal.documents) {
         source.append(
           node(
             "p",
             `${document.url}\n${document.mediaType}\nSHA-256: ${document.sha256}`,
           ),
         );
+        if (document.reviewPath) {
+          const link = node("a", labels.fullSource);
+          link.href = document.reviewPath;
+          link.target = "_blank";
+          link.rel = "noopener";
+          source.append(link);
+        }
+      }
       proposed.append(
         node("h3", labels.proposal),
         node("p", proposal.review.reason),
@@ -146,6 +155,11 @@ async function load() {
       reason.addEventListener("input", () => reason.setCustomValidity(""));
       article.append(buttons, message);
       entries.append(article);
+    }
+    if (/^#[a-z0-9-]+$/.test(location.hash)) {
+      document
+        .getElementById(location.hash.slice(1))
+        ?.scrollIntoView({ block: "start" });
     }
   } catch {
     reviewStatus.textContent =

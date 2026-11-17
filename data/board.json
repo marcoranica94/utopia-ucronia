@@ -175,7 +175,7 @@
       "contains": "Progressive review of the map",
       "status": "todo",
       "assignee": "Marco",
-      "note": "S3 review infrastructure is ready at /review/ in local development, 20 proposals at a time. No live proposals have been approved. Review worlds and split/merge boundaries before expanding publication; classifications require their own explicit decisions."
+      "note": "Owner review remains pending. The next batch is prepared in reports/publication-next.md; /review/ in local development now opens full source text, hashes and reference destinations. No live decisions have been approved. Review decisions and publication selection remain separate."
     },
     {
       "sprint": "S4",
@@ -215,9 +215,9 @@
     {
       "sprint": "S4",
       "contains": "Publish the remaining recovered works progressively",
-      "status": "todo",
+      "status": "doing",
       "assignee": "Development",
-      "note": "The 46-item reading edition and all historical catalog entries are available. Expand work by work after structural review, preserving unknown metadata, immutable-source provenance and full-text/image/link fidelity checks."
+      "note": "Publication infrastructure is delivered: reviewed proposals can be selected persistently and converted beyond the S2 baseline, with overlap/stale-decision checks and complete build validation. No live approvals or additional selections yet; current reading edition remains 46 items. Next read-only batch contains 20 pending proposals. See docs/status-s4-publication.md."
     },
     {
       "sprint": "S4",
@@ -232,16 +232,23 @@
       "status": "done",
       "assignee": "Development",
       "note": "Delivered locally on 17 November 2026: 88 exact source signatures across the canonical reading edition, separate principal works/prompts and collective contributions, reader credits and 606 verified signed-intervention links in IT/EN. No alias merges or live editorial decisions. Full archive coverage remains pending. See docs/status-s4-discovery.md."
+    },
+    {
+      "sprint": "S4",
+      "contains": "Reviewed publication workflow:",
+      "status": "done",
+      "assignee": "Development",
+      "note": "Delivered on 17 November 2026: pnpm publication status/next/select/remove with dry-run, an atomic tracked manifest, explicit owner approval and source/route fingerprints, whole-proposal split selection and overlap rejection. Converter and build membership/fidelity checks support selected additions. Local review can open full inert source text. No additional real texts or owner decisions were introduced. See docs/status-s4-publication.md."
     }
   ],
   "priorities": [
     {
       "title": "Review the next publication batch (S4)",
-      "detail": "Use the local /review/ queue to make explicit owner decisions on work boundaries, worlds and split/merge proposals. Start with text proposals; no real decisions have been made automatically."
+      "detail": "Review the prepared next batch in reports/publication-next.md using the local /review/ queue and full source text. Record explicit owner decisions on work boundaries, worlds and split/merge proposals; none have been fabricated."
     },
     {
       "title": "Publish more recovered works (S4)",
-      "detail": "Expand beyond the 46 validated reading items, preserving full source-fidelity checks and safe handling of attachments. Catalogue entries alone do not mean reading editions exist."
+      "detail": "After explicit review, use pnpm publication select <proposal-id> --dry-run, record the selection, then run the complete build to expand beyond the current 46 reading items. Selection and deployment are separate operations."
     },
     {
       "title": "Complete reviewed classification and discovery pages (S4)",

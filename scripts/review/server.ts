@@ -20,10 +20,15 @@ import {
   readDecisions,
   reviewDecisionSchema,
 } from "../review-decisions.ts";
+import { reviewSourcePage } from "./source-page.ts";
 
 // Installed only by Vite's development server. No route or data is emitted at build time.
 export function localReviewPlugin(
-  options: { mapPath?: string; decisionPath?: string } = {},
+  options: {
+    mapPath?: string;
+    decisionPath?: string;
+    archiveRoot?: string;
+  } = {},
 ): AstroIntegration {
   const mapPath = options.mapPath ?? "data/map.yaml";
   const decisionPath = options.decisionPath ?? "data/review-decisions.json";
@@ -83,7 +88,11 @@ export function localReviewPlugin(
                 res.end(html);
                 return;
               }
-              if (!url.pathname.endsWith("/api"))
+              const sourceRoute =
+                /^\/(?:en\/)?review\/source\/([a-z0-9-]+)\/$/.exec(
+                  url.pathname,
+                );
+              if (!url.pathname.endsWith("/api") && !sourceRoute)
                 return send(404, { error: "Not found" });
               const raw = await readFile(mapPath, "utf8"),
                 ledger = await readDecisions(decisionPath);
@@ -93,6 +102,19 @@ export function localReviewPlugin(
               const map = mapSchema.parse(
                 applyDecisions(mapSchema.parse(JSON.parse(raw)), ledger),
               );
+              if (sourceRoute) {
+                if (req.method !== "GET")
+                  return send(405, { error: "Method not allowed" });
+                const html = await reviewSourcePage(
+                  map,
+                  sourceRoute[1],
+                  lang,
+                  options.archiveRoot,
+                );
+                res.setHeader("Content-Type", "text/html; charset=utf-8");
+                res.end(html);
+                return;
+              }
               if (req.method === "GET") {
                 const filter = url.searchParams.get("state") ?? "all",
                   action = url.searchParams.get("action") ?? "";
@@ -161,6 +183,7 @@ export function localReviewPlugin(
                       "approve",
                       "defer",
                       "empty",
+                      "fullSource",
                     ].map((key) => [
                       key,
                       t(`review.${key}` as Parameters<typeof t>[0]),
@@ -182,6 +205,12 @@ export function localReviewPlugin(
                           url: redact(doc.url),
                           sha256: doc.sha256,
                           mediaType: doc.mediaType,
+                          reviewPath:
+                            /^(?:text\/html|application\/pdf)(?:;|$)/i.test(
+                              doc.mediaType,
+                            )
+                              ? `${lang === "en" ? "/en" : ""}/review/source/${id}/`
+                              : undefined,
                         };
                       }),
                       items: p.targets.map((id) => {
