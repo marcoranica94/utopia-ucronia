@@ -430,6 +430,59 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "et-super-hanc-petram-a7c84dfe",
+    "editorialId": "item-0b860bc3192e",
+    "randomValidation": false,
+    "path": "/works/et-super-hanc-petram-a7c84dfe/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Fanta_Sorbara.htm",
+        "characters": 18718,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 18718,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 1,
+    "images": {
+      "sourceKept": 3,
+      "viewable": 3,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Fanta_Sorbara.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Et super hanc petram"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Fanta_Sorbara.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Spartaco Mencaroni"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Fanta_Sorbara.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Fanta_Sorbara.htm",
+        "category": "contact-invitation",
+        "text": "Per farmi sapere che ne pensate di questo mio racconto, scrivetemi a questo indirizzo."
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Fanta_Sorbara.htm",
+        "category": "contact-invitation",
+        "text": "Per partecipare alla discussione, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "tiblisi-28-giugno-2014-7d54e815",
     "editorialId": "item-0b88c00e61a9",
     "randomValidation": false,
@@ -2363,6 +2416,33 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "roma-e-cina-ultimo-atto-ac1fd265",
+    "editorialId": "item-1f20b85d4df1",
+    "randomValidation": false,
+    "path": "/works/roma-e-cina-ultimo-atto-ac1fd265/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/iperimpero/iperimp10.htm",
+        "characters": 12747,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 12747,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 1,
+    "images": {
+      "sourceKept": 6,
+      "viewable": 6,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "e-se-la-germania-avesse-vinto-la-grande-guerra-18babdce",
     "editorialId": "item-1f60aeadbddf",
     "randomValidation": false,
@@ -3206,6 +3286,59 @@
         "source": "http://www.fmboschetto.it:80/Utopiaucronia/improbabile_repubblica.htm",
         "category": "source-navigation",
         "text": "Torna indietro"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "a-me-le-icone-piacciono-a49ea5f9",
+    "editorialId": "item-2b5e3929d7f8",
+    "randomValidation": false,
+    "path": "/works/a-me-le-icone-piacciono-a49ea5f9/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/niente_iconoclastia.htm",
+        "characters": 16425,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 16425,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/niente_iconoclastia.htm",
+        "category": "metadata-visible-in-page",
+        "text": "A me le icone piacciono!"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/niente_iconoclastia.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Det0"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/niente_iconoclastia.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/niente_iconoclastia.htm",
+        "category": "contact-invitation",
+        "text": "Se volete fornirmi suggerimenti o commenti, scrivetemi a questo indirizzo."
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/niente_iconoclastia.htm",
+        "category": "contact-invitation",
+        "text": "Se volete fornirmi suggerimenti o commenti, scrivetemi a questo indirizzo."
       }
     ],
     "corrections": [],
@@ -4119,6 +4252,54 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "la-maledizione-di-sant-elena-a9185e39",
+    "editorialId": "item-36ca5d805133",
+    "randomValidation": false,
+    "path": "/works/la-maledizione-di-sant-elena-a9185e39/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Sant_Elena.htm",
+        "characters": 13143,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 13143,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Sant_Elena.htm",
+        "category": "metadata-visible-in-page",
+        "text": "La maledizione di Sant'Elena"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Sant_Elena.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Riccardo Querciagrossa"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Sant_Elena.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Sant_Elena.htm",
+        "category": "contact-invitation",
+        "text": "Se avete commenti in proposito, scrivetemi a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "il-nuovo-attila-10594e58",
     "editorialId": "item-371c3e42c1fe",
     "randomValidation": false,
@@ -4647,6 +4828,54 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "il-galata-vivente-a823ace1",
+    "editorialId": "item-3ca490766386",
+    "randomValidation": false,
+    "path": "/works/il-galata-vivente-a823ace1/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/galata_vivente.htm",
+        "characters": 28068,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 28068,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 12,
+      "viewable": 12,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/galata_vivente.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Il Galata Vivente"
+      },
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/galata_vivente.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Iacopo e di *BhriHskwo-bhlôukstrôy"
+      },
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/galata_vivente.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/galata_vivente.htm",
+        "category": "contact-invitation",
+        "text": "Se volete fornirmi suggerimenti o commenti, scrivetemi a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "2-giugno-1946-la-vittoria-della-monarchia-4afc290a",
     "editorialId": "item-3cafb59485a6",
     "randomValidation": false,
@@ -4829,6 +5058,44 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "los-aliens-y-la-segunda-guerra-mundial-aad76c0a",
+    "editorialId": "item-3e80a7cc309d",
+    "randomValidation": false,
+    "path": "/works/los-aliens-y-la-segunda-guerra-mundial-aad76c0a/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Aliens_y_Segunda_Guerra_Mundial.htm",
+        "characters": 5982,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 5982,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Aliens_y_Segunda_Guerra_Mundial.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Los aliens y la Segunda Guerra Mundial"
+      },
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Aliens_y_Segunda_Guerra_Mundial.htm",
+        "category": "metadata-visible-in-page",
+        "text": "de William Wallace"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "ugm-umani-geneticamente-modificati-845f04a5",
     "editorialId": "item-3f2c105dc6b4",
     "randomValidation": false,
@@ -4904,6 +5171,44 @@
         "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_Roma.htm",
         "category": "contact-invitation",
         "text": "Se volete farci sapere cosa pensate di quest'ucronia, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-nuova-curlandia-a6be183e",
+    "editorialId": "item-4021043d22c1",
+    "randomValidation": false,
+    "path": "/works/la-nuova-curlandia-a6be183e/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Nuova_Curlandia.htm",
+        "characters": 53785,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 53785,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 5,
+      "viewable": 5,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Nuova_Curlandia.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Nuova_Curlandia.htm",
+        "category": "contact-invitation",
+        "text": "Se volete contribuire a queste discussioni, scriveteci a questo indirizzo."
       }
     ],
     "corrections": [],
@@ -5591,6 +5896,44 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "la-guerra-di-successione-spagnola-a6d2395e",
+    "editorialId": "item-4b37bf12b40b",
+    "randomValidation": false,
+    "path": "/works/la-guerra-di-successione-spagnola-a6d2395e/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Successione_Spagnola.htm",
+        "characters": 143889,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 143889,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 3,
+      "viewable": 3,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Successione_Spagnola.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Successione_Spagnola.htm",
+        "category": "contact-invitation",
+        "text": "Per contribuire alle discussioni in corso, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "l-impero-di-alessandro-secondo-fiolobeche-4b0a9c96",
     "editorialId": "item-4b699f6a7bed",
     "randomValidation": false,
@@ -5638,6 +5981,82 @@
         "source": "http://www.fmboschetto.it:80/Utopiaucronia/impero_di_Alessandro.htm",
         "category": "contact-invitation",
         "text": "Chi vuole partecipare alla discussione, ci scriva a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "adelchi-2100-ab8daa68",
+    "editorialId": "item-4bd8b1ea986a",
+    "randomValidation": false,
+    "path": "/works/adelchi-2100-ab8daa68/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Adelchi2100.htm",
+        "characters": 2510,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 2510,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 1,
+      "explainedGaps": 1,
+      "explainedOccurrences": 1
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Adelchi2100.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Adelchi 2100"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Adelchi2100.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Francesco Dessolis"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Adelchi2100.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "fanta-alessandro-magno-aaf814c2",
+    "editorialId": "item-4c5751e71efd",
+    "randomValidation": false,
+    "path": "/works/fanta-alessandro-magno-aaf814c2/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Alessandro/Alessandro_6.htm",
+        "characters": 22463,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 22463,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 8,
+      "viewable": 8,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Alessandro/Alessandro_6.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Dopo Alessandro"
       }
     ],
     "corrections": [],
@@ -6356,6 +6775,49 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "res-publica-christiana-a5a90420",
+    "editorialId": "item-551586b01482",
+    "randomValidation": false,
+    "path": "/works/res-publica-christiana-a5a90420/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Res_Publica_Christiana.htm",
+        "characters": 29572,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 29572,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 4,
+      "viewable": 4,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Res_Publica_Christiana.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Res Publica Christiana"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Res_Publica_Christiana.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Homer"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Res_Publica_Christiana.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "morire-per-kiev-4d34cd15",
     "editorialId": "item-5519bb080909",
     "randomValidation": false,
@@ -6775,6 +7237,49 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "un-mondo-senza-petrolio-acf0439e",
+    "editorialId": "item-572ed3d2959a",
+    "randomValidation": false,
+    "path": "/works/un-mondo-senza-petrolio-acf0439e/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_petrolio.htm",
+        "characters": 46539,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 46539,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 1,
+    "images": {
+      "sourceKept": 3,
+      "viewable": 3,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_petrolio.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Un mondo senza petrolio"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_petrolio.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_petrolio.htm",
+        "category": "contact-invitation",
+        "text": "Se volete farci sapere il vostro parere a riguardo, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "ucronie-presidenziali-americane-7418c6de",
     "editorialId": "item-57691cb530a3",
     "randomValidation": false,
@@ -6888,6 +7393,64 @@
         "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Imperatori_di_Britannia.htm",
         "category": "contact-invitation",
         "text": "Chi vuole partecipare a questi straordinari dibattiti culturali, ci scriva a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-europa-disintegrata-ab68cab4",
+    "editorialId": "item-58fd5dd15899",
+    "randomValidation": false,
+    "path": "/works/l-europa-disintegrata-ab68cab4/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Apophis_II.htm",
+        "characters": 29607,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 29607,
+    "tables": 1,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 5,
+      "viewable": 5,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Apophis_II.htm",
+        "category": "metadata-visible-in-page",
+        "text": "L'Europa disintegrata"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Apophis_II.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Apophis_II.htm",
+        "category": "contact-invitation",
+        "text": "Voi che ne dite? Per farmi sapere il vostro parere riguardo alla mia teoria della massa critica, scrivetemi a questo indirizzo."
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Apophis_II.htm",
+        "category": "contact-invitation",
+        "text": "Per partecipare alla discussione, scriveteci a questo indirizzo."
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Apophis_II.htm",
+        "category": "contact-invitation",
+        "text": "Per farmi sapere che ne dite, scrivetemi a questo indirizzo."
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Apophis_II.htm",
+        "category": "contact-invitation",
+        "text": "Se volete far sapere a Renato che ne pensate, scrivetegli a questo indirizzo."
       }
     ],
     "corrections": [],
@@ -7060,6 +7623,54 @@
         "source": "http://www.fmboschetto.it/Utopiaucronia/Cazari_eterni.htm",
         "category": "contact-invitation",
         "text": "Per dirmi che ne pensate, scrivetemi a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "europa-unita-1947-ab5c6be7",
+    "editorialId": "item-5dbee5762da4",
+    "randomValidation": false,
+    "path": "/works/europa-unita-1947-ab5c6be7/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Europa_Unita_1947.htm",
+        "characters": 51000,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 51000,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 6,
+      "viewable": 5,
+      "explainedGaps": 1,
+      "explainedOccurrences": 1
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Europa_Unita_1947.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Europa Unita, 1947"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Europa_Unita_1947.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Mattiopolis"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Europa_Unita_1947.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Europa_Unita_1947.htm",
+        "category": "contact-invitation",
+        "text": "Se volete farci sapere che ne pensate, scriveteci a questo indirizzo."
       }
     ],
     "corrections": [],
@@ -7797,6 +8408,44 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "l-impero-dell-umanita-acb3a191",
+    "editorialId": "item-6575acccf0e7",
+    "randomValidation": false,
+    "path": "/works/l-impero-dell-umanita-acb3a191/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/era_dell_uomo.htm",
+        "characters": 15946,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 15946,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 1,
+      "explainedGaps": 1,
+      "explainedOccurrences": 1
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/era_dell_uomo.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/era_dell_uomo.htm",
+        "category": "contact-invitation",
+        "text": "Come continuarlo? Se avete suggerimenti, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "fanta-alessandro-magno-382dcd74",
     "editorialId": "item-65d6fd07a7ee",
     "randomValidation": false,
@@ -8444,6 +9093,59 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "a-teutoburgo-a50e8be6",
+    "editorialId": "item-6f482d0cf124",
+    "randomValidation": false,
+    "path": "/works/a-teutoburgo-a50e8be6/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/teutoburgo.htm",
+        "characters": 41551,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 41551,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 1,
+    "images": {
+      "sourceKept": 5,
+      "viewable": 5,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/teutoburgo.htm",
+        "category": "metadata-visible-in-page",
+        "text": "A Teutoburgo..."
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/teutoburgo.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Francesco Dessolis"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/teutoburgo.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/teutoburgo.htm",
+        "category": "contact-invitation",
+        "text": "Per farmi sapere che ne pensate, scrivetemi a questo indirizzo."
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/teutoburgo.htm",
+        "category": "contact-invitation",
+        "text": "Per farmi sapere che ne pensate, scrivetemi a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "4-novembre-1995-ygal-amir-fa-cilecca-ac1aacb3",
     "editorialId": "item-6ff42bd45ba4",
     "randomValidation": true,
@@ -8839,6 +9541,44 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "fascisti-su-marte-a691a638",
+    "editorialId": "item-7b5f53aba66c",
+    "randomValidation": false,
+    "path": "/works/fascisti-su-marte-a691a638/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Fasc_su_Mar.htm",
+        "characters": 30638,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 30638,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 12,
+      "viewable": 12,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Fasc_su_Mar.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Fascisti su Marte?"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Fasc_su_Mar.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "fanta-alessandro-magno-29da18a8",
     "editorialId": "item-7bbd0caded99",
     "randomValidation": false,
@@ -9125,6 +9865,59 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "scienza-e-pseudoscienza-a61689aa",
+    "editorialId": "item-7ebfd32a3f1c",
+    "randomValidation": false,
+    "path": "/works/scienza-e-pseudoscienza-a61689aa/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/scienza_e_pseudoscienza.htm",
+        "characters": 126843,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 126843,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 1,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/scienza_e_pseudoscienza.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Scienza e pseudoscienza"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/scienza_e_pseudoscienza.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di MorteBianca"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/scienza_e_pseudoscienza.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/scienza_e_pseudoscienza.htm",
+        "category": "contact-invitation",
+        "text": "Se volete date sfogo alla vostra immaginazione e cimentarvi in questa impresa, inviateci le vostre \"ucronie pseudoscientifiche\" a questo indirizzo."
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/scienza_e_pseudoscienza.htm",
+        "category": "contact-invitation",
+        "text": "Per partecipare alla discussione in corso, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "la-campagna-di-grecia-di-napoleone-9016408c",
     "editorialId": "item-7f5ebd4141e4",
     "randomValidation": false,
@@ -9165,6 +9958,54 @@
       },
       {
         "source": "http://www.fmboschetto.it/Utopiaucronia/campagna_di_Grecia.htm",
+        "category": "contact-invitation",
+        "text": "Per partecipare alle discussioni in corso, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-rivoluzione-liberale-di-demofilo-a69ec551",
+    "editorialId": "item-7fc5804ac871",
+    "randomValidation": false,
+    "path": "/works/la-rivoluzione-liberale-di-demofilo-a69ec551/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/rivoluzione_liberale.htm",
+        "characters": 24502,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 24502,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 1,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/rivoluzione_liberale.htm",
+        "category": "metadata-visible-in-page",
+        "text": "La Rivoluzione Liberale"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/rivoluzione_liberale.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Demofilo"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/rivoluzione_liberale.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/rivoluzione_liberale.htm",
         "category": "contact-invitation",
         "text": "Per partecipare alle discussioni in corso, scriveteci a questo indirizzo."
       }
@@ -10390,6 +11231,54 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "la-gelida-caccia-a5efd44f",
+    "editorialId": "item-8cb3e0be4750",
+    "randomValidation": false,
+    "path": "/works/la-gelida-caccia-a5efd44f/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/novilunio.htm",
+        "characters": 25857,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 25857,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/novilunio.htm",
+        "category": "metadata-visible-in-page",
+        "text": "La Gelida Caccia"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/novilunio.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Luca Chiurazzi"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/novilunio.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/novilunio.htm",
+        "category": "contact-invitation",
+        "text": "Se volete dirci che ne pensate, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "ucronie-vaticane-di-raffaele-minimi-33098d34",
     "editorialId": "item-8cdf9f1f01ca",
     "randomValidation": false,
@@ -10703,6 +11592,54 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "macaronea-scholastica-aa298b87",
+    "editorialId": "item-8eb839f2fbbf",
+    "randomValidation": false,
+    "path": "/works/macaronea-scholastica-aa298b87/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Macaronea.htm",
+        "characters": 25156,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 25156,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 8,
+    "images": {
+      "sourceKept": 3,
+      "viewable": 3,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Macaronea.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Macaronea scholastica"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Macaronea.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di uno studente anonimo di 18 anni"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Macaronea.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Macaronea.htm",
+        "category": "contact-invitation",
+        "text": "Per farci sapere che ne pensate, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "luigi-xix-re-di-francia-17325c34",
     "editorialId": "item-8f91299f60de",
     "randomValidation": false,
@@ -10735,6 +11672,82 @@
         "source": "http://www.fmboschetto.it:80/Utopiaucronia/Luigi_XIX.htm",
         "category": "contact-invitation",
         "text": "Per farmi sapere che ne pensate, scrivetemi a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-uomo-in-antartide-ac6ffb13",
+    "editorialId": "item-8fe6ab7f07cd",
+    "randomValidation": false,
+    "path": "/works/l-uomo-in-antartide-ac6ffb13/",
+    "parts": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/fanta_Antartide.htm",
+        "characters": 121154,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 121154,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 19,
+      "viewable": 19,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/fanta_Antartide.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/fanta_Antartide.htm",
+        "category": "contact-invitation",
+        "text": "Se volete partecipare alla discussione, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "se-turin-avesse-ucciso-glaurung-nel-495-della-prima-era-a771e1cb",
+    "editorialId": "item-8ff71f2474c0",
+    "randomValidation": false,
+    "path": "/works/se-turin-avesse-ucciso-glaurung-nel-495-della-prima-era-a771e1cb/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Turin.htm",
+        "characters": 31564,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 31564,
+    "tables": 1,
+    "headings": 0,
+    "anchors": 1,
+    "images": {
+      "sourceKept": 5,
+      "viewable": 3,
+      "explainedGaps": 1,
+      "explainedOccurrences": 2
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Turin.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Turin.htm",
+        "category": "contact-invitation",
+        "text": "Per far avere il vostro parere a Tommaso, scrivetegli. a questo indirizzo. Troverete un'altra variazione sul tema del Legendarium di Tolkien cliccando qui."
       }
     ],
     "corrections": [],
@@ -10931,6 +11944,39 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "la-odisea-en-america-a9696530",
+    "editorialId": "item-92a7c3c8c2a7",
+    "randomValidation": false,
+    "path": "/works/la-odisea-en-america-a9696530/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Odisea_en_America.htm",
+        "characters": 40634,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 40634,
+    "tables": 11,
+    "headings": 0,
+    "anchors": 14,
+    "images": {
+      "sourceKept": 17,
+      "viewable": 8,
+      "explainedGaps": 1,
+      "explainedOccurrences": 9
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Odisea_en_America.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "la-grande-avventura-3101b568",
     "editorialId": "item-93377d620a6e",
     "randomValidation": false,
@@ -10963,6 +12009,44 @@
         "source": "http://www.fmboschetto.it/utopiaucronia/la_Grande_Avventura.htm",
         "category": "source-navigation",
         "text": "Torna indietro"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-ascesa-dei-franchi-a71014af",
+    "editorialId": "item-94162852ed14",
+    "randomValidation": false,
+    "path": "/works/l-ascesa-dei-franchi-a71014af/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_5.htm",
+        "characters": 17896,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 17896,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 4,
+      "viewable": 4,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_5.htm",
+        "category": "metadata-visible-in-page",
+        "text": "L'ascesa dei Franchi"
+      },
+      {
+        "source": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_5.htm",
+        "category": "source-navigation",
+        "text": "Indietro - Avanti"
       }
     ],
     "corrections": [],
@@ -12651,6 +13735,44 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "persia-eterna-a8398253",
+    "editorialId": "item-a1b66ef378b4",
+    "randomValidation": false,
+    "path": "/works/persia-eterna-a8398253/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Persia-Eterna.htm",
+        "characters": 16957,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 16957,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Persia-Eterna.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Persia Eterna!"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Persia-Eterna.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "l-impero-bengali-09c5bc7b",
     "editorialId": "item-a1e1ab4561e4",
     "randomValidation": false,
@@ -12764,6 +13886,44 @@
         "source": "http://www.fmboschetto.it:80/Utopiaucronia/Idomeneide.htm",
         "category": "source-navigation",
         "text": "Torna indietro"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-giappone-senza-hiroshima-ababd2ce",
+    "editorialId": "item-a2fc10eedbd2",
+    "randomValidation": false,
+    "path": "/works/il-giappone-senza-hiroshima-ababd2ce/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Giappone_senza_Hiroshima.htm",
+        "characters": 22828,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 22828,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 1,
+    "images": {
+      "sourceKept": 13,
+      "viewable": 13,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Giappone_senza_Hiroshima.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Giappone_senza_Hiroshima.htm",
+        "category": "contact-invitation",
+        "text": "Per farmi sapere che ne pensate della mia ucronia, scrivetemi a questo indirizzo."
       }
     ],
     "corrections": [],
@@ -13097,6 +14257,72 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "uchronie-le-roi-scorpion-ae37d420",
+    "editorialId": "item-a68e37fd0ed7",
+    "randomValidation": false,
+    "path": "/works/uchronie-le-roi-scorpion-ae37d420/",
+    "parts": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/leroiscorpion.htm",
+        "characters": 17341,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 17341,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 6,
+      "viewable": 1,
+      "explainedGaps": 5,
+      "explainedOccurrences": 5
+    },
+    "declaredRemovals": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/leroiscorpion.htm",
+        "category": "source-navigation",
+        "text": "Retour"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "primo-libro-dei-falerei-a8ac3482",
+    "editorialId": "item-a68f389273a4",
+    "randomValidation": false,
+    "path": "/works/primo-libro-dei-falerei-a8ac3482/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Falerei.htm",
+        "characters": 97369,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 97369,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 44,
+    "images": {
+      "sourceKept": 11,
+      "viewable": 11,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Falerei.htm",
+        "category": "contact-invitation",
+        "text": "Come darle torto? Se volete farmi avere anche voi il vostro parere, scrivetemi a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "il-secondo-mediterraneo-32ff507b",
     "editorialId": "item-a69679fbb647",
     "randomValidation": false,
@@ -13291,6 +14517,54 @@
         "source": "http://www.fmboschetto.it:80/UtopiaUcronia/KP_HP.htm",
         "category": "contact-invitation",
         "text": "Per farmi avere il vostro parere in proposito, scrivetemi a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "niente-guerra-di-libia-a9d990ba",
+    "editorialId": "item-a89385b5a10d",
+    "randomValidation": false,
+    "path": "/works/niente-guerra-di-libia-a9d990ba/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/niente_guerra_di_Libia.htm",
+        "characters": 23093,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 23093,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/niente_guerra_di_Libia.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Niente Guerra di Libia"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/niente_guerra_di_Libia.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Dans"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/niente_guerra_di_Libia.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/niente_guerra_di_Libia.htm",
+        "category": "contact-invitation",
+        "text": "Per partecipare alle discussioni in corso, scriveteci a questo indirizzo."
       }
     ],
     "corrections": [],
@@ -13673,6 +14947,54 @@
         "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mc_Donald_su_Marte.htm",
         "category": "source-navigation",
         "text": "Torna indietro"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "fantapangea-a38f4151",
+    "editorialId": "item-aca170a66885",
+    "randomValidation": false,
+    "path": "/works/fantapangea-a38f4151/",
+    "parts": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Pangea.htm",
+        "characters": 67222,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 67222,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 1,
+    "images": {
+      "sourceKept": 10,
+      "viewable": 10,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Pangea.htm",
+        "category": "metadata-visible-in-page",
+        "text": "FantaPangea!"
+      },
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Pangea.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Pangea.htm",
+        "category": "contact-invitation",
+        "text": "Ora, se volete dirmi che sono un pazzo... potete veramente farlo a ragion veduta!"
+      },
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Pangea.htm",
+        "category": "contact-invitation",
+        "text": "Se volete partecipare alla discussione, scriveteci a questo indirizzo."
       }
     ],
     "corrections": [],
@@ -15752,6 +17074,39 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "uchronie-pytheas-le-menteur-adb26e99",
+    "editorialId": "item-bebeabf7188a",
+    "randomValidation": false,
+    "path": "/works/uchronie-pytheas-le-menteur-adb26e99/",
+    "parts": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Pytheas_le_menteur.htm",
+        "characters": 114361,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 114361,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Pytheas_le_menteur.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Retour"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "cronologia-di-arda-1f54224b",
     "editorialId": "item-bf64446235db",
     "randomValidation": false,
@@ -15885,6 +17240,54 @@
         "source": "http://www.fmboschetto.it:80/Utopiaucronia/impero_di_Alessandro_Blade87.htm",
         "category": "contact-invitation",
         "text": "Per partecipare alla discussione, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-eta-oscura-a8745b2c",
+    "editorialId": "item-c361841daa17",
+    "randomValidation": false,
+    "path": "/works/l-eta-oscura-a8745b2c/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/eta_oscura.htm",
+        "characters": 54100,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 54100,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 4,
+      "viewable": 4,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/eta_oscura.htm",
+        "category": "metadata-visible-in-page",
+        "text": "L'età oscura"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/eta_oscura.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Blade87 e di Pier Luigi Gemini"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/eta_oscura.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/eta_oscura.htm",
+        "category": "contact-invitation",
+        "text": "Per prendere parte alla discussione, scriveteci a questo indirizzo."
       }
     ],
     "corrections": [],
@@ -16691,6 +18094,44 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "i-figli-di-feanor-ab5d2fc4",
+    "editorialId": "item-ca677a48abe0",
+    "randomValidation": false,
+    "path": "/works/i-figli-di-feanor-ab5d2fc4/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Feanor.htm",
+        "characters": 64949,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 64949,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 4,
+      "viewable": 2,
+      "explainedGaps": 1,
+      "explainedOccurrences": 2
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Feanor.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Feanor.htm",
+        "category": "contact-invitation",
+        "text": "Per far avere il vostro parere agli autori, scrivete a Paolo a questo indirizzo e ad Edoardo a questo!"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "l-impero-francese-mediterraneo-1dc1997b",
     "editorialId": "item-ca686c4db571",
     "randomValidation": false,
@@ -17226,6 +18667,54 @@
         "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ravenna_capvt_mvndi.htm",
         "category": "contact-invitation",
         "text": "Per contribuire alle discussioni in corso, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-vittoria-dell-aventino-ad7a5ce3",
+    "editorialId": "item-cfe37a32b4ac",
+    "randomValidation": false,
+    "path": "/works/la-vittoria-dell-aventino-ad7a5ce3/",
+    "parts": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Aventino.htm",
+        "characters": 155054,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 155054,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 1,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Aventino.htm",
+        "category": "metadata-visible-in-page",
+        "text": "La vittoria dell'Aventino"
+      },
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Aventino.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Tommaso Mazzoni"
+      },
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Aventino.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Aventino.htm",
+        "category": "contact-invitation",
+        "text": "Per far sapere all'autore che ne pensate, scrivetegli a questo indirizzo."
       }
     ],
     "corrections": [],
@@ -17960,6 +19449,54 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "1685-la-nouvelle-france-a55e61bc",
+    "editorialId": "item-da7031c863af",
+    "randomValidation": false,
+    "path": "/works/1685-la-nouvelle-france-a55e61bc/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Nuova_Francia_1685.htm",
+        "characters": 37716,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 37716,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 10,
+      "viewable": 10,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Nuova_Francia_1685.htm",
+        "category": "metadata-visible-in-page",
+        "text": "1685, la Nouvelle France"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Nuova_Francia_1685.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Dans"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Nuova_Francia_1685.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Nuova_Francia_1685.htm",
+        "category": "contact-invitation",
+        "text": "Per intervenire nella discussione, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "la-seconda-unione-di-kalmar-90c271b2",
     "editorialId": "item-db0f093404ba",
     "randomValidation": false,
@@ -18050,6 +19587,54 @@
         "source": "http://www.fmboschetto.it/Utopiaucronia/American_Century.htm",
         "category": "contact-invitation",
         "text": "Per contribuire alle discussioni in corso, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "senza-il-25-aprile-ae3335b7",
+    "editorialId": "item-dc4f79a8c775",
+    "randomValidation": false,
+    "path": "/works/senza-il-25-aprile-ae3335b7/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_25_aprile.htm",
+        "characters": 22080,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 22080,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_25_aprile.htm",
+        "category": "metadata-visible-in-page",
+        "text": "Senza il 25 aprile..."
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_25_aprile.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Nadia Vitali (tratto dal sito fanpage.it)"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_25_aprile.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_25_aprile.htm",
+        "category": "contact-invitation",
+        "text": "Se volete partecipare alla discussione, scriveteci a questo indirizzo."
       }
     ],
     "corrections": [],
@@ -18239,6 +19824,44 @@
       "explainedOccurrences": 0
     },
     "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "martirologio-ucronico-a4305574",
+    "editorialId": "item-de223fb7444f",
+    "randomValidation": false,
+    "path": "/works/martirologio-ucronico-a4305574/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Martirologio_ucronico.htm",
+        "characters": 184138,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 184138,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 4,
+      "viewable": 4,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Martirologio_ucronico.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Martirologio_ucronico.htm",
+        "category": "contact-invitation",
+        "text": "Per farmi sapere che ne pensate, scrivetemi a questo indirizzo."
+      }
+    ],
     "corrections": [],
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
@@ -18909,6 +20532,59 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "la-fiamma-ciccio-franco-e-il-mezzogiorno-nero-a54bcfda",
+    "editorialId": "item-e5c7f3e6fbc6",
+    "randomValidation": false,
+    "path": "/works/la-fiamma-ciccio-franco-e-il-mezzogiorno-nero-a54bcfda/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Mezzogiorno_Nero.htm",
+        "characters": 39739,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 39739,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Mezzogiorno_Nero.htm",
+        "category": "metadata-visible-in-page",
+        "text": "La Fiamma, Ciccio Franco e il Mezzogiorno Nero"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Mezzogiorno_Nero.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di Demofilo"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Mezzogiorno_Nero.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Mezzogiorno_Nero.htm",
+        "category": "contact-invitation",
+        "text": "Se volete dirmi la vostra, scrivetemi a questo indirizzo."
+      },
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Mezzogiorno_Nero.htm",
+        "category": "contact-invitation",
+        "text": "Se volete partecipare alle discussioni in corso, scriveteci a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "el-bosque-y-la-flor-a3472432",
     "editorialId": "item-e842e277e046",
     "randomValidation": false,
@@ -19312,6 +20988,54 @@
         "source": "http://www.fmboschetto.it:80/Utopiaucronia/liberal_gollista.htm",
         "category": "contact-invitation",
         "text": "Voi con chi vi schierereste? Per farmi conoscere il vostro parere, scrivetemi a questo indirizzo."
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "i-virtuali-aacc95cc",
+    "editorialId": "item-ed970d568a5b",
+    "randomValidation": false,
+    "path": "/works/i-virtuali-aacc95cc/",
+    "parts": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/virtuali.htm",
+        "characters": 56269,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 56269,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 1,
+    "images": {
+      "sourceKept": 3,
+      "viewable": 3,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/virtuali.htm",
+        "category": "metadata-visible-in-page",
+        "text": "I Virtuali"
+      },
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/virtuali.htm",
+        "category": "metadata-visible-in-page",
+        "text": "di MorteBianca"
+      },
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/virtuali.htm",
+        "category": "source-navigation",
+        "text": "Torna indietro"
+      },
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/virtuali.htm",
+        "category": "contact-invitation",
+        "text": "Per farci sapere che cosa ne pensate, scriveteci a questo indirizzo."
       }
     ],
     "corrections": [],
