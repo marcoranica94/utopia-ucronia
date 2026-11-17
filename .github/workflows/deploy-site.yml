@@ -3,6 +3,13 @@ name: Verify and deploy the site
 on:
   push:
     branches: [main]
+    # Documentation and board changes do not change the site.
+    paths-ignore:
+      - "docs/**"
+      - "**/*.md"
+      - "board.html"
+      - "data/board.json"
+      - ".claude/**"
   pull_request:
   workflow_dispatch:
     inputs:
@@ -14,9 +21,10 @@ on:
 permissions:
   contents: read
 
+# A newer push supersedes a running one: only the latest commit is deployed.
 concurrency:
   group: site-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 # Secret and variable names (ACCESS_EMAIL_PROPRIETARIO, DEPLOY_ABILITATO,
 # BACKUP_R2_ABILITATO) are kept as configured in the GitHub repository settings.
@@ -25,10 +33,21 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
-      - name: Checkout with the LFS archive
+      - name: Checkout
         uses: actions/checkout@v7
+      # The LFS archive (~800 MB) changes rarely: restore it from the cache and
+      # download only missing objects, saving time and LFS bandwidth.
+      - name: List LFS objects
+        id: lfs
+        run: echo "key=lfs-$(git lfs ls-files --long | cut -d ' ' -f 1 | sort | sha256sum | cut -c 1-32)" >> "$GITHUB_OUTPUT"
+      - name: Restore the LFS archive
+        uses: actions/cache@v4
         with:
-          lfs: true
+          path: .git/lfs/objects
+          key: ${{ steps.lfs.outputs.key }}
+          restore-keys: lfs-
+      - name: Fetch missing LFS objects
+        run: git lfs pull
       - name: pnpm
         uses: pnpm/action-setup@v6
       - name: Node
