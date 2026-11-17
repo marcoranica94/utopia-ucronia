@@ -184,3 +184,7 @@ The owner rejected the minimal home and plain catalog. The new home is a visual 
 ## S3 delivery, 16 November 2026
 
 Search is available at `/search/` and `/en/search/`, indexing only the 46 prepared reading items. Source text/provenance pages are under `/sources/`; the complete original-layout copy remains S5. The local-only `/review/` integration is never emitted to production. Explicit owner proposal decisions live in `data/review-decisions.json`; preserve them, validate fingerprints and never fabricate live approvals. Tests must write only isolated fixture ledgers. Build before local development to generate Pagefind, filter payloads and period-image assets. The 18 faded archive illustrations requested during S3 are generated from verified originals using `data/period-images.json`. See `docs/status-s3.md`.
+
+## S4 discovery, 17 November 2026
+
+`/library/` and `/en/library/` provide direct access to canonical reading works (33 currently); short divergences and the three legacy previews remain in the home collection. `/works/` remains the complete historical index. `/authors/` and bilingual signature pages group exact NFC-normalized source spellings only, with separate principal works/prompts and collective contributions. Do not infer alias merges, missing authors or approved classifications. Author pages grow with published canonical items; archive-wide coverage remains pending. `pnpm discovery:check` is part of the build. See `docs/status-s4-discovery.md`.

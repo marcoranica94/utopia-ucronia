@@ -29,6 +29,8 @@ for (const file of await pages("dist")) {
   const isCatalog = [
     path.join("dist", "index.html"),
     path.join("dist", "en", "index.html"),
+    path.join("dist", "library", "index.html"),
+    path.join("dist", "en", "library", "index.html"),
   ].includes(file);
   const unexpectedScripts = $("script")
     .toArray()

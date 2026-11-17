@@ -1,0 +1,19 @@
+---
+import { authorPath } from "../author-index";
+import { type Lang, localePath, useTranslations } from "../i18n";
+
+interface Props {
+  lang: Lang;
+  authors: string[];
+  contributors: string[];
+}
+const { lang, authors, contributors } = Astro.props;
+const t = useTranslations(lang);
+const others = [...new Set(contributors)].filter(
+  (name) => !authors.includes(name),
+);
+---
+<div class="author-credits">
+  {authors.length > 0 && <p>{t("authors.by")} {authors.map((name, i) => <>{i > 0 && ", "}<a href={localePath(lang, authorPath(name))}>{name}</a></>)}</p>}
+  {others.length > 0 && <details><summary>{t("authors.otherVoices", { n: others.length })}</summary><ul>{others.map(name => <li><a href={localePath(lang, authorPath(name))}>{name}</a></li>)}</ul></details>}
+</div>

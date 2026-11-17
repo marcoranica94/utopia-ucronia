@@ -1,0 +1,118 @@
+.author-letters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+  margin-bottom: 2rem;
+}
+.author-letters a {
+  min-width: 44px;
+  padding: 0.6rem;
+  text-align: center;
+  border-radius: 6px;
+  background: var(--surface-soft);
+  font-weight: 600;
+}
+.author-group {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+  scroll-margin-top: 1rem;
+}
+.author-group h2 {
+  font-size: 1.8rem;
+  color: var(--accent);
+}
+.author-index,
+.author-texts ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.author-index {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 0.5rem 2rem;
+}
+.author-index a {
+  display: flex;
+  flex-direction: column;
+  padding: 0.6rem 0;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+.author-index a:hover :where(span) {
+  text-decoration: underline;
+}
+.author-index small,
+.author-texts p {
+  color: var(--muted);
+}
+.author-texts {
+  overflow-wrap: anywhere;
+  max-width: 80ch;
+  margin-bottom: 3rem;
+}
+.author-texts li {
+  padding: 1.3rem 0;
+  border-bottom: 1px solid var(--line);
+}
+.author-texts h3 {
+  font: 600 1.3rem / 1.4 var(--font-ui);
+  margin-bottom: 0.3rem;
+  overflow-wrap: anywhere;
+}
+.author-texts p {
+  margin-bottom: 0.3rem;
+}
+.author-contribution-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1rem;
+  align-items: baseline;
+}
+.author-contribution-links span {
+  width: 100%;
+}
+.author-contribution-links a {
+  padding-block: 0.3rem;
+}
+.author-credits {
+  overflow-wrap: anywhere;
+  margin: 1rem 0;
+  font: 400 1rem / 1.6 var(--font-ui);
+}
+.author-credits p {
+  margin-bottom: 0.4rem;
+}
+.author-credits summary {
+  cursor: pointer;
+  width: fit-content;
+  padding: 0.3rem 0;
+  color: var(--accent);
+}
+.author-credits ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding-left: 1.2rem;
+}
+.library-links {
+  display: flex;
+  gap: 0.75rem 1.5rem;
+  flex-wrap: wrap;
+  margin: 1rem 0 2rem;
+}
+@media (max-width: 900px) {
+  .author-index {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 550px) {
+  .author-index {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .author-group {
+    grid-template-columns: 2rem minmax(0, 1fr);
+  }
+}

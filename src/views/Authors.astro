@@ -1,0 +1,26 @@
+---
+import { getCollection } from "astro:content";
+import { buildAuthorIndex } from "../author-index";
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import "../styles/authors.css";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const authors = buildAuthorIndex(await getCollection("works"));
+const groups = Map.groupBy(authors, (author) =>
+  /^[a-z]/i.test(author.name.normalize("NFD"))
+    ? author.name.normalize("NFD")[0].toLocaleUpperCase(lang)
+    : "#",
+);
+---
+<Base title={t("authors.title")} lang={lang}>
+  <header class="page-intro"><h1 class="page-title">{t("authors.title")}</h1><p class="page-lede">{t("authors.intro")}</p><p class="small-note">{t("authors.scope")}</p><a href={localePath(lang, "/library/")}>{t("library.title")}</a></header>
+  <nav class="author-letters" aria-label={t("authors.letters")}>
+    {[...groups.keys()].map((letter, i) => <a href={`#letter-${i}`}>{letter}</a>)}
+  </nav>
+  {[...groups].map(([letter, entries], i) => <section class="author-group" aria-labelledby={`letter-${i}`}><h2 id={`letter-${i}`}>{letter}</h2><ul class="author-index">{entries.map(author => <li><a href={localePath(lang, author.path)}><span>{author.name}</span><small>{t(author.entries.length === 1 ? "authors.oneText" : "authors.texts", { n: author.entries.length })}</small></a></li>)}</ul></section>)}
+</Base>

@@ -7,6 +7,35 @@ export const languages = ["it", "en"] as const;
 export type Lang = (typeof languages)[number];
 
 const it = {
+  "library.nav": "Leggi",
+  "library.title": "Opere da leggere",
+  "library.intro":
+    "Apri un’opera e leggi il testo, con immagini, note e contributi. Qui trovi le opere già disponibili nella nuova edizione.",
+  "library.choose": "Scegli un’opera",
+  "library.scope":
+    "Gli spunti brevi e le anteprime storiche restano nella raccolta della home. Per le opere ancora da pubblicare, consulta l’indice storico.",
+  "library.historical": "Indice storico di tutte le opere",
+  "authors.title": "Autori e contributori",
+  "authors.nav": "Autori",
+  "authors.intro":
+    "Ritrova una firma e segui le sue opere, gli spunti e gli interventi nelle storie collettive.",
+  "authors.scope":
+    "Sono elencate le firme presenti nei testi già pubblicati. I nomi e gli pseudonimi conservano le forme riportate nelle fonti; eventuali varianti restano separate.",
+  "authors.authorIntro":
+    "Opere, spunti e contributi attribuiti a questa firma nei testi già disponibili.",
+  "authors.letters": "Vai a una lettera",
+  "authors.oneText": "1 testo",
+  "authors.texts": "{n} testi",
+  "authors.back": "Tutti gli autori e contributori",
+  "authors.works": "Opere",
+  "authors.prompts": "Spunti",
+  "authors.contributions": "Contributi nelle opere collettive",
+  "authors.signed": "Vai agli interventi firmati:",
+  "authors.contribution": "Intervento {n}",
+  "authors.contributionIn": "Intervento {n} in {title}",
+  "authors.by": "di",
+  "authors.otherVoices": "Altre firme in questo testo ({n})",
+
   "search.nav": "Cerca",
   "review.stateLabel": "Stato della revisione",
   "review.actionLabel": "Tipo di proposta",
@@ -89,7 +118,7 @@ const it = {
 
   "browse.otherReferences": "Altri riferimenti citati",
   "site.nav.prompts": "Spunti",
-  "site.nav.completeWorks": "Opere",
+  "site.nav.completeWorks": "Indice opere",
   "browse.indexes": "Indici della raccolta",
   "browse.prompts.short": "Spunti per periodo",
   "browse.works.short": "Opere per periodo",
@@ -392,6 +421,35 @@ const it = {
 };
 
 const en: Record<keyof typeof it, string> = {
+  "library.nav": "Read",
+  "library.title": "Works to read",
+  "library.intro":
+    "Open a work to read its text, with images, notes and contributions. These works are already available in the new edition.",
+  "library.choose": "Choose a work",
+  "library.scope":
+    "Short prompts and historical previews remain in the home collection. See the historical index for works awaiting publication.",
+  "library.historical": "Historical index of all works",
+  "authors.title": "Authors and contributors",
+  "authors.nav": "Authors",
+  "authors.intro":
+    "Find a signature and follow their works, prompts and contributions to collective stories.",
+  "authors.scope":
+    "These signatures appear in the published reading texts. Names and pseudonyms retain their source spellings; possible variants remain separate.",
+  "authors.authorIntro":
+    "Works, prompts and contributions credited to this signature in the available reading texts.",
+  "authors.letters": "Jump to a letter",
+  "authors.oneText": "1 text",
+  "authors.texts": "{n} texts",
+  "authors.back": "All authors and contributors",
+  "authors.works": "Works",
+  "authors.prompts": "Prompts",
+  "authors.contributions": "Contributions to collective works",
+  "authors.signed": "Go to signed contributions:",
+  "authors.contribution": "Contribution {n}",
+  "authors.contributionIn": "Contribution {n} in {title}",
+  "authors.by": "by",
+  "authors.otherVoices": "Other signatures in this text ({n})",
+
   "search.nav": "Search",
   "review.stateLabel": "Review state",
   "review.actionLabel": "Proposal type",
@@ -470,7 +528,7 @@ const en: Record<keyof typeof it, string> = {
 
   "browse.otherReferences": "Other cited references",
   "site.nav.prompts": "Prompts",
-  "site.nav.completeWorks": "Works",
+  "site.nav.completeWorks": "Works index",
   "browse.indexes": "Collection indexes",
   "browse.prompts.short": "Prompts by period",
   "browse.works.short": "Works by period",

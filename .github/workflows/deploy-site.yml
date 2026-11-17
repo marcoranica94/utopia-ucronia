@@ -62,6 +62,7 @@ jobs:
             reports/browse-filter-payloads.json
             reports/search-index.json
             reports/s3-validation.json
+            reports/discovery-validation.json
             reports/period-images.json
           retention-days: 14
       - name: Verify Access before publishing

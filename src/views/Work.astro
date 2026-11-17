@@ -2,6 +2,8 @@
 import type { CollectionEntry } from "astro:content";
 import { render } from "astro:content";
 import { documentId } from "../../scripts/editorial-core";
+import AuthorCredits from "../components/AuthorCredits.astro";
+import "../styles/authors.css";
 import WorkContents from "../components/WorkContents.astro";
 import { type Lang, localePath, localizeHtml, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
@@ -36,18 +38,8 @@ const facts = [
   interventions > 0 && counted(interventions, "contributions"),
   variants > 0 && counted(variants, "variants"),
 ].filter(Boolean);
-const others = data.contributors ?? [];
 const captured = (s?: string) =>
   s ? `${s.slice(6, 8)}/${s.slice(4, 6)}/${s.slice(0, 4)}` : undefined;
-const byline =
-  data.authors.length > 0
-    ? t("work.by", { names: data.authors.join(", ") }) +
-      (others.length === 1
-        ? t("work.withOne")
-        : others.length > 1
-          ? t("work.withMany", { n: others.length })
-          : "")
-    : "";
 ---
 <Base title={data.title} lang={lang} reading>
   <a class="back-link" href={localePath(lang, "/")}>{t("back.works")}</a>
@@ -56,7 +48,7 @@ const byline =
       <div class="uchronia-main">
         <header class="uchronia-head">
           <h1 id="work-title" class="page-title" lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1>
-          {byline && <p class="uchronia-byline">{byline}</p>}
+          <AuthorCredits lang={lang} authors={data.authors} contributors={data.contributors ?? []} />
           <p class="uchronia-facts">{data.level === "divergence" ? t("shape.divergence") : t(`shape.${data.shape}`)}{facts.length > 0 && `: ${facts.join(", ")}.`} {t(`work.language.${data.language}`)}</p>
         </header>
         {showRail && <WorkContents outline={outline} lang={lang} textLang={data.language} />}

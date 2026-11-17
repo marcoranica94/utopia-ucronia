@@ -6,11 +6,13 @@ import { contentPath } from "../content-path";
 import { type Lang, localePath, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
 import "../styles/catalog.css";
+import "../styles/authors.css";
 
 interface Props {
   lang: Lang;
+  library?: boolean;
 }
-const { lang } = Astro.props;
+const { lang, library = false } = Astro.props;
 const t = useTranslations(lang);
 const notes = catalogNotes as Record<
   string,
@@ -24,17 +26,23 @@ const priority = [
   "avanti-sardegna-come-la-sardegna-ha-riunito-l-italia-1249f6c1",
   "come-il-mago-pietro-bailardo-si-salvo-l-anima-con-l-aiuto-del-diavolo-1b190b4f",
 ];
-const works = (await getCollection("works")).sort((a, b) => {
-  const rank = (id: string) => {
-    const i = priority.indexOf(id);
-    return i < 0 ? 100 : i;
-  };
-  const archive = (id: string) => (notes[id]?.motif === "archive" ? 1000 : 0);
-  return (
-    rank(a.id) + archive(a.id) - (rank(b.id) + archive(b.id)) ||
-    a.data.title.localeCompare(b.data.title, lang)
-  );
-});
+const works = (await getCollection("works"))
+  .filter(
+    (work) =>
+      !library ||
+      (work.data.level === "work" && Boolean(work.data.editorialId)),
+  )
+  .sort((a, b) => {
+    const rank = (id: string) => {
+      const i = priority.indexOf(id);
+      return i < 0 ? 100 : i;
+    };
+    const archive = (id: string) => (notes[id]?.motif === "archive" ? 1000 : 0);
+    return (
+      rank(a.id) + archive(a.id) - (rank(b.id) + archive(b.id)) ||
+      a.data.title.localeCompare(b.data.title, lang)
+    );
+  });
 const clean = (s: string) => s.replace(/^\[ucronia\]\s*/i, "");
 const format = (work: (typeof works)[number]) =>
   work.data.level === "divergence"
@@ -58,9 +66,9 @@ const featuredPath = featured
   ? localePath(lang, `/works/${featured.id}/`)
   : "#collection";
 ---
-<Base title={t("home.title")} lang={lang}>
+<Base title={t(library ? "library.title" : "home.title")} lang={lang}>
   <div class="atlas-home">
-    <section class="atlas-opening" aria-labelledby="atlas-title">
+    {library ? <header class="page-intro"><h1 class="page-title">{t("library.title")}</h1><p class="page-lede">{t("library.intro")}</p><nav class="library-links" aria-label={t("browse.indexes")}><a href={localePath(lang, "/authors/")}>{t("authors.title")}</a><a href={localePath(lang, "/works/")}>{t("library.historical")}</a></nav><p class="small-note">{t("library.scope")}</p></header> : <><section class="atlas-opening" aria-labelledby="atlas-title">
       <div class="atlas-intro">
         <p class="atlas-signature">{t("atlas.signature")}</p>
         <h1 id="atlas-title">{t("atlas.heading")}</h1>
@@ -73,9 +81,10 @@ const featuredPath = featured
         <div class="atlas-map-caption"><div><span class="atlas-map-label">{t("atlas.startHere")}</span><h2 id="map-feature-title">Spot the POD</h2></div><span class="feature-open" aria-hidden="true">↗</span></div>
       </a>
     </section>
-    <nav class="atlas-index-links" aria-label={t("browse.indexes")}><p>{t("browse.homeIntro")}</p><a href={localePath(lang,"/divergences/")}>{t("browse.prompts.short")} ↗</a><a href={localePath(lang,"/works/")}>{t("browse.works.short")} ↗</a></nav>
+    <nav class="atlas-index-links" aria-label={t("browse.indexes")}><a href={localePath(lang,"/library/")}>{t("library.title")} ↗</a><a href={localePath(lang,"/authors/")}>{t("authors.title")} ↗</a><p>{t("browse.homeIntro")}</p><a href={localePath(lang,"/divergences/")}>{t("browse.prompts.short")} ↗</a><a href={localePath(lang,"/works/")}>{t("browse.works.short")} ↗</a></nav>
+    </>}
     <section class="collection-section" id="collection" aria-labelledby="catalog-title">
-      <div class="collection-heading"><div><h2 id="catalog-title">{t("atlas.collection")}</h2><p>{t("atlas.collectionIntro")}</p></div><div class="catalog-view-switch" role="group" aria-label={t("atlas.view")} data-catalog-tools hidden><button type="button" data-view="covers" aria-pressed="true"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2h6v6H2zm10 0h6v6h-6zM2 12h6v6H2zm10 0h6v6h-6z" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.covers")}</button><button type="button" data-view="list" aria-pressed="false"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 4h16M2 10h16M2 16h16" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.list")}</button></div></div>
+      <div class="collection-heading"><div><h2 id="catalog-title">{t(library ? "library.choose" : "atlas.collection")}</h2>{!library && <p>{t("atlas.collectionIntro")}</p>}</div><div class="catalog-view-switch" role="group" aria-label={t("atlas.view")} data-catalog-tools hidden><button type="button" data-view="covers" aria-pressed="true"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2h6v6H2zm10 0h6v6h-6zM2 12h6v6H2zm10 0h6v6h-6z" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.covers")}</button><button type="button" data-view="list" aria-pressed="false"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 4h16M2 10h16M2 16h16" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.list")}</button></div></div>
       <form class="atlas-filters" role="search" aria-label={t("home.filters")} data-catalog-tools hidden>
         <div class="atlas-search"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.7"/></svg><label class="visually-hidden" for="catalog-search">{t("home.search")}</label><input id="catalog-search" name="q" type="search" placeholder={t("atlas.searchPlaceholder")} autocomplete="off" /></div>
         <label class="atlas-language" for="catalog-language"><span>{t("home.language")}</span><select id="catalog-language" name="lang"><option value="">{t("home.allLanguages")}</option><option value="it">{t("lang.it")}</option><option value="fr">{t("lang.fr")}</option><option value="es">{t("lang.es")}</option><option value="en">{t("lang.en")}</option><option value="unknown">{t("lang.unknown")}</option></select></label>

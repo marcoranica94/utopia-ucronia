@@ -1,0 +1,12 @@
+---
+import { getCollection } from "astro:content";
+import { buildAuthorIndex } from "../../../author-index";
+import Author from "../../../views/Author.astro";
+export async function getStaticPaths() {
+  return buildAuthorIndex(await getCollection("works")).map((author) => ({
+    params: { slug: author.path.split("/")[2] },
+    props: { author },
+  }));
+}
+---
+<Author author={Astro.props.author} lang="en" />

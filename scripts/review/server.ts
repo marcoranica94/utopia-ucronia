@@ -1,5 +1,12 @@
 import { randomBytes } from "node:crypto";
-import { open, readFile, rename, rm, writeFile } from "node:fs/promises";
+import {
+  type FileHandle,
+  open,
+  readFile,
+  rename,
+  rm,
+  writeFile,
+} from "node:fs/promises";
 import type { IncomingMessage, ServerResponse } from "node:http";
 import type { AstroIntegration } from "astro";
 import { mapSchema } from "../../src/editorial/model.ts";
@@ -237,7 +244,7 @@ export function localReviewPlugin(
                 ].sort((a, b) => a.proposalId.localeCompare(b.proposalId)),
               });
               mapSchema.parse(applyDecisions(map, updated));
-              let lock;
+              let lock: FileHandle;
               try {
                 lock = await open(`${decisionPath}.lock`, "wx");
               } catch (error) {

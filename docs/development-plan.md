@@ -215,6 +215,9 @@ Demo: passed in a 390 px phone viewport with a remembered Petrov sentence → re
 
 ### S4 · Complete edition
 
+- [x] Direct reading library at `/library/` and `/en/library/`: only canonical works already available to read, with existing catalog filters and a clear link to the historical index
+- [x] Author and contributor index and pages for the published edition: exact source spellings, separate principal works/prompts and collective contributions, direct signed-intervention links in both languages
+
 - [x] Owner-requested whole-period filters: text, author, availability and documented development, synchronized pagination/title shortcuts; wider proposal column and six-line previews with accessible reading popup. See `docs/historical-indexes.md`.
 
 - [x] Owner-requested table refinement: full-width period lists, distinct rows, current-page title shortcuts, page/total counts, 20/40/80/100 entries per page and direct page selection. Expanding a prompt replaces its preview instead of repeating the beginning. See `docs/historical-indexes.md`.
@@ -228,7 +231,7 @@ Demo: passed in a 390 px phone viewport with a remembered Petrov sentence → re
 - [ ] Progressive review of the map: first worlds and pages to split or merge
 - [ ] Eras fixed and theme list closed
 - [x] Language filters on the published catalog and IT/EN navigation on historical indexes
-- [ ] Pages for worlds, authors, eras, places and themes, based on reviewed metadata
+- [ ] Pages for worlds, eras, places and themes, based on reviewed metadata
 - [x] Two design directions for reading and catalog, with real content; choice and `tokens.css`
 - [ ] View Transitions between catalog and reading, if they improve orientation (optional; no dependency for publication)
 

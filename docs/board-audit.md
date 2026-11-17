@@ -1,4 +1,4 @@
-# Board audit — 16 November 2026
+# Board audit — 17 November 2026
 
 Reconciled against source routes, build scripts, package dependencies, the editorial map and saved validation reports. This is an implementation audit, not a new full-site test or editorial approval. The board is generated from the plan plus operational metadata; it no longer accepts browser-local card moves or collapses backlog/waiting into to-do.
 
@@ -8,7 +8,7 @@ Reconciled against source routes, build scripts, package dependencies, the edito
 | S1 | Recovery closed: 6,900 files recovered, 95 documented missing, no failed attempts | Missing sources remain recorded gaps, not unfinished download jobs. |
 | S2 | Conversion demo closed: model/map, fixed validation sample, 46 source-faithful reading items and approved reader | Editorial proposals are not approved; publishing every recovered work belongs to S4. |
 | S3 | Complete for the 46-item edition: reader/catalog, Pagefind search, local source text/provenance, note/resource audit, local review queue and faded period illustrations | No remaining implementation task in S3. Full archive publication and final certification remain S4/S6. See [status-s3.md](status-s3.md). |
-| S4 | Approved home/catalog, light/dark UI, all historical indexes, tables, pagination, title shortcuts, whole-period filters and reading popup | Progressive editorial review and publication; final era/theme vocabularies; author/world/era/place/theme pages. View Transitions remain optional. |
+| S4 | Approved home/catalog, light/dark UI, all historical indexes, tables, pagination, title shortcuts, whole-period filters and reading popup; direct reading library and source-signature author pages implemented locally on 17 November | Progressive editorial review and publication; final era/theme vocabularies; world/era/place/theme pages. View Transitions remain optional. |
 | S5 | Three-work tree prototype; real contribution branches in the reader | Full archive divergence tree with verified dates and hard cases; reference-date decision and cleaned `/original/`; site history; random-content view. |
 | S6 | Existing targeted regression evidence is available | All-view axe/device/assistive-technology audit, Lighthouse assessment, fresh final restore and final documentation reconciliation. |
 
@@ -26,11 +26,13 @@ Evidence: `docs/status-s2.md`, `reports/sample-comparison.json`, `reports/browse
 
 1. **Review the next publication batch in S4.** The local development queue is ready for explicit owner decisions; no live proposals have been approved automatically.
 2. **Expand reading publication.** Convert reviewed works progressively beyond the validated 46 items, including pending attachments, with full source-fidelity checks.
-3. **Complete reviewed classification and discovery pages.** Final era/theme vocabularies and author/world/era/place/theme pages still need implementation and metadata review.
+3. **Complete reviewed classification and discovery pages.** Final era/theme vocabularies and world/era/place/theme pages still need implementation and metadata review.
 4. **Build the full S5 tree and cleaned original-layout copy**, followed by the complete S6 audit/restore.
 
 The final classification, full archive tree and complete publication should not be labelled done merely because the source lists are browsable.
 
 ## Board verification
 
-After S3 delivery the regenerated board contains 62 tasks: 46 done, three to do, one partial and 12 in backlog (including two non-blocking deferrals). S4 is active; all eight S3 tasks are delivered. Browser checks verified all five columns, sprint/search/reset controls, next-step priorities, immunity to stale local overrides and responsive layouts. These task counts measure the plan, not the percentage of archive texts published. S3 feature verification is documented separately in [status-s3.md](status-s3.md).
+After the S4 discovery increment the regenerated board contains 64 tasks: 48 done, three to do, one partial and 12 in backlog (including two non-blocking deferrals). S4 is active; all eight S3 tasks are delivered. Browser checks verified all five columns, sprint/search/reset controls, next-step priorities, immunity to stale local overrides and responsive layouts. These task counts measure the plan, not the percentage of archive texts published. S3 feature verification is documented separately in [status-s3.md](status-s3.md).
+
+The 17 November discovery increment is implemented and validated locally; this audit does not claim a new production deployment. See [status-s4-discovery.md](status-s4-discovery.md). Author navigation covers the current canonical edition, not all recovered files.

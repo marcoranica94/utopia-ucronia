@@ -1,0 +1,391 @@
+{
+  "layouts": [
+    {
+      "path": "/library/",
+      "width": 320,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/library/",
+      "width": 320,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/library/",
+      "width": 390,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/library/",
+      "width": 390,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/library/",
+      "width": 768,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/library/",
+      "width": 768,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/library/",
+      "width": 1024,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/library/",
+      "width": 1024,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/library/",
+      "width": 1440,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/library/",
+      "width": 1440,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/authors/",
+      "width": 320,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/authors/",
+      "width": 320,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/authors/",
+      "width": 390,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/authors/",
+      "width": 390,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/authors/",
+      "width": 768,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/authors/",
+      "width": 768,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/authors/",
+      "width": 1024,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/authors/",
+      "width": 1024,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/authors/",
+      "width": 1440,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/authors/",
+      "width": 1440,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/authors/william-riker-97aa8e0d4e8a/",
+      "width": 320,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/authors/william-riker-97aa8e0d4e8a/",
+      "width": 320,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/authors/william-riker-97aa8e0d4e8a/",
+      "width": 390,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/authors/william-riker-97aa8e0d4e8a/",
+      "width": 390,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/authors/william-riker-97aa8e0d4e8a/",
+      "width": 768,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/authors/william-riker-97aa8e0d4e8a/",
+      "width": 768,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/authors/william-riker-97aa8e0d4e8a/",
+      "width": 1024,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/authors/william-riker-97aa8e0d4e8a/",
+      "width": 1024,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/authors/william-riker-97aa8e0d4e8a/",
+      "width": 1440,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/authors/william-riker-97aa8e0d4e8a/",
+      "width": 1440,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/library/",
+      "width": 320,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/library/",
+      "width": 320,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/library/",
+      "width": 390,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/library/",
+      "width": 390,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/library/",
+      "width": 768,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/library/",
+      "width": 768,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/library/",
+      "width": 1024,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/library/",
+      "width": 1024,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/library/",
+      "width": 1440,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/library/",
+      "width": 1440,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/",
+      "width": 320,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/",
+      "width": 320,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/",
+      "width": 390,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/",
+      "width": 390,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/",
+      "width": 768,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/",
+      "width": 768,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/",
+      "width": 1024,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/",
+      "width": 1024,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/",
+      "width": 1440,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/",
+      "width": 1440,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/william-riker-97aa8e0d4e8a/",
+      "width": 320,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/william-riker-97aa8e0d4e8a/",
+      "width": 320,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/william-riker-97aa8e0d4e8a/",
+      "width": 390,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/william-riker-97aa8e0d4e8a/",
+      "width": 390,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/william-riker-97aa8e0d4e8a/",
+      "width": 768,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/william-riker-97aa8e0d4e8a/",
+      "width": 768,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/william-riker-97aa8e0d4e8a/",
+      "width": 1024,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/william-riker-97aa8e0d4e8a/",
+      "width": 1024,
+      "textPercent": 200,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/william-riker-97aa8e0d4e8a/",
+      "width": 1440,
+      "textPercent": 100,
+      "overflow": false
+    },
+    {
+      "path": "/en/authors/william-riker-97aa8e0d4e8a/",
+      "width": 1440,
+      "textPercent": 200,
+      "overflow": false
+    }
+  ],
+  "filters": {
+    "textMatches": 1,
+    "spanishMatches": 1,
+    "viewAfterReload": "list",
+    "emptyVisible": true,
+    "resetCount": 33
+  },
+  "navigation": {
+    "keyboardDisclosure": true,
+    "author": "Dario Carcano",
+    "signedTarget": true,
+    "englishSections": [
+      "Works",
+      "Prompts",
+      "Contributions to collective works"
+    ],
+    "localeTarget": "William Riker"
+  },
+  "darkTheme": "dark",
+  "noJavaScript": {
+    "works": 33,
+    "enhancementsHidden": true,
+    "signatures": 88
+  },
+  "passed": true,
+  "date": "2026-11-17",
+  "server": "Local Astro static preview; production CSP verified by build checks, not browser emulation"
+}

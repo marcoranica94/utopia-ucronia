@@ -30,10 +30,10 @@
     },
     {
       "sprint": "S4",
-      "contains": "Pages for worlds, authors, eras, places and themes",
+      "contains": "Pages for worlds, eras, places and themes",
       "status": "backlog",
       "assignee": "Development",
-      "note": "Not implemented: no author/world/era/place/theme routes exist. The model and source-period indexes are foundations, not delivery of these pages. Requires progressive metadata review in S4; language filters are tracked separately as completed."
+      "note": "World/era/place/theme routes remain unimplemented and require progressive metadata review. Author pages for the current published edition are delivered in a separate completed task; final taxonomies and complete archive coverage remain pending."
     },
     {
       "sprint": "S5",
@@ -218,6 +218,20 @@
       "status": "todo",
       "assignee": "Development",
       "note": "The 46-item reading edition and all historical catalog entries are available. Expand work by work after structural review, preserving unknown metadata, immutable-source provenance and full-text/image/link fidelity checks."
+    },
+    {
+      "sprint": "S4",
+      "contains": "Direct reading library at",
+      "status": "done",
+      "assignee": "Development",
+      "note": "Delivered locally on 17 November 2026: /library/ and /en/library/ contain 33 canonical reading works, excluding ten brief divergences and three legacy previews. Direct header access, filters, cover/list view and historical-index links. See docs/status-s4-discovery.md."
+    },
+    {
+      "sprint": "S4",
+      "contains": "Author and contributor index and pages",
+      "status": "done",
+      "assignee": "Development",
+      "note": "Delivered locally on 17 November 2026: 88 exact source signatures across the canonical reading edition, separate principal works/prompts and collective contributions, reader credits and 606 verified signed-intervention links in IT/EN. No alias merges or live editorial decisions. Full archive coverage remains pending. See docs/status-s4-discovery.md."
     }
   ],
   "priorities": [
@@ -231,7 +245,7 @@
     },
     {
       "title": "Complete reviewed classification and discovery pages (S4)",
-      "detail": "Set final eras/themes progressively and build author/world/era/place/theme pages from reviewed metadata."
+      "detail": "Set final eras/themes progressively and build world/era/place/theme pages from reviewed metadata. Author navigation already covers the current published edition and grows with future publication."
     },
     {
       "title": "Build the complete archive tree and original-layout copy (S5)",

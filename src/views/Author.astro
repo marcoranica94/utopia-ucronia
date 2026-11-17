@@ -1,0 +1,36 @@
+---
+import type { PublishedAuthor } from "../author-index";
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import "../styles/authors.css";
+
+interface Props {
+  lang: Lang;
+  author: PublishedAuthor;
+}
+const { lang, author } = Astro.props;
+const t = useTranslations(lang);
+const sections = [
+  {
+    title: "authors.works",
+    entries: author.entries.filter(
+      (entry) => entry.principal && entry.level !== "divergence",
+    ),
+  },
+  {
+    title: "authors.prompts",
+    entries: author.entries.filter(
+      (entry) => entry.principal && entry.level === "divergence",
+    ),
+  },
+  {
+    title: "authors.contributions",
+    entries: author.entries.filter((entry) => !entry.principal),
+  },
+] as const;
+---
+<Base title={author.name} lang={lang}>
+  <a class="back-link" href={localePath(lang, "/authors/")}>{t("authors.back")}</a>
+  <header class="page-intro"><h1 class="page-title">{author.name}</h1><p class="page-lede">{t("authors.authorIntro")}</p><p class="small-note">{t("authors.scope")}</p></header>
+  {sections.filter(section => section.entries.length).map(section => <section class="author-texts" aria-label={t(section.title)}><h2>{t(section.title)}</h2><ul>{section.entries.map(entry => <li><h3><a href={localePath(lang, entry.path)} lang={entry.language === "unknown" ? undefined : entry.language}>{entry.title}</a></h3><p>{t(`lang.${entry.language}`)}</p>{entry.anchors.length > 0 && <div class="author-contribution-links"><span>{t("authors.signed")}</span>{entry.anchors.map((anchor, i) => <a href={`${localePath(lang, entry.path)}#${encodeURIComponent(anchor)}`} aria-label={t("authors.contributionIn", { n: i + 1, title: entry.title })}>{t("authors.contribution", { n: i + 1 })}</a>)}</div>}</li>)}</ul></section>)}
+</Base>

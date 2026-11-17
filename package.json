@@ -15,7 +15,7 @@
     "recovery:origin": "node scripts/recovery/origin.ts",
     "convert": "node scripts/convert.ts",
     "check": "astro check",
-    "build": "pnpm convert && pnpm browse:generate && pnpm sources:generate && pnpm periods:generate && astro check && astro build && pnpm browse:payloads && pnpm search:build && pnpm links:check && pnpm compare:sample && pnpm browse:check && pnpm s3:check",
+    "build": "pnpm convert && pnpm browse:generate && pnpm sources:generate && pnpm periods:generate && astro check && astro build && pnpm browse:payloads && pnpm search:build && pnpm links:check && pnpm compare:sample && pnpm browse:check && pnpm s3:check && pnpm discovery:check",
     "compare:sample": "node scripts/compare-sample.ts",
     "test": "node --test tests/*.test.ts",
     "lint": "biome ci .",
@@ -31,6 +31,7 @@
     "browse:payloads": "node scripts/generate-browse-payloads.ts",
     "sources:generate": "node scripts/generate-sources.ts",
     "search:build": "node scripts/build-search.ts",
+    "discovery:check": "node scripts/check-discovery.ts",
     "s3:check": "node scripts/check-s3.ts",
     "periods:generate": "node scripts/generate-period-images.ts"
   },
