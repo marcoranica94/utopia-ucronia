@@ -2,402 +2,402 @@
 
 Read-only proposals for owner review. No approval or publication selection has been recorded. Review links open on the local development server after `pnpm dev`; they are absent from the deployed site.
 
-## 1. Il vecchio maestro
+## 1. Al di là dell'oceano
 
-Proposal: `proposal-doc-4984243ba9bb` · action: `work`
+Proposal: `proposal-doc-59abecc8e4f7` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4984243ba9bb)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-59abecc8e4f7)
 
-> Il vecchio maestro di Andrea Marcobelli Ed ecco due racconti ucronici in cui, in altrettanti mondi diversi dal nostro, la vita di un personaggio storico è stata indirizzata in maniera decisamente diversa... . Mi ricordo
+> Al di là dell'oceano 1493-1519 d.C.: Massimiliano I d'Asburgo è imperatore del Sacro Romano Impero. In possesso di tutti i domini ereditari degli Asburgo, egli controlla praticamente tutta l'Atlantide da una posizione ch
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-vecchio-maestro-4984243b/` · composition: `single`
+Target: `/works/al-di-la-dell-oceano-59abecc8/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4984243ba9bb/)
+[Full source for local review](/review/source/doc-59abecc8e4f7/)
 
-Source: http://www.fmboschetto.it/utopiaucronia/il\_vecchio\_maestro.htm
+Source: http://www.fmboschetto.it/racconti/Roma\_in\_America/Roma\_in\_America\_11.htm
 
-SHA-256: `c988d0229a0a4e4978efa18305e17bb5af41ffe0b7db6a5b90dd2c642dfe2dcb`
+SHA-256: `782c18ac8a5454d4c3ea82c7a41d6c26f6f50dacf5559e2f00eb114e938dd083`
 
 Selection: `{"kind":"whole"}`
 
-## 2. De vita Caesaris
+## 2. Gli stati degli USE e dell'UA all'alba del Duemila
 
-Proposal: `proposal-doc-4a452aa839c1` · action: `work`
+Proposal: `proposal-doc-59f4c11744df` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4a452aa839c1)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-59f4c11744df)
 
-> De Vita Caesaris di Falecius . Quest'ucronia è uno spin-off del mio "de Bello Dacico", scritta basandomi su una affidabile "tavola dei popoli" che contiene informazioni più dettagliate sui rapporti con Roma, per l'area m
+> Gli stati degli USE e della UA all'alba del Duemila Ecco come gli USE risultano suddivisi in 60 stati all'inizio degli anni 2000: Stato Capitale Stato Capitale Lusitania Lisbona la Vecchia Lituania Vilnius Iberia Cadice
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/de-vita-caesaris-4a452aa8/` · composition: `single`
+Target: `/works/gli-stati-degli-use-e-dell-ua-all-alba-del-duemila-59f4c117/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4a452aa839c1/)
+[Full source for local review](/review/source/doc-59f4c11744df/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/de\_vita\_Caesaris.htm
+Source: http://www.fmboschetto.it/racconti/Roma\_in\_America/Stati\_USE.htm
 
-SHA-256: `ddb20a0531c9c8c752ccc23d70d47e5541669b77d687ecfd059d9a993f6611ba`
+SHA-256: `6b498ed61be7493f65758fc83f307e7ad2bc2baf10ac41e759f507cd1b2dbf7b`
 
 Selection: `{"kind":"whole"}`
 
-## 3. Maxima Facta Patrvm
+## 3. Cronache dell'antichità galattica
 
-Proposal: `proposal-doc-4ab92cceae22` · action: `work`
+Proposal: `proposal-doc-5a42e25f774d` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4ab92cceae22)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-5a42e25f774d)
 
-> Maxima Facta Patrvm « IL CRIVELLO DI ERATOSTENE » quotidiano tecnico-scientifico fondato a Genova nel 2007 EDIZIONE STRAORDINARIA del 3 ottobre 2010 UNO STRAORDINARIO RITROVAMENTO: MAXIMA FACTA PATRVM! \[Genova\] Una notiz
+> Cronache dell'antichità galattica di Perché No? Ieri sera ho visto per caso un episodio di un vecchio cartone animato francese degli anni 70 intitolato “Ulisse 31”, che racconta il viaggio di un’Ulisse diverso nello spaz
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/maxima-facta-patrvm-4ab92cce/` · composition: `single`
+Target: `/works/cronache-dell-antichita-galattica-5a42e25f/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4ab92cceae22/)
+[Full source for local review](/review/source/doc-5a42e25f774d/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Annales2010.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/antichita\_galattica.htm
 
-SHA-256: `385594fa09a4d2153e95728100cc2e20ddd91b7b61da49f9b4efbf4e1ea640d7`
+SHA-256: `0b33c55884e2824f0128b7afa742252432c34ceec73160db28ab3f206b40098b`
 
 Selection: `{"kind":"whole"}`
 
-## 4. 2 giugno 1946, la vittoria della Monarchia
+## 4. Federico il Navigatore
 
-Proposal: `proposal-doc-4afc290ab473` · action: `work`
+Proposal: `proposal-doc-5a6528ad90fb` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4afc290ab473)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-5a6528ad90fb)
 
-> 2 giugno 1946, la vittoria della Monarchia di Demofilo 25 luglio 1943, la svolta di Roma Dopo aver fatto arrestare Mussolini il 25 luglio 1943, il Re Imperatore Vittorio Emanuele III decide di abdicare in favore del figl
+> Federico il Navigatore Cosa sarebbe successo se Federico II il Grande di Prussia avesse perso la guerra per la Slesia ? di Rivoluzionario Liberale 1740 sale al trono il giovane Federico di Prussia alla morte del padre, a
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/2-giugno-1946-la-vittoria-della-monarchia-4afc290a/` · composition: `single`
+Target: `/works/federico-il-navigatore-5a6528ad/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4afc290ab473/)
+[Full source for local review](/review/source/doc-5a6528ad90fb/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_vittoria\_della\_monarchia.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Federico\_il\_Navigatore.htm
 
-SHA-256: `018e000eba681c25220c89292a36fa205d29c8d9b066276b3ce3d27979366f18`
+SHA-256: `16615c7ed4fa3ccbefae769f1d9856122fa74a4334f205ae6fd299905869b640`
 
 Selection: `{"kind":"whole"}`
 
-## 5. L'impero di Alessandro secondo Fiolobeche
+## 5. Ynys Prydein
 
-Proposal: `proposal-doc-4b0a9c968cd0` · action: `work`
+Proposal: `proposal-doc-5a72e21a6cde` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4b0a9c968cd0)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-5a72e21a6cde)
 
-> L'impero di Alessandro di Filobeche POD: Alessandro non muore ma per febbri malariche ma rimane talmente debilitato che non sarà in grado di guidare nuove conquiste militari. Durante gli anni del suo regno pacifico (323
+> Ynys Prydein Anno del Signore 410. L'inetto imperatore romano Onorio è costretto a ritirare le sue legioni dalla Britannia per difendere l'Italia. Le città della Britannia si trovano improvvisamente senza una guida, prop
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/l-impero-di-alessandro-secondo-fiolobeche-4b0a9c96/` · composition: `single`
+Target: `/works/ynys-prydein-5a72e21a/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4b0a9c968cd0/)
+[Full source for local review](/review/source/doc-5a72e21a6cde/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/impero\_di\_Alessandro.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Ynys\_Prydein.htm
 
-SHA-256: `abfde39fb27b759f12bf13d3b1c3a53679a8c5a46506bbe9c80aacbe90e4592a`
+SHA-256: `104021bdc14038d6df224e5b1b3ab42cd7bd98308f2017e794e98a61fafc6005`
 
 Selection: `{"kind":"whole"}`
 
-## 6. Attila imperatore
+## 6. Il Re Sole muore nel 1680... (seconda parte)
 
-Proposal: `proposal-doc-4b1cafbf4221` · action: `work`
+Proposal: `proposal-doc-5b0800a1f588` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4b1cafbf4221)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-5b0800a1f588)
 
-> Attila imperatore di Perchè no? Un'idea pazzesca, no? Però a me piace, ecco come vedo le cose: Le relazioni di gioventù tra Attila, futuro khan degli Unni, e il romano Flavio Ezio sono conosciute, ma poi Ezio é tornato a
+> Il Re Sole muore nel 1680... di Perché No? Continua la vicenda di questa Francia alternativa; per leggere la prima parte, cliccate qui. . Il sole di Austerlitz 1805: in Gran Bretagna l'imperatore Arthur II organizza il s
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/attila-imperatore-4b1cafbf/` · composition: `single`
+Target: `/works/il-re-sole-muore-nel-1680-seconda-parte-5b0800a1/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4b1cafbf4221/)
+[Full source for local review](/review/source/doc-5b0800a1f588/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Attila.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Luigi\_XIV\_2.htm
 
-SHA-256: `ccd35d9e0c417009091e9666033ddc3f845c23c7494a053f73ac96900f00d3fb`
+SHA-256: `2fd03ddcddbe44943e5c14b1c5bb1360bdebb66c282b857e3d7f81338d082951`
 
 Selection: `{"kind":"whole"}`
 
-## 7. La Svezia nella Prima Guerra Mondiale!
+## 7. Senza la Prima Guerra Mondiale
 
-Proposal: `proposal-doc-4b50ae60d9ff` · action: `work`
+Proposal: `proposal-doc-5b6a4c61b0b5` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4b50ae60d9ff)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-5b6a4c61b0b5)
 
-> La Svezia nella Prima Guerra Mondiale Ecco le proposte dell'amico Basileus TFT per il nostro gioco ucronico consistente nello scrivere tutti un'ucronia che preveda una Prima o una Seconda Guerra Mondiale "alternativa". C
+> Senza la Grande Guerra... la Rivoluzione! di Alessio Mammarella scritta per celebrare la Festa di Utopiaucronia il 28 giugno 2020 « La Festa di Utopiaucronia ricorre il 28 giugno. Essa infatti ricorda un evento fondament
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-svezia-nella-prima-guerra-mondiale-4b50ae60/` · composition: `single`
+Target: `/works/senza-la-prima-guerra-mondiale-5b6a4c61/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4b50ae60d9ff/)
+[Full source for local review](/review/source/doc-5b6a4c61b0b5/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Svezia\_%20nella\_WWI.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/senza\_la\_Grande\_Guerra.htm
 
-SHA-256: `62fb81955a21d8f85d165444c605fff3c470699b7b2cf1dd6a27d9e2305ade2e`
+SHA-256: `b214626d532a35e3d4bda7b4942784901604d290a7326552c69df5cc6b6490af`
 
 Selection: `{"kind":"whole"}`
 
-## 8. Pilota, di Sandro Degiani
+## 8. La Confederazione Lombarda
 
-Proposal: `proposal-doc-4b7697c21bd1` · action: `work`
+Proposal: `proposal-doc-5c26c9f61f40` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4b7697c21bd1)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-5c26c9f61f40)
 
-> Il Giudice di Dario Carcano Introduzione Autunno. Il sole era appena sorto, e la sua cresta rosata illuminava le vette dei monti che circondavano Laresinio. Gli abitanti del villaggio incastrato tra le montagne si erano
+> . « Rispuosemi: "Non omo, omo già fui, e li parenti miei furon lombardi, mantoani per patria ambedui..." » (Inferno I, 67-69) Tutto è partito dall'idea di Enrica S., che ci ha chiesto: E se i Comuni della Lega Lombarda,
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/pilota-di-sandro-degiani-4b7697c2/` · composition: `single`
+Target: `/works/la-confederazione-lombarda-5c26c9f6/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4b7697c21bd1/)
+[Full source for local review](/review/source/doc-5c26c9f61f40/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Pilota.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/ucronia\_lombarda.htm
 
-SHA-256: `c4ea92c8f1323ceed474b7896a591287e0d802ef50a10efb8d03f5113be96b1b`
+SHA-256: `52ce2145960ffbf0045bdba58bc3d3096561f9a8d1d5ec2e0bd85d3ee6d1cf18`
 
 Selection: `{"kind":"whole"}`
 
-## 9. L'Olanda nella Prima Guerra Mondiale secondo Konstantinos XI
+## 9. "La notte dei generali"
 
-Proposal: `proposal-doc-4c1cbc7cd2a3` · action: `work`
+Proposal: `proposal-doc-5c5438c7af58` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4c1cbc7cd2a3)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-5c5438c7af58)
 
-> L'Olanda nella Prima Guerra Mondiale di Konstantinos XI Ed ecco come Konstantinos XI ha riscritto nel suo sito "Basileia Total War" l'ucronia di Falecius dedicata all'intervento dell'Olanda nella Prima Guerra Mondiale: .
+> Attenzione: il testo riportato si riferisce esclusivamente ad un racconto ucronico frutto della fantasia dell'autore e non ha colore politico. La notte dei Generali Prefazione: Tutti conosciamo sommariamente gli eventi c
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/l-olanda-nella-prima-guerra-mondiale-secondo-konstantinos-xi-4c1cbc7c/` · composition: `single`
+Target: `/works/la-notte-dei-generali-5c5438c7/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4c1cbc7cd2a3/)
+[Full source for local review](/review/source/doc-5c5438c7af58/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Olanda\_nella\_WWI\_Konst.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Tony/generali.htm
 
-SHA-256: `4dbae8f9931f2a20ed078142f1d6b3549115df44b2ba84c5e712aa8c532b21f1`
+SHA-256: `184c28add2c228b67d8f661b45b583f328654036e754b05f1142968ffb0a0992`
 
 Selection: `{"kind":"whole"}`
 
-## 10. Carausio, primo re della Britannia romana
+## 10. La Romania potenza locale
 
-Proposal: `proposal-doc-4c6a08826c13` · action: `work`
+Proposal: `proposal-doc-5d0a50a8e0f2` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-4c6a08826c13)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-5d0a50a8e0f2)
 
-> Carausio, primo re della Britannia romana di Spartac Alla fine del III secolo d.C. l'usurpatore Carausio viene volutamente "dimenticato" da Diocleziano e Massimiano in Britannia. Il tentativo di Allecto di eliminarlo con
+> La Romania potenza locale! di Maggioriano In questa ucronia il Regno di Romania diventa una potenza locale inglobando la Moldavia e gran parte dell'Ucraina. Come riuscirebbe un exploit simile? Innanzitutto i Russi Bianch
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/carausio-primo-re-della-britannia-romana-4c6a0882/` · composition: `single`
+Target: `/works/la-romania-potenza-locale-5d0a50a8/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4c6a08826c13/)
+[Full source for local review](/review/source/doc-5d0a50a8e0f2/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Carausio.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Romania.htm
 
-SHA-256: `7267853d0bc560fbd48a4db442f1e4bc1324e112bbd510f3efbff58e03e43d9c`
+SHA-256: `f449b4fefc7793cb53d103d2bf0a84b7810c8c88d18f5f3874a9d201a5e90b77`
 
 Selection: `{"kind":"whole"}`
 
-## 11. Maria Teresa e Luigi XV
+## 11. Benito socialista, Italia comunista!
 
-Proposal: `proposal-doc-4cb4df587203` · action: `work`
+Proposal: `proposal-doc-5d5d027d44ac` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4cb4df587203)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-5d5d027d44ac)
 
-> Maria Teresa e Luigi XV Tutto è partito da questa proposta di Bhrghowidhon,: « Noi Carlo Francesco Giuseppe Venceslao Baldassarre Giovanni Antonio Ignazio d'Asburgo, col Favore della Divina Clemenza Eletto Carlo VI. Impe
+> Benito socialista, Italia comunista! ovvero: il Biennio Rosso di Homer Ho sempre pensato con un certo interesse ad un Mussolini ancora socialista prima della Grande Guerra (come del resto era, e pure direttore dell'Avant
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/maria-teresa-e-luigi-xv-4cb4df58/` · composition: `single`
+Target: `/works/benito-socialista-italia-comunista-5d5d027d/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4cb4df587203/)
+[Full source for local review](/review/source/doc-5d5d027d44ac/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Maria\_Teresa\_e\_Luigi\_XV.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Benito\_socialista.htm
 
-SHA-256: `fc4d7bddaaa58eb82e992051cf3f28b1a579e403293f628385f39bd7f0f499b4`
+SHA-256: `7322dadec6e5e97af6233c64d016c0e0492e06ac9fb16e041af7a6247b56a2ac`
 
 Selection: `{"kind":"whole"}`
 
-## 12. Nerón se convierte al cristianismo
+## 12. Il Sangue di Tolomeo
 
-Proposal: `proposal-doc-4cc1a0c26b91` · action: `work`
+Proposal: `proposal-doc-5d65812329e7` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4cc1a0c26b91)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-5d65812329e7)
 
-> Nerón se convierte al cristianismo de William Riker Año 54 d.C., Agripina Menor hace envenenar a su marido Claudio con los famosos hongos trifolati, no precisamente comestibles, por temor a que éste nombrara sucesor a su
+> Il Sangue di Tolomeo di Tommaso Mazzoni Quella che segue è una breve historia dei sovrani d'egitto, in una Timeline dove Cleopatra e Antonio persuadono Ottaviano a lasciarli in pace. . Cleopatra VII (51 a.C-15 a.C)-Tolom
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/neron-se-convierte-al-cristianismo-4cc1a0c2/` · composition: `single`
+Target: `/works/il-sangue-di-tolomeo-5d658123/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4cc1a0c26b91/)
+[Full source for local review](/review/source/doc-5d65812329e7/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Ucroniasenespanol/Neron.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Sangue\_di\_Tolomeo.htm
 
-SHA-256: `14098106971431ed1545f8cec0d41e821a216642d495de7f9adbbeb56190c3b0`
+SHA-256: `51a2ecab159d137a179d4020ba6a92ce909e95ccc46ac60560d82425f6566c08`
 
 Selection: `{"kind":"whole"}`
 
-## 13. Morire per Kiev?
+## 13. Napoleone in Irlanda
 
-Proposal: `proposal-doc-4d34cd15441d` · action: `work`
+Proposal: `proposal-doc-5daaa549ba40` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4d34cd15441d)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-5daaa549ba40)
 
-> Morire per Kiev? di Mattiopolis Ecco una nuova ucronia ispirata alla Terza Guerra Mondiale, opera di Mattiopolis, che per questa ucronia si è basato sull'ipotesi di una guerra civile in Ucraina tra sostenitori di Unione
+> Nelle mani di Nelson di Enrico Pellerito Di POD relativi a Napoleone è pieno il mondo delle ucronie, e quelle progettate e pubblicate sul nostro sito non sono di meno rispetto quanto ideato dai più prestigiosi autori fan
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/morire-per-kiev-4d34cd15/` · composition: `single`
+Target: `/works/napoleone-in-irlanda-5daaa549/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4d34cd15441d/)
+[Full source for local review](/review/source/doc-5daaa549ba40/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Fanta\_WWIII\_4.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Napoleone\_in\_Irlanda.htm
 
-SHA-256: `797606422397f407a7b9739ff310a146c00442791080d3b87032bf36f0ec2bd3`
+SHA-256: `e60421f6a4252873e3ee2baeb69261c1aaacd2d97ce9f4cddbad66c548ef8064`
 
 Selection: `{"kind":"whole"}`
 
-## 14. Senza Rivoluzione...
+## 14. Il trionfo della Celticità
 
-Proposal: `proposal-doc-4d4f753d7a45` · action: `work`
+Proposal: `proposal-doc-5de2542a41b3` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4d4f753d7a45)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-5de2542a41b3)
 
-> Senza Rivoluzione... di Perché No? La rivoluzione francese, che sia definita in modo stretto (1789-1815), largo (1789-1875) o internazionale (la rivoluzione atlantica 1770-1850) é stato l'evento maggiore degli ultimi 500
+> Il trionfo della Celticità Di seguito alla discussione tra \*Bhrg'hówidhHô(n-) e Bhrig sulla vittoria di Spartaco, è nata un'altra interessante discussione sul tema della continuazione della Celticità fino al presente, in
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/senza-rivoluzione-4d4f753d/` · composition: `single`
+Target: `/works/il-trionfo-della-celticita-5de2542a/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4d4f753d7a45/)
+[Full source for local review](/review/source/doc-5de2542a41b3/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/senza\_Rivoluzione\_Francese.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Celticita.htm
 
-SHA-256: `874217948350262fb310ed341dbb2cd0c6b00cdbd00028385468e472bb1a0e92`
+SHA-256: `64f2115a81bb6e642eaadfad8db0c91e12e965d46dbcc5192f08aba043f7bdfc`
 
 Selection: `{"kind":"whole"}`
 
-## 15. Il ventennio delle scorrerie
+## 15. Il poema di Gilgamesh
 
-Proposal: `proposal-doc-4dacc4ccd68a` · action: `work`
+Proposal: `proposal-doc-5e1bed75d732` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4dacc4ccd68a)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-5e1bed75d732)
 
-> IL VENTENNIO DELLE SCORRERIE (1043 - 1066 aUc = 290 - 313 d.C.) Il ventennio nero E' inutile dire che, spesso, le popolazioni latine e celtiche percepiscono l'arrivo dei popoli trasferiti come delle vere e proprie scorre
+> Il poema di Gilgamesh Prologo Proclamerò alle genti l’alte imprese di Gilgamesh, colui che tutto vide, ogni cosa conobbe e investigò, colui che tutto vide sino agli ultimi margini della Terra, lui che ricco di sapienza e
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-ventennio-delle-scorrerie-4dacc4cc/` · composition: `single`
+Target: `/works/il-poema-di-gilgamesh-5e1bed75/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4dacc4ccd68a/)
+[Full source for local review](/review/source/doc-5e1bed75d732/)
 
-Source: http://www.fmboschetto.it/racconti/iperimpero/iperimp4.htm
+Source: http://www.fmboschetto.it/racconti/Poema\_di\_Gilgamesh.htm
 
-SHA-256: `7538aa834a94c67f7e8fa7a9360b0c1b6004ad18ddb0ffc01d89e5f68fe6668d`
+SHA-256: `2b0a746ee6186721430bf84e0f3c24269511718195f87348fa109539fb0c1f07`
 
 Selection: `{"kind":"whole"}`
 
-## 16. United Kingdoms of America
+## 16. \[uchronìe\] Pythéas le menteur
 
-Proposal: `proposal-doc-4e4b46c30cf0` · action: `work`
+Proposal: `proposal-doc-5edc26278992` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4e4b46c30cf0)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-5edc26278992)
 
-> I Regni Uniti d'America di Tommaso Mazzoni P.o.D.: Ce ne sono svariati, ma il più importante è questo: le 13 Colonie sono organizzate come 13 Ducati, ciascuno con un Duca ereditario e non un governatore nominato dal Re.
+> Pythéas le menteur La découverte de l’Amérique par un navigateur grec de Porquoi pas? Deuxième époque Troisème époque : Moyen-âge II VIII- La naissance du royaume saxon du Vinland : 1066 : mort d’Edouard II le confesseur
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/united-kingdoms-of-america-4e4b46c3/` · composition: `single`
+Target: `/works/uchronie-pytheas-le-menteur-5edc2627/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4e4b46c30cf0/)
+[Full source for local review](/review/source/doc-5edc26278992/)
 
-Source: http://www.fmboschetto.it/utopiaucronia/UKA.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Pytheas\_le\_menteur\_3.htm
 
-SHA-256: `f5727b6d54e74c5677e85bb155485d8c499dfe4953fb10e9fe8b064205b77e3e`
+SHA-256: `622fc4dfaf164f9901b31835c18d5c8520ee24ea7e92ad4aa32b7d5d93de5fba`
 
 Selection: `{"kind":"whole"}`
 
-## 17. Il viaggio di Daniel
+## 17. Tenka Fûbû (il Giappone degli Oda)
 
-Proposal: `proposal-doc-4e5c3599cbfe` · action: `work`
+Proposal: `proposal-doc-5f39ca39f209` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4e5c3599cbfe)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-5f39ca39f209)
 
-> Adelchi 1989 di Francesco Dessolis Ho provato per scherzo a riscrivere il famoso coro dell'Adelchi, ambientandolo in un universo ucronico in cui l'Italia nel secondo dopoguerra è stata occupata dai sovietici, che ne hann
+> TENKA FÛBÛ! (ovvero il Giappone degli Oda) di Perchè No? Il Mon degli Oda dedicata a mia figlia Selena Estratti del rapporto scritto dal gesuita Luis Frois ai suoi superiori sulla situazione del Giappone nel 1582. « ...D
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-viaggio-di-daniel-4e5c3599/` · composition: `single`
+Target: `/works/tenka-fubu-il-giappone-degli-oda-5f39ca39/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4e5c3599cbfe/)
+[Full source for local review](/review/source/doc-5f39ca39f209/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/viaggio\_di\_Daniel.htm
+Source: https://www.fmboschetto.it/utopiaucronia/Tenka\_Fubu.htm
 
-SHA-256: `e9337cd7eb90b9b14157c44cd2641c43dc86b7a4d0178edeeb44b5c31e06c277`
+SHA-256: `ab7385d3572b17be81debcafe45a4574b71e654854cf7cef7d911caca28ab338`
 
 Selection: `{"kind":"whole"}`
 
-## 18. La Macaronesia punica
+## 18. Cosa vogliono le donne
 
-Proposal: `proposal-doc-4ff69c6c8e6a` · action: `work`
+Proposal: `proposal-doc-5f5d7fc5ee44` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-4ff69c6c8e6a)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-5f5d7fc5ee44)
 
-> L'Atlantonesia di William Riker in memoria di Enrica Soldavini Ispirandosi alla vignetta soprastante e a questo sito, William Riker è stato affascinato dall'idea di una cintura di isole tra Vecchio e Nuovo Mondo attraver
+> Cosa vogliono le donne Un giorno, il giovane re Artù fu catturato ed imprigionato dal sovrano di un regno vicino. Mosso a compassione dalla gioia di vivere del giovane, anziché ucciderlo, il sovrano gli offrì la libertà,
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-macaronesia-punica-4ff69c6c/` · composition: `single`
+Target: `/works/cosa-vogliono-le-donne-5f5d7fc5/` · composition: `single`
 
-[Full source for local review](/review/source/doc-4ff69c6c8e6a/)
+[Full source for local review](/review/source/doc-5f5d7fc5ee44/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Macaronesia.htm
+Source: http://www.fmboschetto.it/racconti/cosa\_vogliono\_le\_donne.htm
 
-SHA-256: `faa9f037912315fbffc39ad137f8c00610a98488ac20ece1d4ce54a4477a47bd`
+SHA-256: `230cb63f2b11af8ef1ace4fd5640f43b1810a58b73742efd21721bfd9f4bfb8c`
 
 Selection: `{"kind":"whole"}`
 
-## 19. Rodolfo III d'Asburgo
+## 19. Cabo Verde 1944
 
-Proposal: `proposal-doc-50935a938b32` · action: `work`
+Proposal: `proposal-doc-5fd65a37f724` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-50935a938b32)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-5fd65a37f724)
 
-> Rodolfo III d'Asburgo Lo sceneggiato dedicato da Rai Uno alla vicenda dello sfortunato Arciduca Rodolfo d'Asburgo ha ispirato al nostro Webmaster William Riker la seguente ucronia. Il 10 maggio 1881 Rodolfo d'Asburgo-Lor
+> Cabo Verde 1944 un cuento de Sandro Degiani Soñaba con estar tendido en la playa de Crotone, el mar lo acunaba con el rumor de las olas y de la resaca sobre la arena; un dulce rumor de enjuagues y de piedras que rodaban.
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/rodolfo-iii-d-asburgo-50935a93/` · composition: `single`
+Target: `/works/cabo-verde-1944-5fd65a37/` · composition: `single`
 
-[Full source for local review](/review/source/doc-50935a938b32/)
+[Full source for local review](/review/source/doc-5fd65a37f724/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Rodolfo\_III.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Cabo\_Verde\_1944.htm
 
-SHA-256: `9f6f0b4cd1e4cfd8ea631076ff5989e851a25397863d9b87f6fa5139d54384dd`
+SHA-256: `6cca966f496dd7a27f791a269af4a8b53641e2ef13a5edaa2a0e1ba88e455086`
 
 Selection: `{"kind":"whole"}`
 
-## 20. 718, Costantinopoli cade
+## 20. Il dono dell'oggi
 
-Proposal: `proposal-doc-51364162cace` · action: `work`
+Proposal: `proposal-doc-607a387f85ae` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-51364162cace)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-607a387f85ae)
 
-> 718, Costantinopoli cade di Falecius e \*Bhrg'howidhHô(n-) Ad aprire questa discussione è stato Falecius: Riprendo una mia vecchia idea su Costantinopoli e gli Arabi. nell'ultimo assedio della città (718) le forze Umayyad
+> Il dono dell'oggi Due uomini, entrambi molto malati, occupavano la stessa stanza d'ospedale. A uno dei due uomini era permesso mettersi seduto sul letto per un ora ogni pomeriggio per aiutare il drenaggio dei fluidi dal
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/718-costantinopoli-cade-51364162/` · composition: `single`
+Target: `/works/il-dono-dell-oggi-607a387f/` · composition: `single`
 
-[Full source for local review](/review/source/doc-51364162cace/)
+[Full source for local review](/review/source/doc-607a387f85ae/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Costantinopoli\_cade.htm
+Source: http://www.fmboschetto.it/racconti/il\_dono\_dell\_oggi.htm
 
-SHA-256: `62dc80a80b2e56328aeaa7bedb0f7e81f63819334de5ebf09caa0547b24a42a1`
+SHA-256: `27d14c79ddd5ca06e7ef6c9711d9db55dc948aa02e29ac8b6dddfaf982ef7526`
 
 Selection: `{"kind":"whole"}`

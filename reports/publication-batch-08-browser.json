@@ -1,0 +1,969 @@
+{
+  "date": "2026-11-17",
+  "routes": 40,
+  "cases": 120,
+  "failing": [],
+  "passed": true,
+  "layouts": [
+    {
+      "path": "/works/il-vecchio-maestro-4984243b/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/de-vita-caesaris-4a452aa8/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/maxima-facta-patrvm-4ab92cce/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/2-giugno-1946-la-vittoria-della-monarchia-4afc290a/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-di-alessandro-secondo-fiolobeche-4b0a9c96/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/attila-imperatore-4b1cafbf/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-svezia-nella-prima-guerra-mondiale-4b50ae60/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pilota-di-sandro-degiani-4b7697c2/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-olanda-nella-prima-guerra-mondiale-secondo-konstantinos-xi-4c1cbc7c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/carausio-primo-re-della-britannia-romana-4c6a0882/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/maria-teresa-e-luigi-xv-4cb4df58/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/neron-se-convierte-al-cristianismo-4cc1a0c2/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/morire-per-kiev-4d34cd15/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/senza-rivoluzione-4d4f753d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-ventennio-delle-scorrerie-4dacc4cc/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/united-kingdoms-of-america-4e4b46c3/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-viaggio-di-daniel-4e5c3599/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-macaronesia-punica-4ff69c6c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/rodolfo-iii-d-asburgo-50935a93/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/718-costantinopoli-cade-51364162/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/una-caldaia-causa-la-guerra-mondiale-515fc3c5/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronia-de-terra-incognita-sed-nunc-reperta-51a73ceb/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-guerra-delle-guerre-522167ac/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/the-black-hornet-52e69152/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/le-tre-italie-53025885/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/addio-al-greco-53644aeb/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/papati-alternativi-53f9102d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-regno-unito-di-gran-bretagna-e-francia-54ab2409/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/2-giugno-1946-la-vittoria-della-monarchia-5566466d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/platone-aveva-ragione-558ca732/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/hms-odysseus-5622f396/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/un-altro-impero-romano-563d5ab0/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-glaciazione-di-sant-antonio-564b9186/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-romano-africano-567796e3/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-re-sole-muore-nel-1680-terza-parte-576c9f91/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/decadenza-e-caduta-dell-impero-romano-in-atlantide-57d33b32/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/istria-1946-5812963e/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-druwidobrogia-589e61fa/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-paradiso-comunista-in-europa-59465c2e/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/keskerdh-kernow-5976a672/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-vecchio-maestro-4984243b/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/de-vita-caesaris-4a452aa8/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/maxima-facta-patrvm-4ab92cce/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/2-giugno-1946-la-vittoria-della-monarchia-4afc290a/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-di-alessandro-secondo-fiolobeche-4b0a9c96/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/attila-imperatore-4b1cafbf/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-svezia-nella-prima-guerra-mondiale-4b50ae60/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pilota-di-sandro-degiani-4b7697c2/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-olanda-nella-prima-guerra-mondiale-secondo-konstantinos-xi-4c1cbc7c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/carausio-primo-re-della-britannia-romana-4c6a0882/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/maria-teresa-e-luigi-xv-4cb4df58/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/neron-se-convierte-al-cristianismo-4cc1a0c2/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/morire-per-kiev-4d34cd15/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/senza-rivoluzione-4d4f753d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-ventennio-delle-scorrerie-4dacc4cc/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/united-kingdoms-of-america-4e4b46c3/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-viaggio-di-daniel-4e5c3599/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-macaronesia-punica-4ff69c6c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/rodolfo-iii-d-asburgo-50935a93/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/718-costantinopoli-cade-51364162/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/una-caldaia-causa-la-guerra-mondiale-515fc3c5/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronia-de-terra-incognita-sed-nunc-reperta-51a73ceb/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-guerra-delle-guerre-522167ac/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/the-black-hornet-52e69152/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/le-tre-italie-53025885/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/addio-al-greco-53644aeb/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/papati-alternativi-53f9102d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-regno-unito-di-gran-bretagna-e-francia-54ab2409/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/2-giugno-1946-la-vittoria-della-monarchia-5566466d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/platone-aveva-ragione-558ca732/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/hms-odysseus-5622f396/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/un-altro-impero-romano-563d5ab0/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-glaciazione-di-sant-antonio-564b9186/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-romano-africano-567796e3/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-re-sole-muore-nel-1680-terza-parte-576c9f91/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/decadenza-e-caduta-dell-impero-romano-in-atlantide-57d33b32/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/istria-1946-5812963e/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-druwidobrogia-589e61fa/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-paradiso-comunista-in-europa-59465c2e/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/keskerdh-kernow-5976a672/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-vecchio-maestro-4984243b/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/de-vita-caesaris-4a452aa8/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/maxima-facta-patrvm-4ab92cce/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/2-giugno-1946-la-vittoria-della-monarchia-4afc290a/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-di-alessandro-secondo-fiolobeche-4b0a9c96/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/attila-imperatore-4b1cafbf/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-svezia-nella-prima-guerra-mondiale-4b50ae60/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pilota-di-sandro-degiani-4b7697c2/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-olanda-nella-prima-guerra-mondiale-secondo-konstantinos-xi-4c1cbc7c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/carausio-primo-re-della-britannia-romana-4c6a0882/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/maria-teresa-e-luigi-xv-4cb4df58/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/neron-se-convierte-al-cristianismo-4cc1a0c2/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/morire-per-kiev-4d34cd15/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/senza-rivoluzione-4d4f753d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-ventennio-delle-scorrerie-4dacc4cc/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/united-kingdoms-of-america-4e4b46c3/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-viaggio-di-daniel-4e5c3599/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-macaronesia-punica-4ff69c6c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/rodolfo-iii-d-asburgo-50935a93/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/718-costantinopoli-cade-51364162/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/una-caldaia-causa-la-guerra-mondiale-515fc3c5/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronia-de-terra-incognita-sed-nunc-reperta-51a73ceb/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-guerra-delle-guerre-522167ac/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/the-black-hornet-52e69152/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/le-tre-italie-53025885/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/addio-al-greco-53644aeb/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/papati-alternativi-53f9102d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-regno-unito-di-gran-bretagna-e-francia-54ab2409/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/2-giugno-1946-la-vittoria-della-monarchia-5566466d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/platone-aveva-ragione-558ca732/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/hms-odysseus-5622f396/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/un-altro-impero-romano-563d5ab0/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-glaciazione-di-sant-antonio-564b9186/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-romano-africano-567796e3/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-re-sole-muore-nel-1680-terza-parte-576c9f91/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/decadenza-e-caduta-dell-impero-romano-in-atlantide-57d33b32/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/istria-1946-5812963e/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-druwidobrogia-589e61fa/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-paradiso-comunista-in-europa-59465c2e/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/keskerdh-kernow-5976a672/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    }
+  ]
+}

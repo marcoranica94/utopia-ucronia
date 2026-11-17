@@ -5,554 +5,553 @@
   "note": "Read-only review packet. No owner approval, publication selection or live ledger was changed.",
   "entries": [
     {
-      "proposalId": "proposal-doc-4984243ba9bb",
+      "proposalId": "proposal-doc-59abecc8e4f7",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4984243ba9bb",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-59abecc8e4f7",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Il vecchio maestro di Andrea Marcobelli Ed ecco due racconti ucronici in cui, in altrettanti mondi diversi dal nostro, la vita di un personaggio storico è stata indirizzata in maniera decisamente diversa... . Mi ricordo",
+      "quote": "Al di là dell'oceano 1493-1519 d.C.: Massimiliano I d'Asburgo è imperatore del Sacro Romano Impero. In possesso di tutti i domini ereditari degli Asburgo, egli controlla praticamente tutta l'Atlantide da una posizione ch",
       "items": [
         {
-          "id": "item-64669b1334dd",
-          "title": "Il vecchio maestro",
-          "path": "/works/il-vecchio-maestro-4984243b/",
+          "id": "item-9bf15d773aa8",
+          "title": "Al di là dell'oceano",
+          "path": "/works/al-di-la-dell-oceano-59abecc8/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4984243ba9bb",
-              "url": "http://www.fmboschetto.it/utopiaucronia/il_vecchio_maestro.htm",
-              "timestamp": "20260525185604",
+              "documentId": "doc-59abecc8e4f7",
+              "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_11.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "c988d0229a0a4e4978efa18305e17bb5af41ffe0b7db6a5b90dd2c642dfe2dcb",
-              "localReviewPath": "/review/source/doc-4984243ba9bb/"
+              "sha256": "782c18ac8a5454d4c3ea82c7a41d6c26f6f50dacf5559e2f00eb114e938dd083",
+              "localReviewPath": "/review/source/doc-59abecc8e4f7/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4a452aa839c1",
+      "proposalId": "proposal-doc-59f4c11744df",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4a452aa839c1",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-59f4c11744df",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "De Vita Caesaris di Falecius . Quest'ucronia è uno spin-off del mio \"de Bello Dacico\", scritta basandomi su una affidabile \"tavola dei popoli\" che contiene informazioni più dettagliate sui rapporti con Roma, per l'area m",
+      "quote": "Gli stati degli USE e della UA all'alba del Duemila Ecco come gli USE risultano suddivisi in 60 stati all'inizio degli anni 2000: Stato Capitale Stato Capitale Lusitania Lisbona la Vecchia Lituania Vilnius Iberia Cadice",
       "items": [
         {
-          "id": "item-badd0f798e6a",
-          "title": "De vita Caesaris",
-          "path": "/works/de-vita-caesaris-4a452aa8/",
+          "id": "item-e956203245fd",
+          "title": "Gli stati degli USE e dell'UA all'alba del Duemila",
+          "path": "/works/gli-stati-degli-use-e-dell-ua-all-alba-del-duemila-59f4c117/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4a452aa839c1",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/de_vita_Caesaris.htm",
+              "documentId": "doc-59f4c11744df",
+              "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Stati_USE.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "ddb20a0531c9c8c752ccc23d70d47e5541669b77d687ecfd059d9a993f6611ba",
-              "localReviewPath": "/review/source/doc-4a452aa839c1/"
+              "sha256": "6b498ed61be7493f65758fc83f307e7ad2bc2baf10ac41e759f507cd1b2dbf7b",
+              "localReviewPath": "/review/source/doc-59f4c11744df/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4ab92cceae22",
+      "proposalId": "proposal-doc-5a42e25f774d",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4ab92cceae22",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-5a42e25f774d",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Maxima Facta Patrvm « IL CRIVELLO DI ERATOSTENE » quotidiano tecnico-scientifico fondato a Genova nel 2007 EDIZIONE STRAORDINARIA del 3 ottobre 2010 UNO STRAORDINARIO RITROVAMENTO: MAXIMA FACTA PATRVM! [Genova] Una notiz",
+      "quote": "Cronache dell'antichità galattica di Perché No? Ieri sera ho visto per caso un episodio di un vecchio cartone animato francese degli anni 70 intitolato “Ulisse 31”, che racconta il viaggio di un’Ulisse diverso nello spaz",
       "items": [
         {
-          "id": "item-c8cfb792270e",
-          "title": "Maxima Facta Patrvm",
-          "path": "/works/maxima-facta-patrvm-4ab92cce/",
+          "id": "item-466fe3131077",
+          "title": "Cronache dell'antichità galattica",
+          "path": "/works/cronache-dell-antichita-galattica-5a42e25f/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4ab92cceae22",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Annales2010.htm",
-              "timestamp": "20120318010802",
+              "documentId": "doc-5a42e25f774d",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/antichita_galattica.htm",
+              "timestamp": "20210411092024",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "385594fa09a4d2153e95728100cc2e20ddd91b7b61da49f9b4efbf4e1ea640d7",
-              "localReviewPath": "/review/source/doc-4ab92cceae22/"
+              "sha256": "0b33c55884e2824f0128b7afa742252432c34ceec73160db28ab3f206b40098b",
+              "localReviewPath": "/review/source/doc-5a42e25f774d/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4afc290ab473",
+      "proposalId": "proposal-doc-5a6528ad90fb",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4afc290ab473",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-5a6528ad90fb",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "2 giugno 1946, la vittoria della Monarchia di Demofilo 25 luglio 1943, la svolta di Roma Dopo aver fatto arrestare Mussolini il 25 luglio 1943, il Re Imperatore Vittorio Emanuele III decide di abdicare in favore del figl",
+      "quote": "Federico il Navigatore Cosa sarebbe successo se Federico II il Grande di Prussia avesse perso la guerra per la Slesia ? di Rivoluzionario Liberale 1740 sale al trono il giovane Federico di Prussia alla morte del padre, a",
       "items": [
         {
-          "id": "item-3cafb59485a6",
-          "title": "2 giugno 1946, la vittoria della Monarchia",
-          "path": "/works/2-giugno-1946-la-vittoria-della-monarchia-4afc290a/",
+          "id": "item-95f3605b6799",
+          "title": "Federico il Navigatore",
+          "path": "/works/federico-il-navigatore-5a6528ad/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4afc290ab473",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_vittoria_della_monarchia.htm",
-              "timestamp": "20230921165414",
+              "documentId": "doc-5a6528ad90fb",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Federico_il_Navigatore.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "018e000eba681c25220c89292a36fa205d29c8d9b066276b3ce3d27979366f18",
-              "localReviewPath": "/review/source/doc-4afc290ab473/"
+              "sha256": "16615c7ed4fa3ccbefae769f1d9856122fa74a4334f205ae6fd299905869b640",
+              "localReviewPath": "/review/source/doc-5a6528ad90fb/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4b0a9c968cd0",
+      "proposalId": "proposal-doc-5a72e21a6cde",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4b0a9c968cd0",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-5a72e21a6cde",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "L'impero di Alessandro di Filobeche POD: Alessandro non muore ma per febbri malariche ma rimane talmente debilitato che non sarà in grado di guidare nuove conquiste militari. Durante gli anni del suo regno pacifico (323",
+      "quote": "Ynys Prydein Anno del Signore 410. L'inetto imperatore romano Onorio è costretto a ritirare le sue legioni dalla Britannia per difendere l'Italia. Le città della Britannia si trovano improvvisamente senza una guida, prop",
       "items": [
         {
-          "id": "item-4b699f6a7bed",
-          "title": "L'impero di Alessandro secondo Fiolobeche",
-          "path": "/works/l-impero-di-alessandro-secondo-fiolobeche-4b0a9c96/",
+          "id": "item-0a23bdfcf9e2",
+          "title": "Ynys Prydein",
+          "path": "/works/ynys-prydein-5a72e21a/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4b0a9c968cd0",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/impero_di_Alessandro.htm",
-              "timestamp": "20210503092251",
+              "documentId": "doc-5a72e21a6cde",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Ynys_Prydein.htm",
+              "timestamp": "20100224074946",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "abfde39fb27b759f12bf13d3b1c3a53679a8c5a46506bbe9c80aacbe90e4592a",
-              "localReviewPath": "/review/source/doc-4b0a9c968cd0/"
+              "sha256": "104021bdc14038d6df224e5b1b3ab42cd7bd98308f2017e794e98a61fafc6005",
+              "localReviewPath": "/review/source/doc-5a72e21a6cde/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4b1cafbf4221",
+      "proposalId": "proposal-doc-5b0800a1f588",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4b1cafbf4221",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-5b0800a1f588",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Attila imperatore di Perchè no? Un'idea pazzesca, no? Però a me piace, ecco come vedo le cose: Le relazioni di gioventù tra Attila, futuro khan degli Unni, e il romano Flavio Ezio sono conosciute, ma poi Ezio é tornato a",
+      "quote": "Il Re Sole muore nel 1680... di Perché No? Continua la vicenda di questa Francia alternativa; per leggere la prima parte, cliccate qui. . Il sole di Austerlitz 1805: in Gran Bretagna l'imperatore Arthur II organizza il s",
       "items": [
         {
-          "id": "item-989ec0cc4dd2",
-          "title": "Attila imperatore",
-          "path": "/works/attila-imperatore-4b1cafbf/",
+          "id": "item-b339f4d33f35",
+          "title": "Il Re Sole muore nel 1680... (seconda parte)",
+          "path": "/works/il-re-sole-muore-nel-1680-seconda-parte-5b0800a1/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4b1cafbf4221",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Attila.htm",
-              "timestamp": "20160713085018",
+              "documentId": "doc-5b0800a1f588",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Luigi_XIV_2.htm",
+              "timestamp": "20200130070725",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "ccd35d9e0c417009091e9666033ddc3f845c23c7494a053f73ac96900f00d3fb",
-              "localReviewPath": "/review/source/doc-4b1cafbf4221/"
+              "sha256": "2fd03ddcddbe44943e5c14b1c5bb1360bdebb66c282b857e3d7f81338d082951",
+              "localReviewPath": "/review/source/doc-5b0800a1f588/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4b50ae60d9ff",
+      "proposalId": "proposal-doc-5b6a4c61b0b5",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4b50ae60d9ff",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-5b6a4c61b0b5",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "La Svezia nella Prima Guerra Mondiale Ecco le proposte dell'amico Basileus TFT per il nostro gioco ucronico consistente nello scrivere tutti un'ucronia che preveda una Prima o una Seconda Guerra Mondiale \"alternativa\". C",
+      "quote": "Senza la Grande Guerra... la Rivoluzione! di Alessio Mammarella scritta per celebrare la Festa di Utopiaucronia il 28 giugno 2020 « La Festa di Utopiaucronia ricorre il 28 giugno. Essa infatti ricorda un evento fondament",
       "items": [
         {
-          "id": "item-7b2fa3a00ef9",
-          "title": "La Svezia nella Prima Guerra Mondiale!",
-          "path": "/works/la-svezia-nella-prima-guerra-mondiale-4b50ae60/",
+          "id": "item-9a72efc01939",
+          "title": "Senza la Prima Guerra Mondiale",
+          "path": "/works/senza-la-prima-guerra-mondiale-5b6a4c61/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4b50ae60d9ff",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/Svezia_%20nella_WWI.htm",
+              "documentId": "doc-5b6a4c61b0b5",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/senza_la_Grande_Guerra.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "62fb81955a21d8f85d165444c605fff3c470699b7b2cf1dd6a27d9e2305ade2e",
-              "localReviewPath": "/review/source/doc-4b50ae60d9ff/"
+              "sha256": "b214626d532a35e3d4bda7b4942784901604d290a7326552c69df5cc6b6490af",
+              "localReviewPath": "/review/source/doc-5b6a4c61b0b5/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4b7697c21bd1",
+      "proposalId": "proposal-doc-5c26c9f61f40",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4b7697c21bd1",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-5c26c9f61f40",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Il Giudice di Dario Carcano Introduzione Autunno. Il sole era appena sorto, e la sua cresta rosata illuminava le vette dei monti che circondavano Laresinio. Gli abitanti del villaggio incastrato tra le montagne si erano",
+      "quote": ". « Rispuosemi: \"Non omo, omo già fui, e li parenti miei furon lombardi, mantoani per patria ambedui...\" » (Inferno I, 67-69) Tutto è partito dall'idea di Enrica S., che ci ha chiesto: E se i Comuni della Lega Lombarda,",
       "items": [
         {
-          "id": "item-335d1627c8b0",
-          "title": "Pilota, di Sandro Degiani",
-          "path": "/works/pilota-di-sandro-degiani-4b7697c2/",
+          "id": "item-f14d4c950766",
+          "title": "La Confederazione Lombarda",
+          "path": "/works/la-confederazione-lombarda-5c26c9f6/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4b7697c21bd1",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Pilota.htm",
-              "timestamp": "20250523085325",
+              "documentId": "doc-5c26c9f61f40",
+              "url": "https://www.fmboschetto.it/Utopiaucronia/ucronia_lombarda.htm",
+              "timestamp": "20260420041211",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "c4ea92c8f1323ceed474b7896a591287e0d802ef50a10efb8d03f5113be96b1b",
-              "localReviewPath": "/review/source/doc-4b7697c21bd1/"
+              "sha256": "52ce2145960ffbf0045bdba58bc3d3096561f9a8d1d5ec2e0bd85d3ee6d1cf18",
+              "localReviewPath": "/review/source/doc-5c26c9f61f40/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4c1cbc7cd2a3",
+      "proposalId": "proposal-doc-5c5438c7af58",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4c1cbc7cd2a3",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-5c5438c7af58",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "L'Olanda nella Prima Guerra Mondiale di Konstantinos XI Ed ecco come Konstantinos XI ha riscritto nel suo sito \"Basileia Total War\" l'ucronia di Falecius dedicata all'intervento dell'Olanda nella Prima Guerra Mondiale: .",
+      "quote": "Attenzione: il testo riportato si riferisce esclusivamente ad un racconto ucronico frutto della fantasia dell'autore e non ha colore politico. La notte dei Generali Prefazione: Tutti conosciamo sommariamente gli eventi c",
       "items": [
         {
-          "id": "item-d87fb2fd350d",
-          "title": "L'Olanda nella Prima Guerra Mondiale secondo Konstantinos XI",
-          "path": "/works/l-olanda-nella-prima-guerra-mondiale-secondo-konstantinos-xi-4c1cbc7c/",
+          "id": "item-193913ef6b58",
+          "title": "\"La notte dei generali\"",
+          "path": "/works/la-notte-dei-generali-5c5438c7/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4c1cbc7cd2a3",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Olanda_nella_WWI_Konst.htm",
-              "timestamp": "20200129154030",
+              "documentId": "doc-5c5438c7af58",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Tony/generali.htm",
+              "timestamp": "20230921142629",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "4dbae8f9931f2a20ed078142f1d6b3549115df44b2ba84c5e712aa8c532b21f1",
-              "localReviewPath": "/review/source/doc-4c1cbc7cd2a3/"
+              "sha256": "184c28add2c228b67d8f661b45b583f328654036e754b05f1142968ffb0a0992",
+              "localReviewPath": "/review/source/doc-5c5438c7af58/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4c6a08826c13",
+      "proposalId": "proposal-doc-5d0a50a8e0f2",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-4c6a08826c13",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-5d0a50a8e0f2",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Carausio, primo re della Britannia romana di Spartac Alla fine del III secolo d.C. l'usurpatore Carausio viene volutamente \"dimenticato\" da Diocleziano e Massimiano in Britannia. Il tentativo di Allecto di eliminarlo con",
+      "quote": "La Romania potenza locale! di Maggioriano In questa ucronia il Regno di Romania diventa una potenza locale inglobando la Moldavia e gran parte dell'Ucraina. Come riuscirebbe un exploit simile? Innanzitutto i Russi Bianch",
       "items": [
         {
-          "id": "item-e13e175d0f74",
-          "title": "Carausio, primo re della Britannia romana",
-          "path": "/works/carausio-primo-re-della-britannia-romana-4c6a0882/",
+          "id": "item-82d5ba8b6c2c",
+          "title": "La Romania potenza locale",
+          "path": "/works/la-romania-potenza-locale-5d0a50a8/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4c6a08826c13",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Carausio.htm",
-              "timestamp": "20200130021043",
+              "documentId": "doc-5d0a50a8e0f2",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Romania.htm",
+              "timestamp": "20200130144059",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "7267853d0bc560fbd48a4db442f1e4bc1324e112bbd510f3efbff58e03e43d9c",
-              "localReviewPath": "/review/source/doc-4c6a08826c13/"
+              "sha256": "f449b4fefc7793cb53d103d2bf0a84b7810c8c88d18f5f3874a9d201a5e90b77",
+              "localReviewPath": "/review/source/doc-5d0a50a8e0f2/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4cb4df587203",
+      "proposalId": "proposal-doc-5d5d027d44ac",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4cb4df587203",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-5d5d027d44ac",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Maria Teresa e Luigi XV Tutto è partito da questa proposta di Bhrghowidhon,: « Noi Carlo Francesco Giuseppe Venceslao Baldassarre Giovanni Antonio Ignazio d'Asburgo, col Favore della Divina Clemenza Eletto Carlo VI. Impe",
+      "quote": "Benito socialista, Italia comunista! ovvero: il Biennio Rosso di Homer Ho sempre pensato con un certo interesse ad un Mussolini ancora socialista prima della Grande Guerra (come del resto era, e pure direttore dell'Avant",
       "items": [
         {
-          "id": "item-be598e26aa0e",
-          "title": "Maria Teresa e Luigi XV",
-          "path": "/works/maria-teresa-e-luigi-xv-4cb4df58/",
+          "id": "item-9d130498aa28",
+          "title": "Benito socialista, Italia comunista!",
+          "path": "/works/benito-socialista-italia-comunista-5d5d027d/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4cb4df587203",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/Maria_Teresa_e_Luigi_XV.htm",
+              "documentId": "doc-5d5d027d44ac",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Benito_socialista.htm",
+              "timestamp": "20200129154809",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "fc4d7bddaaa58eb82e992051cf3f28b1a579e403293f628385f39bd7f0f499b4",
-              "localReviewPath": "/review/source/doc-4cb4df587203/"
+              "sha256": "7322dadec6e5e97af6233c64d016c0e0492e06ac9fb16e041af7a6247b56a2ac",
+              "localReviewPath": "/review/source/doc-5d5d027d44ac/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4cc1a0c26b91",
+      "proposalId": "proposal-doc-5d65812329e7",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4cc1a0c26b91",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-5d65812329e7",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Nerón se convierte al cristianismo de William Riker Año 54 d.C., Agripina Menor hace envenenar a su marido Claudio con los famosos hongos trifolati, no precisamente comestibles, por temor a que éste nombrara sucesor a su",
+      "quote": "Il Sangue di Tolomeo di Tommaso Mazzoni Quella che segue è una breve historia dei sovrani d'egitto, in una Timeline dove Cleopatra e Antonio persuadono Ottaviano a lasciarli in pace. . Cleopatra VII (51 a.C-15 a.C)-Tolom",
       "items": [
         {
-          "id": "item-16a1b0e42b38",
-          "title": "Nerón se convierte al cristianismo",
-          "path": "/works/neron-se-convierte-al-cristianismo-4cc1a0c2/",
+          "id": "item-84866260b546",
+          "title": "Il Sangue di Tolomeo",
+          "path": "/works/il-sangue-di-tolomeo-5d658123/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4cc1a0c26b91",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Ucroniasenespanol/Neron.htm",
-              "timestamp": "20230329231056",
+              "documentId": "doc-5d65812329e7",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Sangue_di_Tolomeo.htm",
+              "timestamp": "20170726110818",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "14098106971431ed1545f8cec0d41e821a216642d495de7f9adbbeb56190c3b0",
-              "localReviewPath": "/review/source/doc-4cc1a0c26b91/"
+              "sha256": "51a2ecab159d137a179d4020ba6a92ce909e95ccc46ac60560d82425f6566c08",
+              "localReviewPath": "/review/source/doc-5d65812329e7/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4d34cd15441d",
+      "proposalId": "proposal-doc-5daaa549ba40",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4d34cd15441d",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-5daaa549ba40",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Morire per Kiev? di Mattiopolis Ecco una nuova ucronia ispirata alla Terza Guerra Mondiale, opera di Mattiopolis, che per questa ucronia si è basato sull'ipotesi di una guerra civile in Ucraina tra sostenitori di Unione",
+      "quote": "Nelle mani di Nelson di Enrico Pellerito Di POD relativi a Napoleone è pieno il mondo delle ucronie, e quelle progettate e pubblicate sul nostro sito non sono di meno rispetto quanto ideato dai più prestigiosi autori fan",
       "items": [
         {
-          "id": "item-5519bb080909",
-          "title": "Morire per Kiev?",
-          "path": "/works/morire-per-kiev-4d34cd15/",
+          "id": "item-0c090260efbc",
+          "title": "Napoleone in Irlanda",
+          "path": "/works/napoleone-in-irlanda-5daaa549/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4d34cd15441d",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_WWIII_4.htm",
+              "documentId": "doc-5daaa549ba40",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Napoleone_in_Irlanda.htm",
+              "timestamp": "20160805130115",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "797606422397f407a7b9739ff310a146c00442791080d3b87032bf36f0ec2bd3",
-              "localReviewPath": "/review/source/doc-4d34cd15441d/"
+              "sha256": "e60421f6a4252873e3ee2baeb69261c1aaacd2d97ce9f4cddbad66c548ef8064",
+              "localReviewPath": "/review/source/doc-5daaa549ba40/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4d4f753d7a45",
+      "proposalId": "proposal-doc-5de2542a41b3",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4d4f753d7a45",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-5de2542a41b3",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Senza Rivoluzione... di Perché No? La rivoluzione francese, che sia definita in modo stretto (1789-1815), largo (1789-1875) o internazionale (la rivoluzione atlantica 1770-1850) é stato l'evento maggiore degli ultimi 500",
+      "quote": "Il trionfo della Celticità Di seguito alla discussione tra *Bhrg'hówidhHô(n-) e Bhrig sulla vittoria di Spartaco, è nata un'altra interessante discussione sul tema della continuazione della Celticità fino al presente, in",
       "items": [
         {
-          "id": "item-a3f9b8933f8e",
-          "title": "Senza Rivoluzione...",
-          "path": "/works/senza-rivoluzione-4d4f753d/",
+          "id": "item-910ae0a72c2b",
+          "title": "Il trionfo della Celticità",
+          "path": "/works/il-trionfo-della-celticita-5de2542a/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4d4f753d7a45",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/senza_Rivoluzione_Francese.htm",
-              "timestamp": "20211016061301",
+              "documentId": "doc-5de2542a41b3",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Celticita.htm",
+              "timestamp": "20261016101306",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "874217948350262fb310ed341dbb2cd0c6b00cdbd00028385468e472bb1a0e92",
-              "localReviewPath": "/review/source/doc-4d4f753d7a45/"
+              "sha256": "64f2115a81bb6e642eaadfad8db0c91e12e965d46dbcc5192f08aba043f7bdfc",
+              "localReviewPath": "/review/source/doc-5de2542a41b3/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4dacc4ccd68a",
+      "proposalId": "proposal-doc-5e1bed75d732",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4dacc4ccd68a",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-5e1bed75d732",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "IL VENTENNIO DELLE SCORRERIE (1043 - 1066 aUc = 290 - 313 d.C.) Il ventennio nero E' inutile dire che, spesso, le popolazioni latine e celtiche percepiscono l'arrivo dei popoli trasferiti come delle vere e proprie scorre",
+      "quote": "Il poema di Gilgamesh Prologo Proclamerò alle genti l’alte imprese di Gilgamesh, colui che tutto vide, ogni cosa conobbe e investigò, colui che tutto vide sino agli ultimi margini della Terra, lui che ricco di sapienza e",
       "items": [
         {
-          "id": "item-cbba924c438f",
-          "title": "Il ventennio delle scorrerie",
-          "path": "/works/il-ventennio-delle-scorrerie-4dacc4cc/",
+          "id": "item-9fb476b42914",
+          "title": "Il poema di Gilgamesh",
+          "path": "/works/il-poema-di-gilgamesh-5e1bed75/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4dacc4ccd68a",
-              "url": "http://www.fmboschetto.it/racconti/iperimpero/iperimp4.htm",
+              "documentId": "doc-5e1bed75d732",
+              "url": "http://www.fmboschetto.it/racconti/Poema_di_Gilgamesh.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "7538aa834a94c67f7e8fa7a9360b0c1b6004ad18ddb0ffc01d89e5f68fe6668d",
-              "localReviewPath": "/review/source/doc-4dacc4ccd68a/"
+              "sha256": "2b0a746ee6186721430bf84e0f3c24269511718195f87348fa109539fb0c1f07",
+              "localReviewPath": "/review/source/doc-5e1bed75d732/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4e4b46c30cf0",
+      "proposalId": "proposal-doc-5edc26278992",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4e4b46c30cf0",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-5edc26278992",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "I Regni Uniti d'America di Tommaso Mazzoni P.o.D.: Ce ne sono svariati, ma il più importante è questo: le 13 Colonie sono organizzate come 13 Ducati, ciascuno con un Duca ereditario e non un governatore nominato dal Re.",
+      "quote": "Pythéas le menteur La découverte de l’Amérique par un navigateur grec de Porquoi pas? Deuxième époque Troisème époque : Moyen-âge II VIII- La naissance du royaume saxon du Vinland : 1066 : mort d’Edouard II le confesseur",
       "items": [
         {
-          "id": "item-e4804d96ae1f",
-          "title": "United Kingdoms of America",
-          "path": "/works/united-kingdoms-of-america-4e4b46c3/",
+          "id": "item-18dde3fe3c56",
+          "title": "[uchronìe] Pythéas le menteur",
+          "path": "/works/uchronie-pytheas-le-menteur-5edc2627/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4e4b46c30cf0",
-              "url": "http://www.fmboschetto.it/utopiaucronia/UKA.htm",
-              "timestamp": "20221031084652",
+              "documentId": "doc-5edc26278992",
+              "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Pytheas_le_menteur_3.htm",
+              "timestamp": "20240422213418",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "f5727b6d54e74c5677e85bb155485d8c499dfe4953fb10e9fe8b064205b77e3e",
-              "localReviewPath": "/review/source/doc-4e4b46c30cf0/"
+              "sha256": "622fc4dfaf164f9901b31835c18d5c8520ee24ea7e92ad4aa32b7d5d93de5fba",
+              "localReviewPath": "/review/source/doc-5edc26278992/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4e5c3599cbfe",
+      "proposalId": "proposal-doc-5f39ca39f209",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4e5c3599cbfe",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-5f39ca39f209",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Adelchi 1989 di Francesco Dessolis Ho provato per scherzo a riscrivere il famoso coro dell'Adelchi, ambientandolo in un universo ucronico in cui l'Italia nel secondo dopoguerra è stata occupata dai sovietici, che ne hann",
+      "quote": "TENKA FÛBÛ! (ovvero il Giappone degli Oda) di Perchè No? Il Mon degli Oda dedicata a mia figlia Selena Estratti del rapporto scritto dal gesuita Luis Frois ai suoi superiori sulla situazione del Giappone nel 1582. « ...D",
       "items": [
         {
-          "id": "item-dcaf3552b76f",
-          "title": "Il viaggio di Daniel",
-          "path": "/works/il-viaggio-di-daniel-4e5c3599/",
+          "id": "item-a69952c06925",
+          "title": "Tenka Fûbû (il Giappone degli Oda)",
+          "path": "/works/tenka-fubu-il-giappone-degli-oda-5f39ca39/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4e5c3599cbfe",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_Daniel.htm",
-              "timestamp": "20250418232133",
+              "documentId": "doc-5f39ca39f209",
+              "url": "https://www.fmboschetto.it/utopiaucronia/Tenka_Fubu.htm",
+              "timestamp": "20250415033251",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "e9337cd7eb90b9b14157c44cd2641c43dc86b7a4d0178edeeb44b5c31e06c277",
-              "localReviewPath": "/review/source/doc-4e5c3599cbfe/"
+              "sha256": "ab7385d3572b17be81debcafe45a4574b71e654854cf7cef7d911caca28ab338",
+              "localReviewPath": "/review/source/doc-5f39ca39f209/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-4ff69c6c8e6a",
+      "proposalId": "proposal-doc-5f5d7fc5ee44",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-4ff69c6c8e6a",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-5f5d7fc5ee44",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "L'Atlantonesia di William Riker in memoria di Enrica Soldavini Ispirandosi alla vignetta soprastante e a questo sito, William Riker è stato affascinato dall'idea di una cintura di isole tra Vecchio e Nuovo Mondo attraver",
+      "quote": "Cosa vogliono le donne Un giorno, il giovane re Artù fu catturato ed imprigionato dal sovrano di un regno vicino. Mosso a compassione dalla gioia di vivere del giovane, anziché ucciderlo, il sovrano gli offrì la libertà,",
       "items": [
         {
-          "id": "item-0ee56beedb61",
-          "title": "La Macaronesia punica",
-          "path": "/works/la-macaronesia-punica-4ff69c6c/",
+          "id": "item-d01658d9c38d",
+          "title": "Cosa vogliono le donne",
+          "path": "/works/cosa-vogliono-le-donne-5f5d7fc5/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-4ff69c6c8e6a",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/Macaronesia.htm",
+              "documentId": "doc-5f5d7fc5ee44",
+              "url": "http://www.fmboschetto.it/racconti/cosa_vogliono_le_donne.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "faa9f037912315fbffc39ad137f8c00610a98488ac20ece1d4ce54a4477a47bd",
-              "localReviewPath": "/review/source/doc-4ff69c6c8e6a/"
+              "sha256": "230cb63f2b11af8ef1ace4fd5640f43b1810a58b73742efd21721bfd9f4bfb8c",
+              "localReviewPath": "/review/source/doc-5f5d7fc5ee44/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-50935a938b32",
+      "proposalId": "proposal-doc-5fd65a37f724",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-50935a938b32",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-5fd65a37f724",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Rodolfo III d'Asburgo Lo sceneggiato dedicato da Rai Uno alla vicenda dello sfortunato Arciduca Rodolfo d'Asburgo ha ispirato al nostro Webmaster William Riker la seguente ucronia. Il 10 maggio 1881 Rodolfo d'Asburgo-Lor",
+      "quote": "Cabo Verde 1944 un cuento de Sandro Degiani Soñaba con estar tendido en la playa de Crotone, el mar lo acunaba con el rumor de las olas y de la resaca sobre la arena; un dulce rumor de enjuagues y de piedras que rodaban.",
       "items": [
         {
-          "id": "item-fd31651b7da7",
-          "title": "Rodolfo III d'Asburgo",
-          "path": "/works/rodolfo-iii-d-asburgo-50935a93/",
+          "id": "item-6d551703f966",
+          "title": "Cabo Verde 1944",
+          "path": "/works/cabo-verde-1944-5fd65a37/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-50935a938b32",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Rodolfo_III.htm",
-              "timestamp": "20200129153654",
+              "documentId": "doc-5fd65a37f724",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Cabo_Verde_1944.htm",
+              "timestamp": "20230329224034",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "9f6f0b4cd1e4cfd8ea631076ff5989e851a25397863d9b87f6fa5139d54384dd",
-              "localReviewPath": "/review/source/doc-50935a938b32/"
+              "sha256": "6cca966f496dd7a27f791a269af4a8b53641e2ef13a5edaa2a0e1ba88e455086",
+              "localReviewPath": "/review/source/doc-5fd65a37f724/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-51364162cace",
+      "proposalId": "proposal-doc-607a387f85ae",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-51364162cace",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-607a387f85ae",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "718, Costantinopoli cade di Falecius e *Bhrg'howidhHô(n-) Ad aprire questa discussione è stato Falecius: Riprendo una mia vecchia idea su Costantinopoli e gli Arabi. nell'ultimo assedio della città (718) le forze Umayyad",
+      "quote": "Il dono dell'oggi Due uomini, entrambi molto malati, occupavano la stessa stanza d'ospedale. A uno dei due uomini era permesso mettersi seduto sul letto per un ora ogni pomeriggio per aiutare il drenaggio dei fluidi dal",
       "items": [
         {
-          "id": "item-b890c61caee5",
-          "title": "718, Costantinopoli cade",
-          "path": "/works/718-costantinopoli-cade-51364162/",
+          "id": "item-b31fcae21c43",
+          "title": "Il dono dell'oggi",
+          "path": "/works/il-dono-dell-oggi-607a387f/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-51364162cace",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/Costantinopoli_cade.htm",
-              "timestamp": "20160614084210",
+              "documentId": "doc-607a387f85ae",
+              "url": "http://www.fmboschetto.it/racconti/il_dono_dell_oggi.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "62dc80a80b2e56328aeaa7bedb0f7e81f63819334de5ebf09caa0547b24a42a1",
-              "localReviewPath": "/review/source/doc-51364162cace/"
+              "sha256": "27d14c79ddd5ca06e7ef6c9711d9db55dc948aa02e29ac8b6dddfaf982ef7526",
+              "localReviewPath": "/review/source/doc-607a387f85ae/"
             }
           ]
         }
