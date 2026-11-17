@@ -486,6 +486,10 @@ async function convertPage(page: Page): Promise<{
     for (const entry of structured?.outline ?? [])
       outline.push({
         ...entry,
+        // A contribution signed only with an address: the outline, like the
+        // body, never carries it.
+        label: redact(entry.label),
+        ...(entry.author ? { author: redact(entry.author) } : {}),
         id: `${part.prefix}${entry.id}`,
         depth: entry.depth + (part.prefix ? 1 : 0),
         ...(entry.replyTo ? { replyTo: `${part.prefix}${entry.replyTo}` } : {}),
