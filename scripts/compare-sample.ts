@@ -120,7 +120,9 @@ for (const c of conversions) {
       : undefined;
     if (parsed)
       same(
-        normalize(parsed.blocks.map((b) => b.text).join("")),
+        // Blocks are separate paragraphs: a space keeps word boundaries for
+        // email redaction ("…@x.it" + "P.S." must not read as "x.itP").
+        normalize(parsed.blocks.map((b) => b.text).join(" ")),
         originalText,
         `Parser coverage: ${c.slug}`,
       );
@@ -138,7 +140,7 @@ for (const c of conversions) {
             parsed.blocks
               .filter((b) => !parsed.removed.has(b))
               .map((b) => b.text)
-              .join(""),
+              .join(" "),
           )
         : originalText,
     );
