@@ -60,53 +60,68 @@ if (root) {
     const data = await Promise.all(batch.map((result) => result.data()));
     if (current !== revision) return;
     for (const result of data) {
-      const target = new URL(result.url, location.origin);
+      // A period-table page yields one hit per matching prompt (its row).
       const prompt = result.meta.kind === "prompt";
-      if (
-        target.origin !== location.origin ||
-        !(prompt
-          ? /^\/(?:en\/)?divergences\/period\/[a-z0-9-]+\/(?:\d+\/)?$/.test(
-              target.pathname,
-            ) && /^#item-[a-f0-9]+$/.test(target.hash)
-          : /^\/(?:en\/)?(?:works|divergences)\/[a-z0-9-]+\/$/.test(
-              target.pathname,
-            ))
-      )
-        continue;
-      const li = document.createElement("li"),
-        heading = document.createElement("h2"),
-        link = document.createElement("a"),
-        p = document.createElement("p");
-      link.href = target.pathname + (prompt ? target.hash : "");
-      link.textContent = result.meta.title;
-      heading.append(link);
-      let where;
-      if (prompt) {
-        where = document.createElement("p");
-        where.className = "search-result-meta";
-        where.textContent = labels.promptIn.replace(
-          "{period}",
-          result.meta.period ?? "",
-        );
-        if (result.meta.authors)
-          where.textContent += ` · ${result.meta.authors}`;
-      }
-      p.lang = result.meta.language || "";
-      p.append(excerpt(result.excerpt));
-      li.append(heading, ...(where ? [where] : []), p);
-      if (result.meta.source) {
-        const source = new URL(result.meta.source, location.origin);
+      const hits = prompt
+        ? (result.sub_results ?? []).map((sub) => ({
+            url: sub.url,
+            title: sub.title,
+            excerpt: sub.excerpt,
+          }))
+        : [
+            {
+              url: result.url,
+              title: result.meta.title,
+              excerpt: result.excerpt,
+            },
+          ];
+      for (const hit of hits) {
+        const target = new URL(hit.url, location.origin);
         if (
-          source.origin === location.origin &&
-          /^\/(?:en\/)?sources\/doc-[a-f0-9]+\/$/.test(source.pathname)
-        ) {
-          const a = document.createElement("a");
-          a.href = source.pathname;
-          a.textContent = root.dataset.searchSourceLabel;
-          li.append(a);
+          target.origin !== location.origin ||
+          !(prompt
+            ? /^\/(?:en\/)?divergences\/period\/[a-z0-9-]+\/(?:\d+\/)?$/.test(
+                target.pathname,
+              ) && /^#item-[a-f0-9]+$/.test(target.hash)
+            : /^\/(?:en\/)?(?:works|divergences)\/[a-z0-9-]+\/$/.test(
+                target.pathname,
+              ))
+        )
+          continue;
+        const li = document.createElement("li"),
+          heading = document.createElement("h2"),
+          link = document.createElement("a"),
+          p = document.createElement("p");
+        link.href = target.pathname + (prompt ? target.hash : "");
+        link.textContent = hit.title;
+        heading.append(link);
+        li.append(heading);
+        if (prompt) {
+          const where = document.createElement("p");
+          where.className = "search-result-meta";
+          where.textContent = labels.promptIn.replace(
+            "{period}",
+            result.meta.period ?? "",
+          );
+          li.append(where);
         }
+        p.lang = prompt ? "" : result.meta.language || "";
+        p.append(excerpt(hit.excerpt));
+        li.append(p);
+        if (!prompt && result.meta.source) {
+          const source = new URL(result.meta.source, location.origin);
+          if (
+            source.origin === location.origin &&
+            /^\/(?:en\/)?sources\/doc-[a-f0-9]+\/$/.test(source.pathname)
+          ) {
+            const a = document.createElement("a");
+            a.href = source.pathname;
+            a.textContent = root.dataset.searchSourceLabel;
+            li.append(a);
+          }
+        }
+        list.append(li);
       }
-      list.append(li);
     }
     shown += batch.length;
     more.hidden = shown >= results.length;
@@ -128,17 +143,34 @@ if (root) {
     list.setAttribute("aria-busy", "true");
     try {
       const api = await load();
-      const filters = {};
-      if (language.value) filters.language = language.value;
-      if (kind.value) filters.kind = kind.value;
-      const response = await api.search(query, { filters });
+      // Works and prompt pages are counted apart: a prompt result is a
+      // period-table page holding one or more matching prompts.
+      const kinds = kind.value ? [kind.value] : ["work", "prompt"];
+      const responses = await Promise.all(
+        kinds.map((k) =>
+          api.search(query, {
+            filters: {
+              kind: k,
+              ...(language.value ? { language: language.value } : {}),
+            },
+          }),
+        ),
+      );
       if (current !== revision) return;
-      results = response.results;
-      status.textContent = results.length
-        ? results.length === 1
-          ? labels.one
-          : labels.count.replace("{count}", results.length)
-        : labels.empty;
+      results = responses.flatMap((response) => response.results);
+      const counts = Object.fromEntries(
+        kinds.map((k, i) => [k, responses[i].results.length]),
+      );
+      const parts = [];
+      if (counts.work)
+        parts.push(
+          counts.work === 1
+            ? labels.one
+            : labels.count.replace("{count}", counts.work),
+        );
+      if (counts.prompt)
+        parts.push(labels.promptPages.replace("{count}", counts.prompt));
+      status.textContent = parts.length ? parts.join(" · ") : labels.empty;
       await append(current);
     } catch {
       if (current === revision) {

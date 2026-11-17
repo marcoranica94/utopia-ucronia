@@ -58,25 +58,31 @@ for (const lang of ["it", "en"] as const) {
         .join(" "),
     });
   }
+  // One record per period-table page (not per prompt: Cloudflare's free plan
+  // caps a site at 20,000 files). Each prompt is a heading with its row id,
+  // so Pagefind returns it as a sub-result pointing at that row.
   let prompts = 0;
+  let promptPages = 0;
+  const escapeHtml = (text: string) =>
+    text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
   for (const group of browse.promptGroups) {
     const rows = browse.prompts.filter((prompt) => prompt.group === group.id);
-    for (const [row, prompt] of rows.entries()) {
-      const page = Math.floor(row / pageSize) + 1;
-      const result = await index.addCustomRecord({
-        url: `${lang === "en" ? "/en" : ""}${periodPath("prompts", group.id, page)}#${prompt.id}`,
-        content: `${prompt.title}\n${prompt.body}`,
-        language: lang,
-        meta: {
-          title: prompt.title,
-          kind: "prompt",
-          period: group.title[lang],
-          authors: prompt.authors.join(", "),
-        },
-        filters: { kind: ["prompt"] },
+    for (let start = 0; start < rows.length; start += pageSize) {
+      const page = start / pageSize + 1;
+      const slice = rows.slice(start, start + pageSize);
+      const html = `<!doctype html><html lang="${lang}"><head><title>${escapeHtml(group.title[lang])}</title></head><body><main data-pagefind-body><span data-pagefind-meta="kind:prompt" data-pagefind-filter="kind:prompt"></span><span data-pagefind-meta="title">${escapeHtml(group.title[lang])}</span><span data-pagefind-meta="period">${escapeHtml(group.title[lang])}</span>${slice
+        .map(
+          (prompt) =>
+            `<h2 id="${prompt.id}">${escapeHtml(prompt.title)}</h2><p>${escapeHtml(prompt.body)}</p>`,
+        )
+        .join("")}</main></body></html>`;
+      const result = await index.addHTMLFile({
+        url: `${lang === "en" ? "/en" : ""}${periodPath("prompts", group.id, page)}`,
+        content: html,
       });
       assert.ok(!result.errors?.length, JSON.stringify(result.errors));
-      prompts++;
+      prompts += slice.length;
+      promptPages++;
     }
   }
   assert.equal(prompts, browse.prompts.length, "Every prompt is searchable");
@@ -88,13 +94,13 @@ for (const lang of ["it", "en"] as const) {
   await rm(`public/pagefind/${lang}`, { recursive: true, force: true });
   await cp(output, `public/pagefind/${lang}`, { recursive: true });
   await index.deleteIndex();
-  reports.push({ lang, count: entries.length, prompts, entries });
+  reports.push({ lang, count: entries.length, prompts, promptPages, entries });
 }
 await pagefind.close();
 await writeJson("reports/search-index.json", {
   passed: true,
   indexed:
-    "Published reading texts, plus every Lista prompt as a record pointing at its row in the period table; source copies, compatibility previews and review data excluded",
+    "Published reading texts, plus every Lista prompt as a sub-result of its period-table page pointing at its row; source copies, compatibility previews and review data excluded",
   indexes: reports,
 });
 console.log(

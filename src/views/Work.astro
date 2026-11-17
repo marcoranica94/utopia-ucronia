@@ -13,8 +13,6 @@ import "../styles/reading.css";
 interface Props {
   work: CollectionEntry<"works">;
   lang: Lang;
-  /** Retained for links to the earlier comparison routes. */
-  direction?: "a" | "b";
 }
 const { work, lang } = Astro.props;
 const t = useTranslations(lang);

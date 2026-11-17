@@ -12,9 +12,16 @@ const { lang } = Astro.props;
 const t = useTranslations(lang);
 const readingCount = (await getCollection("works")).length;
 const labels = Object.fromEntries(
-  ["loading", "empty", "error", "count", "one", "hint", "promptIn"].map(
-    (key) => [key, t(`search.${key}` as Parameters<typeof t>[0])],
-  ),
+  [
+    "loading",
+    "empty",
+    "error",
+    "count",
+    "one",
+    "hint",
+    "promptIn",
+    "promptPages",
+  ].map((key) => [key, t(`search.${key}` as Parameters<typeof t>[0])]),
 );
 ---
 <Base title={t("search.title")} lang={lang}>
