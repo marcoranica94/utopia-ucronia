@@ -45,6 +45,15 @@ test("an id repeated across separately converted blocks keeps the first", () => 
   assert.match(first, /id="Lorenzo"/);
   assert.equal(later, "di <span>Lorenzo</span> <b>x</b>");
 });
+test("a paragraph number alone on its line stays text, not an empty list", () => {
+  const r = convertHtml(
+    "<html><body><p>fine.</p><p>88.</p><p>3)</p><p>12. In 1801</p></body></html>",
+    () => "/gaps/",
+  );
+  assert.match(r.markdown, /^88\\\.$/m);
+  assert.match(r.markdown, /^3\\\)$/m);
+  assert.match(r.markdown, /^12\\\. In 1801$/m);
+});
 test("keeps the text swallowed by an unclosed FrontPage form", () => {
   const r = convertHtml(
     '<html><body><form><input value="vecchio controllo"><h1>Titolo</h1><p>Una storia da conservare.</p></body></html>',

@@ -191,10 +191,11 @@ export function convertHtml(
   td.keep(["table", "sup", "sub", "u", "span", "em", "i", "strong", "b"]);
   // FrontPage uses hand-typed numbering: do not turn it into new lists.
   const escapeMarkdown = td.escape.bind(td);
+  // "88." or "3)" alone on a line would otherwise be an empty list item.
   td.escape = (text) =>
     escapeMarkdown(
       text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"),
-    ).replace(/^(\s*\d+)\)(?=\s)/gm, "$1\\)");
+    ).replace(/^(\s*\d+)([.)])(?=\s|$)/gm, "$1\\$2");
   // Retain source display dimensions; Turndown's image rule drops them.
   td.addRule("sourceIllustrations", {
     filter: "img",

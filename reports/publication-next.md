@@ -2,402 +2,402 @@
 
 Read-only proposals for owner review. No approval or publication selection has been recorded. Review links open on the local development server after `pnpm dev`; they are absent from the deployed site.
 
-## 1. L'impero di Andalusia
+## 1. Taiping Tian Guo
 
-Proposal: `proposal-doc-67ff292787cc` · action: `work`
+Proposal: `proposal-doc-76f661d56a80` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-67ff292787cc)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-76f661d56a80)
 
-> L'impero di Andalusia di Lord Wilmore NON PLUS ULTRA POD: Il re dei Visigoti Alarico, della dinastia dei Balti, dopo aver saccheggiato Roma, intendeva spostarsi in Africa attraversando l'Italia meridionale. Fermatosi a s
+> Taiping Tian Guo di Perchè No? Bandiera Taiping (da questo sito) Nel 1837 un giovane cinese chiamato Hong Xiuquan fallisce per la terza volta gli esami per entrare nell'amministrazione imperiale, ne risulta una profonda
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/l-impero-di-andalusia-67ff2927/` · composition: `single`
+Target: `/works/taiping-tian-guo-76f661d5/` · composition: `single`
 
-[Full source for local review](/review/source/doc-67ff292787cc/)
+[Full source for local review](/review/source/doc-76f661d56a80/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Andalusia.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Taiping\_Tian\_Guo.htm
 
-SHA-256: `9ca3e5589f29460ab5775455cbf1196e47563dfe593f105c4f57214e92b6b715`
+SHA-256: `e946bb241899d69d9ea07e5f5454e6963c7112cf9cefdc32df3a38a01a10d4aa`
 
 Selection: `{"kind":"whole"}`
 
-## 2. Il nonno della patria
+## 2. La guerra del '96
 
-Proposal: `proposal-doc-6828e6f8806f` · action: `work`
+Proposal: `proposal-doc-777c2a0d9448` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-6828e6f8806f)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-777c2a0d9448)
 
-> Il nonno della patria A cominciare la discussione è Leandro Sanfilippo: Vittorio Emanuele II non muore di malaria a 57 anni il 9 gennaio 1878, ma a 80 anni a Monza, il 29 luglio 1900, assassinato da Gaetano Bresci. Cosa
+> La guerra del '96 una Timeline spaziale di Ainelif . 19 agosto 1946: a Hope, in Arkansas, nasce il futuro Presidente degli Stati Uniti Thomas Jefferson Whitmore. 4 dicembre 1974: viene fondato ufficialmente il programma
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-nonno-della-patria-6828e6f8/` · composition: `single`
+Target: `/works/la-guerra-del-96-777c2a0d/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6828e6f8806f/)
+[Full source for local review](/review/source/doc-777c2a0d9448/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/nonno\_della\_patria.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Colonie.htm
 
-SHA-256: `aca7d4e7eb2d9ac5037183c6b1e2befe74d749135c49c2ed566a1e9f4cb26a26`
+SHA-256: `8cb075b1acd6add255c1e63c7f53747faf77f720507635e4128b5250b97371c3`
 
 Selection: `{"kind":"whole"}`
 
-## 3. Partecipare subito (e perdere lo stesso)
+## 3. La divisione che ha cambiato la storia
 
-Proposal: `proposal-doc-685c4bcbbf38` · action: `work`
+Proposal: `proposal-doc-778be1c6df69` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-685c4bcbbf38)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-778be1c6df69)
 
-> Partecipare subito (e perdere lo stesso) di Enrico Pellerito POD: L'Italia entra in guerra nel settembre del 1939. Il "Patto d'Acciaio" non era veramente tale dal punto di vista diplomatico; vero è che le due nazioni si
+> La divisione che ha cambiato la storia di Konstantinos XI Anche se si suppone a ragione che Carlo V stesse già da tempo meditando sulla sua successione, è all'epoca del Trattato di Passau che si fa risalire la decisione
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/partecipare-subito-e-perdere-lo-stesso-685c4bcb/` · composition: `single`
+Target: `/works/la-divisione-che-ha-cambiato-la-storia-778be1c6/` · composition: `single`
 
-[Full source for local review](/review/source/doc-685c4bcbbf38/)
+[Full source for local review](/review/source/doc-778be1c6df69/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Malta\_italica.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/fanta\_Filippo\_II.htm
 
-SHA-256: `fd529a1cdf3ad288172e3858803dd6e2fee2f658bd59a383e5eaab677aa13ceb`
+SHA-256: `3dad17c38416a0c46c281fbb36010f816d55069e72734b804b247a45d50b2df3`
 
 Selection: `{"kind":"whole"}`
 
-## 4. La Grande Muraglia Romana
+## 4. Il raggio della morte
 
-Proposal: `proposal-doc-685eb614cba2` · action: `work`
+Proposal: `proposal-doc-77bcdc1fcedb` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-685eb614cba2)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-77bcdc1fcedb)
 
-> La Grande Muraglia Romana, settima parte di William Riker Concludiamo con la settima ed ultima parte dell'ucronia che prevede un Grande Vallo eretto dai Romani per proteggere il loro confine occidentale, i cui effetti so
+> Il raggio della morte Inizia la discussione William Riker immaginando quest'ucronia un po' fantastica: Nella sua autobiografia Rachele Mussolini, moglie del Duce, racconta che una volta, nel 1937, il convoglio di macchin
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-grande-muraglia-romana-685eb614/` · composition: `single`
+Target: `/works/il-raggio-della-morte-77bcdc1f/` · composition: `single`
 
-[Full source for local review](/review/source/doc-685eb614cba2/)
+[Full source for local review](/review/source/doc-77bcdc1fcedb/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Grande\_Muraglia\_Romana\_7.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/raggiodellamorte.htm
 
-SHA-256: `9644cbf1af0065d84bd1d68a4c7a45d4f18af6cf498a39d5c4c3e21f8876c29d`
+SHA-256: `fe5507044d67a4157b6b8dc731320b52d32869784409fb6799d356234043be6f`
 
 Selection: `{"kind":"whole"}`
 
-## 5. Il peso della preghiera
+## 5. Battaglia per l'Italia
 
-Proposal: `proposal-doc-68b6c4d44dd4` · action: `work`
+Proposal: `proposal-doc-78131aa5a0bb` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-68b6c4d44dd4)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-78131aa5a0bb)
 
-> Il peso della preghiera Roma, 1946. Una donna, vestita poveramente, con il volto triste, entrò in un negozio, si avvicinò al padrone e umilmente gli chiese se poteva prendere alcuni alimenti a credito. Con delicatezza gl
+> Battaglia per l'Italia di Fabio Oceano Cari lettori ed amici di Utopiaucronia, sono un appassionato di ucronie e scenari futuribili col vezzo di scrivere racconti e qualche volta interi romanzi, cercando di dare una form
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-peso-della-preghiera-68b6c4d4/` · composition: `single`
+Target: `/works/battaglia-per-l-italia-78131aa5/` · composition: `single`
 
-[Full source for local review](/review/source/doc-68b6c4d44dd4/)
+[Full source for local review](/review/source/doc-78131aa5a0bb/)
 
-Source: http://www.fmboschetto.it/racconti/peso\_della\_preghiera.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Battaglia\_per\_l\_Italia.htm
 
-SHA-256: `05ace8b9210aaf5ed54c1cc6599894d50ad50dc85fa90e68b9ddc149eec92750`
+SHA-256: `f76d12e214904d62da5383164e8e690707bd68fbdf5433680ea9a23ab740072f`
 
 Selection: `{"kind":"whole"}`
 
-## 6. Faysal I il Grande
+## 6. L'Impero Romano... Italiano!
 
-Proposal: `proposal-doc-68d1800d4298` · action: `work`
+Proposal: `proposal-doc-7813d2d7e545` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-68d1800d4298)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-7813d2d7e545)
 
-> Faysal I il Grande di Paolo Giusti e Tommaso Mazzoni Tutto parte dall'idea di Generalissimus: La Grande Rivoluzione Siriana ha successo, i Francesi abbandonano il paese e nel 1928 si ha la ricostituzione del Regno Arabo
+> L'Impero Romano... Italiano! Ecco a voi un'altra delle nostre ucronie, partita stavolta dalla seguente ipotesi dell'amico David169: Mi piacerebbe conoscere una vostra interpretazione su come si sarebbe potuta sviluppare
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/faysal-i-il-grande-68d1800d/` · composition: `single`
+Target: `/works/l-impero-romano-italiano-7813d2d7/` · composition: `single`
 
-[Full source for local review](/review/source/doc-68d1800d4298/)
+[Full source for local review](/review/source/doc-7813d2d7e545/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Grande\_Siria.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Impero\_Romano\_Italiano.htm
 
-SHA-256: `397fbd1ef7d2bdf43d2b0a32f818506e1bc05aca254140533b2120dbaa36dbb4`
+SHA-256: `265dfae45fa285d0bd607a70f2b57e1c3498a00cf94b9082debb869af973be92`
 
 Selection: `{"kind":"whole"}`
 
-## 7. Pasticcio in salsa longobarda
+## 7. Invincibile per davvero!
 
-Proposal: `proposal-doc-68ef21deb537` · action: `work`
+Proposal: `proposal-doc-78ddbfa46269` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-68ef21deb537)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-78ddbfa46269)
 
-> Pasticcio in salsa longobarda Re Autari in una miniatura delle Cronache di Norimberga La discussione parte da questa proposta di William Riker: Nel 588 il re longobardo Autari respinge un attacco da parte dei Franchi e,
+> Invincibile per davvero! L'input è fornito da Lord Wilmore: Contrariamente a quanto si crede di solito, l'Invincibile Armata fu sconfitta non dalle navi di Francis Drake e Charles Howard, ma dalle avverse condizioni clim
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/pasticcio-in-salsa-longobarda-68ef21de/` · composition: `single`
+Target: `/works/invincibile-per-davvero-78ddbfa4/` · composition: `single`
 
-[Full source for local review](/review/source/doc-68ef21deb537/)
+[Full source for local review](/review/source/doc-78ddbfa46269/)
 
-Source: https://www.fmboschetto.it/Utopiaucronia/pasticcio\_in\_salsa\_longobarda.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Invincibile.htm
 
-SHA-256: `a6f55b83fdc81b99eb73b22024871420f1dffe50615181c7b06fb61b0238c81c`
+SHA-256: `7078e994140dccfe512eb74bf19ae6f33d3b7600aff14d1d303d61ef23f16e18`
 
 Selection: `{"kind":"whole"}`
 
-## 8. Primavera 1940...
+## 8. La Filistiade
 
-Proposal: `proposal-doc-6971ecbabceb` · action: `work`
+Proposal: `proposal-doc-78e2729decdf` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-6971ecbabceb)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-78e2729decdf)
 
-> Primavera 1940... Ripensando agli avvenimenti drammatici della primavera 1940, tre collaboratori di questa lista, Demofilo, Mas ed Enrico Pellerito, hanno pensato a due possibili ucronie che evitino la discesa in campo d
+> ovvero: E se Omero fosse stato Ebreo? di William Riker . 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 Capitolo 1 1 O Signore degli Eserciti, ispirami a narrare del danita Sansone l'ira funesta, che infiniti a
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/primavera-1940-6971ecba/` · composition: `single`
+Target: `/works/la-filistiade-78e2729d/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6971ecbabceb/)
+[Full source for local review](/review/source/doc-78e2729decdf/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Primavera\_1940.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Filistiade.htm
 
-SHA-256: `4e99cc4690e90da3c2a1db2d9d631948e23fa959dbeb6d392ea46b3b5ab0c56f`
+SHA-256: `588ae94dbaa062425cb0351e38948b7e34f8cdded0590d897cce63d334eb0466`
 
 Selection: `{"kind":"whole"}`
 
-## 9. Ucronie «tradizionaliste » di Raffaele Minimi
+## 9. La Sardaigne française
 
-Proposal: `proposal-doc-69e17c865601` · action: `work`
+Proposal: `proposal-doc-79006f132aac` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-69e17c865601)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-79006f132aac)
 
-> Ucronie « tradizionaliste » del Marziano PREFAZIONE Fino ad ora le ucronie di cui ho in qualche modo la "Paternità" sono, per lo più, dei puri e semplici "Divertissement" e/o un modo per fare "salotto". Adesso passo ad e
+> La Sardaigne française di Never75 Una delle nostre ucronie affida, già dopo il Congresso di Vienna, Nizza e Savoia alla Francia e costringe Cavour a donare la Sardegna per ingraziarsi Napoleone III. A Never75 è venuto in
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/ucronie-tradizionaliste-di-raffaele-minimi-69e17c86/` · composition: `single`
+Target: `/works/la-sardaigne-francaise-79006f13/` · composition: `single`
 
-[Full source for local review](/review/source/doc-69e17c865601/)
+[Full source for local review](/review/source/doc-79006f132aac/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/ucronie\_reazionarie.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Sardegna\_Francese.htm
 
-SHA-256: `1fc7b6e0cb55e62bdbbad2e5af8864b14d7770d63edb5cd226e81532f174d67c`
+SHA-256: `11e2891d7328e8c1107c9390558f0759d133f87468f3512de02e3037892a06b3`
 
 Selection: `{"kind":"whole"}`
 
-## 10. Egitto e Mesopotamia scambiati di posto!
+## 10. Andra moi ennepe...
 
-Proposal: `proposal-doc-69fa6d715b98` · action: `work`
+Proposal: `proposal-doc-7a8c89ffd2c8` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-69fa6d715b98)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-7a8c89ffd2c8)
 
-> Egitto e Mesopotamia scambiati di posto! Dopo la proposta di scambio tra Italia e Francia operato da William Riker: nella sua ucronia sui Franchi in Italia, quello tra Islam ed Europa cristiana proposto da Perchè no?, qu
+> ANDRA MOI ENNEPE... All'amico Enrique Salvador Moscato Quell'uomo dal versatile intelletto narrami, o Musa, il qual, la rocca sacra di Troia messa a ferro e fuoco, a lungo errò, di molte genti vide gli usi e le città, ma
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/egitto-e-mesopotamia-scambiati-di-posto-69fa6d71/` · composition: `single`
+Target: `/works/andra-moi-ennepe-7a8c89ff/` · composition: `single`
 
-[Full source for local review](/review/source/doc-69fa6d715b98/)
+[Full source for local review](/review/source/doc-7a8c89ffd2c8/)
 
-Source: http://www.fmboschetto.it:80/UtopiaUcronia/Egitto\_Mesopotamia.htm
+Source: http://www.fmboschetto.it/racconti/andramoiennepe.htm
 
-SHA-256: `41bb733549d144b3e1293776d3dfa61883140269c6140b90e693a252d7b085f0`
+SHA-256: `3dc9490009dfeb927d0fefbd018164d5bf63176ef36a385691bd68dfaa850b67`
 
 Selection: `{"kind":"whole"}`
 
-## 11. FantaMedioevo!
+## 11. La Terza Guerra Mondiale nel 1946-47
 
-Proposal: `proposal-doc-6a1e9af438ac` · action: `work`
+Proposal: `proposal-doc-7b869a0d46ed` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-6a1e9af438ac)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-7b869a0d46ed)
 
-> FantaMedioevo! Così ha proposto l'amico Filobeche il 24 giugno 2005: Mentre scrivo di tutto, mi capita spesso d'imbattermi in episodi che attizzano la mia immaginazione; così come ho letto con piacere l'Ucronia di Riker
+> La Terza Guerra Mondiale nel 1946-47 di Daniele Novati Homer comincia così: Che sarebbe accaduto se si fosse giunti ad una resa dei conti tra Alleati Occidentali ed URSS nel 1946-47? Un terzo massacro sarebbe uno spunto
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/fantamedioevo-6a1e9af4/` · composition: `single`
+Target: `/works/la-terza-guerra-mondiale-nel-1946-47-7b869a0d/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6a1e9af438ac/)
+[Full source for local review](/review/source/doc-7b869a0d46ed/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Medioevo.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/WWIII\_1947.htm
 
-SHA-256: `758842b88f23947c6904143ce4d5f04414dabe126f9a742b4a1b98a3b279fbd9`
+SHA-256: `54573e2a4894855553a1e8a5b19a0fd2fa5ccc856c51be4fc724da30703b7fc4`
 
 Selection: `{"kind":"whole"}`
 
-## 12. Israele senza soluzione di continuità
+## 12. Roma raggiunge il fiume Congo
 
-Proposal: `proposal-doc-6a5f8567b039` · action: `work`
+Proposal: `proposal-doc-7b894370164e` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-6a5f8567b039)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-7b894370164e)
 
-> Israele senza soluzione di continuità Dopo aver letto la fantacronologia biblica, l'amico David169 ha lanciato un nuovo sasso nello stagno: Viste le interessanti cronologie sulla storia del popolo ebraico volevo proporre
+> ROMA RAGGIUNGE IL FIUME CONGO (1235 - 1244 aUc = 482 - 491 d.C.) Oltre il fiume Niger Leggendo le ultime pagine di questo "iper-racconto" potreste credere che, dall'anno 375 al 482, e cioè per oltre un secolo, l'espansio
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/israele-senza-soluzione-di-continuita-6a5f8567/` · composition: `single`
+Target: `/works/roma-raggiunge-il-fiume-congo-7b894370/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6a5f8567b039/)
+[Full source for local review](/review/source/doc-7b894370164e/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/fanta\_Israele.htm
+Source: http://www.fmboschetto.it/racconti/iperimpero/iperimp12.htm
 
-SHA-256: `deb14d09782b43f605e4b11f976ba683cfe4329889c5a3fa83cc1a1c0c6c747c`
+SHA-256: `048dc6cd6283fb79a2271118e0d83d49afa2030001b137542b8fae069a63963d`
 
 Selection: `{"kind":"whole"}`
 
-## 13. « Il secolo ferreo »
+## 13. Jules Andreotti all'Eliseo
 
-Proposal: `proposal-doc-6ad744d10816` · action: `work`
+Proposal: `proposal-doc-7bba9b9d6ec4` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-6ad744d10816)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-7bba9b9d6ec4)
 
-> « Il secolo ferreo » 816 d.C.: Ludovico si reca in Atlantide dove è incoronato Augusto a Köln (ex Colonia Agrippina, la nostra Saint Louis) da Papa Stefano IV. 817 d.C.: Ordinatio Imperii, con la quale Ludovico regola la
+> Jules Andreotti all'Eliseo di Dario Carcano È già la seconda ucronia sul Divo Giulio che scrivo, però è un soggetto che mi piace assai. Quella di questa pagina vuole immaginare lo svolgimento che sarebbe necessario affin
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-secolo-ferreo-6ad744d1/` · composition: `single`
+Target: `/works/jules-andreotti-all-eliseo-7bba9b9d/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6ad744d10816/)
+[Full source for local review](/review/source/doc-7bba9b9d6ec4/)
 
-Source: http://www.fmboschetto.it/racconti/Roma\_in\_America/Roma\_in\_America\_6.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Fanta\_Andreotti.htm
 
-SHA-256: `827367878b5f5d88b70c7e6beada649de0813c47ac7fac0dbe998a166bcef162`
+SHA-256: `6a6011e0a87641427071f37add6480c3d75946b67e5e47dd3a452b64c5421b9a`
 
 Selection: `{"kind":"whole"}`
 
-## 14. Sommario
+## 14. 1848, nasce la Repubblica Italiana
 
-Proposal: `proposal-doc-6afb8489cafa` · action: `work`
+Proposal: `proposal-doc-7c5e68c220e4` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-6afb8489cafa)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-7c5e68c220e4)
 
-> Introduzione Alla conquista dell'Arabia Attacco all'Occidente La rivolta di Cassandro L'invasione dell'India La guerra contro gli Unni Dopo Alessandro Zhôngguó zhèng Dàzin Uno studente propone un finale diverso!
+> 1848, nasce la Repubblica Italiana! di Tommaso Mazzoni PoD: sconfitta di Louis-Napoleon Bonaparte alle elezioni per la presidenza della II Repubblica; Vince Victor Hugo, il quale sostiene Mazzini (nella HL Hugo sostenne
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/sommario-6afb8489/` · composition: `single`
+Target: `/works/1848-nasce-la-repubblica-italiana-7c5e68c2/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6afb8489cafa/)
+[Full source for local review](/review/source/doc-7c5e68c220e4/)
 
-Source: http://www.fmboschetto.it/racconti/Alessandro/Sommario.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/1848\_repubblica\_italiana.htm
 
-SHA-256: `aaecb70c0ad2d4d72a4e6c13ad17497eae5ef0f45ba54809a78e84c79cebef0c`
+SHA-256: `3b0fe8b59bdaa4a7742aa67b5eeb8f6661f71edd94ad42f3e1aaa61a97d81f15`
 
 Selection: `{"kind":"whole"}`
 
-## 15. Le imprese dei Vichinghi
+## 15. Tiblisi, 28 giugno 2014...
 
-Proposal: `proposal-doc-6b4f86a2428c` · action: `work`
+Proposal: `proposal-doc-7d54e815ccc2` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-6b4f86a2428c)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-7d54e815ccc2)
 
-> LE IMPRESE DEI VICHINGHI (1088 - 1162 aUc = 335 - 409 d.C.) Il regno di Virbio Marcello Facciamo ora un passo indietro, e riprendiamo il discorso là dove lo avevamo interrotto per raccontare le epiche spedizioni di Claud
+> Tiblisi, 28 giugno 2014... Anche Lord Wilmore ha voluto dire la sua circa una possibile Terza Guerra Mondiale, e l'ha fatto "simmetrizzando" alcuni tragici eventi del XX secolo. Ecco la sua proposta. 2014, 28 giugno: Bar
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/le-imprese-dei-vichinghi-6b4f86a2/` · composition: `single`
+Target: `/works/tiblisi-28-giugno-2014-7d54e815/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6b4f86a2428c/)
+[Full source for local review](/review/source/doc-7d54e815ccc2/)
 
-Source: http://www.fmboschetto.it/racconti/iperimpero/iperimp8.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_WWIII\_3.htm
 
-SHA-256: `74e79755400f0350ae1324bcaadf6aa6d4db661144d85fc22244717a7fde865e`
+SHA-256: `f57dad30d7b1260d4368da36d28f1f233454c0f4e36a16c6be6255fa805a4e95`
 
 Selection: `{"kind":"whole"}`
 
-## 16. Il Regno di Erulia
+## 16. Adolfo Itlerelli
 
-Proposal: `proposal-doc-6bdb969f0e4a` · action: `work`
+Proposal: `proposal-doc-7d9d22c3e6f1` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-6bdb969f0e4a)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-7d9d22c3e6f1)
 
-> Il Regno di Erulia di Det0 La bandiera del Regno d’Erulia introdotta da Odoacre: il sole delle alpi era un simbolo della tradizione Longobarda e Erule, che questi ultimi portarono in Italia e inserirono nella loro bandie
+> Adolfo Itlerelli di Ainelif . Un tale di nome Adolfo Itlerelli, di origini italo-austriache, nel 1918 fonda a Venezia il Partito Nazionalsocialista Italiano, prendendo spunto dalle idee di Nietzsche. Terminata la prima g
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-regno-di-erulia-6bdb969f/` · composition: `single`
+Target: `/works/adolfo-itlerelli-7d9d22c3/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6bdb969f0e4a/)
+[Full source for local review](/review/source/doc-7d9d22c3e6f1/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Erulia.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Itlerelli.htm
 
-SHA-256: `013852bb2de6ce70179a8fc8af8809bdbb7ddb7a3b285ae4ff525080fbff22eb`
+SHA-256: `2c29551e2d3f494f90f239888d6d83b28b8515d622a1fe495e1849a2fd9894fe`
 
 Selection: `{"kind":"whole"}`
 
-## 17. \[uchronìe\] Israël hors d’Israël
+## 17. L'altra Costituzione
 
-Proposal: `proposal-doc-6c953d864eff` · action: `work`
+Proposal: `proposal-doc-7dc33c20b99c` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-6c953d864eff)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-7dc33c20b99c)
 
-> Israël hors d’Israël de Never75 An 67 après JC. : Le rabbin Yoannan Ben Zakkai, prévoyant l’issue de la guerre contre les Romains, la fin de Jérusalem et la destruction du Temple, demande à rencontrer le général romain V
+> L'altra Costituzione di Demofilo 24/02/2008 Cari amici, stiamo celebrando da alcune settimane il 60° anniversario della Costituzione, la carta dei principi e dell'ordinamento repubblicano, la carta dei diritti e dei dove
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/uchronie-israel-hors-d-israel-6c953d86/` · composition: `single`
+Target: `/works/l-altra-costituzione-7dc33c20/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6c953d864eff/)
+[Full source for local review](/review/source/doc-7dc33c20b99c/)
 
-Source: https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Israel\_hors\_d\_Israel.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/altra\_costituzione.htm
 
-SHA-256: `2f182d91db5b63862c6bdf62d74e02241fce0f9cce25ba254592949d4345279a`
+SHA-256: `2ee4551f2c9c4b2282e09734ffbcc627f5e0fd231941d2e40594191691ada1aa`
 
 Selection: `{"kind":"whole"}`
 
-## 18. McCain for President!
+## 18. La fine del Medioevo
 
-Proposal: `proposal-doc-6d19a174fcff` · action: `work`
+Proposal: `proposal-doc-7dcd1449e288` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-6d19a174fcff)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-7dcd1449e288)
 
-> McCain for President! di Inuyasha Han'yō 2008 4 novembre: elezioni presidenziali negli Stati Uniti: il candidato repubblicano John McCain, senatore dell’Arizona e reduce del Vietnam ,batte il candidato democratico Barack
+> La fine del Medioevo 1405-1433 d.C.: spedizioni navali dell'ammiraglio cinese Cheng He, che utilizza navi immense, veri e propri transatlantici ante litteram. Questi esplora l'Indiano, giunge fino in Somalia e poi, attra
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/mccain-for-president-6d19a174/` · composition: `single`
+Target: `/works/la-fine-del-medioevo-7dcd1449/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6d19a174fcff/)
+[Full source for local review](/review/source/doc-7dcd1449e288/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Mc\_Cain.htm
+Source: http://www.fmboschetto.it/racconti/Roma\_in\_America/Roma\_in\_America\_10.htm
 
-SHA-256: `b9d510e93d9036fd8886c190ecf9d8961cfd862f6be4f0dbb419de1cbf1bf3f6`
+SHA-256: `efdfeb17295c56a737742e280fa184e5d621178f13d4ddf50266a8f7286cc999`
 
 Selection: `{"kind":"whole"}`
 
-## 19. La Seconda Repubblica Romana
+## 19. Pitea il bugiardo
 
-Proposal: `proposal-doc-6d76bda5eefb` · action: `work`
+Proposal: `proposal-doc-7de4b9432f24` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-6d76bda5eefb)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-7de4b9432f24)
 
-> La Seconda Repubblica Romana L'idea è quella di trasmettere al Medioevo l'idea di Repubblica, anziché quella di Impero. Così comincia Filobeche: 3 ottobre 42 a .C.: Cassio sconfigge Ottaviano nella prima battaglia di Fil
+> Actibus immensis urbs fulget massiliensis di Perchè No? . 340: il navigatore marsigliese Pitea inizia un lungo viaggio verso l’oceano con lo scopo di scoprire nuove vie per il commercio dello stagno e dell’ambra. Pitea é
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-seconda-repubblica-romana-6d76bda5/` · composition: `single`
+Target: `/works/pitea-il-bugiardo-7de4b943/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6d76bda5eefb/)
+[Full source for local review](/review/source/doc-7de4b9432f24/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Seconda\_Repubblica\_Romana.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Pitea.htm
 
-SHA-256: `a23a88af653717ac5ef4b5598f3aff21da588597ce9b000a9040d8a3af402b4c`
+SHA-256: `a2f4ac1fc5a87597fd6ae14182752cf5caaa4952d19419ab8f6ae88ca39302a9`
 
 Selection: `{"kind":"whole"}`
 
-## 20. La Guerra Fredda eterna
+## 20. De Bello Dacico
 
-Proposal: `proposal-doc-6e4281b4f9bf` · action: `work`
+Proposal: `proposal-doc-7e6f2f850470` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-6e4281b4f9bf)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-7e6f2f850470)
 
-> La Guerra Fredda eterna di Perchè No? e Lord Wilmore La nuova, geniale proposta è di origine francese, essendo targata Perchè no?: Mi sono chiesto cosa succede se negli anni '80, non so in seguito a quale POD, Gorbachev
+> De Bello Dacico di Falecius Prima di essere assassinato, secondo alcune fonti, Cesare progettava di invadere non la Partia ma la Dacia, dove il re Burebista aveva fondato un piccolo impero comprendente Romania, Moldova,
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-guerra-fredda-eterna-6e4281b4/` · composition: `single`
+Target: `/works/de-bello-dacico-7e6f2f85/` · composition: `single`
 
-[Full source for local review](/review/source/doc-6e4281b4f9bf/)
+[Full source for local review](/review/source/doc-7e6f2f850470/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/guerra\_fredda\_eterna.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/de\_Bello\_Dacico.htm
 
-SHA-256: `f2b8b3877db0ed9530691ca6ba28e1027a2aaf07418407b705c74183a2d6779a`
+SHA-256: `8d51c9afd7d8cac484a47ea260c38c3d494bc48eefc33436ff279552f6273053`
 
 Selection: `{"kind":"whole"}`
