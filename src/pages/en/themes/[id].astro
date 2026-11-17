@@ -1,0 +1,13 @@
+---
+import { getCollection } from "astro:content";
+import { buildFacetIndex, type ClassifiedItem } from "../../../facet-index";
+import Facet from "../../../views/Facet.astro";
+export async function getStaticPaths() {
+  const items = (await getCollection("works")) as unknown as ClassifiedItem[];
+  return buildFacetIndex(items, "themes").map((value) => ({
+    params: { id: value.id },
+    props: { value },
+  }));
+}
+---
+<Facet facet="themes" value={Astro.props.value} lang="en" />

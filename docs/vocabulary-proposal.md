@@ -1,6 +1,6 @@
 # Era, place and theme vocabulary — agent proposal, 17 November 2026
 
-**Status: proposed, not approved.** Nothing here is written to `data/map.yaml` until the owner approves it. The registries `eras`, `places` and `themes` in the map are still empty and every item classification is still `unknown`.
+**Status: approved by the owner on 17 November 2026** ("vai con la tua proposta per epoche", then "fai tutte e due" for places and themes), with the agent's recommendations: Ancient history and Ancient Rome stay two eras, and the three widened boundaries are kept. The vocabulary lives in `data/vocabulary.json` (not in the generated map); per-item assignments are agent proposals in `data/classification.json`, produced by `pnpm classify`.
 
 ## Eras
 
@@ -37,7 +37,7 @@ How eras would be proposed per item, once the vocabulary is approved: for a dive
 
 ## Places
 
-Areas, not states: a closed list of 12.
+Areas, not states: a closed list of 13.
 
 `italy` Italia · `western-europe` Europa occidentale · `central-europe` Europa centrale · `eastern-europe-russia` Europa orientale e Russia · `mediterranean-middle-east` Mediterraneo e Medio Oriente · `africa` Africa · `south-asia` Asia meridionale · `east-asia` Asia orientale · `north-america` America del Nord · `latin-america` America latina · `oceania-poles` Oceania e poli · `world` Mondo intero · `imaginary` Luoghi immaginari
 

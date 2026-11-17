@@ -1,0 +1,38 @@
+---
+import { getCollection } from "astro:content";
+import type { Facet } from "../editorial/vocabulary";
+import {
+  buildFacetIndex,
+  type ClassifiedItem,
+  facetPath,
+  facetRoots,
+  rangeLabel,
+} from "../facet-index";
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import "../styles/authors.css";
+import "../styles/facets.css";
+
+interface Props {
+  facet: Facet;
+  lang: Lang;
+}
+const { facet, lang } = Astro.props;
+const t = useTranslations(lang);
+const values = buildFacetIndex(
+  (await getCollection("works")) as unknown as ClassifiedItem[],
+  facet,
+);
+const others = (["eras", "places", "themes"] as Facet[]).filter(
+  (f) => f !== facet,
+);
+---
+<Base title={t(`facet.${facet}.title`)} lang={lang}>
+  <header class="page-intro"><h1 class="page-title">{t(`facet.${facet}.title`)}</h1><p class="page-lede">{t(`facet.${facet}.intro`)}</p><p class="small-note">{t("facet.proposalNote")}</p><nav class="library-links" aria-label={t("facet.explore")}>{others.map((f) => <a href={localePath(lang, facetRoots[f])}>{t(`facet.${f}.title`)}</a>)}<a href={localePath(lang, "/library/")}>{t("library.title")}</a></nav></header>
+  <ol class="facet-index">
+    {values.map((value) => {
+      const n = value.approved.length + value.proposed.length;
+      return <li><a href={localePath(lang, facetPath(facet, value.id))}><span class="facet-name">{value.label[lang]}</span>{rangeLabel(value, lang) && <span class="facet-range">{rangeLabel(value, lang)}</span>}<small>{n === 1 ? t("facet.one") : t("facet.count", { n })}</small></a></li>;
+    })}
+  </ol>
+</Base>

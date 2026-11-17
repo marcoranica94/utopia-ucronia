@@ -15,6 +15,7 @@
     "recovery:origin": "node scripts/recovery/origin.ts",
     "publication:check": "node scripts/check-publication.ts",
     "assets:check": "node scripts/check-assets.ts",
+    "classify": "node scripts/classify.ts",
     "publication": "node scripts/publication.ts",
     "convert": "node scripts/convert.ts",
     "check": "astro check",

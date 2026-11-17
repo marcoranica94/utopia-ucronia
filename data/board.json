@@ -30,10 +30,10 @@
     },
     {
       "sprint": "S4",
-      "contains": "Pages for worlds, eras, places and themes",
+      "contains": "Pages for eras, places and themes",
       "status": "backlog",
       "assignee": "Development",
-      "note": "World/era/place/theme routes remain unimplemented and require progressive metadata review. Author pages for the current published edition are delivered in a separate completed task; final taxonomies and complete archive coverage remain pending."
+      "note": "Era, place and theme pages delivered with agent proposals per work (pnpm classify). Worlds remain."
     },
     {
       "sprint": "S5",
@@ -182,7 +182,7 @@
       "contains": "Eras fixed and theme list closed",
       "status": "backlog",
       "assignee": "Development",
-      "note": "Agent proposal ready for owner review in docs/vocabulary-proposal.md: 18 eras measured from the old Lista sections, 13 place areas and 16 themes. Nothing is written to the map until approved; source menu periods do not complete this task."
+      "note": "Owner approved the vocabulary on 17 November 2026: data/vocabulary.json, 18 eras, 13 places, 16 themes."
     },
     {
       "sprint": "S6",
@@ -264,8 +264,8 @@
   ],
   "priorities": [
     {
-      "title": "Eras: assign and build era pages (S4)",
-      "detail": "The owner approved the era proposal in docs/vocabulary-proposal.md: write the registry, propose an era per work with a quotation, then /eras/ pages."
+      "title": "Review era/place/theme proposals and identify worlds (S4)",
+      "detail": "Per-work assignments in data/classification.json are agent proposals with quotations; worlds/cycles have no proposals yet."
     },
     {
       "title": "Attachments as reading text (S7)",

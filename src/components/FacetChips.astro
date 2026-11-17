@@ -1,0 +1,30 @@
+---
+import type { Facet } from "../editorial/vocabulary";
+import { facetPath, vocabulary } from "../facet-index";
+import { type Lang, localePath, useTranslations } from "../i18n";
+
+interface Props {
+  lang: Lang;
+  classification?: Partial<
+    Record<Facet, { value: string[] | "unknown"; review: { state: string } }>
+  >;
+}
+const { lang, classification } = Astro.props;
+const t = useTranslations(lang);
+const rows = (["eras", "places", "themes"] as Facet[]).flatMap((facet) => {
+  const a = classification?.[facet];
+  if (!a || a.value === "unknown" || a.review.state === "deferred") return [];
+  const labels = new Map(vocabulary[facet].map((v) => [v.id, v.label[lang]]));
+  return [
+    { facet, ids: a.value, approved: a.review.state === "approved", labels },
+  ];
+});
+---
+{rows.length > 0 && (
+  <div class="facet-chips">
+    {!rows.every((r) => r.approved) && <p class="small-note">{t("facet.workLabel")}</p>}
+    <dl>
+      {rows.map((row) => <div><dt>{t(`facet.${row.facet}.title`)}</dt><dd>{row.ids.map((id, i) => <>{i > 0 && " · "}<a href={localePath(lang, facetPath(row.facet, id))}>{row.labels.get(id)}</a></>)}</dd></div>)}
+    </dl>
+  </div>
+)}

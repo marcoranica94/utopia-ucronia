@@ -1,0 +1,379 @@
+{
+  "version": 1,
+  "approved": {
+    "by": "owner",
+    "state": "approved",
+    "reason": "Owner approved the agent proposal in docs/vocabulary-proposal.md on 17 November 2026 (“vai con la tua proposta per epoche […] fai tutte e due”).",
+    "quote": "docs/vocabulary-proposal.md"
+  },
+  "eras": [
+    {
+      "id": "prehistory",
+      "label": {
+        "it": "Preistoria",
+        "en": "Prehistory"
+      },
+      "start": -3000000,
+      "end": -3001
+    },
+    {
+      "id": "ancient",
+      "label": {
+        "it": "Antichità",
+        "en": "Ancient history"
+      },
+      "start": -3000,
+      "end": 476
+    },
+    {
+      "id": "roman",
+      "label": {
+        "it": "Roma antica",
+        "en": "Ancient Rome"
+      },
+      "start": -753,
+      "end": 476
+    },
+    {
+      "id": "early-medieval",
+      "label": {
+        "it": "Alto Medioevo",
+        "en": "Early Middle Ages"
+      },
+      "start": 477,
+      "end": 999
+    },
+    {
+      "id": "1000-1299",
+      "label": {
+        "it": "Dall'anno Mille al Duecento",
+        "en": "1000–1299"
+      },
+      "start": 1000,
+      "end": 1299
+    },
+    {
+      "id": "1300-1499",
+      "label": {
+        "it": "Trecento e Quattrocento",
+        "en": "1300–1499"
+      },
+      "start": 1300,
+      "end": 1499
+    },
+    {
+      "id": "1500s",
+      "label": {
+        "it": "Cinquecento",
+        "en": "1500s"
+      },
+      "start": 1500,
+      "end": 1599
+    },
+    {
+      "id": "1600s",
+      "label": {
+        "it": "Seicento",
+        "en": "1600s"
+      },
+      "start": 1600,
+      "end": 1699
+    },
+    {
+      "id": "1700s",
+      "label": {
+        "it": "Settecento e Napoleone",
+        "en": "1700s and Napoleon"
+      },
+      "start": 1700,
+      "end": 1814
+    },
+    {
+      "id": "1800s",
+      "label": {
+        "it": "Ottocento",
+        "en": "1800s"
+      },
+      "start": 1815,
+      "end": 1870
+    },
+    {
+      "id": "belle-epoque",
+      "label": {
+        "it": "Belle Époque",
+        "en": "Belle Époque"
+      },
+      "start": 1871,
+      "end": 1913
+    },
+    {
+      "id": "first-world-war",
+      "label": {
+        "it": "Prima guerra mondiale e anni Venti",
+        "en": "First World War and the 1920s"
+      },
+      "start": 1914,
+      "end": 1932
+    },
+    {
+      "id": "second-world-war",
+      "label": {
+        "it": "Seconda guerra mondiale",
+        "en": "Second World War"
+      },
+      "start": 1933,
+      "end": 1945
+    },
+    {
+      "id": "postwar",
+      "label": {
+        "it": "Dopoguerra",
+        "en": "Postwar years"
+      },
+      "start": 1946,
+      "end": 1969
+    },
+    {
+      "id": "1970s-1990s",
+      "label": {
+        "it": "Anni Settanta, Ottanta e Novanta",
+        "en": "1970s–1990s"
+      },
+      "start": 1970,
+      "end": 1999
+    },
+    {
+      "id": "2000s",
+      "label": {
+        "it": "Anni Duemila",
+        "en": "2000s"
+      },
+      "start": 2000,
+      "end": 2009
+    },
+    {
+      "id": "present-future",
+      "label": {
+        "it": "Presente e futuro",
+        "en": "Present and future"
+      },
+      "start": 2010,
+      "end": 9999
+    },
+    {
+      "id": "outside-time",
+      "label": {
+        "it": "Fuori dal tempo",
+        "en": "Outside time"
+      },
+      "outsideTime": true
+    }
+  ],
+  "places": [
+    {
+      "id": "italy",
+      "label": {
+        "it": "Italia",
+        "en": "Italy"
+      }
+    },
+    {
+      "id": "western-europe",
+      "label": {
+        "it": "Europa occidentale",
+        "en": "Western Europe"
+      }
+    },
+    {
+      "id": "central-europe",
+      "label": {
+        "it": "Europa centrale",
+        "en": "Central Europe"
+      }
+    },
+    {
+      "id": "eastern-europe-russia",
+      "label": {
+        "it": "Europa orientale e Russia",
+        "en": "Eastern Europe and Russia"
+      }
+    },
+    {
+      "id": "mediterranean-middle-east",
+      "label": {
+        "it": "Mediterraneo e Medio Oriente",
+        "en": "Mediterranean and Middle East"
+      }
+    },
+    {
+      "id": "africa",
+      "label": {
+        "it": "Africa",
+        "en": "Africa"
+      }
+    },
+    {
+      "id": "south-asia",
+      "label": {
+        "it": "Asia meridionale",
+        "en": "South Asia"
+      }
+    },
+    {
+      "id": "east-asia",
+      "label": {
+        "it": "Asia orientale",
+        "en": "East Asia"
+      }
+    },
+    {
+      "id": "north-america",
+      "label": {
+        "it": "America del Nord",
+        "en": "North America"
+      }
+    },
+    {
+      "id": "latin-america",
+      "label": {
+        "it": "America latina",
+        "en": "Latin America"
+      }
+    },
+    {
+      "id": "oceania-poles",
+      "label": {
+        "it": "Oceania e poli",
+        "en": "Oceania and the poles"
+      }
+    },
+    {
+      "id": "world",
+      "label": {
+        "it": "Mondo intero",
+        "en": "The whole world"
+      }
+    },
+    {
+      "id": "imaginary",
+      "label": {
+        "it": "Luoghi immaginari",
+        "en": "Imaginary places"
+      }
+    }
+  ],
+  "themes": [
+    {
+      "id": "rome",
+      "label": {
+        "it": "Roma e il suo impero",
+        "en": "Rome and its empire"
+      }
+    },
+    {
+      "id": "religions",
+      "label": {
+        "it": "Religioni e Chiese",
+        "en": "Religions and churches"
+      }
+    },
+    {
+      "id": "empires-dynasties",
+      "label": {
+        "it": "Imperi, dinastie e successioni",
+        "en": "Empires, dynasties and successions"
+      }
+    },
+    {
+      "id": "exploration-colonies",
+      "label": {
+        "it": "Esplorazioni e colonie",
+        "en": "Exploration and colonies"
+      }
+    },
+    {
+      "id": "islamic-world",
+      "label": {
+        "it": "Mondo islamico e ottomano",
+        "en": "Islamic and Ottoman world"
+      }
+    },
+    {
+      "id": "asia",
+      "label": {
+        "it": "Cina, Giappone, India, Mongoli",
+        "en": "China, Japan, India, Mongols"
+      }
+    },
+    {
+      "id": "napoleon",
+      "label": {
+        "it": "Napoleone",
+        "en": "Napoleon"
+      }
+    },
+    {
+      "id": "risorgimento",
+      "label": {
+        "it": "Risorgimento e Unità d'Italia",
+        "en": "Risorgimento and Italian unification"
+      }
+    },
+    {
+      "id": "revolutions",
+      "label": {
+        "it": "Rivoluzioni",
+        "en": "Revolutions"
+      }
+    },
+    {
+      "id": "world-wars",
+      "label": {
+        "it": "Guerre mondiali e fascismi",
+        "en": "World wars and fascisms"
+      }
+    },
+    {
+      "id": "cold-war",
+      "label": {
+        "it": "Guerra fredda",
+        "en": "Cold War"
+      }
+    },
+    {
+      "id": "united-states",
+      "label": {
+        "it": "Stati Uniti",
+        "en": "United States"
+      }
+    },
+    {
+      "id": "science-technology",
+      "label": {
+        "it": "Scienza e tecnica",
+        "en": "Science and technology"
+      }
+    },
+    {
+      "id": "society-utopia",
+      "label": {
+        "it": "Società, utopie e ideologie",
+        "en": "Society, utopias and ideologies"
+      }
+    },
+    {
+      "id": "culture-sport",
+      "label": {
+        "it": "Cultura, letteratura e sport",
+        "en": "Culture, literature and sport"
+      }
+    },
+    {
+      "id": "disasters",
+      "label": {
+        "it": "Epidemie e catastrofi",
+        "en": "Epidemics and disasters"
+      }
+    }
+  ]
+}

@@ -3,6 +3,11 @@ import path from "node:path";
 import { load } from "cheerio";
 import { workContentSchema } from "../src/editorial/content.ts";
 import type { EditorialItem, EditorialSource } from "../src/editorial/model.ts";
+import {
+  checkClassification,
+  classificationFileSchema,
+  vocabularySchema,
+} from "../src/editorial/vocabulary.ts";
 import { type Anatomy, anatomy } from "./anatomy.ts";
 import { openCache } from "./build-cache.ts";
 import {
@@ -569,6 +574,22 @@ for (const result of results) {
       },
     );
 }
+// Owner-approved vocabularies and the per-item classification overlay
+// (data/vocabulary.json, data/classification.json). Applied here, outside the
+// per-item conversion cache, so a reclassification never needs reconversion.
+const vocabulary = vocabularySchema.parse(
+  JSON.parse(await readFile("data/vocabulary.json", "utf8")),
+);
+const overlay = checkClassification(
+  vocabulary,
+  classificationFileSchema.parse(
+    JSON.parse(
+      await readFile("data/classification.json", "utf8").catch(
+        () => '{"version":1,"items":{}}',
+      ),
+    ),
+  ),
+);
 await rm("src/content/works", { recursive: true, force: true });
 await mkdir("src/content/works", { recursive: true });
 const report = [];
@@ -605,7 +626,10 @@ for (const result of results) {
           editorialId: item.id,
           authorIds: item.authors,
           review: item.review,
-          classification: item.classification,
+          classification: {
+            ...item.classification,
+            ...overlay.items[item.id],
+          },
           contributions: item.contributions,
         }
       : {}),

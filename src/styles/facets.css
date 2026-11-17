@@ -1,0 +1,73 @@
+.facet-index {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 16rem), 1fr));
+  gap: 0.75rem;
+}
+.facet-index a {
+  display: grid;
+  gap: 0.2rem;
+  min-height: 44px;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+.facet-index a:hover,
+.facet-index a:focus-visible {
+  border-color: var(--accent);
+}
+.facet-name {
+  font-weight: 600;
+  color: var(--accent);
+}
+.facet-range,
+.facet-index small,
+.facet-authors,
+.facet-reason {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.facet-section h2 small {
+  font-weight: 400;
+  color: var(--muted);
+}
+.facet-entries {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2.5rem;
+}
+.facet-entries li {
+  padding: 0.7rem 0;
+  border-bottom: 1px solid var(--line);
+  overflow-wrap: anywhere;
+}
+.facet-entries a {
+  font-weight: 600;
+}
+.facet-authors {
+  margin-inline-start: 0.6rem;
+}
+.facet-reason {
+  margin: 0.25rem 0 0;
+}
+.facet-chips dl {
+  display: grid;
+  gap: 0.3rem;
+  margin: 0.4rem 0 1rem;
+}
+.facet-chips dl > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 0.5rem;
+}
+.facet-chips dt {
+  font-weight: 600;
+}
+.facet-chips dd {
+  margin: 0;
+  overflow-wrap: anywhere;
+}

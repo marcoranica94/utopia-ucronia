@@ -216,3 +216,7 @@ Batches 03–19 brought the edition to 755 canonical items; all publishable sing
 
 The Workers free plan accepts at most 20,000 static files per deploy; `pnpm assets:check` (last build step) fails above 18,000 (`ASSET_FILE_BUDGET`). Never add one generated file per prompt or per small record: Lista prompts are indexed one Pagefind record per period-table page, with each prompt a sub-result. Collective pages are published whole (owner decision): `pnpm publication select <id> --whole` publishes only the page item of a `split` proposal; `select-approved` never selects splits. `/design/b/` was removed.
 
+## Eras, places and themes, 17 November 2026
+
+The owner approved the vocabulary in `docs/vocabulary-proposal.md`; it lives in `data/vocabulary.json` (18 eras, 13 places, 16 themes), not in the generated map. `pnpm classify` writes agent proposals to `data/classification.json` (one reason and one quotation each; owner entries are kept); the converter overlays them on the frontmatter in its always-run final pass. `/eras/`, `/places/`, `/themes/` list approved assignments apart from proposals; the reader shows each work's entries. Per-work assignments are still proposals: never mark them approved without the owner.
+

@@ -221,7 +221,7 @@ Demo: passed in a 390 px phone viewport with a remembered Petrov sentence → re
 - [x] Lista prompts stay in the period indexes, not as 7,093 separate pages (owner decision 17/11/2026); every prompt is searchable from `/search/` and opens at its row in the period table
 - [x] Collective pages kept whole (owner decision 17/11/2026): 36 unpublished collective pages published as whole editions (`pnpm publication select <id> --whole`) with every piece titled, anchored and listed in the reading outline; 7 already whole in the baseline keep their split deferred. 791 canonical items
 - [x] Cloudflare free plan limit of 20,000 static files (deploy of 17/11/2026 failed at 30,827): Lista prompts indexed per period-table page with one Pagefind sub-result per prompt, the obsolete `/design/b/` comparison pages removed, and `pnpm assets:check` fails the build above 18,000 files (16,241 now)
-- [ ] Owner review of the era, place and theme vocabulary proposal in `docs/vocabulary-proposal.md`
+- [x] Owner approved the era, place and theme vocabulary (17/11/2026): `data/vocabulary.json`
 
 - [x] Reviewed publication workflow: persistent explicit selections, conversion beyond the fixed sample, overlap/stale-decision checks, dry-run and full local source text for the next review batch
 
@@ -240,9 +240,11 @@ Demo: passed in a 390 px phone viewport with a remembered Petrov sentence → re
 - [x] Unplanned (17/11/2026): incremental build so CI stays well under its 20-minute timeout as the edition grows towards ~950 reading texts, without weakening any check. `scripts/build-cache.ts` keeps verified per-unit results in `.cache/build/` keyed by all inputs of the unit plus a toolchain digest (scripts, `src/`, corrections, lockfile, configuration); `BUILD_CACHE=off` disables it. Units: conversion pages (routing lookups replayed against the current tables; global post-pass always runs), PDF illustrations, source text, per-page link facts (link resolution always live), fidelity reports, passing `browse:check` pages, `s3:check` and `discovery:check` page facts. Outputs byte-identical with and without cache (10,000+ files compared); at 263 items: full build ≈ 360 s cold, ≈ 200 s after a 40-item batch, ≈ 135 s warm. CI restores the cache with `actions/cache`. Astro build, `astro check` and Pagefind indexing are not cached.
 - [ ] Publish the remaining recovered works progressively after review and full source-fidelity validation; 825 catalog entries do not mean 825 reading editions
 - [ ] Progressive review of the map: first worlds and pages to split or merge
-- [ ] Eras fixed and theme list closed
+- [x] Eras fixed and theme list closed: 18 eras, 13 places, 16 themes (owner-approved vocabulary)
+- [ ] Owner review of the per-work era/place/theme proposals in `data/classification.json` (`pnpm classify` proposes each with a reason and a quotation; owner decisions are never overwritten)
 - [x] Language filters on the published catalog and IT/EN navigation on historical indexes
-- [ ] Pages for worlds, eras, places and themes, based on reviewed metadata
+- [x] Pages for eras, places and themes (`/eras/`, `/places/`, `/themes/`, IT/EN), approved assignments apart from proposals awaiting review; each work lists its proposed entries in the reader
+- [ ] Worlds/cycles: no world proposals in the map yet; identify cycles and build `/worlds/` pages
 - [x] Two design directions for reading and catalog, with real content; choice and `tokens.css`
 - [x] View Transitions between catalog and reading: cross-document `@view-transition`, catalog card title morphs into the work title, header stays still; disabled under `prefers-reduced-motion`, plain navigation where unsupported (17/11/2026)
 

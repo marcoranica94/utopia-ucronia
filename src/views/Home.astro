@@ -68,7 +68,7 @@ const featuredPath = featured
 ---
 <Base title={t(library ? "library.title" : "home.title")} lang={lang}>
   <div class="atlas-home">
-    {library ? <header class="page-intro"><h1 class="page-title">{t("library.title")}</h1><p class="page-lede">{t("library.intro")}</p><nav class="library-links" aria-label={t("browse.indexes")}><a href={localePath(lang, "/authors/")}>{t("authors.title")}</a><a href={localePath(lang, "/works/")}>{t("library.historical")}</a></nav><p class="small-note">{t("library.scope")}</p></header> : <><section class="atlas-opening" aria-labelledby="atlas-title">
+    {library ? <header class="page-intro"><h1 class="page-title">{t("library.title")}</h1><p class="page-lede">{t("library.intro")}</p><nav class="library-links" aria-label={t("browse.indexes")}><a href={localePath(lang, "/authors/")}>{t("authors.title")}</a><a href={localePath(lang, "/eras/")}>{t("facet.eras.title")}</a><a href={localePath(lang, "/places/")}>{t("facet.places.title")}</a><a href={localePath(lang, "/themes/")}>{t("facet.themes.title")}</a><a href={localePath(lang, "/works/")}>{t("library.historical")}</a></nav><p class="small-note">{t("library.scope")}</p></header> : <><section class="atlas-opening" aria-labelledby="atlas-title">
       <div class="atlas-intro">
         <p class="atlas-signature">{t("atlas.signature")}</p>
         <h1 id="atlas-title">{t("atlas.heading")}</h1>
@@ -81,7 +81,7 @@ const featuredPath = featured
         <div class="atlas-map-caption"><div><span class="atlas-map-label">{t("atlas.startHere")}</span><h2 id="map-feature-title">Spot the POD</h2></div><span class="feature-open" aria-hidden="true">↗</span></div>
       </a>
     </section>
-    <nav class="atlas-index-links" aria-label={t("browse.indexes")}><a href={localePath(lang,"/library/")}>{t("library.title")} ↗</a><a href={localePath(lang,"/authors/")}>{t("authors.title")} ↗</a><p>{t("browse.homeIntro")}</p><a href={localePath(lang,"/divergences/")}>{t("browse.prompts.short")} ↗</a><a href={localePath(lang,"/works/")}>{t("browse.works.short")} ↗</a></nav>
+    <nav class="atlas-index-links" aria-label={t("browse.indexes")}><a href={localePath(lang,"/library/")}>{t("library.title")} ↗</a><a href={localePath(lang,"/authors/")}>{t("authors.title")} ↗</a><a href={localePath(lang,"/eras/")}>{t("facet.eras.title")} ↗</a><a href={localePath(lang,"/themes/")}>{t("facet.themes.title")} ↗</a><p>{t("browse.homeIntro")}</p><a href={localePath(lang,"/divergences/")}>{t("browse.prompts.short")} ↗</a><a href={localePath(lang,"/works/")}>{t("browse.works.short")} ↗</a></nav>
     </>}
     <section class="collection-section" id="collection" aria-labelledby="catalog-title">
       <div class="collection-heading"><div><h2 id="catalog-title">{t(library ? "library.choose" : "atlas.collection")}</h2>{!library && <p>{t("atlas.collectionIntro")}</p>}</div><div class="catalog-view-switch" role="group" aria-label={t("atlas.view")} data-catalog-tools hidden><button type="button" data-view="covers" aria-pressed="true"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2h6v6H2zm10 0h6v6h-6zM2 12h6v6H2zm10 0h6v6h-6z" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.covers")}</button><button type="button" data-view="list" aria-pressed="false"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 4h16M2 10h16M2 16h16" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.list")}</button></div></div>

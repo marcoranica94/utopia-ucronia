@@ -1,0 +1,39 @@
+---
+import type { Facet as FacetName } from "../editorial/vocabulary";
+import {
+  type FacetEntry,
+  type FacetValue,
+  facetRoots,
+  rangeLabel,
+} from "../facet-index";
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import "../styles/authors.css";
+import "../styles/facets.css";
+
+interface Props {
+  facet: FacetName;
+  value: FacetValue;
+  lang: Lang;
+}
+const { facet, value, lang } = Astro.props;
+const t = useTranslations(lang);
+const range = rangeLabel(value, lang);
+const sections: [string, FacetEntry[]][] = [
+  ["approved", value.approved],
+  ["proposed", value.proposed],
+];
+---
+<Base title={`${value.label[lang]} · ${t(`facet.${facet}.title`)}`} lang={lang}>
+  <a class="back-link" href={localePath(lang, facetRoots[facet])}>{t("facet.back")}: {t(`facet.${facet}.title`)}</a>
+  <header class="page-intro"><p class="page-kicker">{t(`facet.${facet}.title`)}</p><h1 class="page-title">{value.label[lang]}</h1>{range && <p class="facet-range">{range}</p>}<p class="small-note">{t("facet.proposalNote")}</p></header>
+  {value.approved.length + value.proposed.length === 0 && <p>{t("facet.none")}</p>}
+  {sections.filter(([, entries]) => entries.length).map(([state, entries]) => (
+    <section class="facet-section" aria-labelledby={`facet-${state}`}>
+      <h2 id={`facet-${state}`}>{t(`facet.${state}` as "facet.approved")} <small>({entries.length})</small></h2>
+      <ul class="facet-entries">
+        {entries.map((entry) => <li><a href={localePath(lang, entry.path)} lang={entry.language === "unknown" ? undefined : entry.language}>{entry.title}</a>{entry.authors.length > 0 && <span class="facet-authors">{entry.authors.join(", ")}</span>}{state === "proposed" && <p class="facet-reason">{entry.reason}</p>}</li>)}
+      </ul>
+    </section>
+  ))}
+</Base>

@@ -65,6 +65,24 @@ const it = {
   "search.source": "Apri la fonte",
   "search.scope":
     "Ricerca nelle {count} edizioni di lettura e nei {prompts} spunti della Lista, che si aprono alla loro riga nell'indice per periodo.",
+  "facet.eras.title": "Epoche",
+  "facet.places.title": "Luoghi",
+  "facet.themes.title": "Temi",
+  "facet.eras.intro":
+    "Le opere per epoca del punto di divergenza. Le epoche sono le sezioni della vecchia Lista delle ucronie, ridefinite come intervalli di anni, più «Fuori dal tempo».",
+  "facet.places.intro":
+    "Le opere per area geografica in cui si svolgono o che cambiano.",
+  "facet.themes.intro": "Le opere per argomento ricorrente.",
+  "facet.proposalNote":
+    "Le assegnazioni sono proposte automatiche, ciascuna motivata da una frase o da termini del testo: vanno ancora rivedute. Un'opera può comparire in più voci.",
+  "facet.approved": "Assegnazioni approvate",
+  "facet.proposed": "Proposte da rivedere",
+  "facet.count": "{n} testi",
+  "facet.one": "1 testo",
+  "facet.none": "Nessun testo assegnato per ora.",
+  "facet.back": "Tutte le voci",
+  "facet.explore": "Esplora per epoca, luogo e tema",
+  "facet.workLabel": "Classificazione proposta",
   "search.kind": "Cerca in",
   "search.kind.all": "Opere e spunti",
   "search.kind.work": "Solo opere",
@@ -490,6 +508,24 @@ const en: Record<keyof typeof it, string> = {
   "search.source": "Open source",
   "search.scope":
     "Search the {count} reading editions and the {prompts} prompts of the Lista, which open at their row in the period index.",
+  "facet.eras.title": "Eras",
+  "facet.places.title": "Places",
+  "facet.themes.title": "Themes",
+  "facet.eras.intro":
+    "Works by the era of their point of divergence. The eras are the sections of the old Lista delle ucronie, redefined as year ranges, plus “Outside time”.",
+  "facet.places.intro":
+    "Works by the geographic area where they take place or which they change.",
+  "facet.themes.intro": "Works by recurring subject.",
+  "facet.proposalNote":
+    "Assignments are automatic proposals, each backed by a sentence or terms from the text, and still need review. A work can appear under several entries.",
+  "facet.approved": "Approved assignments",
+  "facet.proposed": "Proposals awaiting review",
+  "facet.count": "{n} texts",
+  "facet.one": "1 text",
+  "facet.none": "No text assigned yet.",
+  "facet.back": "All entries",
+  "facet.explore": "Explore by era, place and theme",
+  "facet.workLabel": "Proposed classification",
   "search.kind": "Search in",
   "search.kind.all": "Works and prompts",
   "search.kind.work": "Works only",
