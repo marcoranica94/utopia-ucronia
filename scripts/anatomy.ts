@@ -504,13 +504,34 @@ export function anatomy(html: string, documentTitle: string): Anatomy {
       continue;
     }
     if (collection && b.anchor && b.bold) {
+      // A picture placed inside the title line ("<img …><a name=Cesare>")
+      // opens the piece's body instead of being lost with the markup.
+      const $title = load(b.html);
+      const pictures = b.image
+        ? $title("img")
+            .toArray()
+            .map((img) => $title.html(img))
+            .join("")
+        : "";
       current = {
         id: `p${++pieces}`,
         role: "piece",
         title: b.text,
         anchors: b.anchors,
         ...(b.anchor ? { anchor: b.anchor } : {}),
-        lead: [],
+        lead: pictures
+          ? [
+              {
+                ...b,
+                html: `<p>${pictures}</p>`,
+                text: "",
+                names: [],
+                anchor: undefined,
+                anchors: [],
+                bold: false,
+              },
+            ]
+          : [],
         entries: [],
       };
       pieceOwner = current;

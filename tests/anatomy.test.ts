@@ -147,3 +147,19 @@ test("moves a leading date out of the text without losing characters", () => {
   assert.equal(r.html, "<b></b>Sebbene sfumi");
   assert.equal(r.separator, ":");
 });
+
+test("a picture inside a collection piece's title line opens its body", () => {
+  const piece = (name: string, picture = "") =>
+    `<p><b><i>${picture}<a name="${name}">${name}</a></i></b></p><p>Il racconto di ${name}, abbastanza lungo da essere un testo vero e proprio.</p>`;
+  const a = anatomy(
+    `<html><body><p>Raccolta di prova</p>${piece("Ramses")}${piece("Cesare", '<img src="cesare.jpg" width="350">')}${piece("Annibale")}</body></html>`,
+    "Raccolta",
+  );
+  const cesare = a.segments.find((s) => s.title === "Cesare");
+  assert.ok(cesare, JSON.stringify(a.segments.map((s) => s.title)));
+  assert.match(
+    cesare.lead.map((b) => b.html).join(""),
+    /<img src="cesare\.jpg"/,
+  );
+  assert.equal(cesare.lead[0].text, "");
+});

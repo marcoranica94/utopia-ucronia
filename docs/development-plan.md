@@ -219,7 +219,8 @@ Demo: passed in a 390 px phone viewport with a remembered Petrov sentence → re
 - [x] Second owner-approved publication batch: 20 more reviewed proposals, 86 reading items (73 canonical works); converter fixes for literal asterisks in kept HTML and repeated source anchors. See `docs/status-s4-batch-02.md`
 - [x] Remaining publication batches 03–19 under the owner's blanket approval: 755 canonical items (712 reviewed single works), each batch built, source-compared in full and browser-checked; converter fixes for anchors with spaces, escaped parentheses in link destinations, paragraph numbers alone on a line and email-only signatures in the outline
 - [x] Lista prompts stay in the period indexes, not as 7,093 separate pages (owner decision 17/11/2026); every prompt is searchable from `/search/` and opens at its row in the period table
-- [ ] 43 collective pages published whole also have split proposals: keep whole or replace with split editions (owner decision pending; replacement needs a reviewed operation)
+- [x] Collective pages kept whole (owner decision 17/11/2026): 36 unpublished collective pages published as whole editions (`pnpm publication select <id> --whole`) with every piece titled, anchored and listed in the reading outline; 7 already whole in the baseline keep their split deferred. 791 canonical items
+- [x] Cloudflare free plan limit of 20,000 static files (deploy of 17/11/2026 failed at 30,827): Lista prompts indexed per period-table page with one Pagefind sub-result per prompt, the obsolete `/design/b/` comparison pages removed, and `pnpm assets:check` fails the build above 18,000 files (16,241 now)
 - [ ] Owner review of the era, place and theme vocabulary proposal in `docs/vocabulary-proposal.md`
 
 - [x] Reviewed publication workflow: persistent explicit selections, conversion beyond the fixed sample, overlap/stale-decision checks, dry-run and full local source text for the next review batch

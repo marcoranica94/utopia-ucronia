@@ -212,3 +212,7 @@ PDFs and zip archives are a separate epic, S7 in the development plan: converted
 
 Batches 03–19 brought the edition to 755 canonical items; all publishable single works are selected. The Lista prompts are deliberately **not** separate pages (owner decision): their 19 split proposals are deferred in the ledger, and the prompts are searchable from `/search/` as records pointing at their period-table rows. 43 other split proposals overlap collective pages already published whole; replacing them needs an explicit owner decision. `pnpm build` is incremental (`.cache/build`, `BUILD_CACHE=off` to disable); a script that reads a new input inside a cached unit must add it to that unit's key.
 
+## Cloudflare file limit and collective pages, 17 November 2026
+
+The Workers free plan accepts at most 20,000 static files per deploy; `pnpm assets:check` (last build step) fails above 18,000 (`ASSET_FILE_BUDGET`). Never add one generated file per prompt or per small record: Lista prompts are indexed one Pagefind record per period-table page, with each prompt a sub-result. Collective pages are published whole (owner decision): `pnpm publication select <id> --whole` publishes only the page item of a `split` proposal; `select-approved` never selects splits. `/design/b/` was removed.
+

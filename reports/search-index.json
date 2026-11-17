@@ -1,11 +1,12 @@
 {
   "passed": true,
-  "indexed": "Published reading texts, plus every Lista prompt as a record pointing at its row in the period table; source copies, compatibility previews and review data excluded",
+  "indexed": "Published reading texts, plus every Lista prompt as a sub-result of its period-table page pointing at its row; source copies, compatibility previews and review data excluded",
   "indexes": [
     {
       "lang": "it",
-      "count": 758,
+      "count": 794,
       "prompts": 7093,
+      "promptPages": 187,
       "entries": [
         {
           "url": "/works/napoleone-ii-deae9410/",
@@ -55,6 +56,13 @@
           "language": "it",
           "characters": 120419,
           "probe": "cosiddetto continente di Vaalbara (dalla regione sudafricana di"
+        },
+        {
+          "url": "/works/decameron-2020-be6df538/",
+          "title": "Decameron 2020",
+          "language": "it",
+          "characters": 112870,
+          "probe": "un'idea di William Riker Dedicato a tutto il"
         },
         {
           "url": "/works/padre-brown-papa-e1441890/",
@@ -125,6 +133,13 @@
           "language": "it",
           "characters": 38965,
           "probe": "rilevato da un vecchio e irascibile tedesco, un"
+        },
+        {
+          "url": "/works/teodoro-il-grande-fe4d1842/",
+          "title": "Teodoro il Grande",
+          "language": "it",
+          "characters": 214738,
+          "probe": "modernizzare il suo paese e a imporre il"
         },
         {
           "url": "/works/ynys-prydein-5a72e21a/",
@@ -344,6 +359,13 @@
           "probe": "esiste un Dio? La risposta è no…. almeno"
         },
         {
+          "url": "/works/stati-uniti-arabi-98b503c4/",
+          "title": "Stati Uniti Arabi",
+          "language": "it",
+          "characters": 72500,
+          "probe": "valle della Bekaa, ma non Tripoli, ne accetta"
+        },
+        {
           "url": "/works/tu-con-nu-nu-con-ti-40fa8dfa/",
           "title": "« Tu con nu, nu con ti! »",
           "language": "it",
@@ -428,6 +450,13 @@
           "probe": "va fino all'Adriatico) ed alla salvezza dell'Occidente anche"
         },
         {
+          "url": "/works/le-dodici-tribu-d-israele-7a18109f/",
+          "title": "Le Dodici Tribù d'Israele",
+          "language": "it",
+          "characters": 132594,
+          "probe": "Königsberg – La tribù Lemba – L'Unione Africana"
+        },
+        {
           "url": "/works/scambio-tra-islam-ed-europa-cristiana-99e65e9e/",
           "title": "Scambio tra Islam ed Europa Cristiana!",
           "language": "it",
@@ -440,6 +469,13 @@
           "language": "fr",
           "characters": 41937,
           "probe": "centre du monde. Ces informations je les ais"
+        },
+        {
+          "url": "/works/la-spaziale-commedia-fb9fda42/",
+          "title": "La Spaziale Commedia",
+          "language": "it",
+          "characters": 562441,
+          "probe": "XIV - XV - XVI - XVII -"
         },
         {
           "url": "/works/ucronie-sui-ladri-gentiluomini-f6d17cc6/",
@@ -715,11 +751,25 @@
           "probe": "noto che Maria José intraprese già nel '42"
         },
         {
+          "url": "/works/uai-uchronic-artificial-intelligence-801c0521/",
+          "title": "UAI (Uchronic Artificial Intelligence)",
+          "language": "it",
+          "characters": 37212,
+          "probe": "Colombo senza America - Gli smartphone ottocenteschi -"
+        },
+        {
           "url": "/works/l-impero-hatti-87ea4438/",
           "title": "L'Impero Hatti",
           "language": "it",
           "characters": 141771,
           "probe": "abbia costruito questo immenso complesso cultuale al confine"
+        },
+        {
+          "url": "/works/la-storia-disneificata-01d06b7c/",
+          "title": "La storia disneificata!",
+          "language": "it",
+          "characters": 126187,
+          "probe": "– Biancaneve in Ungheria – La Bella Addormentata"
         },
         {
           "url": "/works/l-impero-gotico-2dbae592/",
@@ -862,6 +912,13 @@
           "probe": "cui tutti i problemi del mondo si unirono"
         },
         {
+          "url": "/works/raccontini-fantascientifici-1d666bba/",
+          "title": "Raccontini... fantascientifici",
+          "language": "it",
+          "characters": 117395,
+          "probe": "Omnis, l'app tuttofare – Ettore Majorana nel 2018"
+        },
+        {
           "url": "/works/l-impero-di-andalusia-67ff2927/",
           "title": "L'impero di Andalusia",
           "language": "it",
@@ -881,6 +938,13 @@
           "language": "it",
           "characters": 128459,
           "probe": "di Napoleone a Waterloo. Gli autori di \"Focus"
+        },
+        {
+          "url": "/works/i-lituani-romani-c333d702/",
+          "title": "I Lituani... Romani",
+          "language": "it",
+          "characters": 142622,
+          "probe": "tale tesi, ma al contrario si pensa che"
         },
         {
           "url": "/works/la-siberia-indipendente-275ea29d/",
@@ -1233,6 +1297,13 @@
           "probe": "mentre questi ultimi hanno sempre sostenuto la tesi"
         },
         {
+          "url": "/works/e-un-lorenese-come-imperatore-4359aea3/",
+          "title": "E un Lorenese come Imperatore",
+          "language": "unknown",
+          "characters": 208099,
+          "probe": "intenzione di incoronare Imperatore suo fratello Goffredo il"
+        },
+        {
           "url": "/works/tato-ci-hai-stufato-364c41d3/",
           "title": "Tato, ci hai stufato!",
           "language": "it",
@@ -1331,11 +1402,25 @@
           "probe": "Galli), si ribella contro il predominio romano nella"
         },
         {
+          "url": "/works/amores-ucronici-7226e6df/",
+          "title": "« Amores » ucronici",
+          "language": "it",
+          "characters": 193954,
+          "probe": "– Padern Beisrudd e Brocca – Attila e"
+        },
+        {
           "url": "/works/la-grande-muraglia-romana-60faa70e/",
           "title": "La Grande Muraglia Romana",
           "language": "it",
           "characters": 159504,
           "probe": "permane unita fino al momento presente. Per ragioni"
+        },
+        {
+          "url": "/works/raccontini-fantascientifici-93f5155a/",
+          "title": "Raccontini... fantascientifici",
+          "language": "it",
+          "characters": 80104,
+          "probe": "a) Il capoufficio “Mi piace un sacco 'sto"
         },
         {
           "url": "/works/il-secondo-dopoguerra-1950-2000-3027a6b6/",
@@ -1378,6 +1463,13 @@
           "language": "it",
           "characters": 13837,
           "probe": "ostili, e di proteggere il confine settentrionale dagli"
+        },
+        {
+          "url": "/works/z-c-porta-jella-a438c6f5/",
+          "title": "Z.C. porta jella",
+          "language": "it",
+          "characters": 47093,
+          "probe": "novella… Presento a tutti voi la sfida che"
         },
         {
           "url": "/works/uchronie-nades-ou-sedan-renverse-e09c2ea0/",
@@ -1434,6 +1526,13 @@
           "language": "it",
           "characters": 10245,
           "probe": "osservatorio migliore della tv. In fondo con la"
+        },
+        {
+          "url": "/works/oltre-la-nebbia-del-primo-mattino-2ceb47df/",
+          "title": "Oltre la nebbia del primo mattino",
+          "language": "it",
+          "characters": 46531,
+          "probe": "blog che si occupa di short stories e"
         },
         {
           "url": "/works/capitolo-xvi-la-guerra-delle-montagne-antiche-seconda-parte-49539437/",
@@ -1499,6 +1598,13 @@
           "probe": "oltre che un grande condottiero anche un buon"
         },
         {
+          "url": "/works/racconti-e-poesie-9bdad33f/",
+          "title": "Racconti e poesie",
+          "language": "es",
+          "characters": 7705,
+          "probe": "ho mai pubblicato nulla di serio, tranne una"
+        },
+        {
           "url": "/works/la-grande-borgogna-aeb0281a/",
           "title": "La Grande Borgogna!",
           "language": "it",
@@ -1553,6 +1659,13 @@
           "language": "unknown",
           "characters": 948723,
           "probe": "con il genere ucronico, scrivendo alcuni spunti per"
+        },
+        {
+          "url": "/works/ucronie-della-prima-repubblica-f83fe1dc/",
+          "title": "Ucronie della Prima Repubblica",
+          "language": "unknown",
+          "characters": 180593,
+          "probe": "Segni – Pericolo scampato, Presidente! – Enrico Mattei"
         },
         {
           "url": "/works/la-belle-epoque-14ac3a19/",
@@ -2325,6 +2438,13 @@
           "probe": "il Cristianesimo alla preminenza nel mondo occidentale, mentre"
         },
         {
+          "url": "/works/i-nobel-prima-di-nobel-3e32492e/",
+          "title": "I Nobel prima di Nobel",
+          "language": "it",
+          "characters": 101964,
+          "probe": "assegnati anche nel XIX secolo? A chi sarebbero"
+        },
+        {
           "url": "/works/la-grande-casa-di-pietra-8a36337e/",
           "title": "La grande casa di pietra",
           "language": "unknown",
@@ -2358,6 +2478,13 @@
           "language": "fr",
           "characters": 57768,
           "probe": "de Richelieu, était cardinal de l’Eglise catholique, il"
+        },
+        {
+          "url": "/works/l-eredita-degli-unni-a87176cb/",
+          "title": "L'eredità degli Unni",
+          "language": "it",
+          "characters": 214227,
+          "probe": "più dibattuti della storiografia antica, perché le fonti"
         },
         {
           "url": "/works/lo-splendore-di-roma-in-atlantide-d24d471c/",
@@ -2477,6 +2604,13 @@
           "language": "unknown",
           "characters": 29453,
           "probe": "e nel 1948 dalla vittoria della Dc di"
+        },
+        {
+          "url": "/works/ucronie-diluviane-3e2d32a9/",
+          "title": "Ucronie Diluviane",
+          "language": "it",
+          "characters": 104279,
+          "probe": "il 2300 a.C. un enorme evento tellurico sommerge"
         },
         {
           "url": "/works/l-ucronia-di-akhenaten-a0f503fc/",
@@ -2829,6 +2963,13 @@
           "probe": "il soldato Antonelli. “Sentinella, all’erta!” “All’erta sto!” Dopo"
         },
         {
+          "url": "/works/raccontini-medioevali-77a596f4/",
+          "title": "Raccontini... medioevali",
+          "language": "it",
+          "characters": 105344,
+          "probe": "Boemondo – Il diario di Alessio Comneno –"
+        },
+        {
           "url": "/works/luigi-xix-re-di-francia-17325c34/",
           "title": "Luigi XIX Re di Francia",
           "language": "unknown",
@@ -3114,6 +3255,13 @@
           "language": "unknown",
           "characters": 51137,
           "probe": "che, essendo figlio di una principessa portoghese, rivendica"
+        },
+        {
+          "url": "/works/gli-ucronici-anni-2010-b14d70f5/",
+          "title": "Gli ucronici Anni 2010",
+          "language": "it",
+          "characters": 228092,
+          "probe": "fatta - Piccolo dizionario di parole fraintese -"
         },
         {
           "url": "/works/l-altra-costituzione-7dc33c20/",
@@ -3851,6 +3999,13 @@
           "probe": "tecniche della scure, delle prime forme di trasporto"
         },
         {
+          "url": "/works/eroi-ed-eroine-disney-nella-storia-07c4f282/",
+          "title": "Eroi ed eroine Disney nella Storia",
+          "language": "it",
+          "characters": 254299,
+          "probe": "in Dumnonia – Saludos Amigos e I Tre"
+        },
+        {
           "url": "/works/ucronie-eretiche-2e607b99/",
           "title": "Ucronie « eretiche »",
           "language": "it",
@@ -3891,6 +4046,13 @@
           "language": "it",
           "characters": 401185,
           "probe": "Moore School of Electrical Engineering dell'Università di Pennsylvania"
+        },
+        {
+          "url": "/works/ucronie-diluviane-716b9995/",
+          "title": "Ucronie Diluviane",
+          "language": "it",
+          "characters": 153765,
+          "probe": "il 2300 a.C. un enorme evento tellurico sommerge"
         },
         {
           "url": "/works/ucronii-in-milanes-0cbfdda3/",
@@ -3940,6 +4102,13 @@
           "language": "it",
           "characters": 152292,
           "probe": "Terzani da Torgiano. Il suo cognome deriva dal"
+        },
+        {
+          "url": "/works/ucronie-del-lontano-futuro-181f5b67/",
+          "title": "Ucronie del lontano futuro",
+          "language": "it",
+          "characters": 126377,
+          "probe": "– Deep Blue non muore mai – Terraformare"
         },
         {
           "url": "/divergences/tiberio-ii-be404a6e/",
@@ -4110,6 +4279,13 @@
           "probe": "grazie a l'immenso genio pratico dei romani, anche"
         },
         {
+          "url": "/works/l-eredita-degli-iperborei-41f56026/",
+          "title": "L'eredità degli Iperborei",
+          "language": "it",
+          "characters": 310443,
+          "probe": "il grifo;in tutte l’altre membra parea qualeera la"
+        },
+        {
           "url": "/works/crossover-nippo-robotico-81a1fd3f/",
           "title": "Crossover nippo-robotico!",
           "language": "unknown",
@@ -4236,6 +4412,13 @@
           "probe": "dello stato Pontificio (a tutta l'Italia per esempio"
         },
         {
+          "url": "/works/fantaletteratura-205976e9/",
+          "title": "FantaLetteratura!",
+          "language": "it",
+          "characters": 217161,
+          "probe": "Fisica dell'Inferno – La \"Pioggia nel Pineto\" di"
+        },
+        {
           "url": "/works/colombo-il-genovese-66515189/",
           "title": "Colombo il genovese",
           "language": "it",
@@ -4248,6 +4431,13 @@
           "language": "it",
           "characters": 86561,
           "probe": "Webmaster William Riker: Qualcuno di voi vuole proporre"
+        },
+        {
+          "url": "/works/ucronie-paleocristiane-3ee7d813/",
+          "title": "Ucronie Paleocristiane",
+          "language": "it",
+          "characters": 87163,
+          "probe": "NASCE AVANTI SE STESSO PNPerchè No?Variante Questa è"
         },
         {
           "url": "/works/roma-e-la-cometa-e415e729/",
@@ -4467,6 +4657,13 @@
           "probe": "numerosi spunti con esiti diversi; inoltre si potrebbe"
         },
         {
+          "url": "/works/l-eredita-di-roma-064ed06c/",
+          "title": "L'eredità di Roma",
+          "language": "unknown",
+          "characters": 278972,
+          "probe": "– Serbia – Dacia – Monaco – Cambogia"
+        },
+        {
           "url": "/works/genealogia-di-gian-carlo-i-re-d-italia-4580cabe/",
           "title": "Genealogia di Gian Carlo I, Re d'Italia",
           "language": "unknown",
@@ -4565,6 +4762,13 @@
           "probe": "che stimola Caos a generare a sua volta"
         },
         {
+          "url": "/works/inghilterra-celto-vichinga-37c5e1cc/",
+          "title": "Inghilterra celto-vichinga",
+          "language": "it",
+          "characters": 170258,
+          "probe": "Northumbria dopo il 616. Al momento delle invasioni"
+        },
+        {
           "url": "/works/baldovino-iv-il-grande-8199571b/",
           "title": "Baldovino IV il Grande",
           "language": "it",
@@ -4593,6 +4797,13 @@
           "probe": "entrassero? Antefatti 1940: la guerra prende una svolta"
         },
         {
+          "url": "/works/i-merovingi-eterni-55049d27/",
+          "title": "I Merovingi eterni",
+          "language": "unknown",
+          "characters": 67913,
+          "probe": "merovingia, ma ho introdotto un POD che rende"
+        },
+        {
           "url": "/works/the-american-century-9ad94428/",
           "title": "The American Century",
           "language": "it",
@@ -4605,6 +4816,13 @@
           "language": "it",
           "characters": 46384,
           "probe": "a.C.: Battaglia di Gergovia. I Romani sconfiggono gli"
+        },
+        {
+          "url": "/works/come-evitare-una-guerra-mondiale-3c0fa47d/",
+          "title": "Come evitare una guerra mondiale",
+          "language": "it",
+          "characters": 194646,
+          "probe": "Domanda oziosa diranno in parecchi; certo che è"
         },
         {
           "url": "/works/senza-il-25-aprile-ae3335b7/",
@@ -4647,6 +4865,13 @@
           "language": "it",
           "characters": 30612,
           "probe": "Questo interesse si è nel tempo rafforzato, spronandomi"
+        },
+        {
+          "url": "/works/misteri-o-no-d-italia-9c0ba63d/",
+          "title": "Misteri (o no?!?) d'Italia",
+          "language": "unknown",
+          "characters": 129219,
+          "probe": "l'annunciato disastro del Vajont ne \"La (smantellata) diga"
         },
         {
           "url": "/works/la-guerra-e-vinta-dagli-imperi-centrali-di-gabriele-ea40f6f6/",
@@ -4703,6 +4928,13 @@
           "language": "unknown",
           "characters": 2886,
           "probe": "risolveva un problema, ne apparisse un altro.Suo padre,"
+        },
+        {
+          "url": "/works/piccolo-e-bello-f9e886eb/",
+          "title": "Piccolo è bello",
+          "language": "it",
+          "characters": 143696,
+          "probe": "Senarica – Regno di Tavolara – Regno di"
         },
         {
           "url": "/works/carausio-primo-re-della-britannia-romana-4c6a0882/",
@@ -4815,6 +5047,13 @@
           "language": "unknown",
           "characters": 47215,
           "probe": "anni '50, tanto da spaventare la DC in"
+        },
+        {
+          "url": "/works/anno-7-c5de360e/",
+          "title": "Anno 7",
+          "language": "it",
+          "characters": 127666,
+          "probe": "- 19 - 20 - 21 Capitolo 1"
         },
         {
           "url": "/works/la-donaukonfoderation-bcf8e078/",
@@ -4948,6 +5187,13 @@
           "language": "it",
           "characters": 137433,
           "probe": "una schermaglia in una serie di guerre secolari"
+        },
+        {
+          "url": "/works/raccontini-che-fanno-pensare-82a1743a/",
+          "title": "Raccontini che fanno pensare",
+          "language": "it",
+          "characters": 49158,
+          "probe": "di Socrate – Il Paradiso e l'Inferno –"
         },
         {
           "url": "/works/la-civilta-isocronica-cdd67349/",
@@ -5153,6 +5399,13 @@
           "probe": "Veio in mani romane (396 a.C.). Questi tre"
         },
         {
+          "url": "/works/raccontini-horror-924d5454/",
+          "title": "Raccontini horror",
+          "language": "it",
+          "characters": 100243,
+          "probe": "di un'epidemia zombie? Il prete fantasmadi Filobeche La"
+        },
+        {
           "url": "/works/la-civilta-greca-nel-mar-baltico-f0725754/",
           "title": "La civiltà greca nel Mar Baltico!",
           "language": "it",
@@ -5317,8 +5570,9 @@
     },
     {
       "lang": "en",
-      "count": 758,
+      "count": 794,
       "prompts": 7093,
+      "promptPages": 187,
       "entries": [
         {
           "url": "/en/works/napoleone-ii-deae9410/",
@@ -5368,6 +5622,13 @@
           "language": "it",
           "characters": 120422,
           "probe": "al cosiddetto continente di Vaalbara (dalla regione sudafricana"
+        },
+        {
+          "url": "/en/works/decameron-2020-be6df538/",
+          "title": "Decameron 2020",
+          "language": "it",
+          "characters": 112869,
+          "probe": "un'idea di William Riker Dedicato a tutto il"
         },
         {
           "url": "/en/works/padre-brown-papa-e1441890/",
@@ -5438,6 +5699,13 @@
           "language": "it",
           "characters": 38946,
           "probe": "rilevato da un vecchio e irascibile tedesco, un"
+        },
+        {
+          "url": "/en/works/teodoro-il-grande-fe4d1842/",
+          "title": "Teodoro il Grande",
+          "language": "it",
+          "characters": 214672,
+          "probe": "modernizzare il suo paese e a imporre il"
         },
         {
           "url": "/en/works/ynys-prydein-5a72e21a/",
@@ -5657,6 +5925,13 @@
           "probe": "esiste un Dio? La risposta è no…. almeno"
         },
         {
+          "url": "/en/works/stati-uniti-arabi-98b503c4/",
+          "title": "Stati Uniti Arabi",
+          "language": "it",
+          "characters": 72462,
+          "probe": "valle della Bekaa, ma non Tripoli, ne accetta"
+        },
+        {
           "url": "/en/works/tu-con-nu-nu-con-ti-40fa8dfa/",
           "title": "« Tu con nu, nu con ti! »",
           "language": "it",
@@ -5741,6 +6016,13 @@
           "probe": "d'Oro va fino all'Adriatico) ed alla salvezza dell'Occidente"
         },
         {
+          "url": "/en/works/le-dodici-tribu-d-israele-7a18109f/",
+          "title": "Le Dodici Tribù d'Israele",
+          "language": "it",
+          "characters": 132591,
+          "probe": "Königsberg – La tribù Lemba – L'Unione Africana"
+        },
+        {
           "url": "/en/works/scambio-tra-islam-ed-europa-cristiana-99e65e9e/",
           "title": "Scambio tra Islam ed Europa Cristiana!",
           "language": "it",
@@ -5753,6 +6035,13 @@
           "language": "fr",
           "characters": 41935,
           "probe": "centre du monde. Ces informations je les ais"
+        },
+        {
+          "url": "/en/works/la-spaziale-commedia-fb9fda42/",
+          "title": "La Spaziale Commedia",
+          "language": "it",
+          "characters": 562440,
+          "probe": "XIV - XV - XVI - XVII -"
         },
         {
           "url": "/en/works/ucronie-sui-ladri-gentiluomini-f6d17cc6/",
@@ -6028,11 +6317,25 @@
           "probe": "È noto che Maria José intraprese già nel"
         },
         {
+          "url": "/en/works/uai-uchronic-artificial-intelligence-801c0521/",
+          "title": "UAI (Uchronic Artificial Intelligence)",
+          "language": "it",
+          "characters": 37207,
+          "probe": "Colombo senza America - Gli smartphone ottocenteschi -"
+        },
+        {
           "url": "/en/works/l-impero-hatti-87ea4438/",
           "title": "L'Impero Hatti",
           "language": "it",
           "characters": 141774,
           "probe": "chi abbia costruito questo immenso complesso cultuale al"
+        },
+        {
+          "url": "/en/works/la-storia-disneificata-01d06b7c/",
+          "title": "La storia disneificata!",
+          "language": "it",
+          "characters": 126169,
+          "probe": "– Biancaneve in Ungheria – La Bella Addormentata"
         },
         {
           "url": "/en/works/l-impero-gotico-2dbae592/",
@@ -6175,6 +6478,13 @@
           "probe": "cui tutti i problemi del mondo si unirono"
         },
         {
+          "url": "/en/works/raccontini-fantascientifici-1d666bba/",
+          "title": "Raccontini... fantascientifici",
+          "language": "it",
+          "characters": 117365,
+          "probe": "Omnis, l'app tuttofare – Ettore Majorana nel 2018"
+        },
+        {
           "url": "/en/works/l-impero-di-andalusia-67ff2927/",
           "title": "L'impero di Andalusia",
           "language": "it",
@@ -6194,6 +6504,13 @@
           "language": "it",
           "characters": 128457,
           "probe": "di Napoleone a Waterloo. Gli autori di \"Focus"
+        },
+        {
+          "url": "/en/works/i-lituani-romani-c333d702/",
+          "title": "I Lituani... Romani",
+          "language": "it",
+          "characters": 142574,
+          "probe": "tale tesi, ma al contrario si pensa che"
         },
         {
           "url": "/en/works/la-siberia-indipendente-275ea29d/",
@@ -6546,6 +6863,13 @@
           "probe": "revisionisti, mentre questi ultimi hanno sempre sostenuto la"
         },
         {
+          "url": "/en/works/e-un-lorenese-come-imperatore-4359aea3/",
+          "title": "E un Lorenese come Imperatore",
+          "language": "unknown",
+          "characters": 208062,
+          "probe": "aveva intenzione di incoronare Imperatore suo fratello Goffredo"
+        },
+        {
           "url": "/en/works/tato-ci-hai-stufato-364c41d3/",
           "title": "Tato, ci hai stufato!",
           "language": "it",
@@ -6644,11 +6968,25 @@
           "probe": "Galli), si ribella contro il predominio romano nella"
         },
         {
+          "url": "/en/works/amores-ucronici-7226e6df/",
+          "title": "« Amores » ucronici",
+          "language": "it",
+          "characters": 193886,
+          "probe": "– Padern Beisrudd e Brocca – Attila e"
+        },
+        {
           "url": "/en/works/la-grande-muraglia-romana-60faa70e/",
           "title": "La Grande Muraglia Romana",
           "language": "it",
           "characters": 159507,
           "probe": "caso permane unita fino al momento presente. Per"
+        },
+        {
+          "url": "/en/works/raccontini-fantascientifici-93f5155a/",
+          "title": "Raccontini... fantascientifici",
+          "language": "it",
+          "characters": 80082,
+          "probe": "a) Il capoufficio “Mi piace un sacco 'sto"
         },
         {
           "url": "/en/works/il-secondo-dopoguerra-1950-2000-3027a6b6/",
@@ -6691,6 +7029,13 @@
           "language": "it",
           "characters": 13835,
           "probe": "ostili, e di proteggere il confine settentrionale dagli"
+        },
+        {
+          "url": "/en/works/z-c-porta-jella-a438c6f5/",
+          "title": "Z.C. porta jella",
+          "language": "it",
+          "characters": 47089,
+          "probe": "Una novella… Presento a tutti voi la sfida"
         },
         {
           "url": "/en/works/uchronie-nades-ou-sedan-renverse-e09c2ea0/",
@@ -6747,6 +7092,13 @@
           "language": "it",
           "characters": 10243,
           "probe": "osservatorio migliore della tv. In fondo con la"
+        },
+        {
+          "url": "/en/works/oltre-la-nebbia-del-primo-mattino-2ceb47df/",
+          "title": "Oltre la nebbia del primo mattino",
+          "language": "it",
+          "characters": 46530,
+          "probe": "blog che si occupa di short stories e"
         },
         {
           "url": "/en/works/capitolo-xvi-la-guerra-delle-montagne-antiche-seconda-parte-49539437/",
@@ -6812,6 +7164,13 @@
           "probe": "dimostrò oltre che un grande condottiero anche un"
         },
         {
+          "url": "/en/works/racconti-e-poesie-9bdad33f/",
+          "title": "Racconti e poesie",
+          "language": "es",
+          "characters": 7704,
+          "probe": "ho mai pubblicato nulla di serio, tranne una"
+        },
+        {
           "url": "/en/works/la-grande-borgogna-aeb0281a/",
           "title": "La Grande Borgogna!",
           "language": "it",
@@ -6866,6 +7225,13 @@
           "language": "unknown",
           "characters": 948723,
           "probe": "con il genere ucronico, scrivendo alcuni spunti per"
+        },
+        {
+          "url": "/en/works/ucronie-della-prima-repubblica-f83fe1dc/",
+          "title": "Ucronie della Prima Repubblica",
+          "language": "unknown",
+          "characters": 180524,
+          "probe": "Segni – Pericolo scampato, Presidente! – Enrico Mattei"
         },
         {
           "url": "/en/works/la-belle-epoque-14ac3a19/",
@@ -7638,6 +8004,13 @@
           "probe": "il Cristianesimo alla preminenza nel mondo occidentale, mentre"
         },
         {
+          "url": "/en/works/i-nobel-prima-di-nobel-3e32492e/",
+          "title": "I Nobel prima di Nobel",
+          "language": "it",
+          "characters": 101939,
+          "probe": "assegnati anche nel XIX secolo? A chi sarebbero"
+        },
+        {
           "url": "/en/works/la-grande-casa-di-pietra-8a36337e/",
           "title": "La grande casa di pietra",
           "language": "unknown",
@@ -7671,6 +8044,13 @@
           "language": "fr",
           "characters": 57761,
           "probe": "nom de Richelieu, était cardinal de l’Eglise catholique,"
+        },
+        {
+          "url": "/en/works/l-eredita-degli-unni-a87176cb/",
+          "title": "L'eredità degli Unni",
+          "language": "it",
+          "characters": 214125,
+          "probe": "più dibattuti della storiografia antica, perché le fonti"
         },
         {
           "url": "/en/works/lo-splendore-di-roma-in-atlantide-d24d471c/",
@@ -7790,6 +8170,13 @@
           "language": "unknown",
           "characters": 29422,
           "probe": "Turati) e nel 1948 dalla vittoria della Dc"
+        },
+        {
+          "url": "/en/works/ucronie-diluviane-3e2d32a9/",
+          "title": "Ucronie Diluviane",
+          "language": "it",
+          "characters": 104241,
+          "probe": "il 2300 a.C. un enorme evento tellurico sommerge"
         },
         {
           "url": "/en/works/l-ucronia-di-akhenaten-a0f503fc/",
@@ -8142,6 +8529,13 @@
           "probe": "il soldato Antonelli. “Sentinella, all’erta!” “All’erta sto!” Dopo"
         },
         {
+          "url": "/en/works/raccontini-medioevali-77a596f4/",
+          "title": "Raccontini... medioevali",
+          "language": "it",
+          "characters": 105320,
+          "probe": "Boemondo – Il diario di Alessio Comneno –"
+        },
+        {
           "url": "/en/works/luigi-xix-re-di-francia-17325c34/",
           "title": "Luigi XIX Re di Francia",
           "language": "unknown",
@@ -8427,6 +8821,13 @@
           "language": "unknown",
           "characters": 51140,
           "probe": "Spagna che, essendo figlio di una principessa portoghese,"
+        },
+        {
+          "url": "/en/works/gli-ucronici-anni-2010-b14d70f5/",
+          "title": "Gli ucronici Anni 2010",
+          "language": "it",
+          "characters": 227991,
+          "probe": "fatta - Piccolo dizionario di parole fraintese -"
         },
         {
           "url": "/en/works/l-altra-costituzione-7dc33c20/",
@@ -9164,6 +9565,13 @@
           "probe": "tecniche della scure, delle prime forme di trasporto"
         },
         {
+          "url": "/en/works/eroi-ed-eroine-disney-nella-storia-07c4f282/",
+          "title": "Eroi ed eroine Disney nella Storia",
+          "language": "it",
+          "characters": 254265,
+          "probe": "in Dumnonia – Saludos Amigos e I Tre"
+        },
+        {
           "url": "/en/works/ucronie-eretiche-2e607b99/",
           "title": "Ucronie « eretiche »",
           "language": "it",
@@ -9204,6 +9612,13 @@
           "language": "it",
           "characters": 401183,
           "probe": "Moore School of Electrical Engineering dell'Università di Pennsylvania"
+        },
+        {
+          "url": "/en/works/ucronie-diluviane-716b9995/",
+          "title": "Ucronie Diluviane",
+          "language": "it",
+          "characters": 153687,
+          "probe": "il 2300 a.C. un enorme evento tellurico sommerge"
         },
         {
           "url": "/en/works/ucronii-in-milanes-0cbfdda3/",
@@ -9253,6 +9668,13 @@
           "language": "it",
           "characters": 152290,
           "probe": "Terzani da Torgiano. Il suo cognome deriva dal"
+        },
+        {
+          "url": "/en/works/ucronie-del-lontano-futuro-181f5b67/",
+          "title": "Ucronie del lontano futuro",
+          "language": "it",
+          "characters": 126335,
+          "probe": "– Deep Blue non muore mai – Terraformare"
         },
         {
           "url": "/en/divergences/tiberio-ii-be404a6e/",
@@ -9423,6 +9845,13 @@
           "probe": "possibile grazie a l'immenso genio pratico dei romani,"
         },
         {
+          "url": "/en/works/l-eredita-degli-iperborei-41f56026/",
+          "title": "L'eredità degli Iperborei",
+          "language": "it",
+          "characters": 310442,
+          "probe": "il grifo;in tutte l’altre membra parea qualeera la"
+        },
+        {
           "url": "/en/works/crossover-nippo-robotico-81a1fd3f/",
           "title": "Crossover nippo-robotico!",
           "language": "unknown",
@@ -9549,6 +9978,13 @@
           "probe": "dello stato Pontificio (a tutta l'Italia per esempio"
         },
         {
+          "url": "/en/works/fantaletteratura-205976e9/",
+          "title": "FantaLetteratura!",
+          "language": "it",
+          "characters": 217112,
+          "probe": "Fisica dell'Inferno – La \"Pioggia nel Pineto\" di"
+        },
+        {
           "url": "/en/works/colombo-il-genovese-66515189/",
           "title": "Colombo il genovese",
           "language": "it",
@@ -9561,6 +9997,13 @@
           "language": "it",
           "characters": 86512,
           "probe": "nostro Webmaster William Riker: Qualcuno di voi vuole"
+        },
+        {
+          "url": "/en/works/ucronie-paleocristiane-3ee7d813/",
+          "title": "Ucronie Paleocristiane",
+          "language": "it",
+          "characters": 87078,
+          "probe": "NASCE AVANTI SE STESSO PNPerchè No?Variant Questa è"
         },
         {
           "url": "/en/works/roma-e-la-cometa-e415e729/",
@@ -9780,6 +10223,13 @@
           "probe": "numerosi spunti con esiti diversi; inoltre si potrebbe"
         },
         {
+          "url": "/en/works/l-eredita-di-roma-064ed06c/",
+          "title": "L'eredità di Roma",
+          "language": "unknown",
+          "characters": 278971,
+          "probe": "– Serbia – Dacia – Monaco – Cambogia"
+        },
+        {
           "url": "/en/works/genealogia-di-gian-carlo-i-re-d-italia-4580cabe/",
           "title": "Genealogia di Gian Carlo I, Re d'Italia",
           "language": "unknown",
@@ -9878,6 +10328,13 @@
           "probe": "generatrice, che stimola Caos a generare a sua"
         },
         {
+          "url": "/en/works/inghilterra-celto-vichinga-37c5e1cc/",
+          "title": "Inghilterra celto-vichinga",
+          "language": "it",
+          "characters": 170170,
+          "probe": "Northumbria dopo il 616. Al momento delle invasioni"
+        },
+        {
           "url": "/en/works/baldovino-iv-il-grande-8199571b/",
           "title": "Baldovino IV il Grande",
           "language": "it",
@@ -9906,6 +10363,13 @@
           "probe": "se entrassero? Antefatti 1940: la guerra prende una"
         },
         {
+          "url": "/en/works/i-merovingi-eterni-55049d27/",
+          "title": "I Merovingi eterni",
+          "language": "unknown",
+          "characters": 67912,
+          "probe": "merovingia, ma ho introdotto un POD che rende"
+        },
+        {
           "url": "/en/works/the-american-century-9ad94428/",
           "title": "The American Century",
           "language": "it",
@@ -9918,6 +10382,13 @@
           "language": "it",
           "characters": 46370,
           "probe": "56 a.C.: Battaglia di Gergovia. I Romani sconfiggono"
+        },
+        {
+          "url": "/en/works/come-evitare-una-guerra-mondiale-3c0fa47d/",
+          "title": "Come evitare una guerra mondiale",
+          "language": "it",
+          "characters": 194515,
+          "probe": "Domanda oziosa diranno in parecchi; certo che è"
         },
         {
           "url": "/en/works/senza-il-25-aprile-ae3335b7/",
@@ -9960,6 +10431,13 @@
           "language": "it",
           "characters": 30610,
           "probe": "Questo interesse si è nel tempo rafforzato, spronandomi"
+        },
+        {
+          "url": "/en/works/misteri-o-no-d-italia-9c0ba63d/",
+          "title": "Misteri (o no?!?) d'Italia",
+          "language": "unknown",
+          "characters": 129214,
+          "probe": "l'annunciato disastro del Vajont ne \"La (smantellata) diga"
         },
         {
           "url": "/en/works/la-guerra-e-vinta-dagli-imperi-centrali-di-gabriele-ea40f6f6/",
@@ -10016,6 +10494,13 @@
           "language": "unknown",
           "characters": 2884,
           "probe": "risolveva un problema, ne apparisse un altro.Suo padre,"
+        },
+        {
+          "url": "/en/works/piccolo-e-bello-f9e886eb/",
+          "title": "Piccolo è bello",
+          "language": "it",
+          "characters": 143695,
+          "probe": "Senarica – Regno di Tavolara – Regno di"
         },
         {
           "url": "/en/works/carausio-primo-re-della-britannia-romana-4c6a0882/",
@@ -10128,6 +10613,13 @@
           "language": "unknown",
           "characters": 47187,
           "probe": "primi anni '50, tanto da spaventare la DC"
+        },
+        {
+          "url": "/en/works/anno-7-c5de360e/",
+          "title": "Anno 7",
+          "language": "it",
+          "characters": 127665,
+          "probe": "- 19 - 20 - 21 Capitolo 1"
         },
         {
           "url": "/en/works/la-donaukonfoderation-bcf8e078/",
@@ -10261,6 +10753,13 @@
           "language": "it",
           "characters": 137334,
           "probe": "solo una schermaglia in una serie di guerre"
+        },
+        {
+          "url": "/en/works/raccontini-che-fanno-pensare-82a1743a/",
+          "title": "Raccontini che fanno pensare",
+          "language": "it",
+          "characters": 49153,
+          "probe": "di Socrate – Il Paradiso e l'Inferno –"
         },
         {
           "url": "/en/works/la-civilta-isocronica-cdd67349/",
@@ -10464,6 +10963,13 @@
           "language": "it",
           "characters": 38532,
           "probe": "di Veio in mani romane (396 a.C.). Questi"
+        },
+        {
+          "url": "/en/works/raccontini-horror-924d5454/",
+          "title": "Raccontini horror",
+          "language": "it",
+          "characters": 100226,
+          "probe": "di un'epidemia zombie? Il prete fantasmadi Filobeche La"
         },
         {
           "url": "/en/works/la-civilta-greca-nel-mar-baltico-f0725754/",

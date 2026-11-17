@@ -309,3 +309,7 @@ Owner decision: the 225 recovered PDFs and 103 zip archives are converted to Mar
 
 The 19 Lista pages split into 7,093 one-paragraph prompts, each with its own `/divergences/<slug>` page. The owner decided not to publish them that way: the same text is already readable in full in the period indexes under `/divergences/`, and 7,000 more pages would multiply the site, the search index and the CI build time by ten. Instead every prompt is a Pagefind record pointing at its row in the period table, with a "works / prompts" filter on `/search/`. The 19 split proposals are recorded as deferred with this reason, so the blanket publication approval never selects them. Canonical reading editions remain the ~755 works; the divergence level keeps its schema for prompts that may later deserve a page.
 
+## Collective pages whole; Cloudflare file limit, 17 November 2026
+
+Owner decision: collective pages stay whole, with their contributions visibly traceable in the page. A split proposal holds the whole page plus its pieces, which always overlap, so none had been publishable: 36 collective pages were not on the site at all. They are now published whole through an explicit `whole` edition of the selection; every piece keeps its title, anchor and outline entry. The first deploy of the full edition failed on Cloudflare's free limit of 20,000 static files (30,827): 14,000 came from one search record per Lista prompt. Prompts are now indexed per period-table page, with one sub-result per prompt, and the build fails above 18,000 files.
+

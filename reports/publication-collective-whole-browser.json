@@ -1,0 +1,873 @@
+{
+  "date": "2026-11-17",
+  "routes": 36,
+  "cases": 108,
+  "failing": [],
+  "passed": true,
+  "layouts": [
+    {
+      "path": "/works/la-storia-disneificata-01d06b7c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-eredita-di-roma-064ed06c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/eroi-ed-eroine-disney-nella-storia-07c4f282/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-del-lontano-futuro-181f5b67/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-fantascientifici-1d666bba/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/fantaletteratura-205976e9/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/oltre-la-nebbia-del-primo-mattino-2ceb47df/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/inghilterra-celto-vichinga-37c5e1cc/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/come-evitare-una-guerra-mondiale-3c0fa47d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-diluviane-3e2d32a9/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-nobel-prima-di-nobel-3e32492e/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-paleocristiane-3ee7d813/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-eredita-degli-iperborei-41f56026/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/e-un-lorenese-come-imperatore-4359aea3/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-merovingi-eterni-55049d27/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-diluviane-716b9995/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/amores-ucronici-7226e6df/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-medioevali-77a596f4/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/le-dodici-tribu-d-israele-7a18109f/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uai-uchronic-artificial-intelligence-801c0521/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-che-fanno-pensare-82a1743a/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-horror-924d5454/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-fantascientifici-93f5155a/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/stati-uniti-arabi-98b503c4/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/racconti-e-poesie-9bdad33f/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/misteri-o-no-d-italia-9c0ba63d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/z-c-porta-jella-a438c6f5/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-eredita-degli-unni-a87176cb/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/gli-ucronici-anni-2010-b14d70f5/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/decameron-2020-be6df538/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-lituani-romani-c333d702/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/anno-7-c5de360e/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-della-prima-repubblica-f83fe1dc/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/piccolo-e-bello-f9e886eb/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-spaziale-commedia-fb9fda42/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/teodoro-il-grande-fe4d1842/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-storia-disneificata-01d06b7c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-eredita-di-roma-064ed06c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/eroi-ed-eroine-disney-nella-storia-07c4f282/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-del-lontano-futuro-181f5b67/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-fantascientifici-1d666bba/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/fantaletteratura-205976e9/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/oltre-la-nebbia-del-primo-mattino-2ceb47df/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/inghilterra-celto-vichinga-37c5e1cc/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/come-evitare-una-guerra-mondiale-3c0fa47d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-diluviane-3e2d32a9/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-nobel-prima-di-nobel-3e32492e/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-paleocristiane-3ee7d813/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-eredita-degli-iperborei-41f56026/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/e-un-lorenese-come-imperatore-4359aea3/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-merovingi-eterni-55049d27/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-diluviane-716b9995/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/amores-ucronici-7226e6df/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-medioevali-77a596f4/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/le-dodici-tribu-d-israele-7a18109f/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uai-uchronic-artificial-intelligence-801c0521/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-che-fanno-pensare-82a1743a/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-horror-924d5454/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-fantascientifici-93f5155a/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/stati-uniti-arabi-98b503c4/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/racconti-e-poesie-9bdad33f/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/misteri-o-no-d-italia-9c0ba63d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/z-c-porta-jella-a438c6f5/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-eredita-degli-unni-a87176cb/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/gli-ucronici-anni-2010-b14d70f5/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/decameron-2020-be6df538/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-lituani-romani-c333d702/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/anno-7-c5de360e/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-della-prima-repubblica-f83fe1dc/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/piccolo-e-bello-f9e886eb/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-spaziale-commedia-fb9fda42/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/teodoro-il-grande-fe4d1842/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-storia-disneificata-01d06b7c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-eredita-di-roma-064ed06c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/eroi-ed-eroine-disney-nella-storia-07c4f282/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-del-lontano-futuro-181f5b67/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-fantascientifici-1d666bba/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/fantaletteratura-205976e9/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/oltre-la-nebbia-del-primo-mattino-2ceb47df/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/inghilterra-celto-vichinga-37c5e1cc/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/come-evitare-una-guerra-mondiale-3c0fa47d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-diluviane-3e2d32a9/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-nobel-prima-di-nobel-3e32492e/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-paleocristiane-3ee7d813/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-eredita-degli-iperborei-41f56026/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/e-un-lorenese-come-imperatore-4359aea3/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-merovingi-eterni-55049d27/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-diluviane-716b9995/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/amores-ucronici-7226e6df/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-medioevali-77a596f4/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/le-dodici-tribu-d-israele-7a18109f/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uai-uchronic-artificial-intelligence-801c0521/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-che-fanno-pensare-82a1743a/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-horror-924d5454/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/raccontini-fantascientifici-93f5155a/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/stati-uniti-arabi-98b503c4/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/racconti-e-poesie-9bdad33f/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/misteri-o-no-d-italia-9c0ba63d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/z-c-porta-jella-a438c6f5/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-eredita-degli-unni-a87176cb/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/gli-ucronici-anni-2010-b14d70f5/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/decameron-2020-be6df538/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-lituani-romani-c333d702/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/anno-7-c5de360e/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ucronie-della-prima-repubblica-f83fe1dc/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/piccolo-e-bello-f9e886eb/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-spaziale-commedia-fb9fda42/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/teodoro-il-grande-fe4d1842/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    }
+  ]
+}

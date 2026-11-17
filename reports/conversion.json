@@ -245,6 +245,43 @@
     }
   },
   {
+    "slug": "decameron-2020-be6df538",
+    "path": "/works/decameron-2020-be6df538/",
+    "editorialId": "item-03134069469e",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Decameron2020.htm",
+    "sources": [
+      {
+        "documentId": "doc-be6df5384c4a",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/Decameron2020.htm",
+        "timestamp": "20210411110303",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Decameron 2020",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Decameron2020.htm",
+        "text": [
+          "Torna indietro",
+          "Per farci sapere che ne pensate di questo \"Decameron 2020\", scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-e43d0bb0ae15",
+      "gap-20d4526b9150"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "padre-brown-papa-e1441890",
     "path": "/works/padre-brown-papa-e1441890/",
     "editorialId": "item-031caa759c54",
@@ -588,6 +625,59 @@
     }
   },
   {
+    "slug": "teodoro-il-grande-fe4d1842",
+    "path": "/works/teodoro-il-grande-fe4d1842/",
+    "editorialId": "item-08fc5385eee0",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Teodoro.htm",
+    "sources": [
+      {
+        "documentId": "doc-fe4d1842dcee",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Teodoro.htm",
+        "timestamp": "20261016101240",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Teodoro il Grande",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Teodoro.htm",
+        "text": [
+          "Torna indietro",
+          "Per farmi sapere che ne pensate, scrivetemi a questo indirizzo.",
+          "Se volete contribuire alla discussione, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-535b3abc5260",
+      "gap-260f1983d182",
+      "gap-6c6d8df7daad",
+      "gap-ac330aae52a2",
+      "gap-bb272ce36f1e",
+      "gap-e49338f93741",
+      "gap-87448d3eb272",
+      "gap-5ebe8f53a976",
+      "gap-bbc18e970c55",
+      "gap-c945c0ef0542",
+      "gap-ab72f149be5e",
+      "gap-6e73d43fb179",
+      "gap-0efd94a871b1",
+      "gap-6bdfae65c2c6",
+      "gap-afecc8be0e54",
+      "gap-6534fa7ea591",
+      "gap-1a12da42cb86"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "ynys-prydein-5a72e21a",
     "path": "/works/ynys-prydein-5a72e21a/",
     "editorialId": "item-0a23bdfcf9e2",
@@ -786,10 +876,7 @@
         ]
       }
     ],
-    "gaps": [
-      "gap-535191c88bb2",
-      "gap-2a9801b90cb1"
-    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -1655,8 +1742,59 @@
       }
     ],
     "gaps": [
-      "gap-2f1a29f76da9",
-      "gap-2dcacec8c1e7"
+      "gap-2f1a29f76da9"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "stati-uniti-arabi-98b503c4",
+    "path": "/works/stati-uniti-arabi-98b503c4/",
+    "editorialId": "item-133d2c8e866f",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/stati_uniti_arabi.htm",
+    "sources": [
+      {
+        "documentId": "doc-98b503c469e3",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/stati_uniti_arabi.htm",
+        "timestamp": "20261016101301",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Stati Uniti Arabi",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/stati_uniti_arabi.htm",
+        "text": [
+          "Torna indietro",
+          "Come continuarla? Se avete suggerimenti, scrivetemi a questo indirizzo.",
+          "Per farci sapere che ne pensate di queste ucronie, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-a03855a86f5a",
+      "gap-defb26b8dc1b",
+      "gap-d6283b797e5a",
+      "gap-c4b6a5700bb5",
+      "gap-337a7121c765",
+      "gap-480be814af1e",
+      "gap-65ffe1ccad7c",
+      "gap-711fb5ca0679",
+      "gap-7f6201e93ba2",
+      "gap-377b7ab9178b",
+      "gap-2b504e70d1df",
+      "gap-2a7fdd41a98c",
+      "gap-bd21193e7fe1",
+      "gap-51e22f4961e2",
+      "gap-dc27da320f58",
+      "gap-fdb69e1ad7ed"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -2076,6 +2214,42 @@
     }
   },
   {
+    "slug": "le-dodici-tribu-d-israele-7a18109f",
+    "path": "/works/le-dodici-tribu-d-israele-7a18109f/",
+    "editorialId": "item-15c225bb15da",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Dodici_Tribu.htm",
+    "sources": [
+      {
+        "documentId": "doc-7a18109f1ffd",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Dodici_Tribu.htm",
+        "timestamp": "20260416225443",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Le Dodici Tribù d'Israele",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Dodici_Tribu.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-c1a709c0da08"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "scambio-tra-islam-ed-europa-cristiana-99e65e9e",
     "path": "/works/scambio-tra-islam-ed-europa-cristiana-99e65e9e/",
     "editorialId": "item-16144c784d52",
@@ -2138,6 +2312,93 @@
       }
     ],
     "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "la-spaziale-commedia-fb9fda42",
+    "path": "/works/la-spaziale-commedia-fb9fda42/",
+    "editorialId": "item-163ddd4b312a",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Dante33.htm",
+    "sources": [
+      {
+        "documentId": "doc-fb9fda42bf6c",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Dante33.htm",
+        "timestamp": "20210305220418",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "La Spaziale Commedia",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Dante33.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete fornirmi suggerimenti o commenti, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-94661c07b7a9",
+      "gap-74a769989955",
+      "gap-f0a3ca92073a",
+      "gap-30396275760a",
+      "gap-7510f4be16a1",
+      "gap-c91e1a042976",
+      "gap-e0a2efc113f5",
+      "gap-4751eb5c2dcb",
+      "gap-85bbcbcd5834",
+      "gap-6d8a0f9a1d8d",
+      "gap-7f3d0fc2c5ff",
+      "gap-cda37f109cd1",
+      "gap-126a80c84922",
+      "gap-7ccc0a55ae18",
+      "gap-433e2966e157",
+      "gap-08f0580e9669",
+      "gap-bceea42647cc",
+      "gap-243809d5e595",
+      "gap-a554467690ef",
+      "gap-a2ff40e20505",
+      "gap-ef1e25bbdb74",
+      "gap-28b960888e9b",
+      "gap-ff26b5708667",
+      "gap-d23b2bfcfe87",
+      "gap-e07c3a1b4698",
+      "gap-141ba32339b6",
+      "gap-55afa5850319",
+      "gap-7e81422c89f1",
+      "gap-a9405e11fe68",
+      "gap-1cc07e9fca73",
+      "gap-e2c35f1402cd",
+      "gap-23bdb5dd0f61",
+      "gap-a5129eccadc5",
+      "gap-0621b86197f7",
+      "gap-22f0ffe0b5c1",
+      "gap-c5a6707095fd",
+      "gap-9b2705697a2a",
+      "gap-27b23889f046",
+      "gap-7ed4cb9c4bc0",
+      "gap-4566cbca4ada",
+      "gap-78323bbaea3c",
+      "gap-40dc93e1c02c",
+      "gap-e336b60ea08e",
+      "gap-c5180f59a169",
+      "gap-01e808479990",
+      "gap-668aa10b5d20",
+      "gap-397169c61ad9",
+      "gap-bf8517f85684",
+      "gap-6417cf883482",
+      "gap-6a8d8c8aab1c",
+      "gap-9a298030b997",
+      "gap-81aa81b2f9f6"
+    ],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -2491,9 +2752,7 @@
       }
     ],
     "gaps": [
-      "gap-70e8468fce10",
-      "gap-feff39e54b8d",
-      "gap-ac48726f2878"
+      "gap-70e8468fce10"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -3545,6 +3804,42 @@
     }
   },
   {
+    "slug": "uai-uchronic-artificial-intelligence-801c0521",
+    "path": "/works/uai-uchronic-artificial-intelligence-801c0521/",
+    "editorialId": "item-221ae9cdf230",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/AI_ucronica.htm",
+    "sources": [
+      {
+        "documentId": "doc-801c05218ac2",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/AI_ucronica.htm",
+        "timestamp": "20250714080846",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "UAI (Uchronic Artificial Intelligence)",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/AI_ucronica.htm",
+        "text": [
+          "Torna indietro",
+          "Per farmi sapere che ne pensate, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-77fa176ab816"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "l-impero-hatti-87ea4438",
     "path": "/works/l-impero-hatti-87ea4438/",
     "editorialId": "item-22c889dfd117",
@@ -3574,6 +3869,43 @@
       }
     ],
     "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "la-storia-disneificata-01d06b7c",
+    "path": "/works/la-storia-disneificata-01d06b7c/",
+    "editorialId": "item-23084f8fea8c",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/fanta_Disney.htm",
+    "sources": [
+      {
+        "documentId": "doc-01d06b7c9f81",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/fanta_Disney.htm",
+        "timestamp": "20210411095638",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "La storia disneificata!",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/fanta_Disney.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-edbee4f5e865",
+      "gap-d0c71f6d5240"
+    ],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -4300,6 +4632,45 @@
     }
   },
   {
+    "slug": "raccontini-fantascientifici-1d666bba",
+    "path": "/works/raccontini-fantascientifici-1d666bba/",
+    "editorialId": "item-2c93ae8bf0d6",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/raccontini_fantascientifici.htm",
+    "sources": [
+      {
+        "documentId": "doc-1d666bba2f4e",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/raccontini_fantascientifici.htm",
+        "timestamp": "20250512211400",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Raccontini... fantascientifici",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/raccontini_fantascientifici.htm",
+        "text": [
+          "Torna indietro",
+          "Ovviamente chiunque abbia commenti o suggerimenti può scriverceli a questo indirizzo!"
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-767ff19eca33",
+      "gap-cacfa27e59d7",
+      "gap-dfb1672b21be",
+      "gap-f2a6dd44aec7"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "l-impero-di-andalusia-67ff2927",
     "path": "/works/l-impero-di-andalusia-67ff2927/",
     "editorialId": "item-2d9352ce3c97",
@@ -4408,6 +4779,52 @@
     }
   },
   {
+    "slug": "i-lituani-romani-c333d702",
+    "path": "/works/i-lituani-romani-c333d702/",
+    "editorialId": "item-2db8644b730d",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Valacchia.htm",
+    "sources": [
+      {
+        "documentId": "doc-c333d702e337",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Valacchia.htm",
+        "timestamp": "20260513130518",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "I Lituani... Romani",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Valacchia.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-9ab8d5c40d9f",
+      "gap-cece55a4b56c",
+      "gap-203fb6091f27",
+      "gap-364c8d97194c",
+      "gap-04ae27cffd5f",
+      "gap-c004e13e5e19",
+      "gap-724637045785",
+      "gap-6e7fd6af3c74",
+      "gap-029e33a072e3",
+      "gap-195dd4006a6c",
+      "gap-43414e8b8e9f",
+      "gap-3f2c349c53ee"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-siberia-indipendente-275ea29d",
     "path": "/works/la-siberia-indipendente-275ea29d/",
     "editorialId": "item-2deb177b1511",
@@ -4437,32 +4854,8 @@
       }
     ],
     "gaps": [
-      "gap-ee182042a2c3",
-      "gap-ea6f073de391",
-      "gap-624da56a7f6a",
       "gap-1ede38c4de6a",
       "gap-0623dba3aa09",
-      "gap-d4cdf729ab16",
-      "gap-938c2b5b56dc",
-      "gap-dd1389f6b6fa",
-      "gap-59839bf533ac",
-      "gap-ddc2a8827fbd",
-      "gap-02e73b9ef1ee",
-      "gap-9f392daf5d06",
-      "gap-b95d14eabddf",
-      "gap-de0cd7153ad2",
-      "gap-94c7c6956842",
-      "gap-f6573f9507df",
-      "gap-ed21f07cdf2c",
-      "gap-0face5d95878",
-      "gap-f190b7d6ea54",
-      "gap-efd3d15cb267",
-      "gap-776b40b59f12",
-      "gap-d9d96cf837a9",
-      "gap-71a1545c3160",
-      "gap-a832c8eb5b7e",
-      "gap-d12e6a9dc278",
-      "gap-677a71cb2b31",
       "gap-ef08bac4622a",
       "gap-62832d2e764a",
       "gap-240e8e68469b",
@@ -4471,17 +4864,7 @@
       "gap-0abfedf118c7",
       "gap-4503334580c8",
       "gap-63c7696317ba",
-      "gap-85e895078e7a",
-      "gap-27f04fa0955c",
-      "gap-13281d0fafbc",
-      "gap-e7807439a7e3",
-      "gap-c3eff3401a28",
-      "gap-87ecd65c1c34",
-      "gap-1b49a844d5d5",
-      "gap-c9505f949b7f",
-      "gap-33b573d4c93c",
-      "gap-2483426a68c7",
-      "gap-4dfbde3e318c"
+      "gap-85e895078e7a"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -4806,8 +5189,7 @@
       }
     ],
     "gaps": [
-      "gap-d3c824e220b2",
-      "gap-7a78d483bfd9"
+      "gap-d3c824e220b2"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -5084,29 +5466,6 @@
     "gaps": [
       "gap-a63b51ee23b7",
       "gap-d83531412aee",
-      "gap-f682e1d8221d",
-      "gap-f5961e7c3749",
-      "gap-98933a5cc7c1",
-      "gap-bfc367ef2dd2",
-      "gap-1a4c0ff3bde6",
-      "gap-0bfb57b93193",
-      "gap-13258f82ce99",
-      "gap-8eccd44fae76",
-      "gap-1f89f883714c",
-      "gap-00260f38f20a",
-      "gap-d60fa3bcef79",
-      "gap-2f25576e5d9b",
-      "gap-b873aa4e0e20",
-      "gap-643f30c1ec2a",
-      "gap-97a18de383ec",
-      "gap-fa104263acd7",
-      "gap-daa66addc72c",
-      "gap-17ebfd7b9d7e",
-      "gap-8278cf6b6da9",
-      "gap-7e036957f240",
-      "gap-351dbd2b3078",
-      "gap-6c56ae6917fd",
-      "gap-d48a4eecf374",
       "gap-7a09175d12b7",
       "gap-a6e99641a787",
       "gap-7b507d58d1d9",
@@ -5116,16 +5475,6 @@
       "gap-db88bdfb7bfb",
       "gap-e0b9a3bc51e4",
       "gap-61897c7893d4",
-      "gap-e8b582a80e46",
-      "gap-303c080eb48d",
-      "gap-a05404953e7d",
-      "gap-27baa6436c4c",
-      "gap-7eef6b60568c",
-      "gap-cb62587e82f7",
-      "gap-337d48c6b1f9",
-      "gap-b5113e39b405",
-      "gap-d0f459aaf52e",
-      "gap-d1118044311a",
       "gap-d1b02596ca92"
     ],
     "comparison": {
@@ -5160,9 +5509,7 @@
         ]
       }
     ],
-    "gaps": [
-      "gap-774f370d9a4a"
-    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -5272,8 +5619,7 @@
     ],
     "gaps": [
       "gap-f96ef7fb3324",
-      "gap-4364d46dc78f",
-      "gap-d00ecddcaae9"
+      "gap-4364d46dc78f"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -5342,7 +5688,6 @@
       }
     ],
     "gaps": [
-      "gap-c7a9b519846d",
       "gap-818cf61debb6"
     ],
     "comparison": {
@@ -5842,9 +6187,7 @@
         ]
       }
     ],
-    "gaps": [
-      "gap-b2ca2a12515f"
-    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -6019,9 +6362,7 @@
         ]
       }
     ],
-    "gaps": [
-      "gap-eecd04f3d6a5"
-    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -6274,6 +6615,51 @@
     "gaps": [
       "gap-fb28c0457428",
       "gap-5bfd8dd62766"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "e-un-lorenese-come-imperatore-4359aea3",
+    "path": "/works/e-un-lorenese-come-imperatore-4359aea3/",
+    "editorialId": "item-3d9ceab2ca98",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/imperatore_lorenese.htm",
+    "sources": [
+      {
+        "documentId": "doc-4359aea37a1b",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/imperatore_lorenese.htm",
+        "timestamp": "20261016101307",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "E un Lorenese come Imperatore",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/imperatore_lorenese.htm",
+        "text": [
+          "Torna indietro",
+          "Per farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-7377698dc2d7",
+      "gap-4f6cd0279358",
+      "gap-1a58721993aa",
+      "gap-c129fa455f94",
+      "gap-96ac5f36627b",
+      "gap-58697793bced",
+      "gap-6196dbd61925",
+      "gap-c0e443d2acd7",
+      "gap-ae27d246c95e",
+      "gap-e588acbf2a88"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -6625,30 +7011,7 @@
     ],
     "gaps": [
       "gap-1dfc3f677c97",
-      "gap-103a5482c65e",
       "gap-e9b7ae6399f6",
-      "gap-eb2131a121c4",
-      "gap-2626e7969183",
-      "gap-d55e30efd2bc",
-      "gap-9cc2b3bdb456",
-      "gap-f6b278f917e4",
-      "gap-2b40b3ae524c",
-      "gap-782fd32f8aaf",
-      "gap-155f88186e00",
-      "gap-dda4fa02fd71",
-      "gap-76d9c7cb191f",
-      "gap-8d31f1a20e1f",
-      "gap-ebebd6f59915",
-      "gap-2f30c74816c4",
-      "gap-bee261a8e3ab",
-      "gap-959da04ad701",
-      "gap-02f2088a6f9c",
-      "gap-e4625ad24484",
-      "gap-00beb466184c",
-      "gap-bdd8ab76ab5e",
-      "gap-7967768ba46f",
-      "gap-19356c721e97",
-      "gap-5ee753c72a98",
       "gap-f16fb18a2d47",
       "gap-c4718fe23a79",
       "gap-ed3ee5538509",
@@ -6657,17 +7020,7 @@
       "gap-3c4820313737",
       "gap-8185b5f4552d",
       "gap-437f75b65686",
-      "gap-53edf796a6fe",
-      "gap-a491f2027e47",
-      "gap-128356b07140",
-      "gap-90bec6aa338d",
-      "gap-b5740d05d2d0",
-      "gap-85c1834ebf9a",
-      "gap-fe070cd652b5",
-      "gap-3b3576828cd1",
-      "gap-88bc142d37e1",
-      "gap-36399b69597e",
-      "gap-66baf40208b5"
+      "gap-53edf796a6fe"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -6706,7 +7059,6 @@
     "gaps": [
       "gap-b9c7b8d12692",
       "gap-158250d67fd4",
-      "gap-a0954ee17377",
       "gap-2ca4957d2396"
     ],
     "comparison": {
@@ -6815,6 +7167,40 @@
     }
   },
   {
+    "slug": "amores-ucronici-7226e6df",
+    "path": "/works/amores-ucronici-7226e6df/",
+    "editorialId": "item-438ed3359713",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Amores_ucronici.htm",
+    "sources": [
+      {
+        "documentId": "doc-7226e6df0c78",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Amores_ucronici.htm",
+        "timestamp": "20210411095022",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "« Amores » ucronici",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Amores_ucronici.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete partecipare alla discussione o inviarci i vostri \"Amores\" ucronici, scriveteci a questo indirizzo!"
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-grande-muraglia-romana-60faa70e",
     "path": "/works/la-grande-muraglia-romana-60faa70e/",
     "editorialId": "item-43ea293311c1",
@@ -6848,6 +7234,44 @@
       "gap-cdfb28225ff2",
       "gap-8525b4129b39",
       "gap-c25b4d225f8d"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "raccontini-fantascientifici-93f5155a",
+    "path": "/works/raccontini-fantascientifici-93f5155a/",
+    "editorialId": "item-43f8c836d240",
+    "source": "http://www.fmboschetto.it/utopiaucronia/capoufficio.htm",
+    "sources": [
+      {
+        "documentId": "doc-93f5155a804f",
+        "url": "http://www.fmboschetto.it/utopiaucronia/capoufficio.htm",
+        "timestamp": "20210306110633",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Raccontini... fantascientifici",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/capoufficio.htm",
+        "text": [
+          "Torna indietro",
+          "Ovviamente chiunque abbia commenti o suggerimenti può scriverceli a questo indirizzo!"
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-13d6c25d2c80",
+      "gap-02f11dbfc883",
+      "gap-76989062ad63"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -7089,6 +7513,41 @@
       }
     ],
     "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "z-c-porta-jella-a438c6f5",
+    "path": "/works/z-c-porta-jella-a438c6f5/",
+    "editorialId": "item-4622aee44701",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/briciole.htm",
+    "sources": [
+      {
+        "documentId": "doc-a438c6f5c56d",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/briciole.htm",
+        "timestamp": "20250418225224",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Z.C. porta jella",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/briciole.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-80ca46f571f4"
+    ],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -7370,6 +7829,50 @@
       }
     ],
     "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "oltre-la-nebbia-del-primo-mattino-2ceb47df",
+    "path": "/works/oltre-la-nebbia-del-primo-mattino-2ceb47df/",
+    "editorialId": "item-493296efb733",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/oltrelanebbia.htm",
+    "sources": [
+      {
+        "documentId": "doc-2ceb47df9035",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/oltrelanebbia.htm",
+        "timestamp": "20141029044433",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Oltre la nebbia del primo mattino",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/oltrelanebbia.htm",
+        "text": [
+          "Torna indietro",
+          "Buona lettura. Quando il romanzo sarà completato, sarà pubblicato in questo sito in formato .pdf. Se volete fare sapere all'Autore cosa ne pensate, scrivetegli a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-17c9bdf0c014",
+      "gap-0876906db558",
+      "gap-8280c0512665",
+      "gap-4793cbe1c34e",
+      "gap-0718179ce794",
+      "gap-54ef3c728087",
+      "gap-e741db25061a",
+      "gap-8b0ce7baa755",
+      "gap-44387fea3274"
+    ],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -7692,6 +8195,152 @@
     }
   },
   {
+    "slug": "racconti-e-poesie-9bdad33f",
+    "path": "/works/racconti-e-poesie-9bdad33f/",
+    "editorialId": "item-4b790c1a2f7b",
+    "source": "http://www.fmboschetto.it/racconti/racconti.htm",
+    "sources": [
+      {
+        "documentId": "doc-9bdad33f71e8",
+        "url": "http://www.fmboschetto.it/racconti/racconti.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Racconti e poesie",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/racconti.htm",
+        "text": []
+      }
+    ],
+    "gaps": [
+      "gap-bc8a0aa393ef",
+      "gap-b3bf4cf917de",
+      "gap-7215e947f5d0",
+      "gap-068f5d8f9265",
+      "gap-d34ce48d224c",
+      "gap-c789665d4d47",
+      "gap-474b921fc8bb",
+      "gap-0b61612a0540",
+      "gap-f7ba2c71c960",
+      "gap-8af6d492283b",
+      "gap-31900d90ed96",
+      "gap-40d2248c8dcd",
+      "gap-dbe8fb4940c7",
+      "gap-46b2c4005db9",
+      "gap-2cc86b47b955",
+      "gap-f475d3fc30ef",
+      "gap-83adc3835854",
+      "gap-b29392c45207",
+      "gap-4cf7a09b040a",
+      "gap-238a2f34fe6a",
+      "gap-bf22cc545c5e",
+      "gap-3a8512ca6787",
+      "gap-2185c61e4b86",
+      "gap-e6dd1f4393a3",
+      "gap-9a277ed50f4d",
+      "gap-bfe2c209b2c4",
+      "gap-51ff75f266f5",
+      "gap-82effff1408e",
+      "gap-8132630336c7",
+      "gap-4c3a6094f7ee",
+      "gap-0910e56a2e4b",
+      "gap-54ddb7e58629",
+      "gap-757e4fa84433",
+      "gap-3477f01264fb",
+      "gap-58a84e268aed",
+      "gap-21490e20a15e",
+      "gap-a8cbd11d5071",
+      "gap-ae6e3a36c00b",
+      "gap-1926eb89819d",
+      "gap-616fc7755d6f",
+      "gap-148a0cea76e0",
+      "gap-d0513fd4bd7e",
+      "gap-e5c0d67a503c",
+      "gap-955158d3a68a",
+      "gap-a210ec57a458",
+      "gap-3714d11100b8",
+      "gap-6d9c5ed5cf6b",
+      "gap-9c18526ec2be",
+      "gap-92a1d724f83e",
+      "gap-0fbb1cff635c",
+      "gap-dc3c82bfc26e",
+      "gap-d329b32e00db",
+      "gap-8fcb7d6d3afc",
+      "gap-f87eace33392",
+      "gap-2f49bb170fcd",
+      "gap-c6928080b0b3",
+      "gap-94d968d888cf",
+      "gap-6fe27dfa149c",
+      "gap-c8845ea13544",
+      "gap-4130b58b2e12",
+      "gap-fce4b783f62f",
+      "gap-39d3e57396df",
+      "gap-d062c91450e5",
+      "gap-68cff72a085e",
+      "gap-df2f24e02460",
+      "gap-418d19adb13b",
+      "gap-3b5ce83dc329",
+      "gap-eed6af65396d",
+      "gap-d77ed6852265",
+      "gap-efeb29f2bc76",
+      "gap-8daeaac26be1",
+      "gap-6c1d196da2ca",
+      "gap-e23ddd9c648b",
+      "gap-5ccb62804a4c",
+      "gap-e09ed20d20a8",
+      "gap-30a85d8bf193",
+      "gap-93296f303997",
+      "gap-00002cd1349c",
+      "gap-7fe9f08d4ebf",
+      "gap-800638530b76",
+      "gap-12ed5b97abbd",
+      "gap-2b41427e6add",
+      "gap-a2404e671127",
+      "gap-c0501edf2c51",
+      "gap-a8fe870cf1f6",
+      "gap-d2052e1bd738",
+      "gap-99989953aee6",
+      "gap-f75fc7820bf6",
+      "gap-5ea5a586c772",
+      "gap-c9a167033952",
+      "gap-a502533d6b8b",
+      "gap-47d9a58acb4c",
+      "gap-5790e5043c10",
+      "gap-7e1bec5dff09",
+      "gap-2b143026ba39",
+      "gap-0813139ffe34",
+      "gap-9471e691395f",
+      "gap-fc15a8e5dc65",
+      "gap-a5f61dfc8df4",
+      "gap-30482b3da4bd",
+      "gap-4014b4c4db6c",
+      "gap-19d2c4852f72",
+      "gap-02246c729538",
+      "gap-a424abbf379e",
+      "gap-025d020075fc",
+      "gap-529049aac517",
+      "gap-47ab4be9d18b",
+      "gap-8ec849316947",
+      "gap-ad56c696e9f3",
+      "gap-44c86b18b5f9",
+      "gap-9058258e6429",
+      "gap-194560712b73",
+      "gap-3fe182637a55",
+      "gap-4b3dc1a171a6",
+      "gap-28d99942db9a"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-grande-borgogna-aeb0281a",
     "path": "/works/la-grande-borgogna-aeb0281a/",
     "editorialId": "item-4b96e6ce879b",
@@ -7727,29 +8376,6 @@
       "gap-278b3353465b",
       "gap-6437ba93b0b2",
       "gap-e252bf2068c4",
-      "gap-fd762bb57b40",
-      "gap-c463c569d3ca",
-      "gap-6a5dd0a9213d",
-      "gap-c23d7aaa5baf",
-      "gap-92d6f14130a3",
-      "gap-fb877542db22",
-      "gap-4acb693c4371",
-      "gap-b4369bda0146",
-      "gap-66ce572faeb0",
-      "gap-05f396b41d85",
-      "gap-315dbc4e03f5",
-      "gap-3e7d6805d962",
-      "gap-c3c0032bb142",
-      "gap-dadc7b831f5b",
-      "gap-319ef21306de",
-      "gap-383b589e1947",
-      "gap-3c9de4f7c065",
-      "gap-7f470e7b5fd3",
-      "gap-ebf6b76e3df4",
-      "gap-dd0efe611b77",
-      "gap-eee6c9714338",
-      "gap-c27fdfb61df1",
-      "gap-3afa3c8f5a48",
       "gap-2a40a642f4a9",
       "gap-55f143b50e79",
       "gap-80abf5cd9434",
@@ -7758,17 +8384,7 @@
       "gap-0001a280184e",
       "gap-dd4c66750c4f",
       "gap-84299d3cc7c5",
-      "gap-23174d32f090",
-      "gap-d651cc3396c0",
-      "gap-660fb1a3122a",
-      "gap-87589f3d9579",
-      "gap-3340ab7d7336",
-      "gap-2dbfdde79f74",
-      "gap-0a6399bb4afd",
-      "gap-98a330bf9dad",
-      "gap-d328ed6ff1d9",
-      "gap-b8b5fb49953d",
-      "gap-99411569839f"
+      "gap-23174d32f090"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -8095,6 +8711,40 @@
       "gap-7ceb40536daa",
       "gap-667aeebdc626"
     ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "ucronie-della-prima-repubblica-f83fe1dc",
+    "path": "/works/ucronie-della-prima-repubblica-f83fe1dc/",
+    "editorialId": "item-4fb1823a48f7",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_prima_repubblica.htm",
+    "sources": [
+      {
+        "documentId": "doc-f83fe1dc21bc",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_prima_repubblica.htm",
+        "timestamp": "20241004104621",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Ucronie della Prima Repubblica",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_prima_repubblica.htm",
+        "text": [
+          "Torna indietro",
+          "Per partecipare alle discussioni in corso, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -9043,29 +9693,6 @@
       "gap-d7feac698745",
       "gap-f9b98563a0e1",
       "gap-c29f4f44de92",
-      "gap-3e3ee2e44385",
-      "gap-d6097e5d6f63",
-      "gap-042af7de76f2",
-      "gap-94e0e41f7c5b",
-      "gap-ca4e855ba261",
-      "gap-8d79fca79775",
-      "gap-009de0de00c0",
-      "gap-db1d54fd3d49",
-      "gap-b84603f130af",
-      "gap-2253cf335c8b",
-      "gap-9d84f998f01e",
-      "gap-c69ca2465dd1",
-      "gap-8673503542f8",
-      "gap-d1f4be49d369",
-      "gap-4ebb23533ab9",
-      "gap-ff2fda1b1c6a",
-      "gap-ea9aa39c3a60",
-      "gap-dd83c33d0f13",
-      "gap-7c8f30862278",
-      "gap-9a99870cc5e9",
-      "gap-add256f7d705",
-      "gap-d84545f32660",
-      "gap-dbf2eea31ba9",
       "gap-1fa15439014d",
       "gap-0fdeffa75484",
       "gap-872e23f8b8b1",
@@ -9074,17 +9701,7 @@
       "gap-058defbb9a47",
       "gap-51ff1d4543b1",
       "gap-cf0390291f20",
-      "gap-a6e88048a7df",
-      "gap-c0dd65ab4aaa",
-      "gap-f241f5f12890",
-      "gap-518bd5cf0aed",
-      "gap-7dad42c7d0f9",
-      "gap-afb5950876f5",
-      "gap-6a6125fcb07b",
-      "gap-2e7f05059db5",
-      "gap-6924798ecc41",
-      "gap-2b5e7ab4c2f6",
-      "gap-a11ab0b36d54"
+      "gap-a6e88048a7df"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -9493,29 +10110,6 @@
     "gaps": [
       "gap-0e943c6a0a92",
       "gap-5f9cccb54a11",
-      "gap-6aa72292e2c7",
-      "gap-7eb747ddf1c4",
-      "gap-10eb20618b96",
-      "gap-533afa45a62f",
-      "gap-061c6242ad71",
-      "gap-230a88b902d9",
-      "gap-2d1d0b3844d7",
-      "gap-0424ff1d5a32",
-      "gap-696f340214ea",
-      "gap-01259add1276",
-      "gap-892b17f05f54",
-      "gap-008252e5cc06",
-      "gap-9b3d68279905",
-      "gap-d9388b646da3",
-      "gap-3e819afd2409",
-      "gap-36a0a1a298a0",
-      "gap-7fc1ad6ea841",
-      "gap-62962781923e",
-      "gap-0d0eacc886a8",
-      "gap-1883ff95bcfd",
-      "gap-25b6828b4b2f",
-      "gap-1c1133666caa",
-      "gap-bad5c86de907",
       "gap-f0c3cf7d6c1f",
       "gap-557d406f0f89",
       "gap-431387dd8cd8",
@@ -9524,17 +10118,7 @@
       "gap-1c8ce158f0d9",
       "gap-a4411d2ff3cb",
       "gap-208d5870dc79",
-      "gap-b65eefd761fd",
-      "gap-5cdb81e9da23",
-      "gap-ea75145c6b94",
-      "gap-029075226542",
-      "gap-013b95ac5d10",
-      "gap-d17b00d779b6",
-      "gap-837711c68edc",
-      "gap-547902cb3aa9",
-      "gap-117acfcaf654",
-      "gap-e70054a309d3",
-      "gap-19eea7a44366"
+      "gap-b65eefd761fd"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -9861,9 +10445,7 @@
         ]
       }
     ],
-    "gaps": [
-      "gap-318190f2bece"
-    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -10042,9 +10624,7 @@
     ],
     "gaps": [
       "gap-ba08317abb64",
-      "gap-c607f243e1a5",
-      "gap-9aa0cc298ba5",
-      "gap-6776de21d647"
+      "gap-c607f243e1a5"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -11430,8 +12010,7 @@
     ],
     "gaps": [
       "gap-f9fbe80a514c",
-      "gap-102bfc870499",
-      "gap-b80d8b7df9c1"
+      "gap-102bfc870499"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -11819,29 +12398,6 @@
     ],
     "gaps": [
       "gap-a8bbfd965772",
-      "gap-fda245191ff3",
-      "gap-37f2ce2a053e",
-      "gap-09bbfcef44b7",
-      "gap-151f572be437",
-      "gap-2dcc623d71ed",
-      "gap-0ae52cb1d407",
-      "gap-a57f9a6f9511",
-      "gap-79a1588db90a",
-      "gap-5ff30dfb9541",
-      "gap-b7f0bc7d1103",
-      "gap-e5543f3167a9",
-      "gap-aed231885c90",
-      "gap-ef260365ab3f",
-      "gap-1fe3a8c8d13c",
-      "gap-32a8241c4972",
-      "gap-4ddc3fe50a7d",
-      "gap-4589a5750914",
-      "gap-ebc2f946e62a",
-      "gap-6e165f9c0518",
-      "gap-424daf9d37c9",
-      "gap-342fdcbc2ee5",
-      "gap-207f66eb4dae",
-      "gap-291ac39aba9a",
       "gap-f96624a42e39",
       "gap-c72e9e3d363e",
       "gap-647b5da42c9d",
@@ -11850,17 +12406,7 @@
       "gap-8f61986ff40e",
       "gap-013ed5829676",
       "gap-44514c6bd643",
-      "gap-b2e8cfca55de",
-      "gap-402ebed37119",
-      "gap-7bcf8c1a8c54",
-      "gap-6003f750c175",
-      "gap-d42a202ae955",
-      "gap-34e9c4433184",
-      "gap-0647bbcab922",
-      "gap-312d2ef0e57b",
-      "gap-c6760de5ef8f",
-      "gap-db5bc1b23e38",
-      "gap-57501cfa81d6"
+      "gap-b2e8cfca55de"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -12149,6 +12695,45 @@
     }
   },
   {
+    "slug": "i-nobel-prima-di-nobel-3e32492e",
+    "path": "/works/i-nobel-prima-di-nobel-3e32492e/",
+    "editorialId": "item-7729ee1241e5",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/fanta_Nobel.htm",
+    "sources": [
+      {
+        "documentId": "doc-3e32492e30c6",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/fanta_Nobel.htm",
+        "timestamp": "20210411103818",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "I Nobel prima di Nobel",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/fanta_Nobel.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-3f4ce1d5f633",
+      "gap-011812104d6e",
+      "gap-7296bbcd5192",
+      "gap-44243b5b0bc0"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-grande-casa-di-pietra-8a36337e",
     "path": "/works/la-grande-casa-di-pietra-8a36337e/",
     "editorialId": "item-77d7f997ff85",
@@ -12274,29 +12859,6 @@
       "gap-01eab0337b7d",
       "gap-19f4d4bcbbd7",
       "gap-1e9fb802d338",
-      "gap-1d6d57ff6b68",
-      "gap-aa26349bf034",
-      "gap-ff1d9adb17e5",
-      "gap-3165cba851f7",
-      "gap-add5a3acc42b",
-      "gap-c23668cecaa7",
-      "gap-86070948458d",
-      "gap-dc8964fd91a9",
-      "gap-c9b4f476cc49",
-      "gap-a76a861662e0",
-      "gap-b763f3f7dc5a",
-      "gap-fc24bcc4ff13",
-      "gap-2242e661bffe",
-      "gap-625e2e92bc34",
-      "gap-814bdb963dae",
-      "gap-790b6a1f4b0a",
-      "gap-8835bebd58b4",
-      "gap-e5086637601a",
-      "gap-df62665f2ab4",
-      "gap-407b9bdaba3b",
-      "gap-f5481cd7102e",
-      "gap-bc2cc046fbe3",
-      "gap-c110f538a0c2",
       "gap-a76bf53b0935",
       "gap-771dd2faaca8",
       "gap-529023e74bb1",
@@ -12305,17 +12867,7 @@
       "gap-1778f6313164",
       "gap-58cd36808645",
       "gap-aca3dc483236",
-      "gap-29171d174404",
-      "gap-462584a394a8",
-      "gap-fa2806c6b6a1",
-      "gap-7fb5e9d95afe",
-      "gap-f201b2247bdb",
-      "gap-877073d460ff",
-      "gap-4e2553e796cf",
-      "gap-d9cbe073c73f",
-      "gap-edeb5b75ae2a",
-      "gap-5bd05afefe3f",
-      "gap-a39ef838f3a5"
+      "gap-29171d174404"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -12416,6 +12968,55 @@
       }
     ],
     "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "l-eredita-degli-unni-a87176cb",
+    "path": "/works/l-eredita-degli-unni-a87176cb/",
+    "editorialId": "item-7a5bf3db03de",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm",
+    "sources": [
+      {
+        "documentId": "doc-a87176cb205e",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm",
+        "timestamp": "20261016101307",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'eredità degli Unni",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farci conoscere la vostra opinione in proposito, basta che scriviate al Webmaster..."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-226e02a950b2",
+      "gap-fff8d4b6331e",
+      "gap-8020ae9cf819",
+      "gap-70a364817ca5",
+      "gap-ec7dc1d872e7",
+      "gap-cd8aa73148e6",
+      "gap-26754a62231c",
+      "gap-e5b409aa1581",
+      "gap-de187726287e",
+      "gap-e041bb062b47",
+      "gap-9ed6e11ec3db",
+      "gap-e71d828cc781",
+      "gap-497c2f18496a",
+      "gap-7a76b10f1360"
+    ],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -12582,28 +13183,6 @@
     "gaps": [
       "gap-87734f6de5a5",
       "gap-1765132e3718",
-      "gap-075e70a6dd2d",
-      "gap-43dbb20f2f59",
-      "gap-e57ffe65eda0",
-      "gap-af1ef10bc3a2",
-      "gap-a3d0752974a4",
-      "gap-71d54b03beb7",
-      "gap-10aab4f974a5",
-      "gap-e3263f73285a",
-      "gap-1e5b00ebeb39",
-      "gap-de3eea958a7d",
-      "gap-6c091c76bfe5",
-      "gap-9c1176b91c5c",
-      "gap-56fbe92dbaba",
-      "gap-4ffb15363058",
-      "gap-55ca10392be7",
-      "gap-d2c16eee918e",
-      "gap-56815b4d787c",
-      "gap-39a83e05e7b8",
-      "gap-83d95b3fcfc7",
-      "gap-3b2188a62c4d",
-      "gap-657949290d46",
-      "gap-925e865f63a4",
       "gap-3343aeb52d70",
       "gap-0c3e84e77071",
       "gap-38d6dbf0c72d",
@@ -12612,17 +13191,7 @@
       "gap-2446e5db389c",
       "gap-a41a0c54c013",
       "gap-fc1c6ad88cf4",
-      "gap-aefe7e6859f1",
-      "gap-427adf4dfcd3",
-      "gap-fc72fbf003fb",
-      "gap-ab499ddb880a",
-      "gap-2a06d0be65e7",
-      "gap-ad228e24d936",
-      "gap-98eab585a370",
-      "gap-1516d0083445",
-      "gap-5d7bf09064c1",
-      "gap-eaf47b4689da",
-      "gap-9b032cce1b3f"
+      "gap-aefe7e6859f1"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -13053,6 +13622,49 @@
     }
   },
   {
+    "slug": "ucronie-diluviane-3e2d32a9",
+    "path": "/works/ucronie-diluviane-3e2d32a9/",
+    "editorialId": "item-80072a36b315",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/ucronie_diluviane.htm",
+    "sources": [
+      {
+        "documentId": "doc-3e2d32a9001d",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/ucronie_diluviane.htm",
+        "timestamp": "20260420031248",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Ucronie Diluviane",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/ucronie_diluviane.htm",
+        "text": [
+          "Torna indietro",
+          "Per farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-7e280d734883",
+      "gap-8414d7284665",
+      "gap-69d6643d8344",
+      "gap-19d46259b8ea",
+      "gap-142454093b96",
+      "gap-40ad7dcd6eed",
+      "gap-2bd754b6c928",
+      "gap-20228812fb3e"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "l-ucronia-di-akhenaten-a0f503fc",
     "path": "/works/l-ucronia-di-akhenaten-a0f503fc/",
     "editorialId": "item-80c0a3b6308e",
@@ -13191,30 +13803,6 @@
     "gaps": [
       "gap-cfeb90cd19f1",
       "gap-62842887d6a9",
-      "gap-72e8b3ef3c43",
-      "gap-81c67c714363",
-      "gap-4a65e2b79799",
-      "gap-2ba88f33b6f4",
-      "gap-1efba6e48749",
-      "gap-4ed4813f8898",
-      "gap-d23b0d179896",
-      "gap-96c871a41e62",
-      "gap-b4d5d6ce09e3",
-      "gap-a9ddca1c0fdd",
-      "gap-1e828c0315ec",
-      "gap-79b03f7b5cf4",
-      "gap-6ce8d4202eb0",
-      "gap-be56b34698fc",
-      "gap-ab9036c85f75",
-      "gap-f7f35e460f89",
-      "gap-3f155b19e45a",
-      "gap-795b29837908",
-      "gap-98e67eeabc04",
-      "gap-0bd81275141f",
-      "gap-aff96b4ef344",
-      "gap-8e118a6786fb",
-      "gap-2db8cf0b516c",
-      "gap-2d42db565305",
       "gap-8d088d386167",
       "gap-e697079997b3",
       "gap-dcb58c85b6cc",
@@ -13224,16 +13812,6 @@
       "gap-bd5e8416ac35",
       "gap-a084ba5132e4",
       "gap-865e0c564224",
-      "gap-af8ac781a816",
-      "gap-a7fa5d6aea88",
-      "gap-03f7bb730ada",
-      "gap-300fafb81e84",
-      "gap-8f6a34005e64",
-      "gap-5fcb04eb1c15",
-      "gap-f020c0771aae",
-      "gap-3093580fdbd8",
-      "gap-ac5b5a01b4d8",
-      "gap-a01d453cae71",
       "gap-21164a6be92f"
     ],
     "comparison": {
@@ -13314,29 +13892,6 @@
       "gap-f378f5316e63",
       "gap-55d91616d6ce",
       "gap-39ebf0e2820a",
-      "gap-6dbeb287188e",
-      "gap-dc0cea7bba85",
-      "gap-b8c2a34fe705",
-      "gap-9ad32f25a24c",
-      "gap-6f62df4f7d9e",
-      "gap-9eaf8ed3abd0",
-      "gap-b5a2f298f126",
-      "gap-c829513bb679",
-      "gap-216ffed67058",
-      "gap-02dee8d7371a",
-      "gap-3570268cb438",
-      "gap-8a8c66152462",
-      "gap-6fd1470ebf63",
-      "gap-11a9c8ef1ebd",
-      "gap-c04f69d0b32c",
-      "gap-ae874fc8421a",
-      "gap-91d8d3421c96",
-      "gap-eeabc6dc8c80",
-      "gap-46f656c97cf6",
-      "gap-1ff15e09edca",
-      "gap-fd0984c87ae3",
-      "gap-23589e9909fe",
-      "gap-9c07bfb0b076",
       "gap-94ec6ba9342c",
       "gap-7c99f5413cf9",
       "gap-a898379109e8",
@@ -13345,17 +13900,7 @@
       "gap-4ae978fdccd5",
       "gap-cf9f126b7e11",
       "gap-41b332340e79",
-      "gap-3bcde6f7aee0",
-      "gap-25586eae5abb",
-      "gap-d9a3cfa37d61",
-      "gap-16422f6dcb99",
-      "gap-c06f676527f0",
-      "gap-735be91c9480",
-      "gap-e9c7fec9ab55",
-      "gap-749e978dc1cf",
-      "gap-5e8cdf0926fb",
-      "gap-553fdc8796b2",
-      "gap-705c9624ecd1"
+      "gap-3bcde6f7aee0"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -14911,6 +15456,40 @@
     }
   },
   {
+    "slug": "raccontini-medioevali-77a596f4",
+    "path": "/works/raccontini-medioevali-77a596f4/",
+    "editorialId": "item-8f66bed599a5",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Bruscodorneide.htm",
+    "sources": [
+      {
+        "documentId": "doc-77a596f425da",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Bruscodorneide.htm",
+        "timestamp": "20250418230435",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Raccontini... medioevali",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Bruscodorneide.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete partecipare alle discussioni in corso, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "luigi-xix-re-di-francia-17325c34",
     "path": "/works/luigi-xix-re-di-francia-17325c34/",
     "editorialId": "item-8f91299f60de",
@@ -15157,26 +15736,6 @@
       "gap-61811f840484",
       "gap-ad1a03c24cc7",
       "gap-615792e30d33",
-      "gap-3f5837191422",
-      "gap-e8138fcb8e56",
-      "gap-ed62bc8c94db",
-      "gap-5c94c86ccf65",
-      "gap-d33b35b3be8c",
-      "gap-47c6db806a17",
-      "gap-bb7a639ab2c0",
-      "gap-d382b7f376d4",
-      "gap-0c2eea18a34a",
-      "gap-3291f1b70a05",
-      "gap-a016d8cce7ca",
-      "gap-3ae9665562cf",
-      "gap-94916bc7cc3b",
-      "gap-89b6f2cc495b",
-      "gap-40e489074484",
-      "gap-8416e0103594",
-      "gap-7d51a1c6ac44",
-      "gap-a148136c22f8",
-      "gap-df0c0c85a1d0",
-      "gap-f9dd29ad95e2",
       "gap-ac23aaab2777",
       "gap-5ab0256cc052",
       "gap-35e770ae7fae",
@@ -15185,17 +15744,7 @@
       "gap-e5e0389de6ab",
       "gap-93e59cd479c6",
       "gap-f04bd3ad6dbc",
-      "gap-d0c5833fda51",
-      "gap-7bafe1706e6a",
-      "gap-aa45880b1c9d",
-      "gap-a64d2fd7527d",
-      "gap-dcf17ad1ec02",
-      "gap-cc612dbedc97",
-      "gap-4567e6700fad",
-      "gap-ae599c7282f8",
-      "gap-17faffe2ba8a",
-      "gap-059d9c0e3ab6",
-      "gap-a21c66e754c3"
+      "gap-d0c5833fda51"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -15798,30 +16347,7 @@
       }
     ],
     "gaps": [
-      "gap-f9c7864b8fb7",
       "gap-3a7f930ec7a7",
-      "gap-29efcf80fe9a",
-      "gap-65546cc3a809",
-      "gap-e351ed0b10fe",
-      "gap-69dde45a2767",
-      "gap-208928889218",
-      "gap-e98ae2bde66b",
-      "gap-b154ce23bffc",
-      "gap-d93197ccc8cb",
-      "gap-59063e3c4d47",
-      "gap-662ccebafbca",
-      "gap-e37f61b0e311",
-      "gap-a2fbc036e0ca",
-      "gap-83999ae8b406",
-      "gap-3edf41264a09",
-      "gap-dc0b97c4974e",
-      "gap-5e7ea91a70e8",
-      "gap-0a2f53b6661e",
-      "gap-2797ec593bda",
-      "gap-699907940f52",
-      "gap-77346f6b16d1",
-      "gap-606c4891ceb1",
-      "gap-7567b7ce5a87",
       "gap-4312a6e70e5e",
       "gap-b031e21c0db4",
       "gap-2d0ca42c74d9",
@@ -15831,16 +16357,6 @@
       "gap-57053c1e0bb3",
       "gap-729b7549c12f",
       "gap-9aa7dac43387",
-      "gap-261848a57237",
-      "gap-91e03ac62bc4",
-      "gap-a4cffed76945",
-      "gap-e89acabc9033",
-      "gap-e1bcbc5421a4",
-      "gap-b09eb0f9f5ed",
-      "gap-99582180faad",
-      "gap-4b085207b101",
-      "gap-9caba3fb6a8c",
-      "gap-97317c2fd529",
       "gap-bc17794c512f"
     ],
     "comparison": {
@@ -15911,8 +16427,7 @@
       }
     ],
     "gaps": [
-      "gap-a4fdb9467385",
-      "gap-68a1eb9a30ba"
+      "gap-a4fdb9467385"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -16432,6 +16947,45 @@
       }
     ],
     "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "gli-ucronici-anni-2010-b14d70f5",
+    "path": "/works/gli-ucronici-anni-2010-b14d70f5/",
+    "editorialId": "item-9c008950d5d8",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_2010.htm",
+    "sources": [
+      {
+        "documentId": "doc-b14d70f50132",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_2010.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Gli ucronici Anni 2010",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_2010.htm",
+        "text": [
+          "Torna indietro",
+          "Vi è piaciuto? Per farmi sapere che ne pensate, scrivetemi a questo indirizzo.",
+          "Per contribuire alle discussioni in corso, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-6da3ca5be9d8",
+      "gap-45fb12bc5661",
+      "gap-354453663bda",
+      "gap-c8adbe0c07ff"
+    ],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -18430,7 +18984,6 @@
       "gap-3662c1f576b9",
       "gap-b68aa1c1e1c2",
       "gap-528d4dd4f0dc",
-      "gap-74e12ff37908",
       "gap-50b88df3d2fd"
     ],
     "comparison": {
@@ -18533,8 +19086,7 @@
       }
     ],
     "gaps": [
-      "gap-bc77a40812d5",
-      "gap-9b9253563480"
+      "gap-bc77a40812d5"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -18653,8 +19205,6 @@
     ],
     "gaps": [
       "gap-bc284d3ddf24",
-      "gap-a8a34662786f",
-      "gap-8315bce5a3f1",
       "gap-302adcfa2bbd",
       "gap-c660cca61573"
     ],
@@ -19049,29 +19599,6 @@
       "gap-d2cfa4ae3bad",
       "gap-3efd169609c6",
       "gap-6a32f2742502",
-      "gap-24021e1a4eb5",
-      "gap-a31210459b3d",
-      "gap-4783c3eef415",
-      "gap-4064918b57e5",
-      "gap-f05e5294415a",
-      "gap-43d37f704566",
-      "gap-b7264c61eef2",
-      "gap-620b34265fab",
-      "gap-e474504e727b",
-      "gap-5d72b4bbfbf3",
-      "gap-505c2c5a66b7",
-      "gap-bc0672eb150d",
-      "gap-8915dbfbdc07",
-      "gap-c98448d057f5",
-      "gap-0161ad588dfc",
-      "gap-6d0f4359fcf5",
-      "gap-425e6ff41387",
-      "gap-6c926ebba326",
-      "gap-27722c7e0fba",
-      "gap-01abb5d8475f",
-      "gap-a2131720d30e",
-      "gap-e89a9dce6d38",
-      "gap-c849cd40e9d1",
       "gap-8523f1345a80",
       "gap-5d4d2e2b7559",
       "gap-4ecc2141d489",
@@ -19080,17 +19607,7 @@
       "gap-7782cfbc0cda",
       "gap-a94e9a12a2f4",
       "gap-c06dac8b8691",
-      "gap-a9f3eb8ef423",
-      "gap-c16d5ce94fde",
-      "gap-7b350bad49a6",
-      "gap-ee109b08d6df",
-      "gap-862bd4802f89",
-      "gap-ecbf01167a61",
-      "gap-dc4f20dfacb8",
-      "gap-134a930aec46",
-      "gap-840adcfb5f88",
-      "gap-6f3e56c06408",
-      "gap-75dcc33c7ea5"
+      "gap-a9f3eb8ef423"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -19414,28 +19931,6 @@
       "gap-79d64c7a9db4",
       "gap-3a0a4609a27a",
       "gap-0a43878b1d18",
-      "gap-6d0f7554083e",
-      "gap-c177bf9f0d4f",
-      "gap-2006ceda297e",
-      "gap-23d2b2c4fad6",
-      "gap-b0e33001b053",
-      "gap-8ffd7d4a6ac5",
-      "gap-3f655b569ae5",
-      "gap-7f481bc73ec5",
-      "gap-0a7e7d49b906",
-      "gap-2a3690ee644d",
-      "gap-385cc96ef255",
-      "gap-acdf8f0211cb",
-      "gap-63f4b4e7464d",
-      "gap-f3d0a64c52bb",
-      "gap-9fa9ca02b68a",
-      "gap-0b81ba48ca39",
-      "gap-149d298dfbe9",
-      "gap-9e945f0f5a72",
-      "gap-d55177e1433c",
-      "gap-c4a2eae049cb",
-      "gap-cdc556cf8caf",
-      "gap-327bdf5f8a29",
       "gap-d6de411be1cf",
       "gap-8d6bb4294c66",
       "gap-c10e0e8c858b",
@@ -19444,17 +19939,7 @@
       "gap-4b06e07c5de7",
       "gap-606a759e9871",
       "gap-1ec8025e98a3",
-      "gap-4085bf72c71a",
-      "gap-81a509ea533c",
-      "gap-e875d524f57a",
-      "gap-fe3cc9b3c6aa",
-      "gap-add557f1d5d9",
-      "gap-ad01713fe516",
-      "gap-417848ede053",
-      "gap-61b398b7b857",
-      "gap-5a63d8e503e2",
-      "gap-c113dbdf24e1",
-      "gap-48a9c7432956"
+      "gap-4085bf72c71a"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -19669,7 +20154,6 @@
       "gap-dd53db8eb63a",
       "gap-80ff7c8ff652",
       "gap-af423191858c",
-      "gap-1bf301e2ef1f",
       "gap-168248635e7c",
       "gap-243eaa58281f"
     ],
@@ -20288,6 +20772,77 @@
     }
   },
   {
+    "slug": "eroi-ed-eroine-disney-nella-storia-07c4f282",
+    "path": "/works/eroi-ed-eroine-disney-nella-storia-07c4f282/",
+    "editorialId": "item-b94de8f46bde",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/fiabe_storicizzate.htm",
+    "sources": [
+      {
+        "documentId": "doc-07c4f282a44c",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/fiabe_storicizzate.htm",
+        "timestamp": "20190425180150",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Eroi ed eroine Disney nella Storia",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/fiabe_storicizzate.htm",
+        "text": [
+          "Torna indietro",
+          "Per farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-29c66ca31b73",
+      "gap-2ec56828b10a",
+      "gap-e4f18bf6a9ae",
+      "gap-fed1ea0c13bc",
+      "gap-a765a4840826",
+      "gap-3c9d69ec847b",
+      "gap-14009c6a7b66",
+      "gap-3006df763896",
+      "gap-352ce11c33a0",
+      "gap-02ff5f651e73",
+      "gap-5ecfb012a112",
+      "gap-4ef29a00c95e",
+      "gap-b3621dcac8cc",
+      "gap-62ea42c94163",
+      "gap-62545f1fab2f",
+      "gap-8022e14b4e77",
+      "gap-e59787add72e",
+      "gap-1654b5d85cc9",
+      "gap-1156e4d69536",
+      "gap-b82d85f3e7e6",
+      "gap-e4ffbfd90abd",
+      "gap-05e844d31c2c",
+      "gap-01fbdedeb103",
+      "gap-3f8116633bd4",
+      "gap-e3aa5867edcc",
+      "gap-3c25a818c2a6",
+      "gap-9048e7997dbc",
+      "gap-af63f89afe07",
+      "gap-d72904eb0b60",
+      "gap-cc14f9c467d2",
+      "gap-beecec764e64",
+      "gap-0bdb239f48e6",
+      "gap-7e9636bb1cac",
+      "gap-bd5e23fcb890",
+      "gap-c8fb7f26b61d",
+      "gap-003e044cbbab"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "ucronie-eretiche-2e607b99",
     "path": "/works/ucronie-eretiche-2e607b99/",
     "editorialId": "item-ba16a0481407",
@@ -20510,6 +21065,44 @@
     }
   },
   {
+    "slug": "ucronie-diluviane-716b9995",
+    "path": "/works/ucronie-diluviane-716b9995/",
+    "editorialId": "item-bb2fe7bb4304",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Fenicia.htm",
+    "sources": [
+      {
+        "documentId": "doc-716b9995959f",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Fenicia.htm",
+        "timestamp": "20190822221321",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Ucronie Diluviane",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Fenicia.htm",
+        "text": [
+          "Torna indietro",
+          "Per farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-89611dcdd6b6",
+      "gap-ccc4daf8254e",
+      "gap-5281f8b74c89"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "ucronii-in-milanes-0cbfdda3",
     "path": "/works/ucronii-in-milanes-0cbfdda3/",
     "editorialId": "item-bbf4517762ca",
@@ -20639,9 +21232,7 @@
         ]
       }
     ],
-    "gaps": [
-      "gap-ee5c2b4c4226"
-    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -20750,6 +21341,47 @@
       "gap-59dceb9986ae",
       "gap-985804ed000d",
       "gap-3e7acb17eb07"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "ucronie-del-lontano-futuro-181f5b67",
+    "path": "/works/ucronie-del-lontano-futuro-181f5b67/",
+    "editorialId": "item-be3acea30e37",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Artu_500.htm",
+    "sources": [
+      {
+        "documentId": "doc-181f5b671d19",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Artu_500.htm",
+        "timestamp": "20240714102625",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Ucronie del lontano futuro",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Artu_500.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-98c6f5415142",
+      "gap-008ff691eaf3",
+      "gap-c6d79ca362ec",
+      "gap-4288f84fa88f",
+      "gap-ef5bf6e70b75",
+      "gap-482ef5bd7287"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -20993,8 +21625,7 @@
       }
     ],
     "gaps": [
-      "gap-1ef9983bf1da",
-      "gap-b01fbfe595ea"
+      "gap-1ef9983bf1da"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -21607,6 +22238,51 @@
     }
   },
   {
+    "slug": "l-eredita-degli-iperborei-41f56026",
+    "path": "/works/l-eredita-degli-iperborei-41f56026/",
+    "editorialId": "item-c698ada44e68",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Iperborei.htm",
+    "sources": [
+      {
+        "documentId": "doc-41f560264b66",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Iperborei.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'eredità degli Iperborei",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Iperborei.htm",
+        "text": [
+          "Torna indietro",
+          "Per farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-e15c02e5fb35",
+      "gap-d2e51686c4c3",
+      "gap-c05302364321",
+      "gap-7ff411e68153",
+      "gap-e138930e88f0",
+      "gap-92f80b10e46c",
+      "gap-d6197c353708",
+      "gap-43be66e6640c",
+      "gap-e3197e1dd1e0",
+      "gap-14027ded9c15",
+      "gap-85e9dd62619a"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "crossover-nippo-robotico-81a1fd3f",
     "path": "/works/crossover-nippo-robotico-81a1fd3f/",
     "editorialId": "item-c6ab7f47a511",
@@ -21927,29 +22603,6 @@
       "gap-1fa273a02229",
       "gap-bac82deb5807",
       "gap-2e2cecf99afd",
-      "gap-223733d67738",
-      "gap-bd6be55998a9",
-      "gap-3f6547852561",
-      "gap-7d369697bf80",
-      "gap-e0be0f30399d",
-      "gap-ed72a0e006a6",
-      "gap-25ee4d8aad5a",
-      "gap-82841a91b4e4",
-      "gap-51a143cc3c79",
-      "gap-d9fbb7a15596",
-      "gap-f239bcd68ab2",
-      "gap-e8c6e9f46d80",
-      "gap-081c5c897c2f",
-      "gap-fa1cbb7fadf3",
-      "gap-738321892b7f",
-      "gap-84787653173e",
-      "gap-0d2684e11e71",
-      "gap-59f366f7090f",
-      "gap-992a49f71043",
-      "gap-05f73b4e6a1c",
-      "gap-8b1b222dce87",
-      "gap-e8dd4325d047",
-      "gap-5304f71c2a9c",
       "gap-c5228433baa9",
       "gap-738a24e97975",
       "gap-cc9505d41911",
@@ -21958,17 +22611,7 @@
       "gap-421b5e760213",
       "gap-990ef20a51a3",
       "gap-707f80db4701",
-      "gap-edec4802b153",
-      "gap-586c04dbdab9",
-      "gap-00b2600d4151",
-      "gap-4b05249b0d02",
-      "gap-f11c00727659",
-      "gap-5da2b4ad4df1",
-      "gap-e490d39148cb",
-      "gap-1d1eff29fe48",
-      "gap-f45509449fca",
-      "gap-778173fa2ccb",
-      "gap-6771113eb6c1"
+      "gap-edec4802b153"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -22290,8 +22933,45 @@
       }
     ],
     "gaps": [
-      "gap-dbb2bef06eef",
-      "gap-5bd914acf8d4"
+      "gap-dbb2bef06eef"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "fantaletteratura-205976e9",
+    "path": "/works/fantaletteratura-205976e9/",
+    "editorialId": "item-ca9bc6eef872",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Manzoni.htm",
+    "sources": [
+      {
+        "documentId": "doc-205976e9c322",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Manzoni.htm",
+        "timestamp": "20260117170950",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "FantaLetteratura!",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Manzoni.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete contribuire alla discussione, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-72d0d8515faf",
+      "gap-2ab8531efa7b",
+      "gap-f2bee608a910"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -22365,6 +23045,44 @@
     "gaps": [
       "gap-85d4a63250e6",
       "gap-781efe5a65c9"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "ucronie-paleocristiane-3ee7d813",
+    "path": "/works/ucronie-paleocristiane-3ee7d813/",
+    "editorialId": "item-cb198b5e6737",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_San_Giacomo.htm",
+    "sources": [
+      {
+        "documentId": "doc-3ee7d8138184",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_San_Giacomo.htm",
+        "timestamp": "20200130154030",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Ucronie Paleocristiane",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_San_Giacomo.htm",
+        "text": [
+          "Torna indietro",
+          "Per commentare, scrivetemi a questo indirizzo.",
+          "Per contribuire alle discussioni in corso, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-bc004c4e846a",
+      "gap-1e6d8dd103a4"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -22777,8 +23495,7 @@
     ],
     "gaps": [
       "gap-79126383964e",
-      "gap-091083ce6c7d",
-      "gap-761cd57e85a4"
+      "gap-091083ce6c7d"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -23452,6 +24169,54 @@
     }
   },
   {
+    "slug": "l-eredita-di-roma-064ed06c",
+    "path": "/works/l-eredita-di-roma-064ed06c/",
+    "editorialId": "item-d46fb265bae4",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Eredita_di_Roma.htm",
+    "sources": [
+      {
+        "documentId": "doc-064ed06cfa46",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/Eredita_di_Roma.htm",
+        "timestamp": "20261016101307",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'eredità di Roma",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Eredita_di_Roma.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farci conoscere la vostra opinione in proposito, basta che scriviate al Webmaster..."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-6b492dd2e77a",
+      "gap-1d29fc9efd37",
+      "gap-d0eb0e90f0d1",
+      "gap-bd5855e62329",
+      "gap-530c22e67c18",
+      "gap-833b1738005b",
+      "gap-1b2553b1ade4",
+      "gap-d24f6f98a9b2",
+      "gap-edcac153319b",
+      "gap-1ff79266d405",
+      "gap-8bd36d7a041a",
+      "gap-6e7620712a58",
+      "gap-740a36e29a6f"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "genealogia-di-gian-carlo-i-re-d-italia-4580cabe",
     "path": "/works/genealogia-di-gian-carlo-i-re-d-italia-4580cabe/",
     "editorialId": "item-d547c45b393b",
@@ -23619,9 +24384,7 @@
         ]
       }
     ],
-    "gaps": [
-      "gap-a7e4b912322d"
-    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -23950,6 +24713,54 @@
     }
   },
   {
+    "slug": "inghilterra-celto-vichinga-37c5e1cc",
+    "path": "/works/inghilterra-celto-vichinga-37c5e1cc/",
+    "editorialId": "item-d9ddb57427ec",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Inghilterra_celto_vichinga.htm",
+    "sources": [
+      {
+        "documentId": "doc-37c5e1ccc9c6",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/Inghilterra_celto_vichinga.htm",
+        "timestamp": "20260513140406",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Inghilterra celto-vichinga",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Inghilterra_celto_vichinga.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete fornirci suggerimenti o commenti, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-0e487fd15b3d",
+      "gap-1c1272c26c7b",
+      "gap-2ad3f62c4a72",
+      "gap-0eb9efd2fa07",
+      "gap-21e7ae5c59cc",
+      "gap-a8ca438ed876",
+      "gap-d9797b52900f",
+      "gap-81f1c58ec2ec",
+      "gap-895ef26f4931",
+      "gap-bc3574bfb1f2",
+      "gap-b4947219b45f",
+      "gap-fb2c5ebe47f2",
+      "gap-78358c0aaf26"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "baldovino-iv-il-grande-8199571b",
     "path": "/works/baldovino-iv-il-grande-8199571b/",
     "editorialId": "item-da31aa8a2173",
@@ -24101,6 +24912,54 @@
     }
   },
   {
+    "slug": "i-merovingi-eterni-55049d27",
+    "path": "/works/i-merovingi-eterni-55049d27/",
+    "editorialId": "item-db8322c256ea",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm",
+    "sources": [
+      {
+        "documentId": "doc-55049d27edbc",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm",
+        "timestamp": "20261016101301",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "I Merovingi eterni",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete fornirmi suggerimenti o commenti, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-cbb68b0c0440",
+      "gap-cd3fff093f13",
+      "gap-1c125f6b38eb",
+      "gap-60844bb93c7b",
+      "gap-57e2e07792fc",
+      "gap-38661c8c8d54",
+      "gap-e5ccffda6cb8",
+      "gap-eb7d63cfc70c",
+      "gap-6a92d95468bb",
+      "gap-6e5ffe8c153c",
+      "gap-93a09131cd95",
+      "gap-664f0ecb9432",
+      "gap-e95b431f6c32"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "the-american-century-9ad94428",
     "path": "/works/the-american-century-9ad94428/",
     "editorialId": "item-db9afa2cb298",
@@ -24168,6 +25027,43 @@
       }
     ],
     "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "come-evitare-una-guerra-mondiale-3c0fa47d",
+    "path": "/works/come-evitare-una-guerra-mondiale-3c0fa47d/",
+    "editorialId": "item-dc43ebd9881b",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/come_evitare_una_guerra.htm",
+    "sources": [
+      {
+        "documentId": "doc-3c0fa47d3497",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/come_evitare_una_guerra.htm",
+        "timestamp": "20200129151947",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Come evitare una guerra mondiale",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/come_evitare_una_guerra.htm",
+        "text": [
+          "Torna indietro",
+          "Per ora finisce qui. Se volete contribuire alla discussione, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-c3801fe196cd",
+      "gap-5c44a18ada84"
+    ],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -24373,6 +25269,47 @@
     ],
     "gaps": [
       "gap-4d8078cd88ca"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "misteri-o-no-d-italia-9c0ba63d",
+    "path": "/works/misteri-o-no-d-italia-9c0ba63d/",
+    "editorialId": "item-dd3475309482",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/nottedeigenerali2.htm",
+    "sources": [
+      {
+        "documentId": "doc-9c0ba63d92e6",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/nottedeigenerali2.htm",
+        "timestamp": "20230921152855",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Misteri (o no?!?) d'Italia",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/nottedeigenerali2.htm",
+        "text": [
+          "Torna indietro",
+          "...tranquilli, è un'ucronia! La P2 è morta! Il suo piano lo potete leggere a questo indirizzo. E come potete vedere NESSUN punto è stato attuato!",
+          "Per partecipare alla discussione, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-5e435f78bc78",
+      "gap-e243053eeb18",
+      "gap-9413d5a1aabd",
+      "gap-f4d4da06651d",
+      "gap-9bedb93728c6"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -24650,6 +25587,40 @@
     }
   },
   {
+    "slug": "piccolo-e-bello-f9e886eb",
+    "path": "/works/piccolo-e-bello-f9e886eb/",
+    "editorialId": "item-e0ef04c05bb4",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Microstati.htm",
+    "sources": [
+      {
+        "documentId": "doc-f9e886eb988a",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Microstati.htm",
+        "timestamp": "20210117183208",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Piccolo è bello",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Microstati.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete partecipare al gioco aggiungendo nuovi microstati, scriveteci a questo indirizzo!"
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "carausio-primo-re-della-britannia-romana-4c6a0882",
     "path": "/works/carausio-primo-re-della-britannia-romana-4c6a0882/",
     "editorialId": "item-e13e175d0f74",
@@ -24785,9 +25756,7 @@
         ]
       }
     ],
-    "gaps": [
-      "gap-935e6b88f7e9"
-    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -25219,6 +26188,40 @@
     }
   },
   {
+    "slug": "anno-7-c5de360e",
+    "path": "/works/anno-7-c5de360e/",
+    "editorialId": "item-e5f3bdb430df",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Anno_7.htm",
+    "sources": [
+      {
+        "documentId": "doc-c5de360ef74f",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/Anno_7.htm",
+        "timestamp": "20260314085158",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Anno 7",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Anno_7.htm",
+        "text": [
+          "Torna indietro",
+          "Per farmi sapere che ne pensate, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-donaukonfoderation-bcf8e078",
     "path": "/works/la-donaukonfoderation-bcf8e078/",
     "editorialId": "item-e7af4163b9e1",
@@ -25324,29 +26327,6 @@
       "gap-d2f9d1b002d3",
       "gap-ac8fcf2399d2",
       "gap-4da3ab839825",
-      "gap-ac9defbe2b16",
-      "gap-16a6be9c69a0",
-      "gap-8db90f2e0bee",
-      "gap-f22a615feab5",
-      "gap-b6b838ae0ce4",
-      "gap-c71d6ff01c98",
-      "gap-98ac8721bbab",
-      "gap-3936d433f3f5",
-      "gap-dd26e099273b",
-      "gap-117906532657",
-      "gap-76054de75aef",
-      "gap-2423158d11f0",
-      "gap-2d65f7b313b7",
-      "gap-4a270880f68d",
-      "gap-31005405afbc",
-      "gap-7d5497676248",
-      "gap-e66ebe880b1f",
-      "gap-2df6615b392b",
-      "gap-deb207b3d59e",
-      "gap-f9219bdd9467",
-      "gap-4e7c449f16de",
-      "gap-3e72533d45ca",
-      "gap-955e5eced794",
       "gap-3af60326b773",
       "gap-e6c8f075471a",
       "gap-17f4c3d025e2",
@@ -25356,16 +26336,6 @@
       "gap-85782d05a62c",
       "gap-1cccad8db764",
       "gap-303728fbc8ed",
-      "gap-a6df540f11a7",
-      "gap-e6624e4cf428",
-      "gap-bae613b1f7df",
-      "gap-f04ee60f309c",
-      "gap-8829172e5d9a",
-      "gap-35dcc98b1af1",
-      "gap-797e4c4ca109",
-      "gap-6296a01f77b2",
-      "gap-583f201f177f",
-      "gap-2c5d19ac51d1",
       "gap-bbec12ab6850"
     ],
     "comparison": {
@@ -25629,28 +26599,6 @@
     "gaps": [
       "gap-1b4efd395928",
       "gap-d668cc20f7aa",
-      "gap-f11e9b6abb96",
-      "gap-d0401bc21c2d",
-      "gap-f774339a1cd0",
-      "gap-b9ef75177462",
-      "gap-a0f4af600c06",
-      "gap-8df57011109a",
-      "gap-1a8bdbc8e975",
-      "gap-81520bb41805",
-      "gap-9500cd84621a",
-      "gap-0eb8e52f684c",
-      "gap-d60e04d2d437",
-      "gap-53f57ec00b48",
-      "gap-0e7b18c80201",
-      "gap-a04d256b3888",
-      "gap-a728dbb6dcb5",
-      "gap-d7927f56fe4c",
-      "gap-74bcddf6d1ea",
-      "gap-7883bbc7e94e",
-      "gap-b2d56dcf1f82",
-      "gap-2821fa4e0b1d",
-      "gap-25b2569f81b3",
-      "gap-ab1f6fc2b34f",
       "gap-0f080adf9fa7",
       "gap-bad735e265da",
       "gap-0dcc43221e1e",
@@ -25659,17 +26607,7 @@
       "gap-8ab3a3cfa447",
       "gap-e5326dc7e6ea",
       "gap-0741bb7f3eb9",
-      "gap-315e01e34a84",
-      "gap-2719c61c4d33",
-      "gap-31251779d0f9",
-      "gap-c1f2a21860c5",
-      "gap-1888099b405a",
-      "gap-f68ac48cf175",
-      "gap-f64883f671e5",
-      "gap-6304ba8e521f",
-      "gap-32ddf3aa15af",
-      "gap-0e6db5abe32a",
-      "gap-6dc520dd45d7"
+      "gap-315e01e34a84"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -25990,6 +26928,41 @@
       "gap-0bc77d25d940",
       "gap-73e74d511f47",
       "gap-6b49c673946b"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "raccontini-che-fanno-pensare-82a1743a",
+    "path": "/works/raccontini-che-fanno-pensare-82a1743a/",
+    "editorialId": "item-eee6fb7aa63a",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/lezione.htm",
+    "sources": [
+      {
+        "documentId": "doc-82a1743ac20c",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/lezione.htm",
+        "timestamp": "20250418221347",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Raccontini che fanno pensare",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/lezione.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-5b58b250478f"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -26479,30 +27452,6 @@
       "gap-3160e44a1ed7",
       "gap-e31b8b6bda54",
       "gap-aa7e3b74ab0e",
-      "gap-8592d7179c22",
-      "gap-bb3727048423",
-      "gap-d8f0cf14c034",
-      "gap-e4a6c61efbe9",
-      "gap-9423ddd4bc5a",
-      "gap-a93f1a2baccd",
-      "gap-d811d7585fa6",
-      "gap-787e876ad457",
-      "gap-833c5bcab1c5",
-      "gap-96bcf045ddae",
-      "gap-7660128be27d",
-      "gap-95e00c6f0ceb",
-      "gap-074804ae821d",
-      "gap-8261c89052fb",
-      "gap-12ee47cfb75e",
-      "gap-20eb8477123d",
-      "gap-3aca984adc36",
-      "gap-84409c6e8283",
-      "gap-e410bf7cfe29",
-      "gap-b03352916e28",
-      "gap-11639f9e9bfb",
-      "gap-7fca27edf77b",
-      "gap-e6426c75a19e",
-      "gap-114d1666b8d9",
       "gap-b2abbd0e4f8f",
       "gap-f95472d3b13d",
       "gap-f0a3e61a74ef",
@@ -26511,17 +27460,7 @@
       "gap-d32992cb3e08",
       "gap-5e4f0d0446ec",
       "gap-c1fd49f70ad5",
-      "gap-850fe0fe2ebd",
-      "gap-220a176ac376",
-      "gap-d68e3b32ccd4",
-      "gap-e5ed8dad9aa3",
-      "gap-6b27b748ef66",
-      "gap-f65cc5e7edda",
-      "gap-2119c33ab786",
-      "gap-bf482b4e88a5",
-      "gap-84fc4813f671",
-      "gap-5facb3c1d613",
-      "gap-2ef6c5b74a1d"
+      "gap-850fe0fe2ebd"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -26703,8 +27642,7 @@
       }
     ],
     "gaps": [
-      "gap-6141cf75c0dc",
-      "gap-62339a5872e8"
+      "gap-6141cf75c0dc"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -27021,28 +27959,6 @@
       "gap-9805246f36c1",
       "gap-e7fe1e44fac5",
       "gap-a9e9b27db365",
-      "gap-390a128766dd",
-      "gap-0ed19807c744",
-      "gap-0c4d107bcaaa",
-      "gap-a01e05c7aab4",
-      "gap-ed829fd894a3",
-      "gap-b33bd50225b0",
-      "gap-42db6b9ff606",
-      "gap-6c67a8455b99",
-      "gap-fb03e7121ddf",
-      "gap-4e439e8f3504",
-      "gap-4e1218d35c41",
-      "gap-6b6daaa1b5a5",
-      "gap-0df5699e65b7",
-      "gap-7f151a5b0715",
-      "gap-e60eadd79072",
-      "gap-e85e664af933",
-      "gap-e8c495ac01c4",
-      "gap-cbbf2e47273e",
-      "gap-8580109642d1",
-      "gap-5ed4372522f0",
-      "gap-9b04bc56c02d",
-      "gap-cecc3f47585f",
       "gap-0870c2deb162",
       "gap-d8fceccb2abb",
       "gap-f79d93ef37bd",
@@ -27052,16 +27968,6 @@
       "gap-8cbea7453082",
       "gap-3a05a2f858bf",
       "gap-26fcfa3789d7",
-      "gap-77cb12881a21",
-      "gap-9497c7885922",
-      "gap-52e58eb75255",
-      "gap-e26b1c2d64ad",
-      "gap-64bf0983b7e9",
-      "gap-974acea7fc97",
-      "gap-1bafbe7b4ce1",
-      "gap-24b2409928dc",
-      "gap-63c21e2d3dfe",
-      "gap-2c0a8bacac17",
       "gap-579e6fc1b78e"
     ],
     "comparison": {
@@ -27136,6 +28042,45 @@
       "gap-77b867d50dc6",
       "gap-62a0130804e0",
       "gap-f2421eb163f3"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "raccontini-horror-924d5454",
+    "path": "/works/raccontini-horror-924d5454/",
+    "editorialId": "item-f90405fc1e6d",
+    "source": "http://www.fmboschetto.it/utopiaucronia/raccontino_spettrale.htm",
+    "sources": [
+      {
+        "documentId": "doc-924d5454d6c8",
+        "url": "http://www.fmboschetto.it/utopiaucronia/raccontino_spettrale.htm",
+        "timestamp": "20250523083224",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Raccontini horror",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/raccontino_spettrale.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farci avere i vostri commenti in proposito, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-5d1a38340e68",
+      "gap-ea5e7412e79f",
+      "gap-a58d2b9b9038",
+      "gap-0ef5862fda8a"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -27281,29 +28226,6 @@
     ],
     "gaps": [
       "gap-99dbc9654553",
-      "gap-e663faba5b8a",
-      "gap-795d69889ffa",
-      "gap-3f22538f43cf",
-      "gap-0779590fe0a2",
-      "gap-dd218ea68ff0",
-      "gap-4ea57c513db2",
-      "gap-e688fc7ca202",
-      "gap-ae947d46725b",
-      "gap-99aaea92dafb",
-      "gap-79ba727da4fc",
-      "gap-4e5e0d041441",
-      "gap-61bb3be28558",
-      "gap-d77b04d0e8d6",
-      "gap-12aefe9d1f69",
-      "gap-39ea228cd4dd",
-      "gap-991997f7e7db",
-      "gap-b54dfd2b8340",
-      "gap-335ac2548bd2",
-      "gap-1cf804accdce",
-      "gap-7670b082bc30",
-      "gap-1684c5614f1c",
-      "gap-18eb8dd28b27",
-      "gap-2610398d3e2c",
       "gap-4bd196a32133",
       "gap-04a33c1cf4bc",
       "gap-630381f1eec6",
@@ -27312,17 +28234,7 @@
       "gap-55606e5a779d",
       "gap-fc0198908c06",
       "gap-449412729c7a",
-      "gap-0a356b659de3",
-      "gap-fe5eedd29c61",
-      "gap-6fc080efc7b7",
-      "gap-de8ea7fa0cc2",
-      "gap-2b07d135df97",
-      "gap-a915bf00cce4",
-      "gap-c08daf437205",
-      "gap-e6623dedfeff",
-      "gap-86d395baaa36",
-      "gap-07e994843988",
-      "gap-fae8a9d301fa"
+      "gap-0a356b659de3"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -27431,29 +28343,6 @@
     "gaps": [
       "gap-64eb5c96e0f3",
       "gap-c4e0225fa137",
-      "gap-80aca57023ac",
-      "gap-16ee9846f031",
-      "gap-88da9ce2dca0",
-      "gap-004585e366f3",
-      "gap-aca4d889210d",
-      "gap-d9efeab9b138",
-      "gap-f76b8f3ae2b2",
-      "gap-3a65c565b6e6",
-      "gap-25e8adad47d5",
-      "gap-699cbb1cfe0c",
-      "gap-d5b274f293ac",
-      "gap-298b363c0e60",
-      "gap-290c09413df1",
-      "gap-c4b712703443",
-      "gap-5e12fad975ae",
-      "gap-644246e157b6",
-      "gap-004f3a64ec71",
-      "gap-77d27a5d41c3",
-      "gap-b4b7156d7879",
-      "gap-e5c5a1b9fcb0",
-      "gap-1fff602c4eec",
-      "gap-217f4486ab7f",
-      "gap-c3472f188587",
       "gap-01c66bdbcc5e",
       "gap-49cb7e1fd464",
       "gap-44436c2be657",
@@ -27462,17 +28351,7 @@
       "gap-a850d8921ed5",
       "gap-224ff73b7b6a",
       "gap-4522bc975866",
-      "gap-20f79dde2388",
-      "gap-e4f77a55e06b",
-      "gap-6562dd028a62",
-      "gap-788a6965b9a0",
-      "gap-60010b3105c1",
-      "gap-fbe2b59d5ba4",
-      "gap-3762b6a74c8c",
-      "gap-06f6b678e1c5",
-      "gap-387784e73162",
-      "gap-b1568e1b890f",
-      "gap-30283d0f1826"
+      "gap-20f79dde2388"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -27659,30 +28538,6 @@
       "gap-14acebe99374",
       "gap-b0284467676b",
       "gap-d25cb3d5072a",
-      "gap-c57f2ab009b2",
-      "gap-6adf0905875b",
-      "gap-e0a38ca135cd",
-      "gap-18628f5fddf3",
-      "gap-bc70188247f9",
-      "gap-518df8d7012e",
-      "gap-e1c3005fdcde",
-      "gap-53a3af294660",
-      "gap-9984f091f008",
-      "gap-6e10222699a3",
-      "gap-ca0e2109f19a",
-      "gap-e26939f59430",
-      "gap-d53b5c819c83",
-      "gap-ee38bc8058bc",
-      "gap-7ef8a34e89ed",
-      "gap-888ef7052db5",
-      "gap-6324f743508e",
-      "gap-78d031261753",
-      "gap-b36d40bb034e",
-      "gap-492200b8fe9f",
-      "gap-e5c5f3ee95e7",
-      "gap-7e117f4ebaf0",
-      "gap-e5e040baac5f",
-      "gap-066d99021602",
       "gap-5a54585dd9fb",
       "gap-6134609b5970",
       "gap-90c7f6d0a6fc",
@@ -27691,17 +28546,7 @@
       "gap-6b37130d5d31",
       "gap-adef3b2b4973",
       "gap-8581a358efc5",
-      "gap-2b6e328aa1d4",
-      "gap-154f217c956e",
-      "gap-ac63b3c63c05",
-      "gap-5011093943fc",
-      "gap-7e7a3703c5cf",
-      "gap-7fa5c0c8f8c5",
-      "gap-55347f22652a",
-      "gap-cf457b635579",
-      "gap-48e09d1bc427",
-      "gap-1fab8510cc00",
-      "gap-1fddc84a8965"
+      "gap-2b6e328aa1d4"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -28026,12 +28871,9 @@
       "gap-0e7f721d0820",
       "gap-77782c10c19a",
       "gap-731b452c53e2",
-      "gap-b734ff3c06cf",
       "gap-5029cb275895",
       "gap-47d37cdefc37",
       "gap-b07be2aa911e",
-      "gap-6d982e5aab2c",
-      "gap-1a74854ea915",
       "gap-5fc57766bd3b",
       "gap-b585c6b00464",
       "gap-0f71cccf1bd7",
@@ -28070,7 +28912,6 @@
       "gap-adfc98679e03",
       "gap-c529bed400d4",
       "gap-74c049f2a25d",
-      "gap-7c96a3148d6b",
       "gap-7518bf08f7ff",
       "gap-e3fcc33c920f",
       "gap-4dda6fdb1b7f",

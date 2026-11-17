@@ -20,6 +20,9 @@ export const publicationSchema = z
         proposalId: identifier,
         fingerprint: z.string().regex(/^[a-f0-9]{64}$/),
         selectedAt: z.iso.datetime(),
+        // "whole": publish only the complete page of a split proposal, with
+        // its contributions in place (owner decision for collective pages).
+        edition: z.literal("whole").optional(),
       }),
     ),
   })
@@ -104,7 +107,13 @@ export function publicationFingerprint(map: EditorialMap, proposalId: string) {
   );
 }
 
-export function publicationTargets(map: EditorialMap, proposalId: string) {
+export type Edition = "whole" | undefined;
+
+export function publicationTargets(
+  map: EditorialMap,
+  proposalId: string,
+  edition?: Edition,
+) {
   const proposal = map.proposals.find((p) => p.id === proposalId);
   if (!proposal) throw Error(`Unknown publication proposal: ${proposalId}`);
   if (
@@ -112,7 +121,25 @@ export function publicationTargets(map: EditorialMap, proposalId: string) {
     !proposal.targets.length
   )
     throw Error(`Proposal has no supported reading edition: ${proposalId}`);
-  const targets = proposal.targets.map((id) => {
+  let ids = proposal.targets;
+  if (edition === "whole") {
+    if (proposal.action !== "split" || proposal.level !== "work")
+      throw Error(
+        `Only a collective-page split has a whole edition: ${proposalId}`,
+      );
+    // The page item is the one target that takes its whole source document.
+    ids = proposal.targets.filter((id) => {
+      const item = map.items.find((i) => i.id === id);
+      return (
+        item?.sources.length === 1 &&
+        item.sources[0].selection.kind === "whole" &&
+        item.sources[0].documentId === proposal.documents[0]
+      );
+    });
+    if (ids.length !== 1)
+      throw Error(`Split proposal has no single whole page: ${proposalId}`);
+  }
+  const targets = ids.map((id) => {
     const item = map.items.find((i) => i.id === id);
     if (!item) throw Error(`Missing publication target: ${id}`);
     if (item.level === "world")
@@ -154,10 +181,11 @@ export function publicationCandidate(
   map: EditorialMap,
   proposalId: string,
   existing: EditorialItem[],
+  edition?: Edition,
 ) {
   const selected = new Map(existing.map((item) => [item.id, item]));
   const additions: EditorialItem[] = [];
-  for (const item of publicationTargets(map, proposalId)) {
+  for (const item of publicationTargets(map, proposalId, edition)) {
     if (selected.has(item.id)) continue;
     for (const previous of selected.values()) {
       if (overlaps(item, previous))
@@ -202,9 +230,12 @@ export function publicationItems(
       throw Error(
         `Publication selection changed; review and select it again: ${entry.proposalId}`,
       );
-    for (const item of publicationCandidate(map, entry.proposalId, [
-      ...selected.values(),
-    ])) {
+    for (const item of publicationCandidate(
+      map,
+      entry.proposalId,
+      [...selected.values()],
+      entry.edition,
+    )) {
       selected.set(item.id, item);
       extraIds.add(item.id);
     }
@@ -218,11 +249,12 @@ export function selectPublication(
   publication: Publication,
   baseline: string[],
   proposalId: string,
+  edition?: Edition,
 ) {
   if (publication.selections.some((s) => s.proposalId === proposalId))
     throw Error(`Proposal already selected: ${proposalId}`);
   const current = publicationItems(map, ledger, publication, baseline);
-  const targets = publicationTargets(map, proposalId);
+  const targets = publicationTargets(map, proposalId, edition);
   if (
     targets.every((item) =>
       current.items.some((selected) => selected.id === item.id),
@@ -237,6 +269,7 @@ export function selectPublication(
         proposalId,
         fingerprint: publicationFingerprint(map, proposalId),
         selectedAt: new Date().toISOString(),
+        ...(edition ? { edition } : {}),
       },
     ],
   });

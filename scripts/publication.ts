@@ -17,6 +17,7 @@ const { positionals, values } = parseArgs({
   allowPositionals: true,
   options: {
     "dry-run": { type: "boolean" },
+    whole: { type: "boolean" },
     action: { type: "string", default: "work" },
     limit: { type: "string", default: "20" },
   },
@@ -29,7 +30,7 @@ if (
   positionals.length > 2
 )
   throw Error(
-    "Use: pnpm publication status | next [--action work|split|merge] [--limit 20] | select <proposal-id> [--dry-run] | select-approved [--dry-run] | remove <proposal-id> [--dry-run]",
+    "Use: pnpm publication status | next [--action work|split|merge] [--limit 20] | select <proposal-id> [--whole] [--dry-run] | select-approved [--dry-run] | remove <proposal-id> [--dry-run]",
   );
 if ((command === "select" || command === "remove") !== Boolean(proposalId))
   throw Error(
@@ -40,9 +41,17 @@ const map = await readMap(),
   ledger = await readDecisions(),
   baseline = await baselineIds();
 const publication = await readPublication();
+const edition = values.whole ? ("whole" as const) : undefined;
 const change = (current: typeof publication) => {
   if (command === "select")
-    return selectPublication(map, ledger, current, baseline, proposalId);
+    return selectPublication(
+      map,
+      ledger,
+      current,
+      baseline,
+      proposalId,
+      edition,
+    );
   if (!current.selections.some((s) => s.proposalId === proposalId))
     throw Error(`Proposal is not selected: ${proposalId}`);
   const next = {
@@ -55,21 +64,28 @@ const change = (current: typeof publication) => {
 if (command === "select-approved") {
   // Select every approved, not yet selected proposal in one process, with the
   // same checks as `select`: one map read instead of one per proposal.
-  const pendingIds = (current: typeof publication, ledger: typeof ledger0) =>
-    ledger.decisions
+  // A split needs an explicit edition choice (`select <id> [--whole]`), so
+  // bulk selection leaves split proposals alone.
+  const pendingIds = (
+    current: typeof publication,
+    currentLedger: typeof ledger,
+    currentMap: typeof map,
+  ) =>
+    currentLedger.decisions
       .filter(
         (d) =>
           d.state === "approved" &&
+          currentMap.proposals.find((p) => p.id === d.proposalId)?.action !==
+            "split" &&
           !current.selections.some((s) => s.proposalId === d.proposalId),
       )
       .map((d) => d.proposalId);
-  const ledger0 = ledger;
   const selectAll = (
     currentMap: typeof map,
     currentLedger: typeof ledger,
     current: typeof publication,
   ) =>
-    pendingIds(current, currentLedger).reduce(
+    pendingIds(current, currentLedger, currentMap).reduce(
       (next, id) =>
         selectPublication(currentMap, currentLedger, next, baseline, id),
       current,
@@ -113,6 +129,7 @@ if (command === "select-approved") {
                 current,
                 baseline,
                 proposalId,
+                edition,
               )
             : change(current);
         publicationItems(currentMap, currentLedger, latest, baseline);
@@ -174,7 +191,9 @@ if (command === "select-approved") {
             }),
           selections: publication.selections.map((s) => ({
             proposalId: s.proposalId,
-            titles: publicationTargets(map, s.proposalId).map((i) => i.title),
+            titles: publicationTargets(map, s.proposalId, s.edition).map(
+              (i) => i.title,
+            ),
           })),
           note: "Approval alone never selects a text for publication. Selection alone never deploys it.",
         },
