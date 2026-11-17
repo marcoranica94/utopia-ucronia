@@ -2,402 +2,402 @@
 
 Read-only proposals for owner review. No approval or publication selection has been recorded. Review links open on the local development server after `pnpm dev`; they are absent from the deployed site.
 
-## 1. Il Regno di Tadinum
+## 1. Roma... di là dall'oceano!
 
-Proposal: `proposal-doc-cc9415c88721` · action: `work`
+Proposal: `proposal-doc-dc1e99ca3961` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-cc9415c88721)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-dc1e99ca3961)
 
-> Salve a tutti, amici. Alcuni anni fa ho scritto e pubblicato un libro ucronico ("Il Regno di Tadinum") su Totila e la battaglia di Tagina. Estate del 552 dopo Cristo. Italia centrale. Nella battaglia di Tagina (la Tadinu
+> Presentazione - Roma trasloca di là dall'oceano - La colonizzazione dell'Atlantide e le guerre civili - Lo splendore di Roma in Atlantide - Decadenza e caduta dell'impero romano in Atlantide - Il Medioevo e l'ascesa dei
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-regno-di-tadinum-cc9415c8/` · composition: `single`
+Target: `/works/roma-di-la-dall-oceano-dc1e99ca/` · composition: `single`
 
-[Full source for local review](/review/source/doc-cc9415c88721/)
+[Full source for local review](/review/source/doc-dc1e99ca3961/)
 
-Source: http://www.fmboschetto.it/utopiaucronia/Tadinum.htm
+Source: http://www.fmboschetto.it/racconti/Roma\_in\_America/Intestazione.htm
 
-SHA-256: `f69e8a67859cabcc72bf7925a0f39280fcff77bc4a00f6c02398e3af651f6819`
+SHA-256: `67122ae656ec9cd98f0339e6d7cc9445a74d5706cadc752a61f5e3ffa8799067`
 
 Selection: `{"kind":"whole"}`
 
-## 2. Il Grande Portogallo
+## 2. El reino del verano
 
-Proposal: `proposal-doc-cca4449ef9fb` · action: `work`
+Proposal: `proposal-doc-dc28b359bc76` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-cca4449ef9fb)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-dc28b359bc76)
 
-> Il Grande Portogallo di Toxon POD: 1578 Sebastiano I del Portogallo vince la battaglia di Alcazarquivir. Il suo alleato marocchino Mohammed II Saadi muore in battaglia, mentre il re Malik I è costretto alla fuga. Sebasti
+> El reino del verano de William Riker Esta vez hablaremos del rey Arturo, ¿les parece? Antes que nada: ¿quién era realmente este héroe semilegendario? Una cosa es cierta: se trata de una figura histórica, no de un persona
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-grande-portogallo-cca4449e/` · composition: `single`
+Target: `/works/el-reino-del-verano-dc28b359/` · composition: `single`
 
-[Full source for local review](/review/source/doc-cca4449ef9fb/)
+[Full source for local review](/review/source/doc-dc28b359bc76/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Grande\_Portogallo.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/elreinodelverano.htm
 
-SHA-256: `36f2b75714824704ceae7f739f74d036842c494f0659974ea2776ef60fe52549`
+SHA-256: `c6da7e02c6adf757d8d6c7aff1eb95063ea6df556e4ca4637efe6da4594a0365`
 
 Selection: `{"kind":"whole"}`
 
-## 3. Anno 126.400.109 d.C.
+## 3. Hanes a thiriogaethau'r Celtiaid
 
-Proposal: `proposal-doc-ccee77f41e01` · action: `work`
+Proposal: `proposal-doc-dc798b5650c7` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-ccee77f41e01)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-dc798b5650c7)
 
-> Anno 126.400.109 d.C. POD: Albino Luciani non muore il 28 settembre 1978 ma regna fino in tarda età. Karol Wojtyla resta arcivescovo di Cracovia ma muore prematuramente per cause ignote, si dice avvelenato per ordine del
+> \_\_\_\_\_\_ di William Riker Nota dell'autore: il titolo significa "Storia e territori dei Celti" in lingua Cymraeg. . 1200-750 a.C.: Età del Bronzo: Civiltà protoceltica dei Campi di Urne. Secondo lo storico della Chiesa Eus
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/anno-126-400-109-d-c-ccee77f4/` · composition: `single`
+Target: `/works/hanes-a-thiriogaethau-r-celtiaid-dc798b56/` · composition: `single`
 
-[Full source for local review](/review/source/doc-ccee77f41e01/)
+[Full source for local review](/review/source/doc-dc798b5650c7/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/ucronia\_pessimista.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Celti.htm
 
-SHA-256: `640b7064b9596baeace9aaaeb5acddd0b1c9e331f06f7ad0d7cdf382440d9a3d`
+SHA-256: `04cae643c72cf4195ecc508ac8656cc1244dd58f073f7d553f71779c054b0386`
 
 Selection: `{"kind":"whole"}`
 
-## 4. I favolosi Anni Ottanta
+## 4. Anno Domini 375
 
-Proposal: `proposal-doc-cd302071874c` · action: `work`
+Proposal: `proposal-doc-dccf44113b54` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-cd302071874c)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-dccf44113b54)
 
-> I favolosi Anni Ottanta Il grande giornalista Indro Montanelli definì il decennio che và dal 1980 al 1990 gli "Anni di Fango": tale definizione nasceva in contrapposizione con il decennio del terrorismo, gli "Anni di Pio
+> Anno Domini 375 di Mattia Spadoni 375: nei pressi del Danubio, incontro tra Valentiniano I e gli ambasciatori dei Quadi. Valentiniano si sente male, cade a terra, momenti di paura in tutti i presenti. Ma dopo questo atti
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/i-favolosi-anni-ottanta-cd302071/` · composition: `single`
+Target: `/works/anno-domini-375-dccf4411/` · composition: `single`
 
-[Full source for local review](/review/source/doc-cd302071874c/)
+[Full source for local review](/review/source/doc-dccf44113b54/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_anni\_80.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Olimpo.htm
 
-SHA-256: `7294e376ab8991fd7249196a8a7e0ac888edcfb710661c4d8f1f6dc0860207a0`
+SHA-256: `19b607255e89b493fafbfaed701595c3f6cc77100f9dfd4194742d34bd3b3526`
 
 Selection: `{"kind":"whole"}`
 
-## 5. Il Re Scorpione
+## 5. L'impero degli Aviz
 
-Proposal: `proposal-doc-cd8ae6ffa9f0` · action: `work`
+Proposal: `proposal-doc-dd2c6801784b` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-cd8ae6ffa9f0)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-dd2c6801784b)
 
-> Il Re Scorpione Così ha aperto le danze il Marziano: L'agenzia russa Interfax ha comunicato che studiosi dell'Università di Novosibirsk hanno ritrovato, negli anni novanta, la mummia di una donna della antica Scizia, nel
+> L'impero degli Aviz di Filobeche Stemma dell'Impero degli Aviz disegnato dall'amico nanwe01 (da questo sito) POD: Manuel I di Portogallo eredita la corona di Spagna alla morte di Isabella e Ferdinando in quanto marito di
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-re-scorpione-cd8ae6ff/` · composition: `single`
+Target: `/works/l-impero-degli-aviz-dd2c6801/` · composition: `single`
 
-[Full source for local review](/review/source/doc-cd8ae6ffa9f0/)
+[Full source for local review](/review/source/doc-dd2c6801784b/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Re\_Scorpione.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Aviz.htm
 
-SHA-256: `4d42ab57f4632baf7bb3003792a38c1ac5b982df8e4c62a14d3e77ef8a325c09`
+SHA-256: `91adf4a106491408c6f44c068dbb3403112479cf9b7a21f83e8922e6eae326dc`
 
 Selection: `{"kind":"whole"}`
 
-## 6. Le Province Unite d'Italia
+## 6. \[uchronìe\] Gaston 1er, roi de France et de Navarre
 
-Proposal: `proposal-doc-cd902d631c4c` · action: `work`
+Proposal: `proposal-doc-dd2ffb4db9c8` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-cd902d631c4c)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-dd2ffb4db9c8)
 
-> Province Unite d'Italia ovvero: scambio tra Italia e Paesi Bassi di Homer Homer ha avuto quest'idea originale: e se invece dell'Olanda è l'Italia a ribellarsi agli spagnoli? . La situazione di Italia e Olanda nel tardo c
+> Gaston 1er, roi de France et de Navarre de Alessio Le premier à lancer l’idée fut (ô surprise) le Français Pourquoi Pas ? avec cette proposition : Armand Jean du Plessis, mieux connu sous le nom de Richelieu, était cardi
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/le-province-unite-d-italia-cd902d63/` · composition: `single`
+Target: `/works/uchronie-gaston-1er-roi-de-france-et-de-navarre-dd2ffb4d/` · composition: `single`
 
-[Full source for local review](/review/source/doc-cd902d631c4c/)
+[Full source for local review](/review/source/doc-dd2ffb4db9c8/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/province\_unite\_d\_Italia.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/uchroniesenfrancais/Gaston\_I.htm
 
-SHA-256: `d2ba5c0ee0adf2614426bd2ead1982dfa057796b40252680ce50df356985ff54`
+SHA-256: `d573cb3a3c8e3e0678232bfeb1901418543065319d3614469bece4d80ef66ddb`
 
 Selection: `{"kind":"whole"}`
 
-## 7. Anno Zero
+## 7. Fanta-Alessandro Magno
 
-Proposal: `proposal-doc-cd9151f5a0cc` · action: `work`
+Proposal: `proposal-doc-dd79075c06e3` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-cd9151f5a0cc)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-dd79075c06e3)
 
-> Anno Zero una Timeline post-nucleare di Homer 2039-2046: Terza Guerra Mondiale, l’ultima grande catastrofe sul Pianeta Terra… Gli scontri si svolsero tra la Lega Occidentale composta da USA,UE e Giappone contro Russia, C
+> Alla conquista dell'Arabia Efestione, l'amico più caro di Alessandro ed il suo compagno più fidato nella grande spedizione asiatica, non muore affatto nel novembre del 324, ma ascende al rango di viceré e di luogotenente
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/anno-zero-cd9151f5/` · composition: `single`
+Target: `/works/fanta-alessandro-magno-dd79075c/` · composition: `single`
 
-[Full source for local review](/review/source/doc-cd9151f5a0cc/)
+[Full source for local review](/review/source/doc-dd79075c06e3/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_WWIII\_5.htm
+Source: http://www.fmboschetto.it/racconti/Alessandro/Alessandro\_1.htm
 
-SHA-256: `526f7f7a273a010e89ca497708d0e4e2e939240f656ff955347a0a9636d88205`
+SHA-256: `32bc58297a724f30a4541a805876e172eb1ef32219f49716cdd017d83f719825`
 
 Selection: `{"kind":"whole"}`
 
-## 8. La civiltà isocronica
+## 8. \[uchronìe\] Les Grands Comnènes
 
-Proposal: `proposal-doc-cdd673493748` · action: `work`
+Proposal: `proposal-doc-dd97bfd61208` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-cdd673493748)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-dd97bfd61208)
 
-> La civiltà isocronica di Perchè no? Ecco un'idea che mi é venuta questa sera. Ho voluto immaginare una civiltà basata sul viaggio nel tempo, però non sono sicuro di avere reso tutta la complessità del progetto che ho chi
+> Les Grands Comnènes de Filobeche Je ne sais pas si j’aurais le temps de les développer mais voici quelques possibilités de divergence au cours de l’histoire byzantine : 1) Les Byzantins bloquent l’invasion arabe, reprenn
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-civilta-isocronica-cdd67349/` · composition: `single`
+Target: `/works/uchronie-les-grands-comnenes-dd97bfd6/` · composition: `single`
 
-[Full source for local review](/review/source/doc-cdd673493748/)
+[Full source for local review](/review/source/doc-dd97bfd61208/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/isocronica.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/les\_grands\_Comnenes.htm
 
-SHA-256: `ff023978e96ec7b7138d03cadd55196a12fb1fad07b4defa57e806dcec7a204b`
+SHA-256: `fbfd733ef3dd832b667fab98d1661e22c243275cf92f325f2ac593187ae4154f`
 
 Selection: `{"kind":"whole"}`
 
-## 9. Basileus' Interference Timeline
+## 9. L'impero di Alessandro secondo Det0
 
-Proposal: `proposal-doc-ce049025bb24` · action: `work`
+Proposal: `proposal-doc-de19d82fc262` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-ce049025bb24)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-de19d82fc262)
 
-> Basileus' Interference Timeline di Basileus Tratta da questo sito e tradotta per noi da Generalissimus: . 1-50 d.C. circa I secolo d.C. - La lingua e le tradizioni liguri si dimostrano resistenti al processo di latinizza
+> L'impero di Alessandro di Det0 « Da quel che abbiamo detto, risulta manifesto anche questo: che compito del poeta è di dire non le cose accadute ma quelle che potrebbero accadere e le possibili secondo verosimiglianza e
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/basileus-interference-timeline-ce049025/` · composition: `single`
+Target: `/works/l-impero-di-alessandro-secondo-det0-de19d82f/` · composition: `single`
 
-[Full source for local review](/review/source/doc-ce049025bb24/)
+[Full source for local review](/review/source/doc-de19d82fc262/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Basileus\_Interference\_Timeline.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/impero\_di\_Alessandro\_Det0.htm
 
-SHA-256: `3143075e6af60f7d8d2fe8f6c640af78787b1cbd4c0b7a5f2f796b413a9d9aed`
+SHA-256: `54fc2ec3265e946594296490af47e40e8f37a7a713eeab715257f053b14fa830`
 
 Selection: `{"kind":"whole"}`
 
-## 10. 1713: l'Italia Austriaca
+## 10. Ucronie dell'Africa Australe
 
-Proposal: `proposal-doc-cf645c9051af` · action: `work`
+Proposal: `proposal-doc-de766ce0e42c` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-cf645c9051af)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-de766ce0e42c)
 
-> 1713, l'Italia Austriaca di Davide Miani 1713: Con il trattato di Utrecht l'Austria annette il Ducato di Milano, Napoli e Sardegna; la Repubblica di Venezia si trova accerchiata dai possedimenti austriaci. Marzo 1714: L'
+> Ucronie dell'Africa Australe di Lord Wilmore Diamo la parola a William Riker: Il viaggio del Papa in Madagascar del 7 ed 8 settembre 2019 mi ha spinto a realizzare questa cartina: l'impero coloniale malgascio! Come arriv
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/1713-l-italia-austriaca-cf645c90/` · composition: `single`
+Target: `/works/ucronie-dell-africa-australe-de766ce0/` · composition: `single`
 
-[Full source for local review](/review/source/doc-cf645c9051af/)
+[Full source for local review](/review/source/doc-de766ce0e42c/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Italia\_Austriaca.htm
+Source: http://www.fmboschetto.it:80/utopiaucronia/Fanta\_Madagascar.htm
 
-SHA-256: `e06d6fd9bf9a1c581e8b64f74d16528157115ad41cdb4b5c48c235c2c999d04f`
+SHA-256: `4ac9d5ca502d41831be4ed3ba0bab966e21002397961339d28e9b3982e4ea51f`
 
 Selection: `{"kind":"whole"}`
 
-## 11. Un francese alla corte di Teodosio (per parafrasare Mark Twain...)
+## 11. Napoleone II
 
-Proposal: `proposal-doc-cf776c284bd9` · action: `work`
+Proposal: `proposal-doc-deae94105c15` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-cf776c284bd9)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-deae94105c15)
 
-> Un francese alla corte di Teodosio (per parafrasare Mark Twain...) Ho visto una delle vostre idee: immaginare se stessi in un’epoca del passato per cambiarlo. Bene, ho pensato, facciamo le cose in grande. Io, Perchè no?,
+> Napoleone II di Perchè no? . Ecco la nuova proposta di William Riker: Marie-Josèphe-Rose de Tascher de la Pagerie, creola della Martinica e vedova del visconte Alexandre de Beauharnais, vittima eccellente del Terrore, in
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/un-francese-alla-corte-di-teodosio-per-parafrasare-mark-twain-cf776c28/` · composition: `single`
+Target: `/works/napoleone-ii-deae9410/` · composition: `single`
 
-[Full source for local review](/review/source/doc-cf776c284bd9/)
+[Full source for local review](/review/source/doc-deae94105c15/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Perche\_no\_nel\_basso\_impero.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Napoleone\_II.htm
 
-SHA-256: `60eb578fd0548df40ebf716718843f7095c9390f2b84f62aa85f1c81230bfcb4`
+SHA-256: `3f551daaf788020b0dda21f94720cf04a42c3878e27e571d5b5f2847aec0b025`
 
 Selection: `{"kind":"whole"}`
 
-## 12. L'Impero Genovese
+## 12. Mondiali di calcio 1990: Jugoslavia campione!
 
-Proposal: `proposal-doc-cf9acab973be` · action: `work`
+Proposal: `proposal-doc-deca7dc7bf9f` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-cf9acab973be)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-deca7dc7bf9f)
 
-> L'Impero Genovese di Toxon POD: i fratelli genovesi Ugolino e Vadino Vivaldi nel 1292 riescono nell'impresa di circumnavigare l'Africa, ed aprono l'era delle grandi esplorazioni geografiche con duecento anni di anticipo.
+> Mondiali di calcio 1990: Jugoslavia campione! Si sarebbe evitata o rimandata la tragedia? un'ucronia sportiva di Simone Torresani Introduzione La Storia unisce spesso alla tragedia il paradosso: fu amaro destino che la m
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/l-impero-genovese-cf9acab9/` · composition: `single`
+Target: `/works/mondiali-di-calcio-1990-jugoslavia-campione-deca7dc7/` · composition: `single`
 
-[Full source for local review](/review/source/doc-cf9acab973be/)
+[Full source for local review](/review/source/doc-deca7dc7bf9f/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Vivaldi.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Fanta\_Jugoslavia\_1990.htm
 
-SHA-256: `761ca6fbcc9aa8d7721d6ecce86f96820869764d9bc67fe745c126d4d9ad6a92`
+SHA-256: `6c1148645865009a8c9f85d5c93e92abdcdeb526c8f19dc1a4717a121ea15ba0`
 
 Selection: `{"kind":"whole"}`
 
-## 13. Time Machine, di Homer
+## 13. Gioacchino Murat primo Re dell'Italia Unita
 
-Proposal: `proposal-doc-cfb95d4775fb` · action: `work`
+Proposal: `proposal-doc-dffc2f92a82b` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-cfb95d4775fb)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-dffc2f92a82b)
 
-> Time Machine Un uomo del 21esimo secolo distrugge un’Utopia di Homer 6 Primario del 876 dalla Fondazione di Ysalia, Laboratorio di Fisica Quantistica di Aseklia (21^ città del Pianeta): Il Dottor Aydo Kurultasy passeggia
+> Gioacchino Murat primo Re dell'Italia Unita di Camus Vanz “Dall’Alpi allo stretto di Sicilia odasi un grido solo: L’indipendenza d’Italia”. Il 30 marzo 1815, a Rimini, ci fu il primo programma di rivendicazione dell’indi
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/time-machine-di-homer-cfb95d47/` · composition: `single`
+Target: `/works/gioacchino-murat-primo-re-dell-italia-unita-dffc2f92/` · composition: `single`
 
-[Full source for local review](/review/source/doc-cfb95d4775fb/)
+[Full source for local review](/review/source/doc-dffc2f92a82b/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Time\_Machine.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Murat.htm
 
-SHA-256: `271ffb254abe57adad42bedb7b4cdb7b4ee4c31f56ddff89dbd8c66e3c8031e2`
+SHA-256: `f98bf22543bb1325ad894a13997eb544762431a0f74988d2543b106c4bba4f2e`
 
 Selection: `{"kind":"whole"}`
 
-## 14. Bond. James Bond...
+## 14. Anno 1914 ab Urbe condita
 
-Proposal: `proposal-doc-d0490fdff205` · action: `work`
+Proposal: `proposal-doc-e04aa78ff172` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-d0490fdff205)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-e04aa78ff172)
 
-> di Lord Wilmore In questo sito non poteva certo mancare un'ucronia dedicata al re degli agenti segreti! 1909, 1 luglio: viene fondato l'MI6 (Military Intelligence, Sezione 6), il Servizio Segreto Britannico. 1910, 10 gen
+> Anno 1914 ab Urbe condita di William Riker Tutto è partito dall'idea di Enrica S: Vi voglio mostrare la cartina del mondo che vedete qui sopra, realizzata da me in un momento di ispirazione. L'impero romano esiste ancora
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/bond-james-bond-d0490fdf/` · composition: `single`
+Target: `/works/anno-1914-ab-urbe-condita-e04aa78f/` · composition: `single`
 
-[Full source for local review](/review/source/doc-d0490fdff205/)
+[Full source for local review](/review/source/doc-e04aa78ff172/)
 
-Source: http://www.fmboschetto.it/utopiaucronia/Zartvonia.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/1914aUc.htm
 
-SHA-256: `52d8c6af30661acb08718728698a347b48ada9d1753bec83cc2e8077378aa4fc`
+SHA-256: `9bc253bed0d8feb5ed2674d6812b14ed840c82ae8eaeefb855766345c1ca3bc8`
 
 Selection: `{"kind":"whole"}`
 
-## 15. Richelieu e il Re Sole sugli scudi
+## 15. \[uchronìe\] Nades (ou Sedan renversé)
 
-Proposal: `proposal-doc-d088bea40649` · action: `work`
+Proposal: `proposal-doc-e09c2ea03105` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-d088bea40649)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-e09c2ea03105)
 
-> Il Cardinale Re A gettare il sasso nello stagno è stato (guarda caso) il francese Perchè no? con questa sua proposta: Armand Jean du Plessis, meglio noto come Richelieu, era cardinale di Santa Romana Chiesa, era un grand
+> Nades (ou Sedan renversé) de Filobeche, William Riker et Porquoi pas? « L’écrasement de la France par la race germanique, et l’exégèse historico-philosophique qu’en tirèrent les penseurs d’outre-Rhin, semblèrent étendre
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/richelieu-e-il-re-sole-sugli-scudi-d088bea4/` · composition: `single`
+Target: `/works/uchronie-nades-ou-sedan-renverse-e09c2ea0/` · composition: `single`
 
-[Full source for local review](/review/source/doc-d088bea40649/)
+[Full source for local review](/review/source/doc-e09c2ea03105/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Richelieu.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Nades.htm
 
-SHA-256: `54b55614c54c689c838397ccb538dbb18ee681fb88fa76c82670e7b768590919`
+SHA-256: `fa72a722d81ef0d5b07c84a43e36b25fc5ccba4c1aab700a859faf1e8607905a`
 
 Selection: `{"kind":"whole"}`
 
-## 16. Calcio leonardesco
+## 16. Padre Brown Papa!
 
-Proposal: `proposal-doc-d107668990a5` · action: `work`
+Proposal: `proposal-doc-e14418908a99` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-d107668990a5)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-e14418908a99)
 
-> Calcio leonardesco di Enrico POD: Il regolamento ufficiale del gioco del calcio non viene stabilito in Inghilterra nel 1860, ma da Leonardo da Vinci in Italia nel 1479. Il gioco viene rapidamente modificato rispetto all'
+> Padre Brown Papa! de William Riker En el cónclave del 2 de marzo de 1939, a la muerte de Pío XI, en el primer escrutinio no resulta electo Papa Eugenio Pacelli, que en esta línea temporal es sólo un humilde párroco del c
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/calcio-leonardesco-d1076689/` · composition: `single`
+Target: `/works/padre-brown-papa-e1441890/` · composition: `single`
 
-[Full source for local review](/review/source/doc-d107668990a5/)
+[Full source for local review](/review/source/doc-e14418908a99/)
 
-Source: http://www.fmboschetto.it/utopiaucronia/calcio\_leonardesco.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Padre\_Brown\_Papa.htm
 
-SHA-256: `faf3905097a9e33758792dbacc73e7b34a5b931befe3953723a2495a1efb8567`
+SHA-256: `c5912b01234ba323e6b1fae652125b972939c72e9a9907228f4a29c14ac3038b`
 
 Selection: `{"kind":"whole"}`
 
-## 17. Kosakenland in Nord Italien
+## 17. Gli alieni e la II Guerra Mondiale
 
-Proposal: `proposal-doc-d16d7d56975b` · action: `work`
+Proposal: `proposal-doc-e24c57334ae8` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-d16d7d56975b)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-e24c57334ae8)
 
-> Kosakenland in Nord Italien ovvero: la Provincia della Cosacchia Carnica di Massimiliano Paleari Bandiera del Kosakenland in Carnia A partire dall'agosto del 1944 e fino al termine della Seconda Guerra Mondiale, migliaia
+> Gli alieni e la II Guerra Mondiale di William Wallace Estate 1942: nella notte tra il 13 e il 14 agosto una spedizione scientifica americana di stanza in Alaska allerta lo Stato maggiore dell'esercito americano a seguito
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/kosakenland-in-nord-italien-d16d7d56/` · composition: `single`
+Target: `/works/gli-alieni-e-la-ii-guerra-mondiale-e24c5733/` · composition: `single`
 
-[Full source for local review](/review/source/doc-d16d7d56975b/)
+[Full source for local review](/review/source/doc-e24c57334ae8/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Kosakenland.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/fanta\_Area51.htm
 
-SHA-256: `c2c016c90de0a6dfd8eaf39389230242459ea2ecf3c9b3eee26993e46f0b8f87`
+SHA-256: `81b9a8c48f1eee45f41ba4e9fcdefe13b573af46588c4e4b1cb7b42a8395e123`
 
 Selection: `{"kind":"whole"}`
 
-## 18. Obrenovic 1889
+## 18. Il mondo senza 11 settembre
 
-Proposal: `proposal-doc-d1dd3494dc2a` · action: `work`
+Proposal: `proposal-doc-e387b5b9fb40` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=3#proposal-doc-d1dd3494dc2a)
+[Review this proposal](/review/?state=pending&action=work&page=3#proposal-doc-e387b5b9fb40)
 
-> Obrenovic 1889 di Dans Ciao a tutti! Sto sviluppando un'ucronia che, basandosi sulla continuità al potere degli Obrenovic filo-asburgici anzichè dei Karageorgevic filo-russi, mantenga la Serbia sottomessa all'Austria-Ung
+> Il mondo senza 11 settembre DA AL GORE PRESIDENTE ALLA TEMPESTA ELETTROMAGNETICA (2000-2010) di Ipotetico Sole Nota: le ucronie riportate in questa pagina sono meri voli di fantasia e non esprimono posizioni o giudizi a
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/obrenovic-1889-d1dd3494/` · composition: `single`
+Target: `/works/il-mondo-senza-11-settembre-e387b5b9/` · composition: `single`
 
-[Full source for local review](/review/source/doc-d1dd3494dc2a/)
+[Full source for local review](/review/source/doc-e387b5b9fb40/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Obrenovic.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Al\_Gore.htm
 
-SHA-256: `ccad0f3dc40b39e354a92871980a8897a7a006ce40aa767641b1fd9c9a05dfcc`
+SHA-256: `29fd67fd1e6a09b6fd466ebfca8c3fee928bee8cfa9f936318c60da06f15f6d6`
 
 Selection: `{"kind":"whole"}`
 
-## 19. Lo splendore di Roma in Atlantide
+## 19. I Meganoidi in Italia!
 
-Proposal: `proposal-doc-d24d471c9534` · action: `work`
+Proposal: `proposal-doc-e39c10bd65bd` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=3#proposal-doc-d24d471c9534)
+[Review this proposal](/review/?state=pending&action=work&page=3#proposal-doc-e39c10bd65bd)
 
-> Lo splendore di Roma in Atlantide 27 a.C., 13 gennaio: con un'azione clamorosa, Ottaviano rinuncia a tutte le sue cariche, ordinarie e straordinarie, e restaura la Repubblica. Il 16 gennaio tuttavia, come egli prevedeva,
+> I Meganoidi in Italia! di Never75 Dedicato a tutti quelli che ricordano con nostalgia i fantastici robottoni giapponesi degli anni '80! Gli ucronauti che sono nati negli anni sessanta o all'inizio dei settanta si ricorde
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/lo-splendore-di-roma-in-atlantide-d24d471c/` · composition: `single`
+Target: `/works/i-meganoidi-in-italia-e39c10bd/` · composition: `single`
 
-[Full source for local review](/review/source/doc-d24d471c9534/)
+[Full source for local review](/review/source/doc-e39c10bd65bd/)
 
-Source: http://www.fmboschetto.it/racconti/Roma\_in\_America/Roma\_in\_America\_3.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Meganoidi.htm
 
-SHA-256: `89004e8df3d43427aa526a775f7c5cf884cdeea77eb6eb942e89c1047991c10e`
+SHA-256: `4851c46c19a27752281e7317f3ac22ab0f6152235db66ee3f12354c9abe281b1`
 
 Selection: `{"kind":"whole"}`
 
-## 20. Polonia Restituta
+## 20. Storia della Galacia e della Galledonia
 
-Proposal: `proposal-doc-d272c96fe5ac` · action: `work`
+Proposal: `proposal-doc-e3ceb1388331` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=3#proposal-doc-d272c96fe5ac)
+[Review this proposal](/review/?state=pending&action=work&page=3#proposal-doc-e3ceb1388331)
 
-> Polonia Restituta di Never75 e Tommaso Mazzoni Lo stemma degli Czartoryski Re di Polonia . Il discorso parte dall'idea di Never75: La rivolta polacca-lituana-bielorussa contro lo zar nel 1863 sulle prime pareva avere suc
+> Storia della Gallotracia e della Galledonia di Paolo Maltagliati I - Periodo antico Tolomeo Cerauno era all'apice della gloria quando una grande rovina si abbatté su di lui: la grande invasione dei galli. I macedoni venn
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/polonia-restituta-d272c96f/` · composition: `single`
+Target: `/works/storia-della-galacia-e-della-galledonia-e3ceb138/` · composition: `single`
 
-[Full source for local review](/review/source/doc-d272c96fe5ac/)
+[Full source for local review](/review/source/doc-e3ceb1388331/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Polonia\_Restituta.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/Gallotracia.htm
 
-SHA-256: `2d490680e9152d2db207f60632d7f03ce183df4a61384d191e9d7dcbb724806e`
+SHA-256: `b547542b5ed556d42266ef307d5fab66b4bf65031a767dd738d5e32022aa7fc3`
 
 Selection: `{"kind":"whole"}`
