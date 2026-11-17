@@ -3,6 +3,7 @@ import { readFile } from "node:fs/promises";
 import { load } from "cheerio";
 import { browseSchema } from "../src/browse/model.ts";
 import { pageSizes, periodPath } from "../src/browse/pagination.ts";
+import { openCache } from "./build-cache.ts";
 import { safePath, sha256, writeJson } from "./recovery/core.ts";
 
 const data = browseSchema.parse(
@@ -13,6 +14,22 @@ const normalize = (text: string) =>
   text.replace(/\s+/g, " ").trim().normalize("NFC");
 const visited = new Set<string>();
 const checks = [];
+// Each unit (one payload, one list page, one record page) is verified against
+// exactly the data it must show; a passing verdict is cached under the digest
+// of the file bytes plus that data. Failures throw and are never cached.
+const cache = await openCache<true>("browse");
+async function verified(
+  file: string,
+  expectation: unknown,
+  check: (bytes: Buffer) => void | Promise<void>,
+) {
+  const bytes = await readFile(file);
+  const key = cache.key(file, bytes, JSON.stringify(expectation));
+  if (await cache.get(key)) return true;
+  await check(bytes);
+  await cache.set(key, true);
+  return false;
+}
 for (const lang of ["it", "en"] as const) {
   for (const [kind, groups, entries] of [
     ["divergences", data.promptGroups, data.prompts],
@@ -20,136 +37,167 @@ for (const lang of ["it", "en"] as const) {
   ] as const) {
     for (const group of groups) {
       const expected = entries.filter((entry) => entry.group === group.id);
-      const payload = JSON.parse(
-        await readFile(
-          safePath(
-            "dist",
-            `browse-data/${lang}/${kind === "divergences" ? "prompts" : "works"}/${group.id}.json`,
-          ),
-          "utf8",
+      await verified(
+        safePath(
+          "dist",
+          `browse-data/${lang}/${kind === "divergences" ? "prompts" : "works"}/${group.id}.json`,
         ),
-      );
-      assert.equal(payload.version, 1);
-      assert.equal(payload.total, expected.length);
-      assert.deepEqual(
-        payload.entries.map((entry: { id: string }) => entry.id),
-        expected.map((entry) => entry.id),
-      );
-      for (const [index, entry] of expected.entries()) {
-        const row = payload.entries[index];
-        assert.equal(row.title, entry.title);
-        assert.deepEqual(row.authors, entry.authors);
-        assert.equal(
-          row.development,
-          "developments" in entry && entry.developments.length > 0,
-        );
-        assert.equal(row.related, entry.targets.length > 0);
-        const html = load(`<table><tbody>${row.html}</tbody></table>`);
-        assert.equal(html(".browse-entry").attr("id"), entry.id);
-        if ("body" in entry)
-          assert.equal(
-            normalize(html(".browse-prompt-text > p").text()),
-            normalize(entry.body),
+        { lang, kind, expected },
+        (bytes) => {
+          const payload = JSON.parse(bytes.toString("utf8"));
+          assert.equal(payload.version, 1);
+          assert.equal(payload.total, expected.length);
+          assert.deepEqual(
+            payload.entries.map((entry: { id: string }) => entry.id),
+            expected.map((entry) => entry.id),
           );
-      }
+          for (const [index, entry] of expected.entries()) {
+            const row = payload.entries[index];
+            assert.equal(row.title, entry.title);
+            assert.deepEqual(row.authors, entry.authors);
+            assert.equal(
+              row.development,
+              "developments" in entry && entry.developments.length > 0,
+            );
+            assert.equal(row.related, entry.targets.length > 0);
+            const html = load(`<table><tbody>${row.html}</tbody></table>`);
+            assert.equal(html(".browse-entry").attr("id"), entry.id);
+            if ("body" in entry)
+              assert.equal(
+                normalize(html(".browse-prompt-text > p").text()),
+                normalize(entry.body),
+              );
+          }
+        },
+      );
       for (const size of pageSizes) {
         const seen = new Set<string>();
         for (let offset = 0; offset < expected.length; offset += size) {
           const n = offset / size + 1;
           const path = `${lang === "en" ? "en/" : ""}${periodPath(kind === "divergences" ? "prompts" : "works", group.id, n, size).slice(1)}index.html`;
-          const page = load(await readFile(safePath("dist", path), "utf8"));
           visited.add(path);
-          assert.equal(
-            page(".browse-entry").length,
-            Math.min(size, expected.length - offset),
-            `Page size: ${path}`,
-          );
           const currentEntries = expected.slice(offset, offset + size);
-          assert.deepEqual(
-            page(".browse-page-sidebar [data-browse-title]")
-              .toArray()
-              .map((el) => page(el).attr("href")),
-            currentEntries.map((entry) => `#${entry.id}`),
-            `Current-page title index: ${path}`,
-          );
-          assert.equal(
-            page(".browse-table thead th").length,
-            kind === "divergences" ? 3 : 2,
-            `Table columns: ${path}`,
-          );
-          assert.equal(
-            page("#browse-bottom-page option").length,
-            Math.ceil(expected.length / size),
-            `Page selector count: ${path}`,
-          );
-          assert.equal(
-            page("#browse-bottom-size option[selected]").text(),
-            String(size),
-            `Page size selector: ${path}`,
-          );
-          for (const entry of currentEntries) {
-            const article = page(".browse-entry").filter(
-              (_i, el) => page(el).attr("id") === entry.id,
-            );
-            assert.equal(
-              article.length,
-              1,
-              `Missing or duplicate entry ${entry.id} on ${path}`,
-            );
-            assert.ok(!seen.has(entry.id), `Repeated page entry: ${entry.id}`);
-            seen.add(entry.id);
-            assert.equal(
-              normalize(article.find("h2").text()),
-              normalize(entry.title),
-            );
-            if ("body" in entry) {
-              const text = article.find(".browse-prompt-text > p").length
-                ? article.find(".browse-prompt-text > p").text()
-                : article.find(".browse-excerpt").text();
+          const reused = await verified(
+            safePath("dist", path),
+            {
+              lang,
+              kind,
+              size,
+              total: expected.length,
+              currentEntries,
+              targets: currentEntries.flatMap((entry) =>
+                [
+                  ...("references" in entry ? entry.references : []),
+                  ...entry.targets,
+                ].map((id) => targetById.get(id) ?? null),
+              ),
+            },
+            (bytes) => {
+              const page = load(bytes.toString("utf8"));
               assert.equal(
-                normalize(text),
-                normalize(entry.body),
-                `Complete prompt text: ${entry.id}`,
+                page(".browse-entry").length,
+                Math.min(size, expected.length - offset),
+                `Page size: ${path}`,
               );
-              for (const author of entry.authors)
-                assert.ok(
-                  normalize(
-                    article.find(".browse-attribution").text(),
-                  ).includes(normalize(author)),
-                  `Attribution: ${entry.id}`,
-                );
-            } else
-              assert.equal(
-                normalize(article.find(".browse-attribution").text()),
-                normalize(entry.caption),
-                `Source caption: ${entry.id}`,
-              );
-            if ("references" in entry)
               assert.deepEqual(
-                article
-                  .find(".browse-additional-references li a")
+                page(".browse-page-sidebar [data-browse-title]")
                   .toArray()
                   .map((el) => page(el).attr("href")),
-                entry.references.map(
-                  (id) =>
-                    `${lang === "en" ? "/en" : ""}${targetById.get(id)?.href}`,
-                ),
-                `Additional source references: ${entry.id}`,
+                currentEntries.map((entry) => `#${entry.id}`),
+                `Current-page title index: ${path}`,
               );
-            const links = article
-              .find(".browse-work-references li a")
-              .toArray()
-              .map((el) => page(el).attr("href"));
-            assert.deepEqual(
-              links,
-              entry.targets.map((id) => {
-                const target = targetById.get(id);
-                assert.ok(target);
-                return `${lang === "en" ? "/en" : ""}${target.href}`;
-              }),
-              `Source references: ${entry.id}`,
-            );
-          }
+              assert.equal(
+                page(".browse-table thead th").length,
+                kind === "divergences" ? 3 : 2,
+                `Table columns: ${path}`,
+              );
+              assert.equal(
+                page("#browse-bottom-page option").length,
+                Math.ceil(expected.length / size),
+                `Page selector count: ${path}`,
+              );
+              assert.equal(
+                page("#browse-bottom-size option[selected]").text(),
+                String(size),
+                `Page size selector: ${path}`,
+              );
+              for (const entry of currentEntries) {
+                const article = page(".browse-entry").filter(
+                  (_i, el) => page(el).attr("id") === entry.id,
+                );
+                assert.equal(
+                  article.length,
+                  1,
+                  `Missing or duplicate entry ${entry.id} on ${path}`,
+                );
+                assert.ok(
+                  !seen.has(entry.id),
+                  `Repeated page entry: ${entry.id}`,
+                );
+                seen.add(entry.id);
+                assert.equal(
+                  normalize(article.find("h2").text()),
+                  normalize(entry.title),
+                );
+                if ("body" in entry) {
+                  const text = article.find(".browse-prompt-text > p").length
+                    ? article.find(".browse-prompt-text > p").text()
+                    : article.find(".browse-excerpt").text();
+                  assert.equal(
+                    normalize(text),
+                    normalize(entry.body),
+                    `Complete prompt text: ${entry.id}`,
+                  );
+                  for (const author of entry.authors)
+                    assert.ok(
+                      normalize(
+                        article.find(".browse-attribution").text(),
+                      ).includes(normalize(author)),
+                      `Attribution: ${entry.id}`,
+                    );
+                } else
+                  assert.equal(
+                    normalize(article.find(".browse-attribution").text()),
+                    normalize(entry.caption),
+                    `Source caption: ${entry.id}`,
+                  );
+                if ("references" in entry)
+                  assert.deepEqual(
+                    article
+                      .find(".browse-additional-references li a")
+                      .toArray()
+                      .map((el) => page(el).attr("href")),
+                    entry.references.map(
+                      (id) =>
+                        `${lang === "en" ? "/en" : ""}${targetById.get(id)?.href}`,
+                    ),
+                    `Additional source references: ${entry.id}`,
+                  );
+                const links = article
+                  .find(".browse-work-references li a")
+                  .toArray()
+                  .map((el) => page(el).attr("href"));
+                assert.deepEqual(
+                  links,
+                  entry.targets.map((id) => {
+                    const target = targetById.get(id);
+                    assert.ok(target);
+                    return `${lang === "en" ? "/en" : ""}${target.href}`;
+                  }),
+                  `Source references: ${entry.id}`,
+                );
+              }
+            },
+          );
+          // Repeats across pages are checked on every run, cached or not.
+          if (reused)
+            for (const entry of currentEntries) {
+              assert.ok(
+                !seen.has(entry.id),
+                `Repeated page entry: ${entry.id}`,
+              );
+              seen.add(entry.id);
+            }
         }
         assert.equal(seen.size, group.count, `Complete period: ${group.id}`);
         checks.push({ lang, kind, group: group.id, size, count: seen.size });
@@ -158,21 +206,24 @@ for (const lang of ["it", "en"] as const) {
   }
   for (const target of data.targets) {
     const path = `${lang === "en" ? "en/" : ""}archive-records/${target.id}/index.html`;
-    const page = load(await readFile(safePath("dist", path), "utf8"));
-    assert.equal(normalize(page("h1").text()), normalize(target.title));
-    assert.equal(
-      page(`.browse-status.status-${target.status}`).length,
-      1,
-      `Distinct availability status: ${target.id}`,
-    );
-    assert.ok(
-      normalize(page(".record-source").text()).includes(
-        normalize(target.source),
-      ),
-      `Source provenance: ${target.id}`,
-    );
+    await verified(safePath("dist", path), { target }, (bytes) => {
+      const page = load(bytes.toString("utf8"));
+      assert.equal(normalize(page("h1").text()), normalize(target.title));
+      assert.equal(
+        page(`.browse-status.status-${target.status}`).length,
+        1,
+        `Distinct availability status: ${target.id}`,
+      );
+      assert.ok(
+        normalize(page(".record-source").text()).includes(
+          normalize(target.source),
+        ),
+        `Source provenance: ${target.id}`,
+      );
+    });
   }
 }
+await cache.prune();
 await writeJson("reports/browse-validation.json", {
   passed: true,
   promptsPerLanguage: data.prompts.length,
@@ -187,3 +238,4 @@ await writeJson("reports/browse-validation.json", {
 console.log(
   `Historical index fidelity: all ${data.prompts.length} prompts, ${data.entries.length} catalog entries and ${data.targets.length} source records verified in both languages.`,
 );
+console.log(cache.summary());
