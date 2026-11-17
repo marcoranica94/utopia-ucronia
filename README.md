@@ -32,6 +32,10 @@ pnpm preview
 
 The build regenerates the Markdown from the recovered files, validates the schema, generates the static site, checks links and active content and fully compares the sample texts with their sources. To develop: `pnpm dev`, after the first build. For the scripts: `pnpm test`; for types and style: `pnpm exec tsc --noEmit` and `pnpm lint`.
 
+### Build cache
+
+The build is incremental: `scripts/build-cache.ts` keeps verified per-unit results in `.cache/build/<namespace>/` (gitignored, restored in CI by `actions/cache`). Each entry is keyed by a digest of all inputs of its unit plus a toolchain digest of every file under `scripts/`, `src/` (except generated `src/content/works` and `src/generated`), `data/corrections/`, `package.json`, `pnpm-lock.yaml`, `tsconfig.json` and the Astro configuration: any code change recomputes everything, identical inputs give the identical verdict. Cached units: conversion pages (`convert`, with every routing lookup replayed against the current tables), PDF illustrations, source text (`sources:generate`), per-page link facts (`links:check`; link resolution itself runs every time), fidelity reports (`compare:sample`), passing `browse:check` pages and page facts for `s3:check` and `discovery:check`. Failures are never cached; corrupted entries are recomputed; entries unused by a successful run are pruned. Outputs are byte-identical with and without the cache. `BUILD_CACHE=off pnpm build` disables it entirely; `rm -rf .cache/build` clears it.
+
 ## Contents
 
 - `archive/original/`: immutable original files, **never served by the site**; Git does not convert their line endings. Images and PDFs are in LFS.

@@ -2,8 +2,9 @@ import assert from "node:assert/strict";
 import { readFile } from "node:fs/promises";
 import path from "node:path";
 import { load } from "cheerio";
-import type { EditorialSource } from "../src/editorial/model.ts";
+import type { EditorialItem, EditorialSource } from "../src/editorial/model.ts";
 import { anatomy } from "./anatomy.ts";
+import { digest, openCache } from "./build-cache.ts";
 import {
   applyCorrections,
   correctionsFor,
@@ -14,6 +15,7 @@ import {
 import type { Gap } from "./link-resolution.ts";
 import { pdfEdition } from "./pdf.ts";
 import { safePath, sha256, urlKey, writeJson } from "./recovery/core.ts";
+import { compareItemKey } from "./unit-keys.ts";
 
 export const normalize = (text: string) =>
   text
@@ -56,20 +58,69 @@ assert.equal(
   30,
   "The fixed random sample must be fully converted",
 );
-const reports = [];
+type Conversion = (typeof conversions)[number];
+type Report = Awaited<ReturnType<typeof compareItem>>;
+const documentsDigest = digest(JSON.stringify(map.documents));
+const cache = await openCache<Report>("compare");
+const reports: Report[] = [];
 for (const c of conversions) {
-  const page = load(
-    await readFile(safePath("dist", `${c.path.slice(1)}index.html`), "utf8"),
+  const pageBytes = await readFile(
+    safePath("dist", `${c.path.slice(1)}index.html`),
   );
+  const item = c.editorialId
+    ? map.items.find((i) => i.id === c.editorialId)
+    : undefined;
+  const corrections = await correctionsFor(c.slug);
+  // Every input of this item's verdict: rendered page, conversion record, map
+  // item and its author names, all document records (illustrations are looked
+  // up among them), the current bytes of each source original, the gap
+  // entries the item can consult, and its corrections.
+  const sourceBytes = [];
+  for (const source of c.sources) {
+    const document = map.documents.find((d) => d.id === source.documentId);
+    sourceBytes.push(
+      document
+        ? digest(await readFile(safePath("archive/original", document.path)))
+        : "missing",
+    );
+  }
+  const key = compareItemKey(cache, {
+    page: pageBytes,
+    conversion: c,
+    item,
+    authors: (item?.authors ?? []).map((id) =>
+      map.authors.find((a) => a.id === id),
+    ),
+    documentsDigest,
+    sourceDigests: sourceBytes,
+    gaps: gaps.filter(
+      (g) => c.gaps.includes(g.id) || c.sources.some((s) => s.url === g.source),
+    ),
+    corrections,
+  });
+  const cached = await cache.get(key);
+  // A failing item throws before storing, so only verified reports are cached.
+  const report = cached ?? (await compareItem(c, pageBytes, item, corrections));
+  if (!cached) await cache.set(key, report);
+  reports.push(report);
+  if (reports.length % 10 === 0)
+    console.log(
+      `Fidelity: ${reports.length}/${conversions.length} items compared`,
+    );
+}
+async function compareItem(
+  c: Conversion,
+  pageBytes: Buffer,
+  item: EditorialItem | undefined,
+  corrections: Awaited<ReturnType<typeof correctionsFor>>,
+) {
+  const page = load(pageBytes.toString("utf8"));
   const fullPage = normalize(page("body").text());
   page("article [data-ui]").remove();
   const actual = normalize(page("article").text());
   const expectedParts: string[] = [];
   const originalParts: string[] = [];
   const parts = [];
-  const item = c.editorialId
-    ? map.items.find((i) => i.id === c.editorialId)
-    : undefined;
   const ids = page("article [id]")
     .toArray()
     .map((el) => page(el).attr("id"));
@@ -228,7 +279,6 @@ for (const c of conversions) {
           : undefined,
     });
   }
-  const corrections = await correctionsFor(c.slug);
   let expected = expectedParts.join("");
   for (const correction of corrections) {
     const from = normalize(correction.from);
@@ -283,7 +333,7 @@ for (const c of conversions) {
   const pdf = c.sources.some((s) =>
     map.documents.find((d) => d.id === s.documentId)?.mediaType.includes("pdf"),
   );
-  reports.push({
+  return {
     slug: c.slug,
     editorialId: c.editorialId,
     randomValidation: c.randomValidation,
@@ -307,11 +357,7 @@ for (const c of conversions) {
       : undefined,
     visualCheck:
       "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity.",
-  });
-  if (reports.length % 10 === 0)
-    console.log(
-      `Fidelity: ${reports.length}/${conversions.length} items compared`,
-    );
+  };
 }
 await writeJson("reports/sample-comparison.json", reports);
 await writeJson("reports/s2-validation.json", {
@@ -334,6 +380,8 @@ await writeJson("reports/s2-validation.json", {
       images: r.images,
     })),
 });
+await cache.prune();
 console.log(
   `${reports.length} complete texts compared, including all 30 fixed random items; no unexplained text, anchor, table or image losses.`,
 );
+console.log(cache.summary());

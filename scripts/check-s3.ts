@@ -1,8 +1,43 @@
 import assert from "node:assert/strict";
 import { access, readdir, readFile } from "node:fs/promises";
 import { load } from "cheerio";
+import { fileFacts, openCache } from "./build-cache.ts";
 import { documentId } from "./editorial-core.ts";
 import { safePath, writeJson } from "./recovery/core.ts";
+
+/** What this check reads from a page, extracted once per page content
+ * (cached by its bytes); every assertion runs on each build. */
+type Facts = {
+  sources: (string | null)[];
+  ids: (string | null)[];
+  notes: (string | null)[];
+  paragraphs: string[];
+  sourceFacts: string;
+  activeInSource: number;
+};
+const cache = await openCache<Facts>("s3");
+const page = (file: string) =>
+  fileFacts(cache, file, (bytes): Facts => {
+    const $ = load(bytes.toString("utf8"));
+    return {
+      sources: $("a[data-reading-source]")
+        .toArray()
+        .map((el) => $(el).attr("href") ?? null),
+      ids: $("[id]")
+        .toArray()
+        .map((el) => $(el).attr("id") ?? null),
+      notes: $("article.reading-copy a[href^='#']")
+        .toArray()
+        .map((el) => $(el).attr("href")?.slice(1) ?? null),
+      paragraphs: $(".source-text p")
+        .toArray()
+        .map((el) => $(el).text()),
+      sourceFacts: $(".source-facts").text(),
+      activeInSource: $(
+        ".source-text script,.source-text iframe,.source-text object,.source-text a",
+      ).length,
+    };
+  });
 
 const items = JSON.parse(await readFile("reports/conversion.json", "utf8")) as {
   path: string;
@@ -29,18 +64,13 @@ for (const lang of ["it", "en"]) {
     items.map((item) => prefix + item.path),
   );
   for (const item of items) {
-    const $ = load(
-      await readFile(
-        safePath(
-          "dist",
-          `${prefix.slice(1)}${item.path}index.html`.replace(/^\//, ""),
-        ),
-        "utf8",
+    const $ = await page(
+      safePath(
+        "dist",
+        `${prefix.slice(1)}${item.path}index.html`.replace(/^\//, ""),
       ),
     );
-    const sources = $("a[data-reading-source]")
-      .toArray()
-      .map((el) => $(el).attr("href"));
+    const sources = $.sources;
     assert.deepEqual(
       sources,
       item.sources.map(
@@ -49,33 +79,17 @@ for (const lang of ["it", "en"]) {
       ),
     );
     sourceLinks += sources.length;
-    const ids = new Set(
-      $("[id]")
-        .toArray()
-        .map((el) => $(el).attr("id")),
-    );
-    for (const link of $("article.reading-copy a[href^='#']").toArray()) {
-      assert.ok(ids.has($(link).attr("href")?.slice(1)));
+    const ids = new Set($.ids);
+    for (const target of $.notes) {
+      assert.ok(target !== null && ids.has(target));
       notes++;
     }
   }
   for (const record of records) {
-    const $ = load(
-      await readFile(`dist${prefix}/sources/${record.id}/index.html`, "utf8"),
-    );
-    assert.deepEqual(
-      $(".source-text p")
-        .toArray()
-        .map((el) => $(el).text()),
-      record.text,
-    );
-    assert.ok($(".source-facts").text().includes(record.sha256));
-    assert.equal(
-      $(
-        ".source-text script,.source-text iframe,.source-text object,.source-text a",
-      ).length,
-      0,
-    );
+    const $ = await page(`dist${prefix}/sources/${record.id}/index.html`);
+    assert.deepEqual($.paragraphs, record.text);
+    assert.ok($.sourceFacts.includes(record.sha256));
+    assert.equal($.activeInSource, 0);
   }
   const gapPage = load(await readFile(`dist${prefix}/gaps/index.html`, "utf8"));
   for (const gap of gaps)
@@ -93,6 +107,7 @@ assert.ok(
     /(?:^|\/)(?:review|review-decisions|map\.yaml)(?:[/.]|$)/.test(file),
   ),
 );
+await cache.prune();
 await writeJson("reports/s3-validation.json", {
   passed: true,
   readingItems: items.length,
@@ -111,3 +126,4 @@ await writeJson("reports/s3-validation.json", {
 console.log(
   `S3: ${items.length} reading items, ${sourceLinks} local source links and ${notes} in-page note links checked; review excluded from production.`,
 );
+console.log(cache.summary());
