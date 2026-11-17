@@ -5,6 +5,7 @@ import { documentId } from "../../scripts/editorial-core";
 import AuthorCredits from "../components/AuthorCredits.astro";
 import "../styles/authors.css";
 import WorkContents from "../components/WorkContents.astro";
+import { transitionName } from "../content-path";
 import { type Lang, localePath, localizeHtml, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
 import "../styles/reading.css";
@@ -47,7 +48,7 @@ const captured = (s?: string) =>
     <div class="uchronia">
       <div class="uchronia-main">
         <header class="uchronia-head">
-          <h1 id="work-title" class="page-title" lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1>
+          <h1 id="work-title" class="page-title" style={`view-transition-name:${transitionName(work.id)};view-transition-class:work-title`} lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1>
           <AuthorCredits lang={lang} authors={data.authors} contributors={data.contributors ?? []} />
           <p class="uchronia-facts">{data.level === "divergence" ? t("shape.divergence") : t(`shape.${data.shape}`)}{facts.length > 0 && `: ${facts.join(", ")}.`} {t(`work.language.${data.language}`)}</p>
         </header>
@@ -62,7 +63,7 @@ const captured = (s?: string) =>
       </div>
     </div>
   ) : (
-    <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 id="work-title" class="page-title" lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1><aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language === "unknown" ? "" : data.language}><Content /></article></div>
+    <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 id="work-title" class="page-title" style={`view-transition-name:${transitionName(work.id)};view-transition-class:work-title`} lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1><aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language === "unknown" ? "" : data.language}><Content /></article></div>
       <aside class="reading-aside" aria-labelledby="source-title"><h2 id="source-title">{t("work.provenance")}</h2><ul>{data.sources.map(source=><li><a data-reading-source href={localePath(lang,`/sources/${source.documentId ?? documentId(source.url)}/`)}>{t("source.open")}</a></li>)}</ul>{data.sources.map((source) => <div><p>{source.timestamp ? t("work.captured", { date: captured(source.timestamp) ?? "" }) : t("work.fromOrigin")}</p><p>{source.url}</p></div>)}<p>{t("work.kept")}</p></aside>
     </div>
   )}

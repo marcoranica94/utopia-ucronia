@@ -2,7 +2,7 @@
 import { getCollection } from "astro:content";
 import catalogNotes from "../../data/catalog.json";
 import CatalogCover from "../components/CatalogCover.astro";
-import { contentPath } from "../content-path";
+import { contentPath, transitionName } from "../content-path";
 import { type Lang, localePath, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
 import "../styles/catalog.css";
@@ -100,7 +100,7 @@ const featuredPath = featured
           return <li data-work data-title={`${title} ${authors.join(" ")} ${(work.data.contributors ?? []).join(" ")} ${summary}`} data-language={work.data.language} data-format={format(work)}>
             <a class="work-card" href={localePath(lang, contentPath(work))} aria-labelledby={`title-${work.id}`}>
               <CatalogCover image={note?.cover ?? work.data.cover} motif={note?.motif ?? "story"} title={title} />
-              <div class="work-info"><div class="work-card-meta"><span>{t(`atlas.type.${format(work)}`)}</span><span>{t(`lang.${work.data.language}`)}</span></div><h3 id={`title-${work.id}`} lang={work.data.language === "unknown" ? "" : work.data.language}>{title}</h3><p class="work-description" lang={note ? lang : work.data.language === "unknown" ? "" : work.data.language}>{summary}</p><div class="work-card-foot"><span>{authors.length ? authors.join(", ") : work.data.contributors?.length ? t("atlas.collective") : t("atlas.fromArchive")}</span><span class="work-read">{variants > 0 ? t("atlas.variants", { n: variants }) : t("atlas.read")}<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></span></div></div>
+              <div class="work-info"><div class="work-card-meta"><span>{t(`atlas.type.${format(work)}`)}</span><span>{t(`lang.${work.data.language}`)}</span></div><h3 id={`title-${work.id}`} style={`view-transition-name:${transitionName(work.id)};view-transition-class:work-title`} lang={work.data.language === "unknown" ? "" : work.data.language}>{title}</h3><p class="work-description" lang={note ? lang : work.data.language === "unknown" ? "" : work.data.language}>{summary}</p><div class="work-card-foot"><span>{authors.length ? authors.join(", ") : work.data.contributors?.length ? t("atlas.collective") : t("atlas.fromArchive")}</span><span class="work-read">{variants > 0 ? t("atlas.variants", { n: variants }) : t("atlas.read")}<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></span></div></div>
             </a>
           </li>;
         })}

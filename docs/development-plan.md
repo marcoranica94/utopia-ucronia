@@ -237,7 +237,7 @@ Demo: passed in a 390 px phone viewport with a remembered Petrov sentence → re
 - [x] Language filters on the published catalog and IT/EN navigation on historical indexes
 - [ ] Pages for worlds, eras, places and themes, based on reviewed metadata
 - [x] Two design directions for reading and catalog, with real content; choice and `tokens.css`
-- [ ] View Transitions between catalog and reading, if they improve orientation (optional; no dependency for publication)
+- [x] View Transitions between catalog and reading: cross-document `@view-transition`, catalog card title morphs into the work title, header stays still; disabled under `prefers-reduced-motion`, plain navigation where unsupported (17/11/2026)
 
 Demo: the chosen direction, on phone and desktop, light and dark; filters work even on content not yet reviewed.
 

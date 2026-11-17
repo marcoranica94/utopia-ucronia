@@ -517,3 +517,32 @@
   color: var(--muted);
   white-space: nowrap;
 }
+
+/*
+ * Cross-document View Transitions: progressive enhancement only. Browsers
+ * without support navigate normally; reduced motion disables them entirely.
+ * The catalog card title morphs into the work title (shared name per work).
+ */
+@media (prefers-reduced-motion: no-preference) {
+  @view-transition {
+    navigation: auto;
+  }
+  .site-header {
+    view-transition-name: site-header;
+  }
+  ::view-transition-old(root),
+  ::view-transition-new(root) {
+    animation-duration: 160ms;
+  }
+  ::view-transition-group(.work-title) {
+    animation-duration: 300ms;
+    animation-timing-function: cubic-bezier(0.2, 0.7, 0.2, 1);
+  }
+  ::view-transition-old(.work-title),
+  ::view-transition-new(.work-title) {
+    block-size: 100%;
+    inline-size: auto;
+    object-fit: none;
+    object-position: left top;
+  }
+}
