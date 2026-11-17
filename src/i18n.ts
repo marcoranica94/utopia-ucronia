@@ -64,7 +64,13 @@ const it = {
     "Attiva JavaScript per cercare nel testo oppure consulta il catalogo e gli indici per periodo.",
   "search.source": "Apri la fonte",
   "search.scope":
-    "Ricerca nelle {count} edizioni di lettura disponibili; le opere ancora da pubblicare restano negli indici per periodo.",
+    "Ricerca nelle {count} edizioni di lettura e nei {prompts} spunti della Lista, che si aprono alla loro riga nell'indice per periodo.",
+  "search.kind": "Cerca in",
+  "search.kind.all": "Opere e spunti",
+  "search.kind.work": "Solo opere",
+  "search.kind.prompt": "Solo spunti della Lista",
+  "search.promptIn": "Spunto · {period}",
+  "browse.searchPrompts": "Cerca negli spunti",
   "source.title": "Fonte e provenienza",
   "source.open": "Apri fonte e provenienza",
   "source.intro":
@@ -482,7 +488,13 @@ const en: Record<keyof typeof it, string> = {
     "Enable JavaScript to search full text, or browse the catalogue and period indexes.",
   "search.source": "Open source",
   "search.scope":
-    "Search the {count} available reading editions; works awaiting publication remain in the period indexes.",
+    "Search the {count} reading editions and the {prompts} prompts of the Lista, which open at their row in the period index.",
+  "search.kind": "Search in",
+  "search.kind.all": "Works and prompts",
+  "search.kind.work": "Works only",
+  "search.kind.prompt": "Lista prompts only",
+  "search.promptIn": "Prompt · {period}",
+  "browse.searchPrompts": "Search the prompts",
   "source.title": "Source and provenance",
   "source.open": "Open source and provenance",
   "source.intro":

@@ -1,10 +1,11 @@
 {
   "passed": true,
-  "indexed": "Published reading text only; source copies, period tables, compatibility previews and review data excluded",
+  "indexed": "Published reading texts, plus every Lista prompt as a record pointing at its row in the period table; source copies, compatibility previews and review data excluded",
   "indexes": [
     {
       "lang": "it",
       "count": 758,
+      "prompts": 7093,
       "entries": [
         {
           "url": "/works/napoleone-ii-deae9410/",
@@ -5317,6 +5318,7 @@
     {
       "lang": "en",
       "count": 758,
+      "prompts": 7093,
       "entries": [
         {
           "url": "/en/works/napoleone-ii-deae9410/",

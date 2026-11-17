@@ -1,7 +1,180 @@
 {
-  "action": "work",
+  "action": "split",
   "proposals": 0,
-  "skipped": [],
+  "skipped": [
+    {
+      "proposalId": "proposal-doc-01d06b7c9f81",
+      "reason": "Overlapping reading editions: item-2ce525e11284 and item-23084f8fea8c"
+    },
+    {
+      "proposalId": "proposal-doc-064ed06cfa46",
+      "reason": "Overlapping reading editions: item-548d0e3474cc and item-d46fb265bae4"
+    },
+    {
+      "proposalId": "proposal-doc-07c4f282a44c",
+      "reason": "Overlapping reading editions: item-3717665c6de0 and item-b94de8f46bde"
+    },
+    {
+      "proposalId": "proposal-doc-0efe278faf87",
+      "reason": "Overlapping reading editions: item-5a6716aecaf0 and item-51b6636278af"
+    },
+    {
+      "proposalId": "proposal-doc-181f5b671d19",
+      "reason": "Overlapping reading editions: item-df5a67da7f1a and item-be3acea30e37"
+    },
+    {
+      "proposalId": "proposal-doc-1901c0937817",
+      "reason": "Overlapping reading editions: item-62db0bbcbcb4 and item-4953943776a0"
+    },
+    {
+      "proposalId": "proposal-doc-1d666bba2f4e",
+      "reason": "Overlapping reading editions: item-cf3423be5a9d and item-2c93ae8bf0d6"
+    },
+    {
+      "proposalId": "proposal-doc-205976e9c322",
+      "reason": "Overlapping reading editions: item-247067d411d1 and item-ca9bc6eef872"
+    },
+    {
+      "proposalId": "proposal-doc-2ceb47df9035",
+      "reason": "Overlapping reading editions: item-fe0c6c87db8b and item-493296efb733"
+    },
+    {
+      "proposalId": "proposal-doc-37c5e1ccc9c6",
+      "reason": "Overlapping reading editions: item-8b89cb67ba22 and item-d9ddb57427ec"
+    },
+    {
+      "proposalId": "proposal-doc-3c0fa47d3497",
+      "reason": "Overlapping reading editions: item-33b579db9c79 and item-dc43ebd9881b"
+    },
+    {
+      "proposalId": "proposal-doc-3e2d32a9001d",
+      "reason": "Overlapping reading editions: item-88bd4399fcbc and item-80072a36b315"
+    },
+    {
+      "proposalId": "proposal-doc-3e32492e30c6",
+      "reason": "Overlapping reading editions: item-15ec37a77a58 and item-7729ee1241e5"
+    },
+    {
+      "proposalId": "proposal-doc-3ee7d8138184",
+      "reason": "Overlapping reading editions: item-8481b95719d8 and item-cb198b5e6737"
+    },
+    {
+      "proposalId": "proposal-doc-41f560264b66",
+      "reason": "Overlapping reading editions: item-f54383e881ec and item-c698ada44e68"
+    },
+    {
+      "proposalId": "proposal-doc-4359aea37a1b",
+      "reason": "Overlapping reading editions: item-0d88550e697d and item-3d9ceab2ca98"
+    },
+    {
+      "proposalId": "proposal-doc-49f0a05d23ba",
+      "reason": "Overlapping reading editions: item-85a3a4201808 and item-2d97ba3fe69b"
+    },
+    {
+      "proposalId": "proposal-doc-49f6bc7db263",
+      "reason": "Overlapping reading editions: item-23c8a4b748fd and item-8e8dfa2aa6c1"
+    },
+    {
+      "proposalId": "proposal-doc-55049d27edbc",
+      "reason": "Overlapping reading editions: item-47aee9646d17 and item-db8322c256ea"
+    },
+    {
+      "proposalId": "proposal-doc-716b9995959f",
+      "reason": "Overlapping reading editions: item-eec89c27f8a8 and item-bb2fe7bb4304"
+    },
+    {
+      "proposalId": "proposal-doc-7226e6df0c78",
+      "reason": "Overlapping reading editions: item-1de159b217cd and item-438ed3359713"
+    },
+    {
+      "proposalId": "proposal-doc-77a596f425da",
+      "reason": "Overlapping reading editions: item-c3077145201b and item-8f66bed599a5"
+    },
+    {
+      "proposalId": "proposal-doc-7a18109f1ffd",
+      "reason": "Overlapping reading editions: item-3f0389f3ce79 and item-15c225bb15da"
+    },
+    {
+      "proposalId": "proposal-doc-801c05218ac2",
+      "reason": "Overlapping reading editions: item-a758ab74244b and item-221ae9cdf230"
+    },
+    {
+      "proposalId": "proposal-doc-82a1743ac20c",
+      "reason": "Overlapping reading editions: item-3b8d63aa27f6 and item-eee6fb7aa63a"
+    },
+    {
+      "proposalId": "proposal-doc-89ab7053dd98",
+      "reason": "Overlapping reading editions: item-683e8ac1c95a and item-ddf96bead166"
+    },
+    {
+      "proposalId": "proposal-doc-8d2600ab410a",
+      "reason": "Overlapping reading editions: item-fa243ba2aece and item-5f3009215a5d"
+    },
+    {
+      "proposalId": "proposal-doc-924d5454d6c8",
+      "reason": "Overlapping reading editions: item-375b85e93559 and item-f90405fc1e6d"
+    },
+    {
+      "proposalId": "proposal-doc-93f5155a804f",
+      "reason": "Overlapping reading editions: item-a5896589f037 and item-43f8c836d240"
+    },
+    {
+      "proposalId": "proposal-doc-98b503c469e3",
+      "reason": "Overlapping reading editions: item-152aa5211ee7 and item-133d2c8e866f"
+    },
+    {
+      "proposalId": "proposal-doc-9bdad33f71e8",
+      "reason": "Overlapping reading editions: item-2c3484bc8e89 and item-4b790c1a2f7b"
+    },
+    {
+      "proposalId": "proposal-doc-9c0ba63d92e6",
+      "reason": "Overlapping reading editions: item-7705cd0efbd6 and item-dd3475309482"
+    },
+    {
+      "proposalId": "proposal-doc-a438c6f5c56d",
+      "reason": "Overlapping reading editions: item-951110681dec and item-4622aee44701"
+    },
+    {
+      "proposalId": "proposal-doc-a87176cb205e",
+      "reason": "Overlapping reading editions: item-6543a4f30912 and item-7a5bf3db03de"
+    },
+    {
+      "proposalId": "proposal-doc-b14d70f50132",
+      "reason": "Overlapping reading editions: item-a312c457aa7d and item-9c008950d5d8"
+    },
+    {
+      "proposalId": "proposal-doc-be6df5384c4a",
+      "reason": "Overlapping reading editions: item-9ba35cf316bc and item-03134069469e"
+    },
+    {
+      "proposalId": "proposal-doc-c333d702e337",
+      "reason": "Overlapping reading editions: item-11da589e9030 and item-2db8644b730d"
+    },
+    {
+      "proposalId": "proposal-doc-c5de360ef74f",
+      "reason": "Overlapping reading editions: item-ca3ca4f1fca5 and item-e5f3bdb430df"
+    },
+    {
+      "proposalId": "proposal-doc-f83fe1dc21bc",
+      "reason": "Overlapping reading editions: item-5772c1d5cee9 and item-4fb1823a48f7"
+    },
+    {
+      "proposalId": "proposal-doc-f8d57134e197",
+      "reason": "Overlapping reading editions: item-ac0bb6ecd71b and item-19d8bc93286f"
+    },
+    {
+      "proposalId": "proposal-doc-f9e886eb988a",
+      "reason": "Overlapping reading editions: item-ddabf1a923a6 and item-e0ef04c05bb4"
+    },
+    {
+      "proposalId": "proposal-doc-fb9fda42bf6c",
+      "reason": "Overlapping reading editions: item-13df501e1158 and item-163ddd4b312a"
+    },
+    {
+      "proposalId": "proposal-doc-fe4d1842dcee",
+      "reason": "Overlapping reading editions: item-94c314e9f554 and item-08fc5385eee0"
+    }
+  ],
   "note": "Read-only review packet. No owner approval, publication selection or live ledger was changed.",
   "entries": []
 }

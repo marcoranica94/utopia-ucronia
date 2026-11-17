@@ -207,3 +207,8 @@ The owner approved the 20 proposals preserved in `reports/publication-batch-02.j
 After batch 03 the owner approved all remaining `work`, `split` and `merge` proposals at once: "per il resto approvo tutto. NOn possiamo stare qui ogni volta". Batches no longer wait for a review in conversation: each packet is recorded in `reports/publication-batch-NN.json` with that quote, the decisions go to the ledger, `pnpm publication select-approved` selects them, and a batch is committed only after the full build and the browser layout checks pass. A failing check stops the run; fix the converter, never the check. Classifications are **not** covered. Do not push: the owner pushes (instruction of 17/11/2026, "Non pushare nulla").
 
 PDFs and zip archives are a separate epic, S7 in the development plan: converted to Markdown and read on the page; the site serves no PDF, zip or office file.
+
+## Edition after the blanket batches, 17 November 2026
+
+Batches 03–19 brought the edition to 755 canonical items; all publishable single works are selected. The Lista prompts are deliberately **not** separate pages (owner decision): their 19 split proposals are deferred in the ledger, and the prompts are searchable from `/search/` as records pointing at their period-table rows. 43 other split proposals overlap collective pages already published whole; replacing them needs an explicit owner decision. `pnpm build` is incremental (`.cache/build`, `BUILD_CACHE=off` to disable); a script that reads a new input inside a cached unit must add it to that unit's key.
+

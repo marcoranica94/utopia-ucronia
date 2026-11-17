@@ -94,3 +94,8 @@
 .discovery-page [hidden] {
   display: none;
 }
+.search-result-meta {
+  margin: 0.15rem 0 0;
+  font-size: 0.9rem;
+  color: var(--muted);
+}

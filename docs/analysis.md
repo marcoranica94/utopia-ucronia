@@ -305,3 +305,7 @@ The owner approved a second 20-proposal packet (`reports/publication-batch-02.js
 
 Owner decision: the 225 recovered PDFs and 103 zip archives are converted to Markdown and read on the page like the other works. The site serves no PDF, zip or office files; the originals remain only in the untouched archive. This is a separate epic, S7 in the development plan, outside S4.
 
+## Lista prompts are not separate pages, 17 November 2026
+
+The 19 Lista pages split into 7,093 one-paragraph prompts, each with its own `/divergences/<slug>` page. The owner decided not to publish them that way: the same text is already readable in full in the period indexes under `/divergences/`, and 7,000 more pages would multiply the site, the search index and the CI build time by ten. Instead every prompt is a Pagefind record pointing at its row in the period table, with a "works / prompts" filter on `/search/`. The 19 split proposals are recorded as deferred with this reason, so the blanket publication approval never selects them. Canonical reading editions remain the ~755 works; the divergence level keeps its schema for prompts that may later deserve a page.
+

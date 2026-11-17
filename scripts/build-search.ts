@@ -2,6 +2,8 @@ import assert from "node:assert/strict";
 import { cp, mkdir, readFile, rm } from "node:fs/promises";
 import { load } from "cheerio";
 import * as pagefind from "pagefind";
+import { browseSchema } from "../src/browse/model.ts";
+import { pageSize, periodPath } from "../src/browse/pagination.ts";
 import { safePath, writeJson } from "./recovery/core.ts";
 
 const items = JSON.parse(await readFile("reports/conversion.json", "utf8")) as {
@@ -9,6 +11,11 @@ const items = JSON.parse(await readFile("reports/conversion.json", "utf8")) as {
   title: string;
   slug: string;
 }[];
+// Lista prompts have no page of their own (owner decision, 17/11/2026):
+// each is a search record pointing at its row in the period table.
+const browse = browseSchema.parse(
+  JSON.parse(await readFile("src/generated/browse.json", "utf8")),
+);
 const reports = [];
 for (const lang of ["it", "en"] as const) {
   const { index, errors } = await pagefind.createIndex({ forceLanguage: lang });
@@ -34,7 +41,7 @@ for (const lang of ["it", "en"] as const) {
         language: originalLanguage,
         source: $("a[data-reading-source]").first().attr("href") ?? "",
       },
-      filters: { language: [originalLanguage] },
+      filters: { language: [originalLanguage], kind: ["work"] },
     });
     assert.ok(!result.errors?.length, JSON.stringify(result.errors));
     entries.push({
@@ -51,6 +58,28 @@ for (const lang of ["it", "en"] as const) {
         .join(" "),
     });
   }
+  let prompts = 0;
+  for (const group of browse.promptGroups) {
+    const rows = browse.prompts.filter((prompt) => prompt.group === group.id);
+    for (const [row, prompt] of rows.entries()) {
+      const page = Math.floor(row / pageSize) + 1;
+      const result = await index.addCustomRecord({
+        url: `${lang === "en" ? "/en" : ""}${periodPath("prompts", group.id, page)}#${prompt.id}`,
+        content: `${prompt.title}\n${prompt.body}`,
+        language: lang,
+        meta: {
+          title: prompt.title,
+          kind: "prompt",
+          period: group.title[lang],
+          authors: prompt.authors.join(", "),
+        },
+        filters: { kind: ["prompt"] },
+      });
+      assert.ok(!result.errors?.length, JSON.stringify(result.errors));
+      prompts++;
+    }
+  }
+  assert.equal(prompts, browse.prompts.length, "Every prompt is searchable");
   const output = `dist/pagefind/${lang}`;
   await rm(output, { recursive: true, force: true });
   const result = await index.writeFiles({ outputPath: output });
@@ -59,15 +88,15 @@ for (const lang of ["it", "en"] as const) {
   await rm(`public/pagefind/${lang}`, { recursive: true, force: true });
   await cp(output, `public/pagefind/${lang}`, { recursive: true });
   await index.deleteIndex();
-  reports.push({ lang, count: entries.length, entries });
+  reports.push({ lang, count: entries.length, prompts, entries });
 }
 await pagefind.close();
 await writeJson("reports/search-index.json", {
   passed: true,
   indexed:
-    "Published reading text only; source copies, period tables, compatibility previews and review data excluded",
+    "Published reading texts, plus every Lista prompt as a record pointing at its row in the period table; source copies, compatibility previews and review data excluded",
   indexes: reports,
 });
 console.log(
-  `Pagefind indexed ${items.length} reading texts per interface language.`,
+  `Pagefind indexed ${items.length} reading texts and ${browse.prompts.length} prompts per interface language.`,
 );

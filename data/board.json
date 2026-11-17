@@ -175,7 +175,7 @@
       "contains": "Progressive review of the map",
       "status": "doing",
       "assignee": "Marco",
-      "note": "The owner explicitly approved two 20-proposal packets on 17 November 2026 (40 decisions in data/review-decisions.json); classifications remain proposed. Further work, world and split/merge review remains pending. The next read-only batch is in reports/publication-next.md."
+      "note": "All single-work proposals reviewed and published under the owner's blanket approval of 17 November 2026; the 19 Lista splits are deferred by owner decision. Pending: 43 split proposals that overlap pages already published whole, and worlds/cycles (no proposals yet)."
     },
     {
       "sprint": "S4",
@@ -217,7 +217,7 @@
       "contains": "Publish the remaining recovered works progressively",
       "status": "doing",
       "assignee": "Development",
-      "note": "Two owner-approved batches delivered: 40 selected additions, 86 reading items total (83 canonical and three legacy previews), including 73 canonical work editions and ten short divergences. All selected texts pass source-fidelity checks. Further recovered works and attachments still require progressive review/publication. See docs/status-s4-batch-02.md."
+      "note": "755 canonical items after batches 03–19 under the owner's blanket approval; every publishable single work is selected and source-compared. Lista prompts stay in the period indexes by owner decision. 43 overlapping split proposals and the S7 attachments remain."
     },
     {
       "sprint": "S4",
@@ -264,12 +264,12 @@
   ],
   "priorities": [
     {
-      "title": "Review the next publication batch (S4)",
-      "detail": "Two 20-proposal packets are approved and delivered. Review the next prepared batch in reports/publication-next.md and the remaining world/split/merge proposals. New packets are not approved automatically."
+      "title": "Decide the 43 overlapping collective pages (S4)",
+      "detail": "Keep the 43 collective pages whole, as published, or replace them with split editions through a reviewed replacement operation."
     },
     {
-      "title": "Publish more recovered works (S4)",
-      "detail": "Expand beyond the 86-item edition using explicit approved publication selections and complete source-fidelity checks. Recovered attachments and remaining works are still separate publication work."
+      "title": "Attachments as reading text (S7)",
+      "detail": "Convert the 225 PDFs and 103 zip archives to Markdown reading editions; the site serves no attachment files."
     },
     {
       "title": "Complete reviewed classification and discovery pages (S4)",
