@@ -17,7 +17,7 @@ Reconciled against source routes, build scripts, package dependencies, the edito
 - 7,093 prompt entries: 6,797 from the 18 current source sections and 296 from an older list kept separately.
 - 825 historical works-catalog entries across nine categories: an entry is not necessarily an already published reading edition.
 - 927 distinct resource records shared by the historical indexes, with availability distinctions.
-- 46 validated reading items (43 canonical items plus three legacy previews).
+- 66 validated reading items (63 canonical items plus three legacy previews): 53 canonical works and ten short divergences.
 - 222 prompts have conservative source-supported documented development links. This is not proof that every other prompt was never developed.
 
 Evidence: `docs/status-s2.md`, `reports/sample-comparison.json`, `reports/browse-validation.json`, `reports/browse-filter-browser.json` and `reports/browse-filter-payloads.json`. Published implementation commit `4c30549` passed 63 tests, 256,684 link/resource checks, all 46 reading comparisons and complete historical-index validation in both languages. Its Cloudflare deployment was verified active at 100%.
@@ -25,7 +25,7 @@ Evidence: `docs/status-s2.md`, `reports/sample-comparison.json`, `reports/browse
 ## Execution order after S3
 
 1. **Review the next publication batch in S4.** The local development queue is ready for explicit owner decisions; no live proposals have been approved automatically.
-2. **Expand reading publication.** Convert reviewed works progressively beyond the validated 46 items, including pending attachments, with full source-fidelity checks.
+2. **Expand reading publication.** Convert reviewed works progressively beyond the current 66 items, including pending attachments, with full source-fidelity checks.
 3. **Complete reviewed classification and discovery pages.** Final era/theme vocabularies and world/era/place/theme pages still need implementation and metadata review.
 4. **Build the full S5 tree and cleaned original-layout copy**, followed by the complete S6 audit/restore.
 
@@ -33,8 +33,10 @@ The final classification, full archive tree and complete publication should not 
 
 ## Board verification
 
-After the S4 discovery increment the regenerated board contains 65 tasks: 49 done, two to do, two partial and 12 in backlog (including two non-blocking deferrals). S4 is active; all eight S3 tasks are delivered. Browser checks verified all five columns, sprint/search/reset controls, next-step priorities, immunity to stale local overrides and responsive layouts. These task counts measure the plan, not the percentage of archive texts published. S3 feature verification is documented separately in [status-s3.md](status-s3.md).
+After the first owner-approved S4 batch the regenerated board contains 66 tasks: 50 done, one to do, three partial and 12 in backlog (including two non-blocking deferrals). S4 is active; all eight S3 tasks are delivered. Browser checks verified all five columns, sprint/search/reset controls, next-step priorities, immunity to stale local overrides and responsive layouts. These task counts measure the plan, not the percentage of archive texts published. S3 feature verification is documented separately in [status-s3.md](status-s3.md).
 
 The 17 November discovery increment is implemented and validated locally; this audit does not claim a new production deployment. See [status-s4-discovery.md](status-s4-discovery.md). Author navigation covers the current canonical edition, not all recovered files.
 
-S4 publication now has a persistent owner-reviewed selection workflow and full local source reading for review. The 20-proposal next batch is prepared, but no additional reading items or live editorial decisions have been introduced. Progressive publication remains partial. See [status-s4-publication.md](status-s4-publication.md).
+S4 publication has a persistent owner-reviewed selection workflow and full local source reading for review. The first 20-proposal packet is approved and selected; the next pending packet is prepared separately. Progressive archive publication remains partial. See [status-s4-publication.md](status-s4-publication.md).
+
+The owner explicitly approved the first 20-proposal packet on 17 November. Its selected additions bring the reading edition to 66 items; the review and publication parent tasks remain partial. Source comparison, search/discovery and all historical indexes pass on the expanded edition. See [status-s4-batch-01.md](status-s4-batch-01.md).

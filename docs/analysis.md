@@ -292,3 +292,7 @@ The header now separates `/library/` (canonical works already prepared to read) 
 ## Reviewed publication selections, 17 November 2026
 
 Structural owner approvals and publication selections are separate persisted decisions. The converter retains the S2 baseline and adds only proposals explicitly selected in `data/publication.json`, validated against the current owner ledger, source/structure fingerprints and existing source boundaries. The local review queue now provides complete inert source text and reference destinations. No automatic approval, classification or deployment follows from generating a next-batch packet. See [status-s4-publication.md](status-s4-publication.md).
+
+## First owner-approved publication batch, 17 November 2026
+
+The owner approved the exact 20-proposal packet preserved in `reports/publication-batch-01.json`. Those structural decisions and explicit publication selections expand the edition to 66 reading items; classification approval remains separate. The next generated packet is still pending. The strict comparison revealed differing original/catalog headers; complete original header wording is retained as source metadata in reader provenance rather than dropped or treated as inferred chronology. See [batch 01 delivery](status-s4-batch-01.md).

@@ -7,6 +7,7 @@ export const languages = ["it", "en"] as const;
 export type Lang = (typeof languages)[number];
 
 const it = {
+  "source.originalHeading": "Intestazione originale",
   "review.fullSource": "Leggi la fonte integrale",
   "review.sourceReferences": "Rimandi presenti nella fonte",
   "review.sourceNote":
@@ -425,6 +426,7 @@ const it = {
 };
 
 const en: Record<keyof typeof it, string> = {
+  "source.originalHeading": "Original heading",
   "review.fullSource": "Read the full source",
   "review.sourceReferences": "References present in the source",
   "review.sourceNote":

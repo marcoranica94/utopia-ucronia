@@ -56,6 +56,7 @@ export type Segment = {
 };
 export type Anatomy = {
   title: string;
+  headerText: string[];
   authors: string[];
   shape: "chronology" | "discussion" | "narrative" | "collection";
   segments: Segment[];
@@ -580,6 +581,7 @@ export function anatomy(html: string, documentTitle: string): Anatomy {
         : "narrative";
   return {
     title,
+    headerText: header.map((block) => block.text).filter(Boolean),
     authors: [
       ...new Set(
         [...authors, main.author].filter((a): a is string => Boolean(a)),

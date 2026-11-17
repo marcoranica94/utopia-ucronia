@@ -400,8 +400,18 @@ for (const result of results) {
       result.markdown,
     );
   const cover = firstImage?.[1] ?? firstImage?.[2];
+  // Some FrontPage titles contain literal icon-link markup. Keep source/map/route intact.
+  const title = page.title
+    .replace(/<link\b[^>]*>/gi, "")
+    .replace(/\s+/g, " ")
+    .trim();
   const meta = workContentSchema.parse({
-    title: page.title,
+    title,
+    sourceHeaders: [
+      ...new Set(
+        page.parts.flatMap((part) => part.parsed?.headerText ?? []).map(redact),
+      ),
+    ],
     authors: item
       ? item.authors
           .map((id) => authorNames.get(id))
@@ -454,7 +464,7 @@ for (const result of results) {
     editorialId: item?.id,
     source: page.parts[0].source.url,
     sources: page.parts.map((p) => p.source),
-    title: page.title,
+    title,
     structured: Boolean(page.parts[0].parsed),
     randomValidation: Boolean(item && validation.items.includes(item.id)),
     publicationSelection: Boolean(

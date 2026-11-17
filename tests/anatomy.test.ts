@@ -46,6 +46,24 @@ const page = (body: string) =>
   `<html><head><title>[ucronia] Prova</title></head><body>${body}</body></html>`;
 const mail = (name: string) => `<a href="mailto:x@example.org">${name}</a>`;
 
+test("original header text retains a dated marquee when the catalog title omits the year", () => {
+  const parsed = anatomy(
+    page(
+      "<marquee>1940: Italia neutrale, vittoria nazista</marquee><p>di Ada</p><hr><p>La storia continua.</p>",
+    ),
+    "Italia neutrale, vittoria nazista",
+  );
+  assert.deepEqual(parsed.headerText, [
+    "1940: Italia neutrale, vittoria nazista",
+    "di Ada",
+  ]);
+  assert.ok(
+    parsed.segments[0].lead.some(
+      (block) => block.text === "La storia continua.",
+    ),
+  );
+});
+
 test("splits a page into main text, contributions and replies", () => {
   const a = anatomy(
     page(`

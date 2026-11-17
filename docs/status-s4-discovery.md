@@ -1,5 +1,7 @@
 # S4 discovery — 17 November 2026
 
+This records the initial navigation increment. The expanded 66-item edition is documented in [batch 01 delivery](status-s4-batch-01.md).
+
 This increment adds direct reading access and author navigation to the existing edition. It does not publish additional archive texts or approve editorial proposals. Implementation and checks are local; no new production deployment is claimed.
 
 ## Delivered behavior

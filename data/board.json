@@ -173,9 +173,9 @@
     {
       "sprint": "S4",
       "contains": "Progressive review of the map",
-      "status": "todo",
+      "status": "doing",
       "assignee": "Marco",
-      "note": "Owner review remains pending. The next batch is prepared in reports/publication-next.md; /review/ in local development now opens full source text, hashes and reference destinations. No live decisions have been approved. Review decisions and publication selection remain separate."
+      "note": "The owner explicitly approved the first 20-proposal packet on 17 November 2026. Those decisions are persisted in data/review-decisions.json; classifications remain proposed. Further work, world and split/merge review remains pending. The next read-only batch is in reports/publication-next.md."
     },
     {
       "sprint": "S4",
@@ -217,7 +217,7 @@
       "contains": "Publish the remaining recovered works progressively",
       "status": "doing",
       "assignee": "Development",
-      "note": "Publication infrastructure is delivered: reviewed proposals can be selected persistently and converted beyond the S2 baseline, with overlap/stale-decision checks and complete build validation. No live approvals or additional selections yet; current reading edition remains 46 items. Next read-only batch contains 20 pending proposals. See docs/status-s4-publication.md."
+      "note": "First owner-approved batch delivered: 20 selected additions, 66 reading items total (63 canonical and three legacy previews), including 53 canonical work editions and ten short divergences. All selected texts pass source-fidelity checks. Further recovered works and attachments still require progressive review/publication. See docs/status-s4-batch-01.md."
     },
     {
       "sprint": "S4",
@@ -239,16 +239,23 @@
       "status": "done",
       "assignee": "Development",
       "note": "Delivered on 17 November 2026: pnpm publication status/next/select/remove with dry-run, an atomic tracked manifest, explicit owner approval and source/route fingerprints, whole-proposal split selection and overlap rejection. Converter and build membership/fidelity checks support selected additions. Local review can open full inert source text. No additional real texts or owner decisions were introduced. See docs/status-s4-publication.md."
+    },
+    {
+      "sprint": "S4",
+      "contains": "First owner-approved publication batch:",
+      "status": "done",
+      "assignee": "Development",
+      "note": "Owner approved the exact 20-proposal packet in conversation on 17 November 2026. Decisions and publication fingerprints are persisted; the original packet is preserved in reports/publication-batch-01.json. The expanded edition has 66 reading items, 53 canonical works and 106 source signatures. Sources, body prose, anchors, images and tables were compared in full. Original headings are preserved in provenance, including dates absent from catalog titles. See docs/status-s4-batch-01.md."
     }
   ],
   "priorities": [
     {
       "title": "Review the next publication batch (S4)",
-      "detail": "Review the prepared next batch in reports/publication-next.md using the local /review/ queue and full source text. Record explicit owner decisions on work boundaries, worlds and split/merge proposals; none have been fabricated."
+      "detail": "The first 20-proposal packet is approved and delivered. Review the next prepared batch in reports/publication-next.md and the remaining world/split/merge proposals. New packets are not approved automatically."
     },
     {
       "title": "Publish more recovered works (S4)",
-      "detail": "After explicit review, use pnpm publication select <proposal-id> --dry-run, record the selection, then run the complete build to expand beyond the current 46 reading items. Selection and deployment are separate operations."
+      "detail": "Expand beyond the 66-item edition using explicit approved publication selections and complete source-fidelity checks. Recovered attachments and remaining works are still separate publication work."
     },
     {
       "title": "Complete reviewed classification and discovery pages (S4)",

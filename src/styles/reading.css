@@ -341,7 +341,7 @@ body.reader-drawer-open {
   max-width: none;
   margin-top: 2rem;
   font: 400 clamp(1.12rem, 0.3vw + 1rem, 1.38rem) / 1.85 var(--font-reading);
-  overflow-wrap: break-word;
+  overflow-wrap: anywhere;
 }
 .reading-copy [id],
 #work-title {
@@ -479,6 +479,7 @@ body.reader-drawer-open {
   margin: 0.5rem 0;
 }
 .uchronia-source {
+  overflow-wrap: anywhere;
   margin-top: 4rem;
   padding-top: 1.5rem;
   border-top: 1px solid var(--line);

@@ -22,6 +22,7 @@ export const outlineSchema = z.object({
 });
 export const workContentSchema = z.object({
   title: publicText.min(1),
+  sourceHeaders: z.array(publicText).optional(),
   authors: z.array(publicText),
   authorIds: z.array(identifier).optional(),
   language: languageSchema,

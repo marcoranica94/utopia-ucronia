@@ -1,5 +1,7 @@
 # S4 reviewed publication workflow — 17 November 2026
 
+This records infrastructure delivery before the first owner approval. The subsequent 20 approved additions and current counts are documented in [batch 01 delivery](status-s4-batch-01.md).
+
 The converter can now expand the reading edition through explicit publication selections. Previously it selected only the fixed S2 validation/trial items, independently of decisions saved in `/review/`. This increment connects owner-reviewed proposals to repeatable conversion and provides full source text for local review.
 
 ## Workflow
