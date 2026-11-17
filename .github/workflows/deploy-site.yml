@@ -63,6 +63,15 @@ jobs:
         run: pnpm lint
       - name: Integrity of the originals
         run: pnpm recovery verify
+      # Per-unit results of earlier verified builds (scripts/build-cache.ts).
+      # Keys include every input of the unit and the toolchain digest, so a
+      # stale entry is never used; it is only saved when the job succeeds.
+      - name: Restore the build cache
+        uses: actions/cache@v4
+        with:
+          path: .cache/build
+          key: build-cache-${{ github.sha }}
+          restore-keys: build-cache-
       - name: Conversion, types, build and links
         run: pnpm build
       - name: Keep the conversion report
