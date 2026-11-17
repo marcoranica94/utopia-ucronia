@@ -363,6 +363,18 @@ test("CLI status/next/dry-run leave fixture decisions unchanged; select/remove p
     assert.equal(JSON.parse(cli("status").stdout).additionalItems, 1);
     assert.deepEqual(JSON.parse(cli("status").stdout).readyToSelect, []);
     assert.equal(cli("remove", "proposal-b").status, 0);
+    const bulkPreview = cli("select-approved", "--dry-run");
+    assert.equal(bulkPreview.status, 0, bulkPreview.stderr);
+    assert.equal(JSON.parse(bulkPreview.stdout).selected, 1);
+    assert.deepEqual(
+      await readPublication(path.join(dir, "data/publication.json")),
+      empty(),
+    );
+    const bulk = cli("select-approved");
+    assert.equal(bulk.status, 0, bulk.stderr);
+    assert.equal(JSON.parse(cli("status").stdout).additionalItems, 1);
+    assert.equal(JSON.parse(cli("select-approved").stdout).selected, 0);
+    assert.equal(cli("remove", "proposal-b").status, 0);
     assert.equal(
       await readFile(path.join(dir, "data/review-decisions.json"), "utf8"),
       JSON.stringify(ledger),

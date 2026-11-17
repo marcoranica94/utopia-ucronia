@@ -13,7 +13,7 @@ const sprints = [
     text: a[2],
   })),
 }));
-if (sprints.length !== 7) throw new Error("Seven sprints expected in the plan");
+if (sprints.length !== 8) throw new Error("Eight sprints expected in the plan");
 const meta = JSON.parse(await readFile("data/board.json", "utf8")) as {
   priorities: { title: string; detail: string }[];
   rules: {

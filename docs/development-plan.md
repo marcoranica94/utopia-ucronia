@@ -261,3 +261,17 @@ Demo: from the tree to a twentieth-century work and to its cleaned original page
 - [ ] README and `CLAUDE.md` updated
 
 Demo: full round from the phone without touch-ups; restore from scratch succeeds.
+
+### S7 · Attachments converted to reading text
+
+Separate epic, not part of S4 (owner decision of 17/11/2026). The 225 recovered PDFs and 103 zip archives become reading texts like every other work: converted to Markdown and read on the page. The site serves **no PDF, zip or other attachment files**; the originals stay only in the untouched archive. It can run in parallel with S5 and S6.
+
+- [ ] Inventory: for each PDF, text layer or scan, pages, images, the pages that link to it; for each zip, its file list and formats (doc, rtf, htm, txt, images), extracted only in an isolated directory as untrusted data
+- [ ] PDF to Markdown with the existing `scripts/pdf.ts` pipeline (text layer and raster illustrations), with full source-fidelity comparison like the HTML works; scanned PDFs without a text layer listed separately (OCR is a separate decision)
+- [ ] Zip contents to Markdown: each document inside becomes a work or a chapter; images kept as illustrations; executable or unknown formats discarded and listed
+- [ ] Publication path for attachment proposals: selection, fingerprints and overlap checks as for HTML works; a wrapper page and its attachment combined when they are the same work
+- [ ] Links that pointed to a PDF or zip lead to the reading edition; none points to a file. Link check fails if the build emits a `.pdf`, `.zip` or office file
+- [ ] Coverage: every PDF and zip has an outcome (published, merged into another work, scan pending OCR, discarded with reason)
+
+Demo: a work that existed only as a PDF and one that existed only inside a zip are found by search and read on the page, on phone and desktop; no attachment file is downloadable from the site.
+

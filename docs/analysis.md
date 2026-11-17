@@ -300,3 +300,8 @@ The owner approved the exact 20-proposal packet preserved in `reports/publicatio
 ## Second owner-approved batch and vocabulary proposal, 17 November 2026
 
 The owner approved a second 20-proposal packet (`reports/publication-batch-02.json`): 86 reading items, 73 canonical works. The strict comparison found two converter defects, both fixed in the converter rather than in the checks: literal Markdown characters inside kept HTML (Old Chinese reconstructions such as `*ŋroːg`) and source anchors repeated across separately converted blocks. Catalog-to-reading View Transitions were added at the owner's request. An era/place/theme vocabulary is proposed in [vocabulary-proposal.md](vocabulary-proposal.md) and awaits owner review; nothing is written to the map before approval. See [status-s4-batch-02.md](status-s4-batch-02.md).
+
+## Attachments become reading text, 17 November 2026
+
+Owner decision: the 225 recovered PDFs and 103 zip archives are converted to Markdown and read on the page like the other works. The site serves no PDF, zip or office files; the originals remain only in the untouched archive. This is a separate epic, S7 in the development plan, outside S4.
+

@@ -201,3 +201,9 @@ The owner explicitly approved the 20 proposals in the packet preserved as `repor
 
 The owner approved the 20 proposals preserved in `reports/publication-batch-02.json` ("Sì, approvo tutte e 20"); preserve those decisions and selections. Edition: 86 reading items (83 canonical plus three legacy previews), 73 works in `/library/`, 123 source signatures. Text inside HTML kept in Markdown is made inert (`inertHtml`) and repeated source ids keep only the first (`firstIdsOnly`). Catalog-to-reading View Transitions are CSS-only and off under reduced motion. The era/place/theme vocabulary in `docs/vocabulary-proposal.md` is an agent proposal awaiting owner review. See `docs/status-s4-batch-02.md`.
 
+
+## Blanket publication approval and S7, 17 November 2026
+
+After batch 03 the owner approved all remaining `work`, `split` and `merge` proposals at once: "per il resto approvo tutto. NOn possiamo stare qui ogni volta". Batches no longer wait for a review in conversation: each packet is recorded in `reports/publication-batch-NN.json` with that quote, the decisions go to the ledger, `pnpm publication select-approved` selects them, and a batch is committed only after the full build and the browser layout checks pass. A failing check stops the run; fix the converter, never the check. Classifications are **not** covered. Do not push: the owner pushes (instruction of 17/11/2026, "Non pushare nulla").
+
+PDFs and zip archives are a separate epic, S7 in the development plan: converted to Markdown and read on the page; the site serves no PDF, zip or office file.

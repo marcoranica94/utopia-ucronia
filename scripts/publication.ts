@@ -23,11 +23,13 @@ const { positionals, values } = parseArgs({
 });
 const [command = "status", proposalId = ""] = positionals;
 if (
-  !["status", "next", "select", "remove"].includes(command) ||
+  !["status", "next", "select", "remove", "select-approved"].includes(
+    command,
+  ) ||
   positionals.length > 2
 )
   throw Error(
-    "Use: pnpm publication status | next [--action work|split|merge] [--limit 20] | select <proposal-id> [--dry-run] | remove <proposal-id> [--dry-run]",
+    "Use: pnpm publication status | next [--action work|split|merge] [--limit 20] | select <proposal-id> [--dry-run] | select-approved [--dry-run] | remove <proposal-id> [--dry-run]",
   );
 if ((command === "select" || command === "remove") !== Boolean(proposalId))
   throw Error(
@@ -50,7 +52,53 @@ const change = (current: typeof publication) => {
   publicationItems(map, ledger, next, baseline);
   return next;
 };
-if (command === "select" || command === "remove") {
+if (command === "select-approved") {
+  // Select every approved, not yet selected proposal in one process, with the
+  // same checks as `select`: one map read instead of one per proposal.
+  const pendingIds = (current: typeof publication, ledger: typeof ledger0) =>
+    ledger.decisions
+      .filter(
+        (d) =>
+          d.state === "approved" &&
+          !current.selections.some((s) => s.proposalId === d.proposalId),
+      )
+      .map((d) => d.proposalId);
+  const ledger0 = ledger;
+  const selectAll = (
+    currentMap: typeof map,
+    currentLedger: typeof ledger,
+    current: typeof publication,
+  ) =>
+    pendingIds(current, currentLedger).reduce(
+      (next, id) =>
+        selectPublication(currentMap, currentLedger, next, baseline, id),
+      current,
+    );
+  const before = publication.selections.length;
+  const next = values["dry-run"]
+    ? selectAll(map, ledger, publication)
+    : await updatePublication("data/publication.json", async (current) => {
+        const currentMap = await readMap(),
+          currentLedger = await readDecisions();
+        const latest = selectAll(currentMap, currentLedger, current);
+        publicationItems(currentMap, currentLedger, latest, baseline);
+        return latest;
+      });
+  console.log(
+    JSON.stringify(
+      {
+        dryRun: Boolean(values["dry-run"]),
+        command,
+        selected: next.selections.length - before,
+        canonicalItems: publicationItems(map, ledger, next, baseline).items
+          .length,
+        next: "Run pnpm build to convert and verify every selected text before deployment.",
+      },
+      null,
+      2,
+    ),
+  );
+} else if (command === "select" || command === "remove") {
   // Re-read both decisions and selection while holding the publication lock.
   const next = values["dry-run"]
     ? change(publication)
