@@ -512,6 +512,7 @@ async function convertPage(page: Page): Promise<{
 }
 for (const page of pages) {
   const reused = page.cached && replay(page, page.cached.conversion);
+  if (page.cached && !reused) cache.reject();
   const { conversion, gaps } =
     page.cached && reused
       ? { conversion: page.cached.conversion, gaps: reused }

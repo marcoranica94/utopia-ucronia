@@ -183,6 +183,12 @@ export class BuildCache<T> {
     }
     return removed;
   }
+  /** Counts a hit whose entry turned out not to apply (e.g. a replayed
+   * lookup differed) as a recomputation. */
+  reject(): void {
+    this.stats.hits--;
+    this.stats.misses++;
+  }
   summary(): string {
     if (!this.enabled) return `build cache ${this.namespace}: off`;
     const { hits, misses } = this.stats;
