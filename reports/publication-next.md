@@ -2,402 +2,402 @@
 
 Read-only proposals for owner review. No approval or publication selection has been recorded. Review links open on the local development server after `pnpm dev`; they are absent from the deployed site.
 
-## 1. Carlo e Irene
+## 1. Fondazione e Impero Romano!
 
-Proposal: `proposal-doc-146a4886be45` · action: `work`
+Proposal: `proposal-doc-26b6a4f827a8` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-146a4886be45)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-26b6a4f827a8)
 
-> Carlo e Irene... di Lord Wilmore Ottobre 792: Carlo, re dei Franchi, non ancora proclamato Imperatore d'Occidente, corona finalmente il suo sogno e sposa Irene, basilissa dei romani, Imperatrice d'Oriente. Diviso dai tem
+> Fondazione e Impero Romano! di Perchè No? Tutti sanno che Asimov si é ispirato dall’impero romano e alla sua caduta per l’impero galattico, come si é ispirato a Napoleone per il Mulo. Dunque... (avete gia capito?) . I -
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/carlo-e-irene-146a4886/` · composition: `single`
+Target: `/works/fondazione-e-impero-romano-26b6a4f8/` · composition: `single`
 
-[Full source for local review](/review/source/doc-146a4886be45/)
+[Full source for local review](/review/source/doc-26b6a4f827a8/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Carlo\_e\_Irene.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Asimov\_per\_davvero.htm
 
-SHA-256: `6c5303dbe8ad85dc2cccf4da4086789504e83fabc256cb68f334daf2a5524e77`
+SHA-256: `6c53b089c7a6162518765e3450b68c493073a56f1241d869233d71bd57893cdd`
 
 Selection: `{"kind":"whole"}`
 
-## 2. La « Belle Époque »
+## 2. Gli Ottomani in Italia
 
-Proposal: `proposal-doc-14ac3a198d1b` · action: `work`
+Proposal: `proposal-doc-270aada01486` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-14ac3a198d1b)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-270aada01486)
 
-> La « Belle Époque » 1870-1871 d.C.: deluso per le mancate compensazioni sul confine occidentale, Napoleone III teme l'accerchiamento dopo l'alleanza tra Bismarck ed i RUA e dopo l'alleanza italo-prussiana; invia perciò u
+> Gli Ottomani in Italia di Alessio Mammarella e Generalissimus . Tutto parte dall'ucronia tratta da questo sito e tradotta per noi da Generalissimus: Lo Stato Pontificio Tedesco una breve storia attraverso le mappe I. Il
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-belle-epoque-14ac3a19/` · composition: `single`
+Target: `/works/gli-ottomani-in-italia-270aada0/` · composition: `single`
 
-[Full source for local review](/review/source/doc-14ac3a198d1b/)
+[Full source for local review](/review/source/doc-270aada01486/)
 
-Source: http://www.fmboschetto.it/racconti/Roma\_in\_America/Roma\_in\_America\_17.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Ottomani\_in\_Italia.htm
 
-SHA-256: `b17a3a64c46b2814442e4b66fc35114d3eec8fcdd3b3b602bc7df0b7f0912faa`
+SHA-256: `44abc38720d775d5927fb6faaed6be806e1fba6530013579eba8d129cd1ddc0d`
 
 Selection: `{"kind":"whole"}`
 
-## 3. Fanta-Alessandro Magno
+## 3. La Siberia indipendente
 
-Proposal: `proposal-doc-14c488c7e969` · action: `work`
+Proposal: `proposal-doc-275ea29d3c0e` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-14c488c7e969)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-275ea29d3c0e)
 
-> Attacco all'Occidente Siracide rientra da Cartagine nel luglio del 319 a.C., ed Alessandro il Macedone si trattiene ad Alessandria d'Egitto fino al settembre dello stesso anno, dedicandosi all'organizzazione del suo stat
+> La Siberia indipendente La bandiera della Siberia indipendente . Generalissimus ha aperto le danze con questa proposta: Nel 1577 i mercanti della famiglia Stroganov ingaggiarono il Cosacco Ermak Timofeevič perché protegg
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/fanta-alessandro-magno-14c488c7/` · composition: `single`
+Target: `/works/la-siberia-indipendente-275ea29d/` · composition: `single`
 
-[Full source for local review](/review/source/doc-14c488c7e969/)
+[Full source for local review](/review/source/doc-275ea29d3c0e/)
 
-Source: http://www.fmboschetto.it/racconti/Alessandro/Alessandro\_2.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/Fanta\_Siberia.htm
 
-SHA-256: `e9e070a170532831e405b0c8822e82c2755dfe3d700f351f9fae27eee53bd9c5`
+SHA-256: `b8386ffe74a8e16e5db54a26e27e31b0c8304679c5eed3405fd17a5d92f9c2b4`
 
 Selection: `{"kind":"whole"}`
 
-## 4. Conticuere Omnes...
+## 4. "Nineveh Never Dies"
 
-Proposal: `proposal-doc-15c46165ece4` · action: `work`
+Proposal: `proposal-doc-27f20408b2a8` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-15c46165ece4)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-27f20408b2a8)
 
-> CONTICUERE OMNES... Alla dottoressa Elena Cristina Bolla Tacquero tutti, il padre Enea fissando nel volto suo, pendendo dal suo labbro; dall'alto scranno ei prese a dir così: "Regina, chiedi a me ch'io rinnovelli dolore
+> "Nineveh Never Dies" ovvero: l'Assiria eterna di Alessio Mammarella La lunga storia di Ninive è visibile dalla molteplicità di stili architettonici ed artistici che caratterizzano il suo paesaggio, rendendola una delle p
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/conticuere-omnes-15c46165/` · composition: `single`
+Target: `/works/nineveh-never-dies-27f20408/` · composition: `single`
 
-[Full source for local review](/review/source/doc-15c46165ece4/)
+[Full source for local review](/review/source/doc-27f20408b2a8/)
 
-Source: http://www.fmboschetto.it/racconti/Conticuere.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/Fanta\_Assiri.htm
 
-SHA-256: `bdefd56b2c3d89fce9e2e1e7713b4423641aed82985ae6fa2b9b8a5c09f24f3b`
+SHA-256: `ccc69857ec7b81409cc0b8c4b746e8fe59f22b410b198b8d095c85b75c0de108`
 
 Selection: `{"kind":"whole"}`
 
-## 5. La Fatal Castelfidardo
+## 5. \[uchronìe\] Samouraïs d’Occident
 
-Proposal: `proposal-doc-15faca461a1a` · action: `work`
+Proposal: `proposal-doc-2833a76bcc93` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-15faca461a1a)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-2833a76bcc93)
 
-> Addio a Garibaldi di Francesco Dessolis Sulla scia delle ucronie ottocentesche, come la Repubblica Italiana del 1848 di Homer e Lunga vita a Federico III di Dorian Gray, mi è venuta in mente una variante che ho cercato d
+> Samouraïs d’Occident Ou la diaspora japonaise de Porquoi pas? En l’an 1281 la deuxième invasion mongole du Japon échoua. Une grande tempête, dite « Kamikaze » (vent divin) coula la flotte d’invasion et sauva le Japon. Ce
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-fatal-castelfidardo-15faca46/` · composition: `single`
+Target: `/works/uchronie-samourais-d-occident-2833a76b/` · composition: `single`
 
-[Full source for local review](/review/source/doc-15faca461a1a/)
+[Full source for local review](/review/source/doc-2833a76bcc93/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/addio\_a\_Garibaldi.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/samouraisdoccident.htm
 
-SHA-256: `f9d05afe5ebea10266502ac7b8cfc1c740f1adfef10f6b0672cb97b8e38033b3`
+SHA-256: `87fe8807504cf3e283df62cc92b9c5381f6cf2719875f584a17b4fa42b7720e0`
 
 Selection: `{"kind":"whole"}`
 
-## 6. Ottocento Italiano
+## 6. Pharaon, di Sandro Degiani
 
-Proposal: `proposal-doc-167878df7ef0` · action: `work`
+Proposal: `proposal-doc-28800fb460d3` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-167878df7ef0)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-28800fb460d3)
 
-> Ottocento Italiano di William Riker dedicata a Maciò e a Dorian Gray Ecco la seconda parte della mia ucronia in cui l'Italia arriva divisa fino al presente. Per leggere la prima parte, cliccate qui. . 1946 Il 26 febbraio
+> Pharaon di Lord Wilmore "Le follie dell'imperatore" è il primo classico Disney del nuovo millennio, essendo uscito negli Stati Uniti il 15 dicembre 2000 e in Italia il 6 aprile 2001. Al botteghino non fu un grande succes
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/ottocento-italiano-167878df/` · composition: `single`
+Target: `/works/pharaon-di-sandro-degiani-28800fb4/` · composition: `single`
 
-[Full source for local review](/review/source/doc-167878df7ef0/)
+[Full source for local review](/review/source/doc-28800fb460d3/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Sissi\_napoletana\_2.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm
 
-SHA-256: `e44b4d582df784f64db342eee3fc87b077e2a0b903e698165e4997a808ac68df`
+SHA-256: `a2d2030b973e9caca9f2152593dbea605374de79558d362e9b6c64838509c54c`
 
 Selection: `{"kind":"whole"}`
 
-## 7. Luigi XIX Re di Francia
+## 7. Raccontini berlusconiani
 
-Proposal: `proposal-doc-17325c345e8b` · action: `work`
+Proposal: `proposal-doc-29b2e52334de` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-17325c345e8b)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-29b2e52334de)
 
-> Luigi XIX Re di Francia di Federico Sangalli Ritratto da giovane di Sua Maestà Luigi XIX, Re dei Francesi per Grazia Divina e Volontà della Nazione (ritratto in realtà del Principe Massimiliano di Sassonia, NdR) Luigi XI
+> Raccontini berlusconiani # 1: Il dilettante Nella notte tra il 13 e il 14 aprile 2008, verso l'una, stavo chattando tranquillamente su Internet, quando improvvisamente ho sentito un forte rumore di catene trascinate in c
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/luigi-xix-re-di-francia-17325c34/` · composition: `single`
+Target: `/works/raccontini-berlusconiani-29b2e523/` · composition: `single`
 
-[Full source for local review](/review/source/doc-17325c345e8b/)
+[Full source for local review](/review/source/doc-29b2e52334de/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Luigi\_XIX.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/raccontini\_berlusconiani.htm
 
-SHA-256: `85957fc36a0d6e71411c94b63d06b6f649510ebc0dc47444ccf8340c9ff76dd9`
+SHA-256: `51672ed35e1b29af27506ca97c9d953be93365011d3573a8bfc95f3f19746b92`
 
 Selection: `{"kind":"whole"}`
 
-## 8. Realismo anziché Restaurazione dopo Napoleone
+## 8. Fanta-Alessandro Magno
 
-Proposal: `proposal-doc-181c5d38774a` · action: `work`
+Proposal: `proposal-doc-29da18a8447f` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-181c5d38774a)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-29da18a8447f)
 
-> Torino e Genova all'Austria nel 1815! . Tutto parte dalla proposta di Massimiliano Paleari: Il Congresso di Vienna del 1815 seguito alla disfatta di Napoleone sancì il ritorno di Casa Savoia a Torino. Lo Stato Sabaudo no
+> Alessandro Magno, all'età di ottant'anni... Di ritorno dalla grande spedizione alla conquista dell'Asia, che aveva l'obiettivo di raggiungere e conquistare "l'angolo sudorientale del mondo", Alessandro il Macedone si ins
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/realismo-anziche-restaurazione-dopo-napoleone-181c5d38/` · composition: `single`
+Target: `/works/fanta-alessandro-magno-29da18a8/` · composition: `single`
 
-[Full source for local review](/review/source/doc-181c5d38774a/)
+[Full source for local review](/review/source/doc-29da18a8447f/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Realismo\_anziche\_Restaurazione.htm
+Source: http://www.fmboschetto.it/racconti/Alessandro/Alessandro\_introd.htm
 
-SHA-256: `5a9b8b41ea1bf3714b8eceb33ff7d39b6bc6f4a62d855dc4a2a3ee512f9eca1c`
+SHA-256: `ff9c7253f620f72490c90168d79a40c5cb735a8bab579580bd63ffb664a71d77`
 
 Selection: `{"kind":"whole"}`
 
-## 9. Ucronie etrusche
+## 9. Il mortaio è raro e bello...
 
-Proposal: `proposal-doc-184829c040d8` · action: `work`
+Proposal: `proposal-doc-2a167794e62f` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-184829c040d8)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-2a167794e62f)
 
-> Ucronie etrusche di Rasenna Cari amici, ho alcune idee da sviluppare considerando alcune date salienti della storia etrusca come la battaglia di Ariccia (508 a.C.), la battaglia navale di Cuma (476 a.C.), entrambe perse
+> Il mortaio è raro e bello... di aNoNimo In un remoto villaggio fra i monti viveva un tempo un contadino che, vedovo, condivideva con l'unica figlia il duro lavoro dei campi. Donata, era questo il nome della ragazza, sebb
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/ucronie-etrusche-184829c0/` · composition: `single`
+Target: `/works/il-mortaio-e-raro-e-bello-2a167794/` · composition: `single`
 
-[Full source for local review](/review/source/doc-184829c040d8/)
+[Full source for local review](/review/source/doc-2a167794e62f/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/ucronie\_etrusche.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Ritorno\_al\_passato.htm
 
-SHA-256: `bf10efb8d6b0fd50fe4d3af76dfca5bab25821233a8fec67e2ace1dbae931b9a`
+SHA-256: `cfe2fefb43e33035e5cbd494e0c3c32c434aa7c97f801cae5085e2c9f215f25a`
 
 Selection: `{"kind":"whole"}`
 
-## 10. Determinismo tecnologico?
+## 10. Robot e Primo Impero Galattico
 
-Proposal: `proposal-doc-18b8e5d63736` · action: `work`
+Proposal: `proposal-doc-2a323407d1df` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-18b8e5d63736)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-2a323407d1df)
 
-> Determinismo tecnologico? Ecco la proposta avanzata da Dans: Qualche tempo fa riflettevo sulla possibilità di modificare l'attuale determinismo tecnologico, ovvero: è davvero necessario che la serie delle scoperte tecnol
+> Robot e Primo Impero Galattico un omaggio ad Isaac Asimov di Perchè No? Anno 849 Dopo la Fondazione di Trantor. Da qualche parte sul mondo-capitale della Confederazione Trantoriana. La stanza rimaneva nell'oscurità, illu
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/determinismo-tecnologico-18b8e5d6/` · composition: `single`
+Target: `/works/robot-e-primo-impero-galattico-2a323407/` · composition: `single`
 
-[Full source for local review](/review/source/doc-18b8e5d63736/)
+[Full source for local review](/review/source/doc-2a323407d1df/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/determinismo\_tecnologico.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/Robot\_e\_Primo\_Impero.htm
 
-SHA-256: `d24f87bea8c9855ae6e5bf99deda7c134d4a3d67e8875174ac5ad0b00dce4549`
+SHA-256: `d209b7120b4c4f59647255421ffb1b44668e29264af04efa9221fb521e7e90d2`
 
 Selection: `{"kind":"whole"}`
 
-## 11. E se la Germania avesse vinto la Grande Guerra?
+## 11. L'Europa disintegrata
 
-Proposal: `proposal-doc-18babdce0ed9` · action: `work`
+Proposal: `proposal-doc-2b2ca685a71d` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-18babdce0ed9)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-2b2ca685a71d)
 
-> E se la Germania avesse vinto la Grande Guerra? di MAS Ecco la proposta di Generalissimus che ha tradotto per noi nuove ucronie per il nostro gioco ucronico consistente nello scrivere tutti un'ucronia che preveda una Pri
+> L'Europa disintegrata Beccatevi questa distopia riguardante una futura disintegrazione politica dell'Europa in seguito alla rischiosa indipendenza del Kosovo, distopia che dobbiamo ad Ainelif e a Lord Wilmore: . 2008, 12
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/e-se-la-germania-avesse-vinto-la-grande-guerra-18babdce/` · composition: `single`
+Target: `/works/l-europa-disintegrata-2b2ca685/` · composition: `single`
 
-[Full source for local review](/review/source/doc-18babdce0ed9/)
+[Full source for local review](/review/source/doc-2b2ca685a71d/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Fanta\_WWI\_PP.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Europa\_disintegrata.htm
 
-SHA-256: `be77b9954f3103c38958f1b2f7a0a9f8c8aba8001c6b21a8dc7f9ef960673549`
+SHA-256: `6538fd0e62c542a9fa17058aa9e14b96466439285239232a928eb5c79b5f9d3c`
 
 Selection: `{"kind":"whole"}`
 
-## 12. Sotto la dinastia Balbea
+## 12. Verso l'Unione dell'Atlantide
 
-Proposal: `proposal-doc-19f80057677e` · action: `work`
+Proposal: `proposal-doc-2bb3baa67483` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-19f80057677e)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-2bb3baa67483)
 
-> SOTTO LA DINASTIA BALBEA (984 - 1054 aUc = 231 - 301 d.C.) L'Età Balbea Abbagliato dagli incredibili successi da lui colti in un ventennio di fortunate spedizioni militari, Caio Vero Svetonio comincia a preparare piani p
+> Verso l'Unione dell'Atlantide 1992 d.C., 7 febbraio: a Bruxelles (a Maastricht nella nostra Timeline) viene firmato uno storico trattato che istituisce l'UA (Unione Atlantidea) al posto della CEA, e programma l'adozione
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/sotto-la-dinastia-balbea-19f80057/` · composition: `single`
+Target: `/works/verso-l-unione-dell-atlantide-2bb3baa6/` · composition: `single`
 
-[Full source for local review](/review/source/doc-19f80057677e/)
+[Full source for local review](/review/source/doc-2bb3baa67483/)
 
-Source: http://www.fmboschetto.it/racconti/iperimpero/iperimp3.htm
+Source: http://www.fmboschetto.it/racconti/Roma\_in\_America/Roma\_in\_America\_23.htm
 
-SHA-256: `f4456ed0aa4f04a3305371b97eb90daa4d23303d808e44f4d19766f9a54172b6`
+SHA-256: `d73a57384d995f3575777bb2faf3dc4ecfd5903a38be27708cd847391c1e1a01`
 
 Selection: `{"kind":"whole"}`
 
-## 13. La Grande Assiria
+## 13. Frammentazione del Cattolicesimo
 
-Proposal: `proposal-doc-1a6df45f6606` · action: `work`
+Proposal: `proposal-doc-2bfa2ea70a36` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-1a6df45f6606)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-2bfa2ea70a36)
 
-> La Grande Assiria di Epaminonda Verso la fine del VII secolo a.C. L'Impero Assiro, che si estendeva su Mesopotamia, in Siria, Cipro, nell'Elam, buona parte dell'Anatolia e della Palestina, era in una gravissima crisi, st
+> Frammentazione del Cattolicesimo di Homer 1517: Lutero pubblica le 95 Tesi e le affigge sulle porte della Cattedrale di Wittenberg. Rapida diffusione delle tesi negli ambienti popolari e rurali tedeschi. 1518: Convocato
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-grande-assiria-1a6df45f/` · composition: `single`
+Target: `/works/frammentazione-del-cattolicesimo-2bfa2ea7/` · composition: `single`
 
-[Full source for local review](/review/source/doc-1a6df45f6606/)
+[Full source for local review](/review/source/doc-2bfa2ea70a36/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Grande\_Assiria.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Sacco\_di\_Roma.htm
 
-SHA-256: `2e9b67225f2da0fa5b13e257dbf34ed34a9df8ff3babb3476e7ea2329c9ea7db`
+SHA-256: `01c02cda3658a5a2aef5e1ffa2f664ad3306c8829526ac70d22700fdad1705aa`
 
 Selection: `{"kind":"whole"}`
 
-## 14. 15 ottobre 1972, Milan-Atalanta 4-3
+## 14. Storia degli Stati Uniti del Nordamerica
 
-Proposal: `proposal-doc-1ad9def561cc` · action: `work`
+Proposal: `proposal-doc-2c087c2fb257` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-1ad9def561cc)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-2c087c2fb257)
 
-> 15 ottobre 1972, Milan-Atalanta 4-3 di Simone 15 ottobre 1972, Milan-Atalanta 4-3... e cambiò la storia del calcio italiano!!! Cosa cambia se una squadra invece di perdere 5-0 perde 4-1 oppure 4-0? Non cambia un bel null
+> Storia degli Stati Uniti del Nordamerica di William Riker scritta per celebrare la Festa di Utopiaucronia il 28 giugno 2012 Nascita della Nazione un miliardo e mezzo di anni fa: ha origine il cratone nordamericano, che e
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/15-ottobre-1972-milan-atalanta-4-3-1ad9def5/` · composition: `single`
+Target: `/works/storia-degli-stati-uniti-del-nordamerica-2c087c2f/` · composition: `single`
 
-[Full source for local review](/review/source/doc-1ad9def561cc/)
+[Full source for local review](/review/source/doc-2c087c2fb257/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Atalanta.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_USA.htm
 
-SHA-256: `52ac88a642535847a902688d6eb50425784355d3bed64184f74c13331c1908c7`
+SHA-256: `7c29b353076ee70fdeb3e28d605237ed390a72485538b20183e1dbec73c5eb11`
 
 Selection: `{"kind":"whole"}`
 
-## 15. Dio lo vuole!
+## 15. Federated Commonwealth Empire
 
-Proposal: `proposal-doc-1ca48c3b0872` · action: `work`
+Proposal: `proposal-doc-2c2ef87f0f1e` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-1ca48c3b0872)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-2c2ef87f0f1e)
 
-> Dio lo vuole! di Basileus TFT POD: Dopo la battaglia di Manzicerta i Turchi non si limitano a trattare la cessione dell’Armenia con i bizantini, per occuparsi dei fatimidi a sud: immaginiamo che stipulino un trattato di
+> Federated Commonwealth Empire di Tommaso Mazzoni Bandiera dell'FCE Dopo aver letto con crescente turbamento delle funeste conseguenze future della Brexit sento il bisogno di tranqullizarmi con un'Ucronia di segno opposto
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/dio-lo-vuole-1ca48c3b/` · composition: `single`
+Target: `/works/federated-commonwealth-empire-2c2ef87f/` · composition: `single`
 
-[Full source for local review](/review/source/doc-1ca48c3b0872/)
+[Full source for local review](/review/source/doc-2c2ef87f0f1e/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Dio\_lo\_vuole.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/FCE.htm
 
-SHA-256: `ef7c37bcdc1995f2487360498e53f92097394ef680f5cac1dc6dc6ab17b32d30`
+SHA-256: `816bade8212d4ce5c74d565bc1c4318321d3ff657bf1031d61813a8e74dfcdc3`
 
 Selection: `{"kind":"whole"}`
 
-## 16. L'Italia resta neutrale nella Prima Guerra Mondiale
+## 16. I perchè di un dilemma politico
 
-Proposal: `proposal-doc-1cdfa6c748f9` · action: `work`
+Proposal: `proposal-doc-2cae996d6d8b` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-1cdfa6c748f9)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-2cae996d6d8b)
 
-> L'Italia resta neutrale nella Prima Guerra Mondiale di Basileus TFT Tutti noi sappiamo come l’Italia sia stata divisa fra interventisti e non durante la prima guerra mondiale. Ora poniamo il caso che le tendenze pacifist
+> I perchè di un dilemma politico di Enrico Pellerito Estratto da “I perché di un dilemma politico. Le scelte dell’Italia durante la seconda guerra mondiale” di Henrik Mladosich, Zagabria 1971, Adriatica Edizioni. . Ai fun
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/l-italia-resta-neutrale-nella-prima-guerra-mondiale-1cdfa6c7/` · composition: `single`
+Target: `/works/i-perche-di-un-dilemma-politico-2cae996d/` · composition: `single`
 
-[Full source for local review](/review/source/doc-1cdfa6c748f9/)
+[Full source for local review](/review/source/doc-2cae996d6d8b/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_WWI\_Basileus.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/dilemma\_politico.htm
 
-SHA-256: `ad6f2cb7005df450ca0c4587db2c0642e680a22a3ed8d42bad84098c582812ca`
+SHA-256: `df936a8196c7da234a435c96fe07bf577d3824800dca87cce63702530d967ff2`
 
 Selection: `{"kind":"whole"}`
 
-## 17. Le bombe piovono sulla città
+## 17. \[uchronìe\] Une longue Belle Epoque
 
-Proposal: `proposal-doc-1d09cb9c807f` · action: `work`
+Proposal: `proposal-doc-2d0b7b7c2122` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-1d09cb9c807f)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-2d0b7b7c2122)
 
-> Le bombe piovono sulla città una folle ucronia di Homer Le bombe piovono sulla città, incendi divampano ovunque, grida e strazi arrivano da ogni parte dell’urbe ferita, e si sente un continuo tonfo delle macerie che colp
+> Une longue Belle Epoque de Lord Wilmore Attention : l’auteur assume le coté totalement pacifiste de cette uchronie, réalisée dans le but d’effacer tous les recours à la guerre. (Note du traducteur : l’auteur est Italien,
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/le-bombe-piovono-sulla-citta-1d09cb9c/` · composition: `single`
+Target: `/works/uchronie-une-longue-belle-epoque-2d0b7b7c/` · composition: `single`
 
-[Full source for local review](/review/source/doc-1d09cb9c807f/)
+[Full source for local review](/review/source/doc-2d0b7b7c2122/)
 
-Source: http://www.fmboschetto.it/utopiaucronia/bombe\_piovono.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/longue\_Belle\_Epoque.htm
 
-SHA-256: `b92d76c795a0de93d93c3933593434565924a1012cd8659be34a54a834e860d6`
+SHA-256: `ae23b551ce2dfe65aa15091223bdb5489b89154031ba9ba90560d82a7dca29a9`
 
 Selection: `{"kind":"whole"}`
 
-## 18. L'Egitto Eterno
+## 18. Un ucronista alla corte di Re Artù (per parafrasare Mark Twain)
 
-Proposal: `proposal-doc-1d8a2ff25c33` · action: `work`
+Proposal: `proposal-doc-2d11a65a5d27` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-1d8a2ff25c33)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-2d11a65a5d27)
 
-> L'Egitto Eterno di Perchè No? Stupisce come la civiltà egiziana sia sopravvissuta fino ai nostri giorni, come ha fatto la civiltà cinese. Il momento critico si svolge durante il Quarto Periodo Intermedio. L’impero barbar
+> Un ucronista alla corte di Re Artù (per parafrasare Mark Twain) Questa discussione comincia da una costola degli interventi dell'amico Filobeche a proposito del Medioevo e del suo significato: Domanda: date le nostre com
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/l-egitto-eterno-1d8a2ff2/` · composition: `single`
+Target: `/works/un-ucronista-alla-corte-di-re-artu-per-parafrasare-mark-twain-2d11a65a/` · composition: `single`
 
-[Full source for local review](/review/source/doc-1d8a2ff25c33/)
+[Full source for local review](/review/source/doc-2d11a65a5d27/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Egitto\_Eterno.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/alla\_corte\_del\_Barbarossa.htm
 
-SHA-256: `e8d25acec2d963e6703f35490a5370bd38dedb6f44378821782663b32b676b86`
+SHA-256: `a858be35483e4ed251e9003abad7b9dd95d820fa12524c78d4c06891dcd779f2`
 
 Selection: `{"kind":"whole"}`
 
-## 19. Il Regno dell'Estate
+## 19. Napoleone vince a Lipsia...
 
-Proposal: `proposal-doc-1db7233d26a7` · action: `work`
+Proposal: `proposal-doc-2d1d1092fb2f` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-1db7233d26a7)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-2d1d1092fb2f)
 
-> Il Regno dell'Estate Stavolta parliamo di re Artù, vi va? Anzitutto: chi era veramente quest'eroe semileggendario ? Ancora si discute se si tratti di una figura storica o di un eroe epico di fantasia. Chi crede nella pri
+> Napoleone vince a Lipsia... Così inizia Bhrg'hros: POD: 1813, Napoleone vince a Lipsia la "Battaglia delle Nazioni". Così prosegue Bhrg'hros: Vittorioso a Lipsia, Napoleone conquista il Brandenburgo, occupa Berlino, dich
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-regno-dell-estate-1db7233d/` · composition: `single`
+Target: `/works/napoleone-vince-a-lipsia-2d1d1092/` · composition: `single`
 
-[Full source for local review](/review/source/doc-1db7233d26a7/)
+[Full source for local review](/review/source/doc-2d1d1092fb2f/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/fanta\_re\_Artu.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Lipsia.htm
 
-SHA-256: `47fcb7a1e3362fe591daed81d15ddaa9373371b0ab4168d6a432465b4c134639`
+SHA-256: `1e9d590ceae315fbc514ef160ccefc39c3891b7dff0b5bade03eb414cc8ce565`
 
 Selection: `{"kind":"whole"}`
 
-## 20. Paradiso e inferno
+## 20. La battaglia di Toro
 
-Proposal: `proposal-doc-1db90cb3386e` · action: `work`
+Proposal: `proposal-doc-2d5c0d394bfc` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-1db90cb3386e)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-2d5c0d394bfc)
 
-> Paradiso e inferno Un uomo camminava per una strada con il suo cane. Si godeva il paesaggio, quando ad un tratto si rese conto di essere morto. Si ricordò di quando stava morendo e che il cane che gli camminava al fianco
+> La battaglia di Toro di Alessio Mammarella 1476 Battaglia di Toro. Le truppe portoghesi di Alfonso V infliggono un dura sconfitta all'esercito di Ferdinando d'Aragona ed Isabella di Castiglia, che devono ritirarsi a Sara
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/paradiso-e-inferno-1db90cb3/` · composition: `single`
+Target: `/works/la-battaglia-di-toro-2d5c0d39/` · composition: `single`
 
-[Full source for local review](/review/source/doc-1db90cb3386e/)
+[Full source for local review](/review/source/doc-2d5c0d394bfc/)
 
-Source: http://www.fmboschetto.it/racconti/Paradiso\_e\_inferno.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Toro.htm
 
-SHA-256: `de1e67ad9c424db293e87a34ca706f9cc31ef9e75781a94739e099b3b252ff3d`
+SHA-256: `ee965c42b3c31687fd38aa7edf4406478b401c3d4964b20f4d0e104e9bd7dca6`
 
 Selection: `{"kind":"whole"}`
