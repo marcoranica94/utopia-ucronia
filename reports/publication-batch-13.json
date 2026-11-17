@@ -1,0 +1,1129 @@
+{
+  "ownerInstruction": "per il resto approvo tutto. NOn possiamo stare qui ogni volta",
+  "authorization": "Blanket owner approval of all remaining work/split/merge proposals, 17 November 2026; no classification approvals.",
+  "packets": [
+    {
+      "packetSha256": "2057ec9453f72561f8dc7f711503cb836ec1905d874f551e845be3761fd317bf",
+      "action": "work",
+      "approvedAt": "2026-11-17T12:45:46.896Z",
+      "entries": [
+        {
+          "proposalId": "proposal-doc-950c86537e14",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-950c86537e14",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "La (scattata) \"Legge Truffa\" di Demofilo Come sapete uno dei grandi temi al centro della discussione politica nei primi anni cinquanta del XX secolo in Italia è la questione della \"Legge Truffa\": ecco cosa sarebbe succes",
+          "items": [
+            {
+              "id": "item-210bc0d921d3",
+              "title": "La (scattata) \"Legge Truffa\"",
+              "path": "/works/la-scattata-legge-truffa-950c8653/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-950c86537e14",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Legge_Truffa.htm",
+                  "timestamp": "20230921154916",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "b4bce06af5f262cdfde0bba44983b22fb00f0315ba291b414ad9b727d908f86e",
+                  "localReviewPath": "/review/source/doc-950c86537e14/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-962a79efad68",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-962a79efad68",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Restauratio Imperii di Basileus TFT Io sono Basileus TFT. Mi sono sempre chiesto, con grande fascino, cosa succede se la Restauratio Imperii giustinianeo ha successo? Come cambia la storia mediterranea e mondiale? Analiz",
+          "items": [
+            {
+              "id": "item-8149fbac6130",
+              "title": "Restauratio Imperii",
+              "path": "/works/restauratio-imperii-962a79ef/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-962a79efad68",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Restauratio_imperii_2.htm",
+                  "timestamp": "20261016101307",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "6d9704b496e38b3584b84743cdbf9c2a01e0fdb1a584ee78649ad763878d8317",
+                  "localReviewPath": "/review/source/doc-962a79efad68/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9633bd8e997c",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-9633bd8e997c",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "IL MARCO POLO DELL'ANTICA GRECIA (1100 - 1198 aUc = 347 - 445 d.C.) Riprendono le persecuzioni anticristiane Alla morte di Alessandro II (375 d.C.), il Consesso rifiuta il suo successore Alessandro III, ritenuto troppo m",
+          "items": [
+            {
+              "id": "item-cb99f030f887",
+              "title": "Il Marco Polo dell'antica Grecia",
+              "path": "/works/il-marco-polo-dell-antica-grecia-9633bd8e/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9633bd8e997c",
+                  "url": "http://www.fmboschetto.it/racconti/iperimpero/iperimp7.htm",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "00e8ffacf664fa38f70460949f2945b74c1536559b3cd0c28bd701759335d662",
+                  "localReviewPath": "/review/source/doc-9633bd8e997c/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-967d1457b2f3",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-967d1457b2f3",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Jamaica un cuento de Enrique Salvador Moscato Santa Fe, octubre de 2004 Todos pensaban lo mismo por las tardes, a eso de las siete, cuando volvían en el colectivo rumbo a sus respectivas casas, pero nadie lo sabía. Cada",
+          "items": [
+            {
+              "id": "item-2826a4064a80",
+              "title": "Jamaica",
+              "path": "/works/jamaica-967d1457/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-967d1457b2f3",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Jamaica.htm",
+                  "timestamp": "20230329232257",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "38bbff3f76383e24601d6a08ca1f4df7893a2aec6bd4ecb64b79aad5fb602bd3",
+                  "localReviewPath": "/review/source/doc-967d1457b2f3/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-969b5abfea98",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-969b5abfea98",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Mille e non più Mille! di Toxon POD: La famosa spedizione di Garibaldi semplicemente non avviene. Potremmo immaginare che, mentre fervono ancora i preparativi, l’intera faccenda (compresi i legami tra Garibaldi e il gove",
+          "items": [
+            {
+              "id": "item-ce3597e58e3f",
+              "title": "Mille e non più Mille!",
+              "path": "/works/mille-e-non-piu-mille-969b5abf/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-969b5abfea98",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/mille_e_non_piu_mille.htm",
+                  "timestamp": "20200130030011",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "8807b6edb914f752ad7f80cdb42a7e01aba124c41c67801f933f489bf2e25b50",
+                  "localReviewPath": "/review/source/doc-969b5abfea98/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-96c30e08a17c",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-96c30e08a17c",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "La guerra è vinta dagli Imperi Centrali di Frentano . POD: Falkenhayn nel 1916 invece di colpire Verdun si concentra contro la Russia. Il comando centrale tedesco decide di proseguire l'offensiva nell'est contro la Russi",
+          "items": [
+            {
+              "id": "item-3ccd34c8bbdc",
+              "title": "La guerra è vinta dagli Imperi Centrali, di Frentano",
+              "path": "/works/la-guerra-e-vinta-dagli-imperi-centrali-di-frentano-96c30e08/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-96c30e08a17c",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_WWI_Frentano.htm",
+                  "timestamp": "20190904114916",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "aad354aad1a5b34ed2b6798791cf3df3e2743969a06a44e83595eeb1d8166ed0",
+                  "localReviewPath": "/review/source/doc-96c30e08a17c/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-96eb12359eb2",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-96eb12359eb2",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "La Persia Eterna In questa ucronia i Persiani possono arrivare al dominio del mondo con quattro inizi diversi: 1) Dario sconfigge Alessandro Magno a Gaugamela e uccide Alessandro: le guerre civili tra i generali del Mace",
+          "items": [
+            {
+              "id": "item-1d685a0a93ab",
+              "title": "La Persia Eterna secondo Maggioriano",
+              "path": "/works/la-persia-eterna-secondo-maggioriano-96eb1235/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-96eb12359eb2",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Gaugamela.htm",
+                  "timestamp": "20150507211632",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "15cb75edf5a6729fa78805a09c6b4717b551e35b133f6352d9052709c1bf5ffa",
+                  "localReviewPath": "/review/source/doc-96eb12359eb2/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9705709b226f",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9705709b226f",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "E se i Nazionalisti avessero vinto la Guerra Civile cinese? cinque ucronie tradotte da Generalissimus Il 20° secolo probabilmente ha avuto più impatti sulla Cina che su qualsiasi altro paese, nel corso di soli 50 anni pa",
+          "items": [
+            {
+              "id": "item-88bb17883200",
+              "title": "E se i Nazionalisti avessero vinto la Guerra Civile cinese?",
+              "path": "/works/e-se-i-nazionalisti-avessero-vinto-la-guerra-civile-cinese-9705709b/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9705709b226f",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Nazionalisti.htm",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "0d7e3a3ff79a3e91198684199d37d3829828f410c5176726b510f6a027d3a1ac",
+                  "localReviewPath": "/review/source/doc-9705709b226f/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9744fdedb7a4",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9744fdedb7a4",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "L'IMPERO DI ATLANTIDE Così, all'età di ventidue anni, immaginavo il mondo da me descritto nel racconto \"La Vendetta di Matusalemme\" (immagine .gif, 111 Kb) Torna indietro",
+          "items": [
+            {
+              "id": "item-9cc45faa4464",
+              "title": "L'impero di Atlantide",
+              "path": "/works/l-impero-di-atlantide-9744fded/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9744fdedb7a4",
+                  "url": "http://www.fmboschetto.it/racconti/impero_di_Atlantide.htm",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "2077f16eb984ae3e0b7c029456e7429317c5c8c04a6f245f5813fdc1ad66c569",
+                  "localReviewPath": "/review/source/doc-9744fdedb7a4/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9776d176ab74",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9776d176ab74",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "L'impero delle donne POD: il regno di Hatshepsut é giunto fino all’anno XVIII; Tuthmôsis III non muore, é Neferourê a morire (sotto la guardia di Senenmut che é disgraziato in questo momento). Tuthmôsis III prende il pot",
+          "items": [
+            {
+              "id": "item-8de5d7c12695",
+              "title": "L'impero delle donne",
+              "path": "/works/l-impero-delle-donne-9776d176/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9776d176ab74",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Hatshepsut.htm",
+                  "timestamp": "20130829021559",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "5fe79722e69c35f5f0b11de4e8bf8ff974ac3cbc29a2c09ca9b2cf26b55f7c50",
+                  "localReviewPath": "/review/source/doc-9776d176ab74/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-986494332f0f",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-986494332f0f",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Solo un anno di guerra! di Demofilo 6 aprile 2010 Carissimi, mi faccio risentire dopo la laurea (se volete potete scaricare la mia tesi da questo indirizzo) mandandovi una delle mie solite ucronie, piuttosto dettagliata",
+          "items": [
+            {
+              "id": "item-28e0fcec0c4a",
+              "title": "Solo un anno di guerra!",
+              "path": "/works/solo-un-anno-di-guerra-98649433/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-986494332f0f",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/solo_un_anno.htm",
+                  "timestamp": "20160614122914",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "a359e76d5909877edeca3f9b853bfc99901a33e36810ddaa2ecbde2e3f516195",
+                  "localReviewPath": "/review/source/doc-986494332f0f/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-98dfa2a13c44",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-98dfa2a13c44",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Un'altra Prima Guerra Mondiale scoppia nel 1905 di Ainelif Nel 1870 Napoleone III non cerca di fermare l'unificazione tedesca,e l'Alsazia rimane francese. Bismarck nel 1871 proclama a Berlino l'Impero Germanico o II Reic",
+          "items": [
+            {
+              "id": "item-6ece6e4d8e3a",
+              "title": "Un'altra Prima Guerra Mondiale scoppia nel 1905",
+              "path": "/works/un-altra-prima-guerra-mondiale-scoppia-nel-1905-98dfa2a1/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-98dfa2a13c44",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_WWI_Ainelif.htm",
+                  "timestamp": "20211016050634",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "c0880fe20866652c5378e862cff0da0ab6b6a08e8c1649d1d2481e6ba6503be6",
+                  "localReviewPath": "/review/source/doc-98dfa2a13c44/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9990cad93834",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9990cad93834",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Aotearoa di Falecius Bandiera di Aotearoa Al principio del XIX secolo, si registrarono i primi contatti tra europei (per lo più esploratori, mercanti, avventurieri e missionari) e popolazione nativa della Nuova Zelanda.",
+          "items": [
+            {
+              "id": "item-11238215007e",
+              "title": "Aotearoa",
+              "path": "/works/aotearoa-9990cad9/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9990cad93834",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Aotearoa.htm",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "b2a33f6e71945952dd6b6672cfa7f7221e1062eb2d198378344162cbd8dda84b",
+                  "localReviewPath": "/review/source/doc-9990cad93834/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-99e614e5a9ac",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-99e614e5a9ac",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Ottocento Italiano di William Riker . dedicata a Maciò e a Dorian Gray 1836 Il 16 gennaio nasce a Napoli Francesco di Borbone, erede al trono delle Due Sicilie, figlio del re Ferdinando II di Borbone e di Maria Cristina",
+          "items": [
+            {
+              "id": "item-ada3274ba4b5",
+              "title": "Ottocento Italiano",
+              "path": "/works/ottocento-italiano-99e614e5/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-99e614e5a9ac",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/Sissi_napoletana.htm",
+                  "timestamp": "20260217061724",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "d7d7f1952510c8254b31238a7777e4b3ebc767a5f3cd47e9da31fc678811a911",
+                  "localReviewPath": "/review/source/doc-99e614e5a9ac/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-99e65e9e8568",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-99e65e9e8568",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Scambio tra Islam ed Europa Cristiana! ovvero: un'altra ucronia simmetrizzante... Ed ecco la nuova ucronia che è balzata in testa a Perchè no?: A proposito di ucronie simmetrizzanti, l'ucronia franco-italiana mi ha dato",
+          "items": [
+            {
+              "id": "item-16144c784d52",
+              "title": "Scambio tra Islam ed Europa Cristiana!",
+              "path": "/works/scambio-tra-islam-ed-europa-cristiana-99e65e9e/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-99e65e9e8568",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/cristianesimo_Islam.htm",
+                  "timestamp": "20160123214827",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "ebd0dc773d16d0047dfa3c9605c101a1c215eb24dd863e8868f442d334913731",
+                  "localReviewPath": "/review/source/doc-99e65e9e8568/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9a01bbc8c9fb",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9a01bbc8c9fb",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Verenigde Staten van Amerika (VSA) di dDuck Ho pensato ad una breve ucronia sugli Stati Uniti di Lingua Olandese e conseguente cultura moderna in questa lingua, o meglio in Amerikaans. Ecco il mio progetto di Timeline: .",
+          "items": [
+            {
+              "id": "item-b18523cc7a01",
+              "title": "Verenigde Staten van Amerika (VSA)",
+              "path": "/works/verenigde-staten-van-amerika-vsa-9a01bbc8/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9a01bbc8c9fb",
+                  "url": "http://www.fmboschetto.it:80/UtopiaUcronia/VSA.htm",
+                  "timestamp": "20100818003148",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "1e5dcba637ef85c0a38ca29c9d56ec9b7406bf611f63fe4bc1f2f0177c2e31ed",
+                  "localReviewPath": "/review/source/doc-9a01bbc8c9fb/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9a850fd43cbd",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9a850fd43cbd",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "50 anni di Europa di Perchè No? 25 marzo 2007 Domani a Berlino, e spero in tutte le altre parti d'Europa, festeggiamo i 50 anni del trattato di Roma e della nascita dell'Europa politica. L'Europa ci ha portato pace, pros",
+          "items": [
+            {
+              "id": "item-0fded036316f",
+              "title": "50 anni di Europa",
+              "path": "/works/50-anni-di-europa-9a850fd4/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9a850fd43cbd",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/Europa_Perche_No.htm",
+                  "timestamp": "20121104032035",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "1527d657fc7da3771a358417dc0306fea42431c911bf89e9cfdd82c107fdbc80",
+                  "localReviewPath": "/review/source/doc-9a850fd43cbd/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9ad944283ea0",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9ad944283ea0",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "The American Century di Filobeche POD: La guerra di secessione coinvolge anche la Gran Bretagna, gli Usa vincono la guerra e si apprestano a diventare la nazione più potente del mondo con un secolo d’anticipo. Bandiera d",
+          "items": [
+            {
+              "id": "item-db9afa2cb298",
+              "title": "The American Century",
+              "path": "/works/the-american-century-9ad94428/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9ad944283ea0",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/American_Century.htm",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "35f554937c80f1e2fc5f09c33f9a5f62e9065b0691f94676375219020456dbdf",
+                  "localReviewPath": "/review/source/doc-9ad944283ea0/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9bab64e6e46e",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9bab64e6e46e",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Altre quattro guerre mondiali di Det0 Punto di svolta: Il presidente Bush, soddisfatto della prestazione dell'atleta statunitense Phelps, lo invita a cena allo Xiao Wang's Home Restaurant, in centro a Pechino, nei pressi",
+          "items": [
+            {
+              "id": "item-64bcd4690177",
+              "title": "Altre quattro guerre mondiali",
+              "path": "/works/altre-quattro-guerre-mondiali-9bab64e6/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9bab64e6e46e",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/III_IVGM.htm",
+                  "timestamp": "20160825011755",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "d6f4f42d3bab4d58ac64620fef9c5bb402c60c5e15cfab6418d4d3af561a2789",
+                  "localReviewPath": "/review/source/doc-9bab64e6e46e/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9c28a912137b",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9c28a912137b",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "SULLE ORME DI ALESSANDRO MAGNO (933 - 984 aUc = 180 - 231 d.C.) Fine del Principato Adottivo Marco Aurelio trascorre quasi tutto il suo regno nel tentativo di consolidare le recenti conquiste di terre affatto selvagge ed",
+          "items": [
+            {
+              "id": "item-45e72001e7b6",
+              "title": "Sulle orme di Alessandro Magno",
+              "path": "/works/sulle-orme-di-alessandro-magno-9c28a912/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9c28a912137b",
+                  "url": "http://www.fmboschetto.it/racconti/iperimpero/iperimp2.htm",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "5225b2f9068d4b885f04818ed68535e265764247d11123088a00806b01e2597b",
+                  "localReviewPath": "/review/source/doc-9c28a912137b/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "packetSha256": "da93445794d435a00fd0611507b4883215e699ce5ff8b44bb82e1ce90ca9f49c",
+      "action": "work",
+      "approvedAt": "2026-11-17T12:45:51.039Z",
+      "entries": [
+        {
+          "proposalId": "proposal-doc-9d536379ecb4",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-9d536379ecb4",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Marilyn Monroe: vita di un'icona bionda e comunista di Ainelif 1926. Norma Jeane Mortenson nasce il 1 giugno al Country Hospital di Los Angeles in California. La madre, Gladys Pearl Monroe, che lavora alla Consolidated F",
+          "items": [
+            {
+              "id": "item-51aec17ee430",
+              "title": "Marilyn Monroe: vita di un'icona bionda e comunista",
+              "path": "/works/marilyn-monroe-vita-di-un-icona-bionda-e-comunista-9d536379/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9d536379ecb4",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Monroe.htm",
+                  "timestamp": "20251230082332",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "60a8c7c7bd9bd007e095032b70a8f72f2c1209cc04d5de36221d6c5ca428a507",
+                  "localReviewPath": "/review/source/doc-9d536379ecb4/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9deb0fc013ed",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-9deb0fc013ed",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Guerra? Noi giochiamo lo stesso! di Enrico Nel marzo del 1941 si chiude il Campeonato Sudamericano de Selecciones con la vittoria dell'Argentina in Perù. Negli stessi giorni, l'edizione successiva viene assegnata all'Uru",
+          "items": [
+            {
+              "id": "item-dceadcbbc214",
+              "title": "Guerra? Noi giochiamo lo stesso!",
+              "path": "/works/guerra-noi-giochiamo-lo-stesso-9deb0fc0/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9deb0fc013ed",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/giochiamolostesso.htm",
+                  "timestamp": "20160614121821",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "4dfdcd502b01257ee43fdfbedde9ceac89c2caed14fb13e30f013b73719e1aef",
+                  "localReviewPath": "/review/source/doc-9deb0fc013ed/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9dfedd75fc5a",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-9dfedd75fc5a",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Der rote Totenkopf di Lorenzo Anteri I Neuhamburg Stadt, Vereinigten Reiche Amerikas, 2023 Il vento ghiacciato di gennaio investì in pieno Winston Smith, che si chiuse ancor di più nel cappotto. Finalmente giunse alla su",
+          "items": [
+            {
+              "id": "item-25cfb164afd6",
+              "title": "Der rote Totenkopf",
+              "path": "/works/der-rote-totenkopf-9dfedd75/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9dfedd75fc5a",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Der_rote_Totenkopf.htm",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "6646be8910e01f3804a8babd95bcbc26ab3e1d8683da4fa51c7742ed4e66d4e0",
+                  "localReviewPath": "/review/source/doc-9dfedd75fc5a/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9e16eab752e9",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9e16eab752e9",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "1848, nasce la Repubblica Italiana! di Homer Ho sempre pensato che l’unità d’Italia si sarebbe potuta fare in modo del tutto diverso rispetto a quanto avvenuto nella nostra linea temporale. Un differente processo di unif",
+          "items": [
+            {
+              "id": "item-9e1c569e6227",
+              "title": "1848, nasce la Repubblica Italiana",
+              "path": "/works/1848-nasce-la-repubblica-italiana-9e16eab7/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9e16eab752e9",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/1848_repubblica_italiana_2.htm",
+                  "timestamp": "20200129152201",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "6c7591de3f0b36c5c45a8371eb3b82a9ca31049971126b3daba8c6ec984e99d9",
+                  "localReviewPath": "/review/source/doc-9e16eab752e9/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9ec1e86cf5fb",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9ec1e86cf5fb",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Children of the Stars di Homer L'idea mi è venuta leggendo questo spunto di GJXIII: « Tanti millenni fa, in un tempo lontano, ormai scomparso, viveva su un pianeta del nostro sistema solare un popolo venuto dalle Stelle",
+          "items": [
+            {
+              "id": "item-4d4e9cb1dbfc",
+              "title": "Children of the Stars",
+              "path": "/works/children-of-the-stars-9ec1e86c/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9ec1e86cf5fb",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/children_of_the_stars.htm",
+                  "timestamp": "20210411101418",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "8e03548b3747c29064a105a27e9d846755a30cecf99fc7bcf6eb62cfb9d4b0b7",
+                  "localReviewPath": "/review/source/doc-9ec1e86cf5fb/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9edfe432d380",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9edfe432d380",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "L'impero spartano di Valerio Nicoletti e di Det0 Ecco una prima proposta di Valerio Nicoletti in merito al tema di questa pagina: REGNO DI LEONIDA Efialte si unisce ai 300, oppure rimane comunque fedele alla causa greca",
+          "items": [
+            {
+              "id": "item-b46545b62469",
+              "title": "L'impero spartano",
+              "path": "/works/l-impero-spartano-9edfe432/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9edfe432d380",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/impero_spartano.htm",
+                  "timestamp": "20150507211822",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "6716677b1f01ba8409d567011d83cd79ef5d7f2eaa8782aaacc80c9ad11934d4",
+                  "localReviewPath": "/review/source/doc-9edfe432d380/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9f5eee21011b",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9f5eee21011b",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "« Shekinah », una favola di Natale 5 gennaio 2004 Cari amici, ho rielaborato per voi alcuni appunti che avevo preparato anni fa per scrivere una storia complicata, nella quale si fa l'ipotesi che la Fuga in Egitto della",
+          "items": [
+            {
+              "id": "item-3a88f3c8633b",
+              "title": "Shekinah, una favola di Natale",
+              "path": "/works/shekinah-una-favola-di-natale-9f5eee21/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9f5eee21011b",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Shekinah.htm",
+                  "timestamp": "20250524103955",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "ff7673fad7f804b6e3af67033bcebd3ce2e7ffff1444a3d01dc15647a6ae8a69",
+                  "localReviewPath": "/review/source/doc-9f5eee21011b/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9f76400abe57",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9f76400abe57",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Fondation et empire romain de Porquoi pas? J’ai lu l’hommage à Isaac Asimov réalisé sur le site italien, je l’ai vraiment aimé et je voudrais à mon tour m’inspirer de l’empereur de la science-fiction. Tous ses lecteurs s",
+          "items": [
+            {
+              "id": "item-e2db3f2db91d",
+              "title": "[uchronìe] Fondation et empire romain",
+              "path": "/works/uchronie-fondation-et-empire-romain-9f76400a/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9f76400abe57",
+                  "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/fondationetempire.htm",
+                  "timestamp": "20240422224104",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "7c374a9dcab6f13cad3d93e5459d31d761f66dab9417ab5629c54217abc8eb21",
+                  "localReviewPath": "/review/source/doc-9f76400abe57/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9fd4737cdc3d",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9fd4737cdc3d",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "L'Italia Viscontea di Paolo Maltagliati La bandiera dell'Italia Viscontea Poniamo che, dopo gli screzi derivanti dalla dedizione di Genova a Giovanni di Calabria, il patto di famiglia Angioino-Visconteo si ristabilisca..",
+          "items": [
+            {
+              "id": "item-326c5557fd2d",
+              "title": "L'Italia Viscontea",
+              "path": "/works/l-italia-viscontea-9fd4737c/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9fd4737cdc3d",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Visconti.htm",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "c95e91e415f413f1e44fc3a4086300d8ade975f54d2f543b35db9fa1c25597bb",
+                  "localReviewPath": "/review/source/doc-9fd4737cdc3d/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9fe29246b583",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9fe29246b583",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "« JHS, l'uomo senza codice »: un racconto di Pasqua di William Riker Anno 7993. Il mondo è dominato da un'organizzazione perfetta, in cui ognuno ha il suo ruolo ed è programmato fin dal concepimento per esso grazie a tec",
+          "items": [
+            {
+              "id": "item-1cfd798360b0",
+              "title": "JHS, l'uomo senza codice: una favola di Pasqua",
+              "path": "/works/jhs-l-uomo-senza-codice-una-favola-di-pasqua-9fe29246/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9fe29246b583",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/JHS.htm",
+                  "timestamp": "20230608174552",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "98bb4238161eb407420dabe4fc2ee77f53a3c8a66a745504b7270a66be06d7d3",
+                  "localReviewPath": "/review/source/doc-9fe29246b583/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9ff2c630501a",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-9ff2c630501a",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Una scala verso la corona di Paolo Maltagliati A livello ucronico, molto spesso si parla dei “candidati eccellenti” per l'unificazione tardo-medievale italiana. Di solito si passa direttamente dal duecento, con Federico",
+          "items": [
+            {
+              "id": "item-178f9cf232b0",
+              "title": "Una scala verso la corona",
+              "path": "/works/una-scala-verso-la-corona-9ff2c630/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-9ff2c630501a",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Scaligeri.htm",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "2649ba47e1d98f015ac94f6daec4a19be77dfd396fabf1e2b91d2e0b4be418e0",
+                  "localReviewPath": "/review/source/doc-9ff2c630501a/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-a056cfd4090d",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-a056cfd4090d",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "IL SACRO ROMANO IMPERO PONTIFICIO (1506 - 2758 aUc = 753 - 2005 d.C.) L'amico David 169 mi ha posto la seguente domanda: « sarebbe stato incompatibile con l'essere il vero erede dell'Impero Romano una maggiore estensione",
+          "items": [
+            {
+              "id": "item-ca6cbfc8dd41",
+              "title": "Il Sacro Romano Impero Pontificio",
+              "path": "/works/il-sacro-romano-impero-pontificio-a056cfd4/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-a056cfd4090d",
+                  "url": "http://www.fmboschetto.it/racconti/iperimpero/iperimp16.htm",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "ee9b8d710e35316ed6daa664d82f2c3d76c0e45978cf587ef5f8412f7bac2f68",
+                  "localReviewPath": "/review/source/doc-a056cfd4090d/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-a0c2de42bb82",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-a0c2de42bb82",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "La Grande Guerra dilania l'Atlantide 1914 d.C., 28 giugno: Francesco Ferdinando d'Asburgo, figlio di Carlo Luigi (fratello di Francesco Giuseppe I) ed arciduca d'Austria dopo la tragica morte di Rodolfo a Mayerling, è as",
+          "items": [
+            {
+              "id": "item-eb5e5a5e10c5",
+              "title": "La Grande Guerra dilania l'Atlantide",
+              "path": "/works/la-grande-guerra-dilania-l-atlantide-a0c2de42/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-a0c2de42bb82",
+                  "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_18.htm",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "2d6c3b323d027f30bcef4f38147fdd2fc2b052870a4f117033adfe3241bccd4f",
+                  "localReviewPath": "/review/source/doc-a0c2de42bb82/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-a0f503fce0af",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-a0f503fce0af",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "L'ucronia di Akhenaten! Questa ucronia si intitola \"Ucronia di Akhenaten\", é la mia prima ucronia scritta un anno fa, non l'ho mai completata, credo che sarebbe un lavoro gigantesco. E solo un' idea: la nostra civiltà é",
+          "items": [
+            {
+              "id": "item-80c0a3b6308e",
+              "title": "L'ucronia di Akhenaten!",
+              "path": "/works/l-ucronia-di-akhenaten-a0f503fc/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-a0f503fce0af",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Akhenaten.htm",
+                  "timestamp": "20130829021345",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "b4dbd357e9e973e60362678f790430dd7b676597c88f30f20e50c62ac1004bdc",
+                  "localReviewPath": "/review/source/doc-a0f503fce0af/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-a119e95dce99",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-a119e95dce99",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Il Regno di Sicilia di Tommaso Mazzoni Piccolo omaggio a tutti gli amici Siciliani di questo sito Bandiera del Regno di Sicilia . Nome ufficiale: Regno di Sicilia (Regnu di Sicilia) Capitale: Palermo Altre Città: Reggio",
+          "items": [
+            {
+              "id": "item-769c8020016a",
+              "title": "Il Regno di Sicilia",
+              "path": "/works/il-regno-di-sicilia-a119e95d/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-a119e95dce99",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Sicilia.htm",
+                  "timestamp": "20200131023933",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "1915e8fbed47da7e86ceb56234f59b73dac97ec78e09ded28e20fa1e1dbe38ef",
+                  "localReviewPath": "/review/source/doc-a119e95dce99/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-a1413b274198",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-a1413b274198",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "La fine dell'eternità di Estec L'aereo di linea della Icarus, la compagnia aerea di punta dell'Impero Romano, sfrecciava tra le nuvole; era largo e piatto, con ali quasi inesistenti, e si muoveva a velocità impressionant",
+          "items": [
+            {
+              "id": "item-f3706ece3f3a",
+              "title": "La fine dell'eternità",
+              "path": "/works/la-fine-dell-eternita-a1413b27/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-a1413b274198",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/finedelleternita.htm",
+                  "timestamp": "20250418232307",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "52ed2e5a090058ee177d0478e2b63f9a08b342fe7fd74fce1f7a080e48a6923d",
+                  "localReviewPath": "/review/source/doc-a1413b274198/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-a1d2854ac029",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-a1d2854ac029",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "L'ascesa delle destre Per una volta voglio uscire dalla mia solita positività e divento pessimista e cattivo: eccovi una delle ucronie più reazionarie e conservatrici che mente umana abbia mai concepito! Vostro Demofilo",
+          "items": [
+            {
+              "id": "item-1b1a96395128",
+              "title": "L'ascesa delle destre",
+              "path": "/works/l-ascesa-delle-destre-a1d2854a/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-a1d2854ac029",
+                  "url": "http://www.fmboschetto.it:80/Utopiaucronia/ascesa_delle_destre.htm",
+                  "timestamp": "20171222081309",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "4256036ef4a373832473c483a6506696a05c841aebf7fd81cd304eae8523d351",
+                  "localReviewPath": "/review/source/doc-a1d2854ac029/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-a2635be2aac2",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-a2635be2aac2",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Gli Unni eterni di Tommaso Mazzoni scritta per celebrare la Festa di Utopiaucronia il 28 giugno 2023 Bandiera dell'Impero Unno Nome Ufficiale: Impero dei Popoli della Nazione Unna (Hunhanlik Milletin Halklarinin) Monarca",
+          "items": [
+            {
+              "id": "item-3b62e5aa5f15",
+              "title": "L'Impero Unno",
+              "path": "/works/l-impero-unno-a2635be2/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-a2635be2aac2",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Unni.htm",
+                  "timestamp": "20231205015249",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "1bc3d46b76249fffd25fa0b260fa663e12721cbc97d184425bf814bca1452f55",
+                  "localReviewPath": "/review/source/doc-a2635be2aac2/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-a28b428b93c7",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-a28b428b93c7",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "Utopiaucronia en Marte! de William Riker El relato fue comenzado por Bhrig, quien quiso reunir en esta aventura a algunos amigos de Utopiaucronia (indicados en azul): Enero de 1012. De la base espacial de Bizzarone, pequ",
+          "items": [
+            {
+              "id": "item-9faca29547d1",
+              "title": "Utopiaucronia en Marte!",
+              "path": "/works/utopiaucronia-en-marte-a28b428b/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-a28b428b93c7",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/en_Marte.htm",
+                  "timestamp": "20230329232556",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "7f7763502d9e4bf5b606d4e0b14dedc80c132f2cc551cc5b16114db6b92380db",
+                  "localReviewPath": "/review/source/doc-a28b428b93c7/"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-a34724325068",
+          "action": "work",
+          "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-a34724325068",
+          "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+          "quote": "El bosque y la flor un cuento de Enrique Salvador Moscato Era un ancho bosque que se extendía más allá de todo lo imaginable. Entrar en él suponía transponer los límites de la realidad y dejarse transportar a un mundo en",
+          "items": [
+            {
+              "id": "item-e842e277e046",
+              "title": "El bosque y la flor",
+              "path": "/works/el-bosque-y-la-flor-a3472432/",
+              "composition": "single",
+              "alreadyPublished": false,
+              "sources": [
+                {
+                  "documentId": "doc-a34724325068",
+                  "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/elbosqueylaflor.htm",
+                  "timestamp": "20230329220946",
+                  "selection": {
+                    "kind": "whole"
+                  },
+                  "sha256": "85eabba3df7b2daa545e55dc8ab4fc7141984f561c02e5d19c20497dde114b61",
+                  "localReviewPath": "/review/source/doc-a34724325068/"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

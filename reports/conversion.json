@@ -451,7 +451,6 @@
       "gap-4e0775a7c508",
       "gap-fccef4bb896f",
       "gap-91eaf52b2a86",
-      "gap-67442834b2c0",
       "gap-e38e14cb642b",
       "gap-1d29d04d50e7"
     ],
@@ -554,7 +553,6 @@
       }
     ],
     "gaps": [
-      "gap-ffa527ae2ed6",
       "gap-66fbadbaf23b"
     ],
     "comparison": {
@@ -728,7 +726,6 @@
       }
     ],
     "gaps": [
-      "gap-9a8ae2d8b818",
       "gap-d56e75ea1d26"
     ],
     "comparison": {
@@ -768,8 +765,7 @@
       "gap-c6e7acae5e0f",
       "gap-2228f778e227",
       "gap-ff4983c19e8c",
-      "gap-bed2f8c593b7",
-      "gap-d7c2564246a9"
+      "gap-bed2f8c593b7"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -810,6 +806,42 @@
       "gap-667edab641c8",
       "gap-02af8a17618b",
       "gap-ab44323ccfee"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "50-anni-di-europa-9a850fd4",
+    "path": "/works/50-anni-di-europa-9a850fd4/",
+    "editorialId": "item-0fded036316f",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Europa_Perche_No.htm",
+    "sources": [
+      {
+        "documentId": "doc-9a850fd43cbd",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Europa_Perche_No.htm",
+        "timestamp": "20121104032035",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "50 anni di Europa",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Europa_Perche_No.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-8f8203874396",
+      "gap-308cfdffc570"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -877,6 +909,44 @@
     ],
     "gaps": [
       "gap-3713f46f08f7"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "aotearoa-9990cad9",
+    "path": "/works/aotearoa-9990cad9/",
+    "editorialId": "item-11238215007e",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Aotearoa.htm",
+    "sources": [
+      {
+        "documentId": "doc-9990cad93834",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Aotearoa.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Aotearoa",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Aotearoa.htm",
+        "text": [
+          "Torna indietro",
+          "Come continuarla? Se avete idee, scrivetemi a questo indirizzo.",
+          "Per farci avere il vostro parere, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-a7c09a6f321c",
+      "gap-749de1ccd730",
+      "gap-be5a5dfa8297"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -1294,6 +1364,43 @@
     }
   },
   {
+    "slug": "scambio-tra-islam-ed-europa-cristiana-99e65e9e",
+    "path": "/works/scambio-tra-islam-ed-europa-cristiana-99e65e9e/",
+    "editorialId": "item-16144c784d52",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/cristianesimo_Islam.htm",
+    "sources": [
+      {
+        "documentId": "doc-99e65e9e8568",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/cristianesimo_Islam.htm",
+        "timestamp": "20160123214827",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Scambio tra Islam ed Europa Cristiana!",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/cristianesimo_Islam.htm",
+        "text": [
+          "Torna indietro",
+          "Cosa ne pensate? Per farmelo sapere, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-90f24d09e0ec",
+      "gap-51f33ea9ebee"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "uchronie-la-guerre-d-egypte-363eb17e",
     "path": "/works/uchronie-la-guerre-d-egypte-363eb17e/",
     "editorialId": "item-162d3915279f",
@@ -1430,6 +1537,39 @@
       "gap-d4880724c61d",
       "gap-dc9a1a8f3421"
     ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "una-scala-verso-la-corona-9ff2c630",
+    "path": "/works/una-scala-verso-la-corona-9ff2c630/",
+    "editorialId": "item-178f9cf232b0",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Scaligeri.htm",
+    "sources": [
+      {
+        "documentId": "doc-9ff2c630501a",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Scaligeri.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Una scala verso la corona",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Scaligeri.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete contribuire alle discussioni in corso, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -1729,6 +1869,42 @@
     }
   },
   {
+    "slug": "l-ascesa-delle-destre-a1d2854a",
+    "path": "/works/l-ascesa-delle-destre-a1d2854a/",
+    "editorialId": "item-1b1a96395128",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/ascesa_delle_destre.htm",
+    "sources": [
+      {
+        "documentId": "doc-a1d2854ac029",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/ascesa_delle_destre.htm",
+        "timestamp": "20171222081309",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'ascesa delle destre",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/ascesa_delle_destre.htm",
+        "text": [
+          "Torna indietro",
+          "Per fornirci consigli e suggerimenti, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-5e2659557234"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "l-impero-spagnolo-7579dfeb",
     "path": "/works/l-impero-spagnolo-7579dfeb/",
     "editorialId": "item-1bcbcde3d3b4",
@@ -1763,6 +1939,75 @@
       "gap-b1c229346de9",
       "gap-4729d4954efb"
     ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "jhs-l-uomo-senza-codice-una-favola-di-pasqua-9fe29246",
+    "path": "/works/jhs-l-uomo-senza-codice-una-favola-di-pasqua-9fe29246/",
+    "editorialId": "item-1cfd798360b0",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/JHS.htm",
+    "sources": [
+      {
+        "documentId": "doc-9fe29246b583",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/JHS.htm",
+        "timestamp": "20230608174552",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "JHS, l'uomo senza codice: una favola di Pasqua",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/JHS.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-bd5d7e880fb5",
+      "gap-bf64bae3e1ca"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "la-persia-eterna-secondo-maggioriano-96eb1235",
+    "path": "/works/la-persia-eterna-secondo-maggioriano-96eb1235/",
+    "editorialId": "item-1d685a0a93ab",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Gaugamela.htm",
+    "sources": [
+      {
+        "documentId": "doc-96eb12359eb2",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Gaugamela.htm",
+        "timestamp": "20150507211632",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "La Persia Eterna secondo Maggioriano",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Gaugamela.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -2011,6 +2256,40 @@
     }
   },
   {
+    "slug": "la-scattata-legge-truffa-950c8653",
+    "path": "/works/la-scattata-legge-truffa-950c8653/",
+    "editorialId": "item-210bc0d921d3",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Legge_Truffa.htm",
+    "sources": [
+      {
+        "documentId": "doc-950c86537e14",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Legge_Truffa.htm",
+        "timestamp": "20230921154916",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "La (scattata) \"Legge Truffa\"",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Legge_Truffa.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "le-rose-di-versailles-610c32e9",
     "path": "/works/le-rose-di-versailles-610c32e9/",
     "editorialId": "item-21b9707efa05",
@@ -2225,6 +2504,39 @@
     }
   },
   {
+    "slug": "der-rote-totenkopf-9dfedd75",
+    "path": "/works/der-rote-totenkopf-9dfedd75/",
+    "editorialId": "item-25cfb164afd6",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Der_rote_Totenkopf.htm",
+    "sources": [
+      {
+        "documentId": "doc-9dfedd75fc5a",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Der_rote_Totenkopf.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Der rote Totenkopf",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Der_rote_Totenkopf.htm",
+        "text": [
+          "Torna indietro",
+          "Per farmi sapere che ne pensate, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-penisola-britannica-2f3585f0",
     "path": "/works/la-penisola-britannica-2f3585f0/",
     "editorialId": "item-264f31a54080",
@@ -2407,6 +2719,74 @@
     ],
     "gaps": [
       "gap-cfb6e9afec53"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "jamaica-967d1457",
+    "path": "/works/jamaica-967d1457/",
+    "editorialId": "item-2826a4064a80",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Jamaica.htm",
+    "sources": [
+      {
+        "documentId": "doc-967d1457b2f3",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Jamaica.htm",
+        "timestamp": "20230329232257",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Jamaica",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Jamaica.htm",
+        "text": []
+      }
+    ],
+    "gaps": [
+      "gap-14271a1da69c"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "solo-un-anno-di-guerra-98649433",
+    "path": "/works/solo-un-anno-di-guerra-98649433/",
+    "editorialId": "item-28e0fcec0c4a",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/solo_un_anno.htm",
+    "sources": [
+      {
+        "documentId": "doc-986494332f0f",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/solo_un_anno.htm",
+        "timestamp": "20160614122914",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Solo un anno di guerra!",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/solo_un_anno.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-0a03bc4e43f9"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -2644,7 +3024,6 @@
       "gap-d4cdf729ab16",
       "gap-ec91c843dc96",
       "gap-938c2b5b56dc",
-      "gap-e91b67317921",
       "gap-9df192e4ad2d",
       "gap-dd1389f6b6fa",
       "gap-59839bf533ac",
@@ -2989,6 +3368,39 @@
     }
   },
   {
+    "slug": "l-italia-viscontea-9fd4737c",
+    "path": "/works/l-italia-viscontea-9fd4737c/",
+    "editorialId": "item-326c5557fd2d",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Visconti.htm",
+    "sources": [
+      {
+        "documentId": "doc-9fd4737cdc3d",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Visconti.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'Italia Viscontea",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Visconti.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farmi sapere che ne pensate, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-francia-potenza-navale-32811a9d",
     "path": "/divergences/la-francia-potenza-navale-32811a9d/",
     "editorialId": "item-32811a9da57d",
@@ -3096,7 +3508,6 @@
       "gap-98933a5cc7c1",
       "gap-ee9c0958581b",
       "gap-bfc367ef2dd2",
-      "gap-7cc7c919bf14",
       "gap-8a9a499af10b",
       "gap-1a4c0ff3bde6",
       "gap-0bfb57b93193",
@@ -3633,6 +4044,78 @@
     }
   },
   {
+    "slug": "shekinah-una-favola-di-natale-9f5eee21",
+    "path": "/works/shekinah-una-favola-di-natale-9f5eee21/",
+    "editorialId": "item-3a88f3c8633b",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Shekinah.htm",
+    "sources": [
+      {
+        "documentId": "doc-9f5eee21011b",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Shekinah.htm",
+        "timestamp": "20250524103955",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Shekinah, una favola di Natale",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Shekinah.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-eb82be032147",
+      "gap-6f530a26f2c3"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "l-impero-unno-a2635be2",
+    "path": "/works/l-impero-unno-a2635be2/",
+    "editorialId": "item-3b62e5aa5f15",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Unni.htm",
+    "sources": [
+      {
+        "documentId": "doc-a2635be2aac2",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Unni.htm",
+        "timestamp": "20231205015249",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'Impero Unno",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Unni.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farmi sapere che ne pensate della mia ucronia, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-eae1a0c4d991"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "fantaodissea-466f4c9f",
     "path": "/works/fantaodissea-466f4c9f/",
     "editorialId": "item-3b66048e3a4e",
@@ -3797,6 +4280,40 @@
           "Torna indietro",
           "Se volete darmi dei suggerimenti, scrivetemi a questo indirizzo.",
           "Se volete invece contribuire alle discussioni in corso, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "la-guerra-e-vinta-dagli-imperi-centrali-di-frentano-96c30e08",
+    "path": "/works/la-guerra-e-vinta-dagli-imperi-centrali-di-frentano-96c30e08/",
+    "editorialId": "item-3ccd34c8bbdc",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_WWI_Frentano.htm",
+    "sources": [
+      {
+        "documentId": "doc-96c30e08a17c",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_WWI_Frentano.htm",
+        "timestamp": "20190904114916",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "La guerra è vinta dagli Imperi Centrali, di Frentano",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_WWI_Frentano.htm",
+        "text": [
+          "Torna indietro",
+          "Per farmi avere il vostro parere, scrivetemi a questo indirizzo."
         ]
       }
     ],
@@ -4265,6 +4782,38 @@
     }
   },
   {
+    "slug": "sulle-orme-di-alessandro-magno-9c28a912",
+    "path": "/works/sulle-orme-di-alessandro-magno-9c28a912/",
+    "editorialId": "item-45e72001e7b6",
+    "source": "http://www.fmboschetto.it/racconti/iperimpero/iperimp2.htm",
+    "sources": [
+      {
+        "documentId": "doc-9c28a912137b",
+        "url": "http://www.fmboschetto.it/racconti/iperimpero/iperimp2.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Sulle orme di Alessandro Magno",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/iperimpero/iperimp2.htm",
+        "text": []
+      }
+    ],
+    "gaps": [
+      "gap-13866f276713"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "cronache-dell-antichita-galattica-5a42e25f",
     "path": "/works/cronache-dell-antichita-galattica-5a42e25f/",
     "editorialId": "item-466fe3131077",
@@ -4727,6 +5276,48 @@
     }
   },
   {
+    "slug": "children-of-the-stars-9ec1e86c",
+    "path": "/works/children-of-the-stars-9ec1e86c/",
+    "editorialId": "item-4d4e9cb1dbfc",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/children_of_the_stars.htm",
+    "sources": [
+      {
+        "documentId": "doc-9ec1e86cf5fb",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/children_of_the_stars.htm",
+        "timestamp": "20210411101418",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Children of the Stars",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/children_of_the_stars.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-0b238b0efc26",
+      "gap-938c8666b56e",
+      "gap-9e5821936815",
+      "gap-d02ffe350422",
+      "gap-88a8f7e557c9",
+      "gap-33fb371c1ca1",
+      "gap-a4f895d0e238",
+      "gap-b1f27decbd92"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "l-impero-pontico-d613c698",
     "path": "/works/l-impero-pontico-d613c698/",
     "editorialId": "item-4d668d3d95f7",
@@ -4944,6 +5535,40 @@
     }
   },
   {
+    "slug": "marilyn-monroe-vita-di-un-icona-bionda-e-comunista-9d536379",
+    "path": "/works/marilyn-monroe-vita-di-un-icona-bionda-e-comunista-9d536379/",
+    "editorialId": "item-51aec17ee430",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Monroe.htm",
+    "sources": [
+      {
+        "documentId": "doc-9d536379ecb4",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Monroe.htm",
+        "timestamp": "20251230082332",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Marilyn Monroe: vita di un'icona bionda e comunista",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Monroe.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farmi sapere che ne pensate, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "x-sovrani-di-aceh-51b66362",
     "path": "/works/x-sovrani-di-aceh-51b66362/",
     "editorialId": "item-51b6636278af",
@@ -5077,14 +5702,11 @@
       "gap-ec1e03f678c1",
       "gap-2a1b75d89a35",
       "gap-19b4f65a6d40",
-      "gap-0ee7df252964",
-      "gap-0fa5b9a70be2",
       "gap-addb67217ba7",
       "gap-72c721fc44f2",
       "gap-f03d3ad82e4c",
       "gap-547579960f48",
       "gap-d25f4aafc783",
-      "gap-948027c6d255",
       "gap-438b4add5715"
     ],
     "comparison": {
@@ -5412,7 +6034,6 @@
       "gap-042af7de76f2",
       "gap-845e2729112b",
       "gap-94e0e41f7c5b",
-      "gap-3e4bfa7476cf",
       "gap-5ebae4ef93f9",
       "gap-ca4e855ba261",
       "gap-8d79fca79775",
@@ -5733,7 +6354,6 @@
       "gap-10eb20618b96",
       "gap-9bd06ed14f38",
       "gap-533afa45a62f",
-      "gap-784dfdf581c9",
       "gap-4f6159db7e87",
       "gap-061c6242ad71",
       "gap-230a88b902d9",
@@ -5885,7 +6505,6 @@
       }
     ],
     "gaps": [
-      "gap-0ed2f45a720f",
       "gap-5cfa8294d1b0",
       "gap-360d2cf5d2ce",
       "gap-5a60e954dc83",
@@ -6444,6 +7063,41 @@
     "gaps": [
       "gap-eb688e74c0c8"
     ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "altre-quattro-guerre-mondiali-9bab64e6",
+    "path": "/works/altre-quattro-guerre-mondiali-9bab64e6/",
+    "editorialId": "item-64bcd4690177",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/III_IVGM.htm",
+    "sources": [
+      {
+        "documentId": "doc-9bab64e6e46e",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/III_IVGM.htm",
+        "timestamp": "20160825011755",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Altre quattro guerre mondiali",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/III_IVGM.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete fornirmi suggerimenti o commenti, scrivetemi a questo indirizzo.",
+          "Se volete fornirmi suggerimenti su come continuarla, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -7050,6 +7704,43 @@
     }
   },
   {
+    "slug": "un-altra-prima-guerra-mondiale-scoppia-nel-1905-98dfa2a1",
+    "path": "/works/un-altra-prima-guerra-mondiale-scoppia-nel-1905-98dfa2a1/",
+    "editorialId": "item-6ece6e4d8e3a",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_WWI_Ainelif.htm",
+    "sources": [
+      {
+        "documentId": "doc-98dfa2a13c44",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_WWI_Ainelif.htm",
+        "timestamp": "20211016050634",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Un'altra Prima Guerra Mondiale scoppia nel 1905",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_WWI_Ainelif.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete partecipare al dibattito, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-79f5e83df974",
+      "gap-c40d520ac890"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "e-se-l-impero-romano-non-fosse-mai-caduto-72f8a4c5",
     "path": "/works/e-se-l-impero-romano-non-fosse-mai-caduto-72f8a4c5/",
     "editorialId": "item-6f0c14a0c6a4",
@@ -7194,7 +7885,6 @@
       "gap-09bbfcef44b7",
       "gap-8bb9edadff6d",
       "gap-151f572be437",
-      "gap-ffab2061e150",
       "gap-bcda5527bfa2",
       "gap-2dcc623d71ed",
       "gap-0ae52cb1d407",
@@ -7382,6 +8072,40 @@
     }
   },
   {
+    "slug": "il-regno-di-sicilia-a119e95d",
+    "path": "/works/il-regno-di-sicilia-a119e95d/",
+    "editorialId": "item-769c8020016a",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Sicilia.htm",
+    "sources": [
+      {
+        "documentId": "doc-a119e95dce99",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Sicilia.htm",
+        "timestamp": "20200131023933",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Il Regno di Sicilia",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Sicilia.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farmi sapere che ne pensate, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-grande-casa-di-pietra-8a36337e",
     "path": "/works/la-grande-casa-di-pietra-8a36337e/",
     "editorialId": "item-77d7f997ff85",
@@ -7523,7 +8247,6 @@
       "gap-e57ffe65eda0",
       "gap-e247e36394f7",
       "gap-af1ef10bc3a2",
-      "gap-d509208adb72",
       "gap-4af38757535f",
       "gap-a3d0752974a4",
       "gap-71d54b03beb7",
@@ -7778,6 +8501,40 @@
     }
   },
   {
+    "slug": "l-ucronia-di-akhenaten-a0f503fc",
+    "path": "/works/l-ucronia-di-akhenaten-a0f503fc/",
+    "editorialId": "item-80c0a3b6308e",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Akhenaten.htm",
+    "sources": [
+      {
+        "documentId": "doc-a0f503fce0af",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Akhenaten.htm",
+        "timestamp": "20130829021345",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'ucronia di Akhenaten!",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Akhenaten.htm",
+        "text": [
+          "Torna indietro",
+          "Se avete altre idee scrivetemi a questo indirizzo!"
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "deutsche-arbeiter-reich-1fd7850d",
     "path": "/works/deutsche-arbeiter-reich-1fd7850d/",
     "editorialId": "item-80fda13bb94e",
@@ -7808,6 +8565,96 @@
       }
     ],
     "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "restauratio-imperii-962a79ef",
+    "path": "/works/restauratio-imperii-962a79ef/",
+    "editorialId": "item-8149fbac6130",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Restauratio_imperii_2.htm",
+    "sources": [
+      {
+        "documentId": "doc-962a79efad68",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Restauratio_imperii_2.htm",
+        "timestamp": "20261016101307",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Restauratio Imperii",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Restauratio_imperii_2.htm",
+        "text": [
+          "Torna indietro",
+          "Cliccate qui se volete leggere l'ucronia sullo stesso tema di Enrico Pizzo. Se invece volete commentare il mio lavoro, scrivetemi a questo indirizzo.",
+          "Se volete partecipare alla discussione, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-cfeb90cd19f1",
+      "gap-62842887d6a9",
+      "gap-72e8b3ef3c43",
+      "gap-63e17aee0890",
+      "gap-9b8971291b17",
+      "gap-a1368e78036e",
+      "gap-81c67c714363",
+      "gap-4a65e2b79799",
+      "gap-2ba88f33b6f4",
+      "gap-ae3d6183675a",
+      "gap-1efba6e48749",
+      "gap-8ffd4b5baea9",
+      "gap-4ed4813f8898",
+      "gap-d23b0d179896",
+      "gap-96c871a41e62",
+      "gap-fc42c2825be0",
+      "gap-b4d5d6ce09e3",
+      "gap-a9ddca1c0fdd",
+      "gap-1e828c0315ec",
+      "gap-79b03f7b5cf4",
+      "gap-6ce8d4202eb0",
+      "gap-be56b34698fc",
+      "gap-ab9036c85f75",
+      "gap-f7f35e460f89",
+      "gap-3f155b19e45a",
+      "gap-795b29837908",
+      "gap-98e67eeabc04",
+      "gap-0bd81275141f",
+      "gap-aff96b4ef344",
+      "gap-8e118a6786fb",
+      "gap-71af547465bc",
+      "gap-2db8cf0b516c",
+      "gap-2d42db565305",
+      "gap-8d088d386167",
+      "gap-e697079997b3",
+      "gap-dcb58c85b6cc",
+      "gap-93dde4e28d0f",
+      "gap-5d1e6ca7a969",
+      "gap-7b781e305d76",
+      "gap-bd5e8416ac35",
+      "gap-a084ba5132e4",
+      "gap-865e0c564224",
+      "gap-af8ac781a816",
+      "gap-a7fa5d6aea88",
+      "gap-03f7bb730ada",
+      "gap-300fafb81e84",
+      "gap-8f6a34005e64",
+      "gap-5fcb04eb1c15",
+      "gap-f020c0771aae",
+      "gap-3093580fdbd8",
+      "gap-ac5b5a01b4d8",
+      "gap-a01d453cae71",
+      "gap-7931ef64ada6",
+      "gap-21164a6be92f"
+    ],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -8172,7 +9019,6 @@
     ],
     "gaps": [
       "gap-d74e7d5482a1",
-      "gap-82c0cb1d9eba",
       "gap-16a2dfe7c50c"
     ],
     "comparison": {
@@ -8354,6 +9200,39 @@
     "gaps": [
       "gap-74c049f2a25d"
     ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "e-se-i-nazionalisti-avessero-vinto-la-guerra-civile-cinese-9705709b",
+    "path": "/works/e-se-i-nazionalisti-avessero-vinto-la-guerra-civile-cinese-9705709b/",
+    "editorialId": "item-88bb17883200",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Nazionalisti.htm",
+    "sources": [
+      {
+        "documentId": "doc-9705709b226f",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Nazionalisti.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "E se i Nazionalisti avessero vinto la Guerra Civile cinese?",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Nazionalisti.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -8804,6 +9683,39 @@
     }
   },
   {
+    "slug": "l-impero-delle-donne-9776d176",
+    "path": "/works/l-impero-delle-donne-9776d176/",
+    "editorialId": "item-8de5d7c12695",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Hatshepsut.htm",
+    "sources": [
+      {
+        "documentId": "doc-9776d176ab74",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Hatshepsut.htm",
+        "timestamp": "20130829021559",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'impero delle donne",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Hatshepsut.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "aelfwine-il-navigatore-43d523d5",
     "path": "/works/aelfwine-il-navigatore-43d523d5/",
     "editorialId": "item-8e159d1c616b",
@@ -9067,7 +9979,6 @@
       "gap-ed62bc8c94db",
       "gap-b7515bb96b51",
       "gap-5c94c86ccf65",
-      "gap-07850506f9ce",
       "gap-edfa03b6d263",
       "gap-d33b35b3be8c",
       "gap-47c6db806a17",
@@ -9552,7 +10463,6 @@
       "gap-e351ed0b10fe",
       "gap-5ac1149ee698",
       "gap-69dde45a2767",
-      "gap-32766a6bcd43",
       "gap-611967becde6",
       "gap-208928889218",
       "gap-e98ae2bde66b",
@@ -10258,6 +11168,38 @@
     }
   },
   {
+    "slug": "l-impero-di-atlantide-9744fded",
+    "path": "/works/l-impero-di-atlantide-9744fded/",
+    "editorialId": "item-9cc45faa4464",
+    "source": "http://www.fmboschetto.it/racconti/impero_di_Atlantide.htm",
+    "sources": [
+      {
+        "documentId": "doc-9744fdedb7a4",
+        "url": "http://www.fmboschetto.it/racconti/impero_di_Atlantide.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'impero di Atlantide",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/impero_di_Atlantide.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "benito-socialista-italia-comunista-5d5d027d",
     "path": "/works/benito-socialista-italia-comunista-5d5d027d/",
     "editorialId": "item-9d130498aa28",
@@ -10409,6 +11351,41 @@
     }
   },
   {
+    "slug": "1848-nasce-la-repubblica-italiana-9e16eab7",
+    "path": "/works/1848-nasce-la-repubblica-italiana-9e16eab7/",
+    "editorialId": "item-9e1c569e6227",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/1848_repubblica_italiana_2.htm",
+    "sources": [
+      {
+        "documentId": "doc-9e16eab752e9",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/1848_repubblica_italiana_2.htm",
+        "timestamp": "20200129152201",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "1848, nasce la Repubblica Italiana",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/1848_repubblica_italiana_2.htm",
+        "text": [
+          "Torna indietro",
+          "Per fornirmi suggerimenti e consigli, scrivetemi a questo indirizzo.",
+          "Se volete partecipare alla discussione, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "il-coraggio-di-tukhachevsky-2efddb29",
     "path": "/works/il-coraggio-di-tukhachevsky-2efddb29/",
     "editorialId": "item-9e98597a231e",
@@ -10438,6 +11415,40 @@
     ],
     "gaps": [
       "gap-18f3cf063963"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "utopiaucronia-en-marte-a28b428b",
+    "path": "/works/utopiaucronia-en-marte-a28b428b/",
+    "editorialId": "item-9faca29547d1",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/en_Marte.htm",
+    "sources": [
+      {
+        "documentId": "doc-a28b428b93c7",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/en_Marte.htm",
+        "timestamp": "20230329232556",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Utopiaucronia en Marte!",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/en_Marte.htm",
+        "text": []
+      }
+    ],
+    "gaps": [
+      "gap-8d2d31d25561",
+      "gap-f265a6c2fca3"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -11622,6 +12633,40 @@
     }
   },
   {
+    "slug": "ottocento-italiano-99e614e5",
+    "path": "/works/ottocento-italiano-99e614e5/",
+    "editorialId": "item-ada3274ba4b5",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Sissi_napoletana.htm",
+    "sources": [
+      {
+        "documentId": "doc-99e614e5a9ac",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Sissi_napoletana.htm",
+        "timestamp": "20260217061724",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Ottocento Italiano",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Sissi_napoletana.htm",
+        "text": [
+          "Torna indietro",
+          "Spero di essere stato chiaro nell'aver esposto il mio pensiero. Chi vuole discutere questa mia presa di posizione, mi scriva a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-sardaigne-francaise-79006f13",
     "path": "/works/la-sardaigne-francaise-79006f13/",
     "editorialId": "item-adaab291d111",
@@ -11842,7 +12887,6 @@
       "gap-4783c3eef415",
       "gap-c8b4c0316b27",
       "gap-4064918b57e5",
-      "gap-fc3534edfc7a",
       "gap-cd877d8021fe",
       "gap-f05e5294415a",
       "gap-43d37f704566",
@@ -12000,6 +13044,40 @@
     }
   },
   {
+    "slug": "verenigde-staten-van-amerika-vsa-9a01bbc8",
+    "path": "/works/verenigde-staten-van-amerika-vsa-9a01bbc8/",
+    "editorialId": "item-b18523cc7a01",
+    "source": "http://www.fmboschetto.it:80/UtopiaUcronia/VSA.htm",
+    "sources": [
+      {
+        "documentId": "doc-9a01bbc8c9fb",
+        "url": "http://www.fmboschetto.it:80/UtopiaUcronia/VSA.htm",
+        "timestamp": "20100818003148",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Verenigde Staten van Amerika (VSA)",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/UtopiaUcronia/VSA.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete contribuire alle discussioni in corso, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-battaglia-di-texel-61f2c32e",
     "path": "/works/la-battaglia-di-texel-61f2c32e/",
     "editorialId": "item-b1a85a54f480",
@@ -12077,7 +13155,6 @@
       "gap-2006ceda297e",
       "gap-7938cd767908",
       "gap-23d2b2c4fad6",
-      "gap-b58201d1c744",
       "gap-8b7acc101bbf",
       "gap-b0e33001b053",
       "gap-8ffd7d4a6ac5",
@@ -12300,6 +13377,45 @@
       "gap-1bf301e2ef1f",
       "gap-168248635e7c",
       "gap-243eaa58281f"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "l-impero-spartano-9edfe432",
+    "path": "/works/l-impero-spartano-9edfe432/",
+    "editorialId": "item-b46545b62469",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/impero_spartano.htm",
+    "sources": [
+      {
+        "documentId": "doc-9edfe432d380",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/impero_spartano.htm",
+        "timestamp": "20150507211822",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'impero spartano",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/impero_spartano.htm",
+        "text": [
+          "Torna indietro",
+          "Per contribuire alle discussioni incorso, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-fe6a16a756b1",
+      "gap-62ede84c481f",
+      "gap-ed0dfe52c2fe",
+      "gap-cd455aa1f104"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -12986,9 +14102,7 @@
         ]
       }
     ],
-    "gaps": [
-      "gap-8a92a7d14cf7"
-    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -13926,7 +15040,6 @@
       "gap-3f6547852561",
       "gap-eb810446e467",
       "gap-7d369697bf80",
-      "gap-76a7ae806b4c",
       "gap-6ce376e60dec",
       "gap-e0be0f30399d",
       "gap-ed72a0e006a6",
@@ -14233,6 +15346,40 @@
     }
   },
   {
+    "slug": "il-sacro-romano-impero-pontificio-a056cfd4",
+    "path": "/works/il-sacro-romano-impero-pontificio-a056cfd4/",
+    "editorialId": "item-ca6cbfc8dd41",
+    "source": "http://www.fmboschetto.it/racconti/iperimpero/iperimp16.htm",
+    "sources": [
+      {
+        "documentId": "doc-a056cfd4090d",
+        "url": "http://www.fmboschetto.it/racconti/iperimpero/iperimp16.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Il Sacro Romano Impero Pontificio",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/iperimpero/iperimp16.htm",
+        "text": []
+      }
+    ],
+    "gaps": [
+      "gap-8f208ea40577",
+      "gap-dbb2bef06eef",
+      "gap-5bd914acf8d4"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "colombo-il-genovese-66515189",
     "path": "/works/colombo-il-genovese-66515189/",
     "editorialId": "item-caa94705a2da",
@@ -14300,6 +15447,38 @@
     "gaps": [
       "gap-85d4a63250e6",
       "gap-781efe5a65c9"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "il-marco-polo-dell-antica-grecia-9633bd8e",
+    "path": "/works/il-marco-polo-dell-antica-grecia-9633bd8e/",
+    "editorialId": "item-cb99f030f887",
+    "source": "http://www.fmboschetto.it/racconti/iperimpero/iperimp7.htm",
+    "sources": [
+      {
+        "documentId": "doc-9633bd8e997c",
+        "url": "http://www.fmboschetto.it/racconti/iperimpero/iperimp7.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Il Marco Polo dell'antica Grecia",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/iperimpero/iperimp7.htm",
+        "text": []
+      }
+    ],
+    "gaps": [
+      "gap-d660a526fc01"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -14444,6 +15623,41 @@
     }
   },
   {
+    "slug": "mille-e-non-piu-mille-969b5abf",
+    "path": "/works/mille-e-non-piu-mille-969b5abf/",
+    "editorialId": "item-ce3597e58e3f",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/mille_e_non_piu_mille.htm",
+    "sources": [
+      {
+        "documentId": "doc-969b5abfea98",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/mille_e_non_piu_mille.htm",
+        "timestamp": "20200130030011",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Mille e non più Mille!",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/mille_e_non_piu_mille.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete partecipare alla discussione in corso, scriveteci a questo indirizzo.",
+          "Se volete farmi sapere il vostro parere, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "raccontino-potteriano-91ae49a0",
     "path": "/works/raccontino-potteriano-91ae49a0/",
     "editorialId": "item-ce3d11b70162",
@@ -14580,9 +15794,7 @@
         "text": []
       }
     ],
-    "gaps": [
-      "gap-08c3a7a87f14"
-    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -15228,6 +16440,44 @@
     }
   },
   {
+    "slug": "the-american-century-9ad94428",
+    "path": "/works/the-american-century-9ad94428/",
+    "editorialId": "item-db9afa2cb298",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/American_Century.htm",
+    "sources": [
+      {
+        "documentId": "doc-9ad944283ea0",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/American_Century.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "The American Century",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/American_Century.htm",
+        "text": [
+          "Torna indietro",
+          "Per ora finisce qui. Se volete fornirmi suggerimenti o consigli, scrivetemi a questo indirizzo.",
+          "Per contribuire alle discussioni in corso, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-74060f0e7159",
+      "gap-831619843863",
+      "gap-d6adf28e895d"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "il-viaggio-di-daniel-4e5c3599",
     "path": "/works/il-viaggio-di-daniel-4e5c3599/",
     "editorialId": "item-dcaf3552b76f",
@@ -15289,6 +16539,39 @@
     "gaps": [
       "gap-6e69a0abb788"
     ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "guerra-noi-giochiamo-lo-stesso-9deb0fc0",
+    "path": "/works/guerra-noi-giochiamo-lo-stesso-9deb0fc0/",
+    "editorialId": "item-dceadcbbc214",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/giochiamolostesso.htm",
+    "sources": [
+      {
+        "documentId": "doc-9deb0fc013ed",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/giochiamolostesso.htm",
+        "timestamp": "20160614121821",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Guerra? Noi giochiamo lo stesso!",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/giochiamolostesso.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -15391,9 +16674,7 @@
         "text": []
       }
     ],
-    "gaps": [
-      "gap-33ffda7775d1"
-    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -15715,6 +16996,39 @@
     }
   },
   {
+    "slug": "uchronie-fondation-et-empire-romain-9f76400a",
+    "path": "/works/uchronie-fondation-et-empire-romain-9f76400a/",
+    "editorialId": "item-e2db3f2db91d",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/fondationetempire.htm",
+    "sources": [
+      {
+        "documentId": "doc-9f76400abe57",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/fondationetempire.htm",
+        "timestamp": "20240422224104",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "[uchronìe] Fondation et empire romain",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/fondationetempire.htm",
+        "text": [
+          "Retour"
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "padania-e-adriazia-3271867f",
     "path": "/works/padania-e-adriazia-3271867f/",
     "editorialId": "item-e395e2e702cf",
@@ -15881,6 +17195,39 @@
     "gaps": [
       "gap-573d588bddb2",
       "gap-8d806e7575b6"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "el-bosque-y-la-flor-a3472432",
+    "path": "/works/el-bosque-y-la-flor-a3472432/",
+    "editorialId": "item-e842e277e046",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/elbosqueylaflor.htm",
+    "sources": [
+      {
+        "documentId": "doc-a34724325068",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/elbosqueylaflor.htm",
+        "timestamp": "20230329220946",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "El bosque y la flor",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/elbosqueylaflor.htm",
+        "text": []
+      }
+    ],
+    "gaps": [
+      "gap-34d038e4ffc6"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -16074,6 +17421,38 @@
       "gap-29108598ca51",
       "gap-884d989a2adc"
     ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "la-grande-guerra-dilania-l-atlantide-a0c2de42",
+    "path": "/works/la-grande-guerra-dilania-l-atlantide-a0c2de42/",
+    "editorialId": "item-eb5e5a5e10c5",
+    "source": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_18.htm",
+    "sources": [
+      {
+        "documentId": "doc-a0c2de42bb82",
+        "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_18.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "La Grande Guerra dilania l'Atlantide",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_18.htm",
+        "text": [
+          "Indietro - Avanti"
+        ]
+      }
+    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -16470,6 +17849,39 @@
     }
   },
   {
+    "slug": "la-fine-dell-eternita-a1413b27",
+    "path": "/works/la-fine-dell-eternita-a1413b27/",
+    "editorialId": "item-f3706ece3f3a",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/finedelleternita.htm",
+    "sources": [
+      {
+        "documentId": "doc-a1413b274198",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/finedelleternita.htm",
+        "timestamp": "20250418232307",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "La fine dell'eternità",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/finedelleternita.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-crisi-marocchina-6fd4f61a",
     "path": "/works/la-crisi-marocchina-6fd4f61a/",
     "editorialId": "item-f3d4a5327a41",
@@ -16769,7 +18181,6 @@
       "gap-0c4d107bcaaa",
       "gap-ee5098ae3efa",
       "gap-a01e05c7aab4",
-      "gap-a6aa1d57a3bb",
       "gap-17fe96cf03f8",
       "gap-ed829fd894a3",
       "gap-b33bd50225b0",
@@ -16997,7 +18408,6 @@
       "gap-3f22538f43cf",
       "gap-89c8324d72e1",
       "gap-0779590fe0a2",
-      "gap-fda52374cc24",
       "gap-f296f2eccbfe",
       "gap-dd218ea68ff0",
       "gap-4ea57c513db2",
@@ -17158,7 +18568,6 @@
       "gap-88da9ce2dca0",
       "gap-ddfbf7fee39e",
       "gap-004585e366f3",
-      "gap-413710a18aed",
       "gap-d2a56e2541c9",
       "gap-aca4d889210d",
       "gap-d9efeab9b138",
@@ -17362,7 +18771,6 @@
       "gap-18628f5fddf3",
       "gap-75b5207da85d",
       "gap-bc70188247f9",
-      "gap-d76c78fbda1e",
       "gap-47ed4347d2f6",
       "gap-518df8d7012e",
       "gap-e1c3005fdcde",
@@ -17682,7 +19090,6 @@
       "gap-a99c96e8e6c9",
       "gap-c11a3e11ded2",
       "gap-3f61d60cf0d9",
-      "gap-8fc947e3fda0",
       "gap-42b1ac6fc73f",
       "gap-a7a8cf3544ea",
       "gap-0966614c0222",

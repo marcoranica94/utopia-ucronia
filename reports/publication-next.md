@@ -2,402 +2,402 @@
 
 Read-only proposals for owner review. No approval or publication selection has been recorded. Review links open on the local development server after `pnpm dev`; they are absent from the deployed site.
 
-## 1. La (scattata) "Legge Truffa"
+## 1. FantaPangea!
 
-Proposal: `proposal-doc-950c86537e14` · action: `work`
+Proposal: `proposal-doc-a38f41513e71` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-950c86537e14)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-a38f41513e71)
 
-> La (scattata) "Legge Truffa" di Demofilo Come sapete uno dei grandi temi al centro della discussione politica nei primi anni cinquanta del XX secolo in Italia è la questione della "Legge Truffa": ecco cosa sarebbe succes
+> FantaPangea! In questo sito di solito uno lancia un'idea per una nuova ucronia o per un'utopia, ma a volte succede che l'idea abortisca sul nascere per i più svariati motivi. Ecco un esempio di discussione che è passata
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-scattata-legge-truffa-950c8653/` · composition: `single`
+Target: `/works/fantapangea-a38f4151/` · composition: `single`
 
-[Full source for local review](/review/source/doc-950c86537e14/)
+[Full source for local review](/review/source/doc-a38f41513e71/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Legge\_Truffa.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/Fanta\_Pangea.htm
 
-SHA-256: `b4bce06af5f262cdfde0bba44983b22fb00f0315ba291b414ad9b727d908f86e`
+SHA-256: `8bb89870b8bcf0d148df917267897b549dd2612daf8ce051566344be1473be06`
 
 Selection: `{"kind":"whole"}`
 
-## 2. Restauratio Imperii
+## 2. Martirologio ucronico
 
-Proposal: `proposal-doc-962a79efad68` · action: `work`
+Proposal: `proposal-doc-a43055742ae4` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-962a79efad68)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-a43055742ae4)
 
-> Restauratio Imperii di Basileus TFT Io sono Basileus TFT. Mi sono sempre chiesto, con grande fascino, cosa succede se la Restauratio Imperii giustinianeo ha successo? Come cambia la storia mediterranea e mondiale? Analiz
+> I Santi che non ti aspetti ovvero: il Martirologio ucronico di Tommaso Mazzoni San Giuda Iscariota Apostolo con Gesù Cristo Storie dei Santi della Chiesa Cristiana Universale Premessa: la Chiesa Cristiana Universale con
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/restauratio-imperii-962a79ef/` · composition: `single`
+Target: `/works/martirologio-ucronico-a4305574/` · composition: `single`
 
-[Full source for local review](/review/source/doc-962a79efad68/)
+[Full source for local review](/review/source/doc-a43055742ae4/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Restauratio\_imperii\_2.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Martirologio\_ucronico.htm
 
-SHA-256: `6d9704b496e38b3584b84743cdbf9c2a01e0fdb1a584ee78649ad763878d8317`
+SHA-256: `6895d5d914ad7e7ef23d02fa524bdf1bba1213e347145baa69a5d62f015ef818`
 
 Selection: `{"kind":"whole"}`
 
-## 3. Il Marco Polo dell'antica Grecia
+## 3. A me le icone piacciono!
 
-Proposal: `proposal-doc-9633bd8e997c` · action: `work`
+Proposal: `proposal-doc-a49ea5f91498` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-9633bd8e997c)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-a49ea5f91498)
 
-> IL MARCO POLO DELL'ANTICA GRECIA (1100 - 1198 aUc = 347 - 445 d.C.) Riprendono le persecuzioni anticristiane Alla morte di Alessandro II (375 d.C.), il Consesso rifiuta il suo successore Alessandro III, ritenuto troppo m
+> A me le icone piacciono! di Det0 POD: Leone III non da il via alla lotta iconoclasta. 717: Leone III di Bisanzio sostituisce Teodosio III sul trono di Costantinopoli. 718: Leone III vince gli Arabi che assediavano Costan
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-marco-polo-dell-antica-grecia-9633bd8e/` · composition: `single`
+Target: `/works/a-me-le-icone-piacciono-a49ea5f9/` · composition: `single`
 
-[Full source for local review](/review/source/doc-9633bd8e997c/)
+[Full source for local review](/review/source/doc-a49ea5f91498/)
 
-Source: http://www.fmboschetto.it/racconti/iperimpero/iperimp7.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/niente\_iconoclastia.htm
 
-SHA-256: `00e8ffacf664fa38f70460949f2945b74c1536559b3cd0c28bd701759335d662`
+SHA-256: `2e1d7056cd45df6e37a22e70e9e5bdc91f5038eccad34b862d0ac241bd01fea6`
 
 Selection: `{"kind":"whole"}`
 
-## 4. Jamaica
+## 4. A Teutoburgo...
 
-Proposal: `proposal-doc-967d1457b2f3` · action: `work`
+Proposal: `proposal-doc-a50e8be6d28f` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-967d1457b2f3)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a50e8be6d28f)
 
-> Jamaica un cuento de Enrique Salvador Moscato Santa Fe, octubre de 2004 Todos pensaban lo mismo por las tardes, a eso de las siete, cuando volvían en el colectivo rumbo a sus respectivas casas, pero nadie lo sabía. Cada
+> A Teutoburgo... di Francesco Dessolis Correva l’anno 8 Dopo Cristo, ma nessuno lo sapeva e Roma era ancora pagana. L’impero era in pace. Augusto aveva fissato i confini sul Danubio e sull’Elba. Il fronte occidentale semb
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/jamaica-967d1457/` · composition: `single`
+Target: `/works/a-teutoburgo-a50e8be6/` · composition: `single`
 
-[Full source for local review](/review/source/doc-967d1457b2f3/)
+[Full source for local review](/review/source/doc-a50e8be6d28f/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Jamaica.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/teutoburgo.htm
 
-SHA-256: `38bbff3f76383e24601d6a08ca1f4df7893a2aec6bd4ecb64b79aad5fb602bd3`
+SHA-256: `be31ed0028a20220f3c6b29c2a2b51f469cea17e1cb9d71609c25892f976f0f4`
 
 Selection: `{"kind":"whole"}`
 
-## 5. Mille e non più Mille!
+## 5. La Fiamma, Ciccio, Franco e il Mezzogiorno Nero
 
-Proposal: `proposal-doc-969b5abfea98` · action: `work`
+Proposal: `proposal-doc-a54bcfda26db` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-969b5abfea98)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a54bcfda26db)
 
-> Mille e non più Mille! di Toxon POD: La famosa spedizione di Garibaldi semplicemente non avviene. Potremmo immaginare che, mentre fervono ancora i preparativi, l’intera faccenda (compresi i legami tra Garibaldi e il gove
+> La Fiamma, Ciccio Franco e il Mezzogiorno Nero di Demofilo Il Movimento Sociale Italiano, fondato il 26 dicembre 1946 da Giorgio Almirante, da Pino Romualdi e da Giovanni Tonelli, ha conosciuto altalenanti stagioni polit
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/mille-e-non-piu-mille-969b5abf/` · composition: `single`
+Target: `/works/la-fiamma-ciccio-franco-e-il-mezzogiorno-nero-a54bcfda/` · composition: `single`
 
-[Full source for local review](/review/source/doc-969b5abfea98/)
+[Full source for local review](/review/source/doc-a54bcfda26db/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/mille\_e\_non\_piu\_mille.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Mezzogiorno\_Nero.htm
 
-SHA-256: `8807b6edb914f752ad7f80cdb42a7e01aba124c41c67801f933f489bf2e25b50`
+SHA-256: `004002ec3cec9ce37b7f2db4736c298cf11b626dae64e6fc599b2eeddec29fe0`
 
 Selection: `{"kind":"whole"}`
 
-## 6. La guerra è vinta dagli Imperi Centrali, di Frentano
+## 6. 1685, la Nouvelle France
 
-Proposal: `proposal-doc-96c30e08a17c` · action: `work`
+Proposal: `proposal-doc-a55e61bc5f39` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-96c30e08a17c)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a55e61bc5f39)
 
-> La guerra è vinta dagli Imperi Centrali di Frentano . POD: Falkenhayn nel 1916 invece di colpire Verdun si concentra contro la Russia. Il comando centrale tedesco decide di proseguire l'offensiva nell'est contro la Russi
+> 1685, la Nouvelle France di Dans Ecco a voi la prima versione della mia ucronia sulla Nuova Francia. Ho aggiunto anche uno schema (all'inizio) e un elenco toponomastico (alla fine). Tra parentesi quadre ho riportato gli
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-guerra-e-vinta-dagli-imperi-centrali-di-frentano-96c30e08/` · composition: `single`
+Target: `/works/1685-la-nouvelle-france-a55e61bc/` · composition: `single`
 
-[Full source for local review](/review/source/doc-96c30e08a17c/)
+[Full source for local review](/review/source/doc-a55e61bc5f39/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_WWI\_Frentano.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Nuova\_Francia\_1685.htm
 
-SHA-256: `aad354aad1a5b34ed2b6798791cf3df3e2743969a06a44e83595eeb1d8166ed0`
+SHA-256: `2e752ccaa5ed2f3a39ad18ca762d8da157517768e96f8ff3da41a6c232886460`
 
 Selection: `{"kind":"whole"}`
 
-## 7. La Persia Eterna secondo Maggioriano
+## 7. Res Publica Christiana
 
-Proposal: `proposal-doc-96eb12359eb2` · action: `work`
+Proposal: `proposal-doc-a5a904202431` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-96eb12359eb2)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a5a904202431)
 
-> La Persia Eterna In questa ucronia i Persiani possono arrivare al dominio del mondo con quattro inizi diversi: 1) Dario sconfigge Alessandro Magno a Gaugamela e uccide Alessandro: le guerre civili tra i generali del Mace
+> Res Publica Christiana di Homer 311: Costantino vince a Ponte Milvio sconfiggendo Massenzio in un Impero Romano completamente cristianizzato in Oriente e con consistenti minoranze cristiane nelle Gallie, mentre in Italia
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-persia-eterna-secondo-maggioriano-96eb1235/` · composition: `single`
+Target: `/works/res-publica-christiana-a5a90420/` · composition: `single`
 
-[Full source for local review](/review/source/doc-96eb12359eb2/)
+[Full source for local review](/review/source/doc-a5a904202431/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Gaugamela.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Res\_Publica\_Christiana.htm
 
-SHA-256: `15cb75edf5a6729fa78805a09c6b4717b551e35b133f6352d9052709c1bf5ffa`
+SHA-256: `e763d32d94b489a531d8e08601031d1a9ff823db97142c5a5e781e548f8aaff0`
 
 Selection: `{"kind":"whole"}`
 
-## 8. E se i Nazionalisti avessero vinto la Guerra Civile cinese?
+## 8. La Gelida Caccia
 
-Proposal: `proposal-doc-9705709b226f` · action: `work`
+Proposal: `proposal-doc-a5efd44f420b` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-9705709b226f)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a5efd44f420b)
 
-> E se i Nazionalisti avessero vinto la Guerra Civile cinese? cinque ucronie tradotte da Generalissimus Il 20° secolo probabilmente ha avuto più impatti sulla Cina che su qualsiasi altro paese, nel corso di soli 50 anni pa
+> La Gelida Caccia di Luca Chiurazzi Il gelido vento invernale riecheggiava in tutta la foresta. La bufera ci aveva colti impreparati, imprigionandoci nella sua fredda morsa e facendoci perdere il sentiero per casa. La nos
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/e-se-i-nazionalisti-avessero-vinto-la-guerra-civile-cinese-9705709b/` · composition: `single`
+Target: `/works/la-gelida-caccia-a5efd44f/` · composition: `single`
 
-[Full source for local review](/review/source/doc-9705709b226f/)
+[Full source for local review](/review/source/doc-a5efd44f420b/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Fanta\_Nazionalisti.htm
+Source: http://www.fmboschetto.it/utopiaucronia/novilunio.htm
 
-SHA-256: `0d7e3a3ff79a3e91198684199d37d3829828f410c5176726b510f6a027d3a1ac`
+SHA-256: `8956285fb71f1eb895089b3369305821df243019dc8f982b9493550ec09d4f5c`
 
 Selection: `{"kind":"whole"}`
 
-## 9. L'impero di Atlantide
+## 9. Scienza e pseudoscienza
 
-Proposal: `proposal-doc-9744fdedb7a4` · action: `work`
+Proposal: `proposal-doc-a61689aa4fa6` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-9744fdedb7a4)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a61689aa4fa6)
 
-> L'IMPERO DI ATLANTIDE Così, all'età di ventidue anni, immaginavo il mondo da me descritto nel racconto "La Vendetta di Matusalemme" (immagine .gif, 111 Kb) Torna indietro
+> Scienza e pseudoscienza di MorteBianca Ho avuto un'idea, scrivere un piccolo saggio scientifico nel quale le teorie cosmologiche, pseudoscientifiche e filosofiche si rivelano scientificamente esatte, e il mondo aristotel
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/l-impero-di-atlantide-9744fded/` · composition: `single`
+Target: `/works/scienza-e-pseudoscienza-a61689aa/` · composition: `single`
 
-[Full source for local review](/review/source/doc-9744fdedb7a4/)
+[Full source for local review](/review/source/doc-a61689aa4fa6/)
 
-Source: http://www.fmboschetto.it/racconti/impero\_di\_Atlantide.htm
+Source: http://www.fmboschetto.it/utopiaucronia/scienza\_e\_pseudoscienza.htm
 
-SHA-256: `2077f16eb984ae3e0b7c029456e7429317c5c8c04a6f245f5813fdc1ad66c569`
+SHA-256: `2315d3c809e47570b10469c0b1e73f5628d402ed18a7bb39fc6c6c645d0daacd`
 
 Selection: `{"kind":"whole"}`
 
-## 10. L'impero delle donne
+## 10. Fascisti su Marte?
 
-Proposal: `proposal-doc-9776d176ab74` · action: `work`
+Proposal: `proposal-doc-a691a6385e5d` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-9776d176ab74)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a691a6385e5d)
 
-> L'impero delle donne POD: il regno di Hatshepsut é giunto fino all’anno XVIII; Tuthmôsis III non muore, é Neferourê a morire (sotto la guardia di Senenmut che é disgraziato in questo momento). Tuthmôsis III prende il pot
+> Fascisti su Marte? Tutto comincia con questa dichiarazione d'intenti di William Riker: Cari amici, annuncio un nuovo progetto ucronico che mi è stato suggerito dall'amico Sandro Degiani che ci ha ricordato la trasmission
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/l-impero-delle-donne-9776d176/` · composition: `single`
+Target: `/works/fascisti-su-marte-a691a638/` · composition: `single`
 
-[Full source for local review](/review/source/doc-9776d176ab74/)
+[Full source for local review](/review/source/doc-a691a6385e5d/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Hatshepsut.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Fasc\_su\_Mar.htm
 
-SHA-256: `5fe79722e69c35f5f0b11de4e8bf8ff974ac3cbc29a2c09ca9b2cf26b55f7c50`
+SHA-256: `3eaba93fd310df8b003133951cc732ce4fadf111806ddd95a4a9b1db81866eb1`
 
 Selection: `{"kind":"whole"}`
 
-## 11. Solo un anno di guerra!
+## 11. La Rivoluzione Liberale, di Demofilo
 
-Proposal: `proposal-doc-986494332f0f` · action: `work`
+Proposal: `proposal-doc-a69ec5519df2` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-986494332f0f)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a69ec5519df2)
 
-> Solo un anno di guerra! di Demofilo 6 aprile 2010 Carissimi, mi faccio risentire dopo la laurea (se volete potete scaricare la mia tesi da questo indirizzo) mandandovi una delle mie solite ucronie, piuttosto dettagliata
+> La Rivoluzione Liberale di Demofilo Molti storici hanno indicato che le elezioni politiche del 1919 e 1948 avevano un aspetto comune: la sconfitta dell'area liberale e laica, sostituta nel 1919 dai partiti di massa (il P
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/solo-un-anno-di-guerra-98649433/` · composition: `single`
+Target: `/works/la-rivoluzione-liberale-di-demofilo-a69ec551/` · composition: `single`
 
-[Full source for local review](/review/source/doc-986494332f0f/)
+[Full source for local review](/review/source/doc-a69ec5519df2/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/solo\_un\_anno.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/rivoluzione\_liberale.htm
 
-SHA-256: `a359e76d5909877edeca3f9b853bfc99901a33e36810ddaa2ecbde2e3f516195`
+SHA-256: `a34b3361d4a3353bb22e1e3334d2fad8bd6088c343d9ebc4ca9a2d883a9d943d`
 
 Selection: `{"kind":"whole"}`
 
-## 12. Un'altra Prima Guerra Mondiale scoppia nel 1905
+## 12. La Nuova Curlandia
 
-Proposal: `proposal-doc-98dfa2a13c44` · action: `work`
+Proposal: `proposal-doc-a6be183e041b` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-98dfa2a13c44)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a6be183e041b)
 
-> Un'altra Prima Guerra Mondiale scoppia nel 1905 di Ainelif Nel 1870 Napoleone III non cerca di fermare l'unificazione tedesca,e l'Alsazia rimane francese. Bismarck nel 1871 proclama a Berlino l'Impero Germanico o II Reic
+> La Nuova Curlandia di Toxon L'idea iniziale stavolta è di Toxon: Il più piccolo paese europeo a colonizzare le Americhe fu la Curlandia, che nel ‘600 impiantò ripetutamente una colonia nell’attuale isola di Tobago. A cau
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/un-altra-prima-guerra-mondiale-scoppia-nel-1905-98dfa2a1/` · composition: `single`
+Target: `/works/la-nuova-curlandia-a6be183e/` · composition: `single`
 
-[Full source for local review](/review/source/doc-98dfa2a13c44/)
+[Full source for local review](/review/source/doc-a6be183e041b/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_WWI\_Ainelif.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Nuova\_Curlandia.htm
 
-SHA-256: `c0880fe20866652c5378e862cff0da0ab6b6a08e8c1649d1d2481e6ba6503be6`
+SHA-256: `91c1d60b35208b46eb1fb6b1e675650e91e195cc63a7e9b22d7534ea39b5d515`
 
 Selection: `{"kind":"whole"}`
 
-## 13. Aotearoa
+## 13. La Guerra di Successione Spagnola
 
-Proposal: `proposal-doc-9990cad93834` · action: `work`
+Proposal: `proposal-doc-a6d2395ee191` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-9990cad93834)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a6d2395ee191)
 
-> Aotearoa di Falecius Bandiera di Aotearoa Al principio del XIX secolo, si registrarono i primi contatti tra europei (per lo più esploratori, mercanti, avventurieri e missionari) e popolazione nativa della Nuova Zelanda.
+> La Guerra di Successione Spagnola . Partiamo con la brillante proposta di Never75: Vittorio Amedeo II di Savoia pressato da francesi e spagnoli nel 1702 sceglie di schierarsi con loro. Le cose vanno più o meno come nella
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/aotearoa-9990cad9/` · composition: `single`
+Target: `/works/la-guerra-di-successione-spagnola-a6d2395e/` · composition: `single`
 
-[Full source for local review](/review/source/doc-9990cad93834/)
+[Full source for local review](/review/source/doc-a6d2395ee191/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Aotearoa.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Successione\_Spagnola.htm
 
-SHA-256: `b2a33f6e71945952dd6b6672cfa7f7221e1062eb2d198378344162cbd8dda84b`
+SHA-256: `cfbb4708787ff5d9f00cfe0b0d595260dd1861077413a14d71d860b2746b60c0`
 
 Selection: `{"kind":"whole"}`
 
-## 14. Ottocento Italiano
+## 14. L'ascesa dei Franchi
 
-Proposal: `proposal-doc-99e614e5a9ac` · action: `work`
+Proposal: `proposal-doc-a71014afe727` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-99e614e5a9ac)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a71014afe727)
 
-> Ottocento Italiano di William Riker . dedicata a Maciò e a Dorian Gray 1836 Il 16 gennaio nasce a Napoli Francesco di Borbone, erede al trono delle Due Sicilie, figlio del re Ferdinando II di Borbone e di Maria Cristina
+> L'ascesa dei Franchi 480-500 d.C.: gli Slavi lasciano le loro sedi originarie tra la Vistola e il Niemen ed occupano vasti territori compresi tra il Mar Bianco e il Mar Adriatico. Insediamento di Croati e Serbi in Pannon
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/ottocento-italiano-99e614e5/` · composition: `single`
+Target: `/works/l-ascesa-dei-franchi-a71014af/` · composition: `single`
 
-[Full source for local review](/review/source/doc-99e614e5a9ac/)
+[Full source for local review](/review/source/doc-a71014afe727/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Sissi\_napoletana.htm
+Source: http://www.fmboschetto.it/racconti/Roma\_in\_America/Roma\_in\_America\_5.htm
 
-SHA-256: `d7d7f1952510c8254b31238a7777e4b3ebc767a5f3cd47e9da31fc678811a911`
+SHA-256: `c25fba0b38465c9aa107cb37193f476f7f44d527ab2c7466ce6bd1886d9c274c`
 
 Selection: `{"kind":"whole"}`
 
-## 15. Scambio tra Islam ed Europa Cristiana!
+## 15. Se Turin avesse ucciso Glaurung nel 495 della Prima Era...
 
-Proposal: `proposal-doc-99e65e9e8568` · action: `work`
+Proposal: `proposal-doc-a771e1cbcc7f` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-99e65e9e8568)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a771e1cbcc7f)
 
-> Scambio tra Islam ed Europa Cristiana! ovvero: un'altra ucronia simmetrizzante... Ed ecco la nuova ucronia che è balzata in testa a Perchè no?: A proposito di ucronie simmetrizzanti, l'ucronia franco-italiana mi ha dato
+> Se Turin avesse ucciso Glaurung nel 495 della Prima Era... di Tommaso Mazzoni Tutto parte dalla proposta di Iacopo: Vi propongo un gioco pensato originariamente dal blogger, pittore e scrittore di giochi di ruolo Zack Sm
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/scambio-tra-islam-ed-europa-cristiana-99e65e9e/` · composition: `single`
+Target: `/works/se-turin-avesse-ucciso-glaurung-nel-495-della-prima-era-a771e1cb/` · composition: `single`
 
-[Full source for local review](/review/source/doc-99e65e9e8568/)
+[Full source for local review](/review/source/doc-a771e1cbcc7f/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/cristianesimo\_Islam.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Fanta\_Turin.htm
 
-SHA-256: `ebd0dc773d16d0047dfa3c9605c101a1c215eb24dd863e8868f442d334913731`
+SHA-256: `d015a142c7b3c3ab0d8c091e3624521243ea14226119b2bd85457628028f9a39`
 
 Selection: `{"kind":"whole"}`
 
-## 16. Verenigde Staten van Amerika (VSA)
+## 16. Et super hanc petram
 
-Proposal: `proposal-doc-9a01bbc8c9fb` · action: `work`
+Proposal: `proposal-doc-a7c84dfef619` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-9a01bbc8c9fb)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a7c84dfef619)
 
-> Verenigde Staten van Amerika (VSA) di dDuck Ho pensato ad una breve ucronia sugli Stati Uniti di Lingua Olandese e conseguente cultura moderna in questa lingua, o meglio in Amerikaans. Ecco il mio progetto di Timeline: .
+> Et super hanc petram di Spartaco Mencaroni La passione del Coniglio per le ucronie è ormai consolidata. Ma questa breve storia alternativa, pur lasciando stare le cose come sono, e a Sorbara è andata come è andata, propo
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/verenigde-staten-van-amerika-vsa-9a01bbc8/` · composition: `single`
+Target: `/works/et-super-hanc-petram-a7c84dfe/` · composition: `single`
 
-[Full source for local review](/review/source/doc-9a01bbc8c9fb/)
+[Full source for local review](/review/source/doc-a7c84dfef619/)
 
-Source: http://www.fmboschetto.it:80/UtopiaUcronia/VSA.htm
+Source: http://www.fmboschetto.it/utopiaucronia/Fanta\_Sorbara.htm
 
-SHA-256: `1e5dcba637ef85c0a38ca29c9d56ec9b7406bf611f63fe4bc1f2f0177c2e31ed`
+SHA-256: `7216951acff2e05a76b8b342e181769a5d532d035c6907c50c6aebf4057a7304`
 
 Selection: `{"kind":"whole"}`
 
-## 17. 50 anni di Europa
+## 17. Il Galata Vivente
 
-Proposal: `proposal-doc-9a850fd43cbd` · action: `work`
+Proposal: `proposal-doc-a823ace15fe2` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-9a850fd43cbd)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a823ace15fe2)
 
-> 50 anni di Europa di Perchè No? 25 marzo 2007 Domani a Berlino, e spero in tutte le altre parti d'Europa, festeggiamo i 50 anni del trattato di Roma e della nascita dell'Europa politica. L'Europa ci ha portato pace, pros
+> Il Galata Vivente di Iacopo e di \*BhriHskwo-bhlôukstrôy Abbiamo avuto quella che reputo una bella idea. Vediamo se riuscite ad arrivarci osservando la cartina conseguente al mio POD: OK, ve lo dico io. La Grande Spedizio
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/50-anni-di-europa-9a850fd4/` · composition: `single`
+Target: `/works/il-galata-vivente-a823ace1/` · composition: `single`
 
-[Full source for local review](/review/source/doc-9a850fd43cbd/)
+[Full source for local review](/review/source/doc-a823ace15fe2/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Europa\_Perche\_No.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/galata\_vivente.htm
 
-SHA-256: `1527d657fc7da3771a358417dc0306fea42431c911bf89e9cfdd82c107fdbc80`
+SHA-256: `e780d7b58c48da6479471f5d8d0b04c0910e1bdaa635f461059891ae8729f917`
 
 Selection: `{"kind":"whole"}`
 
-## 18. The American Century
+## 18. Persia Eterna!
 
-Proposal: `proposal-doc-9ad944283ea0` · action: `work`
+Proposal: `proposal-doc-a8398253723b` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-9ad944283ea0)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a8398253723b)
 
-> The American Century di Filobeche POD: La guerra di secessione coinvolge anche la Gran Bretagna, gli Usa vincono la guerra e si apprestano a diventare la nazione più potente del mondo con un secolo d’anticipo. Bandiera d
+> Persia Eterna! Ecco la proposta iniziale di Filobeche: E se Alessandro fosse morto? Ispirato dalla discussione con Falecius, propongo di scrivere un'ucronia nella quale in grande macedone sia morto e vediamo come ognuno
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/the-american-century-9ad94428/` · composition: `single`
+Target: `/works/persia-eterna-a8398253/` · composition: `single`
 
-[Full source for local review](/review/source/doc-9ad944283ea0/)
+[Full source for local review](/review/source/doc-a8398253723b/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/American\_Century.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Persia-Eterna.htm
 
-SHA-256: `35f554937c80f1e2fc5f09c33f9a5f62e9065b0691f94676375219020456dbdf`
+SHA-256: `a452556a7ad1c3b341c8aee9e92c243f9e5943d5cf0bdab59fdbc363ab556a84`
 
 Selection: `{"kind":"whole"}`
 
-## 19. Altre quattro guerre mondiali
+## 19. L'età oscura
 
-Proposal: `proposal-doc-9bab64e6e46e` · action: `work`
+Proposal: `proposal-doc-a8745b2c1aee` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-9bab64e6e46e)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a8745b2c1aee)
 
-> Altre quattro guerre mondiali di Det0 Punto di svolta: Il presidente Bush, soddisfatto della prestazione dell'atleta statunitense Phelps, lo invita a cena allo Xiao Wang's Home Restaurant, in centro a Pechino, nei pressi
+> L'età oscura di Blade87 e di Pier Luigi Gemini Salve, sono Blade87. Ho sempre pensato che uno degli aspetti più affascinanti della storia alternativa sia il vedere i differenti ruoli che potrebbero assumere i personaggi
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/altre-quattro-guerre-mondiali-9bab64e6/` · composition: `single`
+Target: `/works/l-eta-oscura-a8745b2c/` · composition: `single`
 
-[Full source for local review](/review/source/doc-9bab64e6e46e/)
+[Full source for local review](/review/source/doc-a8745b2c1aee/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/III\_IVGM.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/eta\_oscura.htm
 
-SHA-256: `d6f4f42d3bab4d58ac64620fef9c5bb402c60c5e15cfab6418d4d3af561a2789`
+SHA-256: `02e41ffe9b3d8a2b71004a0c4d2c36dee5677f4ba69938cf92ddd05b635dd74f`
 
 Selection: `{"kind":"whole"}`
 
-## 20. Sulle orme di Alessandro Magno
+## 20. Primo Libro dei Falerei
 
-Proposal: `proposal-doc-9c28a912137b` · action: `work`
+Proposal: `proposal-doc-a8ac3482f307` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-9c28a912137b)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-a8ac3482f307)
 
-> SULLE ORME DI ALESSANDRO MAGNO (933 - 984 aUc = 180 - 231 d.C.) Fine del Principato Adottivo Marco Aurelio trascorre quasi tutto il suo regno nel tentativo di consolidare le recenti conquiste di terre affatto selvagge ed
+> Primo Libro dei Falerei a cura di William Riker Cliccare sui numeri colorati dei versetti per leggere le note Parte Prima Capitolo 1 1 Nel Nome del Dio degli Eserciti, il Signore, il Vittorioso, Colui che siede sui Cheru
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/sulle-orme-di-alessandro-magno-9c28a912/` · composition: `single`
+Target: `/works/primo-libro-dei-falerei-a8ac3482/` · composition: `single`
 
-[Full source for local review](/review/source/doc-9c28a912137b/)
+[Full source for local review](/review/source/doc-a8ac3482f307/)
 
-Source: http://www.fmboschetto.it/racconti/iperimpero/iperimp2.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Falerei.htm
 
-SHA-256: `5225b2f9068d4b885f04818ed68535e265764247d11123088a00806b01e2597b`
+SHA-256: `f39b5bf5c3926986917aa9964eda90fde0bc431e607f4b5989556953c0d363d9`
 
 Selection: `{"kind":"whole"}`
