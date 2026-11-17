@@ -85,9 +85,9 @@ flowchart LR
 | --- | --- | --- | --- |
 | Divergence | a one-paragraph "What if…" prompt, with its author | entries of the "Lista delle ucronie", short contributions on collective pages | `/divergences/<slug>` |
 | Work | a complete text: uchronia, utopia, story, chronology, essay | the works pages; split files reunited as chapters | `/works/<slug>` |
-| World | a cycle of many pages with maps, flags, chronologies | the folders that turn out to be cycles (Magellania, Grande Messico, Due Imperi: to be checked one by one) | `/worlds/<slug>/<chapter>` |
+| World | a cycle of many pages with maps, flags, chronologies, or a series the original site grouped under one heading | a contents page listing the chapters, or a heading repeated on every member (checked one by one: the image folders such as Magellania, Grande Messico and Due Imperi are shared by hundreds of pages and are not cycles) | `/worlds/<slug>/`; chapters keep their `/works/<slug>` |
 
-A divergence links to the work that develops it, if there is one. A work can be part of a world.
+A divergence links to the work that develops it, if there is one. A work can be part of a world. Decision of 17/11/2026: chapters stay works at their own URL, so nothing already published moves; the world page lists them in the source's order and each chapter shows its place with previous/next links. Worlds and their chapters live in `data/worlds.json`, not in the generated map (see `docs/status-s4-worlds.md`).
 
 **The ways in.** The base is titles, authors, search and filters, which work on their own even with incomplete metadata. On top of that:
 
@@ -155,7 +155,7 @@ A document can feed several content items and a content item can come from sever
 - Every interpretation records who gave it (agent or me), its state (proposed or approved) and one line of reasoning quoting the text.
 - Classification grows step by step: no sprint waits for it to be complete.
 
-**New URLs:** chosen by content, not by file: `/divergences/<slug>`, `/works/<slug>`, `/worlds/<slug>/<chapter>`, `/eras/<slug>`, `/places/<slug>`, `/themes/<slug>`, `/authors/<slug>`. Slugs come from the title, not from the old file name. No redirects from the old paths: the site is private and no external link points to it. The old path stays in the `sources` field and leads to the page as it was in `/original/`.
+**New URLs:** chosen by content, not by file: `/divergences/<slug>`, `/works/<slug>`, `/worlds/<slug>`, `/eras/<slug>`, `/places/<slug>`, `/themes/<slug>`, `/authors/<slug>`. Slugs come from the title, not from the old file name. No redirects from the old paths: the site is private and no external link points to it. The old path stays in the `sources` field and leads to the page as it was in `/original/`.
 
 **Emails and personal data:** the old site showed authors' emails in plain text. They appear in no browsable view, neither in the new edition nor in the cleaned copy in `/original/`: only names and pseudonyms remain, and `mailto:` links become plain text. Only the untouched archive keeps them, and the site does not serve it.
 

@@ -1,0 +1,24 @@
+---
+import { type Lang, localePath, useTranslations } from "../i18n";
+import { type WorldEntry, worldOf, worldPath } from "../world-index";
+
+interface Props {
+  lang: Lang;
+  entries: WorldEntry[];
+  itemId: string;
+  /** Shown above and below the text: each landmark needs its own name. */
+  end?: boolean;
+}
+const { lang, entries, itemId, end = false } = Astro.props;
+const t = useTranslations(lang);
+const place = worldOf(entries, itemId);
+---
+{place && (
+  <nav class:list={["world-nav", { "world-nav-end": end }]} aria-label={t(end ? "worlds.navEnd" : "worlds.nav")}>
+    <p><span>{t(`worlds.partOf.${place.entry.world.form}`, { n: place.index + 1, total: place.entry.chapters.length })}</span> <a href={localePath(lang, worldPath(place.entry.world.id))} lang={place.entry.world.language}>{place.entry.world.title}</a></p>
+    {(place.previous || place.next) && <ul>
+      {place.previous && <li class="world-prev"><a href={localePath(lang, place.previous.path)} rel="prev"><span>← {t("worlds.previous")}</span> <span lang={place.previous.language === "unknown" ? undefined : place.previous.language}>{place.previous.title}</span></a></li>}
+      {place.next && <li class="world-next"><a href={localePath(lang, place.next.path)} rel="next"><span>{t("worlds.next")} →</span> <span lang={place.next.language === "unknown" ? undefined : place.next.language}>{place.next.title}</span></a></li>}
+    </ul>}
+  </nav>
+)}

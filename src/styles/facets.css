@@ -71,3 +71,103 @@
   margin: 0;
   overflow-wrap: anywhere;
 }
+.world-list {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 2.5rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 22rem), 1fr));
+  gap: 0.75rem;
+}
+.world-list a {
+  display: grid;
+  gap: 0.25rem;
+  min-height: 44px;
+  padding: 0.9rem 1rem;
+  border: 1px solid var(--line);
+  border-inline-start: 3px solid var(--accent);
+  border-radius: 8px;
+  text-decoration: none;
+  color: inherit;
+}
+.world-list a:hover,
+.world-list a:focus-visible {
+  border-color: var(--accent);
+}
+.world-list a > small {
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+.world-authors {
+  margin: 0.25rem 0 0;
+  margin-inline-start: 0;
+}
+.world-review {
+  border-inline-start: 3px solid var(--line);
+  padding-inline-start: 0.9rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+.world-review p {
+  margin: 0.3rem 0;
+}
+/* Chapters hang from one vertical line, numbered by the source's order. */
+.world-chapters {
+  margin: 1rem 0 2.5rem;
+  padding-inline-start: 2.6rem;
+  border-inline-start: 2px solid var(--line);
+}
+.world-chapters li {
+  padding: 0.55rem 0;
+  overflow-wrap: anywhere;
+}
+.world-chapters li::marker {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.world-chapters a {
+  font-weight: 600;
+}
+.world-nav {
+  margin: 0.75rem 0 1.25rem;
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 0.95rem;
+}
+.world-nav p {
+  margin: 0;
+  color: var(--muted);
+}
+.world-nav p a {
+  font-weight: 600;
+}
+.world-nav ul {
+  list-style: none;
+  margin: 0.5rem 0 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 0.5rem 1.5rem;
+}
+.world-nav li a {
+  display: inline-grid;
+  min-height: 44px;
+  align-content: center;
+  overflow-wrap: anywhere;
+}
+.world-nav li a span:first-child {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+.world-next {
+  margin-inline-start: auto;
+  text-align: end;
+}
+.world-nav-end {
+  margin-top: 2rem;
+}
+.world-description {
+  font-size: 0.95rem;
+}

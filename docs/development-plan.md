@@ -244,7 +244,8 @@ Demo: passed in a 390 px phone viewport with a remembered Petrov sentence → re
 - [ ] Owner review of the per-work era/place/theme proposals in `data/classification.json` (`pnpm classify` proposes each with a reason and a quotation; owner decisions are never overwritten)
 - [x] Language filters on the published catalog and IT/EN navigation on historical indexes
 - [x] Pages for eras, places and themes (`/eras/`, `/places/`, `/themes/`, IT/EN), approved assignments apart from proposals awaiting review; each work lists its proposed entries in the reader
-- [ ] Worlds/cycles: no world proposals in the map yet; identify cycles and build `/worlds/` pages
+- [x] Worlds/cycles identified and `/worlds/` pages built (17/11/2026): `data/worlds.json` holds six agent proposals (three worlds with their own contents page: Capvt Mvndi, Roma di là dall'oceano, Fanta-Alessandro Magno; three cycles named by a heading repeated on each member: superpowers, classics as Bible books, Sandro Degiani's stories), 89 chapters in all. `pnpm worlds propose` derives chapters from the archive; `pnpm worlds check` (second build step) derives them again and fails on any disagreement, and lists every mutually linked cluster not covered or explicitly rejected. Chapters keep their `/works/` URL; the reader shows the chapter's place with previous/next. See `docs/status-s4-worlds.md`
+- [ ] Owner review of the six world/cycle proposals and of the two world introductions kept as `index` (`racconti/iperimpero/introduzione.htm`, `racconti/roma_in_america/introduzione.htm`), which are not in the reading edition
 - [x] Two design directions for reading and catalog, with real content; choice and `tokens.css`
 - [x] View Transitions between catalog and reading: cross-document `@view-transition`, catalog card title morphs into the work title, header stays still; disabled under `prefers-reduced-motion`, plain navigation where unsupported (17/11/2026)
 

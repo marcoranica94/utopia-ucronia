@@ -1,0 +1,617 @@
+{
+  "version": 1,
+  "worlds": [
+    {
+      "id": "capvt-mvndi",
+      "title": "Capvt Mvndi, sive Iperimperivm Romanorvm",
+      "form": "world",
+      "language": "it",
+      "description": {
+        "it": "Una storia di Roma che non cade mai, da Antonino Pio all'età moderna, in sedici capitoli e una cartina.",
+        "en": "A history of a Rome that never falls, from Antoninus Pius to the modern age, in sixteen chapters and a map."
+      },
+      "source": {
+        "kind": "contents",
+        "document": "racconti/iperimpero/intestazione.htm",
+        "exclude": ["racconti/iperimpero/introduzione.htm"]
+      },
+      "evidence": {
+        "document": "racconti/iperimpero/introduzione.htm",
+        "quote": "CAPVT MVNDI sive IPERIMPERIVM ROMANORVM"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "One Roman history told in sixteen chapters and a map, in its own folder with a contents frame listing them in order.",
+        "quote": "Cominciai a covare il sogno di essere il \"subcreatore\" di un UNIVERSO FANTASTORICO nel quale Roma non sia mai caduta"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-f73fd1454bb8",
+          "path": "racconti/iperimpero/iperimp1.htm"
+        },
+        {
+          "documentId": "doc-d4ce02f251eb",
+          "path": "racconti/iperimpero/cartina_impero_marco_aurelio.htm"
+        },
+        {
+          "documentId": "doc-9c28a912137b",
+          "path": "racconti/iperimpero/iperimp2.htm"
+        },
+        {
+          "documentId": "doc-19f80057677e",
+          "path": "racconti/iperimpero/iperimp3.htm"
+        },
+        {
+          "documentId": "doc-4dacc4ccd68a",
+          "path": "racconti/iperimpero/iperimp4.htm"
+        },
+        {
+          "documentId": "doc-8211037c1ef8",
+          "path": "racconti/iperimpero/iperimp5.htm"
+        },
+        {
+          "documentId": "doc-475b0b2a28ec",
+          "path": "racconti/iperimpero/iperimp6.htm"
+        },
+        {
+          "documentId": "doc-9633bd8e997c",
+          "path": "racconti/iperimpero/iperimp7.htm"
+        },
+        {
+          "documentId": "doc-6b4f86a2428c",
+          "path": "racconti/iperimpero/iperimp8.htm"
+        },
+        {
+          "documentId": "doc-ba949ab7ff2f",
+          "path": "racconti/iperimpero/iperimp9.htm"
+        },
+        {
+          "documentId": "doc-ac1fd26565c2",
+          "path": "racconti/iperimpero/iperimp10.htm"
+        },
+        {
+          "documentId": "doc-da08d14b1ece",
+          "path": "racconti/iperimpero/iperimp11.htm"
+        },
+        {
+          "documentId": "doc-7b894370164e",
+          "path": "racconti/iperimpero/iperimp12.htm"
+        },
+        {
+          "documentId": "doc-2e3dcdb2ffa4",
+          "path": "racconti/iperimpero/iperimp13.htm"
+        },
+        {
+          "documentId": "doc-c7592f865451",
+          "path": "racconti/iperimpero/iperimp14.htm"
+        },
+        {
+          "documentId": "doc-d2c6d8fa2c24",
+          "path": "racconti/iperimpero/iperimp15.htm"
+        },
+        {
+          "documentId": "doc-a056cfd4090d",
+          "path": "racconti/iperimpero/iperimp16.htm"
+        }
+      ]
+    },
+    {
+      "id": "roma-di-la-dall-oceano",
+      "title": "Roma... di là dall'oceano!",
+      "form": "world",
+      "language": "it",
+      "description": {
+        "it": "Roma trasloca oltre l'Atlantico: la storia di un impero romano americano, dalla colonizzazione di Atlantide all'alba del Duemila.",
+        "en": "Rome moves across the Atlantic: the history of an American Roman empire, from the colonisation of Atlantis to the dawn of the year 2000."
+      },
+      "source": {
+        "kind": "contents",
+        "document": "racconti/roma_in_america/intestazione.htm",
+        "exclude": ["racconti/roma_in_america/introduzione.htm"]
+      },
+      "evidence": {
+        "document": "racconti/roma_in_america/intestazione.htm",
+        "quote": "Roma... di là dall'oceano!"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "One alternative history in twenty-four chapters plus two companion pages, in its own folder with a contents frame listing them in order.",
+        "quote": "Roma trasloca di là dall'oceano - La colonizzazione dell'Atlantide e le guerre civili"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-fca2e4e9d334",
+          "path": "racconti/roma_in_america/roma_in_america_1.htm"
+        },
+        {
+          "documentId": "doc-ca5b0cb5c5b8",
+          "path": "racconti/roma_in_america/roma_in_america_2.htm"
+        },
+        {
+          "documentId": "doc-d24d471c9534",
+          "path": "racconti/roma_in_america/roma_in_america_3.htm"
+        },
+        {
+          "documentId": "doc-57d33b32c202",
+          "path": "racconti/roma_in_america/roma_in_america_4.htm"
+        },
+        {
+          "documentId": "doc-a71014afe727",
+          "path": "racconti/roma_in_america/roma_in_america_5.htm"
+        },
+        {
+          "documentId": "doc-6ad744d10816",
+          "path": "racconti/roma_in_america/roma_in_america_6.htm"
+        },
+        {
+          "documentId": "doc-ec9634776f47",
+          "path": "racconti/roma_in_america/roma_in_america_7.htm"
+        },
+        {
+          "documentId": "doc-ea79ff00b800",
+          "path": "racconti/roma_in_america/roma_in_america_8.htm"
+        },
+        {
+          "documentId": "doc-6533caacd38c",
+          "path": "racconti/roma_in_america/roma_in_america_9.htm"
+        },
+        {
+          "documentId": "doc-7dcd1449e288",
+          "path": "racconti/roma_in_america/roma_in_america_10.htm"
+        },
+        {
+          "documentId": "doc-59abecc8e4f7",
+          "path": "racconti/roma_in_america/roma_in_america_11.htm"
+        },
+        {
+          "documentId": "doc-43eb36822dc7",
+          "path": "racconti/roma_in_america/roma_in_america_12.htm"
+        },
+        {
+          "documentId": "doc-b71adfe826f9",
+          "path": "racconti/roma_in_america/roma_in_america_13.htm"
+        },
+        {
+          "documentId": "doc-25bef15bc07e",
+          "path": "racconti/roma_in_america/roma_in_america_14.htm"
+        },
+        {
+          "documentId": "doc-1453085c69eb",
+          "path": "racconti/roma_in_america/roma_in_america_15.htm"
+        },
+        {
+          "documentId": "doc-d4a56321a9c1",
+          "path": "racconti/roma_in_america/roma_in_america_16.htm"
+        },
+        {
+          "documentId": "doc-14ac3a198d1b",
+          "path": "racconti/roma_in_america/roma_in_america_17.htm"
+        },
+        {
+          "documentId": "doc-a0c2de42bb82",
+          "path": "racconti/roma_in_america/roma_in_america_18.htm"
+        },
+        {
+          "documentId": "doc-474a8393a0ad",
+          "path": "racconti/roma_in_america/roma_in_america_19.htm"
+        },
+        {
+          "documentId": "doc-8fa97d90bf16",
+          "path": "racconti/roma_in_america/roma_in_america_20.htm"
+        },
+        {
+          "documentId": "doc-38afe12c8b1c",
+          "path": "racconti/roma_in_america/roma_in_america_21.htm"
+        },
+        {
+          "documentId": "doc-673cdd456db4",
+          "path": "racconti/roma_in_america/roma_in_america_22.htm"
+        },
+        {
+          "documentId": "doc-2bb3baa67483",
+          "path": "racconti/roma_in_america/roma_in_america_23.htm"
+        },
+        {
+          "documentId": "doc-42732f1dfd75",
+          "path": "racconti/roma_in_america/roma_in_america_24.htm"
+        },
+        {
+          "documentId": "doc-59f4c11744df",
+          "path": "racconti/roma_in_america/stati_use.htm"
+        },
+        {
+          "documentId": "doc-71e7a50d99e6",
+          "path": "racconti/roma_in_america/fanta_olimpiadi.htm"
+        }
+      ]
+    },
+    {
+      "id": "fanta-alessandro-magno",
+      "title": "Fanta-Alessandro Magno",
+      "form": "world",
+      "language": "it",
+      "description": {
+        "it": "Alessandro Magno vive fino a ottant'anni: un'introduzione e otto capitoli sulle sue conquiste e su ciò che ne segue.",
+        "en": "Alexander the Great lives to eighty: an introduction and eight chapters on his conquests and what follows them."
+      },
+      "source": {
+        "kind": "contents",
+        "document": "racconti/alessandro/sommario.htm",
+        "exclude": []
+      },
+      "evidence": {
+        "document": "racconti/alessandro/alessandro_introd.htm",
+        "quote": "Fanta-Alessandro Magno"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "One history of an Alexander who lives to eighty, in an introduction and eight chapters listed by its own contents page.",
+        "quote": "Alessandro Magno, all'età di ottant'anni..."
+      },
+      "chapters": [
+        {
+          "documentId": "doc-29da18a8447f",
+          "path": "racconti/alessandro/alessandro_introd.htm"
+        },
+        {
+          "documentId": "doc-dd79075c06e3",
+          "path": "racconti/alessandro/alessandro_1.htm"
+        },
+        {
+          "documentId": "doc-14c488c7e969",
+          "path": "racconti/alessandro/alessandro_2.htm"
+        },
+        {
+          "documentId": "doc-86aa176b23b9",
+          "path": "racconti/alessandro/alessandro_3.htm"
+        },
+        {
+          "documentId": "doc-41535df9abc3",
+          "path": "racconti/alessandro/alessandro_4.htm"
+        },
+        {
+          "documentId": "doc-382dcd7447be",
+          "path": "racconti/alessandro/alessandro_5.htm"
+        },
+        {
+          "documentId": "doc-aaf814c27614",
+          "path": "racconti/alessandro/alessandro_6.htm"
+        },
+        {
+          "documentId": "doc-93c9d54c99c0",
+          "path": "racconti/alessandro/alessandro_7.htm"
+        },
+        {
+          "documentId": "doc-2319fa279010",
+          "path": "racconti/alessandro/alessandro_8.htm"
+        }
+      ]
+    },
+    {
+      "id": "come-si-fa-a-creare-una-superpotenza",
+      "title": "Come si fa a creare una superpotenza",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "Ucronie separate, ciascuna su una superpotenza diversa, che il sito originale collegava tra loro sotto questo titolo.",
+        "en": "Separate uchronias, each about a different superpower, that the original site linked to one another under this title."
+      },
+      "source": {
+        "kind": "navigation",
+        "heading": "Come si fa a creare una superpotenza"
+      },
+      "evidence": {
+        "document": "utopiaucronia/vssa.htm",
+        "quote": "Come si fa a creare una superpotenza"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Separate uchronias, each building a different superpower, that the original site linked to one another under this heading.",
+        "quote": "Come si fa a creare una superpotenza"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-20e91d13dbb2",
+          "path": "utopiaucronia/megabritannia.htm"
+        },
+        {
+          "documentId": "doc-5c26c9f61f40",
+          "path": "utopiaucronia/ucronia_lombarda.htm"
+        },
+        {
+          "documentId": "doc-67ff292787cc",
+          "path": "utopiaucronia/andalusia.htm"
+        },
+        {
+          "documentId": "doc-cac5d990390a",
+          "path": "utopiaucronia/fanta_sri.htm"
+        },
+        {
+          "documentId": "doc-d6a46b01f966",
+          "path": "utopiaucronia/impero_eterno.htm"
+        },
+        {
+          "documentId": "doc-2587c9382756",
+          "path": "utopiaucronia/impero_eterno_2.htm"
+        },
+        {
+          "documentId": "doc-2c087c2fb257",
+          "path": "utopiaucronia/fanta_usa.htm"
+        },
+        {
+          "documentId": "doc-b51275278eb9",
+          "path": "utopiaucronia/grande_messico.htm"
+        },
+        {
+          "documentId": "doc-d67589cc0ce9",
+          "path": "utopiaucronia/grande_colombia.htm"
+        },
+        {
+          "documentId": "doc-2076686523b0",
+          "path": "utopiaucronia/impero_brasiliano.htm"
+        },
+        {
+          "documentId": "doc-08de9e6f794c",
+          "path": "utopiaucronia/vssa.htm"
+        },
+        {
+          "documentId": "doc-f1bd610c77df",
+          "path": "utopiaucronia/fanta_moghul.htm"
+        },
+        {
+          "documentId": "doc-663239842f8d",
+          "path": "utopiaucronia/due_imperi.htm"
+        },
+        {
+          "documentId": "doc-7176c3064fb4",
+          "path": "utopiaucronia/keikyo.htm"
+        },
+        {
+          "documentId": "doc-22aecfedbd2b",
+          "path": "utopiaucronia/grande_australia.htm"
+        }
+      ]
+    },
+    {
+      "id": "capolavori-in-libri-biblici",
+      "title": "I capolavori della letteratura universale trasformati in libri biblici",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "Grandi opere della letteratura, da Gilgamesh ai Promessi sposi, riscritte come libri della Bibbia.",
+        "en": "Great works of literature, from Gilgamesh to The Betrothed, rewritten as books of the Bible."
+      },
+      "source": {
+        "kind": "navigation",
+        "heading": "I capolavori della letteratura universale trasformati in libri biblici"
+      },
+      "evidence": {
+        "document": "utopiaucronia/libro_di_natan.htm",
+        "quote": "I capolavori della letteratura universale trasformati in libri biblici"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Literary classics rewritten as books of the Bible, linked to one another under this heading on every page.",
+        "quote": "I capolavori della letteratura universale trasformati in libri biblici"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-3e2d32a9001d",
+          "path": "utopiaucronia/ucronie_diluviane.htm"
+        },
+        {
+          "documentId": "doc-78e2729decdf",
+          "path": "utopiaucronia/filistiade.htm"
+        },
+        {
+          "documentId": "doc-8cf408f213de",
+          "path": "utopiaucronia/atti_di_davide.htm"
+        },
+        {
+          "documentId": "doc-047023b4e5f6",
+          "path": "utopiaucronia/apocalisse_di_tobia.htm"
+        },
+        {
+          "documentId": "doc-60f1885d06d6",
+          "path": "utopiaucronia/testamento_di_malachia.htm"
+        },
+        {
+          "documentId": "doc-9330576e7f71",
+          "path": "utopiaucronia/libro_di_natan.htm"
+        },
+        {
+          "documentId": "doc-205976e9c322",
+          "path": "utopiaucronia/fanta_manzoni.htm"
+        }
+      ]
+    },
+    {
+      "id": "novelle-di-sandro-degiani",
+      "title": "Novelle di Sandro Degiani",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "Racconti che il sito originale elencava sotto questo titolo in ogni pagina; alcune pagine ospitano anche testi e commenti di altri autori.",
+        "en": "Stories the original site listed under this title on every page; some pages also hold texts and comments by other authors."
+      },
+      "source": {
+        "kind": "navigation",
+        "heading": "Novelle di Sandro Degiani"
+      },
+      "evidence": {
+        "document": "utopiaucronia/pilota.htm",
+        "quote": "Novelle di Sandro Degiani"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Short stories the original site gathered under one heading repeated on each of them.",
+        "quote": "Novelle di Sandro Degiani"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-3d7b3f11c44b",
+          "path": "utopiaucronia/console.htm"
+        },
+        {
+          "documentId": "doc-28800fb460d3",
+          "path": "utopiaucronia/pharaon.htm"
+        },
+        {
+          "documentId": "doc-3b59fc42a563",
+          "path": "utopiaucronia/kursk.htm"
+        },
+        {
+          "documentId": "doc-80aad16f648a",
+          "path": "utopiaucronia/capoverde1944.htm"
+        },
+        {
+          "documentId": "doc-8f296bd38f37",
+          "path": "utopiaucronia/new_york_1946.htm"
+        },
+        {
+          "documentId": "doc-200813fb26bd",
+          "path": "utopiaucronia/jevah.htm"
+        },
+        {
+          "documentId": "doc-2a167794e62f",
+          "path": "utopiaucronia/ritorno_al_passato.htm"
+        },
+        {
+          "documentId": "doc-11f9a00e9d4b",
+          "path": "utopiaucronia/krang.htm"
+        },
+        {
+          "documentId": "doc-af8711d599aa",
+          "path": "utopiaucronia/ilbiancomuove.htm"
+        },
+        {
+          "documentId": "doc-89d72ebd2ba6",
+          "path": "utopiaucronia/gatto_di_bordo.htm"
+        },
+        {
+          "documentId": "doc-4b7697c21bd1",
+          "path": "utopiaucronia/pilota.htm"
+        },
+        {
+          "documentId": "doc-f0071b04a9f3",
+          "path": "utopiaucronia/ancheglidei.htm"
+        },
+        {
+          "documentId": "doc-0cc2996bd427",
+          "path": "utopiaucronia/viaggio_di_un_secondo.htm"
+        },
+        {
+          "documentId": "doc-a438c6f5c56d",
+          "path": "utopiaucronia/briciole.htm"
+        },
+        {
+          "documentId": "doc-9196e23614e7",
+          "path": "utopiaucronia/mc_donald_su_marte.htm"
+        }
+      ]
+    }
+  ],
+  "rejected": [
+    {
+      "documents": [
+        "utopiaucronia/asimov_per_davvero.htm",
+        "utopiaucronia/robot_e_primo_impero.htm",
+        "utopiaucronia/cronologia_asimoviana.htm"
+      ],
+      "reason": "Three separate works by different authors that point readers to each other; the third is a chronology of Asimov's real fiction, not a chapter of one world."
+    },
+    {
+      "documents": ["utopiaucronia/fanta_odissea.htm"],
+      "reason": "FantaOdissea is an essay that links to the Bible cycle in its prose; the cycle's own heading lists the Gedeonea inside filistiade.htm, not this page."
+    },
+    {
+      "documents": [
+        "utopiaucronia/francia_italia.htm",
+        "utopiaucronia/francia_italia_2.htm",
+        "utopiaucronia/francia_italia_3.htm",
+        "utopiaucronia/cristianesimo_islam.htm",
+        "utopiaucronia/italia_jugoslavia.htm"
+      ],
+      "reason": "One work in three numbered parts plus two other swap uchronias it cites in its prose; no shared heading or contents page makes them a cycle."
+    },
+    {
+      "documents": [
+        "utopiaucronia/grande_muraglia_romana.htm",
+        "utopiaucronia/grande_muraglia_romana_2.htm",
+        "utopiaucronia/grande_muraglia_romana_3.htm",
+        "utopiaucronia/grande_muraglia_romana_4.htm",
+        "utopiaucronia/grande_muraglia_romana_5.htm",
+        "utopiaucronia/grande_muraglia_romana_6.htm",
+        "utopiaucronia/grande_muraglia_romana_7.htm"
+      ],
+      "reason": "Numbered parts of one work: a merge question for the map, not a world."
+    },
+    {
+      "documents": [
+        "utopiaucronia/ucronia_pontica.htm",
+        "utopiaucronia/ucronia_pontica_2.htm",
+        "utopiaucronia/ucronia_pontica_3.htm",
+        "utopiaucronia/ucronia_pontica_4.htm",
+        "utopiaucronia/ucronia_pontica_5.htm"
+      ],
+      "reason": "Numbered parts of one work, already covered by merge proposals in the map."
+    },
+    {
+      "documents": [
+        "utopiaucronia/fanta_luigi_xiv.htm",
+        "utopiaucronia/fanta_luigi_xiv_2.htm",
+        "utopiaucronia/fanta_luigi_xiv_3.htm",
+        "utopiaucronia/fanta_luigi_xiv_4.htm"
+      ],
+      "reason": "Numbered parts of one work: a merge question for the map, not a world."
+    },
+    {
+      "documents": [
+        "utopiaucronia/fanta_pitea.htm",
+        "utopiaucronia/fanta_pitea_2.htm",
+        "utopiaucronia/fanta_pitea_3.htm"
+      ],
+      "reason": "Numbered parts of one work: a merge question for the map, not a world."
+    },
+    {
+      "documents": [
+        "utopiaucronia/uchroniesenfrancais/pytheas_le_menteur.htm",
+        "utopiaucronia/uchroniesenfrancais/pytheas_le_menteur_2.htm",
+        "utopiaucronia/uchroniesenfrancais/pytheas_le_menteur_3.htm"
+      ],
+      "reason": "Numbered parts of one French work: a merge question for the map, not a world."
+    },
+    {
+      "documents": [
+        "utopiaucronia/uchroniesenfrancais/sans_louis_xiv.htm",
+        "utopiaucronia/uchroniesenfrancais/sans_louis_xiv_2.htm",
+        "utopiaucronia/uchroniesenfrancais/sans_louis_xiv_3.htm"
+      ],
+      "reason": "Numbered parts of one French work: a merge question for the map, not a world."
+    },
+    {
+      "documents": [
+        "utopiaucronia/lista_ucronie_3_1.htm",
+        "utopiaucronia/lista_ucronie_3_2.htm",
+        "utopiaucronia/lista_ucronie_4.htm",
+        "utopiaucronia/lista_ucronie_4_1_1.htm",
+        "utopiaucronia/lista_ucronie_4_1_2.htm",
+        "utopiaucronia/lista_ucronie_4_2.htm",
+        "utopiaucronia/lista_ucronie_5.htm",
+        "utopiaucronia/lista_ucronie_5_1.htm",
+        "utopiaucronia/lista_ucronie_6.htm",
+        "utopiaucronia/lista_ucronie_6_1.htm",
+        "utopiaucronia/lista_ucronie_6_2.htm",
+        "utopiaucronia/lista_ucronie_6_3.htm",
+        "utopiaucronia/lista_ucronie_7.htm"
+      ],
+      "reason": "Period pages of the Lista delle ucronie linking to their neighbours: a site index, already browsable at /divergences/."
+    }
+  ]
+}

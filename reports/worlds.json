@@ -1,0 +1,43 @@
+{
+  "worlds": [
+    {
+      "id": "capvt-mvndi",
+      "form": "world",
+      "state": "proposed",
+      "chapters": 17
+    },
+    {
+      "id": "roma-di-la-dall-oceano",
+      "form": "world",
+      "state": "proposed",
+      "chapters": 26
+    },
+    {
+      "id": "fanta-alessandro-magno",
+      "form": "world",
+      "state": "proposed",
+      "chapters": 9
+    },
+    {
+      "id": "come-si-fa-a-creare-una-superpotenza",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 15
+    },
+    {
+      "id": "capolavori-in-libri-biblici",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 7
+    },
+    {
+      "id": "novelle-di-sandro-degiani",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 15
+    }
+  ],
+  "rejected": 10,
+  "unreviewed": [],
+  "errors": []
+}

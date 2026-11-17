@@ -1,0 +1,32 @@
+---
+import { getCollection } from "astro:content";
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import { buildWorlds, type WorldItem, worldPath } from "../world-index";
+import "../styles/authors.css";
+import "../styles/facets.css";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const entries = buildWorlds(
+  (await getCollection("works")) as unknown as WorldItem[],
+);
+const groups = (["world", "cycle"] as const)
+  .map((form) => [form, entries.filter((e) => e.world.form === form)] as const)
+  .filter(([, list]) => list.length);
+---
+<Base title={t("worlds.title")} lang={lang}>
+  <header class="page-intro"><h1 class="page-title">{t("worlds.title")}</h1><p class="page-lede">{t("worlds.intro")}</p><p class="small-note">{t("worlds.note")}</p><nav class="library-links" aria-label={t("facet.explore")}><a href={localePath(lang, "/library/")}>{t("library.title")}</a><a href={localePath(lang, "/eras/")}>{t("facet.eras.title")}</a><a href={localePath(lang, "/themes/")}>{t("facet.themes.title")}</a></nav></header>
+  {groups.map(([form, list]) => (
+    <section class="facet-section" aria-labelledby={`worlds-${form}`}>
+      <h2 id={`worlds-${form}`}>{t(`worlds.group.${form}`)} <small>({list.length})</small></h2>
+      <p class="facet-reason">{t(`worlds.formIntro.${form}`)}</p>
+      <ul class="world-list">
+        {list.map(({ world, chapters, authors }) => <li><a href={localePath(lang, worldPath(world.id))}><span class="facet-name" lang={world.language}>{world.title}</span><span class="world-description">{world.description[lang]}</span><small>{t(`worlds.count.${form}`, { n: chapters.length })}{authors.length > 0 && ` · ${authors.slice(0, 3).join(", ")}${authors.length > 3 ? "…" : ""}`}</small></a></li>)}
+      </ul>
+    </section>
+  ))}
+</Base>

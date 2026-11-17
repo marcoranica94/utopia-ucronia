@@ -33,7 +33,7 @@
       "contains": "Pages for eras, places and themes",
       "status": "backlog",
       "assignee": "Development",
-      "note": "Era, place and theme pages delivered with agent proposals per work (pnpm classify). Worlds remain."
+      "note": "Era, place and theme pages delivered with agent proposals per work (pnpm classify). Worlds and cycles delivered as agent proposals (data/worlds.json, /worlds/)."
     },
     {
       "sprint": "S5",
@@ -175,7 +175,7 @@
       "contains": "Progressive review of the map",
       "status": "doing",
       "assignee": "Marco",
-      "note": "All single-work proposals reviewed and published under the owner's blanket approval of 17 November 2026; the 19 Lista splits are deferred by owner decision. Pending: 43 split proposals that overlap pages already published whole, and worlds/cycles (no proposals yet)."
+      "note": "All single-work proposals reviewed and published under the owner's blanket approval of 17 November 2026; the 19 Lista splits are deferred by owner decision. Pending: 43 split proposals that overlap pages already published whole, and owner review of the six world/cycle proposals in data/worlds.json."
     },
     {
       "sprint": "S4",
@@ -264,8 +264,8 @@
   ],
   "priorities": [
     {
-      "title": "Review era/place/theme proposals and identify worlds (S4)",
-      "detail": "Per-work assignments in data/classification.json are agent proposals with quotations; worlds/cycles have no proposals yet."
+      "title": "Review era/place/theme and world proposals (S4)",
+      "detail": "Per-work assignments in data/classification.json and the six worlds/cycles in data/worlds.json are agent proposals with quotations; the two world introductions kept as index need a decision."
     },
     {
       "title": "Attachments as reading text (S7)",

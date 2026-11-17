@@ -1,9 +1,11 @@
 ---
 import type { CollectionEntry } from "astro:content";
-import { render } from "astro:content";
+import { getCollection, render } from "astro:content";
 import { documentId } from "../../scripts/editorial-core";
 import AuthorCredits from "../components/AuthorCredits.astro";
 import FacetChips from "../components/FacetChips.astro";
+import WorldNav from "../components/WorldNav.astro";
+import { buildWorlds, type WorldItem } from "../world-index";
 import "../styles/facets.css";
 import "../styles/authors.css";
 import WorkContents from "../components/WorkContents.astro";
@@ -39,6 +41,9 @@ const facts = [
   interventions > 0 && counted(interventions, "contributions"),
   variants > 0 && counted(variants, "variants"),
 ].filter(Boolean);
+const worldEntries = buildWorlds(
+  (await getCollection("works")) as unknown as WorldItem[],
+);
 const captured = (s?: string) =>
   s ? `${s.slice(6, 8)}/${s.slice(4, 6)}/${s.slice(0, 4)}` : undefined;
 ---
@@ -52,8 +57,10 @@ const captured = (s?: string) =>
           <AuthorCredits lang={lang} authors={data.authors} contributors={data.contributors ?? []} />
           <p class="uchronia-facts">{data.level === "divergence" ? t("shape.divergence") : t(`shape.${data.shape}`)}{facts.length > 0 && `: ${facts.join(", ")}.`} {t(`work.language.${data.language}`)}</p>
         </header>
+        <WorldNav lang={lang} entries={worldEntries} itemId={work.id} />
         {showRail && <WorkContents outline={outline} lang={lang} textLang={data.language} />}
         <article class="reading-copy structured" lang={data.language === "unknown" ? "" : data.language}><Fragment set:html={html} /></article>
+        <WorldNav lang={lang} entries={worldEntries} itemId={work.id} end />
         <footer class="uchronia-source" id="work-sources"><h2>{t("source.title")}</h2><FacetChips lang={lang} classification={data.classification} /><ul>{data.sources.map(source=><li><a data-reading-source href={localePath(lang,`/sources/${source.documentId ?? documentId(source.url)}/`)}>{t("source.open")} — {source.url.split("/").at(-1)}</a></li>)}</ul><p>{t("source.resourcesHint")}</p>
           {data.sourceHeaders && data.sourceHeaders.length > 0 && <details><summary>{t("source.originalHeading")}</summary><ul lang={data.language === "unknown" ? undefined : data.language}>{data.sourceHeaders.map(text => <li>{text}</li>)}</ul></details>}
           {data.sources.map((source) => <p>{captured(source.timestamp) ? t("work.sourceCaptured", { url: source.url, date: captured(source.timestamp) ?? "" }) : t("work.source", { url: source.url })}</p>)}
@@ -63,7 +70,7 @@ const captured = (s?: string) =>
       </div>
     </div>
   ) : (
-    <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 id="work-title" class="page-title" style={`view-transition-name:${transitionName(work.id)};view-transition-class:work-title`} lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1><aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language === "unknown" ? "" : data.language}><Content /></article></div>
+    <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 id="work-title" class="page-title" style={`view-transition-name:${transitionName(work.id)};view-transition-class:work-title`} lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1><WorldNav lang={lang} entries={worldEntries} itemId={work.id} /><aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language === "unknown" ? "" : data.language}><Content /></article><WorldNav lang={lang} entries={worldEntries} itemId={work.id} end /></div>
       <aside class="reading-aside" aria-labelledby="source-title"><h2 id="source-title">{t("work.provenance")}</h2><FacetChips lang={lang} classification={data.classification} /><ul>{data.sources.map(source=><li><a data-reading-source href={localePath(lang,`/sources/${source.documentId ?? documentId(source.url)}/`)}>{t("source.open")}</a></li>)}</ul>{data.sources.map((source) => <div><p>{source.timestamp ? t("work.captured", { date: captured(source.timestamp) ?? "" }) : t("work.fromOrigin")}</p><p>{source.url}</p></div>)}<p>{t("work.kept")}</p></aside>
     </div>
   )}

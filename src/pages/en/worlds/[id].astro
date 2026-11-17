@@ -1,0 +1,13 @@
+---
+import { getCollection } from "astro:content";
+import World from "../../../views/World.astro";
+import { buildWorlds, type WorldItem } from "../../../world-index";
+export async function getStaticPaths() {
+  const items = (await getCollection("works")) as unknown as WorldItem[];
+  return buildWorlds(items).map((entry) => ({
+    params: { id: entry.world.id },
+    props: { entry },
+  }));
+}
+---
+<World entry={Astro.props.entry} lang="en" />
