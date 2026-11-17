@@ -263,8 +263,8 @@
   "linkedPrompts": 280,
   "documentedDevelopments": 222,
   "statuses": {
-    "ready": 64,
-    "recovered": 784,
+    "ready": 79,
+    "recovered": 769,
     "missing": 8,
     "external": 71
   },
@@ -278,8 +278,16 @@
       "sha256": "12b9de00a1cca3fb790149bbe7ad411e5c2ac5e44dbc6d9bc8e2dc8b81844a1b"
     },
     {
+      "url": "http://www.fmboschetto.it/racconti/poesie%20colleghi/blackout.htm",
+      "sha256": "d44548021bc7a5b63731a76de8a3c1fd5e461c40552ec6c55508ade8571ced00"
+    },
+    {
       "url": "http://www.fmboschetto.it/racconti/racconti.htm",
       "sha256": "9cd1165f9618daa2a6e40096baaa8f495576f7d7ab70c2cfeb9c336cf73c101a"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_15.htm",
+      "sha256": "b321ee8b28cecadc06fb7ca3feef3da373f896c749579ae1b84c3f7348957d05"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/25071943.htm",
@@ -320,6 +328,10 @@
     {
       "url": "http://www.fmboschetto.it:80/Utopiaucronia/Carlo_Magno_a_Venezia.htm",
       "sha256": "d1a1c2e6f80bc8f803951a80a031c277320944fc5c542cc7615d47fa156e4907"
+    },
+    {
+      "url": "http://www.fmboschetto.it/Utopiaucronia/Cazari_eterni.htm",
+      "sha256": "836e9ed339b7687f8e162e614a3fef4a7a973d0a72be1ecc07962732e3aa2fbf"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Crivello.htm",
@@ -364,6 +376,10 @@
     {
       "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Autari.htm",
       "sha256": "ef77b981e1c1a2fde41ad4796af5512217f466fd4d8f1618ace5a8e304262267"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Bantu.htm",
+      "sha256": "f38da9b391aa63241e478787ac2f394599fbd9939760687cc81cbc179bfaf372"
     },
     {
       "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Bengali.htm",
@@ -430,12 +446,20 @@
       "sha256": "fcf2fb0eee44afc1fc969a56cbdfebe44f59d732c71f561872d72c014de75fed"
     },
     {
+      "url": "http://www.fmboschetto.it/utopiaucronia/fanta_Mongoli.htm",
+      "sha256": "1728b64c2d16b4bfd24d63ad09e154bd11244d2fff0a61464b4fbca7834ec939"
+    },
+    {
       "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Odissea.htm",
       "sha256": "6493c1ab19fdb9c9cab7fa698d0f3c15c0a12e3a020760ace66e84641bccfa6e"
     },
     {
       "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Paperopoli.htm",
       "sha256": "15f7e862af5835e3316c6e3736f40fdf9ce8c4b4e15c71dd9d6a67a46c9ebcf3"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Pitea_2.htm",
+      "sha256": "8d55af962cc9afa5f843b421d333627d4ed86834b00929f0f7476604da99b1c8"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Pitea_3.htm",
@@ -474,6 +498,10 @@
       "sha256": "360af1555139472ff099c13c3b1b2c85c6a22dc3c86c2a95f361189611d144ae"
     },
     {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/Grande_Muraglia_Romana.htm",
+      "sha256": "0ac3f208ed1b2ad3ca346f7fa7c1d9a6fefce8c3a5e67454478e9629d6052bae"
+    },
+    {
       "url": "http://www.fmboschetto.it:80/Utopiaucronia/grande_Torino.htm",
       "sha256": "24e12520b35e988359943b28750242312638f83d52277bffeb53dc1ade14a0ed"
     },
@@ -508,6 +536,10 @@
     {
       "url": "http://www.fmboschetto.it:80/Utopiaucronia/Itlerelli.htm",
       "sha256": "2c29551e2d3f494f90f239888d6d83b28b8515d622a1fe495e1849a2fd9894fe"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Krang.htm",
+      "sha256": "53525facad5952544f88d41ff1ed97f5344f026ae7c416522784616563b00e94"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/lavori_1.htm",
@@ -658,6 +690,22 @@
       "sha256": "d3d8c84607fcabb0a0ad042fac582935e0d336edcce450208c0c6c74bc59fee2"
     },
     {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/nullificazione.htm",
+      "sha256": "5cfad47959b864134af6b1e7c0a2d3b2d875bccbde1525adbcc50413fc5995d7"
+    },
+    {
+      "url": "http://www.fmboschetto.it/utopiaucronia/Nuovo_Attila.htm",
+      "sha256": "d72b193332e88ecc4659d7cb8886f85a9321792ca8ee7e8b7e0e974a0350bddc"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/Oltre_la_Fondazione.htm",
+      "sha256": "7977ed66da52cdac979934ff6d0fa02c3ef7a08b59244f4b9a0d137de1ac0673"
+    },
+    {
+      "url": "http://www.fmboschetto.it/utopiaucronia/Ondga.htm",
+      "sha256": "6315b382f895e67784cca8f50aa5dac2f8dc8e4ea1a4863261c9269a74ed0d6c"
+    },
+    {
       "url": "https://www.fmboschetto.it/Utopiaucronia/penisola_britannica.htm",
       "sha256": "ce3c013a3c8290acb715b83d7bb75e8dee9ae62c58a5fabb6a3c21d1704c2575"
     },
@@ -676,6 +724,10 @@
     {
       "url": "http://www.fmboschetto.it/utopiaucronia/Pietro_Bailardo.htm",
       "sha256": "8729a88a098479124cdab1dd91286c17cec3976ea5bec8490cedd358d284a12c"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/PioXIII.htm",
+      "sha256": "3b0654cd644a330c03b6ad875e97bcdc67dfa78d4251ff0ff975662e58906684"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/quattro_specie.htm",
@@ -718,6 +770,10 @@
       "sha256": "4f12b628407768d1b7f1facd2e6c537d899283dda624fff8e3285599ac2e61f5"
     },
     {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/Senza_Caporetto.htm",
+      "sha256": "5bd20565f16ff843051e75caf41541baadbf1974f06f081cf95ebf907149a9bb"
+    },
+    {
       "url": "http://www.fmboschetto.it:80/UtopiaUcronia/Senza_Kaiser.htm",
       "sha256": "12ddac6bd49b9357bcbc6b56793bd255984ceb0f12ad9b2c121281c2e60acad9"
     },
@@ -746,12 +802,24 @@
       "sha256": "1a1e17bc394f5096c709753179ff415d7a821f77e2849b062562e2e1f92f8c02"
     },
     {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/Terrebasse.htm",
+      "sha256": "40de43e8018a6b2c8913bf10e6f5b1fe3e96439c7b91e8b14ea3c33041221ed4"
+    },
+    {
       "url": "http://www.fmboschetto.it:80/Utopiaucronia/Tolkien_per_davvero_2.htm",
       "sha256": "a18a761e29e27eeb9a02bab6d32cc596dc206f3f3f93a306d935d73ec37b5aeb"
     },
     {
       "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Akhenaton.htm",
       "sha256": "7d8f00be4442c05d6fbc3d3640a82b6be3d534c59bfc4da537f57cc43006755a"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/civilisation_intemporelle.htm",
+      "sha256": "1786d40cfa5d3132330673ecb835873b84848a1c68e7064d94a820a2c1bbfa5b"
+    },
+    {
+      "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/sans_Louis_XIV_2.htm",
+      "sha256": "6b571ea8bb45d0be25eb1a8ff2387a61b7e4c2d4ba3f8aeb58488f04a48a33e6"
     },
     {
       "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_normanna.htm",
@@ -836,6 +904,10 @@
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/VSSA.htm",
       "sha256": "6d166c03295d4dd260274b9babf6f46881b162abc25c1a16b69ce6a544194986"
+    },
+    {
+      "url": "http://www.fmboschetto.it:80/Utopiaucronia/World_of_Crowns.htm",
+      "sha256": "8d9c6e9c6a45efe16ba9684d5d830e7a6200e13c345a66dc1d6f1de3a545e907"
     },
     {
       "url": "http://www.fmboschetto.it/Utopiaucronia/WWII_anticipata.htm",

@@ -1,0 +1,489 @@
+{
+  "date": "2026-11-17",
+  "routes": 20,
+  "cases": 60,
+  "failing": [],
+  "passed": true,
+  "layouts": [
+    {
+      "path": "/works/uchronie-l-empoisonnement-de-louis-xiv-1680-deuxieme-chapitre-0f74cfa0/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/a-world-of-crowns-0ff9991c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/black-out-1030b425/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-nuovo-attila-10594e58/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pitea-il-bugiardo-parte-seconda-108dd9ae/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/oltre-la-fondazione-10bbbb59/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-racconto-delle-terrebasse-1109d71c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/nessuna-disfatta-di-caporetto-1129ecaa/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-muraglia-romana-117f5019/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/guerra-di-nullificazione-americana-11ba61d8/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-dei-cazari-anno-mundi-5776-11c26d99/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/sekigahara-un-ucronia-giapponese-11f98a7d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-minaccia-del-krang-11f9a00e/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/macabra-missione-1264ff80/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/1950-escalation-della-guerra-di-corea-12ba4507/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-mongoli-in-europa-1306456b/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-migrazione-bantu-131f8998/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uchronie-la-civilisation-intemporelle-13310fa4/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pio-xiii-1442850c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/e-succede-un-quarantotto-1453085c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uchronie-l-empoisonnement-de-louis-xiv-1680-deuxieme-chapitre-0f74cfa0/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/a-world-of-crowns-0ff9991c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/black-out-1030b425/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-nuovo-attila-10594e58/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pitea-il-bugiardo-parte-seconda-108dd9ae/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/oltre-la-fondazione-10bbbb59/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-racconto-delle-terrebasse-1109d71c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/nessuna-disfatta-di-caporetto-1129ecaa/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-muraglia-romana-117f5019/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/guerra-di-nullificazione-americana-11ba61d8/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-dei-cazari-anno-mundi-5776-11c26d99/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/sekigahara-un-ucronia-giapponese-11f98a7d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-minaccia-del-krang-11f9a00e/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/macabra-missione-1264ff80/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/1950-escalation-della-guerra-di-corea-12ba4507/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-mongoli-in-europa-1306456b/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-migrazione-bantu-131f8998/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uchronie-la-civilisation-intemporelle-13310fa4/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pio-xiii-1442850c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/e-succede-un-quarantotto-1453085c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uchronie-l-empoisonnement-de-louis-xiv-1680-deuxieme-chapitre-0f74cfa0/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/a-world-of-crowns-0ff9991c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/black-out-1030b425/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-nuovo-attila-10594e58/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pitea-il-bugiardo-parte-seconda-108dd9ae/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/oltre-la-fondazione-10bbbb59/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-racconto-delle-terrebasse-1109d71c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/nessuna-disfatta-di-caporetto-1129ecaa/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-muraglia-romana-117f5019/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/guerra-di-nullificazione-americana-11ba61d8/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-dei-cazari-anno-mundi-5776-11c26d99/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/sekigahara-un-ucronia-giapponese-11f98a7d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-minaccia-del-krang-11f9a00e/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/macabra-missione-1264ff80/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/1950-escalation-della-guerra-di-corea-12ba4507/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-mongoli-in-europa-1306456b/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-migrazione-bantu-131f8998/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uchronie-la-civilisation-intemporelle-13310fa4/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pio-xiii-1442850c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/e-succede-un-quarantotto-1453085c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    }
+  ]
+}

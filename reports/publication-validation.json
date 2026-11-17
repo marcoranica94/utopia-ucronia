@@ -1,9 +1,9 @@
 {
   "passed": true,
   "baselineItems": 43,
-  "additionalItems": 40,
-  "canonicalItems": 83,
-  "comparedReadingItems": 86,
+  "additionalItems": 60,
+  "canonicalItems": 103,
+  "comparedReadingItems": 106,
   "selectedProposals": [
     "proposal-doc-001fa9f2fc98",
     "proposal-doc-005bfe47becd",
@@ -44,7 +44,27 @@
     "proposal-doc-0e3b5a1fa190",
     "proposal-doc-0e9000e3e5d2",
     "proposal-doc-0f1860ed89bf",
-    "proposal-doc-0f5d653dbc8f"
+    "proposal-doc-0f5d653dbc8f",
+    "proposal-doc-0f74cfa06fd1",
+    "proposal-doc-0ff9991c3f67",
+    "proposal-doc-1030b4250bad",
+    "proposal-doc-10594e5884eb",
+    "proposal-doc-108dd9ae30f5",
+    "proposal-doc-10bbbb59d50a",
+    "proposal-doc-1109d71cafc6",
+    "proposal-doc-1129ecaa45f8",
+    "proposal-doc-117f50193141",
+    "proposal-doc-11ba61d8b8db",
+    "proposal-doc-11c26d99857c",
+    "proposal-doc-11f98a7d9eee",
+    "proposal-doc-11f9a00e9d4b",
+    "proposal-doc-1264ff806d52",
+    "proposal-doc-12ba45074766",
+    "proposal-doc-1306456b4129",
+    "proposal-doc-131f89984bc4",
+    "proposal-doc-13310fa4dca7",
+    "proposal-doc-1442850cb20a",
+    "proposal-doc-1453085c69eb"
   ],
   "scope": "Explicit owner approvals plus persistent publication selections; every selected item is converted and source-compared. Selection and review data remain absent from the site."
 }

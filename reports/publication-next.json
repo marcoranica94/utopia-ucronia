@@ -5,557 +5,550 @@
   "note": "Read-only review packet. No owner approval, publication selection or live ledger was changed.",
   "entries": [
     {
-      "proposalId": "proposal-doc-0f74cfa06fd1",
+      "proposalId": "proposal-doc-146a4886be45",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0f74cfa06fd1",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-146a4886be45",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "L’empoisonnement de Louis XIV (1680) de Porquoi pas? Continue de la première page 1805 : Les débuts du règne de l’empereur Arthur II sont consacrés à la réorganisation sociale et morale et de la Grande Bretagne. Une nobl",
+      "quote": "Carlo e Irene... di Lord Wilmore Ottobre 792: Carlo, re dei Franchi, non ancora proclamato Imperatore d'Occidente, corona finalmente il suo sogno e sposa Irene, basilissa dei romani, Imperatrice d'Oriente. Diviso dai tem",
       "items": [
         {
-          "id": "item-9839da16c1ef",
-          "title": "[uchronìe] L’empoisonnement de Louis XIV (1680), deuxième chapitre",
-          "path": "/works/uchronie-l-empoisonnement-de-louis-xiv-1680-deuxieme-chapitre-0f74cfa0/",
+          "id": "item-a31654af8f7e",
+          "title": "Carlo e Irene",
+          "path": "/works/carlo-e-irene-146a4886/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-0f74cfa06fd1",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/sans_Louis_XIV_2.htm",
-              "timestamp": "20240222015427",
+              "documentId": "doc-146a4886be45",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Carlo_e_Irene.htm",
+              "timestamp": "20200129154959",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "6b571ea8bb45d0be25eb1a8ff2387a61b7e4c2d4ba3f8aeb58488f04a48a33e6",
-              "localReviewPath": "/review/source/doc-0f74cfa06fd1/"
+              "sha256": "6c5303dbe8ad85dc2cccf4da4086789504e83fabc256cb68f334daf2a5524e77",
+              "localReviewPath": "/review/source/doc-146a4886be45/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-0ff9991c3f67",
+      "proposalId": "proposal-doc-14ac3a198d1b",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0ff9991c3f67",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-14ac3a198d1b",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "A World of Crowns di Tommaso Mazzoni NdA: Questa non è esattamente un'ucronia singola, ma una serie di P.o.D più o meno indipendenti fra di loro che sono necessari per far si che ogni nazione non monarchica del mondo lo",
+      "quote": "La « Belle Époque » 1870-1871 d.C.: deluso per le mancate compensazioni sul confine occidentale, Napoleone III teme l'accerchiamento dopo l'alleanza tra Bismarck ed i RUA e dopo l'alleanza italo-prussiana; invia perciò u",
       "items": [
         {
-          "id": "item-19cedf2fc09f",
-          "title": "A World of Crowns",
-          "path": "/works/a-world-of-crowns-0ff9991c/",
+          "id": "item-5074c974ab8f",
+          "title": "La « Belle Époque »",
+          "path": "/works/la-belle-epoque-14ac3a19/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-0ff9991c3f67",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/World_of_Crowns.htm",
-              "timestamp": "20210305225009",
+              "documentId": "doc-14ac3a198d1b",
+              "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_17.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "8d9c6e9c6a45efe16ba9684d5d830e7a6200e13c345a66dc1d6f1de3a545e907",
-              "localReviewPath": "/review/source/doc-0ff9991c3f67/"
+              "sha256": "b17a3a64c46b2814442e4b66fc35114d3eec8fcdd3b3b602bc7df0b7f0912faa",
+              "localReviewPath": "/review/source/doc-14ac3a198d1b/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-1030b4250bad",
+      "proposalId": "proposal-doc-14c488c7e969",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-1030b4250bad",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-14c488c7e969",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "BLACK OUT Un giorno Dio ne avrà abbastanza. Televisori, Internet, schermi di computer, armi teleguidate, luci di Las Vegas, ridde di discoteche piomberanno nel buio. Invano ci accaniremo su interruttori e pulsanti: nulla",
+      "quote": "Attacco all'Occidente Siracide rientra da Cartagine nel luglio del 319 a.C., ed Alessandro il Macedone si trattiene ad Alessandria d'Egitto fino al settembre dello stesso anno, dedicandosi all'organizzazione del suo stat",
       "items": [
         {
-          "id": "item-99a6f18f494d",
-          "title": "Black out",
-          "path": "/works/black-out-1030b425/",
+          "id": "item-1430e45d175b",
+          "title": "Fanta-Alessandro Magno",
+          "path": "/works/fanta-alessandro-magno-14c488c7/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-1030b4250bad",
-              "url": "http://www.fmboschetto.it/racconti/poesie%20colleghi/blackout.htm",
+              "documentId": "doc-14c488c7e969",
+              "url": "http://www.fmboschetto.it/racconti/Alessandro/Alessandro_2.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "d44548021bc7a5b63731a76de8a3c1fd5e461c40552ec6c55508ade8571ced00",
-              "localReviewPath": "/review/source/doc-1030b4250bad/"
+              "sha256": "e9e070a170532831e405b0c8822e82c2755dfe3d700f351f9fae27eee53bd9c5",
+              "localReviewPath": "/review/source/doc-14c488c7e969/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-10594e5884eb",
+      "proposalId": "proposal-doc-15c46165ece4",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-10594e5884eb",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-15c46165ece4",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Il Nuovo Attila di Enrica S. La \"Prima\" della Scala del 7 dicembre 2018 ha visto la rappresentazione dell'\"Attila\" di Giuseppe Verdi. Ho apprezzato molto la bravura dei cantanti, ma non mi ha convinto la trasposizione de",
+      "quote": "CONTICUERE OMNES... Alla dottoressa Elena Cristina Bolla Tacquero tutti, il padre Enea fissando nel volto suo, pendendo dal suo labbro; dall'alto scranno ei prese a dir così: \"Regina, chiedi a me ch'io rinnovelli dolore",
       "items": [
         {
-          "id": "item-371c3e42c1fe",
-          "title": "Il Nuovo Attila",
-          "path": "/works/il-nuovo-attila-10594e58/",
+          "id": "item-32ad71fcbfb8",
+          "title": "Conticuere Omnes...",
+          "path": "/works/conticuere-omnes-15c46165/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-10594e5884eb",
-              "url": "http://www.fmboschetto.it/utopiaucronia/Nuovo_Attila.htm",
-              "timestamp": "20210411102650",
+              "documentId": "doc-15c46165ece4",
+              "url": "http://www.fmboschetto.it/racconti/Conticuere.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "d72b193332e88ecc4659d7cb8886f85a9321792ca8ee7e8b7e0e974a0350bddc",
-              "localReviewPath": "/review/source/doc-10594e5884eb/"
+              "sha256": "bdefd56b2c3d89fce9e2e1e7713b4423641aed82985ae6fa2b9b8a5c09f24f3b",
+              "localReviewPath": "/review/source/doc-15c46165ece4/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-108dd9ae30f5",
+      "proposalId": "proposal-doc-15faca461a1a",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-108dd9ae30f5",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-15faca461a1a",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Actibus immensis urbs fulget massiliensis di Perchè No? Ecco ora la seconda parte dell'ucronia di Perchè No? dedicata alla scoperta delle Americhe da parte di un navigatore greco. Per leggere la prima parte, cliccate qui",
+      "quote": "Addio a Garibaldi di Francesco Dessolis Sulla scia delle ucronie ottocentesche, come la Repubblica Italiana del 1848 di Homer e Lunga vita a Federico III di Dorian Gray, mi è venuta in mente una variante che ho cercato d",
       "items": [
         {
-          "id": "item-5406c395a2dc",
-          "title": "Pitea il bugiardo, parte seconda",
-          "path": "/works/pitea-il-bugiardo-parte-seconda-108dd9ae/",
+          "id": "item-b614b7b3f470",
+          "title": "La Fatal Castelfidardo",
+          "path": "/works/la-fatal-castelfidardo-15faca46/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-108dd9ae30f5",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Pitea_2.htm",
-              "timestamp": "20130829024153",
+              "documentId": "doc-15faca461a1a",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/addio_a_Garibaldi.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "8d55af962cc9afa5f843b421d333627d4ed86834b00929f0f7476604da99b1c8",
-              "localReviewPath": "/review/source/doc-108dd9ae30f5/"
+              "sha256": "f9d05afe5ebea10266502ac7b8cfc1c740f1adfef10f6b0672cb97b8e38033b3",
+              "localReviewPath": "/review/source/doc-15faca461a1a/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-10bbbb59d50a",
+      "proposalId": "proposal-doc-167878df7ef0",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-10bbbb59d50a",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-167878df7ef0",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Oltre la Fondazione un omaggio ad Isaac Asimov di Perchè No? I In altre occasioni la passeggiata sarebbe stata piacevole. L’antico perimetro dei giardini imperiali di Trantor era tornato selvaggio da secoli, sin dalla fi",
+      "quote": "Ottocento Italiano di William Riker dedicata a Maciò e a Dorian Gray Ecco la seconda parte della mia ucronia in cui l'Italia arriva divisa fino al presente. Per leggere la prima parte, cliccate qui. . 1946 Il 26 febbraio",
       "items": [
         {
-          "id": "item-cc6c2913a689",
-          "title": "Oltre la Fondazione",
-          "path": "/works/oltre-la-fondazione-10bbbb59/",
+          "id": "item-bb2c512839a4",
+          "title": "Ottocento Italiano",
+          "path": "/works/ottocento-italiano-167878df/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-10bbbb59d50a",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/Oltre_la_Fondazione.htm",
-              "timestamp": "20250418222732",
+              "documentId": "doc-167878df7ef0",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Sissi_napoletana_2.htm",
+              "timestamp": "20230919133355",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "7977ed66da52cdac979934ff6d0fa02c3ef7a08b59244f4b9a0d137de1ac0673",
-              "localReviewPath": "/review/source/doc-10bbbb59d50a/"
+              "sha256": "e44b4d582df784f64db342eee3fc87b077e2a0b903e698165e4997a808ac68df",
+              "localReviewPath": "/review/source/doc-167878df7ef0/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-1109d71cafc6",
+      "proposalId": "proposal-doc-17325c345e8b",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-1109d71cafc6",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-17325c345e8b",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Il racconto delle Terrebasse di feder Fango, zecche, cadaveri. Questo era quanto, almeno per ora, le Terrebasse gli avevano regalato. Eppure, l'eco delle voci risuonava ancora nella testa di Willem! Imbarcati, gli aveva",
+      "quote": "Luigi XIX Re di Francia di Federico Sangalli Ritratto da giovane di Sua Maestà Luigi XIX, Re dei Francesi per Grazia Divina e Volontà della Nazione (ritratto in realtà del Principe Massimiliano di Sassonia, NdR) Luigi XI",
       "items": [
         {
-          "id": "item-84abda8df04e",
-          "title": "Il racconto delle Terrebasse",
-          "path": "/works/il-racconto-delle-terrebasse-1109d71c/",
+          "id": "item-8f91299f60de",
+          "title": "Luigi XIX Re di Francia",
+          "path": "/works/luigi-xix-re-di-francia-17325c34/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-1109d71cafc6",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/Terrebasse.htm",
-              "timestamp": "20250523082555",
+              "documentId": "doc-17325c345e8b",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Luigi_XIX.htm",
+              "timestamp": "20171006175129",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "40de43e8018a6b2c8913bf10e6f5b1fe3e96439c7b91e8b14ea3c33041221ed4",
-              "localReviewPath": "/review/source/doc-1109d71cafc6/"
+              "sha256": "85957fc36a0d6e71411c94b63d06b6f649510ebc0dc47444ccf8340c9ff76dd9",
+              "localReviewPath": "/review/source/doc-17325c345e8b/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-1129ecaa45f8",
+      "proposalId": "proposal-doc-181c5d38774a",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-1129ecaa45f8",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-181c5d38774a",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Nessuna disfatta di Caporetto! L'amico Camillo Cantarano ha voluto proporre una Timeline riguardante l'(evitata) disfatta di Caporetto. L'esercito austriaco è così logorato che il suo collasso diventa inevitabile. Ovviam",
+      "quote": "Torino e Genova all'Austria nel 1815! . Tutto parte dalla proposta di Massimiliano Paleari: Il Congresso di Vienna del 1815 seguito alla disfatta di Napoleone sancì il ritorno di Casa Savoia a Torino. Lo Stato Sabaudo no",
       "items": [
         {
-          "id": "item-c5ac363e9d8b",
-          "title": "Nessuna disfatta di Caporetto!",
-          "path": "/works/nessuna-disfatta-di-caporetto-1129ecaa/",
+          "id": "item-107629383cdf",
+          "title": "Realismo anziché Restaurazione dopo Napoleone",
+          "path": "/works/realismo-anziche-restaurazione-dopo-napoleone-181c5d38/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-1129ecaa45f8",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Senza_Caporetto.htm",
-              "timestamp": "20100420033105",
+              "documentId": "doc-181c5d38774a",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Realismo_anziche_Restaurazione.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "5bd20565f16ff843051e75caf41541baadbf1974f06f081cf95ebf907149a9bb",
-              "localReviewPath": "/review/source/doc-1129ecaa45f8/"
+              "sha256": "5a9b8b41ea1bf3714b8eceb33ff7d39b6bc6f4a62d855dc4a2a3ee512f9eca1c",
+              "localReviewPath": "/review/source/doc-181c5d38774a/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-117f50193141",
+      "proposalId": "proposal-doc-184829c040d8",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-117f50193141",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-184829c040d8",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "di Lord Wilmore . L'impero romano scelse come \"confini naturali\" il Reno e il Danubio ma, com'è noto, i Franchi varcarono il Reno ed invasero le Gallie approfittando di un inverno eccezionalmente freddo che gelò il grand",
+      "quote": "Ucronie etrusche di Rasenna Cari amici, ho alcune idee da sviluppare considerando alcune date salienti della storia etrusca come la battaglia di Ariccia (508 a.C.), la battaglia navale di Cuma (476 a.C.), entrambe perse",
       "items": [
         {
-          "id": "item-f16054799485",
-          "title": "La Grande Muraglia Romana",
-          "path": "/works/la-grande-muraglia-romana-117f5019/",
+          "id": "item-f8779817e5f7",
+          "title": "Ucronie etrusche",
+          "path": "/works/ucronie-etrusche-184829c0/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-117f50193141",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/Grande_Muraglia_Romana.htm",
-              "timestamp": "20250823003454",
+              "documentId": "doc-184829c040d8",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_etrusche.htm",
+              "timestamp": "20150507211914",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "0ac3f208ed1b2ad3ca346f7fa7c1d9a6fefce8c3a5e67454478e9629d6052bae",
-              "localReviewPath": "/review/source/doc-117f50193141/"
+              "sha256": "bf10efb8d6b0fd50fe4d3af76dfca5bab25821233a8fec67e2ace1dbae931b9a",
+              "localReviewPath": "/review/source/doc-184829c040d8/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-11ba61d8b8db",
+      "proposalId": "proposal-doc-18b8e5d63736",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-11ba61d8b8db",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-18b8e5d63736",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Lunga vita al Sud! Questa ucronia è stata tradotta per noi da Generalissimus: La Guerra Civile fu il conflitto più devastante della storia statunitense, circa 640.000 Americani morirono nei quattro anni di combattimenti",
+      "quote": "Determinismo tecnologico? Ecco la proposta avanzata da Dans: Qualche tempo fa riflettevo sulla possibilità di modificare l'attuale determinismo tecnologico, ovvero: è davvero necessario che la serie delle scoperte tecnol",
       "items": [
         {
-          "id": "item-5f3912809d06",
-          "title": "Guerra di Nullificazione Americana",
-          "path": "/works/guerra-di-nullificazione-americana-11ba61d8/",
+          "id": "item-fc63636b0d54",
+          "title": "Determinismo tecnologico?",
+          "path": "/works/determinismo-tecnologico-18b8e5d6/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-11ba61d8b8db",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/nullificazione.htm",
-              "timestamp": "20241210012833",
+              "documentId": "doc-18b8e5d63736",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/determinismo_tecnologico.htm",
+              "timestamp": "20160614084246",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "5cfad47959b864134af6b1e7c0a2d3b2d875bccbde1525adbcc50413fc5995d7",
-              "localReviewPath": "/review/source/doc-11ba61d8b8db/"
+              "sha256": "d24f87bea8c9855ae6e5bf99deda7c134d4a3d67e8875174ac5ad0b00dce4549",
+              "localReviewPath": "/review/source/doc-18b8e5d63736/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-11c26d99857c",
+      "proposalId": "proposal-doc-18babdce0ed9",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-11c26d99857c",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-18babdce0ed9",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "L'Impero dei Cazari, Anno Mundi 5776 di Tommaso Mazzoni Bandiera dell'Impero Cazaro 597 a.C. Gerusalemme è espugnata, il Tempio di Salomone è distrutto e i Giudei sono deportati a Babilonia. 590 a.C. Secondo la tradizion",
+      "quote": "E se la Germania avesse vinto la Grande Guerra? di MAS Ecco la proposta di Generalissimus che ha tradotto per noi nuove ucronie per il nostro gioco ucronico consistente nello scrivere tutti un'ucronia che preveda una Pri",
       "items": [
         {
-          "id": "item-5d02931f1c13",
-          "title": "L'Impero dei Cazari, Anno Mundi 5776",
-          "path": "/works/l-impero-dei-cazari-anno-mundi-5776-11c26d99/",
+          "id": "item-1f60aeadbddf",
+          "title": "E se la Germania avesse vinto la Grande Guerra?",
+          "path": "/works/e-se-la-germania-avesse-vinto-la-grande-guerra-18babdce/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-11c26d99857c",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/Cazari_eterni.htm",
+              "documentId": "doc-18babdce0ed9",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_WWI_PP.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "836e9ed339b7687f8e162e614a3fef4a7a973d0a72be1ecc07962732e3aa2fbf",
-              "localReviewPath": "/review/source/doc-11c26d99857c/"
+              "sha256": "be77b9954f3103c38958f1b2f7a0a9f8c8aba8001c6b21a8dc7f9ef960673549",
+              "localReviewPath": "/review/source/doc-18babdce0ed9/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-11f98a7d9eee",
+      "proposalId": "proposal-doc-19f80057677e",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-11f98a7d9eee",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-19f80057677e",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Sekigahara, un'ucronia giapponese di Falecius POD: Mori Terumoto raggiunge il resto delle truppe fedeli ai Toyotomi invece di gironzolare nei dintorni di Osaka. Tokugawa Ieyasu perde la battaglia di Sekigahara nell'ottob",
+      "quote": "SOTTO LA DINASTIA BALBEA (984 - 1054 aUc = 231 - 301 d.C.) L'Età Balbea Abbagliato dagli incredibili successi da lui colti in un ventennio di fortunate spedizioni militari, Caio Vero Svetonio comincia a preparare piani p",
       "items": [
         {
-          "id": "item-eaec57698320",
-          "title": "Sekigahara, un'ucronia giapponese",
-          "path": "/works/sekigahara-un-ucronia-giapponese-11f98a7d/",
+          "id": "item-dee8d2bdd993",
+          "title": "Sotto la dinastia Balbea",
+          "path": "/works/sotto-la-dinastia-balbea-19f80057/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-11f98a7d9eee",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Sekigahara.htm",
-              "timestamp": "20260513124049",
+              "documentId": "doc-19f80057677e",
+              "url": "http://www.fmboschetto.it/racconti/iperimpero/iperimp3.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "4f12b628407768d1b7f1facd2e6c537d899283dda624fff8e3285599ac2e61f5",
-              "localReviewPath": "/review/source/doc-11f98a7d9eee/"
+              "sha256": "f4456ed0aa4f04a3305371b97eb90daa4d23303d808e44f4d19766f9a54172b6",
+              "localReviewPath": "/review/source/doc-19f80057677e/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-11f9a00e9d4b",
+      "proposalId": "proposal-doc-1a6df45f6606",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-11f9a00e9d4b",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-1a6df45f6606",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "La minaccia del Krang di Sandro Degiani Questo primo racconto è anche il primo che ho scritto professionalmente per farlo leggere. Lo spedìì a Delos e ne ricevetti una lusinghiera recensione. Dato che sfrutta ben precisi",
+      "quote": "La Grande Assiria di Epaminonda Verso la fine del VII secolo a.C. L'Impero Assiro, che si estendeva su Mesopotamia, in Siria, Cipro, nell'Elam, buona parte dell'Anatolia e della Palestina, era in una gravissima crisi, st",
       "items": [
         {
-          "id": "item-349cc409f8c6",
-          "title": "La minaccia del Krang",
-          "path": "/works/la-minaccia-del-krang-11f9a00e/",
+          "id": "item-834c9d58804e",
+          "title": "La Grande Assiria",
+          "path": "/works/la-grande-assiria-1a6df45f/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-11f9a00e9d4b",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Krang.htm",
-              "timestamp": "20250523083706",
+              "documentId": "doc-1a6df45f6606",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Grande_Assiria.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "53525facad5952544f88d41ff1ed97f5344f026ae7c416522784616563b00e94",
-              "localReviewPath": "/review/source/doc-11f9a00e9d4b/"
+              "sha256": "2e9b67225f2da0fa5b13e257dbf34ed34a9df8ff3babb3476e7ea2329c9ea7db",
+              "localReviewPath": "/review/source/doc-1a6df45f6606/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-1264ff806d52",
+      "proposalId": "proposal-doc-1ad9def561cc",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-1264ff806d52",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-1ad9def561cc",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Macabra missione di Generalissimus Gustatevi, se così si può dire, la mia ultima follia. So che non c'è nulla che stia in piedi, ma non va presa troppo sul serio. Infatti doveva anche avere un tono molto più leggero, ma",
+      "quote": "15 ottobre 1972, Milan-Atalanta 4-3 di Simone 15 ottobre 1972, Milan-Atalanta 4-3... e cambiò la storia del calcio italiano!!! Cosa cambia se una squadra invece di perdere 5-0 perde 4-1 oppure 4-0? Non cambia un bel null",
       "items": [
         {
-          "id": "item-a46e3b7327fc",
-          "title": "Macabra missione",
-          "path": "/works/macabra-missione-1264ff80/",
+          "id": "item-9fb61dd685b8",
+          "title": "15 ottobre 1972, Milan-Atalanta 4-3",
+          "path": "/works/15-ottobre-1972-milan-atalanta-4-3-1ad9def5/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-1264ff806d52",
-              "url": "http://www.fmboschetto.it/utopiaucronia/Ondga.htm",
-              "timestamp": "20250418220710",
+              "documentId": "doc-1ad9def561cc",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Atalanta.htm",
+              "timestamp": "20231205022039",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "6315b382f895e67784cca8f50aa5dac2f8dc8e4ea1a4863261c9269a74ed0d6c",
-              "localReviewPath": "/review/source/doc-1264ff806d52/"
+              "sha256": "52ac88a642535847a902688d6eb50425784355d3bed64184f74c13331c1908c7",
+              "localReviewPath": "/review/source/doc-1ad9def561cc/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-12ba45074766",
+      "proposalId": "proposal-doc-1ca48c3b0872",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-12ba45074766",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-1ca48c3b0872",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "1952: la Comunità Europea di Difesa di Dans Dopo la creazione nel' 51 della Ceca, nel '52 De Gasperi, Adenauer e Schumann propongono la costituzione di una Comunità Europea di Difesa (Ced) che avrebbe dovuto unificare gl",
+      "quote": "Dio lo vuole! di Basileus TFT POD: Dopo la battaglia di Manzicerta i Turchi non si limitano a trattare la cessione dell’Armenia con i bizantini, per occuparsi dei fatimidi a sud: immaginiamo che stipulino un trattato di",
       "items": [
         {
-          "id": "item-4a2af8913e59",
-          "title": "1950: escalation della Guerra di Corea",
-          "path": "/works/1950-escalation-della-guerra-di-corea-12ba4507/",
+          "id": "item-95ac4ef1da99",
+          "title": "Dio lo vuole!",
+          "path": "/works/dio-lo-vuole-1ca48c3b/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-12ba45074766",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_Dans.htm",
-              "timestamp": "20170611173516",
+              "documentId": "doc-1ca48c3b0872",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Dio_lo_vuole.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "2c1250a20e042611ee0c0d19f764ee095f8bdb28c2b86e73b92fea6d16709594",
-              "localReviewPath": "/review/source/doc-12ba45074766/"
+              "sha256": "ef7c37bcdc1995f2487360498e53f92097394ef680f5cac1dc6dc6ab17b32d30",
+              "localReviewPath": "/review/source/doc-1ca48c3b0872/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-1306456b4129",
+      "proposalId": "proposal-doc-1cdfa6c748f9",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-1306456b4129",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-1cdfa6c748f9",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "I Mongoli in Europa La bandiera dell'Orda Sacra Tutta la discussione prende avvio da questa proposta di Enrica S.: 5 agosto 1242: l'armata dell'Orda d'Oro, forte di 120.000 guerrieri mongoli addestratissimi e fedeli fino",
+      "quote": "L'Italia resta neutrale nella Prima Guerra Mondiale di Basileus TFT Tutti noi sappiamo come l’Italia sia stata divisa fra interventisti e non durante la prima guerra mondiale. Ora poniamo il caso che le tendenze pacifist",
       "items": [
         {
-          "id": "item-572cab15ad05",
-          "title": "I Mongoli in Europa",
-          "path": "/works/i-mongoli-in-europa-1306456b/",
+          "id": "item-f5a559d7a5ed",
+          "title": "L'Italia resta neutrale nella Prima Guerra Mondiale",
+          "path": "/works/l-italia-resta-neutrale-nella-prima-guerra-mondiale-1cdfa6c7/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-1306456b4129",
-              "url": "http://www.fmboschetto.it/utopiaucronia/fanta_Mongoli.htm",
-              "timestamp": "20250301114347",
+              "documentId": "doc-1cdfa6c748f9",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_WWI_Basileus.htm",
+              "timestamp": "20100413125818",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "1728b64c2d16b4bfd24d63ad09e154bd11244d2fff0a61464b4fbca7834ec939",
-              "localReviewPath": "/review/source/doc-1306456b4129/"
+              "sha256": "ad6f2cb7005df450ca0c4587db2c0642e680a22a3ed8d42bad84098c582812ca",
+              "localReviewPath": "/review/source/doc-1cdfa6c748f9/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-131f89984bc4",
+      "proposalId": "proposal-doc-1d09cb9c807f",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-131f89984bc4",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-1d09cb9c807f",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "La Grande Migrazione Bantù Anche questa ucronia viene iniziata da JFB: 2550 anni fa, da qualche parte lungo il confine che divide Camerun e Nigeria, cominciò la migrazione dei bantù, favorita dalla domesticazione di pian",
+      "quote": "Le bombe piovono sulla città una folle ucronia di Homer Le bombe piovono sulla città, incendi divampano ovunque, grida e strazi arrivano da ogni parte dell’urbe ferita, e si sente un continuo tonfo delle macerie che colp",
       "items": [
         {
-          "id": "item-c6e9e2a56fda",
-          "title": "La Grande Migrazione Bantù",
-          "path": "/works/la-grande-migrazione-bantu-131f8998/",
+          "id": "item-974bb4332ddc",
+          "title": "Le bombe piovono sulla città",
+          "path": "/works/le-bombe-piovono-sulla-citta-1d09cb9c/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-131f89984bc4",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Bantu.htm",
-              "timestamp": "20100314112247",
+              "documentId": "doc-1d09cb9c807f",
+              "url": "http://www.fmboschetto.it/utopiaucronia/bombe_piovono.htm",
+              "timestamp": "20210411093948",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "f38da9b391aa63241e478787ac2f394599fbd9939760687cc81cbc179bfaf372",
-              "localReviewPath": "/review/source/doc-131f89984bc4/"
+              "sha256": "b92d76c795a0de93d93c3933593434565924a1012cd8659be34a54a834e860d6",
+              "localReviewPath": "/review/source/doc-1d09cb9c807f/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-13310fa4dca7",
+      "proposalId": "proposal-doc-1d8a2ff25c33",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-13310fa4dca7",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-1d8a2ff25c33",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "La civilisation intemporelle de Porquoi pas? J’ai voulu ici imaginer une civilisation basée sur le voyage temporel, je ne suis pas sûr d’avoir réussi à rendre totalement la complexité de l’idée, je l’ai appelée la civili",
+      "quote": "L'Egitto Eterno di Perchè No? Stupisce come la civiltà egiziana sia sopravvissuta fino ai nostri giorni, come ha fatto la civiltà cinese. Il momento critico si svolge durante il Quarto Periodo Intermedio. L’impero barbar",
       "items": [
         {
-          "id": "item-a796dfbf819e",
-          "title": "[uchronìe] La civilisation intemporelle",
-          "path": "/works/uchronie-la-civilisation-intemporelle-13310fa4/",
+          "id": "item-639f0cbb14d0",
+          "title": "L'Egitto Eterno",
+          "path": "/works/l-egitto-eterno-1d8a2ff2/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-13310fa4dca7",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/civilisation_intemporelle.htm",
-              "timestamp": "20240422214124",
+              "documentId": "doc-1d8a2ff25c33",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Egitto_Eterno.htm",
+              "timestamp": "20130829020925",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "1786d40cfa5d3132330673ecb835873b84848a1c68e7064d94a820a2c1bbfa5b",
-              "localReviewPath": "/review/source/doc-13310fa4dca7/"
+              "sha256": "e8d25acec2d963e6703f35490a5370bd38dedb6f44378821782663b32b676b86",
+              "localReviewPath": "/review/source/doc-1d8a2ff25c33/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-1442850cb20a",
+      "proposalId": "proposal-doc-1db7233d26a7",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-1442850cb20a",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-1db7233d26a7",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Pio XIII del Marziano POD: 1958, alla morte di Pio XII è eletto pontefice il Cardinale Siri. Cosa che, a quanto si è saputo, avvenne per davvero, del resto era l'erede ed il prosecutore naturale dl pontificato pacelliano",
+      "quote": "Il Regno dell'Estate Stavolta parliamo di re Artù, vi va? Anzitutto: chi era veramente quest'eroe semileggendario ? Ancora si discute se si tratti di una figura storica o di un eroe epico di fantasia. Chi crede nella pri",
       "items": [
         {
-          "id": "item-c952982a8366",
-          "title": "Pio XIII",
-          "path": "/works/pio-xiii-1442850c/",
+          "id": "item-81bfb8bf97ef",
+          "title": "Il Regno dell'Estate",
+          "path": "/works/il-regno-dell-estate-1db7233d/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-1442850cb20a",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/PioXIII.htm",
-              "timestamp": "20120407081217",
+              "documentId": "doc-1db7233d26a7",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_re_Artu.htm",
+              "timestamp": "20240422220221",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "3b0654cd644a330c03b6ad875e97bcdc67dfa78d4251ff0ff975662e58906684",
-              "localReviewPath": "/review/source/doc-1442850cb20a/"
+              "sha256": "47fcb7a1e3362fe591daed81d15ddaa9373371b0ab4168d6a432465b4c134639",
+              "localReviewPath": "/review/source/doc-1db7233d26a7/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-1453085c69eb",
+      "proposalId": "proposal-doc-1db90cb3386e",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-1453085c69eb",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-1db90cb3386e",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "...E succede un Quarantotto 1815-1823 d.C.: governa il quinto presidente degli USE, lo scozzese James Monroe, ultimo dei presidenti anglosassoni; già governatore della Scozia, era stato incaricato da Jefferson di condurr",
+      "quote": "Paradiso e inferno Un uomo camminava per una strada con il suo cane. Si godeva il paesaggio, quando ad un tratto si rese conto di essere morto. Si ricordò di quando stava morendo e che il cane che gli camminava al fianco",
       "items": [
         {
-          "id": "item-89bf67c4f80b",
-          "title": "...E succede un Quarantotto",
-          "path": "/works/e-succede-un-quarantotto-1453085c/",
+          "id": "item-e193d5fd6cde",
+          "title": "Paradiso e inferno",
+          "path": "/works/paradiso-e-inferno-1db90cb3/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-1453085c69eb",
-              "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_15.htm",
+              "documentId": "doc-1db90cb3386e",
+              "url": "http://www.fmboschetto.it/racconti/Paradiso_e_inferno.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "b321ee8b28cecadc06fb7ca3feef3da373f896c749579ae1b84c3f7348957d05",
-              "localReviewPath": "/review/source/doc-1453085c69eb/"
+              "sha256": "de1e67ad9c424db293e87a34ca706f9cc31ef9e75781a94739e099b3b252ff3d",
+              "localReviewPath": "/review/source/doc-1db90cb3386e/"
             }
           ]
         }
