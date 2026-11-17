@@ -1,0 +1,969 @@
+{
+  "date": "2026-11-17",
+  "routes": 40,
+  "cases": 120,
+  "failing": [],
+  "passed": true,
+  "layouts": [
+    {
+      "path": "/works/meno-mare-sulla-terra-ae45c001/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/gesu-a-roma-ae538342/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/arcune-leggenne-romane-de-roma-ae60c1f5/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-borgogna-aeb0281a/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-re-sole-muore-nel-1680-terza-parte-af4d23a0/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-bianco-muove-e-da-matto-in-tre-mosse-di-sandro-degiani-af8711d5/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-canto-di-gaia-af9f47ec/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/chi-non-fisica-non-rosica-b044f063/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/felice-come-un-saraceno-in-francia-b0698ad6/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-nativi-amrticani-sugli-scudi-b0ef8652/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ladislao-di-durazzo-re-d-italia-b1fba9a7/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-comunita-politica-europea-b22ad1d5/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-regno-di-bosnia-b244a850/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/guerra-sul-monte-kamnina-b3034338/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/fantastorie-la-peste-rabbiosa-b36fa768/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-muraglia-romana-b3c1575d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/cronologia-dell-era-spaziale-b3f3ab58/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/10-giugno-1940-b3fe0e89/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-granducato-di-turicchi-b404de09/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/a-tutti-gli-appassionati-di-ucronie-di-enrico-pellerito-e-del-marziano-b421c102/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/italia-e-jugoslavia-scambiate-di-posto-b4a6d203/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/que-viva-mexico-b5127527/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-patria-europa-b59b271c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/unione-sovietica-e-sacro-romano-impero-b6069bf1/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-illuminismo-in-atlantide-b71adfe8/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-nuova-toscana-b81b8378/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uchronie-l-empoisonnement-de-louis-xiv-1680-premier-chapitre-b8464b30/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-germania-non-dichiara-guerra-agli-usa-b849efa9/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/lettere-da-londra-b8a6f0f4/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-d-alaska-b8f17fcb/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/le-avventure-della-salma-di-benito-mussolini-b8f82e82/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uchronie-pytheas-le-menteur-b93da821/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-oro-dei-cimmeri-b954f1af/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/stati-uniti-delle-venezie-b960d034/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/unternehmen-seelowe-operazione-seelowe-ba3bff7d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-filistei-eterni-ba60d7de/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/alti-e-bassi-sotto-i-severi-ba949ab7/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-legione-ritrovata-bab3b03e/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-ucronia-de-juan-pablo-ii-el-grande-bb087e94/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/shekinah-un-cuento-de-navidad-bb816f12/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/meno-mare-sulla-terra-ae45c001/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/gesu-a-roma-ae538342/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/arcune-leggenne-romane-de-roma-ae60c1f5/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-borgogna-aeb0281a/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-re-sole-muore-nel-1680-terza-parte-af4d23a0/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-bianco-muove-e-da-matto-in-tre-mosse-di-sandro-degiani-af8711d5/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-canto-di-gaia-af9f47ec/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/chi-non-fisica-non-rosica-b044f063/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/felice-come-un-saraceno-in-francia-b0698ad6/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-nativi-amrticani-sugli-scudi-b0ef8652/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ladislao-di-durazzo-re-d-italia-b1fba9a7/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-comunita-politica-europea-b22ad1d5/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-regno-di-bosnia-b244a850/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/guerra-sul-monte-kamnina-b3034338/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/fantastorie-la-peste-rabbiosa-b36fa768/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-muraglia-romana-b3c1575d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/cronologia-dell-era-spaziale-b3f3ab58/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/10-giugno-1940-b3fe0e89/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-granducato-di-turicchi-b404de09/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/a-tutti-gli-appassionati-di-ucronie-di-enrico-pellerito-e-del-marziano-b421c102/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/italia-e-jugoslavia-scambiate-di-posto-b4a6d203/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/que-viva-mexico-b5127527/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-patria-europa-b59b271c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/unione-sovietica-e-sacro-romano-impero-b6069bf1/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-illuminismo-in-atlantide-b71adfe8/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-nuova-toscana-b81b8378/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uchronie-l-empoisonnement-de-louis-xiv-1680-premier-chapitre-b8464b30/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-germania-non-dichiara-guerra-agli-usa-b849efa9/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/lettere-da-londra-b8a6f0f4/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-d-alaska-b8f17fcb/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/le-avventure-della-salma-di-benito-mussolini-b8f82e82/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uchronie-pytheas-le-menteur-b93da821/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-oro-dei-cimmeri-b954f1af/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/stati-uniti-delle-venezie-b960d034/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/unternehmen-seelowe-operazione-seelowe-ba3bff7d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-filistei-eterni-ba60d7de/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/alti-e-bassi-sotto-i-severi-ba949ab7/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-legione-ritrovata-bab3b03e/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-ucronia-de-juan-pablo-ii-el-grande-bb087e94/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/shekinah-un-cuento-de-navidad-bb816f12/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/meno-mare-sulla-terra-ae45c001/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/gesu-a-roma-ae538342/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/arcune-leggenne-romane-de-roma-ae60c1f5/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-borgogna-aeb0281a/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-re-sole-muore-nel-1680-terza-parte-af4d23a0/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-bianco-muove-e-da-matto-in-tre-mosse-di-sandro-degiani-af8711d5/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-canto-di-gaia-af9f47ec/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/chi-non-fisica-non-rosica-b044f063/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/felice-come-un-saraceno-in-francia-b0698ad6/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-nativi-amrticani-sugli-scudi-b0ef8652/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ladislao-di-durazzo-re-d-italia-b1fba9a7/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-comunita-politica-europea-b22ad1d5/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-regno-di-bosnia-b244a850/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/guerra-sul-monte-kamnina-b3034338/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/fantastorie-la-peste-rabbiosa-b36fa768/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-grande-muraglia-romana-b3c1575d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/cronologia-dell-era-spaziale-b3f3ab58/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/10-giugno-1940-b3fe0e89/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-granducato-di-turicchi-b404de09/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/a-tutti-gli-appassionati-di-ucronie-di-enrico-pellerito-e-del-marziano-b421c102/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/italia-e-jugoslavia-scambiate-di-posto-b4a6d203/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/que-viva-mexico-b5127527/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-patria-europa-b59b271c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/unione-sovietica-e-sacro-romano-impero-b6069bf1/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-illuminismo-in-atlantide-b71adfe8/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-nuova-toscana-b81b8378/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uchronie-l-empoisonnement-de-louis-xiv-1680-premier-chapitre-b8464b30/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-germania-non-dichiara-guerra-agli-usa-b849efa9/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/lettere-da-londra-b8a6f0f4/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-d-alaska-b8f17fcb/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/le-avventure-della-salma-di-benito-mussolini-b8f82e82/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/uchronie-pytheas-le-menteur-b93da821/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-oro-dei-cimmeri-b954f1af/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/stati-uniti-delle-venezie-b960d034/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/unternehmen-seelowe-operazione-seelowe-ba3bff7d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/i-filistei-eterni-ba60d7de/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/alti-e-bassi-sotto-i-severi-ba949ab7/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-legione-ritrovata-bab3b03e/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-ucronia-de-juan-pablo-ii-el-grande-bb087e94/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/shekinah-un-cuento-de-navidad-bb816f12/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    }
+  ]
+}
