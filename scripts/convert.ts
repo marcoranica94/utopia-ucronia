@@ -384,8 +384,13 @@ for (const result of results) {
   result.markdown = result.markdown
     .replace(/href="([^"]+)"/g, (_m, href) => `href="${fix(href)}"`)
     .replace(
-      /\]\(([^\s)]+)([^)]*)\)/g,
-      (_m, href, tail) => `](${fix(href)}${tail})`,
+      // A destination with spaces ("#Betsy Ross Flag") is written as <…>.
+      /\]\((?:<([^>\n]*)>|([^\s)]+))([^)]*)\)/g,
+      (_m, bracketed: string | undefined, plain: string | undefined, tail) => {
+        if (bracketed === undefined) return `](${fix(plain ?? "")}${tail})`;
+        const fixed = fix(bracketed);
+        return `](${/\s/.test(fixed) ? `<${fixed}>` : fixed}${tail})`;
+      },
     );
 }
 await rm("src/content/works", { recursive: true, force: true });

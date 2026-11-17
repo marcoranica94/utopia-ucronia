@@ -35,10 +35,24 @@
     "image": false
   },
   {
+    "id": "gap-02e73b9ef1ee",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Valacchia.htm#Valacchia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-02e813db5e32",
     "resource": "http://www.imdb.com/title/tt0053085/",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Crivello.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-038b51352e39",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Gatto_di_bordo.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -49,16 +63,16 @@
     "image": false
   },
   {
-    "id": "gap-050d7ae050e0",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Pharaon.htm#Pharaon",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
+    "id": "gap-05f73b4e6a1c",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Crimea",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
     "reason": "edition-pending",
     "image": false
   },
   {
-    "id": "gap-05f73b4e6a1c",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Crimea",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "id": "gap-0623dba3aa09",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Cesare_Paolo.htm#imperatori",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -77,6 +91,20 @@
     "image": false
   },
   {
+    "id": "gap-06bb66bc91eb",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Imperatori_di_Britannia.htm",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-0811e2d8f759",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/New_York_1946.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-081c5c897c2f",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Polonia",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
@@ -89,6 +117,13 @@
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Iraq.htm",
     "reason": "archive-missing",
     "image": true
+  },
+  {
+    "id": "gap-0870c2deb162",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Cambogia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
   },
   {
     "id": "gap-08be9b3de86a",
@@ -119,16 +154,23 @@
     "image": false
   },
   {
-    "id": "gap-09afba8bc4b0",
-    "resource": "http://www.fmboschetto.it/utopiaucronia/Impero_Messicano.htm",
-    "source": "http://www.fmboschetto.it/utopiaucronia/bombe_piovono.htm",
+    "id": "gap-09d4baf9be88",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Gatto_di_bordo.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
     "reason": "edition-pending",
     "image": false
   },
   {
-    "id": "gap-09d4baf9be88",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Gatto_di_bordo.htm",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
+    "id": "gap-0a13ad218603",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/mille_imperatori.htm",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-0a1db8c4812b",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Tadinum.htm",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -144,6 +186,13 @@
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Cesare_Paolo.htm#imperatori",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
     "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-0a4df8032f1c",
+    "resource": "http://alphadesigner.com/mapping-stereotypes/",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_USA.htm",
+    "reason": "external-excluded",
     "image": false
   },
   {
@@ -164,6 +213,13 @@
     "id": "gap-0a7e7d49b906",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Boemia",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-0abfedf118c7",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Malesia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -203,6 +259,13 @@
     "image": false
   },
   {
+    "id": "gap-0c4d107bcaaa",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm#Burgundi",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-0c5b201b2c31",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Italia_ostrogota.htm#Visigoti",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
@@ -238,6 +301,13 @@
     "image": false
   },
   {
+    "id": "gap-0df5699e65b7",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Polonia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-0e7f721d0820",
     "resource": "http://www.freefind.com/",
     "source": "https://www.fmboschetto.it/Utopiaucronia/",
@@ -245,9 +315,16 @@
     "image": false
   },
   {
-    "id": "gap-0eb74af7f5fc",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/Restauratio_imperii.htm#Giustiniano",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/",
+    "id": "gap-0e86f0ae57b3",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Baschi.htm#Sciti",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-0ed19807c744",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm#Anglosassoni",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -273,6 +350,13 @@
     "image": false
   },
   {
+    "id": "gap-0face5d95878",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Valacchia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-0fe2abb3df26",
     "resource": "http://it.wikipedia.org/wiki/Odissea_(Omero)",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ulisse_in_America.htm",
@@ -290,13 +374,6 @@
     "id": "gap-1039885141b8",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Sutri.htm#Geti",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
-    "id": "gap-10a9372f00ec",
-    "resource": "http://www.fmboschetto.it/utopiaucronia/Fanta_USA.htm",
-    "source": "http://www.fmboschetto.it/utopiaucronia/bombe_piovono.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -322,9 +399,23 @@
     "image": false
   },
   {
+    "id": "gap-131ee6a33a39",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/niente_Colombo.htm#Inca",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-131ff5e91a87",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/mille_imperatori.htm",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-13281d0fafbc",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Bornu",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -364,6 +455,13 @@
     "image": false
   },
   {
+    "id": "gap-1475cc9a5323",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/fanta_Nerone.htm#Successione",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-147c3a01af52",
     "resource": "https://www.youtube.com/channel/UClfEht64_NrzHf8Y0slKEjw",
     "source": "http://www.fmboschetto.it/Utopiaucronia/fanta_Presidenti_USA.htm",
@@ -392,6 +490,13 @@
     "image": false
   },
   {
+    "id": "gap-168248635e7c",
+    "resource": "http://www.fmboschetto.it/racconti/Alessandro/fanta_Alessandro.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-16a2dfe7c50c",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Italia_Jugoslavia.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Francia_Italia.htm",
@@ -399,9 +504,9 @@
     "image": false
   },
   {
-    "id": "gap-16bab228a647",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_USA.htm",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Grande_Australia.htm",
+    "id": "gap-16f1025cb5bb",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Nouivelle_France/U_NATO.gif",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_USA.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -409,6 +514,13 @@
     "id": "gap-17ca230bf1ae",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Impero_Eterno.htm",
     "source": "http://www.fmboschetto.it/Utopiaucronia/VSSA.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-17fe96cf03f8",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Aviz.htm#Scozia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -437,6 +549,20 @@
     "id": "gap-18bd21363fdd",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Impero_Eterno.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Brasiliano.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-18f3cf063963",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Iperborei/Liberia1952.jpg",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Tukhachevsky.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-191c6fc205ab",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Capoverde1944.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -476,9 +602,30 @@
     "image": false
   },
   {
+    "id": "gap-1b49a844d5d5",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Dahomey",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-1bafbe7b4ce1",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Congo",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-1beacd09ed5b",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Italia_ostrogota.htm#Visigoti",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-1bf301e2ef1f",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/fanta_Manzoni.htm#Odissea",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -500,13 +647,6 @@
     "id": "gap-1cafc804a0de",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Grande_Messico.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Grande_Australia.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
-    "id": "gap-1cbd87454136",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm#Battriana",
-    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -542,6 +682,20 @@
     "id": "gap-1ec8025e98a3",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Brunei",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-1ede38c4de6a",
+    "resource": "https://www.bing.com/images/create",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-1f962366ec21",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/ancheglidei.htm#anche%20gli%20dei",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -658,16 +812,37 @@
     "image": false
   },
   {
-    "id": "gap-250cf760f683",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Baschi.htm#Sciti",
-    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
+    "id": "gap-240e8e68469b",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Laos",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
   {
-    "id": "gap-2595bba93c9d",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/Robot_e_Primo_Impero.htm",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/",
+    "id": "gap-243eaa58281f",
+    "resource": "http://www.fmboschetto.it/racconti/iperimpero/Index.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-2483426a68c7",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Zimbabwe",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-24b2409928dc",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Buganda",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-250cf760f683",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Baschi.htm#Sciti",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -700,9 +875,30 @@
     "image": false
   },
   {
+    "id": "gap-26fcfa3789d7",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Giava",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-274a40da4167",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Ucronias_en_Espanol.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ucroniasenespanol/Juan_Pablo_II_y_los_aliens.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-27722c7e0fba",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Turchia",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-27f04fa0955c",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Nubia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -763,6 +959,13 @@
     "image": false
   },
   {
+    "id": "gap-2a5e94385002",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Baschi.htm#Sciti",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-2a7539485c0f",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Cesare_Paolo.htm",
     "source": "https://www.fmboschetto.it/Utopiaucronia/spotthePOD.htm",
@@ -777,9 +980,23 @@
     "image": false
   },
   {
+    "id": "gap-2c0a8bacac17",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Zulu",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-2cdf683f7a1c",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Valentino/Europa1042.gif",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_carolingie.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-2cf5f5be97d5",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Birmania",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -826,16 +1043,9 @@
     "image": false
   },
   {
-    "id": "gap-30ca8b6e356f",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Pharaon.htm#Pharaon",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Jevah.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
-    "id": "gap-325983f55a3c",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_USA.htm",
-    "source": "http://www.fmboschetto.it/Utopiaucronia/VSSA.htm",
+    "id": "gap-30f198978062",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/New_York_1946.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -847,13 +1057,6 @@
     "image": false
   },
   {
-    "id": "gap-32b4b2d5ae4d",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Pharaon.htm#Pharaon",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Krang.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
     "id": "gap-32da35f63886",
     "resource": "https://navigais-web.pd.istc.cnr.it/",
     "source": "http://www.fmboschetto.it/Utopiaucronia/quattro_specie.htm",
@@ -861,10 +1064,24 @@
     "image": false
   },
   {
+    "id": "gap-33250f2c57f1",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Pilota.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-336ac6750bb7",
     "resource": "http://www.passiglieditori.it/da-noi-non-puo-succedere",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Iraq.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-33b573d4c93c",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Buganda",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -899,13 +1116,6 @@
     "id": "gap-35552bbc1cd0",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/console.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Krang.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
-    "id": "gap-3563c0fc48e3",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm#Persia",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -949,6 +1159,13 @@
     "resource": "http://earth.google.it/",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ulisse_in_America.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-368c24295600",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Kursk.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -1022,13 +1239,6 @@
     "image": false
   },
   {
-    "id": "gap-38dd1d5c5a4c",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Ritorno_al_passato.htm",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Jevah.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
     "id": "gap-38ea87495810",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Estonia.htm#Danimarca",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
@@ -1043,9 +1253,30 @@
     "image": false
   },
   {
+    "id": "gap-390a128766dd",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-391cdb266b31",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/pasticcio_in_salsa_longobarda.htm#Longobardi",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-39e2235dabc2",
+    "resource": "http://www.fmboschetto.it/Lonate_Pozzolo/municipio2.jpg",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_lonatese.htm",
+    "reason": "archive-unlisted",
+    "image": true
+  },
+  {
+    "id": "gap-3a05a2f858bf",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Brunei",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -1092,13 +1323,6 @@
     "image": false
   },
   {
-    "id": "gap-3eda0b13955e",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm#Persia",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
     "id": "gap-3efd169609c6",
     "resource": "https://www.deviantart.com/shikku27316/art/Flag-of-the-Vandals-388266715",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
@@ -1131,13 +1355,6 @@
     "resource": "https://www.youtube.com/watch?v=e0-cejhqJ1g",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Mansa_Qu.htm",
     "reason": "external-excluded",
-    "image": false
-  },
-  {
-    "id": "gap-3fa36dbe06fa",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Pharaon.htm#Ulysses",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
-    "reason": "edition-pending",
     "image": false
   },
   {
@@ -1260,9 +1477,9 @@
     "image": false
   },
   {
-    "id": "gap-42fdfd9d3f6a",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Ritorno_al_passato.htm",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
+    "id": "gap-42db6b9ff606",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/imperatore_lorenese.htm#Germania",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -1302,9 +1519,37 @@
     "image": false
   },
   {
+    "id": "gap-44690becbf95",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Tibet.htm#Corea",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-44c5e14f2b55",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Pitea.htm",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Pitea_3.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-4503334580c8",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Sambas",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-45530c0f4a69",
+    "resource": "http://www.sssscomic.com/comicpages/196.jpg",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
+    "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-4561961ced15",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Moghul.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_USA.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -1323,6 +1568,13 @@
     "image": false
   },
   {
+    "id": "gap-45d3c79961ad",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Italia_ostrogota.htm#Visigoti",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-45e058bf82b2",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/ucronia_peone.htm#Romani",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
@@ -1334,6 +1586,13 @@
     "resource": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Pytheas_le_menteur_3.htm",
     "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Uchronies_en_Francais.htm",
     "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-46ec6557b0a9",
+    "resource": "https://www.deviantart.com/arlinconio/art/The-German-Papal-State-A-brief-history-in-maps-901010293",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Ottomani_in_Italia.htm",
+    "reason": "external-excluded",
     "image": false
   },
   {
@@ -1414,6 +1673,13 @@
     "image": false
   },
   {
+    "id": "gap-4a4aaf6bf18d",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Mc_Donald_su_Marte.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-4a618cadc87d",
     "resource": "#cartina",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/razionalizz_Genesi.htm",
@@ -1456,10 +1722,10 @@
     "image": false
   },
   {
-    "id": "gap-4ba8c88cc1ed",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm#Svezia",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
-    "reason": "edition-pending",
+    "id": "gap-4c194d6bba16",
+    "resource": "https://www.reddit.com/r/imaginarymaps/comments/187rk45/republic_of_elam_in_2023/",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "external-excluded",
     "image": false
   },
   {
@@ -1491,9 +1757,30 @@
     "image": false
   },
   {
+    "id": "gap-4dfbde3e318c",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Zulu",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-4e1218d35c41",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Ungheria",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-4e37301b3dda",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/ucronia_yavana.htm",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-4e439e8f3504",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Inghilterra_celto_vichinga.htm#Norvegia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -1509,6 +1796,13 @@
     "resource": "http://www.units.it/",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Crivello.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-4ec51fea09c8",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/GPII_e_gli_alieni.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ucroniasenespanol/Juan_Pablo_II_y_los_aliens.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -1596,6 +1890,13 @@
     "image": false
   },
   {
+    "id": "gap-52e58eb75255",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Niger",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-5304f71c2a9c",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Mongolia",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
@@ -1624,10 +1925,31 @@
     "image": false
   },
   {
+    "id": "gap-55a53709784b",
+    "resource": "http://strangemaps.files.wordpress.com/2008/06/china-island-400_2.jpg",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/penisola_britannica.htm",
+    "reason": "external-excluded",
+    "image": false
+  },
+  {
     "id": "gap-55f7236c2607",
     "resource": "https://en.wikipedia.org/wiki/Christopher_Billopp_(Royal_Navy_officer)#Staten_Island_legend",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_re_Artu.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-55facd1bdb65",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/fanta_Borgogna.htm#Baviera",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-56bff33e7144",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Egypte/Ailati.gif",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/penisola_britannica.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -1652,6 +1974,27 @@
     "image": false
   },
   {
+    "id": "gap-577dbede221b",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Estonia.htm#Finlandia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-579e6fc1b78e",
+    "resource": "#main",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "anchor-missing",
+    "image": false
+  },
+  {
+    "id": "gap-5835c82af6e2",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/FRONTE_SUDAMERICA_FEBBRAIO_1943.jpg",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Messicano.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-586c04dbdab9",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Nubia",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
@@ -1670,6 +2013,13 @@
     "resource": "https://althistory.fandom.com/wiki/Mali_Empire_(Of_Lions_and_Falcons)",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Mansa_Qu.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-59839bf533ac",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Inghilterra_celto_vichinga.htm#Frislandia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -1718,6 +2068,13 @@
     "id": "gap-5bcad13c59f5",
     "resource": "http://strangemaps.wordpress.com/",
     "source": "https://www.fmboschetto.it/Utopiaucronia/spotthePOD.htm",
+    "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-5bfd8dd62766",
+    "resource": "https://www.youtube.com/",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Arlosoroff.htm",
     "reason": "external-excluded",
     "image": false
   },
@@ -1785,6 +2142,34 @@
     "image": false
   },
   {
+    "id": "gap-5e7c936d2a99",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Italia_ostrogota.htm#Visigoti",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-5ed4372522f0",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Crimea",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-5efb032c79e2",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/ucronia_peone.htm#Romani",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-5f75bdb52912",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Tadinum.htm",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-5fc57766bd3b",
     "resource": "https://www.fmboschetto.it/racconti/Il_Trono_del_Toro.pdf",
     "source": "https://www.fmboschetto.it/Utopiaucronia/",
@@ -1820,6 +2205,13 @@
     "image": false
   },
   {
+    "id": "gap-60868af41476",
+    "resource": "#_ftn2",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/FCE.htm",
+    "reason": "anchor-missing",
+    "image": false
+  },
+  {
     "id": "gap-6122a511f860",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/[email%20removed]",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Luigi_IX.htm",
@@ -1834,6 +2226,13 @@
     "image": false
   },
   {
+    "id": "gap-61895b686d80",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Kursk.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-61b398b7b857",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Congo",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
@@ -1844,6 +2243,20 @@
     "id": "gap-620b34265fab",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Valacchia.htm#Valacchia",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-624da56a7f6a",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Iperborei.htm#Geati",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-62832d2e764a",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Siam2",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -1876,9 +2289,16 @@
     "image": false
   },
   {
-    "id": "gap-6361e6be4390",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/sans_Louis_XIV_3.htm",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/sans_Louis_XIV_2.htm",
+    "id": "gap-63c21e2d3dfe",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Zimbabwe",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-63c7696317ba",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Brunei",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -1894,6 +2314,13 @@
     "resource": "http://www.geocities.com/tetramorium/argentina.htm",
     "source": "http://www.fmboschetto.it/Utopiaucronia/quattro_specie.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-64bf0983b7e9",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Ashanti",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -1916,6 +2343,13 @@
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
     "reason": "edition-pending",
     "image": false
+  },
+  {
+    "id": "gap-65bde6d5fb7b",
+    "resource": "http://www.fmboschetto.it/Lonate_Pozzolo/stemma_lonate.gif",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_lonatese.htm",
+    "reason": "archive-unlisted",
+    "image": true
   },
   {
     "id": "gap-661520514dba",
@@ -1953,6 +2387,13 @@
     "image": false
   },
   {
+    "id": "gap-67046c91cd00",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Capoverde1944.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-67342aabd7f9",
     "resource": "https://www.youtube.com/watch?v=UXKr4HSPHT8",
     "source": "http://www.fmboschetto.it/utopiaucronia/Fanta_Sessantotto.htm",
@@ -1963,6 +2404,13 @@
     "id": "gap-6771113eb6c1",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Zulu",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-677a71cb2b31",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Mongolia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -1981,9 +2429,16 @@
     "image": false
   },
   {
-    "id": "gap-699fe8f1787e",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Ritorno_al_passato.htm",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Krang.htm",
+    "id": "gap-68a1eb9a30ba",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/briciole.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-695575bce997",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Impero_Eterno.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_USA.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2009,6 +2464,13 @@
     "image": false
   },
   {
+    "id": "gap-6b6daaa1b5a5",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Bulgaria",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-6beb82801106",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/dipinti_Sandro/Hillary_and_Obama.jpg",
     "source": "http://www.fmboschetto.it/Utopiaucronia/fanta_Presidenti_USA.htm",
@@ -2020,6 +2482,13 @@
     "resource": "https://alessandrogirola.me/2017/04/30/se-elisabetta-canalis-fosse-diventata-first-lady/",
     "source": "http://www.fmboschetto.it/Utopiaucronia/fanta_Presidenti_USA.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-6c67a8455b99",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Valacchia.htm#Valacchia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -2065,6 +2534,13 @@
     "image": false
   },
   {
+    "id": "gap-6de847157672",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/niente_Colombo.htm#Inca",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-6dee1f5de482",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Divided_we_stand.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/nullificazione.htm",
@@ -2082,6 +2558,20 @@
     "id": "gap-6e42ebec4e20",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/ilbiancomuove.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Jevah.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-6e44c0c42c99",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Vietnam2",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-6e5dc889305b",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/fanta_Borgogna.htm#Baviera",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2107,6 +2597,13 @@
     "image": false
   },
   {
+    "id": "gap-6fb63da2cde4",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Vietnam2",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-6fcc3f1aaab6",
     "resource": "http://www.narmer.pl/dyn/00en.htm",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Rey_Escorpion.htm",
@@ -2121,6 +2618,13 @@
     "image": false
   },
   {
+    "id": "gap-707288aa4f81",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/classi_ling_IE.gif",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-7078ebe91c53",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Gatto_di_bordo.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Jevah.htm",
@@ -2131,6 +2635,20 @@
     "id": "gap-707f80db4701",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Brunei",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-70819d7f73c1",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_SRI.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_USA.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-708e9a956926",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/ucronie_reazionarie.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2170,6 +2688,13 @@
     "image": false
   },
   {
+    "id": "gap-71a1545c3160",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Crimea",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-7201a354df42",
     "resource": "http://www.repubblica.it/scienze/2016/05/30/news/mongoli_ungheria_clima-140965658/?ref=fbpr",
     "source": "http://www.fmboschetto.it/utopiaucronia/fanta_Mongoli.htm",
@@ -2181,6 +2706,13 @@
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Kumari_Kandam.htm",
     "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_1.htm",
     "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-72e3ed8e9219",
+    "resource": "http://i.gizmodo.com/5207549/time-travel-cheat-sheet",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/alla_corte_del_Barbarossa.htm",
+    "reason": "external-excluded",
     "image": false
   },
   {
@@ -2215,6 +2747,13 @@
     "id": "gap-738a24e97975",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Siam2",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-74843fb7908e",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Sutri.htm#Geti",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2275,6 +2814,13 @@
     "image": false
   },
   {
+    "id": "gap-776b40b59f12",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Valacchia.htm#Russia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-77782c10c19a",
     "resource": "http://search.freefind.com/find.html?si=39144820&pid=a",
     "source": "https://www.fmboschetto.it/Utopiaucronia/",
@@ -2310,6 +2856,13 @@
     "image": false
   },
   {
+    "id": "gap-77cb12881a21",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Nubia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-77ee45cba072",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/VSSA/Greci_isBritanniche.gif",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
@@ -2320,6 +2873,13 @@
     "id": "gap-781af3ad7a57",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Sutri.htm#Geti",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-792efefe52b0",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/pasticcio_in_salsa_longobarda.htm#Longobardi",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2394,6 +2954,13 @@
     "image": false
   },
   {
+    "id": "gap-7c7564d14c07",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/fanta_Nerone.htm#Successione",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-7c96a3148d6b",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Fenicia.htm",
     "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_1.htm",
@@ -2429,6 +2996,13 @@
     "image": false
   },
   {
+    "id": "gap-7f151a5b0715",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Lituania",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-7f481bc73ec5",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Valacchia.htm#Valacchia",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
@@ -2439,13 +3013,6 @@
     "id": "gap-7f90942d7a39",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Tadinum.htm",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
-    "id": "gap-805e59e4ac69",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_USA.htm",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/megabritannia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2485,16 +3052,16 @@
     "image": false
   },
   {
-    "id": "gap-8170b090a803",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/longue_Belle_Epoque.htm",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Uchronies_en_Francais.htm",
-    "reason": "edition-pending",
+    "id": "gap-80ff7c8ff652",
+    "resource": "http://funnyjunk.com/Hur+hur+hur+niggs/funny-pictures/5730964/58#58",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
+    "reason": "external-excluded",
     "image": false
   },
   {
-    "id": "gap-8188b17348c2",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_USA.htm",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Brasiliano.htm",
+    "id": "gap-81a0b3621f92",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Estonia.htm#Danimarca",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2520,6 +3087,13 @@
     "image": false
   },
   {
+    "id": "gap-823210e39d50",
+    "resource": "http://www.sezioneanaidimodena.it/files/2010%20file%20pdf/Storia-Per%20colpire%20il%20falso%20Churchill%20uccisero%20Leslie%20Howard.pdf",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/dilemma_politico.htm",
+    "reason": "external-excluded",
+    "image": false
+  },
+  {
     "id": "gap-823ffc3cd556",
     "resource": "http://borg.com/2013/11/22/original-kennedy-and-superman-comic-book-art-50-years-later/#more-17176",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Marvel.htm",
@@ -2541,9 +3115,23 @@
     "image": false
   },
   {
+    "id": "gap-82fdcf5a4278",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Grande_Messico.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_USA.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-83630cbc3531",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Keikyo.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Sekigahara.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-83a5d089ff5c",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Pilota.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2604,10 +3192,24 @@
     "image": false
   },
   {
+    "id": "gap-856d46a27988",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Capoverde1944.htm#Volpiano%20Sud",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-85790c79021f",
     "resource": "http://www.gliscritti.it/bambini/perugini081207.htm",
     "source": "http://www.fmboschetto.it/utopiaucronia/raccontini_natalizi.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-857c32840aa5",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Birmania",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -2618,9 +3220,23 @@
     "image": false
   },
   {
+    "id": "gap-8580109642d1",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Turchia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-85bfe2c10d44",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Grande_Australia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-85e895078e7a",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Giava",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2653,16 +3269,16 @@
     "image": false
   },
   {
-    "id": "gap-86f6e317a58f",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm#Svezia",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
+    "id": "gap-87842d12f896",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/ancheglidei.htm#anche%20gli%20dei",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
     "reason": "edition-pending",
     "image": false
   },
   {
-    "id": "gap-87842d12f896",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/ancheglidei.htm#anche%20gli%20dei",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
+    "id": "gap-87ecd65c1c34",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Ashanti",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2684,6 +3300,13 @@
     "id": "gap-889d5df2d4c5",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Birmania",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-88d57ecd3738",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Capoverde1944.htm#Volpiano%20Sud",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2758,9 +3381,23 @@
     "image": false
   },
   {
+    "id": "gap-8c5a390f01c3",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/ucronia_yavana.htm",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-8c5aca214c32",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Ucronias_en_Espanol.htm",
     "source": "https://www.fmboschetto.it/Utopiaucronia/",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-8cbea7453082",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Sambas",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2779,9 +3416,23 @@
     "image": false
   },
   {
+    "id": "gap-8d442418c289",
+    "resource": "http://www.fmboschetto.it/Lonate_Pozzolo/San_Fortunato/Ulisse_Bosisio.gif",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_lonatese.htm",
+    "reason": "archive-unlisted",
+    "image": true
+  },
+  {
     "id": "gap-8d6bb4294c66",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Siam2",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-8da295c1a2b9",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Estonia.htm#Danimarca",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2828,13 +3479,6 @@
     "image": false
   },
   {
-    "id": "gap-8f0477ca1b28",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Pharaon.htm#Ulysses",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Jevah.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
     "id": "gap-8fc947e3fda0",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/fondationetempire.htm",
     "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Uchronies_en_Francais.htm",
@@ -2849,9 +3493,9 @@
     "image": false
   },
   {
-    "id": "gap-900c0dca69aa",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm#Battriana",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "id": "gap-90681a37d574",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Tibet.htm#Corea",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2877,6 +3521,13 @@
     "image": false
   },
   {
+    "id": "gap-91e14223b32d",
+    "resource": "http://www.fmboschetto.it/Lonate_Pozzolo/San_Fortunato/donTagliabue2.jpg",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_lonatese.htm",
+    "reason": "archive-unlisted",
+    "image": true
+  },
+  {
     "id": "gap-925f0fda8a1b",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/fanta_Israele.htm#Successione",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
@@ -2887,6 +3538,13 @@
     "id": "gap-92a7dbec1602",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/canale_di_Augusto.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-92f8be085f49",
+    "resource": "http://www.fmboschetto.it/racconti/iperimpero/iperimpero_Tiziano.JPG",
+    "source": "http://www.fmboschetto.it/racconti/iperimpero/iperimp13.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -2912,9 +3570,58 @@
     "image": false
   },
   {
+    "id": "gap-938c2b5b56dc",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm#Svevi",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-93a27785682a",
     "resource": "https://twitter.com/AlexGirola",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Iraq.htm",
+    "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-9497c7885922",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Bornu",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-94c7c6956842",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Bulgaria",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-94d82d155f29",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/pasticcio_in_salsa_longobarda.htm#Longobardi",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-974acea7fc97",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Dahomey",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-975f3ceaba26",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/900_toponimi_indoeuropei.pdf",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
+    "reason": "attachment-pending",
+    "image": false
+  },
+  {
+    "id": "gap-9805246f36c1",
+    "resource": "https://sunofchedorlaomer.fandom.com/wiki/Elam",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "external-excluded",
     "image": false
   },
@@ -2968,6 +3675,13 @@
     "image": false
   },
   {
+    "id": "gap-99fa3a92bb7a",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Sutri.htm#Geti",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-9a4077c6ca90",
     "resource": "http://www.fmboschetto.it/religione/corso/Clemente.jpg",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_Roma.htm",
@@ -2989,9 +3703,23 @@
     "image": false
   },
   {
-    "id": "gap-9c4f45a876ae",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_USA.htm",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Eterno_2.htm",
+    "id": "gap-9b04bc56c02d",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Turkestan",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-9bb1cc118df6",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Malesia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-9c8884b56c32",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Aviz.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Sacco_di_Roma.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -3017,6 +3745,20 @@
     "image": false
   },
   {
+    "id": "gap-9df192e4ad2d",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Aviz.htm#Scozia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-9e52be565562",
+    "resource": "http://www.fmboschetto.it/Lonate_Pozzolo/San_Fortunato/battaglia_di_Tornavento_1.jpg",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_lonatese.htm",
+    "reason": "archive-unlisted",
+    "image": true
+  },
+  {
     "id": "gap-9e945f0f5a72",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Valacchia.htm#Russia",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
@@ -3028,6 +3770,13 @@
     "resource": "http://www.britannia.com/history/ebkmap.html",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_re_Artu.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-9f392daf5d06",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Boemia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -3059,6 +3808,13 @@
     "image": true
   },
   {
+    "id": "gap-a01e05c7aab4",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm#Svevi",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-a1dc6352d1de",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Brasiliano.htm",
@@ -3080,13 +3836,6 @@
     "image": false
   },
   {
-    "id": "gap-a308abbdf86b",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/samouraisdoccident.htm",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Uchronies_en_Francais.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
     "id": "gap-a31210459b3d",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm#Anglosassoni",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
@@ -3101,17 +3850,17 @@
     "image": false
   },
   {
-    "id": "gap-a3ae9656f4ce",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm#Battriana",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
     "id": "gap-a412edf11453",
     "resource": "#main",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Bantu.htm",
     "reason": "anchor-missing",
+    "image": false
+  },
+  {
+    "id": "gap-a42ded859c01",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/ancheglidei.htm#il%20valore%20di%20un%20giorno",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -3122,10 +3871,24 @@
     "image": false
   },
   {
+    "id": "gap-a4fdb9467385",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Egypte/onda123.jpg",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
+    "reason": "archive-missing",
+    "image": true
+  },
+  {
     "id": "gap-a4fdec58a643",
     "resource": "http://www.osaka-u.ac.jp/en",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Crivello.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-a5021f1db9b5",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/fanta_Israele.htm#Successione",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -3153,6 +3916,13 @@
     "id": "gap-a68f1a32802c",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Andalusia.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Eterno_2.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-a6aa1d57a3bb",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Restauratio_imperii_2.htm#Successione",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -3199,16 +3969,30 @@
     "image": false
   },
   {
-    "id": "gap-a89a43f5bc5c",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Filistiade.htm#Filistiade",
-    "source": "http://www.fmboschetto.it/Utopiaucronia/Apocalisse_di_Tobia.htm",
+    "id": "gap-a7fabbe010da",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Cronologia_Asimoviana.htm",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Robot_e_Primo_Impero.htm",
     "reason": "edition-pending",
     "image": false
   },
   {
-    "id": "gap-a8f9ad2241f3",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm#Svezia",
-    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
+    "id": "gap-a832c8eb5b7e",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Turkestan",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-a87ba024fb84",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Celticita.htm#cronacadeire",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-a89a43f5bc5c",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Filistiade.htm#Filistiade",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Apocalisse_di_Tobia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -3241,6 +4025,13 @@
     "image": false
   },
   {
+    "id": "gap-a9e9b27db365",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Cesare_Paolo.htm#imperatori",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-a9f3eb8ef423",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Giava",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
@@ -3269,13 +4060,6 @@
     "image": false
   },
   {
-    "id": "gap-ab2b8932c259",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Pharaon.htm#Ulysses",
-    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Krang.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
     "id": "gap-ab44323ccfee",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Moghul.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Eterno_2.htm",
@@ -3295,6 +4079,13 @@
     "source": "http://www.fmboschetto.it/Utopiaucronia/VSSA.htm",
     "reason": "unsupported-format",
     "image": true
+  },
+  {
+    "id": "gap-ac4492748db7",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Imperatori_di_Britannia.htm",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
   },
   {
     "id": "gap-ac48726f2878",
@@ -3325,9 +4116,23 @@
     "image": false
   },
   {
+    "id": "gap-adda2ec61169",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/fanta_Nerone.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-adfc98679e03",
     "resource": "http://www.indicius.it/battiato/battiato_images/battiato_mondi_lontanissimi_front_88.jp",
     "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_1.htm",
+    "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-ae46c464bb3e",
+    "resource": "http://strangemaps.files.wordpress.com/",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/penisola_britannica.htm",
     "reason": "external-excluded",
     "image": false
   },
@@ -3336,6 +4141,13 @@
     "resource": "https://www.fmboschetto.it/Utopiaucronia/canale_di_Augusto.htm",
     "source": "https://www.fmboschetto.it/Utopiaucronia/",
     "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-af423191858c",
+    "resource": "https://www.youtube.com/watch?v=vVkjMrF-yZ4&t=64s",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
+    "reason": "external-excluded",
     "image": false
   },
   {
@@ -3374,6 +4186,13 @@
     "image": false
   },
   {
+    "id": "gap-b1bc3a804d1e",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/mille_imperatori.htm",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-b1c67d67db5f",
     "resource": "http://www.extremetech.com/extreme/149090-nasas-cold-fusion-tech-could-put-a-nuclear-reactor-in-every-home-car-and-plane",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Crivello.htm",
@@ -3392,6 +4211,20 @@
     "resource": "https://www.vanityfair.com/news/2016/07/a-terrifying-glimpse-at-what-donald-trumps-mount-rushmore-would-look-like",
     "source": "http://www.fmboschetto.it/Utopiaucronia/fanta_Presidenti_USA.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-b2ca2a12515f",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/briciole.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-b33bd50225b0",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Inghilterra_celto_vichinga.htm#Frislandia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -3479,6 +4312,27 @@
     "image": false
   },
   {
+    "id": "gap-b7ba8dbff63b",
+    "resource": "http://www.fmboschetto.it/racconti/Alessandro/Alessandro_1.htm",
+    "source": "http://www.fmboschetto.it/racconti/Alessandro/Alessandro_introd.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-b7da11d8b0be",
+    "resource": "#main",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/ucronie_eretiche.htm",
+    "reason": "anchor-missing",
+    "image": false
+  },
+  {
+    "id": "gap-b7e69c262ca3",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/ucronia_peone.htm#Romani",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-b80d8b7df9c1",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/briciole.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
@@ -3493,9 +4347,23 @@
     "image": false
   },
   {
+    "id": "gap-b95d14eabddf",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Inghilterra_celto_vichinga.htm#Norvegia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-b9c18e293b9a",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Kursk.htm",
     "source": "https://www.fmboschetto.it/Utopiaucronia/",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-ba45e23406b6",
+    "resource": "http://www.fmboschetto.it/racconti/iperimpero/iperimp14.htm",
+    "source": "http://www.fmboschetto.it/racconti/iperimpero/iperimp13.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -3535,6 +4403,13 @@
     "image": false
   },
   {
+    "id": "gap-bb0a336ef350",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/console.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-bb6fd2a492bb",
     "resource": "http://xoomer.alice.it/francescoraf/hesyra/palettes/narmerp.htm",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Rey_Escorpion.htm",
@@ -3563,6 +4438,13 @@
     "image": false
   },
   {
+    "id": "gap-bc253c57ca5d",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/ucronia_yavana.htm",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-bcbea9883c57",
     "resource": "http://www.gemini.edu/",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Crivello.htm",
@@ -3587,6 +4469,20 @@
     "id": "gap-bd6fb38196dc",
     "resource": "https://en.wikipedia.org/wiki/Glossary_of_Japanese_words_of_Portuguese_origin",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Sekigahara.htm",
+    "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-be52d548ebcb",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Germaniinoriente/Gotihic_Empire_600.png",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/impero_gotico.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-be592c9c9c7f",
+    "resource": "https://www.alternatehistory.com/forum/threads/map-thread-vii.170182/page-236",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Toro.htm",
     "reason": "external-excluded",
     "image": false
   },
@@ -3661,13 +4557,6 @@
     "image": false
   },
   {
-    "id": "gap-c219d11aeb45",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/penisola_britannica.htm#continente%20indiano",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_1.htm",
-    "reason": "edition-pending",
-    "image": false
-  },
-  {
     "id": "gap-c30dd75811b5",
     "resource": "http://www.salimbeti.com/",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Paperopoli.htm",
@@ -3675,10 +4564,24 @@
     "image": false
   },
   {
+    "id": "gap-c329c4521ddf",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/UKA.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Messicano.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-c33fd0894916",
     "resource": "http://barsantiematteucci.it/iniziative.html",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/determinismo_tecnologico.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-c3eff3401a28",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Senegal",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -3707,6 +4610,13 @@
     "resource": "http://www.youtube.com/watch?v=UT2sQ7KIQ-E&feature=player_embedded",
     "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_1.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-c65258977404",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Mc_Donald_su_Marte.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -3787,6 +4697,13 @@
     "image": false
   },
   {
+    "id": "gap-c9505f949b7f",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Congo",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-c98448d057f5",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Lituania",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
@@ -3811,6 +4728,13 @@
     "id": "gap-ca0e0c661bfe",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/fanta_Borgogna.htm#Baviera",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-ca310c5332aa",
+    "resource": "http://www.fmboschetto.it/racconti/iperimpero/iperimp12.htm",
+    "source": "http://www.fmboschetto.it/racconti/iperimpero/iperimp13.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -3843,6 +4767,20 @@
     "image": false
   },
   {
+    "id": "gap-cbbf2e47273e",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Valacchia.htm#Russia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-cc5d6d62ec69",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/fanta_Israele.htm#Successione",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-cc9505d41911",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Laos",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
@@ -3860,6 +4798,20 @@
     "id": "gap-cdc556cf8caf",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Turkestan",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-cdf08284c126",
+    "resource": "#main",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/alla_corte_del_Barbarossa.htm",
+    "reason": "anchor-missing",
+    "image": false
+  },
+  {
+    "id": "gap-cecc3f47585f",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Mongolia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -3885,10 +4837,31 @@
     "image": false
   },
   {
+    "id": "gap-d10ffc3c51b2",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/ancheglidei.htm#anche%20gli%20dei",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-d12e6a9dc278",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/stati_uniti_arabi.htm#India",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-d14d9dbafbfc",
     "resource": "http://bigthink.com/blogs/strange-maps",
     "source": "https://www.fmboschetto.it/Utopiaucronia/spotthePOD.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-d161b666c891",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/FRONTE_SUDAMERICA_APRILE_1943.jpg",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Messicano.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -3899,9 +4872,9 @@
     "image": false
   },
   {
-    "id": "gap-d23c83ca2439",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/indoeuropei_preistorici.htm",
-    "source": "http://www.fmboschetto.it/Utopiaucronia/quattro_specie.htm",
+    "id": "gap-d2239127b3d8",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Grande_Colombia.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_USA.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -3934,6 +4907,20 @@
     "image": false
   },
   {
+    "id": "gap-d2ec3b85063d",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Celticita.htm#cronacadeire",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-d3c560dea349",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/FRONTE_SUDAMERICA_LUGLIO_1941.jpg",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Messicano.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-d3d4e312342c",
     "resource": "https://ilgiornalino.g-web.it/",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/fall_of_western_civilization.htm",
@@ -3951,6 +4938,20 @@
     "id": "gap-d417a7015d09",
     "resource": "http://www.fmboschetto.it/utopiaucronia/Ucronias_en_Espanol.htm",
     "source": "http://www.fmboschetto.it/utopiaucronia/Ucroniasenespanol/razionalizacion_Genesis.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-d44f5017a027",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_USA.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-d4cdf729ab16",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm#Anglosassoni",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -4053,6 +5054,13 @@
     "image": false
   },
   {
+    "id": "gap-d8fceccb2abb",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Siam2",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-d943d096c55e",
     "resource": "http://www.imdb.com/title/tt1179025/",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Crivello.htm",
@@ -4060,16 +5068,16 @@
     "image": false
   },
   {
-    "id": "gap-d9fbb7a15596",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/Inghilterra_celto_vichinga.htm#Norvegia",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "id": "gap-d9d96cf837a9",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Turchia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
   {
-    "id": "gap-dabb1a713dbe",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/sans_Louis_XIV_3.htm",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Uchronies_en_Francais.htm",
+    "id": "gap-d9fbb7a15596",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Inghilterra_celto_vichinga.htm#Norvegia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -4081,9 +5089,16 @@
     "image": false
   },
   {
-    "id": "gap-db493a4ffd1d",
-    "resource": "https://www.fmboschetto.it/Utopiaucronia/penisola_britannica.htm",
-    "source": "https://www.fmboschetto.it/Utopiaucronia/lista_ucronie_1.htm",
+    "id": "gap-db0d63c03f86",
+    "resource": "http://www.fmboschetto.it/divertenti/evoluzstorto.jpg",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/raccontini_berlusconiani.htm",
+    "reason": "archive-unlisted",
+    "image": true
+  },
+  {
+    "id": "gap-dbc71392183e",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Valentino/Europa1042.gif",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Avari.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -4102,6 +5117,13 @@
     "image": false
   },
   {
+    "id": "gap-dc7762c5b717",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Estonia.htm#Finlandia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-dca0df0b1291",
     "resource": "#main",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/improbabile_repubblica.htm",
@@ -4109,9 +5131,37 @@
     "image": false
   },
   {
+    "id": "gap-dd1389f6b6fa",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Inghilterra_celto_vichinga.htm#Irlanda",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-dd53db8eb63a",
+    "resource": "https://upload.wikimedia.org/wikipedia/commons/2/21/Stoddard_race_map_1920.jpg",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/indoeuropei_preistorici.htm",
+    "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-ddc2a8827fbd",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/imperatore_lorenese.htm#Germania",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-dde8a1c86386",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Tadinum.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-de0cd7153ad2",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Ungheria",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -4127,6 +5177,13 @@
     "resource": "http://marco.space1999.net/",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Crivello.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-dfa7baafafa4",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/console.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -4158,6 +5215,13 @@
     "image": false
   },
   {
+    "id": "gap-e1f3e59698ce",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/ancheglidei.htm#il%20valore%20di%20un%20giorno",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-e20dbffa3eac",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Inuits.htm",
     "source": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Uchronies_en_Francais.htm",
@@ -4172,6 +5236,13 @@
     "image": false
   },
   {
+    "id": "gap-e26b1c2d64ad",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Senegal",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-e33fc086d40f",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Imperatori_di_Britannia.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
@@ -4182,6 +5253,13 @@
     "id": "gap-e345b518ae91",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Grande_Messico.htm",
     "source": "http://www.fmboschetto.it/Utopiaucronia/VSSA.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-e39b346ab888",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Andalusia.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_USA.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -4242,6 +5320,13 @@
     "image": true
   },
   {
+    "id": "gap-e60eadd79072",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Valacchia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-e62de2ce09dc",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/console.htm",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Jevah.htm",
@@ -4263,9 +5348,9 @@
     "image": false
   },
   {
-    "id": "gap-e73717050ff6",
-    "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm#Persia",
-    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Mitanni.htm",
+    "id": "gap-e7807439a7e3",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Niger",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -4274,6 +5359,20 @@
     "resource": "http://www.fmboschetto.it/utopiaucronia/[email%20removed]",
     "source": "http://www.fmboschetto.it/utopiaucronia/fanta_Mongoli.htm",
     "reason": "archive-unlisted",
+    "image": false
+  },
+  {
+    "id": "gap-e7fe1e44fac5",
+    "resource": "https://www.bing.com/images/create",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-e85e664af933",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Moldavia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -4298,6 +5397,13 @@
     "image": false
   },
   {
+    "id": "gap-e8c495ac01c4",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Serbia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-e8c6e9f46d80",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Bulgaria",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
@@ -4308,6 +5414,20 @@
     "id": "gap-e8dd4325d047",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/stati_uniti_arabi.htm#India",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-e903d33d775f",
+    "resource": "#_ftn1",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/FCE.htm",
+    "reason": "anchor-missing",
+    "image": false
+  },
+  {
+    "id": "gap-e91b67317921",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Restauratio_imperii_2.htm#Successione",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -4333,9 +5453,23 @@
     "image": false
   },
   {
+    "id": "gap-ea577648256a",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/FRONTE_SUDAMERICA_GENNAIO_1943.jpg",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Impero_Messicano.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-ea5dbdca1957",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Sutri.htm#Geti",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-ea6f073de391",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm#Burgundi",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -4382,9 +5516,30 @@
     "image": false
   },
   {
+    "id": "gap-ebfe2833194f",
+    "resource": "http://www.fmboschetto.it/Lonate_Pozzolo/celsone_aupaldo.gif",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_lonatese.htm",
+    "reason": "archive-unlisted",
+    "image": true
+  },
+  {
+    "id": "gap-ec91c843dc96",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Italia_ostrogota.htm#Baschi",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-ecbf01167a61",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Teodoro.htm#Ashanti",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Mediterraneo_islamico.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-ed21f07cdf2c",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Lituania",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -4403,6 +5558,13 @@
     "image": false
   },
   {
+    "id": "gap-ed829fd894a3",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Inghilterra_celto_vichinga.htm#Irlanda",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-edec4802b153",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Giava",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
@@ -4417,10 +5579,52 @@
     "image": false
   },
   {
+    "id": "gap-ee182042a2c3",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Merovingi_eterni.htm",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-ee5098ae3efa",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Italia_ostrogota.htm#Baschi",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-eec88be3953d",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/ilbiancomuove.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-ef08bac4622a",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Cambogia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-ef28934ec781",
     "resource": "https://vignette.wikia.nocookie.net/althistory/images/3/32/1983ddworldmap.png/revision/latest?cb=20151101164653",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Jimmy_Carter.htm",
     "reason": "external-excluded",
+    "image": false
+  },
+  {
+    "id": "gap-efb4f8e279c3",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Gatto_di_bordo.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Ritorno_al_passato.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-efd3d15cb267",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Serbia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
     "image": false
   },
   {
@@ -4455,6 +5659,13 @@
     "id": "gap-f11fbb415290",
     "resource": "https://www.fmboschetto.it/Utopiaucronia/VSSA/Greci_Baltico.jpg",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Amazzoni.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-f190b7d6ea54",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Moldavia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -4543,6 +5754,20 @@
     "image": false
   },
   {
+    "id": "gap-f614abad351c",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Dante33/new_churches.gif",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Sacco_di_Roma.htm",
+    "reason": "archive-missing",
+    "image": true
+  },
+  {
+    "id": "gap-f6573f9507df",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Polonia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siberia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-f711d72b2791",
     "resource": "https://www.youtube.com/watch?v=35aJwbGTK0E",
     "source": "https://www.fmboschetto.it/Utopiaucronia/Mansa_Qu.htm",
@@ -4560,6 +5785,13 @@
     "id": "gap-f78c455b2f1a",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/Ucronias_en_Espanol.htm",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Rey_Escorpion.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-f79d93ef37bd",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Siam.htm#Laos",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
     "reason": "edition-pending",
     "image": false
   },
@@ -4662,6 +5894,20 @@
     "image": false
   },
   {
+    "id": "gap-fb03e7121ddf",
+    "resource": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Balcani.htm#Boemia",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fanta_Assiri.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-fb28c0457428",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/Grande_Messico/Israelian-Palestinian_map.gif",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Arlosoroff.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
     "id": "gap-fb98637a60e7",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/ancheglidei.htm#il%20valore%20di%20un%20giorno",
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/Jevah.htm",
@@ -4714,6 +5960,13 @@
     "id": "gap-feff39e54b8d",
     "resource": "http://www.fmboschetto.it/Utopiaucronia/ucronie_diluviane.htm#Gilgamesh",
     "source": "http://www.fmboschetto.it/Utopiaucronia/Apocalisse_di_Tobia.htm",
+    "reason": "edition-pending",
+    "image": false
+  },
+  {
+    "id": "gap-ff6a0bfcafa4",
+    "resource": "http://www.fmboschetto.it/Utopiaucronia/ilbiancomuove.htm",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Pharaon.htm",
     "reason": "edition-pending",
     "image": false
   },
