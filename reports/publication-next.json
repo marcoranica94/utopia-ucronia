@@ -5,557 +5,559 @@
   "note": "Read-only review packet. No owner approval, publication selection or live ledger was changed.",
   "entries": [
     {
-      "proposalId": "proposal-doc-dc1e99ca3961",
+      "proposalId": "proposal-doc-ec9634776f47",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-dc1e99ca3961",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-ec9634776f47",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Presentazione - Roma trasloca di là dall'oceano - La colonizzazione dell'Atlantide e le guerre civili - Lo splendore di Roma in Atlantide - Decadenza e caduta dell'impero romano in Atlantide - Il Medioevo e l'ascesa dei",
+      "quote": "« Dio lo vuole! » 1016 d.C.: Canuto il Grande, figlio di Sven Barba Forcuta, sconfigge Edmondo, figlio di Etelredo e re d'Inghilterra, sposa Emma, vedova di Etelredo, ed incorpora l'isola al regno di Danimarca. Sacerdoti",
       "items": [
         {
-          "id": "item-07e85dc7a019",
-          "title": "Roma... di là dall'oceano!",
-          "path": "/works/roma-di-la-dall-oceano-dc1e99ca/",
+          "id": "item-826d3305f9f1",
+          "title": "« Dio lo vuole! »",
+          "path": "/works/dio-lo-vuole-ec963477/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-dc1e99ca3961",
-              "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Intestazione.htm",
+              "documentId": "doc-ec9634776f47",
+              "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_7.htm",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "67122ae656ec9cd98f0339e6d7cc9445a74d5706cadc752a61f5e3ffa8799067",
-              "localReviewPath": "/review/source/doc-dc1e99ca3961/"
+              "sha256": "c3a66af6bd7e61a7ed610d347efd14cded237e0a3b40d09065d07ebc287ac370",
+              "localReviewPath": "/review/source/doc-ec9634776f47/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-dc28b359bc76",
+      "proposalId": "proposal-doc-ecdda07dc27d",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-dc28b359bc76",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-ecdda07dc27d",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "El reino del verano de William Riker Esta vez hablaremos del rey Arturo, ¿les parece? Antes que nada: ¿quién era realmente este héroe semilegendario? Una cosa es cierta: se trata de una figura histórica, no de un persona",
+      "quote": "CRONOLOGI@ D€LL@ STORI@ FUTUR@: 1945-2550 di Estec (leggi il suo comunicato) “L’Europe ne se fera pas d’un coup, ni dans une construction d’ensemble: elle se fera par des réalisations concrètes créant d’abord une solidar",
       "items": [
         {
-          "id": "item-051f9f9a30e6",
-          "title": "El reino del verano",
-          "path": "/works/el-reino-del-verano-dc28b359/",
+          "id": "item-0f2334836571",
+          "title": "La Storia Futura, 1945-2550",
+          "path": "/works/la-storia-futura-1945-2550-ecdda07d/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-dc28b359bc76",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/elreinodelverano.htm",
-              "timestamp": "20230329232123",
+              "documentId": "doc-ecdda07dc27d",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/cronologia_Estec.htm",
+              "timestamp": "20200129055257",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "c6da7e02c6adf757d8d6c7aff1eb95063ea6df556e4ca4637efe6da4594a0365",
-              "localReviewPath": "/review/source/doc-dc28b359bc76/"
+              "sha256": "478ede1620b6bb090022565bcccb13d62b911b0d2a99e6075ff66e793cb5077e",
+              "localReviewPath": "/review/source/doc-ecdda07dc27d/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-dc798b5650c7",
+      "proposalId": "proposal-doc-ed2bed124d09",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-dc798b5650c7",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-ed2bed124d09",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "______ di William Riker Nota dell'autore: il titolo significa \"Storia e territori dei Celti\" in lingua Cymraeg. . 1200-750 a.C.: Età del Bronzo: Civiltà protoceltica dei Campi di Urne. Secondo lo storico della Chiesa Eus",
+      "quote": "di Paolo Maltagliati Menandro il Grande, re di Battriana e di Gandhara, riunì i domini, divisi, dei “greci d’oriente”, creando un vasto impero esteso dall’Oxus al delta dell’Indo. Il suo regno lunghissimo verso la fine f",
       "items": [
         {
-          "id": "item-5352cec421ec",
-          "title": "Hanes a thiriogaethau'r Celtiaid",
-          "path": "/works/hanes-a-thiriogaethau-r-celtiaid-dc798b56/",
+          "id": "item-eb5a7b6090d1",
+          "title": "L'Impero Yavana",
+          "path": "/works/l-impero-yavana-ed2bed12/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-dc798b5650c7",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Celti.htm",
-              "timestamp": "20150917053617",
+              "documentId": "doc-ed2bed124d09",
+              "url": "https://www.fmboschetto.it/Utopiaucronia/ucronia_yavana.htm",
+              "timestamp": "20261016101301",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "04cae643c72cf4195ecc508ac8656cc1244dd58f073f7d553f71779c054b0386",
-              "localReviewPath": "/review/source/doc-dc798b5650c7/"
+              "sha256": "ddbdc8a567404e26171291a311af3e2151c2fa5edec16ae86fad054be66ac1ee",
+              "localReviewPath": "/review/source/doc-ed2bed124d09/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-dccf44113b54",
+      "proposalId": "proposal-doc-eee998b39883",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-dccf44113b54",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-eee998b39883",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Anno Domini 375 di Mattia Spadoni 375: nei pressi del Danubio, incontro tra Valentiniano I e gli ambasciatori dei Quadi. Valentiniano si sente male, cade a terra, momenti di paura in tutti i presenti. Ma dopo questo atti",
+      "quote": "L'Europa spagnola di Yoccio Liberanome Tra il 15° e il 16° secolo la Spagna fu la più grande potenza d'Europa. Aveva una potenza militare soverchiante, un impero coloniale smisurato, dominava l'Italia e in tutto il conti",
       "items": [
         {
-          "id": "item-419672fe03fc",
-          "title": "Anno Domini 375",
-          "path": "/works/anno-domini-375-dccf4411/",
+          "id": "item-f1dd7d6e682c",
+          "title": "L'Europa spagnola",
+          "path": "/works/l-europa-spagnola-eee998b3/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-dccf44113b54",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Olimpo.htm",
-              "timestamp": "20170726110907",
+              "documentId": "doc-eee998b39883",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Europa_spagnola.htm",
+              "timestamp": "20160316194430",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "19b607255e89b493fafbfaed701595c3f6cc77100f9dfd4194742d34bd3b3526",
-              "localReviewPath": "/review/source/doc-dccf44113b54/"
+              "sha256": "d163cc4b54e93101b5d03c61f9cd2325b443b6d56610d011fc9d5482ef3c9da0",
+              "localReviewPath": "/review/source/doc-eee998b39883/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-dd2c6801784b",
+      "proposalId": "proposal-doc-ef5d64dd57e3",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-dd2c6801784b",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-ef5d64dd57e3",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "L'impero degli Aviz di Filobeche Stemma dell'Impero degli Aviz disegnato dall'amico nanwe01 (da questo sito) POD: Manuel I di Portogallo eredita la corona di Spagna alla morte di Isabella e Ferdinando in quanto marito di",
+      "quote": "L'assassinio di Togliatti di Enrico Pellerito Il tentativo di uccidere Palmiro Togliatti da parte di Antonio Pallante fallì perché le pallottole usate, sebbene di calibro 38, erano di quelle in uso alla polizia statunite",
       "items": [
         {
-          "id": "item-f3f6f5c7296f",
-          "title": "L'impero degli Aviz",
-          "path": "/works/l-impero-degli-aviz-dd2c6801/",
+          "id": "item-e7c13634e6ac",
+          "title": "L'assassinio di Togliatti, di Enrico Pellerito",
+          "path": "/works/l-assassinio-di-togliatti-di-enrico-pellerito-ef5d64dd/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-dd2c6801784b",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Aviz.htm",
-              "timestamp": "20260513141419",
+              "documentId": "doc-ef5d64dd57e3",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Togliatti.htm",
+              "timestamp": "20230921144828",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "91adf4a106491408c6f44c068dbb3403112479cf9b7a21f83e8922e6eae326dc",
-              "localReviewPath": "/review/source/doc-dd2c6801784b/"
+              "sha256": "457da2c32b32a0511eabefa43c144a126f251df34f57113b4dbc3fd7cc82b6ee",
+              "localReviewPath": "/review/source/doc-ef5d64dd57e3/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-dd2ffb4db9c8",
+      "proposalId": "proposal-doc-ef626984caf2",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-dd2ffb4db9c8",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-ef626984caf2",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Gaston 1er, roi de France et de Navarre de Alessio Le premier à lancer l’idée fut (ô surprise) le Français Pourquoi Pas ? avec cette proposition : Armand Jean du Plessis, mieux connu sous le nom de Richelieu, était cardi",
+      "quote": "L'ucronia di Akhenaton! Questa ucronia si intitola \"Ucronia di Akhenaton\", é la mia prima ucronia scritta un anno fa, non l'ho mai completata, credo che sarebbe un lavoro gigantesco. É solo un' idea: la nostra civiltà é",
       "items": [
         {
-          "id": "item-7a4d674ba094",
-          "title": "[uchronìe] Gaston 1er, roi de France et de Navarre",
-          "path": "/works/uchronie-gaston-1er-roi-de-france-et-de-navarre-dd2ffb4d/",
+          "id": "item-d59e87b3dce1",
+          "title": "L'ucronia di Akhenaton!",
+          "path": "/works/l-ucronia-di-akhenaton-ef626984/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-dd2ffb4db9c8",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/uchroniesenfrancais/Gaston_I.htm",
-              "timestamp": "20100129231016",
+              "documentId": "doc-ef626984caf2",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Akhenaton.htm",
+              "timestamp": "20220426051508",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "d573cb3a3c8e3e0678232bfeb1901418543065319d3614469bece4d80ef66ddb",
-              "localReviewPath": "/review/source/doc-dd2ffb4db9c8/"
+              "sha256": "425db394a8fbd286cd289c0b6d86e9f554b1040143590229644b9b2893c2b067",
+              "localReviewPath": "/review/source/doc-ef626984caf2/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-dd79075c06e3",
+      "proposalId": "proposal-doc-ef672a9069d9",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-dd79075c06e3",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-ef672a9069d9",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Alla conquista dell'Arabia Efestione, l'amico più caro di Alessandro ed il suo compagno più fidato nella grande spedizione asiatica, non muore affatto nel novembre del 324, ma ascende al rango di viceré e di luogotenente",
+      "quote": "Francia e Italia scambiate di posto! di William Riker, con la collaborazione di Edoardo Secco Quel che segue è la terza parte della mia ucronia simmetrizzante che prevede letteralmente uno scambio tra Italia e Francia: p",
       "items": [
         {
-          "id": "item-b86d2d0b1667",
-          "title": "Fanta-Alessandro Magno",
-          "path": "/works/fanta-alessandro-magno-dd79075c/",
+          "id": "item-f40de1c66a81",
+          "title": "Francia e Italia scambiate di posto!",
+          "path": "/works/francia-e-italia-scambiate-di-posto-ef672a90/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-dd79075c06e3",
-              "url": "http://www.fmboschetto.it/racconti/Alessandro/Alessandro_1.htm",
+              "documentId": "doc-ef672a9069d9",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Francia_Italia_3.htm",
+              "timestamp": "20170726110759",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "32bc58297a724f30a4541a805876e172eb1ef32219f49716cdd017d83f719825",
-              "localReviewPath": "/review/source/doc-dd79075c06e3/"
+              "sha256": "4a5e92b281b0c14589ee518e7ebbd79434009d9d2874efdab07878b3b9f2b528",
+              "localReviewPath": "/review/source/doc-ef672a9069d9/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-dd97bfd61208",
+      "proposalId": "proposal-doc-f0071b04a9f3",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-dd97bfd61208",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-f0071b04a9f3",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Les Grands Comnènes de Filobeche Je ne sais pas si j’aurais le temps de les développer mais voici quelques possibilités de divergence au cours de l’histoire byzantine : 1) Les Byzantins bloquent l’invasion arabe, reprenn",
+      "quote": "Anche gli déi devono morire di Sandro Degiani L’idea nasce da un concetto che mi pare di avere letto in qualche libro un eone di anni fa… si ipotizzava che gli Dei fossero sì immortali, ma solo se traevano “energia vital",
       "items": [
         {
-          "id": "item-591589520cd7",
-          "title": "[uchronìe] Les Grands Comnènes",
-          "path": "/works/uchronie-les-grands-comnenes-dd97bfd6/",
+          "id": "item-129ebe321c4a",
+          "title": "Anche gli déi devono morire, di Sandro Degiani",
+          "path": "/works/anche-gli-dei-devono-morire-di-sandro-degiani-f0071b04/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-dd97bfd61208",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/les_grands_Comnenes.htm",
-              "timestamp": "20240422231553",
+              "documentId": "doc-f0071b04a9f3",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/ancheglidei.htm",
+              "timestamp": "20251012042318",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "fbfd733ef3dd832b667fab98d1661e22c243275cf92f325f2ac593187ae4154f",
-              "localReviewPath": "/review/source/doc-dd97bfd61208/"
+              "sha256": "af74d5bd9de274d74a43be42bfd4e352637ffe027bfd35c487957b6f9f49adec",
+              "localReviewPath": "/review/source/doc-f0071b04a9f3/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-de19d82fc262",
+      "proposalId": "proposal-doc-f00d4edd4eb4",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-de19d82fc262",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-f00d4edd4eb4",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "L'impero di Alessandro di Det0 « Da quel che abbiamo detto, risulta manifesto anche questo: che compito del poeta è di dire non le cose accadute ma quelle che potrebbero accadere e le possibili secondo verosimiglianza e",
+      "quote": "Giovanni Paolo II e gli alieni di Lord Wilmore Fino al giugno 2002 tutti gli eventi storici procedono come nella nostra linea temporale, e Papa Giovanni Paolo II prosegue instancabile la propria attività missionaria nono",
       "items": [
         {
-          "id": "item-29bbef0d24f6",
-          "title": "L'impero di Alessandro secondo Det0",
-          "path": "/works/l-impero-di-alessandro-secondo-det0-de19d82f/",
+          "id": "item-9b5d5c189c30",
+          "title": "Giovanni Paolo II e gli alieni",
+          "path": "/works/giovanni-paolo-ii-e-gli-alieni-f00d4edd/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-de19d82fc262",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/impero_di_Alessandro_Det0.htm",
-              "timestamp": "20200204053256",
+              "documentId": "doc-f00d4edd4eb4",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/GPII_e_gli_alieni.htm",
+              "timestamp": "20250418223328",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "54fc2ec3265e946594296490af47e40e8f37a7a713eeab715257f053b14fa830",
-              "localReviewPath": "/review/source/doc-de19d82fc262/"
+              "sha256": "f48a8a7fb32c8c19e8541145fc4d67926cc7e6218e7e888bb0e9b2673307e886",
+              "localReviewPath": "/review/source/doc-f00d4edd4eb4/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-de766ce0e42c",
+      "proposalId": "proposal-doc-f072575481ca",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-de766ce0e42c",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-f072575481ca",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Ucronie dell'Africa Australe di Lord Wilmore Diamo la parola a William Riker: Il viaggio del Papa in Madagascar del 7 ed 8 settembre 2019 mi ha spinto a realizzare questa cartina: l'impero coloniale malgascio! Come arriv",
+      "quote": "La civiltà greca nel Mar Baltico! di Pedro Felipe Mi presento: sono Pedro Felipe, e vorrei sviluppare la seguente ucronia. . Secondo il libro \"Omero nel Baltico\" di Felice Vinci, i poemi omerici sarebbero da localizzarsi",
       "items": [
         {
-          "id": "item-1f213f12eae2",
-          "title": "Ucronie dell'Africa Australe",
-          "path": "/works/ucronie-dell-africa-australe-de766ce0/",
+          "id": "item-f97f1ba78d34",
+          "title": "La civiltà greca nel Mar Baltico!",
+          "path": "/works/la-civilta-greca-nel-mar-baltico-f0725754/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-de766ce0e42c",
-              "url": "http://www.fmboschetto.it:80/utopiaucronia/Fanta_Madagascar.htm",
-              "timestamp": "20200130144150",
+              "documentId": "doc-f072575481ca",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Greci_nel_Baltico.htm",
+              "timestamp": "20110206004200",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "4ac9d5ca502d41831be4ed3ba0bab966e21002397961339d28e9b3982e4ea51f",
-              "localReviewPath": "/review/source/doc-de766ce0e42c/"
+              "sha256": "f8287f1d2d53ca63429d72321d149fafd621fdff8c493e5ef950efc484edc086",
+              "localReviewPath": "/review/source/doc-f072575481ca/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-deae94105c15",
+      "proposalId": "proposal-doc-f105e09cb4f5",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-deae94105c15",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-f105e09cb4f5",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Napoleone II di Perchè no? . Ecco la nuova proposta di William Riker: Marie-Josèphe-Rose de Tascher de la Pagerie, creola della Martinica e vedova del visconte Alexandre de Beauharnais, vittima eccellente del Terrore, in",
+      "quote": "L'Unione Slava e la Terza Guerra Mondiale di Echetelion Salute, mi chiamo Echetelion. Mi sono molto interessato ai lavori ucronici che parlano di un ipotetico futuro, ed ho voluto esporre anch'io un mio semplice lavoro..",
       "items": [
         {
-          "id": "item-00a7c4c44ddb",
-          "title": "Napoleone II",
-          "path": "/works/napoleone-ii-deae9410/",
+          "id": "item-d175c0fbdbb0",
+          "title": "L'Unione Slava e la Terza Guerra Mondiale",
+          "path": "/works/l-unione-slava-e-la-terza-guerra-mondiale-f105e09c/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-deae94105c15",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Napoleone_II.htm",
-              "timestamp": "20190904101205",
+              "documentId": "doc-f105e09cb4f5",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_WWIII_2.htm",
+              "timestamp": "20210501134018",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "3f551daaf788020b0dda21f94720cf04a42c3878e27e571d5b5f2847aec0b025",
-              "localReviewPath": "/review/source/doc-deae94105c15/"
+              "sha256": "020329e5a2720d4faf7aba8f9105a54be8c6d91218384220e33d7a5d8f134978",
+              "localReviewPath": "/review/source/doc-f105e09cb4f5/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-deca7dc7bf9f",
+      "proposalId": "proposal-doc-f10fc3a6b475",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-deca7dc7bf9f",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-f10fc3a6b475",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Mondiali di calcio 1990: Jugoslavia campione! Si sarebbe evitata o rimandata la tragedia? un'ucronia sportiva di Simone Torresani Introduzione La Storia unisce spesso alla tragedia il paradosso: fu amaro destino che la m",
+      "quote": "Israele fuori di Israele di Never75 . Anno 67 d.C. Il rabbino Yoannan Ben Zakkai, prevedendo con l'inizio delle Guerre Giudaiche la fine di Gerusalemme e la distruzione del Tempio, chiede un incontro con Vespasiano, venu",
       "items": [
         {
-          "id": "item-35f3ab6b95cd",
-          "title": "Mondiali di calcio 1990: Jugoslavia campione!",
-          "path": "/works/mondiali-di-calcio-1990-jugoslavia-campione-deca7dc7/",
+          "id": "item-f0b40a4b5ef7",
+          "title": "Israele fuori di Israele",
+          "path": "/works/israele-fuori-di-israele-f10fc3a6/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-deca7dc7bf9f",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Jugoslavia_1990.htm",
+              "documentId": "doc-f10fc3a6b475",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Israele_fuori_di_Israele.htm",
+              "timestamp": "20200129015745",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "6c1148645865009a8c9f85d5c93e92abdcdeb526c8f19dc1a4717a121ea15ba0",
-              "localReviewPath": "/review/source/doc-deca7dc7bf9f/"
+              "sha256": "568d435427be4caa8f50e77e81f6318c399b708d44400faf1448e640757ac635",
+              "localReviewPath": "/review/source/doc-f10fc3a6b475/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-dffc2f92a82b",
+      "proposalId": "proposal-doc-f15b8c230b5d",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-dffc2f92a82b",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-f15b8c230b5d",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Gioacchino Murat primo Re dell'Italia Unita di Camus Vanz “Dall’Alpi allo stretto di Sicilia odasi un grido solo: L’indipendenza d’Italia”. Il 30 marzo 1815, a Rimini, ci fu il primo programma di rivendicazione dell’indi",
+      "quote": "Cesare in America! Così JFB ha pensato di partecipare al nostro gioco di ruolo dedicato alla colonizzazione romana delle Americhe. Naturalmente se volete inviare dei commenti o partecipare al gioco di ruolo con un vostro",
       "items": [
         {
-          "id": "item-384ff699ae40",
-          "title": "Gioacchino Murat primo Re dell'Italia Unita",
-          "path": "/works/gioacchino-murat-primo-re-dell-italia-unita-dffc2f92/",
+          "id": "item-0a678022b0e4",
+          "title": "Cesare in America!",
+          "path": "/works/cesare-in-america-f15b8c23/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-dffc2f92a82b",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Murat.htm",
-              "timestamp": "20240901220453",
+              "documentId": "doc-f15b8c230b5d",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Cesare_in_America.htm",
+              "timestamp": "20100327201318",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "f98bf22543bb1325ad894a13997eb544762431a0f74988d2543b106c4bba4f2e",
-              "localReviewPath": "/review/source/doc-dffc2f92a82b/"
+              "sha256": "6965fb5b5eaa9fcae744159def2077ed3e597f05c325543f1ba982b7d7955ed8",
+              "localReviewPath": "/review/source/doc-f15b8c230b5d/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-e04aa78ff172",
+      "proposalId": "proposal-doc-f1684badfd1c",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-e04aa78ff172",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-f1684badfd1c",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Anno 1914 ab Urbe condita di William Riker Tutto è partito dall'idea di Enrica S: Vi voglio mostrare la cartina del mondo che vedete qui sopra, realizzata da me in un momento di ispirazione. L'impero romano esiste ancora",
+      "quote": "Tre Franceschi impediscono l'unità d'Italia di Massimiliano Paleari Se si osserva il modo in cui \"si fece l'Italia\" tra il 1859 e il 1861 non si può non convenire che entrarono in gioco una serie di eventi e di circostan",
       "items": [
         {
-          "id": "item-3a934e60d3cf",
-          "title": "Anno 1914 ab Urbe condita",
-          "path": "/works/anno-1914-ab-urbe-condita-e04aa78f/",
+          "id": "item-6f06d29cde2b",
+          "title": "Tre Franceschi impediscono l'unità d'Italia!",
+          "path": "/works/tre-franceschi-impediscono-l-unita-d-italia-f1684bad/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-e04aa78ff172",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/1914aUc.htm",
-              "timestamp": "20260425054714",
+              "documentId": "doc-f1684badfd1c",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Tre_Franceschi.htm",
+              "timestamp": "20160227004458",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "9bc253bed0d8feb5ed2674d6812b14ed840c82ae8eaeefb855766345c1ca3bc8",
-              "localReviewPath": "/review/source/doc-e04aa78ff172/"
+              "sha256": "a8c6d5ee0189e60f090dd93d0209491e13c38fbcc18922c50fec248a028329f1",
+              "localReviewPath": "/review/source/doc-f1684badfd1c/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-e09c2ea03105",
+      "proposalId": "proposal-doc-f1bd610c77df",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-e09c2ea03105",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-f1bd610c77df",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Nades (ou Sedan renversé) de Filobeche, William Riker et Porquoi pas? « L’écrasement de la France par la race germanique, et l’exégèse historico-philosophique qu’en tirèrent les penseurs d’outre-Rhin, semblèrent étendre",
+      "quote": "Bandiera dell'Impero Moghul . Ucronia ispirata a questo sito, tradotto e rielaborato per noi da Generalissimus. Nome ufficiale: مغلیہ سلطنت (Moghli Soltanat) Anno di fondazione: 1526 Inno: \"Pāk Sarzamīn\" (\"La Terra Sacra",
       "items": [
         {
-          "id": "item-464a0369b795",
-          "title": "[uchronìe] Nades (ou Sedan renversé)",
-          "path": "/works/uchronie-nades-ou-sedan-renverse-e09c2ea0/",
+          "id": "item-80efab52eda1",
+          "title": "L'Impero Moghul eterno",
+          "path": "/works/l-impero-moghul-eterno-f1bd610c/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-e09c2ea03105",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/Nades.htm",
-              "timestamp": "20251012174017",
+              "documentId": "doc-f1bd610c77df",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Moghul.htm",
+              "timestamp": "20200130022806",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "fa72a722d81ef0d5b07c84a43e36b25fc5ccba4c1aab700a859faf1e8607905a",
-              "localReviewPath": "/review/source/doc-e09c2ea03105/"
+              "sha256": "d8152738fb1115d6a8bffc6f9f423b1966a9c1cd8ce588c4d7135c9865c9688e",
+              "localReviewPath": "/review/source/doc-f1bd610c77df/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-e14418908a99",
+      "proposalId": "proposal-doc-f2399da1977a",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-e14418908a99",
+      "reviewPath": "/review/?state=pending&action=work&page=3#proposal-doc-f2399da1977a",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Padre Brown Papa! de William Riker En el cónclave del 2 de marzo de 1939, a la muerte de Pío XI, en el primer escrutinio no resulta electo Papa Eugenio Pacelli, que en esta línea temporal es sólo un humilde párroco del c",
+      "quote": "La parte degli angeli di Generalissimus Premessa importante: per comprendere meglio questo racconto, leggete questo articolo. . 17 dicembre 2019 In una delle 1100 stanze che componevano il palazzo neo-barocco che a Londr",
       "items": [
         {
-          "id": "item-031caa759c54",
-          "title": "Padre Brown Papa!",
-          "path": "/works/padre-brown-papa-e1441890/",
+          "id": "item-e54f56028a88",
+          "title": "La parte degli angeli",
+          "path": "/works/la-parte-degli-angeli-f2399da1/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-e14418908a99",
-              "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Padre_Brown_Papa.htm",
-              "timestamp": "20230329232225",
+              "documentId": "doc-f2399da1977a",
+              "url": "http://www.fmboschetto.it:80/utopiaucronia/angeli.htm",
+              "timestamp": "20210411101657",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "c5912b01234ba323e6b1fae652125b972939c72e9a9907228f4a29c14ac3038b",
-              "localReviewPath": "/review/source/doc-e14418908a99/"
+              "sha256": "a536ea3e26616b0ab9f50391c894867c05f7d7b2794e63706332c09454fe5015",
+              "localReviewPath": "/review/source/doc-f2399da1977a/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-e24c57334ae8",
+      "proposalId": "proposal-doc-f27687b36c20",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-e24c57334ae8",
+      "reviewPath": "/review/?state=pending&action=work&page=3#proposal-doc-f27687b36c20",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Gli alieni e la II Guerra Mondiale di William Wallace Estate 1942: nella notte tra il 13 e il 14 agosto una spedizione scientifica americana di stanza in Alaska allerta lo Stato maggiore dell'esercito americano a seguito",
+      "quote": "JHS, el hombre sin código de William Riker Año 7993. El mundo está dominado por una organización perfecta, en la que cada uno tiene su rol y es programado desde la concepción por técnicas de ingeniería genética. Las muje",
       "items": [
         {
-          "id": "item-a52a88c5852b",
-          "title": "Gli alieni e la II Guerra Mondiale",
-          "path": "/works/gli-alieni-e-la-ii-guerra-mondiale-e24c5733/",
+          "id": "item-577a311bf7f8",
+          "title": "JHS, el hombre sin código",
+          "path": "/works/jhs-el-hombre-sin-codigo-f27687b3/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-e24c57334ae8",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Area51.htm",
-              "timestamp": "20240908085654",
+              "documentId": "doc-f27687b36c20",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/JHS.htm",
+              "timestamp": "20210411092451",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "81b9a8c48f1eee45f41ba4e9fcdefe13b573af46588c4e4b1cb7b42a8395e123",
-              "localReviewPath": "/review/source/doc-e24c57334ae8/"
+              "sha256": "da3759dcc3beaead5679c7ce4d0fa289c5f9121363fefa87c2f6524506f8fee2",
+              "localReviewPath": "/review/source/doc-f27687b36c20/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-e387b5b9fb40",
+      "proposalId": "proposal-doc-f27a91b2b4e6",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=3#proposal-doc-e387b5b9fb40",
+      "reviewPath": "/review/?state=pending&action=work&page=3#proposal-doc-f27a91b2b4e6",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Il mondo senza 11 settembre DA AL GORE PRESIDENTE ALLA TEMPESTA ELETTROMAGNETICA (2000-2010) di Ipotetico Sole Nota: le ucronie riportate in questa pagina sono meri voli di fantasia e non esprimono posizioni o giudizi a",
+      "quote": "Israel eterno de William Riker ¿Qué hubiera ocurrido en caso de que no hubiera existido la diáspora hebraica, siempre partiendo como base de la Palestina en el Imperio Romano, pasando por la invasión de los árabes y lleg",
       "items": [
         {
-          "id": "item-2ba156c17df5",
-          "title": "Il mondo senza 11 settembre",
-          "path": "/works/il-mondo-senza-11-settembre-e387b5b9/",
+          "id": "item-ff79f9383edb",
+          "title": "Israel eterno",
+          "path": "/works/israel-eterno-f27a91b2/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-e387b5b9fb40",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Al_Gore.htm",
-              "timestamp": "20201108153140",
+              "documentId": "doc-f27a91b2b4e6",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Ucroniasenespanol/Israel_Eterno.htm",
+              "timestamp": "20230329224736",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "29fd67fd1e6a09b6fd466ebfca8c3fee928bee8cfa9f936318c60da06f15f6d6",
-              "localReviewPath": "/review/source/doc-e387b5b9fb40/"
+              "sha256": "46a6d0f4a90dd033a15c4c7b8c41d401ba7880308b6ecd65485ae814dbcc9919",
+              "localReviewPath": "/review/source/doc-f27a91b2b4e6/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-e39c10bd65bd",
+      "proposalId": "proposal-doc-f37fdf1f976c",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=3#proposal-doc-e39c10bd65bd",
+      "reviewPath": "/review/?state=pending&action=work&page=3#proposal-doc-f37fdf1f976c",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "I Meganoidi in Italia! di Never75 Dedicato a tutti quelli che ricordano con nostalgia i fantastici robottoni giapponesi degli anni '80! Gli ucronauti che sono nati negli anni sessanta o all'inizio dei settanta si ricorde",
+      "quote": "Ma Milan l'è un grand Milan di Homer Se I Visconti e i loro Successori Sforza unificano l’intera Lombardia e Piemonte, relegando i Savoia oltralpe, e soprattutto mantenendo il controllo di Genova e Bologna in unione pers",
       "items": [
         {
-          "id": "item-d2191588f766",
-          "title": "I Meganoidi in Italia!",
-          "path": "/works/i-meganoidi-in-italia-e39c10bd/",
+          "id": "item-34fe09a170ec",
+          "title": "Ma Milan l'è un grand Milan",
+          "path": "/works/ma-milan-l-e-un-grand-milan-f37fdf1f/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-e39c10bd65bd",
-              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Meganoidi.htm",
-              "timestamp": "20250418230403",
+              "documentId": "doc-f37fdf1f976c",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/un_grand_Milan.htm",
+              "timestamp": "20141004011625",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "4851c46c19a27752281e7317f3ac22ab0f6152235db66ee3f12354c9abe281b1",
-              "localReviewPath": "/review/source/doc-e39c10bd65bd/"
+              "sha256": "9a6000b821eaebcc5c959ee2b92d0ad64151ffa1da78d53d1b6446a2ac1285a5",
+              "localReviewPath": "/review/source/doc-f37fdf1f976c/"
             }
           ]
         }
       ]
     },
     {
-      "proposalId": "proposal-doc-e3ceb1388331",
+      "proposalId": "proposal-doc-f39c2a719f5a",
       "action": "work",
-      "reviewPath": "/review/?state=pending&action=work&page=3#proposal-doc-e3ceb1388331",
+      "reviewPath": "/review/?state=pending&action=work&page=3#proposal-doc-f39c2a719f5a",
       "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
-      "quote": "Storia della Gallotracia e della Galledonia di Paolo Maltagliati I - Periodo antico Tolomeo Cerauno era all'apice della gloria quando una grande rovina si abbatté su di lui: la grande invasione dei galli. I macedoni venn",
+      "quote": "FantaLepanto! di Filobeche 7 Oct. 1571: Battaglia di Lepanto tra le flotte dell'alleanza cattolica e dell'impero Turco. Schiacciante vittoria Spagnola che porterà poi alla riconquista della penisola Balcanica; indizione",
       "items": [
         {
-          "id": "item-69e20e078a20",
-          "title": "Storia della Galacia e della Galledonia",
-          "path": "/works/storia-della-galacia-e-della-galledonia-e3ceb138/",
+          "id": "item-74b5f2a623d8",
+          "title": "FantaLepanto!",
+          "path": "/works/fantalepanto-f39c2a71/",
           "composition": "single",
           "alreadyPublished": false,
           "sources": [
             {
-              "documentId": "doc-e3ceb1388331",
-              "url": "https://www.fmboschetto.it/Utopiaucronia/Gallotracia.htm",
-              "timestamp": "20250512210858",
+              "documentId": "doc-f39c2a719f5a",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Lepanto.htm",
+              "timestamp": "20260513133204",
               "selection": {
                 "kind": "whole"
               },
-              "sha256": "b547542b5ed556d42266ef307d5fab66b4bf65031a767dd738d5e32022aa7fc3",
-              "localReviewPath": "/review/source/doc-e3ceb1388331/"
+              "sha256": "f01b4b5447f45a64f09ce84e5b650ee2b7ee22479033c3ea7976abb63e12fedd",
+              "localReviewPath": "/review/source/doc-f39c2a719f5a/"
             }
           ]
         }
