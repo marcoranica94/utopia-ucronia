@@ -33,7 +33,7 @@ The final classification, full archive tree and complete publication should not 
 
 ## Board verification
 
-After the first owner-approved S4 batch the regenerated board contains 66 tasks: 50 done, one to do, three partial and 12 in backlog (including two non-blocking deferrals). S4 is active; all eight S3 tasks are delivered. Browser checks verified all five columns, sprint/search/reset controls, next-step priorities, immunity to stale local overrides and responsive layouts. These task counts measure the plan, not the percentage of archive texts published. S3 feature verification is documented separately in [status-s3.md](status-s3.md).
+After the second owner-approved S4 batch and the View Transitions the regenerated board contains 68 tasks: 52 done, one to do, three partial and 12 in backlog. S4 is active; all eight S3 tasks are delivered. Browser checks verified all five columns, sprint/search/reset controls, next-step priorities, immunity to stale local overrides and responsive layouts. These task counts measure the plan, not the percentage of archive texts published. S3 feature verification is documented separately in [status-s3.md](status-s3.md).
 
 The 17 November discovery increment is implemented and validated locally; this audit does not claim a new production deployment. See [status-s4-discovery.md](status-s4-discovery.md). Author navigation covers the current canonical edition, not all recovered files.
 

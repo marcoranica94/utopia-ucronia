@@ -3,6 +3,31 @@ import iconv from "iconv-lite";
 import sanitize from "sanitize-html";
 import Turndown from "turndown";
 
+/**
+ * Raw HTML kept inside Markdown still has its text parsed as Markdown, so a
+ * literal "*" in a bold reconstruction ("*ŋroːg") would become emphasis and
+ * vanish. Encode Markdown-significant characters in text, never in tags.
+ */
+export const inertHtml = (html: string) =>
+  html.replace(
+    /(<(?:[^>"']|"[^"]*"|'[^']*')*>)|([^<]+)/g,
+    (_m, tag: string | undefined, text: string | undefined) =>
+      tag ??
+      (text ?? "").replace(/[*_`\\[\]~]/g, (c) => `&#${c.charCodeAt(0)};`),
+  );
+
+/** Drops ids already used earlier in the same source document. */
+export const firstIdsOnly = (markdown: string, seen: Set<string>) =>
+  markdown.replace(
+    /<span id="([^"]+)"><\/span>| id="([^"]+)"/g,
+    (m, empty: string | undefined, attr: string | undefined) => {
+      const id = empty ?? attr ?? "";
+      if (seen.has(id)) return "";
+      seen.add(id);
+      return m;
+    },
+  );
+
 export function decode(data: Buffer): string {
   const head = data.subarray(0, 2048).toString("ascii");
   const charset =
@@ -153,6 +178,10 @@ export function convertHtml(
   });
   const td = new Turndown({
     headingStyle: "atx",
+    keepReplacement: (_content, node) => {
+      const html = inertHtml((node as HTMLElement).outerHTML);
+      return (node as { isBlock?: boolean }).isBlock ? `\n\n${html}\n\n` : html;
+    },
     bulletListMarker: "-",
     blankReplacement: (_content, node) => {
       const element = node as HTMLElement;
@@ -173,7 +202,7 @@ export function convertHtml(
   });
   td.addRule("frontPageEmphasis", {
     filter: ["em", "i", "strong", "b"],
-    replacement: (_content, node) => (node as HTMLElement).outerHTML,
+    replacement: (_content, node) => inertHtml((node as HTMLElement).outerHTML),
   });
   td.addRule("anchors", {
     filter: (node) =>

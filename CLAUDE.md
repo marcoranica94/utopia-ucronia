@@ -196,3 +196,8 @@ The converter now combines the S2 baseline pinned in `data/publication-baseline.
 ## First owner-approved batch, 17 November 2026
 
 The owner explicitly approved the 20 proposals in the packet preserved as `reports/publication-batch-01.json`. Their 20 ledger decisions and selections are real owner-authorized data; preserve them. The current edition is 66 reading items (63 canonical plus three legacy previews), with 53 canonical works and 106 source signatures. No classification was approved by this structural review. `reports/publication-next.md` now refers to the next unapproved packet. Original header text is retained in `sourceHeaders` and shown in reader provenance; this preserves dates/bylines that differ from catalog metadata without weakening fidelity checks. Literal FrontPage icon-link markup is removed only from display titles; map titles, original files and reading routes stay intact. See `docs/status-s4-batch-01.md`.
+
+## Second owner-approved batch, 17 November 2026
+
+The owner approved the 20 proposals preserved in `reports/publication-batch-02.json` ("Sì, approvo tutte e 20"); preserve those decisions and selections. Edition: 86 reading items (83 canonical plus three legacy previews), 73 works in `/library/`, 123 source signatures. Text inside HTML kept in Markdown is made inert (`inertHtml`) and repeated source ids keep only the first (`firstIdsOnly`). Catalog-to-reading View Transitions are CSS-only and off under reduced motion. The era/place/theme vocabulary in `docs/vocabulary-proposal.md` is an agent proposal awaiting owner review. See `docs/status-s4-batch-02.md`.
+

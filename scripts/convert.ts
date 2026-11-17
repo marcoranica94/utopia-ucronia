@@ -4,7 +4,13 @@ import { load } from "cheerio";
 import { workContentSchema } from "../src/editorial/content.ts";
 import type { EditorialItem, EditorialSource } from "../src/editorial/model.ts";
 import { type Anatomy, anatomy } from "./anatomy.ts";
-import { convertHtml, decode, documentTitle, titleSlug } from "./conversion.ts";
+import {
+  convertHtml,
+  decode,
+  documentTitle,
+  firstIdsOnly,
+  titleSlug,
+} from "./conversion.ts";
 import {
   applyCorrections,
   correctionsFor,
@@ -305,11 +311,15 @@ for (const page of pages) {
       return image ? "" : `/gaps/#${gap.id}`;
     };
     const clean = part.parsed ? undefined : convertHtml(part.html, resolve);
+    // Blocks are converted one at a time: keep the first of any id the
+    // source repeats (a browser resolves #anchor to the first one too).
+    const seenIds = new Set<string>();
     const structured = part.parsed
-      ? renderStructured(
-          part.parsed,
-          (html) =>
+      ? renderStructured(part.parsed, (html) =>
+          firstIdsOnly(
             convertHtml(`<html><body>${html}</body></html>`, resolve).markdown,
+            seenIds,
+          ),
         )
       : undefined;
     if (part.prefix) {

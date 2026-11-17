@@ -1,0 +1,564 @@
+{
+  "packetSha256": "dcfdb69aaaf6e06d42dc2e40a023cc1318b144487f8557a53802543d994c0a9b",
+  "ownerInstruction": "Sì, approvo tutte e 20",
+  "approvedAt": "2026-11-17T10:20:23.182Z",
+  "scope": "Explicit approval of this 20-proposal packet only; no classification approvals.",
+  "entries": [
+    {
+      "proposalId": "proposal-doc-09d8c41174f5",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-09d8c41174f5",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "La diaspora giapponese di Perché No? Nel 1281 la seconda invasione mongola del Giappone fallisce: una grande tempesta, detta kamikaze (“vento divino”) affonda la flotta nemica e salva il Giappone. Questa flotta era compo",
+      "items": [
+        {
+          "id": "item-5707054c1e39",
+          "title": "La diaspora giapponese",
+          "path": "/works/la-diaspora-giapponese-09d8c411/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-09d8c41174f5",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/diaspora_giapponese.htm",
+              "timestamp": "20200129100200",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "dce9c14b14d3b35caa5ff6946763578031ed9e5fe0c752cef322782f7dc9ff08",
+              "localReviewPath": "/review/source/doc-09d8c41174f5/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0a37ce64752d",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0a37ce64752d",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Io, Agenore, re di Micene di Det0 La cosiddetta \"Maschera di Agenore\" Questa è la storia di un grande condottiero, eroe e re; ma voglio che sia lui a raccontarvela. Vi basti sapere che il suo nome ha un che di fatidico,",
+      "items": [
+        {
+          "id": "item-57ca51c5d590",
+          "title": "Io, Agenore, re di Micene",
+          "path": "/works/io-agenore-re-di-micene-0a37ce64/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0a37ce64752d",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Agenore.htm",
+              "timestamp": "20210411102611",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "5e48a3e59f1aa3c20e2e0a86d0962ad1c26756395c273dfbf5d6077e374fc528",
+              "localReviewPath": "/review/source/doc-0a37ce64752d/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0b8102f9443e",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0b8102f9443e",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Il Gran Regno di Gallia di Dorian Gray e di Lorenzo 52 a.C.: Giulio Cesare, mentre assedia la città di Alesia, capitale degli Arverni, popolazione gallica guidata dal re Vercingetorix, viene a sua volta assediato e, graz",
+      "items": [
+        {
+          "id": "item-84707b96661e",
+          "title": "Il Gran Regno di Gallia",
+          "path": "/works/il-gran-regno-di-gallia-0b8102f9/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0b8102f9443e",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Gallia.htm",
+              "timestamp": "20170726105852",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "6725d4df750d0b50a06a71f3b6933c3f2b2fced87dcf30bc171d717ff58744ca",
+              "localReviewPath": "/review/source/doc-0b8102f9443e/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0ba41594dc1a",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0ba41594dc1a",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Nades (Sedan alla rovescia) « Lo schiacciamento, che seguì, della Francia da parte delle genti germaniche, e l'esegesi storico-filosofica che ne dettero i pensatori e professori d'oltre Reno, sembrarono avvolgere nel fun",
+      "items": [
+        {
+          "id": "item-ab7011da3a69",
+          "title": "Nades (Sedan alla rovescia)",
+          "path": "/works/nades-sedan-alla-rovescia-0ba41594/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0ba41594dc1a",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Napoleone_IV.htm",
+              "timestamp": "20220822065039",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "be91cc94e0c33daca87525c96904c6afddacffd243ffef79293924a128702e9c",
+              "localReviewPath": "/review/source/doc-0ba41594dc1a/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0ba873d559e1",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0ba873d559e1",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Il Re Sole muore nel 1680... di Perché No? La fine del regno di Luigi XIV il magnifico Nel 1680 Luigi XIV é re di Francia ormai da 37 anni, ma regna effettivamente solo da 1661, e questi 19 anni sono stati un periodo mag",
+      "items": [
+        {
+          "id": "item-7d1b78b1f204",
+          "title": "Il Re Sole muore nel 1680... (prima parte)",
+          "path": "/works/il-re-sole-muore-nel-1680-prima-parte-0ba873d5/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0ba873d559e1",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Luigi_XIV.htm",
+              "timestamp": "20240323221354",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "87855eb6ccc869353f21764255ae732c1d814a56a38a9a4b42c110f8e69c191b",
+              "localReviewPath": "/review/source/doc-0ba873d559e1/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0c47c3e28a9d",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0c47c3e28a9d",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Ucronie vegetariane di William Riker . 1) Il cereale che ha bisogno della calce Il mais (nome di etimo incerto derivante dalla lingua Taino) fu domesticato in America verso il 3000 a.C., cominciò ad essere coltivato in m",
+      "items": [
+        {
+          "id": "item-5e84a01c8c36",
+          "title": "Ucronie vegetariane",
+          "path": "/works/ucronie-vegetariane-0c47c3e2/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0c47c3e28a9d",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/ucronie_vegetariane.htm",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "8af7412188342cc316687925f472359c80b0aaff091a0e10e53c065d21817d06",
+              "localReviewPath": "/review/source/doc-0c47c3e28a9d/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0c4a8516293a",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0c4a8516293a",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Magna Italia Ecco una domanda postaci dall'intelligente Bhrghowidhon: Sistematicamente le ucronie riguardanti il Regno d'Italia finiscono per coinvolgere l'annessione o il mantenimento di Corsica, Nizza, Savoia, Trentino",
+      "items": [
+        {
+          "id": "item-1407ef17f916",
+          "title": "Magna Italia",
+          "path": "/works/magna-italia-0c4a8516/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0c4a8516293a",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Magna_Italia.htm",
+              "timestamp": "20210423194025",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "12611b3b8eb1940fa67356526d2c7bd2600718f950d3d10b09c8c31783d77afe",
+              "localReviewPath": "/review/source/doc-0c4a8516293a/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0c8e93276dc6",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0c8e93276dc6",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Come il caffé... Una figlia si lamentava con suo padre circa la sua vita e di come le cose le risultavano tanto difficili. Non sapeva come fare per proseguire e credeva di darsi per vinta. Era stanca di lottare. Sembrava",
+      "items": [
+        {
+          "id": "item-e0af0d61fb60",
+          "title": "Come il caffé...",
+          "path": "/works/come-il-caffe-0c8e9327/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0c8e93276dc6",
+              "url": "http://www.fmboschetto.it/racconti/caffe.htm",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "12b9de00a1cca3fb790149bbe7ad411e5c2ac5e44dbc6d9bc8e2dc8b81844a1b",
+              "localReviewPath": "/review/source/doc-0c8e93276dc6/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0c8f5e8cef1f",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0c8f5e8cef1f",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "1899: Fashoda causa la Guerra Mondiale di William Riker Tutto cominciò a Fashoda... Il 10 Luglio 1898 il forte sudanese di Fashoda viene occupato in nome della Francia dall'esploratore francese e Ufficiale di fanteria ma",
+      "items": [
+        {
+          "id": "item-7da0b64b7666",
+          "title": "Fashoda causa la Guerra Mondiale",
+          "path": "/works/fashoda-causa-la-guerra-mondiale-0c8f5e8c/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0c8f5e8cef1f",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Fashoda.htm",
+              "timestamp": "20250524103211",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "6cea9ce85b070bbc99cd0511f0b3491d1b962a56679f7c4339c6719c759be68b",
+              "localReviewPath": "/review/source/doc-0c8f5e8cef1f/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0ca81d9a9103",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0ca81d9a9103",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Carlo Magno a Venezia di Det0 Tutto parte da quest'idea di Never75: Carlo Magno decide di annettersi anche Venezia, come fece del resto con altri territori nominalmente bizantini. Alla fine fu ad un passo dal farlo, in q",
+      "items": [
+        {
+          "id": "item-8532ef615b67",
+          "title": "Carlo Magno a Venezia",
+          "path": "/works/carlo-magno-a-venezia-0ca81d9a/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0ca81d9a9103",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Carlo_Magno_a_Venezia.htm",
+              "timestamp": "20210210232450",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "d1a1c2e6f80bc8f803951a80a031c277320944fc5c542cc7615d47fa156e4907",
+              "localReviewPath": "/review/source/doc-0ca81d9a9103/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0cbfdda3dc7c",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0cbfdda3dc7c",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Ucronii in milanes In sta pagina chì mettaroo insemma di ucronii realizzaa da l'amis Bhrg'hros el ses de dicember del 2007 in lengua milanesa. Tel chì come la comincia la querelle . Se in del 1736 el Carlo Emanuel III, D",
+      "items": [
+        {
+          "id": "item-bbf4517762ca",
+          "title": "Ucronii in milanes",
+          "path": "/works/ucronii-in-milanes-0cbfdda3/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0cbfdda3dc7c",
+              "url": "http://www.fmboschetto.it/utopiaucronia/ucronii_in_milanes.htm",
+              "timestamp": "20210411100421",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "3e1c85b78bb715fbe96eb70d4f7f21fe0401310d210b69b77c5503de96e41324",
+              "localReviewPath": "/review/source/doc-0cbfdda3dc7c/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0cc2996bd427",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0cc2996bd427",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Viaggio di un secondo di Sandro Degiani Autoritratto di Sandro Degiani Qui l’effetto è ottenuto con una immagine e non con parole, quindi troverete insolitamente inserita una figura in un racconto che è solo testo. È qua",
+      "items": [
+        {
+          "id": "item-6a14490c5c9c",
+          "title": "Viaggio di un secondo, di Sandro Degiani",
+          "path": "/works/viaggio-di-un-secondo-di-sandro-degiani-0cc2996b/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0cc2996bd427",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
+              "timestamp": "20251209015034",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "ce7b8783ce2d60b7d07eeecfbc444f9108671206346626b5c01ec7d736f2db4b",
+              "localReviewPath": "/review/source/doc-0cc2996bd427/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0d517e33c8ec",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0d517e33c8ec",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Un'Italia liberal-gollista di Manfredi 2009 Elezioni Europee: Il PDL è il primo partito, poco sotto il 40%. Segue il PD, inchiodato su un quasi dignitoso 25,5. Nella fascia media, si collocano la Lega Nord, al 9,5%, Di P",
+      "items": [
+        {
+          "id": "item-ed475f5c7908",
+          "title": "Un'Italia liberal-gollista",
+          "path": "/works/un-italia-liberal-gollista-0d517e33/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0d517e33c8ec",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/liberal_gollista.htm",
+              "timestamp": "20100322204917",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "222010fcddbfc272141632d3b616e19a4825c629ab48400275a1e02dab56aa5e",
+              "localReviewPath": "/review/source/doc-0d517e33c8ec/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0dadf4a43e30",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0dadf4a43e30",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Actibus immensis urbs fulget massiliensis di Perchè No? Ecco ora la terza parte dell'ucronia di Perchè No? dedicata alla scoperta delle Americhe da parte di un navigatore greco. Per leggere la prima parte, cliccate qui;",
+      "items": [
+        {
+          "id": "item-ab1ce776a2b3",
+          "title": "Pitea il bugiardo, parte terza",
+          "path": "/works/pitea-il-bugiardo-parte-terza-0dadf4a4/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0dadf4a43e30",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Pitea_3.htm",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "a4b494cc64efaa55531735557b32a6a947efdb333d61aa8e0ee9cb430662ba8c",
+              "localReviewPath": "/review/source/doc-0dadf4a43e30/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0dcbd1b7543a",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0dcbd1b7543a",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "San Luigi IX e il Gran Khan dei Tartari del Marziano Alcune recenti letture mi hanno ispirato una nuova ucronia, basata su san Luigi IX re di Francia. Infatti questo re esercita su di me un fascino magnetico, e mi sembra",
+      "items": [
+        {
+          "id": "item-37701ffa187f",
+          "title": "San Luigi IX e il Gran Khan dei Tartari",
+          "path": "/works/san-luigi-ix-e-il-gran-khan-dei-tartari-0dcbd1b7/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0dcbd1b7543a",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Luigi_IX.htm",
+              "timestamp": "20210225050235",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "1e66922e979fea59ce44bdb84370b28a18fced172ba9f113e128b6d475a92360",
+              "localReviewPath": "/review/source/doc-0dcbd1b7543a/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0e2b12477024",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0e2b12477024",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "I cari estinti di Paolo Maltagliati A lanciare l'idea è stato l'immaginifico Paolo Maltagliati: La mia proposta è molto semplice. Cosa sarebbe successo se alcuni animali non si fossero estinti, e se gli uomini fossero ri",
+      "items": [
+        {
+          "id": "item-11705f75c26c",
+          "title": "I cari estinti",
+          "path": "/works/i-cari-estinti-0e2b1247/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0e2b12477024",
+              "url": "http://www.fmboschetto.it/Utopiaucronia/quattro_specie.htm",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "6122f04cf9525c0578dfe0d57e1e5bdb106e32b136872494a538b3417f972edb",
+              "localReviewPath": "/review/source/doc-0e2b12477024/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0e3b5a1fa190",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0e3b5a1fa190",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Un mondo senza Roma di Lord Wilmore 753 a.C., 21 aprile: (POD) alle ore 8.45 del mattino, un nucleo cometario esplode nell'atmosfera sopra la foce del Tevere, carbonizzando ogni cosa in un raggio di 30 chilometri, e dist",
+      "items": [
+        {
+          "id": "item-3f68c8e222aa",
+          "title": "Un mondo senza Roma",
+          "path": "/works/un-mondo-senza-roma-0e3b5a1f/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0e3b5a1fa190",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/senza_Roma.htm",
+              "timestamp": "20240429170143",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "0460db4359830d4768068718cdd831b616289e6157c84590074a6ac9e573e4b9",
+              "localReviewPath": "/review/source/doc-0e3b5a1fa190/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0e9000e3e5d2",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0e9000e3e5d2",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "L'impero serbo di Basileus TFT Attorno all'anno 1350 l'Impero serbo raggiunse un'estensione assai elevata, comprendendo praticamente tutti i balcani meridionali. Stefano I Dusan si autoproclamò imperatore di tutti i serb",
+      "items": [
+        {
+          "id": "item-88bd1cdd52f0",
+          "title": "L'Impero Serbo",
+          "path": "/works/l-impero-serbo-0e9000e3/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0e9000e3e5d2",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/impero_serbo.htm",
+              "timestamp": "20110226085724",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "f999ce1a8bb91482dfc0c9da9a6b201dd082eb87c82f2b5f7b2b64f09f9e6f43",
+              "localReviewPath": "/review/source/doc-0e9000e3e5d2/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0f1860ed89bf",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=1#proposal-doc-0f1860ed89bf",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "Il Divo al Quirinale di Demofilo Durante le meritate vacanze 2008 ho concepito un'ucronia da me pensata dopo aver visto il film di Paolo Sorrentino \"Il Divo\", premiato dalla giuria al Festival di Cannes. Ecco quanto. . 1",
+      "items": [
+        {
+          "id": "item-e1dd5ce1c38e",
+          "title": "Il Divo al Quirinale",
+          "path": "/works/il-divo-al-quirinale-0f1860ed/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0f1860ed89bf",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/Divo_al_Quirinale.htm",
+              "timestamp": "20231205023142",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "123577eebad0c70f873c09daa69adcb0c79cab20dd799c5176c41e5ac6dd52f0",
+              "localReviewPath": "/review/source/doc-0f1860ed89bf/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "proposalId": "proposal-doc-0f5d653dbc8f",
+      "action": "work",
+      "reviewPath": "/review/?state=pending&action=work&page=2#proposal-doc-0f5d653dbc8f",
+      "reason": "A recovered text page; preserve the source and propose its editorial role for progressive review.",
+      "quote": "A furore Normannorum... di Demofilo Anche Demofilo ha deciso di partecipare al gioco di ruolo relativo ad una diversa colonizzazione del continente americano; in particolare ha pensato di costruirla utilizzando lo stesso",
+      "items": [
+        {
+          "id": "item-f4db6e8185c1",
+          "title": "A furore Normannorum...",
+          "path": "/works/a-furore-normannorum-0f5d653d/",
+          "composition": "single",
+          "alreadyPublished": false,
+          "sources": [
+            {
+              "documentId": "doc-0f5d653dbc8f",
+              "url": "http://www.fmboschetto.it:80/Utopiaucronia/a_furore_Normannorum.htm",
+              "timestamp": "20100327200745",
+              "selection": {
+                "kind": "whole"
+              },
+              "sha256": "5fa9d9f1d72336577f946b5a9a455a7eb0985bf56cc3fc6a3547aeb2086511f1",
+              "localReviewPath": "/review/source/doc-0f5d653dbc8f/"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

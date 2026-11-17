@@ -4,7 +4,7 @@ import os from "node:os";
 import path from "node:path";
 import { test } from "node:test";
 import { gzipSync } from "node:zlib";
-import { convertHtml, decode } from "../scripts/conversion.ts";
+import { convertHtml, decode, firstIdsOnly } from "../scripts/conversion.ts";
 import {
   originalPath,
   prepareData,
@@ -22,6 +22,28 @@ test("a missing image leaves no empty link", () => {
     (_href, img) => (img ? "" : "/gaps/"),
   );
   assert.doesNotMatch(r.markdown, /gaps|<a|!\[/);
+});
+test("literal asterisks inside kept emphasis are not read as Markdown", () => {
+  const r = convertHtml(
+    "<html><body><p>da <i><b>*ŋroːg</b></i> con <i><b>*ŋroːg</b></i> e <b>a_b_c</b></p></body></html>",
+    () => "/gaps/",
+  );
+  assert.match(r.markdown, /<b>&#42;ŋroːg<\/b>.*<b>&#42;ŋroːg<\/b>/);
+  assert.match(r.markdown, /<b>a&#95;b&#95;c<\/b>/);
+  assert.doesNotMatch(r.markdown, /[*_]/);
+});
+test("an id repeated across separately converted blocks keeps the first", () => {
+  const seen = new Set<string>();
+  const first = firstIdsOnly(
+    'Anche <span id="Lorenzo"></span><span>Lorenzo</span>',
+    seen,
+  );
+  const later = firstIdsOnly(
+    'di <span id="Lorenzo"></span><span>Lorenzo</span> <b id="Lorenzo">x</b>',
+    seen,
+  );
+  assert.match(first, /id="Lorenzo"/);
+  assert.equal(later, "di <span>Lorenzo</span> <b>x</b>");
 });
 test("keeps the text swallowed by an unclosed FrontPage form", () => {
   const r = convertHtml(

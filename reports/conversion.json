@@ -68,6 +68,46 @@
     }
   },
   {
+    "slug": "i-cari-estinti-0e2b1247",
+    "path": "/works/i-cari-estinti-0e2b1247/",
+    "editorialId": "item-11705f75c26c",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/quattro_specie.htm",
+    "sources": [
+      {
+        "documentId": "doc-0e2b12477024",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/quattro_specie.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "I cari estinti",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/quattro_specie.htm",
+        "text": [
+          "Torna indietro",
+          "Come continuarla? Se volete dirmi che ne pensate o fornirmi suggerimenti, scrivetemi a questo indirizzo.",
+          "Che ve ne pare? Per farmelo sapere, scrivetemi a questo indirizzo.",
+          "Per fornirci il vostro parere riguardo a queste ucronie, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-64146c58c0ab",
+      "gap-32da35f63886",
+      "gap-d23c83ca2439",
+      "gap-4da5c80771bd"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "italia-neutrale-vittoria-nazista-092f5001",
     "path": "/works/italia-neutrale-vittoria-nazista-092f5001/",
     "editorialId": "item-1197bcc31b25",
@@ -97,6 +137,42 @@
       }
     ],
     "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "magna-italia-0c4a8516",
+    "path": "/works/magna-italia-0c4a8516/",
+    "editorialId": "item-1407ef17f916",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Magna_Italia.htm",
+    "sources": [
+      {
+        "documentId": "doc-0c4a8516293a",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Magna_Italia.htm",
+        "timestamp": "20210423194025",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Magna Italia",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Magna_Italia.htm",
+        "text": [
+          "Torna indietro",
+          "Voi che ne dite? Per farci sapere il vostro parere, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-348b89015b0f"
+    ],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -538,6 +614,82 @@
     }
   },
   {
+    "slug": "san-luigi-ix-e-il-gran-khan-dei-tartari-0dcbd1b7",
+    "path": "/works/san-luigi-ix-e-il-gran-khan-dei-tartari-0dcbd1b7/",
+    "editorialId": "item-37701ffa187f",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Luigi_IX.htm",
+    "sources": [
+      {
+        "documentId": "doc-0dcbd1b7543a",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Luigi_IX.htm",
+        "timestamp": "20210225050235",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "San Luigi IX e il Gran Khan dei Tartari",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Luigi_IX.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farci conoscere la vostra opinione in proposito, basta che scriviate al Webmaster..."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-aaf0228db5f4",
+      "gap-212860eaed3a",
+      "gap-f48869129577",
+      "gap-7afa0b44f6f3",
+      "gap-6122a511f860"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "un-mondo-senza-roma-0e3b5a1f",
+    "path": "/works/un-mondo-senza-roma-0e3b5a1f/",
+    "editorialId": "item-3f68c8e222aa",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_Roma.htm",
+    "sources": [
+      {
+        "documentId": "doc-0e3b5a1fa190",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/senza_Roma.htm",
+        "timestamp": "20240429170143",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Un mondo senza Roma",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/senza_Roma.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete farci sapere cosa pensate di quest'ucronia, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-9a4077c6ca90"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "l-austria-o-l-australia-1a533aaa",
     "path": "/works/l-austria-o-l-australia-1a533aaa/",
     "editorialId": "item-420d4218cf92",
@@ -861,6 +1013,43 @@
     }
   },
   {
+    "slug": "la-diaspora-giapponese-09d8c411",
+    "path": "/works/la-diaspora-giapponese-09d8c411/",
+    "editorialId": "item-5707054c1e39",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/diaspora_giapponese.htm",
+    "sources": [
+      {
+        "documentId": "doc-09d8c41174f5",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/diaspora_giapponese.htm",
+        "timestamp": "20200129100200",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "La diaspora giapponese",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/diaspora_giapponese.htm",
+        "text": [
+          "Torna indietro",
+          "Se avete altre idee scrivetemi a questo indirizzo!",
+          "Se volete partecipare anche voi alla discussione, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-c92b73250dac"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "ucronie-presidenziali-americane-7418c6de",
     "path": "/works/ucronie-presidenziali-americane-7418c6de/",
     "editorialId": "item-57691cb530a3",
@@ -910,6 +1099,43 @@
     }
   },
   {
+    "slug": "io-agenore-re-di-micene-0a37ce64",
+    "path": "/works/io-agenore-re-di-micene-0a37ce64/",
+    "editorialId": "item-57ca51c5d590",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Agenore.htm",
+    "sources": [
+      {
+        "documentId": "doc-0a37ce64752d",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Agenore.htm",
+        "timestamp": "20210411102611",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Io, Agenore, re di Micene",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Agenore.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete fornirmi suggerimenti o commenti, scrivetemi a questo indirizzo.",
+          "Per farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-180c3e69d19e"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "staffarda-2017-0897a534",
     "path": "/works/staffarda-2017-0897a534/",
     "editorialId": "item-5e3f8a2fa50b",
@@ -935,6 +1161,39 @@
         "text": [
           "Torna indietro",
           "e l'elenco potrebbe continuare... Per suggerirci altre vite parallele, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "ucronie-vegetariane-0c47c3e2",
+    "path": "/works/ucronie-vegetariane-0c47c3e2/",
+    "editorialId": "item-5e84a01c8c36",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/ucronie_vegetariane.htm",
+    "sources": [
+      {
+        "documentId": "doc-0c47c3e28a9d",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/ucronie_vegetariane.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Ucronie vegetariane",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/ucronie_vegetariane.htm",
+        "text": [
+          "Torna indietro",
+          "Per fornirci il vostro parere riguardo a queste ucronie, scriveteci a questo indirizzo."
         ]
       }
     ],
@@ -1126,6 +1385,59 @@
     }
   },
   {
+    "slug": "viaggio-di-un-secondo-di-sandro-degiani-0cc2996b",
+    "path": "/works/viaggio-di-un-secondo-di-sandro-degiani-0cc2996b/",
+    "editorialId": "item-6a14490c5c9c",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
+    "sources": [
+      {
+        "documentId": "doc-0cc2996bd427",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
+        "timestamp": "20251209015034",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Viaggio di un secondo, di Sandro Degiani",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/viaggio_di_un_secondo.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-f9fbe80a514c",
+      "gap-102bfc870499",
+      "gap-657b86b58695",
+      "gap-050d7ae050e0",
+      "gap-3fa36dbe06fa",
+      "gap-47a0714ade02",
+      "gap-3bd9bb697985",
+      "gap-1c384a2f5604",
+      "gap-7ea3d9155d88",
+      "gap-42fdfd9d3f6a",
+      "gap-8247abf47997",
+      "gap-c945dfd50b2c",
+      "gap-09d4baf9be88",
+      "gap-f8fe184961d8",
+      "gap-87842d12f896",
+      "gap-61662af2defd",
+      "gap-b80d8b7df9c1",
+      "gap-ca7c726cff71",
+      "gap-85ea35a48154"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "4-novembre-1995-ygal-amir-fa-cilecca-ac1aacb3",
     "path": "/works/4-novembre-1995-ygal-amir-fa-cilecca-ac1aacb3/",
     "editorialId": "item-6ff42bd45ba4",
@@ -1151,6 +1463,73 @@
         "text": [
           "Torna indietro",
           "Se volete commentare le ucronie raccolte in questa pagina, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "il-re-sole-muore-nel-1680-prima-parte-0ba873d5",
+    "path": "/works/il-re-sole-muore-nel-1680-prima-parte-0ba873d5/",
+    "editorialId": "item-7d1b78b1f204",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Luigi_XIV.htm",
+    "sources": [
+      {
+        "documentId": "doc-0ba873d559e1",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Luigi_XIV.htm",
+        "timestamp": "20240323221354",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Il Re Sole muore nel 1680... (prima parte)",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Luigi_XIV.htm",
+        "text": [
+          "Torna indietro",
+          "Per leggere la continuazione, cliccate qui. E se avete suggerimenti, scrivetemi a questo indirizzo!"
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "fashoda-causa-la-guerra-mondiale-0c8f5e8c",
+    "path": "/works/fashoda-causa-la-guerra-mondiale-0c8f5e8c/",
+    "editorialId": "item-7da0b64b7666",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Fashoda.htm",
+    "sources": [
+      {
+        "documentId": "doc-0c8f5e8cef1f",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Fashoda.htm",
+        "timestamp": "20250524103211",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Fashoda causa la Guerra Mondiale",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/fanta_Fashoda.htm",
+        "text": [
+          "Torna indietro"
         ]
       }
     ],
@@ -1195,6 +1574,45 @@
     }
   },
   {
+    "slug": "il-gran-regno-di-gallia-0b8102f9",
+    "path": "/works/il-gran-regno-di-gallia-0b8102f9/",
+    "editorialId": "item-84707b96661e",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Gallia.htm",
+    "sources": [
+      {
+        "documentId": "doc-0b8102f9443e",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Gallia.htm",
+        "timestamp": "20170726105852",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Il Gran Regno di Gallia",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Fanta_Gallia.htm",
+        "text": [
+          "Torna indietro",
+          "Come continuarla? Se avete suggerimenti in proposito, scrivetemi a questo indirizzo.",
+          "Come continuare? Se avete suggerimenti in proposito, scrivetemi a questo indirizzo.",
+          "Per farmi avere il vostro parere, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-5733b4cb06b6",
+      "gap-c895450d520f"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "francia-e-italia-scambiate-di-posto-00fa65e3",
     "path": "/works/francia-e-italia-scambiate-di-posto-00fa65e3/",
     "editorialId": "item-849092b4cd82",
@@ -1225,10 +1643,43 @@
     ],
     "gaps": [
       "gap-d74e7d5482a1",
-      "gap-8e3825e836ff",
       "gap-82c0cb1d9eba",
       "gap-16a2dfe7c50c"
     ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "carlo-magno-a-venezia-0ca81d9a",
+    "path": "/works/carlo-magno-a-venezia-0ca81d9a/",
+    "editorialId": "item-8532ef615b67",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Carlo_Magno_a_Venezia.htm",
+    "sources": [
+      {
+        "documentId": "doc-0ca81d9a9103",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Carlo_Magno_a_Venezia.htm",
+        "timestamp": "20210210232450",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Carlo Magno a Venezia",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Carlo_Magno_a_Venezia.htm",
+        "text": [
+          "Torna indietro",
+          "Per risposte o commenti, scrivetemi pure a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -1265,6 +1716,40 @@
     "gaps": [
       "gap-74c049f2a25d"
     ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "l-impero-serbo-0e9000e3",
+    "path": "/works/l-impero-serbo-0e9000e3/",
+    "editorialId": "item-88bd1cdd52f0",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/impero_serbo.htm",
+    "sources": [
+      {
+        "documentId": "doc-0e9000e3e5d2",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/impero_serbo.htm",
+        "timestamp": "20110226085724",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'Impero Serbo",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/impero_serbo.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete partecipare alla discussione in corso, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -1665,6 +2150,76 @@
     }
   },
   {
+    "slug": "pitea-il-bugiardo-parte-terza-0dadf4a4",
+    "path": "/works/pitea-il-bugiardo-parte-terza-0dadf4a4/",
+    "editorialId": "item-ab1ce776a2b3",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Pitea_3.htm",
+    "sources": [
+      {
+        "documentId": "doc-0dadf4a43e30",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Pitea_3.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Pitea il bugiardo, parte terza",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Pitea_3.htm",
+        "text": [
+          "Torna indietro",
+          "Per farmi sapere che ne pensate, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-44c5e14f2b55",
+      "gap-a39255169c95"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "nades-sedan-alla-rovescia-0ba41594",
+    "path": "/works/nades-sedan-alla-rovescia-0ba41594/",
+    "editorialId": "item-ab7011da3a69",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Napoleone_IV.htm",
+    "sources": [
+      {
+        "documentId": "doc-0ba41594dc1a",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Napoleone_IV.htm",
+        "timestamp": "20220822065039",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Nades (Sedan alla rovescia)",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Napoleone_IV.htm",
+        "text": [
+          "Torna indietro",
+          "Per farci sapere che ne pensate, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "una-scimmietta-cambia-la-storia-c2ddaa37",
     "path": "/works/una-scimmietta-cambia-la-storia-c2ddaa37/",
     "editorialId": "item-af00ba6ed2d0",
@@ -1974,8 +2529,7 @@
     ],
     "gaps": [
       "gap-1eb15e1e3a30",
-      "gap-4003dc25fbd7",
-      "gap-ad9b11f11a76"
+      "gap-4003dc25fbd7"
     ],
     "comparison": {
       "status": "pending-build-comparison"
@@ -2045,6 +2599,37 @@
       "gap-575d6b721d3f",
       "gap-4a618cadc87d"
     ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "ucronii-in-milanes-0cbfdda3",
+    "path": "/works/ucronii-in-milanes-0cbfdda3/",
+    "editorialId": "item-bbf4517762ca",
+    "source": "http://www.fmboschetto.it/utopiaucronia/ucronii_in_milanes.htm",
+    "sources": [
+      {
+        "documentId": "doc-0cbfdda3dc7c",
+        "url": "http://www.fmboschetto.it/utopiaucronia/ucronii_in_milanes.htm",
+        "timestamp": "20210411100421",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Ucronii in milanes",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/ucronii_in_milanes.htm",
+        "text": []
+      }
+    ],
+    "gaps": [],
     "comparison": {
       "status": "pending-build-comparison"
     }
@@ -2544,6 +3129,75 @@
     }
   },
   {
+    "slug": "come-il-caffe-0c8e9327",
+    "path": "/works/come-il-caffe-0c8e9327/",
+    "editorialId": "item-e0af0d61fb60",
+    "source": "http://www.fmboschetto.it/racconti/caffe.htm",
+    "sources": [
+      {
+        "documentId": "doc-0c8e93276dc6",
+        "url": "http://www.fmboschetto.it/racconti/caffe.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Come il caffé...",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/caffe.htm",
+        "text": [
+          "Torna indietro"
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "il-divo-al-quirinale-0f1860ed",
+    "path": "/works/il-divo-al-quirinale-0f1860ed/",
+    "editorialId": "item-e1dd5ce1c38e",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/Divo_al_Quirinale.htm",
+    "sources": [
+      {
+        "documentId": "doc-0f1860ed89bf",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/Divo_al_Quirinale.htm",
+        "timestamp": "20231205023142",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Il Divo al Quirinale",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/Divo_al_Quirinale.htm",
+        "text": [
+          "Torna indietro",
+          "Per farmi sapere cosa ne pensate, scrivetemi a questo indirizzo.",
+          "Per partecipare alla discussione in corso, scriveteci a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-935e6b88f7e9"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "il-giappone-con-la-triplice-alleanza-0a0803e2",
     "path": "/works/il-giappone-con-la-triplice-alleanza-0a0803e2/",
     "editorialId": "item-e4fca6b0c1e0",
@@ -2573,6 +3227,76 @@
       }
     ],
     "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "un-italia-liberal-gollista-0d517e33",
+    "path": "/works/un-italia-liberal-gollista-0d517e33/",
+    "editorialId": "item-ed475f5c7908",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/liberal_gollista.htm",
+    "sources": [
+      {
+        "documentId": "doc-0d517e33c8ec",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/liberal_gollista.htm",
+        "timestamp": "20100322204917",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Un'Italia liberal-gollista",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/liberal_gollista.htm",
+        "text": [
+          "Torna indietro",
+          "Voi con chi vi schierereste? Per farmi conoscere il vostro parere, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "a-furore-normannorum-0f5d653d",
+    "path": "/works/a-furore-normannorum-0f5d653d/",
+    "editorialId": "item-f4db6e8185c1",
+    "source": "http://www.fmboschetto.it:80/Utopiaucronia/a_furore_Normannorum.htm",
+    "sources": [
+      {
+        "documentId": "doc-0f5d653dbc8f",
+        "url": "http://www.fmboschetto.it:80/Utopiaucronia/a_furore_Normannorum.htm",
+        "timestamp": "20100327200745",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "A furore Normannorum...",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it:80/Utopiaucronia/a_furore_Normannorum.htm",
+        "text": [
+          "Torna indietro",
+          "Se volete fornirmi suggerimenti o commenti, scrivetemi a questo indirizzo."
+        ]
+      }
+    ],
+    "gaps": [
+      "gap-a51007a53a0a"
+    ],
     "comparison": {
       "status": "pending-build-comparison"
     }

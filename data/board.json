@@ -175,14 +175,14 @@
       "contains": "Progressive review of the map",
       "status": "doing",
       "assignee": "Marco",
-      "note": "The owner explicitly approved the first 20-proposal packet on 17 November 2026. Those decisions are persisted in data/review-decisions.json; classifications remain proposed. Further work, world and split/merge review remains pending. The next read-only batch is in reports/publication-next.md."
+      "note": "The owner explicitly approved two 20-proposal packets on 17 November 2026 (40 decisions in data/review-decisions.json); classifications remain proposed. Further work, world and split/merge review remains pending. The next read-only batch is in reports/publication-next.md."
     },
     {
       "sprint": "S4",
       "contains": "Eras fixed and theme list closed",
       "status": "backlog",
       "assignee": "Development",
-      "note": "Source menu periods are available, but final reviewed era/theme vocabularies are not closed. Do not infer that the historical indexes complete this classification task."
+      "note": "Agent proposal ready for owner review in docs/vocabulary-proposal.md: 18 eras measured from the old Lista sections, 13 place areas and 16 themes. Nothing is written to the map until approved; source menu periods do not complete this task."
     },
     {
       "sprint": "S6",
@@ -217,7 +217,7 @@
       "contains": "Publish the remaining recovered works progressively",
       "status": "doing",
       "assignee": "Development",
-      "note": "First owner-approved batch delivered: 20 selected additions, 66 reading items total (63 canonical and three legacy previews), including 53 canonical work editions and ten short divergences. All selected texts pass source-fidelity checks. Further recovered works and attachments still require progressive review/publication. See docs/status-s4-batch-01.md."
+      "note": "Two owner-approved batches delivered: 40 selected additions, 86 reading items total (83 canonical and three legacy previews), including 73 canonical work editions and ten short divergences. All selected texts pass source-fidelity checks. Further recovered works and attachments still require progressive review/publication. See docs/status-s4-batch-02.md."
     },
     {
       "sprint": "S4",
@@ -246,20 +246,34 @@
       "status": "done",
       "assignee": "Development",
       "note": "Owner approved the exact 20-proposal packet in conversation on 17 November 2026. Decisions and publication fingerprints are persisted; the original packet is preserved in reports/publication-batch-01.json. The expanded edition has 66 reading items, 53 canonical works and 106 source signatures. Sources, body prose, anchors, images and tables were compared in full. Original headings are preserved in provenance, including dates absent from catalog titles. See docs/status-s4-batch-01.md."
+    },
+    {
+      "sprint": "S4",
+      "contains": "Second owner-approved publication batch:",
+      "status": "done",
+      "assignee": "Development",
+      "note": "Owner approved the exact 20-proposal packet in conversation on 17 November 2026 (reports/publication-batch-02.json). The edition has 86 reading items, 73 canonical works and 123 source signatures. Two converter defects found by the strict comparison were fixed: literal asterisks inside kept HTML and repeated source anchors. See docs/status-s4-batch-02.md."
+    },
+    {
+      "sprint": "S4",
+      "contains": "View Transitions between catalog and reading",
+      "status": "done",
+      "assignee": "Development",
+      "note": "Owner request of 17 November 2026: cross-document @view-transition, the catalog card title morphs into the work title, header stays still; disabled under prefers-reduced-motion. Verified in Chromium."
     }
   ],
   "priorities": [
     {
       "title": "Review the next publication batch (S4)",
-      "detail": "The first 20-proposal packet is approved and delivered. Review the next prepared batch in reports/publication-next.md and the remaining world/split/merge proposals. New packets are not approved automatically."
+      "detail": "Two 20-proposal packets are approved and delivered. Review the next prepared batch in reports/publication-next.md and the remaining world/split/merge proposals. New packets are not approved automatically."
     },
     {
       "title": "Publish more recovered works (S4)",
-      "detail": "Expand beyond the 66-item edition using explicit approved publication selections and complete source-fidelity checks. Recovered attachments and remaining works are still separate publication work."
+      "detail": "Expand beyond the 86-item edition using explicit approved publication selections and complete source-fidelity checks. Recovered attachments and remaining works are still separate publication work."
     },
     {
       "title": "Complete reviewed classification and discovery pages (S4)",
-      "detail": "Set final eras/themes progressively and build world/era/place/theme pages from reviewed metadata. Author navigation already covers the current published edition and grows with future publication."
+      "detail": "Owner review of docs/vocabulary-proposal.md (eras, places, themes), then progressive item assignments and world/era/place/theme pages from reviewed metadata."
     },
     {
       "title": "Build the complete archive tree and original-layout copy (S5)",

@@ -216,6 +216,8 @@ Demo: passed in a 390 px phone viewport with a remembered Petrov sentence → re
 ### S4 · Complete edition
 
 - [x] First owner-approved publication batch: 20 reviewed proposals selected and converted, bringing the edition to 66 reading items with complete source-fidelity checks
+- [x] Second owner-approved publication batch: 20 more reviewed proposals, 86 reading items (73 canonical works); converter fixes for literal asterisks in kept HTML and repeated source anchors. See `docs/status-s4-batch-02.md`
+- [ ] Owner review of the era, place and theme vocabulary proposal in `docs/vocabulary-proposal.md`
 
 - [x] Reviewed publication workflow: persistent explicit selections, conversion beyond the fixed sample, overlap/stale-decision checks, dry-run and full local source text for the next review batch
 

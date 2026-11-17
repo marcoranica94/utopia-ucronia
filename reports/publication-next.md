@@ -2,402 +2,402 @@
 
 Read-only proposals for owner review. No approval or publication selection has been recorded. Review links open on the local development server after `pnpm dev`; they are absent from the deployed site.
 
-## 1. La diaspora giapponese
+## 1. \[uchronìe\] L’empoisonnement de Louis XIV (1680), deuxième chapitre
 
-Proposal: `proposal-doc-09d8c41174f5` · action: `work`
+Proposal: `proposal-doc-0f74cfa06fd1` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-09d8c41174f5)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0f74cfa06fd1)
 
-> La diaspora giapponese di Perché No? Nel 1281 la seconda invasione mongola del Giappone fallisce: una grande tempesta, detta kamikaze (“vento divino”) affonda la flotta nemica e salva il Giappone. Questa flotta era compo
+> L’empoisonnement de Louis XIV (1680) de Porquoi pas? Continue de la première page 1805 : Les débuts du règne de l’empereur Arthur II sont consacrés à la réorganisation sociale et morale et de la Grande Bretagne. Une nobl
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/la-diaspora-giapponese-09d8c411/` · composition: `single`
+Target: `/works/uchronie-l-empoisonnement-de-louis-xiv-1680-deuxieme-chapitre-0f74cfa0/` · composition: `single`
 
-[Full source for local review](/review/source/doc-09d8c41174f5/)
+[Full source for local review](/review/source/doc-0f74cfa06fd1/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/diaspora\_giapponese.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/sans\_Louis\_XIV\_2.htm
 
-SHA-256: `dce9c14b14d3b35caa5ff6946763578031ed9e5fe0c752cef322782f7dc9ff08`
+SHA-256: `6b571ea8bb45d0be25eb1a8ff2387a61b7e4c2d4ba3f8aeb58488f04a48a33e6`
 
 Selection: `{"kind":"whole"}`
 
-## 2. Io, Agenore, re di Micene
+## 2. A World of Crowns
 
-Proposal: `proposal-doc-0a37ce64752d` · action: `work`
+Proposal: `proposal-doc-0ff9991c3f67` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0a37ce64752d)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0ff9991c3f67)
 
-> Io, Agenore, re di Micene di Det0 La cosiddetta "Maschera di Agenore" Questa è la storia di un grande condottiero, eroe e re; ma voglio che sia lui a raccontarvela. Vi basti sapere che il suo nome ha un che di fatidico,
+> A World of Crowns di Tommaso Mazzoni NdA: Questa non è esattamente un'ucronia singola, ma una serie di P.o.D più o meno indipendenti fra di loro che sono necessari per far si che ogni nazione non monarchica del mondo lo
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/io-agenore-re-di-micene-0a37ce64/` · composition: `single`
+Target: `/works/a-world-of-crowns-0ff9991c/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0a37ce64752d/)
+[Full source for local review](/review/source/doc-0ff9991c3f67/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Agenore.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/World\_of\_Crowns.htm
 
-SHA-256: `5e48a3e59f1aa3c20e2e0a86d0962ad1c26756395c273dfbf5d6077e374fc528`
+SHA-256: `8d9c6e9c6a45efe16ba9684d5d830e7a6200e13c345a66dc1d6f1de3a545e907`
 
 Selection: `{"kind":"whole"}`
 
-## 3. Il Gran Regno di Gallia
+## 3. Black out
 
-Proposal: `proposal-doc-0b8102f9443e` · action: `work`
+Proposal: `proposal-doc-1030b4250bad` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0b8102f9443e)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-1030b4250bad)
 
-> Il Gran Regno di Gallia di Dorian Gray e di Lorenzo 52 a.C.: Giulio Cesare, mentre assedia la città di Alesia, capitale degli Arverni, popolazione gallica guidata dal re Vercingetorix, viene a sua volta assediato e, graz
+> BLACK OUT Un giorno Dio ne avrà abbastanza. Televisori, Internet, schermi di computer, armi teleguidate, luci di Las Vegas, ridde di discoteche piomberanno nel buio. Invano ci accaniremo su interruttori e pulsanti: nulla
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-gran-regno-di-gallia-0b8102f9/` · composition: `single`
+Target: `/works/black-out-1030b425/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0b8102f9443e/)
+[Full source for local review](/review/source/doc-1030b4250bad/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Gallia.htm
+Source: http://www.fmboschetto.it/racconti/poesie%20colleghi/blackout.htm
 
-SHA-256: `6725d4df750d0b50a06a71f3b6933c3f2b2fced87dcf30bc171d717ff58744ca`
+SHA-256: `d44548021bc7a5b63731a76de8a3c1fd5e461c40552ec6c55508ade8571ced00`
 
 Selection: `{"kind":"whole"}`
 
-## 4. Nades (Sedan alla rovescia)
+## 4. Il Nuovo Attila
 
-Proposal: `proposal-doc-0ba41594dc1a` · action: `work`
+Proposal: `proposal-doc-10594e5884eb` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0ba41594dc1a)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-10594e5884eb)
 
-> Nades (Sedan alla rovescia) « Lo schiacciamento, che seguì, della Francia da parte delle genti germaniche, e l'esegesi storico-filosofica che ne dettero i pensatori e professori d'oltre Reno, sembrarono avvolgere nel fun
+> Il Nuovo Attila di Enrica S. La "Prima" della Scala del 7 dicembre 2018 ha visto la rappresentazione dell'"Attila" di Giuseppe Verdi. Ho apprezzato molto la bravura dei cantanti, ma non mi ha convinto la trasposizione de
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/nades-sedan-alla-rovescia-0ba41594/` · composition: `single`
+Target: `/works/il-nuovo-attila-10594e58/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0ba41594dc1a/)
+[Full source for local review](/review/source/doc-10594e5884eb/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Napoleone\_IV.htm
+Source: http://www.fmboschetto.it/utopiaucronia/Nuovo\_Attila.htm
 
-SHA-256: `be91cc94e0c33daca87525c96904c6afddacffd243ffef79293924a128702e9c`
+SHA-256: `d72b193332e88ecc4659d7cb8886f85a9321792ca8ee7e8b7e0e974a0350bddc`
 
 Selection: `{"kind":"whole"}`
 
-## 5. Il Re Sole muore nel 1680... (prima parte)
+## 5. Pitea il bugiardo, parte seconda
 
-Proposal: `proposal-doc-0ba873d559e1` · action: `work`
+Proposal: `proposal-doc-108dd9ae30f5` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0ba873d559e1)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-108dd9ae30f5)
 
-> Il Re Sole muore nel 1680... di Perché No? La fine del regno di Luigi XIV il magnifico Nel 1680 Luigi XIV é re di Francia ormai da 37 anni, ma regna effettivamente solo da 1661, e questi 19 anni sono stati un periodo mag
+> Actibus immensis urbs fulget massiliensis di Perchè No? Ecco ora la seconda parte dell'ucronia di Perchè No? dedicata alla scoperta delle Americhe da parte di un navigatore greco. Per leggere la prima parte, cliccate qui
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-re-sole-muore-nel-1680-prima-parte-0ba873d5/` · composition: `single`
+Target: `/works/pitea-il-bugiardo-parte-seconda-108dd9ae/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0ba873d559e1/)
+[Full source for local review](/review/source/doc-108dd9ae30f5/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Luigi\_XIV.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Pitea\_2.htm
 
-SHA-256: `87855eb6ccc869353f21764255ae732c1d814a56a38a9a4b42c110f8e69c191b`
+SHA-256: `8d55af962cc9afa5f843b421d333627d4ed86834b00929f0f7476604da99b1c8`
 
 Selection: `{"kind":"whole"}`
 
-## 6. Ucronie vegetariane
+## 6. Oltre la Fondazione
 
-Proposal: `proposal-doc-0c47c3e28a9d` · action: `work`
+Proposal: `proposal-doc-10bbbb59d50a` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0c47c3e28a9d)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-10bbbb59d50a)
 
-> Ucronie vegetariane di William Riker . 1) Il cereale che ha bisogno della calce Il mais (nome di etimo incerto derivante dalla lingua Taino) fu domesticato in America verso il 3000 a.C., cominciò ad essere coltivato in m
+> Oltre la Fondazione un omaggio ad Isaac Asimov di Perchè No? I In altre occasioni la passeggiata sarebbe stata piacevole. L’antico perimetro dei giardini imperiali di Trantor era tornato selvaggio da secoli, sin dalla fi
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/ucronie-vegetariane-0c47c3e2/` · composition: `single`
+Target: `/works/oltre-la-fondazione-10bbbb59/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0c47c3e28a9d/)
+[Full source for local review](/review/source/doc-10bbbb59d50a/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/ucronie\_vegetariane.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/Oltre\_la\_Fondazione.htm
 
-SHA-256: `8af7412188342cc316687925f472359c80b0aaff091a0e10e53c065d21817d06`
+SHA-256: `7977ed66da52cdac979934ff6d0fa02c3ef7a08b59244f4b9a0d137de1ac0673`
 
 Selection: `{"kind":"whole"}`
 
-## 7. Magna Italia
+## 7. Il racconto delle Terrebasse
 
-Proposal: `proposal-doc-0c4a8516293a` · action: `work`
+Proposal: `proposal-doc-1109d71cafc6` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0c4a8516293a)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-1109d71cafc6)
 
-> Magna Italia Ecco una domanda postaci dall'intelligente Bhrghowidhon: Sistematicamente le ucronie riguardanti il Regno d'Italia finiscono per coinvolgere l'annessione o il mantenimento di Corsica, Nizza, Savoia, Trentino
+> Il racconto delle Terrebasse di feder Fango, zecche, cadaveri. Questo era quanto, almeno per ora, le Terrebasse gli avevano regalato. Eppure, l'eco delle voci risuonava ancora nella testa di Willem! Imbarcati, gli aveva
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/magna-italia-0c4a8516/` · composition: `single`
+Target: `/works/il-racconto-delle-terrebasse-1109d71c/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0c4a8516293a/)
+[Full source for local review](/review/source/doc-1109d71cafc6/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Magna\_Italia.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/Terrebasse.htm
 
-SHA-256: `12611b3b8eb1940fa67356526d2c7bd2600718f950d3d10b09c8c31783d77afe`
+SHA-256: `40de43e8018a6b2c8913bf10e6f5b1fe3e96439c7b91e8b14ea3c33041221ed4`
 
 Selection: `{"kind":"whole"}`
 
-## 8. Come il caffé...
+## 8. Nessuna disfatta di Caporetto!
 
-Proposal: `proposal-doc-0c8e93276dc6` · action: `work`
+Proposal: `proposal-doc-1129ecaa45f8` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0c8e93276dc6)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-1129ecaa45f8)
 
-> Come il caffé... Una figlia si lamentava con suo padre circa la sua vita e di come le cose le risultavano tanto difficili. Non sapeva come fare per proseguire e credeva di darsi per vinta. Era stanca di lottare. Sembrava
+> Nessuna disfatta di Caporetto! L'amico Camillo Cantarano ha voluto proporre una Timeline riguardante l'(evitata) disfatta di Caporetto. L'esercito austriaco è così logorato che il suo collasso diventa inevitabile. Ovviam
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/come-il-caffe-0c8e9327/` · composition: `single`
+Target: `/works/nessuna-disfatta-di-caporetto-1129ecaa/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0c8e93276dc6/)
+[Full source for local review](/review/source/doc-1129ecaa45f8/)
 
-Source: http://www.fmboschetto.it/racconti/caffe.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Senza\_Caporetto.htm
 
-SHA-256: `12b9de00a1cca3fb790149bbe7ad411e5c2ac5e44dbc6d9bc8e2dc8b81844a1b`
+SHA-256: `5bd20565f16ff843051e75caf41541baadbf1974f06f081cf95ebf907149a9bb`
 
 Selection: `{"kind":"whole"}`
 
-## 9. Fashoda causa la Guerra Mondiale
+## 9. La Grande Muraglia Romana
 
-Proposal: `proposal-doc-0c8f5e8cef1f` · action: `work`
+Proposal: `proposal-doc-117f50193141` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0c8f5e8cef1f)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-117f50193141)
 
-> 1899: Fashoda causa la Guerra Mondiale di William Riker Tutto cominciò a Fashoda... Il 10 Luglio 1898 il forte sudanese di Fashoda viene occupato in nome della Francia dall'esploratore francese e Ufficiale di fanteria ma
+> di Lord Wilmore . L'impero romano scelse come "confini naturali" il Reno e il Danubio ma, com'è noto, i Franchi varcarono il Reno ed invasero le Gallie approfittando di un inverno eccezionalmente freddo che gelò il grand
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/fashoda-causa-la-guerra-mondiale-0c8f5e8c/` · composition: `single`
+Target: `/works/la-grande-muraglia-romana-117f5019/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0c8f5e8cef1f/)
+[Full source for local review](/review/source/doc-117f50193141/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/fanta\_Fashoda.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/Grande\_Muraglia\_Romana.htm
 
-SHA-256: `6cea9ce85b070bbc99cd0511f0b3491d1b962a56679f7c4339c6719c759be68b`
+SHA-256: `0ac3f208ed1b2ad3ca346f7fa7c1d9a6fefce8c3a5e67454478e9629d6052bae`
 
 Selection: `{"kind":"whole"}`
 
-## 10. Carlo Magno a Venezia
+## 10. Guerra di Nullificazione Americana
 
-Proposal: `proposal-doc-0ca81d9a9103` · action: `work`
+Proposal: `proposal-doc-11ba61d8b8db` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0ca81d9a9103)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-11ba61d8b8db)
 
-> Carlo Magno a Venezia di Det0 Tutto parte da quest'idea di Never75: Carlo Magno decide di annettersi anche Venezia, come fece del resto con altri territori nominalmente bizantini. Alla fine fu ad un passo dal farlo, in q
+> Lunga vita al Sud! Questa ucronia è stata tradotta per noi da Generalissimus: La Guerra Civile fu il conflitto più devastante della storia statunitense, circa 640.000 Americani morirono nei quattro anni di combattimenti
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/carlo-magno-a-venezia-0ca81d9a/` · composition: `single`
+Target: `/works/guerra-di-nullificazione-americana-11ba61d8/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0ca81d9a9103/)
+[Full source for local review](/review/source/doc-11ba61d8b8db/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Carlo\_Magno\_a\_Venezia.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/nullificazione.htm
 
-SHA-256: `d1a1c2e6f80bc8f803951a80a031c277320944fc5c542cc7615d47fa156e4907`
+SHA-256: `5cfad47959b864134af6b1e7c0a2d3b2d875bccbde1525adbcc50413fc5995d7`
 
 Selection: `{"kind":"whole"}`
 
-## 11. Ucronii in milanes
+## 11. L'Impero dei Cazari, Anno Mundi 5776
 
-Proposal: `proposal-doc-0cbfdda3dc7c` · action: `work`
+Proposal: `proposal-doc-11c26d99857c` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0cbfdda3dc7c)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-11c26d99857c)
 
-> Ucronii in milanes In sta pagina chì mettaroo insemma di ucronii realizzaa da l'amis Bhrg'hros el ses de dicember del 2007 in lengua milanesa. Tel chì come la comincia la querelle . Se in del 1736 el Carlo Emanuel III, D
+> L'Impero dei Cazari, Anno Mundi 5776 di Tommaso Mazzoni Bandiera dell'Impero Cazaro 597 a.C. Gerusalemme è espugnata, il Tempio di Salomone è distrutto e i Giudei sono deportati a Babilonia. 590 a.C. Secondo la tradizion
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/ucronii-in-milanes-0cbfdda3/` · composition: `single`
+Target: `/works/l-impero-dei-cazari-anno-mundi-5776-11c26d99/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0cbfdda3dc7c/)
+[Full source for local review](/review/source/doc-11c26d99857c/)
 
-Source: http://www.fmboschetto.it/utopiaucronia/ucronii\_in\_milanes.htm
+Source: http://www.fmboschetto.it/Utopiaucronia/Cazari\_eterni.htm
 
-SHA-256: `3e1c85b78bb715fbe96eb70d4f7f21fe0401310d210b69b77c5503de96e41324`
+SHA-256: `836e9ed339b7687f8e162e614a3fef4a7a973d0a72be1ecc07962732e3aa2fbf`
 
 Selection: `{"kind":"whole"}`
 
-## 12. Viaggio di un secondo, di Sandro Degiani
+## 12. Sekigahara, un'ucronia giapponese
 
-Proposal: `proposal-doc-0cc2996bd427` · action: `work`
+Proposal: `proposal-doc-11f98a7d9eee` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0cc2996bd427)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-11f98a7d9eee)
 
-> Viaggio di un secondo di Sandro Degiani Autoritratto di Sandro Degiani Qui l’effetto è ottenuto con una immagine e non con parole, quindi troverete insolitamente inserita una figura in un racconto che è solo testo. È qua
+> Sekigahara, un'ucronia giapponese di Falecius POD: Mori Terumoto raggiunge il resto delle truppe fedeli ai Toyotomi invece di gironzolare nei dintorni di Osaka. Tokugawa Ieyasu perde la battaglia di Sekigahara nell'ottob
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/viaggio-di-un-secondo-di-sandro-degiani-0cc2996b/` · composition: `single`
+Target: `/works/sekigahara-un-ucronia-giapponese-11f98a7d/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0cc2996bd427/)
+[Full source for local review](/review/source/doc-11f98a7d9eee/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/viaggio\_di\_un\_secondo.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Sekigahara.htm
 
-SHA-256: `ce7b8783ce2d60b7d07eeecfbc444f9108671206346626b5c01ec7d736f2db4b`
+SHA-256: `4f12b628407768d1b7f1facd2e6c537d899283dda624fff8e3285599ac2e61f5`
 
 Selection: `{"kind":"whole"}`
 
-## 13. Un'Italia liberal-gollista
+## 13. La minaccia del Krang
 
-Proposal: `proposal-doc-0d517e33c8ec` · action: `work`
+Proposal: `proposal-doc-11f9a00e9d4b` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0d517e33c8ec)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-11f9a00e9d4b)
 
-> Un'Italia liberal-gollista di Manfredi 2009 Elezioni Europee: Il PDL è il primo partito, poco sotto il 40%. Segue il PD, inchiodato su un quasi dignitoso 25,5. Nella fascia media, si collocano la Lega Nord, al 9,5%, Di P
+> La minaccia del Krang di Sandro Degiani Questo primo racconto è anche il primo che ho scritto professionalmente per farlo leggere. Lo spedìì a Delos e ne ricevetti una lusinghiera recensione. Dato che sfrutta ben precisi
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/un-italia-liberal-gollista-0d517e33/` · composition: `single`
+Target: `/works/la-minaccia-del-krang-11f9a00e/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0d517e33c8ec/)
+[Full source for local review](/review/source/doc-11f9a00e9d4b/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/liberal\_gollista.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Krang.htm
 
-SHA-256: `222010fcddbfc272141632d3b616e19a4825c629ab48400275a1e02dab56aa5e`
+SHA-256: `53525facad5952544f88d41ff1ed97f5344f026ae7c416522784616563b00e94`
 
 Selection: `{"kind":"whole"}`
 
-## 14. Pitea il bugiardo, parte terza
+## 14. Macabra missione
 
-Proposal: `proposal-doc-0dadf4a43e30` · action: `work`
+Proposal: `proposal-doc-1264ff806d52` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0dadf4a43e30)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-1264ff806d52)
 
-> Actibus immensis urbs fulget massiliensis di Perchè No? Ecco ora la terza parte dell'ucronia di Perchè No? dedicata alla scoperta delle Americhe da parte di un navigatore greco. Per leggere la prima parte, cliccate qui;
+> Macabra missione di Generalissimus Gustatevi, se così si può dire, la mia ultima follia. So che non c'è nulla che stia in piedi, ma non va presa troppo sul serio. Infatti doveva anche avere un tono molto più leggero, ma
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/pitea-il-bugiardo-parte-terza-0dadf4a4/` · composition: `single`
+Target: `/works/macabra-missione-1264ff80/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0dadf4a43e30/)
+[Full source for local review](/review/source/doc-1264ff806d52/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/Fanta\_Pitea\_3.htm
+Source: http://www.fmboschetto.it/utopiaucronia/Ondga.htm
 
-SHA-256: `a4b494cc64efaa55531735557b32a6a947efdb333d61aa8e0ee9cb430662ba8c`
+SHA-256: `6315b382f895e67784cca8f50aa5dac2f8dc8e4ea1a4863261c9269a74ed0d6c`
 
 Selection: `{"kind":"whole"}`
 
-## 15. San Luigi IX e il Gran Khan dei Tartari
+## 15. 1950: escalation della Guerra di Corea
 
-Proposal: `proposal-doc-0dcbd1b7543a` · action: `work`
+Proposal: `proposal-doc-12ba45074766` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0dcbd1b7543a)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-12ba45074766)
 
-> San Luigi IX e il Gran Khan dei Tartari del Marziano Alcune recenti letture mi hanno ispirato una nuova ucronia, basata su san Luigi IX re di Francia. Infatti questo re esercita su di me un fascino magnetico, e mi sembra
+> 1952: la Comunità Europea di Difesa di Dans Dopo la creazione nel' 51 della Ceca, nel '52 De Gasperi, Adenauer e Schumann propongono la costituzione di una Comunità Europea di Difesa (Ced) che avrebbe dovuto unificare gl
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/san-luigi-ix-e-il-gran-khan-dei-tartari-0dcbd1b7/` · composition: `single`
+Target: `/works/1950-escalation-della-guerra-di-corea-12ba4507/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0dcbd1b7543a/)
+[Full source for local review](/review/source/doc-12ba45074766/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/fanta\_Luigi\_IX.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/ucronie\_Dans.htm
 
-SHA-256: `1e66922e979fea59ce44bdb84370b28a18fced172ba9f113e128b6d475a92360`
+SHA-256: `2c1250a20e042611ee0c0d19f764ee095f8bdb28c2b86e73b92fea6d16709594`
 
 Selection: `{"kind":"whole"}`
 
-## 16. I cari estinti
+## 16. I Mongoli in Europa
 
-Proposal: `proposal-doc-0e2b12477024` · action: `work`
+Proposal: `proposal-doc-1306456b4129` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0e2b12477024)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-1306456b4129)
 
-> I cari estinti di Paolo Maltagliati A lanciare l'idea è stato l'immaginifico Paolo Maltagliati: La mia proposta è molto semplice. Cosa sarebbe successo se alcuni animali non si fossero estinti, e se gli uomini fossero ri
+> I Mongoli in Europa La bandiera dell'Orda Sacra Tutta la discussione prende avvio da questa proposta di Enrica S.: 5 agosto 1242: l'armata dell'Orda d'Oro, forte di 120.000 guerrieri mongoli addestratissimi e fedeli fino
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/i-cari-estinti-0e2b1247/` · composition: `single`
+Target: `/works/i-mongoli-in-europa-1306456b/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0e2b12477024/)
+[Full source for local review](/review/source/doc-1306456b4129/)
 
-Source: http://www.fmboschetto.it/Utopiaucronia/quattro\_specie.htm
+Source: http://www.fmboschetto.it/utopiaucronia/fanta\_Mongoli.htm
 
-SHA-256: `6122f04cf9525c0578dfe0d57e1e5bdb106e32b136872494a538b3417f972edb`
+SHA-256: `1728b64c2d16b4bfd24d63ad09e154bd11244d2fff0a61464b4fbca7834ec939`
 
 Selection: `{"kind":"whole"}`
 
-## 17. Un mondo senza Roma
+## 17. La Grande Migrazione Bantù
 
-Proposal: `proposal-doc-0e3b5a1fa190` · action: `work`
+Proposal: `proposal-doc-131f89984bc4` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0e3b5a1fa190)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-131f89984bc4)
 
-> Un mondo senza Roma di Lord Wilmore 753 a.C., 21 aprile: (POD) alle ore 8.45 del mattino, un nucleo cometario esplode nell'atmosfera sopra la foce del Tevere, carbonizzando ogni cosa in un raggio di 30 chilometri, e dist
+> La Grande Migrazione Bantù Anche questa ucronia viene iniziata da JFB: 2550 anni fa, da qualche parte lungo il confine che divide Camerun e Nigeria, cominciò la migrazione dei bantù, favorita dalla domesticazione di pian
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/un-mondo-senza-roma-0e3b5a1f/` · composition: `single`
+Target: `/works/la-grande-migrazione-bantu-131f8998/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0e3b5a1fa190/)
+[Full source for local review](/review/source/doc-131f89984bc4/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/senza\_Roma.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/Fanta\_Bantu.htm
 
-SHA-256: `0460db4359830d4768068718cdd831b616289e6157c84590074a6ac9e573e4b9`
+SHA-256: `f38da9b391aa63241e478787ac2f394599fbd9939760687cc81cbc179bfaf372`
 
 Selection: `{"kind":"whole"}`
 
-## 18. L'Impero Serbo
+## 18. \[uchronìe\] La civilisation intemporelle
 
-Proposal: `proposal-doc-0e9000e3e5d2` · action: `work`
+Proposal: `proposal-doc-13310fa4dca7` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0e9000e3e5d2)
+[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-13310fa4dca7)
 
-> L'impero serbo di Basileus TFT Attorno all'anno 1350 l'Impero serbo raggiunse un'estensione assai elevata, comprendendo praticamente tutti i balcani meridionali. Stefano I Dusan si autoproclamò imperatore di tutti i serb
+> La civilisation intemporelle de Porquoi pas? J’ai voulu ici imaginer une civilisation basée sur le voyage temporel, je ne suis pas sûr d’avoir réussi à rendre totalement la complexité de l’idée, je l’ai appelée la civili
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/l-impero-serbo-0e9000e3/` · composition: `single`
+Target: `/works/uchronie-la-civilisation-intemporelle-13310fa4/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0e9000e3e5d2/)
+[Full source for local review](/review/source/doc-13310fa4dca7/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/impero\_serbo.htm
+Source: https://www.fmboschetto.it/Utopiaucronia/uchroniesenfrancais/civilisation\_intemporelle.htm
 
-SHA-256: `f999ce1a8bb91482dfc0c9da9a6b201dd082eb87c82f2b5f7b2b64f09f9e6f43`
+SHA-256: `1786d40cfa5d3132330673ecb835873b84848a1c68e7064d94a820a2c1bbfa5b`
 
 Selection: `{"kind":"whole"}`
 
-## 19. Il Divo al Quirinale
+## 19. Pio XIII
 
-Proposal: `proposal-doc-0f1860ed89bf` · action: `work`
+Proposal: `proposal-doc-1442850cb20a` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=1#proposal-doc-0f1860ed89bf)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-1442850cb20a)
 
-> Il Divo al Quirinale di Demofilo Durante le meritate vacanze 2008 ho concepito un'ucronia da me pensata dopo aver visto il film di Paolo Sorrentino "Il Divo", premiato dalla giuria al Festival di Cannes. Ecco quanto. . 1
+> Pio XIII del Marziano POD: 1958, alla morte di Pio XII è eletto pontefice il Cardinale Siri. Cosa che, a quanto si è saputo, avvenne per davvero, del resto era l'erede ed il prosecutore naturale dl pontificato pacelliano
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/il-divo-al-quirinale-0f1860ed/` · composition: `single`
+Target: `/works/pio-xiii-1442850c/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0f1860ed89bf/)
+[Full source for local review](/review/source/doc-1442850cb20a/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/Divo\_al\_Quirinale.htm
+Source: http://www.fmboschetto.it:80/Utopiaucronia/PioXIII.htm
 
-SHA-256: `123577eebad0c70f873c09daa69adcb0c79cab20dd799c5176c41e5ac6dd52f0`
+SHA-256: `3b0654cd644a330c03b6ad875e97bcdc67dfa78d4251ff0ff975662e58906684`
 
 Selection: `{"kind":"whole"}`
 
-## 20. A furore Normannorum...
+## 20. ...E succede un Quarantotto
 
-Proposal: `proposal-doc-0f5d653dbc8f` · action: `work`
+Proposal: `proposal-doc-1453085c69eb` · action: `work`
 
-[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-0f5d653dbc8f)
+[Review this proposal](/review/?state=pending&action=work&page=2#proposal-doc-1453085c69eb)
 
-> A furore Normannorum... di Demofilo Anche Demofilo ha deciso di partecipare al gioco di ruolo relativo ad una diversa colonizzazione del continente americano; in particolare ha pensato di costruirla utilizzando lo stesso
+> ...E succede un Quarantotto 1815-1823 d.C.: governa il quinto presidente degli USE, lo scozzese James Monroe, ultimo dei presidenti anglosassoni; già governatore della Scozia, era stato incaricato da Jefferson di condurr
 
 A recovered text page; preserve the source and propose its editorial role for progressive review.
 
-Target: `/works/a-furore-normannorum-0f5d653d/` · composition: `single`
+Target: `/works/e-succede-un-quarantotto-1453085c/` · composition: `single`
 
-[Full source for local review](/review/source/doc-0f5d653dbc8f/)
+[Full source for local review](/review/source/doc-1453085c69eb/)
 
-Source: http://www.fmboschetto.it:80/Utopiaucronia/a\_furore\_Normannorum.htm
+Source: http://www.fmboschetto.it/racconti/Roma\_in\_America/Roma\_in\_America\_15.htm
 
-SHA-256: `5fa9d9f1d72336577f946b5a9a455a7eb0985bf56cc3fc6a3547aeb2086511f1`
+SHA-256: `b321ee8b28cecadc06fb7ca3feef3da373f896c749579ae1b84c3f7348957d05`
 
 Selection: `{"kind":"whole"}`
