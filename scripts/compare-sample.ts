@@ -15,6 +15,7 @@ import {
 import type { Gap } from "./link-resolution.ts";
 import { pdfEdition } from "./pdf.ts";
 import { safePath, sha256, urlKey, writeJson } from "./recovery/core.ts";
+import { compareItemKey } from "./unit-keys.ts";
 
 export const normalize = (text: string) =>
   text
@@ -83,23 +84,20 @@ for (const c of conversions) {
         : "missing",
     );
   }
-  const key = cache.key(
-    pageBytes,
-    JSON.stringify(c),
-    JSON.stringify(item ?? null),
-    JSON.stringify(
-      (item?.authors ?? []).map((id) => map.authors.find((a) => a.id === id)),
+  const key = compareItemKey(cache, {
+    page: pageBytes,
+    conversion: c,
+    item,
+    authors: (item?.authors ?? []).map((id) =>
+      map.authors.find((a) => a.id === id),
     ),
     documentsDigest,
-    JSON.stringify(sourceBytes),
-    JSON.stringify(
-      gaps.filter(
-        (g) =>
-          c.gaps.includes(g.id) || c.sources.some((s) => s.url === g.source),
-      ),
+    sourceDigests: sourceBytes,
+    gaps: gaps.filter(
+      (g) => c.gaps.includes(g.id) || c.sources.some((s) => s.url === g.source),
     ),
-    JSON.stringify(corrections),
-  );
+    corrections,
+  });
   const cached = await cache.get(key);
   // A failing item throws before storing, so only verified reports are cached.
   const report = cached ?? (await compareItem(c, pageBytes, item, corrections));

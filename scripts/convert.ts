@@ -38,6 +38,7 @@ import {
 } from "./recovery/core.ts";
 import { readDecisions } from "./review-decisions.ts";
 import { type OutlineItem, renderStructured } from "./structured.ts";
+import { convertPageKey } from "./unit-keys.ts";
 
 const manifest = await readManifest();
 const map = await readMap();
@@ -117,27 +118,28 @@ const sourceFile = (source: EditorialSource) => {
 // document record and current bytes of every source, and its corrections.
 // Routing tables are not in the key: the lookups are replayed instead.
 async function pageKey(page: Page, html?: string) {
-  const inputs: (string | Uint8Array)[] = [
-    JSON.stringify({
+  const sources = [];
+  if (html === undefined)
+    for (const part of page.parts) {
+      const document = sourceFile(part.source);
+      sources.push({
+        document,
+        bytes: await readFile(safePath("archive/original", document.path)),
+      });
+    }
+  return convertPageKey(
+    cache,
+    {
       slug: page.slug,
       title: page.title,
       item: page.item ?? null,
       language: page.language,
       legacy: Boolean(page.legacy),
       parts: page.parts.map((p) => ({ source: p.source, prefix: p.prefix })),
-    }),
-    JSON.stringify(await correctionsFor(page.slug)),
-  ];
-  if (html !== undefined) inputs.push(html);
-  else
-    for (const part of page.parts) {
-      const document = sourceFile(part.source);
-      inputs.push(
-        JSON.stringify(document),
-        await readFile(safePath("archive/original", document.path)),
-      );
-    }
-  return cache.key(...inputs);
+    },
+    await correctionsFor(page.slug),
+    html === undefined ? sources : { html },
+  );
 }
 async function prepare(page: Page) {
   if (!page.item) return;
