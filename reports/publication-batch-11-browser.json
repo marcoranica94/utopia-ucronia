@@ -1,0 +1,969 @@
+{
+  "date": "2026-11-17",
+  "routes": 40,
+  "cases": 120,
+  "failing": [],
+  "passed": true,
+  "layouts": [
+    {
+      "path": "/works/taiping-tian-guo-76f661d5/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-guerra-del-96-777c2a0d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-divisione-che-ha-cambiato-la-storia-778be1c6/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-raggio-della-morte-77bcdc1f/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/battaglia-per-l-italia-78131aa5/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-romano-italiano-7813d2d7/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/invincibile-per-davvero-78ddbfa4/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-filistiade-78e2729d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-sardaigne-francaise-79006f13/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/andra-moi-ennepe-7a8c89ff/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-terza-guerra-mondiale-nel-1946-47-7b869a0d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/roma-raggiunge-il-fiume-congo-7b894370/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/jules-andreotti-all-eliseo-7bba9b9d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/1848-nasce-la-repubblica-italiana-7c5e68c2/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/tiblisi-28-giugno-2014-7d54e815/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/adolfo-itlerelli-7d9d22c3/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-altra-costituzione-7dc33c20/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-fine-del-medioevo-7dcd1449/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pitea-il-bugiardo-7de4b943/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/de-bello-dacico-7e6f2f85/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/che-cosa-significa-essere-italiani-7eb17843/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-vera-storia-dei-baschi-7effe05c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/boom-economico-negli-anni-trenta-809193a1/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/capoverde-1944-80aad16f/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/baldovino-iv-il-grande-8199571b/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/crossover-nippo-robotico-81a1fd3f/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/sino-ai-confini-dell-india-8211037c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/sul-suo-impero-non-tramonta-mai-il-sole-8214cf54/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-regno-federale-di-jugoslavia-82af0761/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-mortaio-e-raro-e-bello-83190bdd/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/fantaprima-guerra-mondiale-8331e242/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-xxx-dinastia-egizia-83360d06/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ugm-umani-geneticamente-modificati-845f04a5/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-corsa-al-pacifico-84f66d94/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/t-agaworut-iwny-mets-hayastani-850ef86d/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/nerone-e-san-pietro-iam-redit-et-virgo-8525f1c9/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-guerra-mondiale-zero-856039a5/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/adriano-celentano-la-leggenda-del-molleggiato-85ae228c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/razionalizzazione-degli-eventi-biblici-85ae486f/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-romano-della-nazione-germanica-8647a17c/",
+      "width": 320,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/taiping-tian-guo-76f661d5/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-guerra-del-96-777c2a0d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-divisione-che-ha-cambiato-la-storia-778be1c6/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-raggio-della-morte-77bcdc1f/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/battaglia-per-l-italia-78131aa5/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-romano-italiano-7813d2d7/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/invincibile-per-davvero-78ddbfa4/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-filistiade-78e2729d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-sardaigne-francaise-79006f13/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/andra-moi-ennepe-7a8c89ff/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-terza-guerra-mondiale-nel-1946-47-7b869a0d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/roma-raggiunge-il-fiume-congo-7b894370/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/jules-andreotti-all-eliseo-7bba9b9d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/1848-nasce-la-repubblica-italiana-7c5e68c2/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/tiblisi-28-giugno-2014-7d54e815/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/adolfo-itlerelli-7d9d22c3/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-altra-costituzione-7dc33c20/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-fine-del-medioevo-7dcd1449/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pitea-il-bugiardo-7de4b943/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/de-bello-dacico-7e6f2f85/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/che-cosa-significa-essere-italiani-7eb17843/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-vera-storia-dei-baschi-7effe05c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/boom-economico-negli-anni-trenta-809193a1/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/capoverde-1944-80aad16f/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/baldovino-iv-il-grande-8199571b/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/crossover-nippo-robotico-81a1fd3f/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/sino-ai-confini-dell-india-8211037c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/sul-suo-impero-non-tramonta-mai-il-sole-8214cf54/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-regno-federale-di-jugoslavia-82af0761/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-mortaio-e-raro-e-bello-83190bdd/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/fantaprima-guerra-mondiale-8331e242/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-xxx-dinastia-egizia-83360d06/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ugm-umani-geneticamente-modificati-845f04a5/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-corsa-al-pacifico-84f66d94/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/t-agaworut-iwny-mets-hayastani-850ef86d/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/nerone-e-san-pietro-iam-redit-et-virgo-8525f1c9/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-guerra-mondiale-zero-856039a5/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/adriano-celentano-la-leggenda-del-molleggiato-85ae228c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/razionalizzazione-degli-eventi-biblici-85ae486f/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-romano-della-nazione-germanica-8647a17c/",
+      "width": 390,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/taiping-tian-guo-76f661d5/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-guerra-del-96-777c2a0d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-divisione-che-ha-cambiato-la-storia-778be1c6/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-raggio-della-morte-77bcdc1f/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/battaglia-per-l-italia-78131aa5/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-romano-italiano-7813d2d7/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/invincibile-per-davvero-78ddbfa4/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-filistiade-78e2729d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-sardaigne-francaise-79006f13/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/andra-moi-ennepe-7a8c89ff/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-terza-guerra-mondiale-nel-1946-47-7b869a0d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/roma-raggiunge-il-fiume-congo-7b894370/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/jules-andreotti-all-eliseo-7bba9b9d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/1848-nasce-la-repubblica-italiana-7c5e68c2/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/tiblisi-28-giugno-2014-7d54e815/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/adolfo-itlerelli-7d9d22c3/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-altra-costituzione-7dc33c20/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-fine-del-medioevo-7dcd1449/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/pitea-il-bugiardo-7de4b943/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/de-bello-dacico-7e6f2f85/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/che-cosa-significa-essere-italiani-7eb17843/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-vera-storia-dei-baschi-7effe05c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/boom-economico-negli-anni-trenta-809193a1/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/capoverde-1944-80aad16f/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/baldovino-iv-il-grande-8199571b/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/crossover-nippo-robotico-81a1fd3f/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/sino-ai-confini-dell-india-8211037c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/sul-suo-impero-non-tramonta-mai-il-sole-8214cf54/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-regno-federale-di-jugoslavia-82af0761/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/il-mortaio-e-raro-e-bello-83190bdd/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/fantaprima-guerra-mondiale-8331e242/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-xxx-dinastia-egizia-83360d06/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/ugm-umani-geneticamente-modificati-845f04a5/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-corsa-al-pacifico-84f66d94/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/t-agaworut-iwny-mets-hayastani-850ef86d/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/nerone-e-san-pietro-iam-redit-et-virgo-8525f1c9/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/la-guerra-mondiale-zero-856039a5/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/adriano-celentano-la-leggenda-del-molleggiato-85ae228c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/razionalizzazione-degli-eventi-biblici-85ae486f/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    },
+    {
+      "path": "/works/l-impero-romano-della-nazione-germanica-8647a17c/",
+      "width": 1440,
+      "status": 200,
+      "overflow": false,
+      "emails": false,
+      "title": true
+    }
+  ]
+}
