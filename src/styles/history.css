@@ -1,0 +1,207 @@
+/* Site history: the 2004 home page rebuilt as a still, always on its own
+   light compass-rose paper (it is a picture of the past, not our theme),
+   followed by the story in the site's normal voice. */
+.history {
+  max-width: 72rem;
+}
+.home2004 {
+  margin: 2rem 0 3rem;
+}
+.home2004-page {
+  padding: clamp(1rem, 3vw, 2rem);
+  border: 1px solid var(--line);
+  border-radius: 6px;
+  background: #ffffff url("/history/background.png") repeat;
+  color: #000000;
+  font-family: "Book Antiqua", Palatino, "Palatino Linotype", Georgia, serif;
+  color-scheme: light;
+}
+.home2004-motto {
+  margin: 0 0 0.75rem;
+  color: #0000ff;
+  font-size: 0.95rem;
+  font-weight: 700;
+}
+.home2004-top {
+  display: grid;
+  grid-template-columns: minmax(0, 0.45fr) minmax(0, 1fr);
+  gap: 1rem;
+  align-items: center;
+}
+.home2004-welcome {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(1.1rem, 2.2vw, 1.5rem);
+  font-weight: 700;
+  line-height: 1.25;
+}
+.home2004-logo {
+  justify-self: center;
+  width: 100%;
+  max-width: 586px;
+  height: auto;
+}
+.home2004-ticker {
+  margin: 1rem auto;
+  max-width: 44rem;
+  padding: 0.25rem 0.5rem;
+  border: 2px inset #c0c0c0;
+  background: #ffffff;
+  color: #000080;
+  font-style: italic;
+  font-weight: 700;
+  text-align: center;
+}
+.home2004-body {
+  display: grid;
+  grid-template-columns: minmax(0, 0.8fr) minmax(0, 1fr) minmax(0, 0.9fr);
+  gap: 1.5rem;
+  align-items: end;
+}
+.home2004-amphora,
+.home2004-city {
+  margin: 0;
+  text-align: center;
+}
+.home2004-amphora img {
+  width: 100%;
+  max-width: 220px;
+  height: auto;
+}
+.home2004-city {
+  align-self: center;
+}
+.home2004-city img {
+  width: 100%;
+  max-width: 296px;
+  height: auto;
+}
+.home2004-city figcaption {
+  margin-top: 0.5rem;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+}
+.home2004-menu {
+  align-self: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-family: "Times New Roman", Times, serif;
+  font-size: clamp(1.15rem, 2.4vw, 1.75rem);
+  font-weight: 700;
+  line-height: 1.2;
+}
+.home2004-menu li {
+  padding: 0.3rem 0;
+}
+.home2004-menu a {
+  display: inline-block;
+  min-height: 44px;
+  color: #0000ff;
+  text-decoration: underline;
+}
+.home2004-menu a:focus-visible {
+  outline: 3px solid #0000ff;
+  outline-offset: 2px;
+}
+.home2004-menu span {
+  display: inline-block;
+  min-height: 44px;
+  color: #3d3d3d;
+}
+.home2004-caption {
+  max-width: 70ch;
+  margin-top: 0.75rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.history-section {
+  max-width: 70ch;
+  margin: 0 0 2.75rem;
+}
+.history-section h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+.history-section p {
+  line-height: 1.6;
+}
+.history-section details summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--accent);
+  cursor: pointer;
+}
+.history-notices {
+  margin: 0.5rem 0 0;
+  font-family: var(--font-reading);
+  font-style: italic;
+  line-height: 1.6;
+}
+
+/* Capture years: one bar per year, length by number of files. */
+.capture-years {
+  margin: 1.5rem 0 0;
+}
+.capture-years figcaption {
+  margin-bottom: 0.75rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+.capture-years ol {
+  display: grid;
+  gap: 0.2rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.capture-years li {
+  display: grid;
+  grid-template-columns: 3rem minmax(0, 1fr) 3rem;
+  gap: 0.6rem;
+  align-items: center;
+  font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
+}
+.capture-bar {
+  display: block;
+  width: calc(var(--share) * 100%);
+  min-width: 2px;
+  height: 0.85rem;
+  border-radius: 0 3px 3px 0;
+  background: var(--branch);
+}
+.capture-count {
+  color: var(--muted);
+  text-align: right;
+}
+.history-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.history-links a {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  font-weight: 600;
+}
+
+@media (max-width: 760px) {
+  .home2004-top,
+  .home2004-body {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .home2004-amphora {
+    order: 2;
+  }
+  .home2004-amphora img {
+    max-width: 160px;
+  }
+}

@@ -405,6 +405,20 @@
     color: var(--accent);
     font-size: 1rem;
   }
+  .footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0 1.25rem;
+  }
+  .footer-links a {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    color: var(--ink);
+  }
+  .footer-links a[aria-current="page"] {
+    color: var(--accent);
+  }
   @media (max-width: 750px) {
     .reading-layout {
       grid-template-columns: 1fr;

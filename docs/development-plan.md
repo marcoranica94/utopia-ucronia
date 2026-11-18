@@ -257,8 +257,8 @@ Demo: the chosen direction, on phone and desktop, light and dark; filters work e
 The browsable copy of the 2004 layout in `/original/` and its reference date were dropped by the owner on 18/11/2026 ("Togliamola original"): the owner wants only the new site. Each item keeps its `/sources/` page with the complete source text and provenance.
 
 - [x] Tree of eras at `/tree/` (owner choice of 18/11/2026, "versione2", instead of a tree by divergence year, which no work has yet): a trunk through the 17 approved eras in order, node size by number of works, works branching off ordered by the first year cited at the opening (labelled as such, not as the divergence), the first 8 per era with the rest folded, "Outside time" off the trunk and the works without an era listed openly. No JavaScript; checked at 1440, 390 and 320 px in light and dark with no horizontal scroll
-- [ ] Publish site history and capture-date explanation, with the 2004 home page reconstructed by us
-- [ ] "What if…?": a random content item
+- [x] Site history at `/history/` (IT/EN): the 2004 home page rebuilt by us as a still with its original logo, amphora, city-of-the-future image and compass-rose background (derived from hash-verified originals by `pnpm periods:generate`, listed in `data/history-images.json`), no script, MIDI, applet or external link; what the page did, the thirteen ticker messages quoted, how the archive was recovered and the capture-year distribution, all figures read from `archive/manifest.json`. Linked from the footer of every page
+- [x] "What if…?" at `/whatif/` (IT/EN): one random work with its authors and plain opening, "Read the work" and "Another story". Without JavaScript the page shows a work chosen at build time; `public/whatif.js` draws others from the single `/whatif.json`. Linked from the footer and the home atlas
 
 Demo: from the tree of eras to a twentieth-century work and to its `/sources/` page with the original text and provenance.
 

@@ -1,0 +1,140 @@
+---
+import { getCollection } from "astro:content";
+import { readManifest } from "../../scripts/recovery/core";
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import "../styles/history.css";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const number = new Intl.NumberFormat(lang === "it" ? "it-IT" : "en-GB");
+const n = (value: number) => number.format(value);
+
+// Recovery figures come from the manifest, never typed by hand.
+const { documents } = await readManifest();
+const recovered = documents.filter((d) => d.outcome.startsWith("recovered"));
+const earlier = documents.filter(
+  (d) => d.outcome === "recovered from earlier copy",
+).length;
+const missing = documents.filter((d) => d.outcome === "missing").length;
+const fromOrigin = recovered.filter((d) => !d.timestamp).length;
+const years = new Map<string, number>();
+for (const d of recovered)
+  if (d.timestamp)
+    years.set(
+      d.timestamp.slice(0, 4),
+      (years.get(d.timestamp.slice(0, 4)) ?? 0) + 1,
+    );
+const yearRows = [...years].sort(([a], [b]) => a.localeCompare(b));
+const largestYear = Math.max(...years.values(), 1);
+const works = (await getCollection("works")).filter(
+  (w) => w.data.level === "work",
+).length;
+
+// The 2004 ticker, quoted as written (Italian in both interfaces).
+const notices = [
+  "Grazie per aver visitato il nostro sito,",
+  "e grazie per esservi interessati alla nostra stessa passione!",
+  "Data di creazione: 10/11/2004. Ultimo aggionamento: 16/3/2026.",
+  "Questo sito è dedicato ad appassionati di storia e romanzi storici,",
+  "non intende violare in nessun modo alcun copyright,",
+  "non ha alcun intento di propaganda politica o ideologica",
+  "e NON rappresenta un gioco di ruolo né simili passatempi.",
+  "I suoi contenuti NON vanno confusi con la storia « effettiva »,",
+  "ma provare a cambiare la storia a nostro piacere è un modo accattivante",
+  "per indurre tutti noi ad una profonda riflessione sulla nostra condotta.",
+  "Se il sito è di vostro gusto, inviateci il vostro parere a riguardo.",
+  "Consigliate a tutti i vostri amici UtopiaUcronia!",
+  "Buona navigazione, e... tornate a trovarci!",
+];
+// The 2004 menu. Entries with a counterpart here link to it; external sites
+// and the contact address are shown as text only.
+const menu: { label: string; href?: string; lang?: string }[] = [
+  { label: "Chi siamo" },
+  { label: "Introduzione" },
+  { label: "Lista delle ucronie", href: localePath(lang, "/divergences/") },
+  { label: "Tutti i nostri lavori", href: localePath(lang, "/works/") },
+  {
+    label: "Uchronies en Français",
+    href: `${localePath(lang, "/library/")}?lang=fr`,
+    lang: "fr",
+  },
+  {
+    label: "Ucronías en Español",
+    href: `${localePath(lang, "/library/")}?lang=es`,
+    lang: "es",
+  },
+  { label: "Alternate History Wiki", lang: "en" },
+  { label: "storialternativa.it" },
+  { label: "Contattaci" },
+];
+---
+<Base title={t("history.title")} lang={lang}>
+  <div class="history">
+    <header class="page-intro">
+      <h1 class="page-title">{t("history.heading")}</h1>
+      <p class="page-lede">{t("history.lede")}</p>
+    </header>
+
+    <figure class="home2004">
+      <div class="home2004-page" lang="it">
+        <p class="home2004-motto">UtopiaUcronia, dove tutto è possibile!</p>
+        <div class="home2004-top">
+          <p class="home2004-welcome">Entra con noi nel mondo della storia alternativa!</p>
+          <img class="home2004-logo" src="/history/logo.png" width="586" height="119" alt="UtopiaUcronia" />
+        </div>
+        <p class="home2004-ticker">{notices[0]} {notices[1]}</p>
+        <div class="home2004-body">
+          <figure class="home2004-amphora">
+            <img src="/history/amphora.png" width="256" height="484" alt="Anfora attica a figure rosse: Odisseo e Nausicaa, metà sec. V a.C." />
+          </figure>
+          <ul class="home2004-menu">
+            {menu.map((item) => <li>{item.href ? <a href={item.href} lang={item.lang}>{item.label}</a> : <span lang={item.lang}>{item.label}</span>}</li>)}
+          </ul>
+          <figure class="home2004-city">
+            <img src="/history/future-city.jpg" width="296" height="201" alt="" />
+            <figcaption>Città del futuro, tratta da www.bryceforum.de</figcaption>
+          </figure>
+        </div>
+      </div>
+      <figcaption class="home2004-caption">{t("history.reconstruction")}</figcaption>
+    </figure>
+
+    <section class="history-section" aria-labelledby="history-then">
+      <h2 id="history-then">{t("history.thenTitle")}</h2>
+      <p>{t("history.then1")}</p>
+      <p>{t("history.then2")}</p>
+      <details>
+        <summary>{t("history.notices")}</summary>
+        <ol class="history-notices" lang="it">{notices.map((line) => <li>{line}</li>)}</ol>
+      </details>
+    </section>
+
+    <section class="history-section" aria-labelledby="history-recovery">
+      <h2 id="history-recovery">{t("history.recoveryTitle")}</h2>
+      <p>{t("history.recovery1")}</p>
+      <p>{t("history.recovery2", { total: n(documents.length), recovered: n(recovered.length), earlier: n(earlier), missing: n(missing) })} <a href={localePath(lang, "/gaps/")}>{t("history.gapsLink")}</a></p>
+      <p>{t("history.recovery3")}</p>
+      <figure class="capture-years">
+        <figcaption>{t("history.yearsCaption", { wayback: n(recovered.length - fromOrigin), origin: n(fromOrigin) })}</figcaption>
+        <ol>
+          {yearRows.map(([year, count]) => <li><span class="capture-year">{year}</span><span class="capture-bar" style={`--share: ${(count / largestYear).toFixed(3)}`}></span><span class="capture-count">{n(count)}</span></li>)}
+        </ol>
+      </figure>
+    </section>
+
+    <section class="history-section" aria-labelledby="history-now">
+      <h2 id="history-now">{t("history.nowTitle")}</h2>
+      <p>{t("history.now1", { works: n(works) })}</p>
+      <ul class="history-links">
+        <li><a href={localePath(lang, "/library/")}>{t("library.title")}</a></li>
+        <li><a href={localePath(lang, "/divergences/")}>{t("site.nav.prompts")}</a></li>
+        <li><a href={localePath(lang, "/tree/")}>{t("tree.title")}</a></li>
+        <li><a href={localePath(lang, "/whatif/")}>{t("whatif.title")}</a></li>
+      </ul>
+    </section>
+  </div>
+</Base>

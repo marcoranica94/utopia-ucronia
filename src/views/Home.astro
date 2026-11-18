@@ -74,7 +74,7 @@ const featuredPath = featured
         <h1 id="atlas-title">{t("atlas.heading")}</h1>
         <p class="atlas-description">{t("atlas.description")}</p>
         <a class="atlas-button" href="#collection">{t("atlas.explore")}<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6" stroke="currentColor" stroke-width="1.5" /></svg></a>
-        <div class="atlas-footnote"><span>{t("atlas.originalSince")}</span><a href={localePath(lang, "/tree/")}>{t("atlas.tree")}</a></div>
+        <div class="atlas-footnote"><span>{t("atlas.originalSince")}</span><a href={localePath(lang, "/tree/")}>{t("atlas.tree")}</a><a href={localePath(lang, "/whatif/")}>{t("whatif.title")}</a></div>
       </div>
       <a class="atlas-map" href={featuredPath} aria-labelledby="map-feature-title">
         <div class="atlas-map-image"><img src="/design/spot-the-pod.gif" width="944" height="599" alt={t("atlas.mapAlt")} fetchpriority="high" /><svg class="map-forks" viewBox="0 0 640 420" fill="none" aria-hidden="true"><path d="M65 420V310Q65 270 110 270H245Q290 270 290 220V-20M110 270H390Q450 270 450 210V70M390 270H540Q585 270 585 320V440" stroke="currentColor" stroke-width="2"/><circle cx="290" cy="120" r="7" fill="currentColor"/><circle cx="450" cy="125" r="7" fill="currentColor"/><circle cx="585" cy="335" r="7" fill="currentColor"/></svg><span class="map-invitation">{t("atlas.mapPrompt")}</span></div>

@@ -1,0 +1,34 @@
+---
+import { type Lang, localePath, useTranslations } from "../i18n";
+import Base from "../layouts/Base.astro";
+import { pick } from "../whatif";
+import { whatIfEntries } from "../whatif-entries";
+import "../styles/whatif.css";
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const entries = await whatIfEntries();
+const chosen = pick(entries, "what-if");
+---
+<Base title={t("whatif.title")} lang={lang}>
+  <div class="whatif" data-whatif data-prefix={lang === "en" ? "/en" : ""}>
+    <header class="whatif-head">
+      <h1 class="page-title">{t("whatif.heading")}</h1>
+      <p class="page-lede">{t("whatif.lede", { n: entries.length })}</p>
+    </header>
+    <article class="whatif-card" aria-live="polite" aria-labelledby="whatif-title">
+      <h2 id="whatif-title"><a data-whatif-link href={localePath(lang, chosen.p)} lang={chosen.l}>{chosen.t}</a></h2>
+      <p class="whatif-authors" data-whatif-authors hidden={!chosen.a}>{chosen.a}</p>
+      <p class="whatif-opening" data-whatif-opening lang={chosen.l}>{chosen.o}</p>
+      <div class="whatif-actions">
+        <a class="whatif-read" data-whatif-read href={localePath(lang, chosen.p)}>{t("whatif.read")}</a>
+        <button type="button" class="whatif-again" data-whatif-again hidden>{t("whatif.again")}</button>
+      </div>
+    </article>
+    <p class="small-note">{t("whatif.note")} <a href={localePath(lang, "/tree/")}>{t("whatif.tree")}</a></p>
+  </div>
+  <script is:inline src="/whatif.js" defer></script>
+</Base>

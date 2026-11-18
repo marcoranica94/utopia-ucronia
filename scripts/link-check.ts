@@ -52,6 +52,7 @@ export function pageFacts(
           "/theme.js",
           "/search-shortcut.js",
           ...(/^\/(?:en\/)?search\//.test(pathname) ? ["/search.js"] : []),
+          ...(/^\/(?:en\/)?whatif\//.test(pathname) ? ["/whatif.js"] : []),
           "/rail.js",
           "/reader.js",
           ...(isCatalog ? ["/catalog.js"] : []),

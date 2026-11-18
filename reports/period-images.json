@@ -135,5 +135,39 @@
     "1940-1960": "second-world-war",
     "post-1960": "postwar",
     "utopias-stories": "present-future"
-  }
+  },
+  "history": [
+    {
+      "name": "logo",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/logo.gif",
+      "sha256": "2fbab8113190533b81731721f432b13e9f10fe824cff2b28c37ea275ed16e8b6",
+      "derived": "/history/logo.png",
+      "width": 586,
+      "height": 119
+    },
+    {
+      "name": "amphora",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/Anfora.gif",
+      "sha256": "c210f548633bd4a436b3c464231543b64d564a5037a0260e15a21e76131e8edb",
+      "derived": "/history/amphora.png",
+      "width": 256,
+      "height": 484
+    },
+    {
+      "name": "background",
+      "source": "http://www.fmboschetto.it/Utopiaucronia/sfondo015.gif",
+      "sha256": "fc675c2d9028a9d2aba528a310dc44eeb2906420f6b9139afbef9a6c83da8f04",
+      "derived": "/history/background.png",
+      "width": 250,
+      "height": 245
+    },
+    {
+      "name": "future-city",
+      "source": "https://www.fmboschetto.it/Utopiaucronia/futurecity.jpg",
+      "sha256": "5af808c74a4152af607c2781a85f625f080ea535970a659907c8b15265bfaf42",
+      "derived": "/history/future-city.jpg",
+      "width": 296,
+      "height": 201
+    }
+  ]
 }

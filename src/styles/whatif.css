@@ -1,0 +1,86 @@
+/* "What if…?": one work at a time, the opening read like the first lines of
+   a book, hanging from a copper branch. */
+.whatif {
+  max-width: 54rem;
+}
+.whatif-card {
+  position: relative;
+  margin: 2rem 0 1.5rem;
+  padding: 0.25rem 0 0.5rem 2rem;
+  border-left: 6px solid var(--branch);
+  border-radius: 3px;
+}
+.whatif-card h2 {
+  margin: 0;
+  font-family: var(--font-reading);
+  font-size: clamp(1.7rem, 4vw, 2.5rem);
+  font-weight: 400;
+  line-height: 1.15;
+}
+.whatif-card h2 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+.whatif-card h2 a:hover,
+.whatif-card h2 a:focus-visible {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+.whatif-authors {
+  margin: 0.5rem 0 0;
+  color: var(--muted);
+}
+.whatif-opening {
+  max-width: 65ch;
+  margin: 1.25rem 0 0;
+  font-family: var(--font-reading);
+  font-size: 1.15rem;
+  line-height: 1.65;
+}
+.whatif-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+.whatif-read,
+.whatif-again {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 0 1.25rem;
+  border-radius: 999px;
+  font: inherit;
+  font-weight: 600;
+  text-decoration: none;
+  cursor: pointer;
+}
+.whatif-read {
+  border: 2px solid var(--accent);
+  background: var(--accent);
+  color: var(--paper);
+}
+.whatif-read:hover,
+.whatif-read:focus-visible {
+  border-color: var(--accent-hover);
+  background: var(--accent-hover);
+}
+.whatif-again {
+  border: 2px solid var(--accent);
+  background: transparent;
+  color: var(--accent);
+}
+.whatif-again:hover,
+.whatif-again:focus-visible {
+  background: var(--surface-soft);
+}
+.whatif-again[hidden] {
+  display: none;
+}
+@media (max-width: 760px) {
+  .whatif-card {
+    padding-left: 1.1rem;
+    border-left-width: 4px;
+  }
+}

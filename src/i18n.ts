@@ -387,6 +387,41 @@ const it = {
   "tree.caveat":
     "Una stessa opera compare in più epoche se le attraversa. Le brevi proposte della Lista delle ucronie restano ordinate per periodo nel loro indice:",
   "tree.listaLink": "apri la Lista delle ucronie",
+  "whatif.title": "E se…?",
+  "whatif.heading": "E se…?",
+  "whatif.lede":
+    "Una storia a caso tra le {n} opere da leggere. Se non ti convince, pescane un’altra.",
+  "whatif.read": "Leggi l’opera",
+  "whatif.again": "Un’altra storia",
+  "whatif.note": "Preferisci scegliere tu?",
+  "whatif.tree": "Sfoglia l’albero delle epoche",
+  "history.title": "Storia del sito",
+  "history.heading": "Storia del sito",
+  "history.lede":
+    "UtopiaUcronia è nato il 10 novembre 2004, costruito con FrontPage, ed è cresciuto per più di vent’anni grazie a chi ci scriveva. Questa è la sua prima pagina e il racconto di come l’abbiamo ritrovato.",
+  "history.reconstruction":
+    "La prima pagina del sito ricostruita da noi con le immagini originali: logo, anfora, città del futuro e lo sfondo con la rosa dei venti. Non è la pagina originale e non esegue il suo codice. I collegamenti portano alle pagine corrispondenti di questo sito; i siti esterni e l’indirizzo email sono riportati solo come testo.",
+  "history.thenTitle": "Com’era",
+  "history.then1":
+    "La pagina era viva, nello stile dei primi anni Duemila: la scritta «UtopiaUcronia, dove tutto è possibile!» inseguiva il mouse lettera per lettera, una riga scorreva tredici messaggi di benvenuto e in sottofondo suonava in MIDI «L’isola che non c’è» di Edoardo Bennato. La città del futuro si specchiava in un lago animato da un’applet Java.",
+  "history.then2":
+    "Completavano la pagina la ricerca FreeFind e il contatore ShinyStat. Oggi niente di tutto questo viene eseguito: script, musica, applet e servizi esterni sono stati tolti, e restano le parole e le immagini.",
+  "history.notices": "I tredici messaggi che scorrevano",
+  "history.recoveryTitle": "Come l’abbiamo recuperato",
+  "history.recovery1":
+    "Il server originale blocca le richieste automatiche con un filtro anti-bot, che non abbiamo aggirato. Il recupero è partito dalle copie conservate dalla Wayback Machine di Internet Archive; nel novembre 2026, con il permesso del proprietario, i file mancanti sono stati scaricati direttamente dal server, uno alla volta.",
+  "history.recovery2":
+    "Gli indirizzi trovati sono {total}: ne abbiamo recuperati {recovered}, di cui {earlier} da una copia precedente perché l’ultima era danneggiata. {missing} file non esistono più in nessuna copia.",
+  "history.gapsLink": "Vedi cosa manca",
+  "history.recovery3":
+    "Per ogni file abbiamo preso la copia valida più recente, quindi la raccolta mescola anni diversi: non è il sito com’era in un giorno preciso. I file originali sono conservati intatti e non vengono mai modificati.",
+  "history.yearsCaption":
+    "Anno delle copie della Wayback Machine ({wayback} file). Altri {origin} file vengono direttamente dal server originale, novembre 2026.",
+  "history.nowTitle": "Cosa c’è oggi",
+  "history.now1":
+    "Questa nuova edizione riordina il materiale per contenuto invece che per cartelle: {works} opere da leggere con indice, autori e ricerca, e tutte le proposte brevi della Lista delle ucronie nei loro periodi.",
+  "site.history": "Storia del sito",
+  "site.footerNav": "Altre pagine",
   "gaps.title": "Materiale non disponibile",
   "gaps.kicker": "Archivio in lavorazione",
   "gaps.heading": "Questo materiale non è ancora disponibile",
@@ -855,6 +890,41 @@ const en: Record<keyof typeof it, string> = {
   "tree.caveat":
     "A work appears in several eras if it spans them. The short prompts of the Lista delle ucronie stay ordered by period in their own index:",
   "tree.listaLink": "open the Lista delle ucronie",
+  "whatif.title": "What if…?",
+  "whatif.heading": "What if…?",
+  "whatif.lede":
+    "A random story from the {n} works you can read. If it doesn’t grab you, draw another.",
+  "whatif.read": "Read the work",
+  "whatif.again": "Another story",
+  "whatif.note": "Rather choose yourself?",
+  "whatif.tree": "Browse the tree of eras",
+  "history.title": "Site history",
+  "history.heading": "Site history",
+  "history.lede":
+    "UtopiaUcronia was born on 10 November 2004, built with FrontPage, and grew for more than twenty years thanks to the people who wrote for it. This is its first page and the story of how we found it again.",
+  "history.reconstruction":
+    "The site’s first page rebuilt by us with the original images: logo, amphora, city of the future and the compass-rose background. It is not the original page and runs none of its code. Links lead to the matching pages of this site; external sites and the email address appear as text only.",
+  "history.thenTitle": "What it was like",
+  "history.then1":
+    "The page was alive, in the style of the early 2000s: the words “UtopiaUcronia, dove tutto è possibile!” chased the mouse letter by letter, a line scrolled thirteen welcome messages and Edoardo Bennato’s “L’isola che non c’è” played in MIDI in the background. The city of the future was reflected in a lake animated by a Java applet.",
+  "history.then2":
+    "FreeFind search and a ShinyStat counter completed the page. None of this runs today: scripts, music, applets and external services are gone, and the words and images remain.",
+  "history.notices": "The thirteen scrolling messages",
+  "history.recoveryTitle": "How we recovered it",
+  "history.recovery1":
+    "The original server blocks automated requests with an anti-bot filter, which we did not get around. Recovery started from the copies kept by the Internet Archive’s Wayback Machine; in November 2026, with the owner’s permission, the missing files were downloaded directly from the server, one at a time.",
+  "history.recovery2":
+    "We found {total} addresses and recovered {recovered}, {earlier} of them from an earlier copy because the latest was damaged. {missing} files no longer exist in any copy.",
+  "history.gapsLink": "See what is missing",
+  "history.recovery3":
+    "Each file comes from its most recent valid copy, so the collection mixes different years: it is not the site as it was on one particular day. The original files are kept untouched and never modified.",
+  "history.yearsCaption":
+    "Year of the Wayback Machine copies ({wayback} files). Another {origin} files come directly from the original server, November 2026.",
+  "history.nowTitle": "What is here today",
+  "history.now1":
+    "This new edition orders the material by content rather than by folder: {works} works to read with indexes, authors and search, and every short prompt of the Lista delle ucronie in its period.",
+  "site.history": "Site history",
+  "site.footerNav": "More pages",
   "gaps.title": "Material not available",
   "gaps.kicker": "Archive in progress",
   "gaps.heading": "This material is not available yet",
