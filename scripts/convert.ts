@@ -42,6 +42,7 @@ import {
   writeJson,
 } from "./recovery/core.ts";
 import { readDecisions } from "./review-decisions.ts";
+import { markSourceRed } from "./source-color.ts";
 import { type OutlineItem, renderStructured } from "./structured.ts";
 import { convertPageKey } from "./unit-keys.ts";
 
@@ -150,7 +151,8 @@ async function prepare(page: Page) {
   if (!page.item) return;
   for (const part of page.parts) {
     if (part.html !== undefined) continue;
-    part.html = await sourceHtml(part.source, map);
+    // Red text was the editors' own voice in the original: keep it marked.
+    part.html = markSourceRed(await sourceHtml(part.source, map));
     part.parsed = anatomy(part.html, page.item.title);
   }
 }

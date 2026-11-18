@@ -25,6 +25,8 @@ const { Content } = await render(work);
 // Structured works carry interface placeholders: fill them in the reader's language.
 const html = data.shape ? localizeHtml(work.rendered?.html ?? "", lang) : "";
 const outline = data.outline ?? [];
+// Works whose source had red text get a note on what the marking means.
+const hasSourceRed = (work.body ?? "").includes("src-red");
 const entries = outline.filter((i) => i.kind === "entry").length;
 const interventions = outline.filter((i) => i.kind === "contribution").length;
 const pieces = outline.filter((i) => i.kind === "piece").length;
@@ -59,6 +61,7 @@ const captured = (s?: string) =>
         </header>
         <WorldNav lang={lang} entries={worldEntries} itemId={work.id} />
         {showRail && <WorkContents outline={outline} lang={lang} textLang={data.language} />}
+        {hasSourceRed && <p class="source-red-note"><strong>{t("reader.redLabel")}</strong> {t("reader.redNote")}</p>}
         <article class="reading-copy structured" lang={data.language === "unknown" ? "" : data.language}><Fragment set:html={html} /></article>
         <WorldNav lang={lang} entries={worldEntries} itemId={work.id} end />
         <footer class="uchronia-source" id="work-sources"><h2>{t("source.title")}</h2><FacetChips lang={lang} classification={data.classification} /><ul>{data.sources.map(source=><li><a data-reading-source href={localePath(lang,`/sources/${source.documentId ?? documentId(source.url)}/`)}>{t("source.open")} — {source.url.split("/").at(-1)}</a></li>)}</ul><p>{t("source.resourcesHint")}</p>
@@ -70,7 +73,7 @@ const captured = (s?: string) =>
       </div>
     </div>
   ) : (
-    <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 id="work-title" class="page-title" style={`view-transition-name:${transitionName(work.id)};view-transition-class:work-title`} lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1><WorldNav lang={lang} entries={worldEntries} itemId={work.id} /><aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language === "unknown" ? "" : data.language}><Content /></article><WorldNav lang={lang} entries={worldEntries} itemId={work.id} end /></div>
+    <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 id="work-title" class="page-title" style={`view-transition-name:${transitionName(work.id)};view-transition-class:work-title`} lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1><WorldNav lang={lang} entries={worldEntries} itemId={work.id} />{hasSourceRed && <p class="source-red-note"><strong>{t("reader.redLabel")}</strong> {t("reader.redNote")}</p>}<aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language === "unknown" ? "" : data.language}><Content /></article><WorldNav lang={lang} entries={worldEntries} itemId={work.id} end /></div>
       <aside class="reading-aside" aria-labelledby="source-title"><h2 id="source-title">{t("work.provenance")}</h2><FacetChips lang={lang} classification={data.classification} /><ul>{data.sources.map(source=><li><a data-reading-source href={localePath(lang,`/sources/${source.documentId ?? documentId(source.url)}/`)}>{t("source.open")}</a></li>)}</ul>{data.sources.map((source) => <div><p>{source.timestamp ? t("work.captured", { date: captured(source.timestamp) ?? "" }) : t("work.fromOrigin")}</p><p>{source.url}</p></div>)}<p>{t("work.kept")}</p></aside>
     </div>
   )}

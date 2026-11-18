@@ -607,3 +607,35 @@ body.reader-drawer-open {
     animation: none;
   }
 }
+
+/* Words that were red in the original (scripts/source-color.ts): mostly the
+   editors presenting a proposal and its point of divergence. Inline words
+   keep a distinct ink; a passage written wholly in red stands apart as a
+   panel, so the editors' frame never reads as part of the work. */
+.src-red {
+  color: var(--source-mark);
+}
+p:has(> .src-red-whole),
+li:has(> .src-red-whole),
+blockquote:has(> .src-red-whole) {
+  margin-block: 1.25rem;
+  padding: 0.75rem 1rem;
+  border-left: 4px solid var(--source-mark);
+  border-radius: 0 6px 6px 0;
+  background: color-mix(in srgb, var(--source-mark) 7%, var(--paper));
+  font-family: var(--font-ui);
+  font-size: 0.98em;
+}
+.source-red-note {
+  max-width: 70ch;
+  margin: 0 0 1.5rem;
+  padding: 0.6rem 0.9rem;
+  border-left: 4px solid var(--source-mark);
+  border-radius: 0 6px 6px 0;
+  background: color-mix(in srgb, var(--source-mark) 7%, var(--paper));
+  color: var(--ink);
+  font-size: 0.92rem;
+}
+.source-red-note strong {
+  color: var(--source-mark);
+}

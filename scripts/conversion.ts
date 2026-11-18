@@ -139,6 +139,8 @@ export function convertHtml(
         td: ["colspan", "rowspan"],
         ol: ["start"],
       },
+      // Red text of the original, marked by scripts/source-color.ts.
+      allowedClasses: { span: ["src-red", "src-red-whole"] },
       allowedSchemes: [],
       allowProtocolRelative: false,
       transformTags: {

@@ -249,6 +249,7 @@ Demo: passed in a 390 px phone viewport with a remembered Petrov sentence → re
 - [x] The two world introductions (`racconti/iperimpero/introduzione.htm`, `racconti/roma_in_america/introduzione.htm`) published as the first chapter of their world (owner approval of 18/11/2026, "Si"): exempted from the map's index rule in `scripts/generate-map.ts`, added to `data/map.yaml` as whole-page work proposals, approved in the ledger, selected, and no longer excluded in `data/worlds.json` (Capvt Mvndi 18 chapters, Roma di là dall'oceano 27). 793 canonical items
 - [x] Two design directions for reading and catalog, with real content; choice and `tokens.css`
 - [x] View Transitions between catalog and reading: cross-document `@view-transition`, catalog card title morphs into the work title, header stays still; disabled under `prefers-reduced-motion`, plain navigation where unsupported (17/11/2026)
+- [x] Unplanned (owner request of 18/11/2026): the original's red text, mostly the editors presenting a proposal and its point of divergence, is kept as a mark (`scripts/source-color.ts`): red words get a distinct ink, a passage wholly in red stands apart as a panel, and works that have any show a note on what the marking means. Text, anchors, tables and images unchanged (full source comparison passes on all 796 texts); 692 works carry marks, 620 with whole editorial passages
 
 Demo: the chosen direction, on phone and desktop, light and dark; filters work even on content not yet reviewed.
 

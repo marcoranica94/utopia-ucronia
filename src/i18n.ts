@@ -464,6 +464,9 @@ const it = {
   "count.variants.one": "variante",
   "count.variants.many": "varianti",
   "reader.branches": "I rami della storia",
+  "reader.redLabel": "Parole della redazione.",
+  "reader.redNote":
+    "Le parti evidenziate così erano in rosso nel sito originale: di solito sono la redazione che presenta la proposta e il punto da cui la storia diverge, a volte date o nomi messi in risalto.",
   "reader.branchNote":
     "Ogni ramo è un racconto o una variante. Apri gli eventi per seguirne le date, nell’ordine del testo.",
   "reader.events": "Mostra gli eventi ({n})",
@@ -970,6 +973,9 @@ const en: Record<keyof typeof it, string> = {
   "count.variants.one": "variant",
   "count.variants.many": "variants",
   "reader.branches": "Branches of the story",
+  "reader.redLabel": "The editors’ words.",
+  "reader.redNote":
+    "Passages marked like this were red on the original site: usually the editors presenting the proposal and the point where history diverges, sometimes dates or names set in relief.",
   "reader.branchNote":
     "Each branch is a narrative or a variant. Open its events to follow the dates in the order of the text.",
   "reader.events": "Show events ({n})",
