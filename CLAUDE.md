@@ -15,12 +15,11 @@ Reconstruction of the old UtopiaUcronia site (fmboschetto.it/Utopiaucronia, crea
 
 ## Goal
 
-Three versions of the same material, in the same repository, treated differently:
+Two versions of the same material, in the same repository, treated differently:
 
 | Version | What it contains | Where it lives | Served by the site |
 | --- | --- | --- | --- |
 | Untouched archive | the files as they were, never modified, emails included | `archive/original/`, repository and backups | **no** |
-| Browsable copy | 2004 pages at the reference date, cleaned (see below) | generated at build time | yes, in `/original/` |
 | New edition | converted and reorganized content | `src/content/` | yes |
 
 Success is not a "complete archive", which cannot be proven, but a **documented collection**: every URL has an outcome, coverage is measured, limits are stated.
@@ -37,7 +36,7 @@ Decisions of 11/11/2026, revised after a critical review of the plan.
 - **Recovery from the Wayback Machine only.** The original server answers "HTTP 999 – AW Special Error" (Aruba's anti-bot filter) from the very first scripted request. No script uses it as a source; there is only `pnpm recovery probe`, manual, one honest request to find out whether the block is still there. The filter **must not be circumvented**: no fake User-Agents, no automated browsers.
 - **Versions:** latest stable versions at start (as of 11/11/2026: Node 24 LTS, pnpm 12.18, Astro 7.4, Wrangler 4.160, Pagefind 1.6, Zod 4.6, Biome 2.6, Playwright 1.65; TypeScript 6 until `astro check` supports 7). Then **locked by the lockfile**: every update is deliberate, one at a time, with build and tests.
 - **Web platform only where it helps:** View Transitions, scroll-driven animations, Popover API and anchor positioning, container queries, OKLCH with `color-mix()` and `light-dark()` come in only when they improve a specific function, as progressive enhancement. The site works without them. Always `prefers-reduced-motion`.
-- **Emails and personal data:** they appear in **no browsable view**, neither in the new edition nor in `/original/`. Only names and pseudonyms remain; `mailto:` links become plain text. Only the untouched archive keeps them, and the site does not serve it.
+- **Emails and personal data:** they appear in **no browsable view**, in no page of the site. Only names and pseudonyms remain; `mailto:` links become plain text. Only the untouched archive keeps them, and the site does not serve it.
 - **Backups:** the untouched archive is in the private GitHub repository (binaries in Git LFS). On 13/11/2026 the owner paused R2 uploads of `original/` and requested that the archive objects be removed; the bucket is empty. The copy to the owner's disk remains planned. Local restore is tested with `pnpm restore:test`; the earlier R2 restore test was historical.
 - **Language:** everything in English: code, comments, docs, URLs, commit messages. The **site interface is bilingual** (owner decision of 13/11/2026): Italian at `/`, English under `/en/`, an IT/EN switch in the header leading to the same page; all interface strings live in `src/i18n.ts`, and the converter writes placeholders (`<span data-t="…">`) instead of interface words. Only the stories, with their titles and quotations, stay in their original language (Italian, French, Spanish). Exception: the GitHub secret `ACCESS_EMAIL_PROPRIETARIO`, the GitHub variables `DEPLOY_ABILITATO` and `BACKUP_R2_ABILITATO` and the R2 bucket `utopia-ucronia-archivio` keep their Italian names because they live in external configuration (the code reads the secret as `ACCESS_OWNER_EMAIL`, mapped in the workflow).
 - **Commit identity:** every commit must be made with the personal GitHub profile **marcoranica94**, never with the work identity from the global configuration. The identity is set in the repository's local configuration (`git config user.name` / `git config user.email`, without `--global`); before every commit check with `git config user.email` and, if it doesn't match, fix it before committing. Not commit as claude. Only me
@@ -63,7 +62,7 @@ Owner update, 12 November 2026: the ten-image origin trial succeeded, and the ow
 
 ## Organization: by content, not by file
 
-The new edition **does not mirror** the 2004 files and folders (20 years of additions with no order). The original paths survive only in the archive, in `/original/` and in the `sources` field. No redirects from the old paths.
+The new edition **does not mirror** the 2004 files and folders (20 years of additions with no order). The original paths survive only in the archive, in the `/sources/` pages and in the `sources` field. No redirects from the old paths.
 
 What the old site was like: the "Lista delle ucronie" (list of uchronias: short prompts, one paragraph with author, in 17 periods, frameset `lista_ucronie_*.htm`); "Tutti i nostri lavori" (all our works: complete works in 9 different categories, `lavori_*.htm`); collective pages with contributions on anchors (`spotthePOD.htm#NONO`); works split across several files (`25071943.htm`, `25071943_2.htm`); folders sometimes by author, sometimes by cycle.
 
@@ -119,13 +118,9 @@ Classification rules:
 
 Slugs come from the title, not from the old file name. Conversion (`scripts/convert.ts`) is repeatable: it regenerates `src/content/` without losing the corrections in `data/corrections/`. All converted content is UTF-8 (originals ISO-8859-1/Windows-1252).
 
-## Browsable copy in `/original/`
+## No browsable copy of the 2004 layout
 
-- Generated at build time from the untouched archive, at the reference date.
-- Removed: `<script>`, event attributes (`onload`, `onmouseover`…), `<iframe>`, `<form>`, `<embed>`/`<object>`/applets, `bgsound` and MIDI, counters (ShinyStat), FreeFind search, every external resource, emails and `mailto:`.
-- Links rewritten to stay inside `/original/`; those pointing to missing material lead to a page explaining the gap.
-- Served with a Content Security Policy that forbids scripts.
-- Excluded from the Pagefind index, so results don't appear twice. From every new-edition content item a link leads to its source page.
+The owner dropped the planned `/original/` copy on 18/11/2026 ("Togliamola original": "io voglio il sito nuovo"), and with it the reference date. The site serves only the new edition; each item links to its `/sources/` page with the complete source text and provenance, and the originals stay in the untouched archive. The look of the old site survives only in "Site history".
 
 ## Quality
 
@@ -151,7 +146,7 @@ Every sprint ends with a demo that must succeed without touch-ups. The tasks to 
 - **S2 Conversion** — schema verified on real cases, proposed map, persistent corrections; zero unexplained unresolved links; comparison checklist passed on 30 content items.
 - **S3 First useful version** — reading, simple catalog, Pagefind search, link to the source, `/review` page; from the phone a text can be found by remembering one sentence.
 - **S4 Complete edition** — progressive review of the map, eras and themes fixed, worlds, authors, places, themes, language filter, final design.
-- **S5 Special views** — divergence tree, browsable copy in `/original/`, Site history, "What if…?".
+- **S5 Special views** — divergence tree, Site history, "What if…?".
 - **S6 Polish** — Playwright + axe from 320 to 1440 px and text at 200%, new restore test from scratch, full round from the phone.
 
 ## Planned structure
@@ -165,7 +160,7 @@ Every sprint ends with a demo that must succeed without touch-ups. The tasks to 
 | `archive/coverage.md` | coverage report |
 | `archive/download.log` | download progress |
 | `scripts/recovery/` | `discover`, `download`, `coverage`, `verify`, `probe` |
-| `scripts/` | reorganization map, conversion (`convert.ts`), browsable copy, link check, `restore-test.ts` |
+| `scripts/` | reorganization map, conversion (`convert.ts`), link check, `restore-test.ts` |
 | `data/map.yaml` | reorganization map: agent proposals and owner decisions |
 | `data/corrections/` | manual corrections applied by the conversion |
 | `data/sample.json`, `data/board.json` | S0 sample selection; board statuses, assignees and notes |

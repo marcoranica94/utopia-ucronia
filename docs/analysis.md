@@ -7,7 +7,7 @@ Updated 12/11/2026. The sprint-by-sprint operational plan is in [development-pla
 Rebuild UtopiaUcronia as a personal historical archive, readable and well made, at `utopia-ucronia.marcoranica.com`. The site is **not public**: it sits behind Cloudflare Access and only I use it.
 
 - **Source:** the old site at fmboschetto.it/Utopiaucronia, created in 2004 with FrontPage. I no longer have access to the server, so the material has to be recovered from outside.
-- **Result:** three versions of the same material. An untouched, immutable archive of what was there; a browsable, cleaned-up copy of the 2004 pages; a readable new edition with modern design, navigation and search.
+- **Result:** two versions of the same material (the browsable copy of the 2004 pages was dropped by the owner on 18/11/2026). An untouched, immutable archive of what was there; a readable new edition with modern design, navigation and search.
 - **Level of care:** the same as uni-portale (uni.marcoranica.com). A design with its own identity, mobile-first, automatic deploy from a GitHub Action.
 - **Out of scope:** open publication, comments, submission of new contributions, SEO.
 
@@ -103,7 +103,7 @@ Language (Italian, French, Spanish) becomes a filter, not a separate section.
 1. After recovery, an agent reads each file and writes `data/map.yaml`. For each old file it proposes an action: `work`, `split` (collective page into several content items), `merge` (split files), `world`, `index` (lists: used only as a metadata source) or `discard` (frames, title pages, technical pages).
 2. I review the proposals in blocks of 20 on a `/review` page that exists only in development (`pnpm dev`): accept, correct or postpone. Decisions go back into the file.
 3. Conversion follows the map. What I haven't reviewed yet is published anyway, marked "to verify".
-4. Framed indexes and technical pages don't become new pages: they remain browsable in `/original/`.
+4. Framed indexes and technical pages don't become new pages: their text stays available in the `/sources/` pages.
 
 How many divergences, works and worlds there really are will only be known after recovery.
 
@@ -201,7 +201,7 @@ flowchart LR
 | Hosting | Cloudflare Workers with static assets only: `wrangler.jsonc` with `assets.directory: ./dist`, no `main` |
 | Domain | route `utopia-ucronia.marcoranica.com` with `custom_domain: true`; `workers_dev` and `preview_urls` off |
 | Access | Cloudflare Access application on the subdomain, policy with the three addresses explicitly chosen by the owner, long session |
-| Old paths | no redirects: they stay in the `sources` field and in `/original/` |
+| Old paths | no redirects: they stay in the `sources` field and in the `/sources/` pages |
 | Repository | private GitHub `utopia-ucronia`, binaries in Git LFS |
 | CI | `.github/workflows/deploy-site.yml`: checkout, pnpm, Node 24, tests, build, link check, `wrangler deploy`, R2 sync |
 | Secrets | `CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`, the same as uni-portale if the token covers the whole account |
@@ -209,15 +209,14 @@ flowchart LR
 
 **Limits to respect:** Workers Assets accepts up to 20,000 files per version and 25 MiB per file. A larger PDF goes to R2.
 
-**Three versions of the same material**, treated differently:
+**Two versions of the same material**, treated differently:
 
 | Version | What it contains | Where it lives | Served by the site |
 | --- | --- | --- | --- |
 | Untouched archive | the files as they were, never modified, emails included | `archive/original/`, repository and backups | no |
-| Browsable copy | the 2004 pages at the reference date, cleaned: no scripts, HTML event attributes, iframes, forms, counters, MIDI, external resources, emails; links rewritten to stay inside | generated at build time | yes, in `/original/`, with a Content Security Policy that forbids scripts |
 | New edition | the converted and reorganized content | `src/content/` | yes |
 
-Search indexes only the new edition: the browsable copy is excluded, so no result appears twice. From every content item a link leads to its source page.
+Search indexes only the new edition. Dropped by the owner on 18/11/2026 ("Togliamola original"): no browsable copy of the 2004 layout is built; the owner wants only the new site. From every content item a link leads to its source page.
 
 **Backup and restore.** Hashes and manifest detect a change, but they don't bring back a lost file. The untouched archive is currently in the private GitHub repository, with heavy binary files in Git LFS. The owner paused R2 uploads of `original/` on 13/11/2026 and the bucket was emptied. The additional copy on the owner's disk remains planned.
 
@@ -236,7 +235,7 @@ We start by proving that the material can be recovered and converted well, then 
 | S2 Conversion | model verified on real cases, proposed reorganization map, persistent corrections | schema without errors; zero unexplained unresolved links; comparison passed on 30 content items |
 | S3 First useful version | reading, simple catalog, search, link to the source | from the phone I find a text by remembering one sentence of it |
 | S4 Complete edition | progressive review of classification, authors, worlds, themes, final design | direction approved; filters that work even with partial metadata |
-| S5 Special views | divergence tree, browsable copy in `/original/` | tree readable even in hard cases; no scripts in the served original pages |
+| S5 Special views | divergence tree, Site history, "What if…?" | tree readable even in hard cases |
 | S6 Polish | final checks, new restore test | full round from the phone; restore from scratch succeeds |
 
 **The comparison** between original and conversion follows a fixed checklist: headings, paragraphs, images, notes, tables, accents, attributions. **An unresolved link** is acceptable only if explained: a conversion error is fixed, an archive gap stays visible as such. **Accessibility and conversion checks** start with the first component, not in the last sprint; fidelity of the texts, search, keyboard use and readability matter more than the Lighthouse score.
@@ -249,12 +248,12 @@ The main risk is that the Wayback doesn't have everything, or that it saved erro
 | --- | --- | --- |
 | Error pages saved as good (the 2026 "Lista delle ucronie" is the "Bot blocked" page) | wrong text taken as original | content checks, fall back to the previous valid capture |
 | Pages or images never archived | incomplete content | `missing` outcome in the manifest, gap flagged in the new edition, manual search in other archives |
-| Captures from different years | inconsistent navigation and versions | date rule: most recent valid capture per file, reference date for `/original/`, date of each capture in the `sources` field |
+| Captures from different years | inconsistent navigation and versions | date rule: most recent valid capture per file, date of each capture in the `sources` field |
 | Mixed encodings and malformed FrontPage HTML | wrong characters, lost text | tolerant parser, fixed comparison checklist, sample trial in S0 |
 | Structures that don't fit in one Markdown file | lost relationships between texts | document, content item and contribution entities; cleaned HTML where Markdown isn't enough |
 | Inconsistent case in file names | unresolved internal links | in the archive a file with several variants is saved once; links are resolved case-insensitively |
 | Loss of the archive (disk, deletion, mistake) | material lost forever | three copies (GitHub, R2, disk) and restore test in S0 and S6 |
-| Scripts and external resources in served original pages | 2004 code running on the site | cleaned copy, Content Security Policy without scripts |
+| Scripts and external resources in served original pages | 2004 code running on the site | no original page is served: the `/original/` copy was dropped on 18/11/2026; `/sources/` shows inert text only |
 | Site reachable without Access | archive exposed | `workers_dev` and `preview_urls` off, anonymous browser test in S0 |
 | Classification as a bottleneck | sprints blocked by manual review | unknown values allowed, progressive review in blocks of 20, no sprint waits for complete classification |
 | Tree unreadable with real data | confusing navigation, especially on phones | tree as an extra view, tested early with the hard cases |
@@ -263,7 +262,7 @@ The main risk is that the Wayback doesn't have everything, or that it saved erro
 **To decide:**
 
 - [ ] Frozen or living archive? A historical copy only, or the ability to add new works in the future.
-- [ ] Reference date for the browsable copy in `/original/`: choose in S5, when the copy is built, using the available captures and documenting any fallback.
+- [x] Reference date for the browsable copy in `/original/`: no longer needed. Dropped by the owner on 18/11/2026 ("Togliamola original").
 - [ ] Disk for the third backup copy.
 - [ ] Typeface pair, to choose in the prototypes.
 - [ ] Access session length (proposed: 30 days, for convenience on the phone).

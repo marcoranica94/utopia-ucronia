@@ -121,7 +121,7 @@ const it = {
   "source.title": "Fonte e provenienza",
   "source.open": "Apri fonte e provenienza",
   "source.intro":
-    "Testo della fonte recuperata, mostrato senza codice attivo e senza indirizzi email. La struttura grafica originale sarà disponibile nella futura copia navigabile dell’archivio.",
+    "Testo della fonte recuperata, mostrato senza codice attivo e senza indirizzi email.",
   "source.original": "Indirizzo della fonte",
   "source.captured": "Data della copia",
   "source.origin": "Recuperato dal server originale",
@@ -592,7 +592,7 @@ const en: Record<keyof typeof it, string> = {
   "source.title": "Source and provenance",
   "source.open": "Open source and provenance",
   "source.intro":
-    "Recovered source text, shown without active code or email addresses. The original visual layout will be available in the future browsable archive copy.",
+    "Recovered source text, shown without active code or email addresses.",
   "source.original": "Source address",
   "source.captured": "Capture date",
   "source.origin": "Recovered from the original server",

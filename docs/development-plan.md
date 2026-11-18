@@ -254,13 +254,13 @@ Demo: the chosen direction, on phone and desktop, light and dark; filters work e
 
 ### S5 · Special views
 
-- [ ] Choose the reference date for `/original/` when building the browsable copy, using the available capture dates
+The browsable copy of the 2004 layout in `/original/` and its reference date were dropped by the owner on 18/11/2026 ("Togliamola original"): the owner wants only the new site. Each item keeps its `/sources/` page with the complete source text and provenance.
+
 - [ ] Divergence tree, tested with the hard cases: missing dates, long titles, crowded centuries, phone
-- [ ] Browsable copy in `/original/`: cleanup, internal links, Content Security Policy without scripts, emails removed
 - [ ] Publish site history and capture-date explanation, with the 2004 home page reconstructed by us
 - [ ] "What if…?": a random content item
 
-Demo: from the tree to a twentieth-century work and to its cleaned original page, with no 2004 script running.
+Demo: from the tree to a twentieth-century work and to its `/sources/` page with the original text and provenance.
 
 ### S6 · Polish
 
