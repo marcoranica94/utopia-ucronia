@@ -1,9 +1,9 @@
 {
   "passed": true,
   "baselineItems": 43,
-  "additionalItems": 748,
-  "canonicalItems": 791,
-  "comparedReadingItems": 794,
+  "additionalItems": 750,
+  "canonicalItems": 793,
+  "comparedReadingItems": 796,
   "selectedProposals": [
     "proposal-doc-001fa9f2fc98",
     "proposal-doc-005bfe47becd",
@@ -752,7 +752,9 @@
     "proposal-doc-f83fe1dc21bc",
     "proposal-doc-f9e886eb988a",
     "proposal-doc-fb9fda42bf6c",
-    "proposal-doc-fe4d1842dcee"
+    "proposal-doc-fe4d1842dcee",
+    "proposal-doc-ffaddce0b735",
+    "proposal-doc-f054a5d966c1"
   ],
   "scope": "Explicit owner approvals plus persistent publication selections; every selected item is converted and source-compared. Selection and review data remain absent from the site."
 }

@@ -45,6 +45,10 @@ Twelve new pages in all (six worlds, two indexes, both languages), well inside t
 
 All six proposals were approved by the owner on 18 November 2026 (“Le approvo tutte in blocco.”), recorded in `reports/owner-approval-2026-11-18.json`. `pnpm worlds propose` no longer rewrites them; `pnpm worlds check` still fails if their chapters drift from the archive.
 
+## Introductions
+
+On 18 November 2026 the owner approved publishing the introductions of Capvt Mvndi and Roma di là dall'oceano (“Si”). They are whole-page works, exempted from the map's index rule, and open their world as its first chapter.
+
 ## Not done
 
-Publication of the two introductions; maps and flags of a world as a gallery (they stay inside their chapters).
+Maps and flags of a world as a gallery (they stay inside their chapters).

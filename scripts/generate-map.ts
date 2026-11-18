@@ -26,6 +26,12 @@ import {
 import { applyDecisions, readDecisions } from "./review-decisions.ts";
 
 const manifest = await readManifest();
+// Owner decision of 18/11/2026: the introductions of these two worlds are
+// texts by their authors, read as chapter 0, not navigation pages.
+const worldIntroductions = new Set([
+  "racconti/iperimpero/introduzione.htm",
+  "racconti/roma_in_america/introduzione.htm",
+]);
 const recovered = manifest.documents.filter(
   (d) => isRecovered(d) && d.path && d.sha256,
 );
@@ -148,9 +154,11 @@ for (const d of recovered) {
       return { text: redact($(e).text()), key };
     });
   const index =
-    /\/(?:lista_ucronie|lavori|index|chisiamo|introduzione|ultimi|classifica|uchronies_en_francais|ucronias_en_espanol)(?:[_.]|$)/i.test(
+    !worldIntroductions.has(document.path) &&
+    (/\/(?:lista_ucronie|lavori|index|chisiamo|introduzione|ultimi|classifica|uchronies_en_francais|ucronias_en_espanol)(?:[_.]|$)/i.test(
       urlKey(d.url),
-    ) || urlKey(d.url).endsWith("/");
+    ) ||
+      urlKey(d.url).endsWith("/"));
   htmlPages.push({
     document,
     html,

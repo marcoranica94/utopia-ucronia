@@ -581,7 +581,6 @@
       }
     ],
     "gaps": [
-      "gap-55113ed795b2",
       "gap-aefde1fb6cb2"
     ],
     "comparison": {
@@ -9157,7 +9156,6 @@
       }
     ],
     "gaps": [
-      "gap-ec1e03f678c1",
       "gap-438b4add5715"
     ],
     "comparison": {
@@ -28830,6 +28828,68 @@
     ],
     "gaps": [
       "gap-d417a7015d09"
+    ],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "introduzione-ffaddce0",
+    "path": "/works/introduzione-ffaddce0/",
+    "editorialId": "item-d5956948cc00",
+    "source": "http://www.fmboschetto.it/racconti/iperimpero/Introduzione.htm",
+    "sources": [
+      {
+        "documentId": "doc-ffaddce0b735",
+        "url": "http://www.fmboschetto.it/racconti/iperimpero/Introduzione.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Introduzione",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/iperimpero/Introduzione.htm",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "introduzione-f054a5d9",
+    "path": "/works/introduzione-f054a5d9/",
+    "editorialId": "item-c76805791dae",
+    "source": "http://www.fmboschetto.it/racconti/Roma_in_America/Introduzione.htm",
+    "sources": [
+      {
+        "documentId": "doc-f054a5d966c1",
+        "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Introduzione.htm",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Introduzione",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Roma_in_America/Introduzione.htm",
+        "text": []
+      }
+    ],
+    "gaps": [
+      "gap-31a5790c938b"
     ],
     "comparison": {
       "status": "pending-build-comparison"

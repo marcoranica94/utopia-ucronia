@@ -2359,6 +2359,13 @@
     "image": false
   },
   {
+    "id": "gap-31a5790c938b",
+    "resource": "http://www.cronologia.it/",
+    "source": "http://www.fmboschetto.it/racconti/Roma_in_America/Introduzione.htm",
+    "reason": "external-excluded",
+    "image": false
+  },
+  {
     "id": "gap-31c714848007",
     "resource": "https://www.artguru.ai/ai-text-to-image-generator/",
     "source": "http://www.fmboschetto.it/racconti/Roma_in_America/Roma_in_America_24.htm",
@@ -4190,13 +4197,6 @@
     "resource": "http://spartacomencaroni.blogspot.it/2014/06/oltre-la-nebbia-del-primo-mattino.html",
     "source": "http://www.fmboschetto.it/Utopiaucronia/oltrelanebbia.htm",
     "reason": "external-excluded",
-    "image": false
-  },
-  {
-    "id": "gap-55113ed795b2",
-    "resource": "http://www.fmboschetto.it/racconti/Roma_in_America/Introduzione.htm",
-    "source": "http://www.fmboschetto.it/racconti/Roma_in_America/Intestazione.htm",
-    "reason": "edition-pending",
     "image": false
   },
   {
@@ -11562,13 +11562,6 @@
     "source": "http://www.fmboschetto.it:80/Utopiaucronia/ucronia_lonatese.htm",
     "reason": "archive-unlisted",
     "image": true
-  },
-  {
-    "id": "gap-ec1e03f678c1",
-    "resource": "http://www.fmboschetto.it/racconti/iperimpero/Introduzione.htm",
-    "source": "http://www.fmboschetto.it/racconti/iperimpero/Intestazione.htm",
-    "reason": "edition-pending",
-    "image": false
   },
   {
     "id": "gap-ec30edd78cae",

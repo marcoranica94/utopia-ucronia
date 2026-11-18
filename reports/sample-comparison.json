@@ -32665,6 +32665,60 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "introduzione-ffaddce0",
+    "editorialId": "item-d5956948cc00",
+    "randomValidation": false,
+    "path": "/works/introduzione-ffaddce0/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/iperimpero/Introduzione.htm",
+        "characters": 6087,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 6087,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 7,
+      "viewable": 7,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "introduzione-f054a5d9",
+    "editorialId": "item-c76805791dae",
+    "randomValidation": false,
+    "path": "/works/introduzione-f054a5d9/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Roma_in_America/Introduzione.htm",
+        "characters": 1448,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 1448,
+    "tables": 1,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "benvenuti-in-utopiaucronia-667e9ba1",
     "randomValidation": false,
     "path": "/works/benvenuti-in-utopiaucronia-667e9ba1/",

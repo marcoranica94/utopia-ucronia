@@ -13,7 +13,7 @@
       "source": {
         "kind": "contents",
         "document": "racconti/iperimpero/intestazione.htm",
-        "exclude": ["racconti/iperimpero/introduzione.htm"]
+        "exclude": []
       },
       "evidence": {
         "document": "racconti/iperimpero/introduzione.htm",
@@ -26,6 +26,10 @@
         "quote": "Cominciai a covare il sogno di essere il \"subcreatore\" di un UNIVERSO FANTASTORICO nel quale Roma non sia mai caduta"
       },
       "chapters": [
+        {
+          "documentId": "doc-ffaddce0b735",
+          "path": "racconti/iperimpero/introduzione.htm"
+        },
         {
           "documentId": "doc-f73fd1454bb8",
           "path": "racconti/iperimpero/iperimp1.htm"
@@ -108,7 +112,7 @@
       "source": {
         "kind": "contents",
         "document": "racconti/roma_in_america/intestazione.htm",
-        "exclude": ["racconti/roma_in_america/introduzione.htm"]
+        "exclude": []
       },
       "evidence": {
         "document": "racconti/roma_in_america/intestazione.htm",
@@ -121,6 +125,10 @@
         "quote": "Roma trasloca di là dall'oceano - La colonizzazione dell'Atlantide e le guerre civili"
       },
       "chapters": [
+        {
+          "documentId": "doc-f054a5d966c1",
+          "path": "racconti/roma_in_america/introduzione.htm"
+        },
         {
           "documentId": "doc-fca2e4e9d334",
           "path": "racconti/roma_in_america/roma_in_america_1.htm"
