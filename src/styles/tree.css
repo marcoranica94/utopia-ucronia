@@ -119,6 +119,7 @@
 }
 .branches li {
   position: relative;
+  overflow-wrap: anywhere;
   padding: 0.3rem 0 0.3rem 0.25rem;
 }
 .branches li::before {

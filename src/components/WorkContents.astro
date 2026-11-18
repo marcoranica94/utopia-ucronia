@@ -86,6 +86,6 @@ for (const item of outline) {
       </nav>}
     </div>
   </details>
-  <nav class="reader-minimap" aria-label={t("reader.quick")}><ol>{stops.map(({item, year, text}) => <li><a href={`#${item.id}`} data-reader-link data-reader-stop aria-label={text} title={text} class:list={[item.contribution === "variant" && "rail-stop-variant"]}>{year !== undefined ? <><span class="rail-stop-year">{Math.abs(year)}</span>{year < 0 && <small>{lang === "it" ? "a.C." : "BC"}</small>}</> : <span class="rail-stop-name">{text}</span>}</a></li>)}</ol></nav>
+  <nav class="reader-minimap" aria-label={t("reader.quick")}><ol>{stops.map(({item, year, text}) => <li><a href={`#${item.id}`} data-reader-link data-reader-stop aria-label={text} title={text} class:list={[item.contribution === "variant" && "rail-stop-variant"]}>{year !== undefined ? <><span class="rail-stop-year">{Math.abs(year)}</span>{year < 0 && <>{" "}<small>{lang === "it" ? "a.C." : "BC"}</small></>}</> : <span class="rail-stop-name">{text}</span>}</a></li>)}</ol></nav>
   <a class="reader-top" href="#work-title" aria-label={t("reader.top")} title={t("reader.top")} data-reader-link>↑</a>
 </div>

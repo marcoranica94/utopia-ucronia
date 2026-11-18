@@ -2,6 +2,11 @@
 import "@fontsource/titillium-web/latin-400.css";
 import "@fontsource/titillium-web/latin-600.css";
 import "@fontsource/titillium-web/latin-700.css";
+// Preloaded so the interface font arrives with the CSS instead of shifting
+// the page when it swaps in (Lighthouse CLS, S6).
+import ui400 from "@fontsource/titillium-web/files/titillium-web-latin-400-normal.woff2?url";
+import ui600 from "@fontsource/titillium-web/files/titillium-web-latin-600-normal.woff2?url";
+import ui700 from "@fontsource/titillium-web/files/titillium-web-latin-700-normal.woff2?url";
 import ThemeToggle from "../components/ThemeToggle.astro";
 import { type Lang, localePath, useTranslations } from "../i18n";
 import "../styles/base.css";
@@ -24,7 +29,7 @@ const revision = process.env.GITHUB_SHA?.slice(0, 7) ?? "local";
 ---
 <!doctype html>
 <html lang={lang} data-build={revision}>
-  <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script is:inline src="/theme.js"></script><script is:inline src="/search-shortcut.js" defer></script><title>{title} | UtopiaUcronia</title></head>
+  <head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><script is:inline src="/theme.js"></script><script is:inline src="/search-shortcut.js" defer></script>{[ui400, ui600, ui700].map((href) => <link rel="preload" href={href} as="font" type="font/woff2" crossorigin />)}<link rel="icon" href="/favicon.svg" type="image/svg+xml" /><title>{title} | UtopiaUcronia</title></head>
   <body>
     <a class="skip" href="#content">{t("site.skip")}</a>
     <header class="site-header"><div class="site-header-inner"><a class="brand" href={home} aria-label={t("site.home")}><svg viewBox="0 0 32 32" fill="none" aria-hidden="true"><path d="M16 29V17M16 20 7 11M16 17l9-9M7 11 4 5M7 11l2-6M25 8l-2-5M25 8l4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><circle cx="4" cy="5" r="2" fill="currentColor"/><circle cx="9" cy="5" r="2" fill="currentColor"/><circle cx="23" cy="3" r="2" fill="currentColor"/><circle cx="29" cy="4" r="2" fill="currentColor"/></svg><span>UtopiaUcronia</span></a><nav class="site-nav" aria-label={t("site.navLabel")}><a href={localePath(lang, "/library/")} aria-current={bare.startsWith("/library") ? "page" : undefined}>{t("library.nav")}</a><a href={localePath(lang, "/authors/")} aria-current={bare.startsWith("/authors") ? "page" : undefined}>{t("authors.nav")}</a><a href={localePath(lang, "/divergences/")} aria-current={bare.startsWith("/divergences") ? "page" : undefined}>{t("site.nav.prompts")}</a><a href={localePath(lang, "/works/")} aria-current={(bare.startsWith("/works") || bare.startsWith("/archive-records")) ? "page" : undefined}>{t("site.nav.completeWorks")}</a><a href={localePath(lang, "/tree/")} aria-current={bare.startsWith("/tree") ? "page" : undefined}>{t("site.nav.tree")}</a><a href={localePath(lang, "/search/")} data-search-link aria-current={bare.startsWith("/search") ? "page" : undefined}>{t("search.nav")}</a></nav><nav class="lang-switch" aria-label={t("site.languageLabel")}><a href={localePath("it", switchPath)} hreflang="it" lang="it" aria-current={lang === "it" ? "true" : undefined}>IT</a><a href={localePath("en", switchPath)} hreflang="en" lang="en" aria-current={lang === "en" ? "true" : undefined}>EN</a></nav><ThemeToggle lang={lang} /></div></header>

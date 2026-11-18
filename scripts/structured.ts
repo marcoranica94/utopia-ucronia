@@ -169,21 +169,30 @@ export function renderStructured(
     });
     // The header is built by the interface; the original opening line stays
     // in the body as text.
-    const head = [
-      `<span class="monogram" aria-hidden="true">${escapeHtml(initials(s.author ?? "?"))}</span>`,
-      `<span class="contribution-author">${s.author ? escapeHtml(s.author) : ui("outline.anonymous")}</span>`,
-      `<span class="contribution-kind">${ui(`kind.${kind}`)}</span>`,
-      target
-        ? `<a class="contribution-target" href="#${target.id}">${ui("replyTo")} ${target.author ? escapeHtml(target.author) : ui("earlier")}</a>`
-        : "",
-    ].join("");
+    const head = (inSummary: boolean) =>
+      [
+        `<span class="monogram" aria-hidden="true">${escapeHtml(initials(s.author ?? "?"))}</span>`,
+        `<span class="contribution-author">${s.author ? escapeHtml(s.author) : ui("outline.anonymous")}</span>`,
+        `<span class="contribution-kind">${ui(`kind.${kind}`)}</span>`,
+        // A summary must not contain a link (it is itself the control), so
+        // there the target is text and the link opens the body.
+        target
+          ? `<${inSummary ? "span" : `a href="#${target.id}"`} class="contribution-target">${replyText}</${inSummary ? "span" : "a"}>`
+          : "",
+      ].join("");
+    const replyText = target
+      ? `${ui("replyTo")} ${target.author ? escapeHtml(target.author) : ui("earlier")}`
+      : "";
     const classes = `contribution kind-${kind}${target ? " is-reply" : ""}`;
     out.push(
       folded
-        ? `<details class="${classes}" id="${s.id}"><summary><span class="contribution-head" data-ui>${head}</span><span class="contribution-preview" data-ui>${escapeHtml(summary(s.lead, 14))}</span></summary>`
-        : `<section class="${classes}" id="${s.id}"><header class="contribution-head" data-ui>${head}</header>`,
+        ? `<details class="${classes}" id="${s.id}"><summary><span class="contribution-head" data-ui>${head(true)}</span><span class="contribution-preview" data-ui>${escapeHtml(summary(s.lead, 14))}</span></summary>`
+        : `<section class="${classes}" id="${s.id}"><header class="contribution-head" data-ui>${head(false)}</header>`,
       anchorMarkup(s.anchors),
       `<div class="contribution-body">`,
+      folded && target
+        ? `<p class="contribution-back" data-ui><a class="contribution-target" href="#${target.id}">${replyText}</a></p>`
+        : "",
       s.introBlock
         ? `<div class="contribution-intro">\n\n${md([s.introBlock])}\n\n</div>`
         : s.intro

@@ -76,7 +76,7 @@ const featuredPath = featured
         <a class="atlas-button" href="#collection">{t("atlas.explore")}<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6" stroke="currentColor" stroke-width="1.5" /></svg></a>
         <div class="atlas-footnote"><span>{t("atlas.originalSince")}</span><a href={localePath(lang, "/tree/")}>{t("atlas.tree")}</a><a href={localePath(lang, "/whatif/")}>{t("whatif.title")}</a></div>
       </div>
-      <a class="atlas-map" href={featuredPath} aria-labelledby="map-feature-title">
+      <a class="atlas-map" href={featuredPath}>
         <div class="atlas-map-image"><img src="/design/spot-the-pod.gif" width="944" height="599" alt={t("atlas.mapAlt")} fetchpriority="high" /><svg class="map-forks" viewBox="0 0 640 420" fill="none" aria-hidden="true"><path d="M65 420V310Q65 270 110 270H245Q290 270 290 220V-20M110 270H390Q450 270 450 210V70M390 270H540Q585 270 585 320V440" stroke="currentColor" stroke-width="2"/><circle cx="290" cy="120" r="7" fill="currentColor"/><circle cx="450" cy="125" r="7" fill="currentColor"/><circle cx="585" cy="335" r="7" fill="currentColor"/></svg><span class="map-invitation">{t("atlas.mapPrompt")}</span></div>
         <div class="atlas-map-caption"><div><span class="atlas-map-label">{t("atlas.startHere")}</span><h2 id="map-feature-title">Spot the POD</h2></div><span class="feature-open" aria-hidden="true">↗</span></div>
       </a>
@@ -98,7 +98,7 @@ const featuredPath = featured
           const authors = work.data.authors;
           const variants = work.data.outline?.filter(i => i.contribution === "variant").length ?? 0;
           return <li data-work data-title={`${title} ${authors.join(" ")} ${(work.data.contributors ?? []).join(" ")} ${summary}`} data-language={work.data.language} data-format={format(work)}>
-            <a class="work-card" href={localePath(lang, contentPath(work))} aria-labelledby={`title-${work.id}`}>
+            <a class="work-card" href={localePath(lang, contentPath(work))}>
               <CatalogCover image={note?.cover ?? work.data.cover} motif={note?.motif ?? "story"} title={title} />
               <div class="work-info"><div class="work-card-meta"><span>{t(`atlas.type.${format(work)}`)}</span><span>{t(`lang.${work.data.language}`)}</span></div><h3 id={`title-${work.id}`} style={`view-transition-name:${transitionName(work.id)};view-transition-class:work-title`} lang={work.data.language === "unknown" ? "" : work.data.language}>{title}</h3><p class="work-description" lang={note ? lang : work.data.language === "unknown" ? "" : work.data.language}>{summary}</p><div class="work-card-foot"><span>{authors.length ? authors.join(", ") : work.data.contributors?.length ? t("atlas.collective") : t("atlas.fromArchive")}</span><span class="work-read">{variants > 0 ? t("atlas.variants", { n: variants }) : t("atlas.read")}<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></span></div></div>
             </a>

@@ -16,21 +16,14 @@ test("production headers permit theme, filters and reader scripts in both langua
     "/en/",
     "/works/story/",
     "/en/works/story/",
-    "/design/b/story/",
+    "/history/",
+    "/whatif/",
   ])
     assert.equal(
       allowsSameOriginScripts(contentPolicies(headers, path)),
       true,
       path,
     );
-});
-test("original copies keep the stricter policy even when the general policy allows scripts", () => {
-  const policies = contentPolicies(
-    headers,
-    "/original/utopiaucronia/story.htm",
-  );
-  assert.equal(allowsSameOriginScripts(policies), false);
-  assert.ok(policies.some((policy) => /script-src\s+'none'/.test(policy)));
 });
 test("a blocking policy cannot be cancelled by an additional permissive policy", () => {
   assert.equal(

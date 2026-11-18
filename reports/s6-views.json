@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-18",
+  "routes": 38,
+  "cases": 342,
+  "widths": [
+    320,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "checks": [
+    "status",
+    "horizontal scroll",
+    "text 200%",
+    "emails",
+    "axe WCAG 2.2 A/AA (light and dark)",
+    "first Tab focus"
+  ],
+  "passed": true,
+  "failures": []
+}

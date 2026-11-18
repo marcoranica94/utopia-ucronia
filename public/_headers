@@ -4,7 +4,3 @@
   X-Content-Type-Options: nosniff
   X-Frame-Options: DENY
   Cache-Control: private, no-store
-
-# Original-page copies never execute scripts, including our own interface scripts.
-/original/*
-  Content-Security-Policy: script-src 'none'

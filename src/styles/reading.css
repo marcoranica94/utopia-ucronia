@@ -444,6 +444,9 @@ body.reader-drawer-open {
   color: var(--muted);
   font-size: 0.9rem;
 }
+.contribution-back {
+  margin: 0 0 1rem;
+}
 .contribution-intro,
 .byline {
   color: var(--muted);

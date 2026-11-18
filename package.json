@@ -27,6 +27,7 @@
     "links:check": "node scripts/check-links.ts",
     "backup": "node scripts/backup.ts",
     "restore:test": "node scripts/restore-test.ts",
+    "views:check": "node scripts/check-views.ts",
     "deploy:verify": "node scripts/verify-access.ts",
     "editorial:map": "node scripts/generate-map.ts",
     "editorial:sample": "node scripts/select-validation.ts",
@@ -58,7 +59,9 @@
     "@types/node": "24.19.2",
     "@types/sanitize-html": "2.16.1",
     "@types/turndown": "5.0.6",
+    "axe-core": "4.14.1",
     "pagefind": "1.6.0",
+    "playwright": "1.65.1",
     "typescript": "6.0.3",
     "wrangler": "4.160.1"
   }

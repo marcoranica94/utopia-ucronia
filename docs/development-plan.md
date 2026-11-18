@@ -265,10 +265,10 @@ Demo: from the tree of eras to a twentieth-century work and to its `/sources/` p
 
 ### S6 · Polish
 
-- [ ] Playwright and axe on all views, widths from 320 to 1440 px, text at 200%
-- [ ] Lighthouse as an indicator, not a goal
+- [x] Playwright and axe on all views, widths from 320 to 1440 px, text at 200% (18/11/2026): `pnpm views:check` (Playwright 1.65.1 and axe-core 4.14.1, pinned dev dependencies) serves `dist/` and opens 38 pages covering every kind of view, IT and EN, at 320, 390, 768, 1024 and 1440 px, in dark mode and with text at 200% (342 cases). It fails on horizontal page scroll, any axe WCAG 2.2 A/AA violation in light or dark, an email in visible text, a script error or an invisible first focus. The first run found and the fixes removed: catalog cards and the home map named only by their title (label-in-name), a reply link inside a folded contribution's `<summary>` (now plain text there, linked inside the body), the BC label of the year rail without a space, unbreakable addresses on `/gaps/` at 320 px, and overflow at 200% text on the tree of eras, the 2004 home page and `/design/`. Final run: 0 failures, `reports/s6-views.json`
+- [x] Lighthouse as an indicator, not a goal (18/11/2026, mobile profile, local server without compression): accessibility 100 and best practices 96 → 100 on the pages checked; the interface font is now preloaded and the theme switch keeps its place from the first paint, which removed a layout shift of 0.3–0.7 on every page on phones; an SVG favicon removed the only console error. Performance: reader 96, tree and history 99, "What if…?" 94; home and `/library/` stay around 60 because they ship all ~790 cards in one 1.2 MB page (195 KB compressed by Cloudflare), accepted as the cost of filtering without a server
 - [ ] New restore test from scratch
-- [ ] README and `CLAUDE.md` updated
+- [x] README and `CLAUDE.md` updated (18/11/2026): the README describes the current site (routes, editorial data, checks) instead of the S2–S3 state; `CLAUDE.md` records the red-text marking and the view audit; the obsolete `/original/*` header rule and its test were removed
 
 Demo: full round from the phone without touch-ups; restore from scratch succeeds.
 

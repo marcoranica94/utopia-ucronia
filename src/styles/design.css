@@ -57,8 +57,9 @@ p {
   min-height: 62px;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 3.2rem;
+  gap: 0.5rem 3.2rem;
 }
 .brand {
   display: inline-flex;
@@ -139,6 +140,10 @@ p {
   gap: 2.5rem;
   align-items: center;
   margin-bottom: 3.8rem;
+}
+.overview > * {
+  min-width: 0;
+  overflow-wrap: anywhere;
 }
 .overview-panel {
   background: var(--night);
@@ -462,7 +467,8 @@ p {
   .topbar nav {
     order: 2;
     width: 100%;
-    gap: 1.4rem;
+    flex-wrap: wrap;
+    gap: 0 1.4rem;
     min-height: 42px;
   }
   .theme-toggle {

@@ -1,0 +1,95 @@
+{
+  "date": "2026-11-18",
+  "tool": "lighthouse 12.8.2, mobile profile, Chromium 159",
+  "note": "Indicator only. Local server without compression; Cloudflare serves the 1.2 MB catalog pages at about 195 KB.",
+  "pages": [
+    {
+      "path": "/",
+      "run": "after font preload and theme switch",
+      "scores": {
+        "performance": 57,
+        "accessibility": 100,
+        "best-practices": 96
+      },
+      "cls": "0.000",
+      "lcp": "7.6 s"
+    },
+    {
+      "path": "/history/",
+      "run": "after font preload and theme switch",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 96
+      },
+      "cls": "0.000",
+      "lcp": "2.1 s"
+    },
+    {
+      "path": "/library/",
+      "run": "after font preload and theme switch",
+      "scores": {
+        "performance": 60,
+        "accessibility": 100,
+        "best-practices": 96
+      },
+      "cls": "0.063",
+      "lcp": "7.0 s"
+    },
+    {
+      "path": "/tree/",
+      "run": "after font preload and theme switch",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 96
+      },
+      "cls": "0.000",
+      "lcp": "2.0 s"
+    },
+    {
+      "path": "/whatif/",
+      "run": "after font preload and theme switch",
+      "scores": {
+        "performance": 94,
+        "accessibility": 100,
+        "best-practices": 96
+      },
+      "cls": "0.030",
+      "lcp": "3.2 s"
+    },
+    {
+      "path": "/works/ucronia-25-luglio-1943-ordine-del-giorno-farinacci-ef21eb1c/",
+      "run": "after font preload and theme switch",
+      "scores": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 96
+      },
+      "cls": "0.000",
+      "lcp": "2.5 s"
+    },
+    {
+      "path": "/history/",
+      "run": "after favicon",
+      "scores": {
+        "performance": 99,
+        "accessibility": 100,
+        "best-practices": 100
+      },
+      "cls": "0.000",
+      "lcp": "2.1 s"
+    },
+    {
+      "path": "/library/",
+      "run": "after favicon",
+      "scores": {
+        "performance": 59,
+        "accessibility": 100,
+        "best-practices": 100
+      },
+      "cls": "0.063",
+      "lcp": "7.0 s"
+    }
+  ]
+}

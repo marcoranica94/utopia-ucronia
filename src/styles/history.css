@@ -16,6 +16,7 @@
   color: #000000;
   font-family: "Book Antiqua", Palatino, "Palatino Linotype", Georgia, serif;
   color-scheme: light;
+  overflow-wrap: anywhere;
 }
 .home2004-motto {
   margin: 0 0 0.75rem;

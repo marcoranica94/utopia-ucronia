@@ -2,13 +2,11 @@
 
 Personal historical archive and new edition of the UtopiaUcronia site. The site is meant for the owner only, behind Cloudflare Access.
 
-Analysis and plan: [docs/analysis.md](docs/analysis.md), [docs/development-plan.md](docs/development-plan.md). Conversion status: [docs/status-s2.md](docs/status-s2.md). The first trial is documented in [docs/status-s0.md](docs/status-s0.md).
+Analysis and plan: [docs/analysis.md](docs/analysis.md), [docs/development-plan.md](docs/development-plan.md). Each sprint's delivery is in `docs/status-*.md`.
 
 The [Kanban board](board.html) opens directly in the browser, even without a server or network. It shows verified Backlog, To do, In progress / partial, Waiting and Done states, with sprint/assignee filters, search, evidence notes and the next implementation priorities. Tasks come from the plan; operational statuses, assignees, postponements and priorities come from `data/board.json`. After an update run `pnpm board`. Cards are read-only; browser-local moves never override verified results. See the [implementation audit and next steps](docs/board-audit.md).
 
 The copy to the owner's drive is postponed, to be done by the owner: it is still to do but, as the owner decided, it does not block development.
-
-## Getting started
 
 ## Autonomous recovery from the original server
 
@@ -30,38 +28,57 @@ pnpm build
 pnpm preview
 ```
 
-The build regenerates the Markdown from the recovered files, validates the schema, generates the static site, checks links and active content and fully compares the sample texts with their sources. To develop: `pnpm dev`, after the first build. For the scripts: `pnpm test`; for types and style: `pnpm exec tsc --noEmit` and `pnpm lint`.
+The first build is cold (10–15 minutes); later ones reuse the cache. To develop: `pnpm dev`, after the first build; `/review/` exists only there. Astro preview does not apply `_headers`: use `pnpm exec wrangler dev --local` to test the production CSP.
 
 ### Build cache
 
 The build is incremental: `scripts/build-cache.ts` keeps verified per-unit results in `.cache/build/<namespace>/` (gitignored, restored in CI by `actions/cache`). Each entry is keyed by a digest of all inputs of its unit plus a toolchain digest of every file under `scripts/`, `src/` (except generated `src/content/works` and `src/generated`), `data/corrections/`, `package.json`, `pnpm-lock.yaml`, `tsconfig.json` and the Astro configuration: any code change recomputes everything, identical inputs give the identical verdict. Cached units: conversion pages (`convert`, with every routing lookup replayed against the current tables), PDF illustrations, source text (`sources:generate`), per-page link facts (`links:check`; link resolution itself runs every time), fidelity reports (`compare:sample`), passing `browse:check` pages and page facts for `s3:check` and `discovery:check`. Failures are never cached; corrupted entries are recomputed; entries unused by a successful run are pruned. Outputs are byte-identical with and without the cache. `BUILD_CACHE=off pnpm build` disables it entirely; `rm -rf .cache/build` clears it.
 
-## Contents
+## What the site contains
 
-- `archive/original/`: immutable original files, **never served by the site**; Git does not convert their line endings. Images and PDFs are in LFS.
-- `archive/manifest.json`: provenance, date, size and SHA-256 of every document.
-- `archive/queue.json`: discovery queue from the Wayback CDX index, with resume cursor.
-- `data/sample.json`: initial selection, with role and language where verified.
-- `src/content/works/`: generated Markdown, with validated metadata; do not edit by hand.
-- `data/corrections/<slug>.json`: optional persistent corrections, a list of objects `{ "from": "existing text", "to": "corrected text" }`. A correction that cannot be applied blocks the build.
-- `reports/`: gaps and comparison with the sources, including the aspects still to verify.
+The new edition only; the 2004 files stay in the untouched archive and are never served.
 
-S2 uses the editorial map rather than one page per original file. The selected edition contains 46 items: the fixed random sample of 30, previous trials and an explicit five-document merge. Ten short prompts have their own `/divergences/` routes. The prepared Sardinia PDF includes its text layer and three illustrations; other raw attachments remain unserved. The map contains proposals for the full recovered inventory, awaiting progressive review.
+| Route (English under `/en/`)                  | What it is                                                                         |
+| --------------------------------------------- | ---------------------------------------------------------------------------------- |
+| `/`                                           | Atlas home: covers, filters by format, language and search                         |
+| `/library/`                                   | The 793 canonical reading works (796 reading items with the three legacy previews) |
+| `/works/<slug>/`                              | Reader: full-width text, contents drawer, year/contributor rail, provenance        |
+| `/works/`, `/divergences/`                    | The historical indexes: all nine works categories and the Lista by period          |
+| `/eras/`, `/places/`, `/themes/`, `/authors/` | Ways in by classification and by source signature                                  |
+| `/worlds/`                                    | Six owner-approved worlds and cycles, chapters in source order                     |
+| `/tree/`                                      | Tree of eras: works hanging off the approved eras                                  |
+| `/whatif/`                                    | "What if…?": a random work, another on request                                     |
+| `/history/`                                   | Site history: the 2004 home page rebuilt, recovery figures                         |
+| `/search/`                                    | Pagefind full-text search, Lista prompts included                                  |
+| `/sources/<doc>/`                             | Complete source text and provenance of each document                               |
+| `/gaps/`                                      | What could not be recovered                                                        |
 
-See [the content model](docs/content-model.md) for schemas, provenance, review preservation and the fixed sample. To regenerate proposals deliberately, run `pnpm editorial:map`, `pnpm editorial:sample`, then `pnpm editorial:enrich`. Normal builds consume the committed map and sample without redrawing them. Use `pnpm exec wrangler dev --local` after building when checking production CSP and interactive controls; Astro preview does not apply `_headers`.
+The editors' red passages of the original are kept: whole-red paragraphs are shown as separate panels, scattered red words in a distinct colour (`scripts/source-color.ts`).
+
+## Editorial data
+
+- `data/map.yaml`: one proposal per document (work, split, merge, world, index, discard). Edit it as raw JSON lines; `pnpm editorial:map` refuses to rewrite reviewed proposals.
+- `data/review-decisions.json`: the owner's decisions, fingerprinted. Never written by scripts without an owner decision.
+- `data/publication.json`: selected editions; `pnpm publication status|next|select|select-approved|remove`.
+- `data/vocabulary.json`, `data/classification.json`: eras, places and themes; `pnpm classify` adds agent proposals and keeps owner entries.
+- `data/worlds.json`: worlds and cycles; `pnpm worlds propose` derives the chapters, `pnpm worlds check` (in the build) fails on any disagreement.
+- `data/corrections/<slug>.json`: persistent text corrections `{ "from", "to" }`; one that no longer applies blocks the build.
+- `src/content/`: generated by `pnpm convert`; never edit by hand.
+- `reports/`: conversion, fidelity, link gaps, approval packets, browser checks.
+
+## Checks
+
+`pnpm build` runs conversion, worlds check, Astro check and build, search, link check, full source fidelity on every reading text, index/discovery/publication checks and the 18,000-file budget (`pnpm assets:check`; the Workers free plan stops at 20,000).
+
+Outside the build:
 
 ```sh
-pnpm recovery download --only data/sample.json --batch 10 --pause 30 --delay 2
-pnpm recovery verify
+pnpm test            # unit tests
+pnpm lint            # Biome
+pnpm views:check     # Playwright + axe on every kind of page (S6), after pnpm build
 ```
 
-Recovery uses only the Wayback, one request at a time. Files that are already intact are not downloaded again; an altered original blocks the operation and requires a restore. The full discovery and coverage commands belong to S1.
-
-## Historical indexes
-
-`/divergences/` contains the complete recovered Lista by period, with prompt text and links to related developments. `/works/` contains all nine original works categories, including Utopias and stories. Both have English counterparts, wide tables with current-page title navigation, adjustable pagination (20/40/80/100 entries) and source records showing whether a linked text is already readable, recovered, missing or external. The 2013 historical prompt list is separated from the current menu's 18 sections.
-
-`pnpm browse:generate` derives these indexes from hash-verified original menus, catalog cells and the editorial map; `pnpm browse:check` compares all rendered entries and records in both languages. Normal `pnpm build` runs both, alongside the existing reading fidelity checks. Details: [historical-indexes.md](docs/historical-indexes.md).
+`pnpm views:check` serves `dist/` locally and opens 38 representative pages (Italian and English) at 320, 390, 768, 1024 and 1440 px, in dark mode and with text at 200%. It fails on horizontal page scroll, any axe WCAG 2.2 A/AA violation (light and dark), an email in visible text, a script error or a first Tab without a visible focus. Report: `reports/s6-views.json`. It needs Playwright's Chromium once: `pnpm exec playwright install chromium`.
 
 ## Backup to your drive
 
@@ -95,24 +112,8 @@ Before enabling it:
 
 The GitHub secret and variable names and the bucket name stay in Italian because they live in external configuration.
 
-The new edition permits only same-origin external scripts; inline scripts stay blocked. `/original/*` adds a stricter policy that forbids all scripts. The build validates script compatibility with these headers. To test the actual response policies locally after building, use `pnpm exec wrangler dev --local`; Astro preview alone does not apply `_headers`. Production pages show the deployed GitHub revision in the footer.
+The new edition permits only same-origin external scripts; inline scripts stay blocked. The build validates script compatibility with these headers. To test the actual response policies locally after building, use `pnpm exec wrangler dev --local`; Astro preview alone does not apply `_headers`. Production pages show the deployed GitHub revision in the footer.
 
 `workers_dev` and `preview_urls` are disabled; there is no application Worker, SSR or database. To check the configuration without publishing: `pnpm exec wrangler deploy --dry-run`.
 
 Pull requests run no deploys. The workflow currently runs no remote backup. Never put tokens or `.env` files in the repository.
-
-Historical period lists include whole-period text/author/availability filters and a documented-development filter for prompts, with shareable query URLs and synchronized pagination. Long proposals open in a reading popup after six rendered lines. Run `pnpm build` before local development to generate the full-period filter payloads. See [historical indexes](docs/historical-indexes.md).
-
-S3 is delivered for the 46-item reading edition: [status and checks](docs/status-s3.md). Use `/search/` (or `/en/search/`) for full-text search; `/` opens/focuses it. Reading pages link to safe local source text/provenance. After `pnpm build`, run `pnpm dev` and open `/review/` locally to review proposals in blocks of 20. Each explicit owner decision is saved in `data/review-decisions.json`; it is separate from automatic proposals and survives regeneration. The development queue and raw decision/map files are not deployed. Full archive publication remains S4 work.
-
-### Reading and author navigation
-
-Use `/library/` (English: `/en/library/`, **Read** in the header) for canonical works already prepared for reading. `/works/` remains the complete historical works index, including works awaiting publication. `/authors/` and `/en/authors/` list source signatures in the canonical reading edition, with separate works, prompts and signed contributions. Possible aliases remain separate until editorial review. `pnpm discovery:check`, included in `pnpm build`, verifies both libraries, author routes and signed anchors. See [S4 discovery delivery](docs/status-s4-discovery.md).
-
-### Progressive reading publication
-
-`pnpm publication status` shows the baseline, explicit selections and approvals eligible for selection. `pnpm publication next` prepares a read-only batch of up to 20 pending proposals in `reports/publication-next.md`; run `pnpm dev` to follow its local review and full-source links. After an explicit owner review, `pnpm publication select <proposal-id> --dry-run` validates a choice, and the command without `--dry-run` writes `data/publication.json`. Run `pnpm build` before deployment: every selected addition must pass the full source-fidelity and membership checks. Approval alone never selects or deploys a text. See [S4 publication workflow](docs/status-s4-publication.md) for split/merge handling, source conflicts and removal.
-
-### Current reading edition — second reviewed batch
-
-Two owner-approved batches add 40 texts: 86 reading items total (83 canonical plus three legacy previews), with 73 canonical work editions at `/library/` and 123 source signatures under `/authors/`. All selected texts receive complete source comparisons. The approved packets are preserved in `reports/publication-batch-01.json` and `reports/publication-batch-02.json`; `reports/publication-next.md` is the next unapproved packet. See `docs/status-s4-batch-02.md`.

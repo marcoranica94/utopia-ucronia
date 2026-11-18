@@ -18,6 +18,9 @@
   };
   let selected = read();
   apply(selected);
+  // Mark scripting now, in <head>: the switch takes its place in the header
+  // from the first paint instead of pushing the page down on DOMContentLoaded.
+  root.dataset.scripted = "";
   const update = () => {
     const group = document.querySelector("[data-theme-switch]");
     if (!group) return;
