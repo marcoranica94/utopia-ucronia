@@ -32,8 +32,17 @@ const dest = path.resolve(
 if (dest.startsWith(`${path.resolve("archive")}${path.sep}`))
   throw new Error("The backup must be outside the archive");
 await mkdir(dest, { recursive: true });
+// Several URLs can share one file (a folder URL and its index.htm): copy
+// each path once, then verify every document against the copy.
+const copied = new Set<string>();
 for (const d of documents) {
   const target = safePath(path.join(dest, "original"), d.path ?? "");
+  if (copied.has(target)) {
+    if (!(await verifyDocument(d, dest)))
+      throw new Error(`Copy not intact: ${d.path}`);
+    continue;
+  }
+  copied.add(target);
   await mkdir(path.dirname(target), { recursive: true });
   await copyFile(
     safePath("archive/original", d.path ?? ""),
@@ -49,5 +58,5 @@ await copyFile(
   constants.COPYFILE_EXCL,
 );
 console.log(
-  `Backup verified (${documents.length} files): ${dest}\nCopy this folder to your drive. As long as it stays here it is not an independent copy.`,
+  `Backup verified (${documents.length} documents, ${copied.size} files): ${dest}\nCopy this folder to your drive. As long as it stays here it is not an independent copy.`,
 );
