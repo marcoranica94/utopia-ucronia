@@ -369,25 +369,24 @@ const it = {
   "home.none": "I primi testi appariranno qui dopo la conversione.",
   "home.note":
     "La raccolta è in revisione: titoli, attribuzioni e collegamenti saranno controllati durante la conversione editoriale.",
-  "tree.title": "Albero delle possibilità",
-  "tree.kicker": "Tre divergenze campione",
-  "tree.heading": "L’albero delle possibilità",
+  "tree.title": "Albero delle epoche",
+  "tree.heading": "L’albero delle epoche",
   "tree.lede":
-    "Ogni ramo parte da una domanda diversa. Scegli una storia per leggerla; l’elenco resta disponibile anche senza il disegno.",
-  "tree.stage":
-    "I punti color rame aprono le tre ucronie campione. Gli altri rami mostrano come la raccolta potrà crescere.",
-  "tree.navLabel": "Scegli un ramo",
-  "tree.follow": "Segui un ramo",
-  "tree.open": "Apri",
-  "tree.group": "Tre ucronie nell’albero delle possibilità",
+    "Il tronco è la storia reale, dalla preistoria al futuro. Da ogni epoca partono le opere ambientate lì: segui un ramo per leggerle.",
+  "tree.yearNote":
+    "L’anno accanto al titolo è il primo citato all’inizio del testo e ordina i rami; non è per forza il punto in cui la storia diverge.",
+  "tree.jump": "Vai a un’epoca",
+  "tree.trunk": "Epoche in ordine cronologico",
+  "tree.more": "Mostra altre {n} opere",
+  "tree.showAll": "Mostra l’elenco",
+  "tree.outsideNote":
+    "Utopie, mondi immaginari e testi che non si collocano in un’epoca storica.",
+  "tree.unplaced": "Opere senza epoca",
+  "tree.unplacedNote":
+    "{n} opere non hanno ancora un’epoca: nel testo non c’è un anno utile e il catalogo originale non le collocava. Le altre {placed} sono sul tronco.",
   "tree.caveat":
-    "Le date qui seguono i testi campione e saranno verificate durante la catalogazione. La vista completa dell’albero arriverà quando ogni opera avrà il suo punto di divergenza.",
-  "tree.akhenaton": "E se il culto di Aton fosse sopravvissuto?",
-  "tree.spot": "Una mappa diventa il punto di partenza di più storie.",
-  "tree.farinacci":
-    "Una decisione diversa al Gran Consiglio cambia il percorso della guerra.",
-  "tree.bc14": "XIV secolo a.C.",
-  "tree.preview": "Anteprima grafica",
+    "Una stessa opera compare in più epoche se le attraversa. Le brevi proposte della Lista delle ucronie restano ordinate per periodo nel loro indice:",
+  "tree.listaLink": "apri la Lista delle ucronie",
   "gaps.title": "Materiale non disponibile",
   "gaps.kicker": "Archivio in lavorazione",
   "gaps.heading": "Questo materiale non è ancora disponibile",
@@ -838,25 +837,24 @@ const en: Record<keyof typeof it, string> = {
   "home.none": "The first texts will appear here after conversion.",
   "home.note":
     "The collection is under review: titles, attributions and links will be checked during editorial conversion.",
-  "tree.title": "Tree of possibilities",
-  "tree.kicker": "Three sample divergences",
-  "tree.heading": "The tree of possibilities",
+  "tree.title": "Tree of eras",
+  "tree.heading": "The tree of eras",
   "tree.lede":
-    "Each branch starts from a different question. Choose a story to read it; the list works without the drawing too.",
-  "tree.stage":
-    "The copper points open the three sample uchronias. The other branches show how the collection can grow.",
-  "tree.navLabel": "Choose a branch",
-  "tree.follow": "Follow a branch",
-  "tree.open": "Open",
-  "tree.group": "Three uchronias in the tree of possibilities",
+    "The trunk is real history, from prehistory to the future. From each era branch the works set there: follow a branch to read them.",
+  "tree.yearNote":
+    "The year beside a title is the first one cited at the start of the text and orders the branches; it is not necessarily where the story diverges.",
+  "tree.jump": "Go to an era",
+  "tree.trunk": "Eras in chronological order",
+  "tree.more": "Show {n} more works",
+  "tree.showAll": "Show the list",
+  "tree.outsideNote":
+    "Utopias, imaginary worlds and texts that belong to no historical era.",
+  "tree.unplaced": "Works without an era",
+  "tree.unplacedNote":
+    "{n} works have no era yet: the text cites no usable year and the original catalog did not place them. The other {placed} are on the trunk.",
   "tree.caveat":
-    "These dates follow the sample texts and will be checked during cataloguing. The full tree will come when every work has its point of divergence.",
-  "tree.akhenaton": "What if the cult of Aten had survived?",
-  "tree.spot": "A map becomes the starting point of several stories.",
-  "tree.farinacci":
-    "A different decision at the Grand Council changes the course of the war.",
-  "tree.bc14": "14th century BC",
-  "tree.preview": "Design preview",
+    "A work appears in several eras if it spans them. The short prompts of the Lista delle ucronie stay ordered by period in their own index:",
+  "tree.listaLink": "open the Lista delle ucronie",
   "gaps.title": "Material not available",
   "gaps.kicker": "Archive in progress",
   "gaps.heading": "This material is not available yet",

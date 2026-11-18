@@ -165,7 +165,7 @@ The owner chose the restrained branching-tree direction on 13 November 2026 afte
 
 The proposed metaphor is the **forking timeline**. Real history is a thin line, and every work is a branch that leaves it in the year of its divergence. The metaphor is used only where it informs.
 
-- **Divergence tree:** the map of branches from antiquity to the future, dense where uchronias are many (twentieth century, Rome). Tapping a branch opens the work.
+- **Tree of eras** (owner choice of 18/11/2026, replacing a tree by divergence year): a trunk through the approved eras from prehistory to the future, dense where uchronias are many (twentieth century, Rome). Tapping a branch opens the work.
 - **Reading page:** at the top the divergence ("What if in 1848…"), then author, world, attachments and a link to the source page. Text in a book-like column (65–70 characters), clickable notes, side table of contents for long texts.
 - **Catalog:** filters by era, place, theme, kind, author and language, which combine and stay in the URL.
 - **Typefaces:** a reading serif for long texts and a single sans for the interface, both served locally with `@fontsource`. The exact choice is made in the prototypes.
@@ -235,7 +235,7 @@ We start by proving that the material can be recovered and converted well, then 
 | S2 Conversion | model verified on real cases, proposed reorganization map, persistent corrections | schema without errors; zero unexplained unresolved links; comparison passed on 30 content items |
 | S3 First useful version | reading, simple catalog, search, link to the source | from the phone I find a text by remembering one sentence of it |
 | S4 Complete edition | progressive review of classification, authors, worlds, themes, final design | direction approved; filters that work even with partial metadata |
-| S5 Special views | divergence tree, Site history, "What if…?" | tree readable even in hard cases |
+| S5 Special views | tree of eras, Site history, "What if…?" | tree readable on phone and with works without an era |
 | S6 Polish | final checks, new restore test | full round from the phone; restore from scratch succeeds |
 
 **The comparison** between original and conversion follows a fixed checklist: headings, paragraphs, images, notes, tables, accents, attributions. **An unresolved link** is acceptable only if explained: a conversion error is fixed, an archive gap stays visible as such. **Accessibility and conversion checks** start with the first component, not in the last sprint; fidelity of the texts, search, keyboard use and readability matter more than the Lighthouse score.

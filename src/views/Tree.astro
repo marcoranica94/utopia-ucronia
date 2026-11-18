@@ -1,6 +1,17 @@
 ---
 import { getCollection } from "astro:content";
-import BranchTree from "../components/BranchTree.astro";
+import {
+  buildEraTimeline,
+  type TimelineWork,
+  yearLabel,
+} from "../era-timeline";
+import {
+  type ClassifiedItem,
+  type FacetValue,
+  facetPath,
+  rangeLabel,
+  vocabulary,
+} from "../facet-index";
 import { type Lang, localePath, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
 import "../styles/tree.css";
@@ -10,46 +21,98 @@ interface Props {
 }
 const { lang } = Astro.props;
 const t = useTranslations(lang);
-const works = await getCollection("works");
-const workUrl = (ending: string) => {
-  const work = works.find((entry) =>
-    entry.data.sources.some((source) =>
-      source.url.toLowerCase().endsWith(ending.toLowerCase()),
-    ),
-  );
-  if (!work) throw new Error(`Missing tree work for ${ending}`);
-  return localePath(lang, `/works/${work.id}/`);
-};
-const recovered = t("home.recovered");
-const branches = [
-  {
-    period: t("tree.bc14"),
-    title: "Akhénaton superstar!",
-    description: t("tree.akhenaton"),
-    href: "/design/#akhenaton",
-    language: "fr",
-    state: t("tree.preview"),
-  },
-  {
-    period: "1000–1050",
-    title: "Spot the POD",
-    description: t("tree.spot"),
-    href: workUrl("spotthePOD.htm"),
-    language: "it",
-    state: recovered,
-  },
-  {
-    period: lang === "it" ? "25 luglio 1943" : "25 July 1943",
-    title: "Ordine del giorno Farinacci",
-    description: t("tree.farinacci"),
-    href: workUrl("25071943.htm"),
-    language: "it",
-    state: recovered,
-  },
-];
+const timeline = buildEraTimeline(
+  (await getCollection("works")) as unknown as ClassifiedItem[],
+  vocabulary.eras,
+);
+/** Titles shown on each branch before the rest fold away. */
+const SHOWN = 8;
+const largest = Math.max(...timeline.eras.map((era) => era.works.length), 1);
+/** Node size grows with the square root of the count: area tracks texts. */
+const node = (n: number) =>
+  `${(0.7 + 1.1 * Math.sqrt(n / largest)).toFixed(2)}rem`;
+const range = (era: { start?: number; end?: number }) =>
+  rangeLabel(era as FacetValue, lang);
+const count = (n: number) =>
+  n === 1 ? t("facet.one") : t("facet.count", { n });
+const placed = new Set(
+  [...timeline.eras, timeline.outsideTime].flatMap((era) =>
+    era.works.map((w) => w.path),
+  ),
+).size;
+const lang_ = (work: TimelineWork) =>
+  work.language === "unknown" ? undefined : work.language;
 ---
 <Base title={t("tree.title")} lang={lang}>
-  <div class="page-intro"><p class="page-kicker">{t("tree.kicker")}</p><h1 class="page-title">{t("tree.heading")}</h1><p class="page-lede">{t("tree.lede")}</p></div>
-  <div class="tree-layout"><div class="tree-stage"><BranchTree label={t("tree.group")} links={branches.map((branch) => ({ href: branch.href, label: `${t("tree.open")} ${branch.title}` }))} /><p>{t("tree.stage")}</p></div><nav class="branch-navigation" aria-label={t("tree.navLabel")}><h2>{t("tree.follow")}</h2><ul>{branches.map((branch) => <li><span class="branch-period">{branch.period}</span><a href={branch.href} lang={branch.language}>{branch.title}</a><p>{branch.description}</p><small>{branch.state}</small></li>)}</ul></nav></div>
-  <p class="tree-caveat">{t("tree.caveat")}</p>
+<div class="tree-page">
+  <header class="page-intro">
+    <h1 class="page-title">{t("tree.heading")}</h1>
+    <p class="page-lede">{t("tree.lede")}</p>
+    <p class="small-note">{t("tree.yearNote")}</p>
+  </header>
+
+  <nav class="era-jump" aria-label={t("tree.jump")}>
+    <ol>
+      {timeline.eras.map((era) => <li><a href={`#era-${era.id}`}>{era.label[lang]}<small>{era.works.length}</small></a></li>)}
+      <li><a href="#era-outside-time">{timeline.outsideTime.label[lang]}<small>{timeline.outsideTime.works.length}</small></a></li>
+    </ol>
+  </nav>
+
+  <ol class="trunk" aria-label={t("tree.trunk")}>
+    {timeline.eras.map((era) => {
+      const shown = era.works.slice(0, SHOWN);
+      const rest = era.works.slice(SHOWN);
+      const empty = era.works.length === 0;
+      return (
+        <li class:list={["era", { "era-empty": empty }]} id={`era-${era.id}`} style={`--node: ${node(era.works.length)}`}>
+          <div class="era-head">
+            <h2><a href={localePath(lang, facetPath("eras", era.id))}>{era.label[lang]}</a></h2>
+            {range(era) && <p class="era-range">{range(era)}</p>}
+            <p class="era-count">{count(era.works.length)}</p>
+          </div>
+          {!empty && (
+            <div class="branches">
+              <ul>
+                {shown.map((work) => <li><a class="branch-title" href={localePath(lang, work.path)} lang={lang_(work)}>{work.title}</a>{work.year !== undefined && <span class="branch-year">{yearLabel(work.year, lang)}</span>}{work.authors.length > 0 && <span class="branch-authors">{work.authors.join(", ")}</span>}</li>)}
+              </ul>
+              {rest.length > 0 && (
+                <details>
+                  <summary>{t("tree.more", { n: rest.length })}</summary>
+                  <ul>
+                    {rest.map((work) => <li><a class="branch-title" href={localePath(lang, work.path)} lang={lang_(work)}>{work.title}</a>{work.year !== undefined && <span class="branch-year">{yearLabel(work.year, lang)}</span>}{work.authors.length > 0 && <span class="branch-authors">{work.authors.join(", ")}</span>}</li>)}
+                  </ul>
+                </details>
+              )}
+            </div>
+          )}
+        </li>
+      );
+    })}
+  </ol>
+
+  <section class="off-trunk" id="era-outside-time" aria-labelledby="outside-time-title">
+    <h2 id="outside-time-title"><a href={localePath(lang, facetPath("eras", "outside-time"))}>{timeline.outsideTime.label[lang]}</a></h2>
+    <p class="era-count">{count(timeline.outsideTime.works.length)}</p>
+    <p class="off-note">{t("tree.outsideNote")}</p>
+    <details>
+      <summary>{t("tree.showAll")}</summary>
+      <ul class="plain-branches">
+        {timeline.outsideTime.works.map((work) => <li><a class="branch-title" href={localePath(lang, work.path)} lang={lang_(work)}>{work.title}</a>{work.authors.length > 0 && <span class="branch-authors">{work.authors.join(", ")}</span>}</li>)}
+      </ul>
+    </details>
+  </section>
+
+  <section class="off-trunk unplaced" aria-labelledby="unplaced-title">
+    <h2 id="unplaced-title">{t("tree.unplaced")}</h2>
+    <p class="era-count">{t("tree.unplacedNote", { n: timeline.unplaced.length, placed })}</p>
+    <details>
+      <summary>{t("tree.showAll")}</summary>
+      <ul class="plain-branches">
+        {timeline.unplaced.map((work) => <li><a class="branch-title" href={localePath(lang, work.path)} lang={lang_(work)}>{work.title}</a>{work.authors.length > 0 && <span class="branch-authors">{work.authors.join(", ")}</span>}</li>)}
+      </ul>
+    </details>
+  </section>
+
+  <p class="tree-caveat">{t("tree.caveat")} <a href={localePath(lang, "/divergences/")}>{t("tree.listaLink")}</a></p>
+</div>
 </Base>

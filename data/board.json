@@ -29,13 +29,6 @@
       "note": "Owner-approved design delivered: atlas home/catalog, full-width reader with year/contributor rail and branch drawer, light/dark/system modes and back-to-top. The three-work tree remains a separate S5 prototype. Evidence: docs/home-design.md and docs/reading-design.md."
     },
     {
-      "sprint": "S5",
-      "contains": "Divergence tree, tested with the hard cases",
-      "status": "doing",
-      "assignee": "Development",
-      "note": "Partial only: /tree/ contains three fixed example branches. The reader drawer already has real contribution branches, but the full archive tree, verified dates and crowded/undated hard cases remain unimplemented. See src/views/Tree.astro."
-    },
-    {
       "sprint": "S0",
       "contains": "Visual comparison",
       "status": "done",
@@ -236,8 +229,8 @@
   ],
   "priorities": [
     {
-      "title": "Build the divergence tree and the original-layout copy (S5)",
-      "detail": "Choose the reference date for /original/ from the capture dates, replace the three-work tree prototype with verified divergence data and hard-case checks, then the cleaned copy, Site history and \"What if…?\"."
+      "title": "Finish S5",
+      "detail": "Site history with the reconstructed 2004 home page, and \"What if…?\" (a random work)."
     },
     {
       "title": "Attachments as reading text (S7)",

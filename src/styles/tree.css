@@ -1,90 +1,233 @@
-.tree-layout {
-  display: grid;
-  grid-template-columns: minmax(0, 1.1fr) minmax(280px, 0.9fr);
-  gap: clamp(1.5rem, 4vw, 4rem);
-  align-items: start;
+/* Tree of eras: a copper trunk through the eras in order; each era is a node
+   sized by how many works branch from it, the works hang to its right. */
+.tree-page {
+  --trunk-x: 15.5rem;
+  --trunk-width: 6px;
 }
-.tree-stage {
-  --tree-height: 330px;
-  padding: 2rem;
-  border-radius: 16px;
-  background: var(--night);
-  color: var(--on-night);
-}
-.tree-stage p {
-  max-width: 42ch;
-  margin: 1.5rem auto 0;
-  color: #d9c9bc;
-  font-size: 0.86rem;
-  text-align: center;
-}
-.branch-navigation h2 {
-  margin: 0 0 0.5rem;
-  font-size: 1.35rem;
-  font-weight: 600;
-}
-.branch-navigation ul {
-  list-style: none;
-  margin: 0;
+
+/* Era jump list: compact, wraps, never scrolls the page sideways. */
+.era-jump ol {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 0.5rem;
+  margin: 1.5rem 0 2.5rem;
   padding: 0;
+  list-style: none;
 }
-.branch-navigation li {
-  position: relative;
-  padding: 1rem 0 1.1rem 1.7rem;
-  border-left: 1px solid var(--line);
-}
-.branch-navigation li::before {
-  content: "";
-  position: absolute;
-  top: 1.55rem;
-  left: -0.38rem;
-  width: 0.7rem;
-  height: 0.7rem;
-  border: 2px solid var(--accent);
-  border-radius: 50%;
-  background: var(--paper);
-}
-.branch-period {
-  display: block;
-  color: var(--muted);
-  font-size: 0.82rem;
-}
-.branch-navigation a {
-  display: block;
-  margin: 0.15rem 0;
+.era-jump a {
+  display: inline-flex;
+  gap: 0.4rem;
+  min-height: 44px;
+  align-items: center;
+  padding: 0 0.75rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
   color: var(--ink);
-  font-size: 1.15rem;
-  font-weight: 600;
+  font-size: 0.9rem;
   text-decoration: none;
 }
-.branch-navigation a:hover {
+.era-jump a:hover,
+.era-jump a:focus-visible {
+  border-color: var(--accent);
+  color: var(--accent);
+}
+.era-jump small {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+
+/* The trunk. */
+.trunk {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.trunk::before {
+  content: "";
+  position: absolute;
+  top: 0.5rem;
+  bottom: 0;
+  left: calc(var(--trunk-x) - var(--trunk-width) / 2);
+  width: var(--trunk-width);
+  border-radius: var(--trunk-width);
+  background: var(--branch);
+}
+.era {
+  position: relative;
+  display: grid;
+  grid-template-columns: var(--trunk-x) minmax(0, 1fr);
+  padding: 0 0 2.25rem;
+  scroll-margin-top: 5rem;
+}
+/* The era node sits on the trunk; its size encodes the number of works. */
+.era::before {
+  content: "";
+  position: absolute;
+  top: 0.35rem;
+  left: calc(var(--trunk-x) - var(--node) / 2);
+  width: var(--node);
+  height: var(--node);
+  border: 3px solid var(--paper);
+  border-radius: 50%;
+  background: var(--accent);
+  box-sizing: border-box;
+}
+.era-empty::before {
+  background: var(--paper);
+  border: 2px solid var(--branch);
+}
+.era-head {
+  padding-right: 2.25rem;
+  text-align: right;
+}
+.era-head h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+.era-head h2 a,
+.off-trunk h2 a {
+  color: var(--ink);
+  text-decoration: none;
+}
+.era-head h2 a:hover,
+.era-head h2 a:focus-visible,
+.off-trunk h2 a:hover,
+.off-trunk h2 a:focus-visible {
   color: var(--accent);
   text-decoration: underline;
 }
-.branch-navigation p {
-  margin: 0;
+.era-range,
+.era-count {
+  margin: 0.15rem 0 0;
   color: var(--muted);
   font-size: 0.9rem;
+  font-variant-numeric: tabular-nums;
 }
-.branch-navigation small {
+
+/* Branches: each work hangs off the trunk on a short curved twig. */
+.branches {
+  padding-left: 2.5rem;
+}
+.branches ul,
+.plain-branches {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.branches li {
+  position: relative;
+  padding: 0.3rem 0 0.3rem 0.25rem;
+}
+.branches li::before {
+  content: "";
+  position: absolute;
+  top: -0.35rem;
+  left: -2.5rem;
+  width: 2.1rem;
+  height: 1.25rem;
+  border-bottom: 2px solid var(--branch);
+  border-left: 2px solid var(--branch);
+  border-bottom-left-radius: 1rem;
+  opacity: 0.7;
+}
+.branches > ul > li:first-child::before {
+  top: 0.15rem;
+  height: 0.75rem;
+  border-left: 0;
+  border-bottom-left-radius: 0;
+}
+.branch-title {
+  color: var(--ink);
+  font-family: var(--font-reading);
+  font-size: 1.05rem;
+  line-height: 1.35;
+  text-decoration-color: var(--line);
+  text-underline-offset: 0.2em;
+}
+.branch-title:hover,
+.branch-title:focus-visible {
   color: var(--accent);
-  font-weight: 600;
+  text-decoration-color: currentColor;
 }
-.tree-caveat {
-  max-width: 70ch;
-  margin-top: 2rem;
+.branch-year {
+  margin-left: 0.5rem;
+  color: var(--accent);
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
+}
+.branch-authors {
+  display: block;
   color: var(--muted);
   font-size: 0.85rem;
 }
+.tree-page details summary {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  color: var(--accent);
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+.branches details summary {
+  margin-left: 0.25rem;
+}
+
+/* Off the trunk: outside time and works without an era. */
+.off-trunk {
+  margin: 1rem 0 0 calc(var(--trunk-x) + 2.5rem);
+  padding: 1.25rem 0 1.25rem 1.5rem;
+  border-left: 2px dashed var(--branch);
+}
+.off-trunk h2 {
+  margin: 0;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.off-note {
+  max-width: 60ch;
+  margin: 0.35rem 0 0;
+}
+.plain-branches {
+  columns: 2 22rem;
+  column-gap: 2.5rem;
+}
+.plain-branches li {
+  padding: 0.3rem 0;
+  break-inside: avoid;
+}
+.tree-caveat {
+  max-width: 70ch;
+  margin: 3rem 0 0;
+  color: var(--muted);
+}
+
+/* Phone: the trunk runs down the left edge, eras and branches stack. */
 @media (max-width: 760px) {
-  .tree-layout {
-    grid-template-columns: 1fr;
+  .tree-page {
+    --trunk-x: 0.75rem;
   }
-  .tree-stage {
-    --tree-height: 220px;
-    padding: 1.4rem;
+  .era {
+    grid-template-columns: minmax(0, 1fr);
+    padding-left: 2rem;
   }
-  .branch-navigation {
-    padding-left: 0.4rem;
+  .era-head {
+    padding-right: 0;
+    text-align: left;
+  }
+  .branches {
+    margin-top: 0.5rem;
+    padding-left: 1.75rem;
+  }
+  .branches li::before {
+    left: -1.75rem;
+    width: 1.4rem;
+  }
+  .off-trunk {
+    margin-left: 2rem;
+    padding-left: 1rem;
   }
 }

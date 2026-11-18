@@ -146,7 +146,7 @@ Every sprint ends with a demo that must succeed without touch-ups. The tasks to 
 - **S2 Conversion** — schema verified on real cases, proposed map, persistent corrections; zero unexplained unresolved links; comparison checklist passed on 30 content items.
 - **S3 First useful version** — reading, simple catalog, Pagefind search, link to the source, `/review` page; from the phone a text can be found by remembering one sentence.
 - **S4 Complete edition** — progressive review of the map, eras and themes fixed, worlds, authors, places, themes, language filter, final design.
-- **S5 Special views** — divergence tree, Site history, "What if…?".
+- **S5 Special views** — tree of eras at `/tree/` (owner choice of 18/11/2026: works hang off the approved eras, since no work has a verified divergence year), Site history, "What if…?".
 - **S6 Polish** — Playwright + axe from 320 to 1440 px and text at 200%, new restore test from scratch, full round from the phone.
 
 ## Planned structure
