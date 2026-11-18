@@ -41,6 +41,10 @@ The introductions of Capvt Mvndi and Roma di là dall'oceano (`introduzione.htm`
 
 Twelve new pages in all (six worlds, two indexes, both languages), well inside the static file budget.
 
+## Owner review
+
+All six proposals were approved by the owner on 18 November 2026 (“Le approvo tutte in blocco.”), recorded in `reports/owner-approval-2026-11-18.json`. `pnpm worlds propose` no longer rewrites them; `pnpm worlds check` still fails if their chapters drift from the archive.
+
 ## Not done
 
-Owner review of the six proposals; publication of the two introductions; maps and flags of a world as a gallery (they stay inside their chapters).
+Publication of the two introductions; maps and flags of a world as a gallery (they stay inside their chapters).

@@ -29,13 +29,6 @@
       "note": "Owner-approved design delivered: atlas home/catalog, full-width reader with year/contributor rail and branch drawer, light/dark/system modes and back-to-top. The three-work tree remains a separate S5 prototype. Evidence: docs/home-design.md and docs/reading-design.md."
     },
     {
-      "sprint": "S4",
-      "contains": "Pages for eras, places and themes",
-      "status": "backlog",
-      "assignee": "Development",
-      "note": "Era, place and theme pages delivered with agent proposals per work (pnpm classify). Worlds and cycles delivered as agent proposals (data/worlds.json, /worlds/)."
-    },
-    {
       "sprint": "S5",
       "contains": "Divergence tree, tested with the hard cases",
       "status": "doing",
@@ -171,20 +164,6 @@
       "note": "Published home catalog supports language filtering; historical indexes and records have matching Italian/English interface routes. Story text remains in its source language."
     },
     {
-      "sprint": "S4",
-      "contains": "Progressive review of the map",
-      "status": "doing",
-      "assignee": "Marco",
-      "note": "All single-work proposals reviewed and published under the owner's blanket approval of 17 November 2026; the 19 Lista splits are deferred by owner decision. Pending: 43 split proposals that overlap pages already published whole, and owner review of the six world/cycle proposals in data/worlds.json."
-    },
-    {
-      "sprint": "S4",
-      "contains": "Eras fixed and theme list closed",
-      "status": "backlog",
-      "assignee": "Development",
-      "note": "Owner approved the vocabulary on 17 November 2026: data/vocabulary.json, 18 eras, 13 places, 16 themes."
-    },
-    {
       "sprint": "S6",
       "contains": "Playwright and axe on all views",
       "status": "backlog",
@@ -211,13 +190,6 @@
       "status": "done",
       "assignee": "Development",
       "note": "Delivered: 18 verified archive illustrations, softly faded behind prompt periods and reused across all nine work categories. Optimized derivatives total under 0.5 MB; originals untouched. Checked in both themes, phone/desktop and 200% text. Evidence: reports/period-images.json."
-    },
-    {
-      "sprint": "S4",
-      "contains": "Publish the remaining recovered works progressively",
-      "status": "doing",
-      "assignee": "Development",
-      "note": "755 canonical items after batches 03–19 under the owner's blanket approval; every publishable single work is selected and source-compared. Lista prompts stay in the period indexes by owner decision. 43 overlapping split proposals and the S7 attachments remain."
     },
     {
       "sprint": "S4",
@@ -264,20 +236,20 @@
   ],
   "priorities": [
     {
-      "title": "Review era/place/theme and world proposals (S4)",
-      "detail": "Per-work assignments in data/classification.json and the six worlds/cycles in data/worlds.json are agent proposals with quotations; the two world introductions kept as index need a decision."
+      "title": "Build the divergence tree and the original-layout copy (S5)",
+      "detail": "Choose the reference date for /original/ from the capture dates, replace the three-work tree prototype with verified divergence data and hard-case checks, then the cleaned copy, Site history and \"What if…?\"."
     },
     {
       "title": "Attachments as reading text (S7)",
       "detail": "Convert the 225 PDFs and 103 zip archives to Markdown reading editions; the site serves no attachment files."
     },
     {
-      "title": "Complete reviewed classification and discovery pages (S4)",
-      "detail": "Owner review of docs/vocabulary-proposal.md (eras, places, themes), then progressive item assignments and world/era/place/theme pages from reviewed metadata."
+      "title": "World introductions (S4)",
+      "detail": "Owner decision on publishing the Capvt Mvndi and Roma di là dall'oceano introductions as the first chapter of their world."
     },
     {
-      "title": "Build the complete archive tree and original-layout copy (S5)",
-      "detail": "Replace the three-work prototype with verified divergence data and hard-case checks, then complete the cleaned historical archive and final S6 audit."
+      "title": "Final audit (S6)",
+      "detail": "Playwright and axe on all views, restore test from scratch, README and CLAUDE.md."
     }
   ]
 }

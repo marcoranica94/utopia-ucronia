@@ -113,7 +113,7 @@ test("reciprocal clusters skip site menus; numbered parts are recognised", () =>
   assert.equal(numberedParts(["u/x.htm", "u/y.htm"]), false);
 });
 
-test("data/worlds.json is valid, agent proposals only, no shared chapters", async () => {
+test("data/worlds.json is valid, approvals only by the owner, no shared chapters", async () => {
   const file = worldsFileSchema.parse(
     JSON.parse(await readFile("data/worlds.json", "utf8")),
   );
