@@ -408,6 +408,9 @@ const it = {
     "Completavano la pagina la ricerca FreeFind e il contatore ShinyStat. Oggi niente di tutto questo viene eseguito: script, musica, applet e servizi esterni sono stati tolti, e restano le parole e le immagini.",
   "history.notices": "I tredici messaggi che scorrevano",
   "history.recoveryTitle": "Come l’abbiamo recuperato",
+  "history.found": "Indirizzi trovati",
+  "history.recovered": "File recuperati",
+  "history.missing": "File persi",
   "history.recovery1":
     "Il server originale blocca le richieste automatiche con un filtro anti-bot, che non abbiamo aggirato. Il recupero è partito dalle copie conservate dalla Wayback Machine di Internet Archive; nel novembre 2026, con il permesso del proprietario, i file mancanti sono stati scaricati direttamente dal server, uno alla volta.",
   "history.recovery2":
@@ -911,6 +914,9 @@ const en: Record<keyof typeof it, string> = {
     "FreeFind search and a ShinyStat counter completed the page. None of this runs today: scripts, music, applets and external services are gone, and the words and images remain.",
   "history.notices": "The thirteen scrolling messages",
   "history.recoveryTitle": "How we recovered it",
+  "history.found": "Addresses found",
+  "history.recovered": "Files recovered",
+  "history.missing": "Missing files",
   "history.recovery1":
     "The original server blocks automated requests with an anti-bot filter, which we did not get around. Recovery started from the copies kept by the Internet Archive’s Wayback Machine; in November 2026, with the owner’s permission, the missing files were downloaded directly from the server, one at a time.",
   "history.recovery2":

@@ -10,7 +10,9 @@ interface Props {
 }
 const { lang } = Astro.props;
 const t = useTranslations(lang);
-const number = new Intl.NumberFormat(lang === "it" ? "it-IT" : "en-GB");
+const number = new Intl.NumberFormat(lang === "it" ? "it-IT" : "en-GB", {
+  useGrouping: "always",
+});
 const n = (value: number) => number.format(value);
 
 // Recovery figures come from the manifest, never typed by hand.
@@ -105,36 +107,47 @@ const menu: { label: string; href?: string; lang?: string }[] = [
 
     <section class="history-section" aria-labelledby="history-then">
       <h2 id="history-then">{t("history.thenTitle")}</h2>
-      <p>{t("history.then1")}</p>
-      <p>{t("history.then2")}</p>
-      <details>
-        <summary>{t("history.notices")}</summary>
-        <ol class="history-notices" lang="it">{notices.map((line) => <li>{line}</li>)}</ol>
-      </details>
+      <div class="history-copy">
+        <p>{t("history.then1")}</p>
+        <p>{t("history.then2")}</p>
+        <details>
+          <summary>{t("history.notices")}</summary>
+          <ol class="history-notices" lang="it">{notices.map((line) => <li>{line}</li>)}</ol>
+        </details>
+      </div>
     </section>
 
     <section class="history-section" aria-labelledby="history-recovery">
       <h2 id="history-recovery">{t("history.recoveryTitle")}</h2>
-      <p>{t("history.recovery1")}</p>
-      <p>{t("history.recovery2", { total: n(documents.length), recovered: n(recovered.length), earlier: n(earlier), missing: n(missing) })} <a href={localePath(lang, "/gaps/")}>{t("history.gapsLink")}</a></p>
-      <p>{t("history.recovery3")}</p>
-      <figure class="capture-years">
-        <figcaption>{t("history.yearsCaption", { wayback: n(recovered.length - fromOrigin), origin: n(fromOrigin) })}</figcaption>
-        <ol>
-          {yearRows.map(([year, count]) => <li><span class="capture-year">{year}</span><span class="capture-bar" style={`--share: ${(count / largestYear).toFixed(3)}`}></span><span class="capture-count">{n(count)}</span></li>)}
-        </ol>
-      </figure>
+      <div class="history-copy">
+        <dl class="history-stats">
+          <div><dt>{t("history.found")}</dt><dd>{n(documents.length)}</dd></div>
+          <div><dt>{t("history.recovered")}</dt><dd>{n(recovered.length)}</dd></div>
+          <div><dt>{t("history.missing")}</dt><dd>{n(missing)}</dd></div>
+        </dl>
+        <p>{t("history.recovery1")}</p>
+        <p>{t("history.recovery2", { total: n(documents.length), recovered: n(recovered.length), earlier: n(earlier), missing: n(missing) })} <a href={localePath(lang, "/gaps/")}>{t("history.gapsLink")}</a></p>
+        <p>{t("history.recovery3")}</p>
+        <figure class="capture-years">
+          <figcaption>{t("history.yearsCaption", { wayback: n(recovered.length - fromOrigin), origin: n(fromOrigin) })}</figcaption>
+          <ol>
+            {yearRows.map(([year, count]) => <li><span class="capture-year">{year}</span><span class="capture-bar" style={`--share: ${(count / largestYear).toFixed(3)}`}></span><span class="capture-count">{n(count)}</span></li>)}
+          </ol>
+        </figure>
+      </div>
     </section>
 
     <section class="history-section" aria-labelledby="history-now">
       <h2 id="history-now">{t("history.nowTitle")}</h2>
-      <p>{t("history.now1", { works: n(works) })}</p>
-      <ul class="history-links">
-        <li><a href={localePath(lang, "/library/")}>{t("library.title")}</a></li>
-        <li><a href={localePath(lang, "/divergences/")}>{t("site.nav.prompts")}</a></li>
-        <li><a href={localePath(lang, "/tree/")}>{t("tree.title")}</a></li>
-        <li><a href={localePath(lang, "/whatif/")}>{t("whatif.title")}</a></li>
-      </ul>
+      <div class="history-copy">
+        <p>{t("history.now1", { works: n(works) })}</p>
+        <ul class="history-links">
+          <li><a href={localePath(lang, "/library/")}>{t("library.title")}</a></li>
+          <li><a href={localePath(lang, "/divergences/")}>{t("site.nav.prompts")}</a></li>
+          <li><a href={localePath(lang, "/tree/")}>{t("tree.title")}</a></li>
+          <li><a href={localePath(lang, "/whatif/")}>{t("whatif.title")}</a></li>
+        </ul>
+      </div>
     </section>
   </div>
 </Base>

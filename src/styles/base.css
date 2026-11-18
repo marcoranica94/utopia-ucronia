@@ -493,33 +493,33 @@
   /* Wrapping rows also accommodate text enlargement on narrow screens. */
   @media (max-width: 600px) {
     .site-header-inner {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.25rem 0.5rem;
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) auto;
+      gap: 0.5rem;
       padding-block: 0.6rem;
     }
     .site-header-inner .brand {
-      flex: 1 1 9rem;
       min-width: 0;
       white-space: normal;
       overflow-wrap: anywhere;
     }
     .site-header-inner .lang-switch {
-      flex: 0 0 auto;
-      order: 0;
+      grid-column: 2;
+      grid-row: 1;
     }
     .site-header-inner .site-nav {
-      order: 1;
-      flex: 1 1 7rem;
+      grid-column: 1 / -1;
+      grid-row: 2;
       flex-wrap: wrap;
       min-width: 0;
-      width: auto;
-      gap: 0.5rem;
+      width: 100%;
+      gap: 0.5rem 1rem;
     }
     .site-header-inner .theme-switch {
-      order: 1;
-      flex: 0 0 auto;
-      margin-left: auto;
+      grid-column: 1 / -1;
+      grid-row: 3;
+      justify-self: end;
+      margin-left: 0;
     }
   }
 }
