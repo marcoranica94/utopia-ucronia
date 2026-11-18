@@ -159,23 +159,23 @@
     {
       "sprint": "S6",
       "contains": "Playwright and axe on all views",
-      "status": "backlog",
+      "status": "done",
       "assignee": "Development",
-      "note": "Reader and historical-index browser checks exist; complete all-view axe A/AA and assistive-technology/device coverage are still due. Do not equate the current regression checks with S6 completion."
+      "note": "Delivered 18/11/2026: pnpm views:check, 38 pages IT/EN, 320-1440 px, dark, text 200%, axe WCAG 2.2 A/AA; 342 cases, 0 failures after fixes. Evidence: reports/s6-views.json. Lighthouse indicator: reports/s6-lighthouse.json."
     },
     {
       "sprint": "S6",
       "contains": "New restore test from scratch",
-      "status": "backlog",
+      "status": "done",
       "assignee": "Development",
-      "note": "S0 restore tests passed historically. A fresh complete-edition restore and rebuild remains due after the remaining publication work."
+      "note": "Delivered 18/11/2026: backup of 6,900 documents, clean clone, hashes verified, lockfile install, full cold build passed. Evidence: reports/restore-1795015408031.json. Fixed a backup bug on a file shared by two URLs."
     },
     {
       "sprint": "S6",
       "contains": "README and `CLAUDE.md` updated",
-      "status": "backlog",
+      "status": "done",
       "assignee": "Development",
-      "note": "Documents receive incremental updates, but the final all-feature documentation reconciliation is not complete. The current board audit is documented in docs/board-audit.md."
+      "note": "Delivered 18/11/2026: README rewritten for the current site (routes, editorial data, checks); CLAUDE.md records red-text marking and the view audit."
     },
     {
       "sprint": "S3",
@@ -231,10 +231,6 @@
     {
       "title": "Attachments as reading text (S7)",
       "detail": "Convert the 225 PDFs and 103 zip archives to Markdown reading editions; the site serves no attachment files."
-    },
-    {
-      "title": "Final audit (S6)",
-      "detail": "Playwright and axe on all views, restore test from scratch, README and CLAUDE.md."
     }
   ]
 }
