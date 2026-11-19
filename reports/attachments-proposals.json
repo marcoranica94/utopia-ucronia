@@ -1,0 +1,1859 @@
+{
+  "date": "2026-11-19",
+  "proposed": 213,
+  "downloadCopies": 8,
+  "scans": 4,
+  "newAuthors": 1,
+  "pdfs": [
+    {
+      "path": "utopiaucronia/grande_messico/avanti_sardegna.pdf",
+      "outcome": "kept (work)"
+    },
+    {
+      "path": "utopiaucronia/dipinti_sandro/repubblica_illirica.pdf",
+      "outcome": "proposed work",
+      "title": "La Repubblica Illirica",
+      "titleFrom": "catalog",
+      "authors": [
+        "Alessio Mammarella"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/giustizia_per_riccardo_iii.pdf",
+      "outcome": "proposed work",
+      "title": "Giustizia per Riccardo III",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/due_imperi/1814_regno_italico.pdf",
+      "outcome": "proposed work",
+      "title": "L'evitabile caduta del Regno Italico",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "racconti/il_trono_del_toro.pdf",
+      "outcome": "proposed work",
+      "title": "Il Trono del Toro",
+      "titleFrom": "catalog",
+      "authors": [
+        "Riccardo Querciagrossa"
+      ]
+    },
+    {
+      "path": "utopiaucronia/anno_2440.pdf",
+      "outcome": "proposed work",
+      "title": "L’anno 2440. Speranze e sogni dell’età dei Lumi",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/battagliaperlitalia.pdf",
+      "outcome": "proposed work",
+      "title": "Battaglia per l’Italia",
+      "titleFrom": "pdf",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/canale/rfdtr.pdf",
+      "outcome": "proposed work",
+      "title": "Rep. Fed. Democratica di Tutte le Russie",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/commonwealth_imperiale.pdf",
+      "outcome": "proposed work",
+      "title": "Il Commonwealth Imperiale",
+      "titleFrom": "catalog",
+      "authors": [
+        "Federico Sangalli"
+      ]
+    },
+    {
+      "path": "utopiaucronia/costituzione_alessio.pdf",
+      "outcome": "proposed work",
+      "title": "Costituzione della Repubblica italiana",
+      "titleFrom": "pdf",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dante33/atompunk.pdf",
+      "outcome": "proposed work",
+      "title": "Atompunk",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dante33/clanna.pdf",
+      "outcome": "proposed work",
+      "title": "Quindici livelli di appartenenza sociale in indoeuropeo preistorico",
+      "titleFrom": "text",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dante33/clockpunk.pdf",
+      "outcome": "proposed work",
+      "title": "Clockpunk",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dante33/dieselpunk.pdf",
+      "outcome": "proposed work",
+      "title": "Dieselpunk",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dante33/guerra_parallela.pdf",
+      "outcome": "proposed work",
+      "title": "La guerra parallela di Mussolini",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dante33/i_mille_del_duca.pdf",
+      "outcome": "proposed work",
+      "title": "I \"Mille\" del Duca",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/la_grande_lunezia.pdf",
+      "outcome": "proposed work",
+      "title": "La Grande Lunezia",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/oltre_il_limite.pdf",
+      "outcome": "proposed work",
+      "title": "Oltre il limite",
+      "titleFrom": "catalog",
+      "authors": [
+        "Luigi Righi"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/prima_vera_guerra_civile.pdf",
+      "outcome": "proposed work",
+      "title": "La prima vera Guerra Civile Americana",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/retropunk.pdf",
+      "outcome": "proposed work",
+      "title": "Retropunk",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dante33/rpv.pdf",
+      "outcome": "proposed work",
+      "title": "La Repubblica dei Pirati del Verbano",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/spagna_con_l_alleanza.pdf",
+      "outcome": "proposed work",
+      "title": "La Spagna con l'Alleanza",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/solarpunk.pdf",
+      "outcome": "proposed work",
+      "title": "Solarpunk",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dante33/teslapunk.pdf",
+      "outcome": "proposed work",
+      "title": "Teslapunk",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dante33/steampunk.pdf",
+      "outcome": "proposed work",
+      "title": "Steampunk per davvero",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dante33/ucronia_di_dago.pdf",
+      "outcome": "approved, not published: overprinted text fails the independent text-layer check",
+      "title": "Dago per davvero!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Giordano Saulino"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/ucronia_yavana.pdf",
+      "outcome": "download copy of a page",
+      "duplicateOf": "utopiaucronia/ucronia_yavana.htm",
+      "containment": 0.93
+    },
+    {
+      "path": "utopiaucronia/dante33/urssecinascambiate.pdf",
+      "outcome": "proposed work",
+      "title": "Unione Sovietica e Cina scambiate!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Filo"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/waterpunk.pdf",
+      "outcome": "proposed work",
+      "title": "Waterpunk",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dipinti_sandro/17_settembre_1859.pdf",
+      "outcome": "proposed work",
+      "title": "Joshua A. Norton imperatore degli USA",
+      "titleFrom": "catalog",
+      "authors": [
+        "Andrea Villa"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dipinti_sandro/caligola_il_grande.pdf",
+      "outcome": "proposed work",
+      "title": "Caligola il Grande",
+      "titleFrom": "catalog",
+      "authors": [
+        "Dario Carcano"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dipinti_sandro/estado_eterno.pdf",
+      "outcome": "proposed work",
+      "title": "Estado eterno",
+      "titleFrom": "pdf",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dipinti_sandro/grande_svezia.pdf",
+      "outcome": "proposed work",
+      "title": "La Grande Svezia",
+      "titleFrom": "catalog",
+      "authors": [
+        "Yoccio Liberanome"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dipinti_sandro/il_trio_dei_caduti.pdf",
+      "outcome": "proposed work",
+      "title": "Il trio dei caduti",
+      "titleFrom": "catalog",
+      "authors": [
+        "Inuyasha Han'yō"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dipinti_sandro/jurassic_park_cronologia.pdf",
+      "outcome": "proposed work",
+      "title": "Cronologia di Jurassic Park",
+      "titleFrom": "catalog",
+      "authors": [
+        "Ainelif"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dipinti_sandro/matteo_bosso_leone_marino.pdf",
+      "outcome": "proposed work",
+      "title": "Operazione Leone Marino",
+      "titleFrom": "text",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dipinti_sandro/mia_martini_nel_2017.pdf",
+      "outcome": "proposed work",
+      "title": "Mia Martini nel 2017",
+      "titleFrom": "catalog",
+      "authors": [
+        "Ciro Formicola"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dipinti_sandro/origine_degli_indoeuropei.pdf",
+      "outcome": "proposed work",
+      "title": "Per una lettura divergente sulle origini degli indoeuropei",
+      "titleFrom": "catalog",
+      "authors": [
+        "Paolo Maltagliati"
+      ]
+    },
+    {
+      "path": "utopiaucronia/due_imperi/fanta_san_marino.pdf",
+      "outcome": "proposed work",
+      "title": "San Marino dai monti al mare",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/due_imperi/france_1940.pdf",
+      "outcome": "proposed work",
+      "title": "1940, l'Empire continue la lutte",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/due_imperi/ipazia_vive.pdf",
+      "outcome": "proposed work",
+      "title": "Ipazia vive",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/due_imperi/la_repubblica_delle_isole_ionie.pdf",
+      "outcome": "proposed work",
+      "title": "La Serenissima Repubblica delle Isole Ionie",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/due_imperi/prometeo.pdf",
+      "outcome": "proposed work",
+      "title": "Prometeo",
+      "titleFrom": "catalog",
+      "authors": [
+        "Sandro Degiani"
+      ]
+    },
+    {
+      "path": "utopiaucronia/egypte/alessandro_jeck86.pdf",
+      "outcome": "proposed work",
+      "title": "Alessandro in Occidente",
+      "titleFrom": "catalog",
+      "authors": [
+        "Jeck86"
+      ]
+    },
+    {
+      "path": "utopiaucronia/egypte/atlantide_bhrghros.pdf",
+      "outcome": "download copy of a page",
+      "duplicateOf": "utopiaucronia/platone_aveva_ragione.htm",
+      "containment": 0.94
+    },
+    {
+      "path": "utopiaucronia/empereur_soleil.pdf",
+      "outcome": "proposed work",
+      "title": "L'Empereur-Soleil",
+      "titleFrom": "catalog",
+      "authors": [
+        "Bhrg'hros"
+      ]
+    },
+    {
+      "path": "utopiaucronia/etruschi/brigata_estense_in_america.pdf",
+      "outcome": "proposed work",
+      "title": "La Brigata Estense in America",
+      "titleFrom": "catalog",
+      "authors": [
+        "Leonardo Rivalenti"
+      ]
+    },
+    {
+      "path": "utopiaucronia/etruschi/albe_di_cieli_lontani.pdf",
+      "outcome": "proposed work",
+      "title": "Albe di Cieli Lontani",
+      "titleFrom": "catalog",
+      "authors": [
+        "Davide Alberici"
+      ]
+    },
+    {
+      "path": "utopiaucronia/etruschi/fanta_dixie.pdf",
+      "outcome": "proposed work",
+      "title": "Lunga vita al Sud!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Federico Sangalli"
+      ]
+    },
+    {
+      "path": "utopiaucronia/etruschi/cina_nazionalista.pdf",
+      "outcome": "proposed work",
+      "title": "Cina nazionalista, Manciuria comunista",
+      "titleFrom": "pdf",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/etruschi/cronache_grande_tiranno.pdf",
+      "outcome": "download copy of a page",
+      "duplicateOf": "utopiaucronia/reami_eterni.htm",
+      "containment": 0.95
+    },
+    {
+      "path": "utopiaucronia/etruschi/fanta_megalodonte.pdf",
+      "outcome": "proposed work",
+      "title": "Carcharodon megalodon",
+      "titleFrom": "catalog",
+      "authors": [
+        "Andrea Villa"
+      ]
+    },
+    {
+      "path": "utopiaucronia/etruschi/grande_giappone.pdf",
+      "outcome": "approved, not published: overprinted text fails the independent text-layer check",
+      "title": "Il Celeste Impero Giapponese",
+      "titleFrom": "pdf",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/etruschi/premiere_republique.pdf",
+      "outcome": "proposed work",
+      "title": "Vive la Première République",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/europeo_1996.pdf",
+      "outcome": "proposed work",
+      "title": "Campionati Europei Ucronici 1996 di Lord Wilmore (download)",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/fanta_rep_spagnola.pdf",
+      "outcome": "proposed work",
+      "title": "La Repubblica Spagnola",
+      "titleFrom": "catalog",
+      "authors": [
+        "Ainelif"
+      ]
+    },
+    {
+      "path": "utopiaucronia/fantarcheologia_2000.pdf",
+      "outcome": "scan: OCR pending"
+    },
+    {
+      "path": "utopiaucronia/francia_italia/allemagne_mon_amour.pdf",
+      "outcome": "proposed work",
+      "title": "Allemagne, mon amour",
+      "titleFrom": "catalog",
+      "authors": [
+        "Rivoluzionario Liberale"
+      ]
+    },
+    {
+      "path": "utopiaucronia/francia_italia/isola_di_saint_louis.pdf",
+      "outcome": "proposed work",
+      "title": "L'isola di Saint Louis",
+      "titleFrom": "catalog",
+      "authors": [
+        "Liutprand"
+      ]
+    },
+    {
+      "path": "utopiaucronia/francia_italia/strani_europei_08.pdf",
+      "outcome": "proposed work",
+      "title": "Alta Italia - Due Sicilie 1-0",
+      "titleFrom": "catalog",
+      "authors": [
+        "Homer"
+      ]
+    },
+    {
+      "path": "utopiaucronia/francia_italia/scisma_del_calcio.pdf",
+      "outcome": "proposed work",
+      "title": "Lo Scisma del Calcio",
+      "titleFrom": "catalog",
+      "authors": [
+        "Det0"
+      ]
+    },
+    {
+      "path": "utopiaucronia/gaivs_marivs_magnvs.pdf",
+      "outcome": "proposed work",
+      "title": "Gaivs Marivs Magnvs",
+      "titleFrom": "catalog",
+      "authors": [
+        "Lucantonio Formosa"
+      ]
+    },
+    {
+      "path": "utopiaucronia/gmr/artu_vezzaro.pdf",
+      "outcome": "proposed work",
+      "title": "Metamorfosi di re Artù ipostasi della sovranità [tesi di laurea]",
+      "titleFrom": "catalog",
+      "authors": [
+        "Demofilo"
+      ]
+    },
+    {
+      "path": "utopiaucronia/gmr/italia_confederale.pdf",
+      "outcome": "proposed work",
+      "title": "La Confederazione Italiana",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/gmr/murodimilano.pdf",
+      "outcome": "proposed work",
+      "title": "Il Muro di Milano",
+      "titleFrom": "catalog",
+      "authors": [
+        "Francesco Dessolis"
+      ]
+    },
+    {
+      "path": "utopiaucronia/gmr/ridotto_alpino_repubblicano.pdf",
+      "outcome": "download copy of a page",
+      "duplicateOf": "utopiaucronia/ridotto_alpino_repubblicano.htm",
+      "containment": 0.99
+    },
+    {
+      "path": "utopiaucronia/grande_australia/altolaturchi.pdf",
+      "outcome": "proposed work",
+      "title": "Altolà, Turchi!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Andrea Carrara"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_australia/calcio_romano.pdf",
+      "outcome": "proposed work",
+      "title": "Calcio Romano!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Det0"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_australia/fanta_medici.pdf",
+      "outcome": "proposed work",
+      "title": "La Grande Dinastia dei Medici",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_australia/giosuè_i_il_grande.pdf",
+      "outcome": "proposed work",
+      "title": "Lunga vita a Giosué I il Grande",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_australia/ilpianetadegliuominisapiens.pdf",
+      "outcome": "scan: OCR pending"
+    },
+    {
+      "path": "utopiaucronia/grande_australia/le_scelte_dell_italia.pdf",
+      "outcome": "proposed work",
+      "title": "Le scelte dell'Italia",
+      "titleFrom": "catalog",
+      "authors": [
+        "Boreale"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_australia/profeta_dei_keltar.pdf",
+      "outcome": "proposed work",
+      "title": "Il Profeta dei Keltar",
+      "titleFrom": "catalog",
+      "authors": [
+        "Riccardo Querciagrossa"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_australia/rivoluzione_permanente.pdf",
+      "outcome": "proposed work",
+      "title": "La Rivoluzione Permanente",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_australia/sailor_trek.pdf",
+      "outcome": "proposed work",
+      "title": "Sailor Trek: il dilemma del dilitio di Bill Harris ed Ezio Boscani (download)",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_australia/storia_dell_atlantide.pdf",
+      "outcome": "download copy of a page",
+      "duplicateOf": "utopiaucronia/platone_aveva_ragione.htm",
+      "containment": 0.99
+    },
+    {
+      "path": "utopiaucronia/grande_australia/ucronia_gotica.pdf",
+      "outcome": "proposed work",
+      "title": "Una Timeline Gotica",
+      "titleFrom": "catalog",
+      "authors": [
+        "Paolo Maltagliati"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_australia/ucronia_wolf_2.pdf",
+      "outcome": "proposed work",
+      "title": "L'Ucronia Wolf (download)",
+      "titleFrom": "catalog",
+      "authors": [
+        "Lorenzo M. Vaglieri"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_messico/bilib.pdf",
+      "outcome": "scan: OCR pending"
+    },
+    {
+      "path": "utopiaucronia/grande_messico/bicentennialman.pdf",
+      "outcome": "proposed work",
+      "title": "Cronologia di \"L'Uomo Bicentenario\"",
+      "titleFrom": "catalog",
+      "authors": [
+        "Ainelif"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_messico/carlo_alberto_il_grande.pdf",
+      "outcome": "proposed work",
+      "title": "Carlo Alberto il Grande",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_messico/grande_guerra_grande_vittoria.pdf",
+      "outcome": "proposed work",
+      "title": "Grande Guerra, Grande Vittoria",
+      "titleFrom": "catalog",
+      "authors": [
+        "Rivoluzionario Liberale"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_messico/papi_russi.pdf",
+      "outcome": "proposed work",
+      "title": "« I Papi Russi »",
+      "titleFrom": "catalog",
+      "authors": [
+        "Alessio Mammarella"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_messico/ucronia_mariano_v.pdf",
+      "outcome": "proposed work",
+      "title": "Mariano V sugli scudi",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_milano/mascherina.pdf",
+      "outcome": "proposed work",
+      "title": "La mascherina",
+      "titleFrom": "catalog",
+      "authors": [
+        "Luigi Righi"
+      ]
+    },
+    {
+      "path": "utopiaucronia/keikyo/ugolino.pdf",
+      "outcome": "proposed work",
+      "title": "Il Conte Ugolino in lingua latina!",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/keikyo/stryx.pdf",
+      "outcome": "proposed work",
+      "title": "Stryx",
+      "titleFrom": "catalog",
+      "authors": [
+        "Luigi Righi"
+      ]
+    },
+    {
+      "path": "utopiaucronia/la_politica_del_narcisismo.pdf",
+      "outcome": "proposed work",
+      "title": "La politica del narcisismo",
+      "titleFrom": "catalog",
+      "authors": [
+        "Dario Carcano"
+      ]
+    },
+    {
+      "path": "utopiaucronia/magellania/alien_cronologia.pdf",
+      "outcome": "proposed work",
+      "title": "Alien per davvero!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Ainelif"
+      ]
+    },
+    {
+      "path": "utopiaucronia/magellania/canale_di_augusto_2020.pdf",
+      "outcome": "proposed work",
+      "title": "Canale di Augusto 2020",
+      "titleFrom": "text",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/magellania/impero_terrestre_feder.pdf",
+      "outcome": "proposed work",
+      "title": "L'Impero Astrale Terrestre",
+      "titleFrom": "catalog",
+      "authors": [
+        "feder"
+      ]
+    },
+    {
+      "path": "utopiaucronia/magellania/invasione_anno_zero.pdf",
+      "outcome": "proposed work",
+      "title": "Invasione: Anno Zero",
+      "titleFrom": "catalog",
+      "authors": [
+        "Ainelif"
+      ]
+    },
+    {
+      "path": "utopiaucronia/magellania/pci_2020.pdf",
+      "outcome": "proposed work",
+      "title": "Il PCI nel 2020",
+      "titleFrom": "catalog",
+      "authors": [
+        "Dario Carcano"
+      ]
+    },
+    {
+      "path": "utopiaucronia/maggio_1976.pdf",
+      "outcome": "proposed work",
+      "title": "1976, il Compromesso Fantastorico",
+      "titleFrom": "catalog",
+      "authors": [
+        "Andrea Vignozzi"
+      ]
+    },
+    {
+      "path": "utopiaucronia/mondiali_2018_nostradamus.pdf",
+      "outcome": "proposed work",
+      "title": "Campionati Mondiali Ucronici 2018",
+      "titleFrom": "catalog",
+      "authors": [
+        "Nostradamus"
+      ]
+    },
+    {
+      "path": "utopiaucronia/nasc_conf_it.pdf",
+      "outcome": "proposed work",
+      "title": "La Confederazione Italiana",
+      "titleFrom": "catalog",
+      "authors": [
+        "MAS"
+      ]
+    },
+    {
+      "path": "utopiaucronia/neodinosauri.pdf",
+      "outcome": "proposed work",
+      "title": "I Neodinosauri",
+      "titleFrom": "catalog",
+      "authors": [
+        "Andrea Villa"
+      ]
+    },
+    {
+      "path": "utopiaucronia/nouivelle_france/calcio_ucronico.pdf",
+      "outcome": "proposed work",
+      "title": "È tutto un altro... calcio",
+      "titleFrom": "catalog",
+      "authors": [
+        "Det0"
+      ]
+    },
+    {
+      "path": "utopiaucronia/nouivelle_france/draghi_e_droghe_20082016.pdf",
+      "outcome": "proposed work",
+      "title": "Draghi e droghe",
+      "titleFrom": "catalog",
+      "authors": [
+        "Bhrg'hros"
+      ]
+    },
+    {
+      "path": "utopiaucronia/nouivelle_france/ucronìa_calcistica.pdf",
+      "outcome": "proposed work",
+      "title": "È tutto un altro... calcio",
+      "titleFrom": "catalog",
+      "authors": [
+        "Giovanni Ricci"
+      ]
+    },
+    {
+      "path": "utopiaucronia/parallelo63.pdf",
+      "outcome": "proposed work",
+      "title": "Parallelo '63",
+      "titleFrom": "catalog",
+      "authors": [
+        "Federico Mosso"
+      ]
+    },
+    {
+      "path": "utopiaucronia/regni_uniti_di_romania.pdf",
+      "outcome": "proposed work",
+      "title": "Regni Uniti di Romania",
+      "titleFrom": "catalog",
+      "authors": [
+        "Alessio Mammarella"
+      ]
+    },
+    {
+      "path": "utopiaucronia/regno_italiano_d_etiopia.pdf",
+      "outcome": "proposed work",
+      "title": "Il Regno Italiano d'Etiopia",
+      "titleFrom": "catalog",
+      "authors": [
+        "Maggioriano"
+      ]
+    },
+    {
+      "path": "utopiaucronia/regno_di_siberia.pdf",
+      "outcome": "proposed work",
+      "title": "L'impero di Siberia",
+      "titleFrom": "catalog",
+      "authors": [
+        "Maggioriano"
+      ]
+    },
+    {
+      "path": "utopiaucronia/restauratio_imperii_di_giulio_nepote.pdf",
+      "outcome": "proposed work",
+      "title": "Giulio Nepote restaura l'Impero",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/roma_eterna.pdf",
+      "outcome": "proposed work",
+      "title": "Roma, la Città Eterna",
+      "titleFrom": "catalog",
+      "authors": [
+        "MAS"
+      ]
+    },
+    {
+      "path": "utopiaucronia/tawantinsuyu_2014.pdf",
+      "outcome": "proposed work",
+      "title": "Campionati Mondiali Ucronici 2014",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/trib_perdute.pdf",
+      "outcome": "proposed work",
+      "title": "Le tribù perdute",
+      "titleFrom": "catalog",
+      "authors": [
+        "MAS"
+      ]
+    },
+    {
+      "path": "utopiaucronia/ucropei.pdf",
+      "outcome": "proposed work",
+      "title": "Campionati Ucropei di Calcio",
+      "titleFrom": "catalog",
+      "authors": [
+        "Det0"
+      ]
+    },
+    {
+      "path": "utopiaucronia/un_altra_savoia.pdf",
+      "outcome": "proposed work",
+      "title": "Un'altra Savoia",
+      "titleFrom": "catalog",
+      "authors": [
+        "feder"
+      ]
+    },
+    {
+      "path": "utopiaucronia/valentino/amanullah_khan.pdf",
+      "outcome": "proposed work",
+      "title": "Amanullah Khan il Grande",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/valentino/borgia.pdf",
+      "outcome": "proposed work",
+      "title": "Cesare Borgia, il Principe di Roma",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/valentino/dinastie_canale.pdf",
+      "outcome": "proposed work",
+      "title": "Dinastie del Canale",
+      "titleFrom": "text",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/valentino/europa_congelata_al_1815.pdf",
+      "outcome": "proposed work",
+      "title": "L'Europa geopoliticamente congelata al 1815",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/valentino/fanta_medicina.pdf",
+      "outcome": "proposed work",
+      "title": "FantaMedicina",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/valentino/grande_pescara.pdf",
+      "outcome": "proposed work",
+      "title": "Grande Pescara",
+      "titleFrom": "pdf",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/valentino/impero_atlantideo.pdf",
+      "outcome": "proposed work",
+      "title": "L'Impero Atlantideo",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/valentino/ucronie_simmetriche.pdf",
+      "outcome": "proposed work",
+      "title": "Riflettendo sulle ucronie simmetriche",
+      "titleFrom": "catalog",
+      "authors": [
+        "Edoardo Secco"
+      ]
+    },
+    {
+      "path": "utopiaucronia/valentino/valiant_i.pdf",
+      "outcome": "proposed work",
+      "title": "Re Valiant I di Thule",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/vssa/democrazia_buona_la_prima.pdf",
+      "outcome": "proposed work",
+      "title": "Democrazia, buona la prima!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/vssa/fanta_1905.pdf",
+      "outcome": "proposed work",
+      "title": "1905, l'anno cha cambiò la storia",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/vssa/fanta_ferdinando.pdf",
+      "outcome": "proposed work",
+      "title": "Ferdinando I il Saggio",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/vssa/fanta_tell.pdf",
+      "outcome": "proposed work",
+      "title": "Il Trono della Balestra",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/vssa/grande_repubblica_ligure.pdf",
+      "outcome": "proposed work",
+      "title": "La Grande Repubblica Ligure",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/vssa/secondi_paleologi.pdf",
+      "outcome": "proposed work",
+      "title": "I Secondi Paleologi",
+      "titleFrom": "catalog",
+      "authors": [
+        "Paolo Maltagliati"
+      ]
+    },
+    {
+      "path": "utopiaucronia/vssa/storiedellecolonie.pdf",
+      "outcome": "proposed work",
+      "title": "Storie delle Colonie",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "racconti/homo_angelus.pdf",
+      "outcome": "proposed work",
+      "title": "Homo angelus",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_messico/code_geass_per_davvero_2.pdf",
+      "outcome": "proposed work",
+      "title": "Code Geass per davvero!: Parte Seconda (476 - 1492)",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_messico/code_geass_per_davvero_1.pdf",
+      "outcome": "proposed work",
+      "title": "Code Geass per davvero!: Parte Prima (55 a.C. - 476 d.C.)",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_messico/code_geass_per_davvero_3.pdf",
+      "outcome": "proposed work",
+      "title": "Code Geass per davvero!: Parte Terza (1492 - 1807)",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_messico/code_geass_per_davvero_4.pdf",
+      "outcome": "proposed work",
+      "title": "Code Geass per davvero!: Parte Quarta (1807 - 1905)",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_messico/code_geass_per_davvero_6.pdf",
+      "outcome": "proposed work",
+      "title": "Code Geass per davvero!: Parte Sesta (1960 - 1987)",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_messico/code_geass_per_davvero_5.pdf",
+      "outcome": "proposed work",
+      "title": "Code Geass per davvero!: Parte Quinta (1905 - 1959)",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_messico/code_geass_per_davvero_7.pdf",
+      "outcome": "proposed work",
+      "title": "Code Geass per davvero!: Parte Settima (1988 - 2010)",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_messico/code_geass_per_davvero_8.pdf",
+      "outcome": "proposed work",
+      "title": "Code Geass per davvero!: Parte ottava (2011 - 2024)",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/nineveh_never_dies.pdf",
+      "outcome": "download copy of a page",
+      "duplicateOf": "utopiaucronia/fanta_assiri.htm",
+      "containment": 0.89
+    },
+    {
+      "path": "utopiaucronia/emmaida_ai.pdf",
+      "outcome": "scan: OCR pending"
+    },
+    {
+      "path": "utopiaucronia/grande_messico/la_libia_potenza_regionale.pdf",
+      "outcome": "proposed work",
+      "title": "La Libia potenza regionale",
+      "titleFrom": "catalog",
+      "authors": [
+        "Inuyasha Han'yō"
+      ]
+    },
+    {
+      "path": "utopiaucronia/900_toponimi_indoeuropei.pdf",
+      "outcome": "proposed work",
+      "title": "900 toponimi indoeuropei",
+      "titleFrom": "text",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/magellania/impero_romano_africano.pdf",
+      "outcome": "proposed work",
+      "title": "L'Impero Romano Africano",
+      "titleFrom": "catalog",
+      "authors": [
+        "Dario Carcano"
+      ]
+    },
+    {
+      "path": "utopiaucronia/etruschi/caesar_709_1.pdf",
+      "outcome": "proposed work",
+      "title": "Idi di marzo dell'anno 709",
+      "titleFrom": "catalog",
+      "authors": [
+        "Maurizio Costa"
+      ]
+    },
+    {
+      "path": "utopiaucronia/gmr/fanta_genserico.pdf",
+      "outcome": "proposed work",
+      "title": "468, Genserico va KO",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/uai/canale/fanta_canossa.pdf",
+      "outcome": "proposed work",
+      "title": "Avanti, Canossa!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Lilius"
+      ]
+    },
+    {
+      "path": "utopiaucronia/magellania/svevia_eterna_1.pdf",
+      "outcome": "proposed work",
+      "title": "L'Ucronia Sveva",
+      "titleFrom": "catalog",
+      "authors": [
+        "Paolo Maltagliati"
+      ]
+    },
+    {
+      "path": "utopiaucronia/gmr/fanta_isola_comacina.pdf",
+      "outcome": "proposed work",
+      "title": "L'Impero Bizantino dell'Isola Comacina",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/ilo.pdf",
+      "outcome": "proposed work",
+      "title": "L'Impero Latino d'Occidente",
+      "titleFrom": "catalog",
+      "authors": [
+        "Giampiero Ferrone"
+      ]
+    },
+    {
+      "path": "utopiaucronia/due_imperi/la_grande_albania.pdf",
+      "outcome": "proposed work",
+      "title": "La Grande Albania",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/gmr/grande_lituania.pdf",
+      "outcome": "proposed work",
+      "title": "La Grande Lituania",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/due_imperi/bisanzio_eterna.pdf",
+      "outcome": "proposed work",
+      "title": "Il Despotato di Morea",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/serica_caput_mundi.pdf",
+      "outcome": "proposed work",
+      "title": "Serica Caput Mundi",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/canale/borghi_utopia_nella_storia.pdf",
+      "outcome": "proposed work",
+      "title": "L'\"utopia nella storia\": un profilo mancato delle Americhe",
+      "titleFrom": "catalog",
+      "authors": [
+        "Bhrg'hros"
+      ]
+    },
+    {
+      "path": "utopiaucronia/nouivelle_france/spagna_islamica.pdf",
+      "outcome": "proposed work",
+      "title": "L'America Islamica",
+      "titleFrom": "catalog",
+      "authors": [
+        "Rivoluzionario Liberale"
+      ]
+    },
+    {
+      "path": "utopiaucronia/vssa/mustafa_iii_koca.pdf",
+      "outcome": "proposed work",
+      "title": "Mustafa III Koca",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/federated_commonwealth_empire.pdf",
+      "outcome": "proposed work",
+      "title": "Federated Commonwealth Empire",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/luigi _i_il_grande.pdf",
+      "outcome": "proposed work",
+      "title": "Luigi II il Grande",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/magellania/1848 _repubblica_italiana.pdf",
+      "outcome": "proposed work",
+      "title": "1848, nasce la Repubblica Italiana!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Dario Carcano"
+      ]
+    },
+    {
+      "path": "utopiaucronia/due_imperi/utopia_asburgica.pdf",
+      "outcome": "proposed work",
+      "title": "Un'utopia asburgica",
+      "titleFrom": "catalog",
+      "authors": [
+        "Iacopo"
+      ]
+    },
+    {
+      "path": "utopiaucronia/germaniinoriente/nessuna_unita_italiana.pdf",
+      "outcome": "proposed work",
+      "title": "Nessuna Unità d'Italia",
+      "titleFrom": "catalog",
+      "authors": [
+        "Rivoluzionario Liberale"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/impero_scandinavo.pdf",
+      "outcome": "proposed work",
+      "title": "L'Impero Scandinavo",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/magellania/aviz_farnese.pdf",
+      "outcome": "proposed work",
+      "title": "La Dinastia Aviz-Farnese",
+      "titleFrom": "catalog",
+      "authors": [
+        "Alessio Mammarella"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/fanta_khorasan.pdf",
+      "outcome": "proposed work",
+      "title": "La Repubblica Islamica Federale di Khorasan-e-Hind",
+      "titleFrom": "catalog",
+      "authors": [
+        "Alessio Mammarella"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/muhammad_ali_il_grande.pdf",
+      "outcome": "proposed work",
+      "title": "Muhammad Ali il Grande",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/fath_ali_i_il_restauratore..pdf",
+      "outcome": "proposed work",
+      "title": "Fath Ali I il Restauratore",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/magellania/balkania.pdf",
+      "outcome": "proposed work",
+      "title": "La Repubblica di Balkania",
+      "titleFrom": "catalog",
+      "authors": [
+        "Alessio Mammarella"
+      ]
+    },
+    {
+      "path": "utopiaucronia/storia_alternativa_del_nordamerica.pdf",
+      "outcome": "proposed work",
+      "title": "Storia alternativa del Nordamerica",
+      "titleFrom": "catalog",
+      "authors": [
+        "Filobeche"
+      ]
+    },
+    {
+      "path": "utopiaucronia/gmr/monarchiafrancese.pdf",
+      "outcome": "proposed work",
+      "title": "Restaurazione monarchica francese nel 1873",
+      "titleFrom": "catalog",
+      "authors": [
+        "Ainelif"
+      ]
+    },
+    {
+      "path": "utopiaucronia/uai/canale/rfdtr.pdf",
+      "outcome": "proposed work",
+      "title": "La Repubblica Federale Democratica di Tutte le Russie",
+      "titleFrom": "catalog",
+      "authors": [
+        "M. Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/grande_iraq.pdf",
+      "outcome": "proposed work",
+      "title": "Il Grande Iraq",
+      "titleFrom": "catalog",
+      "authors": [
+        "Inuyasha Han'yō"
+      ]
+    },
+    {
+      "path": "utopiaucronia/fanta_celeste_impero.pdf",
+      "outcome": "proposed work",
+      "title": "Lunga vita al Celeste Impero!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/etruschi/fanta_kennedy.pdf",
+      "outcome": "proposed work",
+      "title": "22/11/1963, Kennedy sopravvive",
+      "titleFrom": "catalog",
+      "authors": [
+        "Federico Sangalli"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/unione_sovietica_e_cina_scambiate_di_posto.pdf",
+      "outcome": "proposed work",
+      "title": "Unione Sovietica e Cina scambiate!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Inuyasha Han'yō"
+      ]
+    },
+    {
+      "path": "utopiaucronia/gmr/siamo_sicuri_della_vittoria.pdf",
+      "outcome": "approved, not published: overprinted text fails the independent text-layer check",
+      "title": "1999, Indipendenza della Padania",
+      "titleFrom": "catalog",
+      "authors": [
+        "Homer"
+      ]
+    },
+    {
+      "path": "utopiaucronia/francia_italia/bin_laden_filoamericano.pdf",
+      "outcome": "proposed work",
+      "title": "Bin Laden filoamericano",
+      "titleFrom": "catalog",
+      "authors": [
+        "dDuck"
+      ]
+    },
+    {
+      "path": "utopiaucronia/uai/canale/niente_watergate.pdf",
+      "outcome": "proposed work",
+      "title": "Ho Chi Minh resta Saigon",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/nouivelle_france/unita_marxista.pdf",
+      "outcome": "proposed work",
+      "title": "Unità marxista",
+      "titleFrom": "catalog",
+      "authors": [
+        "Dario Carcano"
+      ]
+    },
+    {
+      "path": "utopiaucronia/magellania/apocalypse_now_america.pdf",
+      "outcome": "proposed work",
+      "title": "Apocalypse Now America",
+      "titleFrom": "catalog",
+      "authors": [
+        "Federico",
+        "Sangalli"
+      ]
+    },
+    {
+      "path": "utopiaucronia/germaniinoriente/qadisiyyah.pdf",
+      "outcome": "proposed work",
+      "title": "La Qâdisiyyah di Saddam",
+      "titleFrom": "catalog",
+      "authors": [
+        "Perchè no?"
+      ]
+    },
+    {
+      "path": "utopiaucronia/nouivelle_france/mondo_balcanizzato.pdf",
+      "outcome": "proposed work",
+      "title": "Il mondo balcanizzato",
+      "titleFrom": "catalog",
+      "authors": [
+        "Generalissimus"
+      ]
+    },
+    {
+      "path": "utopiaucronia/iiigm_tebaldi.pdf",
+      "outcome": "proposed work",
+      "title": "Lo scontro India-Pakistan e la 3a Guerra Mondiale",
+      "titleFrom": "catalog",
+      "authors": [
+        "Giorgio Tebaldi"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_australia/storia_futura_1_valerio.pdf",
+      "outcome": "proposed work",
+      "title": "La Storia Futura secondo MorteBianca",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/grande_messico/guerradellerisorse.pdf",
+      "outcome": "approved, not published: overprinted text fails the independent text-layer check",
+      "title": "La guerra delle risorse",
+      "titleFrom": "catalog",
+      "authors": [
+        "Homer"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dante33/repubblica_d_inghilterra.pdf",
+      "outcome": "proposed work",
+      "title": "La Repubblica d'Inghilterra",
+      "titleFrom": "catalog",
+      "authors": [
+        "Federico Sangalli"
+      ]
+    },
+    {
+      "path": "utopiaucronia/due_imperi/uk_nell_euro.pdf",
+      "outcome": "proposed work",
+      "title": "2035, il Regno Unito adotta l'euro",
+      "titleFrom": "catalog",
+      "authors": [
+        "Ainelif"
+      ]
+    },
+    {
+      "path": "utopiaucronia/etruschi/italia_neutrale_vittoria_alleata.pdf",
+      "outcome": "proposed work",
+      "title": "Italia neutrale, vittoria alleata",
+      "titleFrom": "catalog",
+      "authors": [
+        "Inuyasha Han'yō"
+      ]
+    },
+    {
+      "path": "utopiaucronia/uai/canale/fanta_valchiria.pdf",
+      "outcome": "proposed work",
+      "title": "L'Operazione Valchiria è un successo",
+      "titleFrom": "catalog",
+      "authors": [
+        "Massimiliano Paleari"
+      ]
+    },
+    {
+      "path": "utopiaucronia/egypte/a_noi.pdf",
+      "outcome": "proposed work",
+      "title": "A noi! (il Terzo Reich finisce nel 2008)",
+      "titleFrom": "catalog",
+      "authors": [
+        "Homer"
+      ]
+    },
+    {
+      "path": "utopiaucronia/grande_milano/fascismo_postbellico.pdf",
+      "outcome": "proposed work",
+      "title": "Fascismo postbellico",
+      "titleFrom": "catalog",
+      "authors": [
+        "Dario Carcano"
+      ]
+    },
+    {
+      "path": "utopiaucronia/etruschi/fanta_terzo_reich.pdf",
+      "outcome": "proposed work",
+      "title": "Il Terzo Reich ha vinto!",
+      "titleFrom": "catalog",
+      "authors": [
+        "Inuyasha Han'yō"
+      ]
+    },
+    {
+      "path": "utopiaucronia/themaninthehighcastleperdavvero.pdf",
+      "outcome": "proposed work",
+      "title": "The Man in the High Castle per davvero",
+      "titleFrom": "catalog",
+      "authors": [
+        "Inuyasha Han'yō"
+      ]
+    },
+    {
+      "path": "utopiaucronia/valentino/bao_dai_il_grande.pdf",
+      "outcome": "proposed work",
+      "title": "Bao Dai il Grande",
+      "titleFrom": "catalog",
+      "authors": [
+        "Tommaso Mazzoni"
+      ]
+    },
+    {
+      "path": "utopiaucronia/asse_berlino_mosca.pdf",
+      "outcome": "proposed work",
+      "title": "Asse Berlino-Mosca",
+      "titleFrom": "catalog",
+      "authors": [
+        "Inuyasha Han'yō"
+      ]
+    },
+    {
+      "path": "utopiaucronia/san_moriduno.pdf",
+      "outcome": "proposed work",
+      "title": "Il Libro di San Moriduno",
+      "titleFrom": "catalog",
+      "authors": [
+        "Dario Carcano"
+      ]
+    },
+    {
+      "path": "utopiaucronia/dipinti_sandro/westeros_751.pdf",
+      "outcome": "proposed work",
+      "title": "Westeros, Anno 751",
+      "titleFrom": "catalog",
+      "authors": [
+        "Fortunato Denegri"
+      ]
+    },
+    {
+      "path": "utopiaucronia/l_uomo_nell_alto_castello.pdf",
+      "outcome": "proposed work",
+      "title": "Cronologia de L'uomo nell'alto castello",
+      "titleFrom": "catalog",
+      "authors": []
+    },
+    {
+      "path": "racconti/come_un_verme_in_una_mela.pdf",
+      "outcome": "proposed work",
+      "title": "Come un verme in una mela",
+      "titleFrom": "catalog",
+      "authors": [
+        "William Riker"
+      ]
+    },
+    {
+      "path": "racconti/alpha-omega.pdf",
+      "outcome": "proposed work",
+      "title": "Alpha-Omega",
+      "titleFrom": "catalog",
+      "authors": [
+        "Riccardo Querciagrossa"
+      ]
+    },
+    {
+      "path": "utopiaucronia/nouivelle_france/federico_il_navigatore.pdf",
+      "outcome": "proposed work",
+      "title": "Cosa sarebbe successo se Federico II il grande di Prussia avesse perso la guerra per la Slesia ?",
+      "titleFrom": "pdf",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/dante33/uomo_che_pote_essere_re.pdf",
+      "outcome": "proposed work",
+      "title": "L'Uomo che potè essere Re",
+      "titleFrom": "text",
+      "authors": []
+    },
+    {
+      "path": "racconti/l_uomo_della_luna.pdf",
+      "outcome": "download copy of a page",
+      "duplicateOf": "utopiaucronia/uomo_della_luna.htm",
+      "containment": 0.98
+    },
+    {
+      "path": "racconti/il_sacrario_delle_sabbie.pdf",
+      "outcome": "proposed work",
+      "title": "Il sacrario delle sabbie",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "utopiaucronia/cazari_eterni.pdf",
+      "outcome": "download copy of a page",
+      "duplicateOf": "utopiaucronia/cazari_eterni.htm",
+      "containment": 0.98
+    },
+    {
+      "path": "racconti/il_piu_potente.pdf",
+      "outcome": "proposed work",
+      "title": "Il piú potente",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/l_architetto_di_kemet.pdf",
+      "outcome": "proposed work",
+      "title": "L'Architetto di Kemet",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/teiera_spaziale.pdf",
+      "outcome": "proposed work",
+      "title": "La teiera spaziale",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/sposo_di_sangue.pdf",
+      "outcome": "proposed work",
+      "title": "Lo sposo di sangue",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/praterie_del_cielo.pdf",
+      "outcome": "proposed work",
+      "title": "Le Praterie del Cielo",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/dramma_in_laguna.pdf",
+      "outcome": "proposed work",
+      "title": "Un dramma in laguna",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/mostri_sotto_al_letto.pdf",
+      "outcome": "proposed work",
+      "title": "I mostri sotto al letto",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/procul_a_procula.pdf",
+      "outcome": "proposed work",
+      "title": "Procul a Procula",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/sentiero_dell_orsa.pdf",
+      "outcome": "proposed work",
+      "title": "Il Sentiero dell'Orsa",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/diamante_nero.pdf",
+      "outcome": "proposed work",
+      "title": "Il diamante nero",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/lettera_di_enoch.pdf",
+      "outcome": "proposed work",
+      "title": "Lettera di Enoch",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/colui_che_tutto_vide.pdf",
+      "outcome": "proposed work",
+      "title": "Colui che tutto vide",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/il_trono_in_mezzo_al_mare.pdf",
+      "outcome": "proposed work",
+      "title": "Il trono in mezzo al mare",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/memorie_di_un_ittita.pdf",
+      "outcome": "proposed work",
+      "title": "Memorie di un ittita",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/dai_confini_del_mondo.pdf",
+      "outcome": "proposed work",
+      "title": "Dai confini del mondo",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/marco16.pdf",
+      "outcome": "proposed work",
+      "title": "Marco 16, 9-20",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/vangelo_di_giuseppe_e_maria.pdf",
+      "outcome": "proposed work",
+      "title": "Vangelo di Giuseppe e Maria",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/i_due_orsi.pdf",
+      "outcome": "proposed work",
+      "title": "I due orsi",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/sotto_il_velame.pdf",
+      "outcome": "proposed work",
+      "title": "Sotto il velame",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/settima_tromba.pdf",
+      "outcome": "proposed work",
+      "title": "La settima tromba",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/dente_di_drago.pdf",
+      "outcome": "proposed work",
+      "title": "Il dente di drago",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/nella_durata_di_un_sogno.pdf",
+      "outcome": "proposed work",
+      "title": "Nella durata di un sogno",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/torre_del_serpente.pdf",
+      "outcome": "proposed work",
+      "title": "La torre del serpente",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/spada_laser.pdf",
+      "outcome": "proposed work",
+      "title": "La Spada Laser",
+      "titleFrom": "link",
+      "authors": []
+    },
+    {
+      "path": "racconti/poesie colleghi/il_tuo_amico.pdf",
+      "outcome": "proposed work",
+      "title": "Il tuo amico",
+      "titleFrom": "link",
+      "authors": []
+    }
+  ],
+  "published": 209,
+  "deferredOverprint": 4
+}

@@ -28,6 +28,7 @@
     "backup": "node scripts/backup.ts",
     "restore:test": "node scripts/restore-test.ts",
     "views:check": "node scripts/check-views.ts",
+    "attachments": "node scripts/attachments.ts",
     "deploy:verify": "node scripts/verify-access.ts",
     "editorial:map": "node scripts/generate-map.ts",
     "editorial:sample": "node scripts/select-validation.ts",

@@ -194,10 +194,16 @@ export function convertHtml(
   // FrontPage uses hand-typed numbering: do not turn it into new lists.
   const escapeMarkdown = td.escape.bind(td);
   // "88." or "3)" alone on a line would otherwise be an empty list item.
+  // A web address written as text stays text: an empty HTML comment keeps
+  // the Markdown processor from turning it into an outgoing link, where its
+  // escapes ("\_", "&amp;") would show literally.
   td.escape = (text) =>
     escapeMarkdown(
       text.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;"),
-    ).replace(/^(\s*\d+)([.)])(?=\s|$)/gm, "$1\\$2");
+    )
+      .replace(/^(\s*\d+)([.)])(?=\s|$)/gm, "$1\\$2")
+      .replace(/\b(https?|ftp)(?=:\/\/)/gi, "$1<!-- -->")
+      .replace(/\bwww(?=\.)/gi, "www<!-- -->");
   // Retain source display dimensions; Turndown's image rule drops them.
   td.addRule("sourceIllustrations", {
     filter: "img",

@@ -6,7 +6,7 @@ import { readdir } from "node:fs/promises";
  * a margin, before CI tries to upload.
  */
 const limit = 20_000;
-const budget = Number(process.env.ASSET_FILE_BUDGET ?? 18_000);
+const budget = Number(process.env.ASSET_FILE_BUDGET ?? 19_500);
 const files = (
   await readdir("dist", { recursive: true, withFileTypes: true })
 ).filter((entry) => entry.isFile()).length;

@@ -37,6 +37,10 @@ const ROUTES = [
   "/works/keikyo-il-giappone-nestoriano-7176c306/",
   "/works/1848-nasce-la-repubblica-italiana-7c5e68c2/",
   "/works/introduzione-ffaddce0/",
+  // Reading editions from PDFs (S7): a chronology, and the longest (438
+  // pages, 58 illustrations).
+  "/works/canale-di-augusto-2020-fc2f1d6b/",
+  "/works/operazione-leone-marino-85adca28/",
   "/divergences/",
   "/divergences/il-business-plot-1ee21bfc/",
   "/eras/",

@@ -1,6 +1,7 @@
 import assert from "node:assert/strict";
 import { access, readdir, readFile } from "node:fs/promises";
 import { load } from "cheerio";
+import { hasSourcePage } from "../src/source-pages.ts";
 import { fileFacts, openCache } from "./build-cache.ts";
 import { documentId } from "./editorial-core.ts";
 import { safePath, writeJson } from "./recovery/core.ts";
@@ -73,10 +74,12 @@ for (const lang of ["it", "en"]) {
     const sources = $.sources;
     assert.deepEqual(
       sources,
-      item.sources.map(
-        (source) =>
-          `${prefix}/sources/${source.documentId ?? documentId(source.url)}/`,
-      ),
+      item.sources
+        .filter((source) => hasSourcePage(source.url))
+        .map(
+          (source) =>
+            `${prefix}/sources/${source.documentId ?? documentId(source.url)}/`,
+        ),
     );
     sourceLinks += sources.length;
     const ids = new Set($.ids);

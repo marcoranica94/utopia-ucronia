@@ -1,5 +1,6 @@
 import { mkdir, readFile } from "node:fs/promises";
 import { load } from "cheerio";
+import { hasSourcePage } from "../src/source-pages.ts";
 import { openCache, plain } from "./build-cache.ts";
 import { documentTitle } from "./conversion.ts";
 import { documentId, readMap, redact, sourceHtml } from "./editorial-core.ts";
@@ -27,7 +28,9 @@ const gaps = JSON.parse(
 const ids = [
   ...new Set(
     converted.flatMap((item) =>
-      item.sources.map((source) => source.documentId),
+      item.sources
+        .filter((source) => hasSourcePage(source.url))
+        .map((source) => source.documentId),
     ),
   ),
 ];

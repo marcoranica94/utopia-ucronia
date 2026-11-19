@@ -1,0 +1,1717 @@
+{
+  "ownerInstruction": "Sì, approvo tutte in blocco",
+  "authorization": "Owner approval of 18 November 2026, given through a question in conversation, of all new PDF/zip work proposals of S7 (attachments read as text); no classification approvals.",
+  "packets": [
+    {
+      "packetSha256": "bf105b56a7a581df380cf5682d390016ff2b6666d6546e59aea65ea2ea966da3",
+      "action": "work",
+      "approvedAt": "2026-11-19T08:35:17.307Z",
+      "entries": [
+        {
+          "proposalId": "proposal-doc-2efe1d5dd448",
+          "action": "work",
+          "title": "La Repubblica Illirica",
+          "path": "/works/la-repubblica-illirica-2efe1d5d/",
+          "source": "utopiaucronia/dipinti_sandro/repubblica_illirica.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-9bc7168328c2",
+          "action": "work",
+          "title": "Giustizia per Riccardo III",
+          "path": "/works/giustizia-per-riccardo-iii-9bc71683/",
+          "source": "utopiaucronia/dante33/giustizia_per_riccardo_iii.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-95e8ef1b97be",
+          "action": "work",
+          "title": "L'evitabile caduta del Regno Italico",
+          "path": "/works/l-evitabile-caduta-del-regno-italico-95e8ef1b/",
+          "source": "utopiaucronia/due_imperi/1814_regno_italico.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-2acf6cbd2904",
+          "action": "work",
+          "title": "Il Trono del Toro",
+          "path": "/works/il-trono-del-toro-2acf6cbd/",
+          "source": "racconti/il_trono_del_toro.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-ac3002dcd471",
+          "action": "work",
+          "title": "L’anno 2440. Speranze e sogni dell’età dei Lumi",
+          "path": "/works/l-anno-2440-speranze-e-sogni-dell-eta-dei-lumi-ac3002dc/",
+          "source": "utopiaucronia/anno_2440.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-4897b7cd9463",
+          "action": "work",
+          "title": "Battaglia per l’Italia",
+          "path": "/works/battaglia-per-l-italia-4897b7cd/",
+          "source": "utopiaucronia/battagliaperlitalia.pdf",
+          "titleFrom": "pdf"
+        },
+        {
+          "proposalId": "proposal-doc-5de5716b7260",
+          "action": "work",
+          "title": "Rep. Fed. Democratica di Tutte le Russie",
+          "path": "/works/rep-fed-democratica-di-tutte-le-russie-5de5716b/",
+          "source": "utopiaucronia/canale/rfdtr.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-c22b59d200e8",
+          "action": "work",
+          "title": "Il Commonwealth Imperiale",
+          "path": "/works/il-commonwealth-imperiale-c22b59d2/",
+          "source": "utopiaucronia/commonwealth_imperiale.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-31b5f78ce869",
+          "action": "work",
+          "title": "Costituzione della Repubblica italiana",
+          "path": "/works/costituzione-della-repubblica-italiana-31b5f78c/",
+          "source": "utopiaucronia/costituzione_alessio.pdf",
+          "titleFrom": "pdf"
+        },
+        {
+          "proposalId": "proposal-doc-3db968045473",
+          "action": "work",
+          "title": "Atompunk",
+          "path": "/works/atompunk-3db96804/",
+          "source": "utopiaucronia/dante33/atompunk.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-bdf42a62ac18",
+          "action": "work",
+          "title": "Quindici livelli di appartenenza sociale in indoeuropeo preistorico",
+          "path": "/works/quindici-livelli-di-appartenenza-sociale-in-indoeuropeo-preistorico-bdf42a62/",
+          "source": "utopiaucronia/dante33/clanna.pdf",
+          "titleFrom": "text"
+        },
+        {
+          "proposalId": "proposal-doc-7126f15004aa",
+          "action": "work",
+          "title": "Clockpunk",
+          "path": "/works/clockpunk-7126f150/",
+          "source": "utopiaucronia/dante33/clockpunk.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-df18c767997a",
+          "action": "work",
+          "title": "Dieselpunk",
+          "path": "/works/dieselpunk-df18c767/",
+          "source": "utopiaucronia/dante33/dieselpunk.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-ec5b598d0f44",
+          "action": "work",
+          "title": "La guerra parallela di Mussolini",
+          "path": "/works/la-guerra-parallela-di-mussolini-ec5b598d/",
+          "source": "utopiaucronia/dante33/guerra_parallela.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-2b052411ccbb",
+          "action": "work",
+          "title": "I \"Mille\" del Duca",
+          "path": "/works/i-mille-del-duca-2b052411/",
+          "source": "utopiaucronia/dante33/i_mille_del_duca.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-e9ccb0fac134",
+          "action": "work",
+          "title": "La Grande Lunezia",
+          "path": "/works/la-grande-lunezia-e9ccb0fa/",
+          "source": "utopiaucronia/dante33/la_grande_lunezia.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-988802d4aebb",
+          "action": "work",
+          "title": "Oltre il limite",
+          "path": "/works/oltre-il-limite-988802d4/",
+          "source": "utopiaucronia/dante33/oltre_il_limite.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-e8ed632b10d0",
+          "action": "work",
+          "title": "La prima vera Guerra Civile Americana",
+          "path": "/works/la-prima-vera-guerra-civile-americana-e8ed632b/",
+          "source": "utopiaucronia/dante33/prima_vera_guerra_civile.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-1607a4f93219",
+          "action": "work",
+          "title": "Retropunk",
+          "path": "/works/retropunk-1607a4f9/",
+          "source": "utopiaucronia/dante33/retropunk.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-6e579dead7af",
+          "action": "work",
+          "title": "La Repubblica dei Pirati del Verbano",
+          "path": "/works/la-repubblica-dei-pirati-del-verbano-6e579dea/",
+          "source": "utopiaucronia/dante33/rpv.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-781c2c7be858",
+          "action": "work",
+          "title": "La Spagna con l'Alleanza",
+          "path": "/works/la-spagna-con-l-alleanza-781c2c7b/",
+          "source": "utopiaucronia/dante33/spagna_con_l_alleanza.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-1c1a201fbb3b",
+          "action": "work",
+          "title": "Solarpunk",
+          "path": "/works/solarpunk-1c1a201f/",
+          "source": "utopiaucronia/dante33/solarpunk.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-3c22704bcec9",
+          "action": "work",
+          "title": "Teslapunk",
+          "path": "/works/teslapunk-3c22704b/",
+          "source": "utopiaucronia/dante33/teslapunk.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-17fb6cad076f",
+          "action": "work",
+          "title": "Steampunk per davvero",
+          "path": "/works/steampunk-per-davvero-17fb6cad/",
+          "source": "utopiaucronia/dante33/steampunk.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-2ed4a2d0567b",
+          "action": "work",
+          "title": "Dago per davvero!",
+          "path": "/works/dago-per-davvero-2ed4a2d0/",
+          "source": "utopiaucronia/dante33/ucronia_di_dago.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-ba9bf2110041",
+          "action": "work",
+          "title": "Unione Sovietica e Cina scambiate!",
+          "path": "/works/unione-sovietica-e-cina-scambiate-ba9bf211/",
+          "source": "utopiaucronia/dante33/urssecinascambiate.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-800e3b1b0edf",
+          "action": "work",
+          "title": "Waterpunk",
+          "path": "/works/waterpunk-800e3b1b/",
+          "source": "utopiaucronia/dante33/waterpunk.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-0650fbeaa812",
+          "action": "work",
+          "title": "Joshua A. Norton imperatore degli USA",
+          "path": "/works/joshua-a-norton-imperatore-degli-usa-0650fbea/",
+          "source": "utopiaucronia/dipinti_sandro/17_settembre_1859.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-1adb7912d9b9",
+          "action": "work",
+          "title": "Caligola il Grande",
+          "path": "/works/caligola-il-grande-1adb7912/",
+          "source": "utopiaucronia/dipinti_sandro/caligola_il_grande.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-2320e86db388",
+          "action": "work",
+          "title": "Estado eterno",
+          "path": "/works/estado-eterno-2320e86d/",
+          "source": "utopiaucronia/dipinti_sandro/estado_eterno.pdf",
+          "titleFrom": "pdf"
+        },
+        {
+          "proposalId": "proposal-doc-05fc0bb8f126",
+          "action": "work",
+          "title": "La Grande Svezia",
+          "path": "/works/la-grande-svezia-05fc0bb8/",
+          "source": "utopiaucronia/dipinti_sandro/grande_svezia.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-9c8a9d25291e",
+          "action": "work",
+          "title": "Il trio dei caduti",
+          "path": "/works/il-trio-dei-caduti-9c8a9d25/",
+          "source": "utopiaucronia/dipinti_sandro/il_trio_dei_caduti.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-f665798ca9ba",
+          "action": "work",
+          "title": "Cronologia di Jurassic Park",
+          "path": "/works/cronologia-di-jurassic-park-f665798c/",
+          "source": "utopiaucronia/dipinti_sandro/jurassic_park_cronologia.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-85adca284436",
+          "action": "work",
+          "title": "Operazione Leone Marino",
+          "path": "/works/operazione-leone-marino-85adca28/",
+          "source": "utopiaucronia/dipinti_sandro/matteo_bosso_leone_marino.pdf",
+          "titleFrom": "text"
+        },
+        {
+          "proposalId": "proposal-doc-eb00995e2ca6",
+          "action": "work",
+          "title": "Mia Martini nel 2017",
+          "path": "/works/mia-martini-nel-2017-eb00995e/",
+          "source": "utopiaucronia/dipinti_sandro/mia_martini_nel_2017.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-808793e846fd",
+          "action": "work",
+          "title": "Per una lettura divergente sulle origini degli indoeuropei",
+          "path": "/works/per-una-lettura-divergente-sulle-origini-degli-indoeuropei-808793e8/",
+          "source": "utopiaucronia/dipinti_sandro/origine_degli_indoeuropei.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-c7bce061662d",
+          "action": "work",
+          "title": "San Marino dai monti al mare",
+          "path": "/works/san-marino-dai-monti-al-mare-c7bce061/",
+          "source": "utopiaucronia/due_imperi/fanta_san_marino.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-b18bf0fefa5a",
+          "action": "work",
+          "title": "1940, l'Empire continue la lutte",
+          "path": "/works/1940-l-empire-continue-la-lutte-b18bf0fe/",
+          "source": "utopiaucronia/due_imperi/france_1940.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-08de56217deb",
+          "action": "work",
+          "title": "Ipazia vive",
+          "path": "/works/ipazia-vive-08de5621/",
+          "source": "utopiaucronia/due_imperi/ipazia_vive.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-f2474e60c939",
+          "action": "work",
+          "title": "La Serenissima Repubblica delle Isole Ionie",
+          "path": "/works/la-serenissima-repubblica-delle-isole-ionie-f2474e60/",
+          "source": "utopiaucronia/due_imperi/la_repubblica_delle_isole_ionie.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-87d9039557e0",
+          "action": "work",
+          "title": "Prometeo",
+          "path": "/works/prometeo-87d90395/",
+          "source": "utopiaucronia/due_imperi/prometeo.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-ff35648f948c",
+          "action": "work",
+          "title": "Alessandro in Occidente",
+          "path": "/works/alessandro-in-occidente-ff35648f/",
+          "source": "utopiaucronia/egypte/alessandro_jeck86.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-181998c7937a",
+          "action": "work",
+          "title": "L'Empereur-Soleil",
+          "path": "/works/l-empereur-soleil-181998c7/",
+          "source": "utopiaucronia/empereur_soleil.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-f11def74b6d5",
+          "action": "work",
+          "title": "La Brigata Estense in America",
+          "path": "/works/la-brigata-estense-in-america-f11def74/",
+          "source": "utopiaucronia/etruschi/brigata_estense_in_america.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-88be2a995cb9",
+          "action": "work",
+          "title": "Albe di Cieli Lontani",
+          "path": "/works/albe-di-cieli-lontani-88be2a99/",
+          "source": "utopiaucronia/etruschi/albe_di_cieli_lontani.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-caff7160e2e8",
+          "action": "work",
+          "title": "Lunga vita al Sud!",
+          "path": "/works/lunga-vita-al-sud-caff7160/",
+          "source": "utopiaucronia/etruschi/fanta_dixie.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-a789d18d3345",
+          "action": "work",
+          "title": "Cina nazionalista, Manciuria comunista",
+          "path": "/works/cina-nazionalista-manciuria-comunista-a789d18d/",
+          "source": "utopiaucronia/etruschi/cina_nazionalista.pdf",
+          "titleFrom": "pdf"
+        },
+        {
+          "proposalId": "proposal-doc-3edc2c321bed",
+          "action": "work",
+          "title": "Carcharodon megalodon",
+          "path": "/works/carcharodon-megalodon-3edc2c32/",
+          "source": "utopiaucronia/etruschi/fanta_megalodonte.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-2c0058ed4e58",
+          "action": "work",
+          "title": "Il Celeste Impero Giapponese",
+          "path": "/works/il-celeste-impero-giapponese-2c0058ed/",
+          "source": "utopiaucronia/etruschi/grande_giappone.pdf",
+          "titleFrom": "pdf"
+        },
+        {
+          "proposalId": "proposal-doc-d17658f2fc85",
+          "action": "work",
+          "title": "Vive la Première République",
+          "path": "/works/vive-la-premiere-republique-d17658f2/",
+          "source": "utopiaucronia/etruschi/premiere_republique.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-7ccd47dc88cf",
+          "action": "work",
+          "title": "Campionati Europei Ucronici 1996 di Lord Wilmore (download)",
+          "path": "/works/campionati-europei-ucronici-1996-di-lord-wilmore-download-7ccd47dc/",
+          "source": "utopiaucronia/europeo_1996.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-66202497f0ca",
+          "action": "work",
+          "title": "La Repubblica Spagnola",
+          "path": "/works/la-repubblica-spagnola-66202497/",
+          "source": "utopiaucronia/fanta_rep_spagnola.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-53a9ce61715b",
+          "action": "work",
+          "title": "Allemagne, mon amour",
+          "path": "/works/allemagne-mon-amour-53a9ce61/",
+          "source": "utopiaucronia/francia_italia/allemagne_mon_amour.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-81da5b3695a5",
+          "action": "work",
+          "title": "L'isola di Saint Louis",
+          "path": "/works/l-isola-di-saint-louis-81da5b36/",
+          "source": "utopiaucronia/francia_italia/isola_di_saint_louis.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-23cbefd03de5",
+          "action": "work",
+          "title": "Alta Italia - Due Sicilie 1-0",
+          "path": "/works/alta-italia-due-sicilie-1-0-23cbefd0/",
+          "source": "utopiaucronia/francia_italia/strani_europei_08.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-63b0b0fe708b",
+          "action": "work",
+          "title": "Lo Scisma del Calcio",
+          "path": "/works/lo-scisma-del-calcio-63b0b0fe/",
+          "source": "utopiaucronia/francia_italia/scisma_del_calcio.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-faf57614eeea",
+          "action": "work",
+          "title": "Gaivs Marivs Magnvs",
+          "path": "/works/gaivs-marivs-magnvs-faf57614/",
+          "source": "utopiaucronia/gaivs_marivs_magnvs.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-72eabb3e3704",
+          "action": "work",
+          "title": "Metamorfosi di re Artù ipostasi della sovranità [tesi di laurea]",
+          "path": "/works/metamorfosi-di-re-artu-ipostasi-della-sovranita-tesi-di-laurea-72eabb3e/",
+          "source": "utopiaucronia/gmr/artu_vezzaro.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-16a7aaa01718",
+          "action": "work",
+          "title": "La Confederazione Italiana",
+          "path": "/works/la-confederazione-italiana-16a7aaa0/",
+          "source": "utopiaucronia/gmr/italia_confederale.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-b4dad76799c9",
+          "action": "work",
+          "title": "Il Muro di Milano",
+          "path": "/works/il-muro-di-milano-b4dad767/",
+          "source": "utopiaucronia/gmr/murodimilano.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-be300daacdbf",
+          "action": "work",
+          "title": "Altolà, Turchi!",
+          "path": "/works/altola-turchi-be300daa/",
+          "source": "utopiaucronia/grande_australia/altolaturchi.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-9b96ef36d611",
+          "action": "work",
+          "title": "Calcio Romano!",
+          "path": "/works/calcio-romano-9b96ef36/",
+          "source": "utopiaucronia/grande_australia/calcio_romano.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-988c7daa0db9",
+          "action": "work",
+          "title": "La Grande Dinastia dei Medici",
+          "path": "/works/la-grande-dinastia-dei-medici-988c7daa/",
+          "source": "utopiaucronia/grande_australia/fanta_medici.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-b576b0db7a2c",
+          "action": "work",
+          "title": "Lunga vita a Giosué I il Grande",
+          "path": "/works/lunga-vita-a-giosue-i-il-grande-b576b0db/",
+          "source": "utopiaucronia/grande_australia/giosuè_i_il_grande.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-4fc353e2f1b9",
+          "action": "work",
+          "title": "Le scelte dell'Italia",
+          "path": "/works/le-scelte-dell-italia-4fc353e2/",
+          "source": "utopiaucronia/grande_australia/le_scelte_dell_italia.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-8222fee7189d",
+          "action": "work",
+          "title": "Il Profeta dei Keltar",
+          "path": "/works/il-profeta-dei-keltar-8222fee7/",
+          "source": "utopiaucronia/grande_australia/profeta_dei_keltar.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-197461a565e4",
+          "action": "work",
+          "title": "La Rivoluzione Permanente",
+          "path": "/works/la-rivoluzione-permanente-197461a5/",
+          "source": "utopiaucronia/grande_australia/rivoluzione_permanente.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-ef18b3eacacd",
+          "action": "work",
+          "title": "Sailor Trek: il dilemma del dilitio di Bill Harris ed Ezio Boscani (download)",
+          "path": "/works/sailor-trek-il-dilemma-del-dilitio-di-bill-harris-ed-ezio-boscani-download-ef18b3ea/",
+          "source": "utopiaucronia/grande_australia/sailor_trek.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-b45a51265908",
+          "action": "work",
+          "title": "Una Timeline Gotica",
+          "path": "/works/una-timeline-gotica-b45a5126/",
+          "source": "utopiaucronia/grande_australia/ucronia_gotica.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-d66fffde2c99",
+          "action": "work",
+          "title": "L'Ucronia Wolf (download)",
+          "path": "/works/l-ucronia-wolf-download-d66fffde/",
+          "source": "utopiaucronia/grande_australia/ucronia_wolf_2.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-5f3c5b0ac5d5",
+          "action": "work",
+          "title": "Cronologia di \"L'Uomo Bicentenario\"",
+          "path": "/works/cronologia-di-l-uomo-bicentenario-5f3c5b0a/",
+          "source": "utopiaucronia/grande_messico/bicentennialman.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-9f29f03ff263",
+          "action": "work",
+          "title": "Carlo Alberto il Grande",
+          "path": "/works/carlo-alberto-il-grande-9f29f03f/",
+          "source": "utopiaucronia/grande_messico/carlo_alberto_il_grande.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-0be6eeb8f429",
+          "action": "work",
+          "title": "Grande Guerra, Grande Vittoria",
+          "path": "/works/grande-guerra-grande-vittoria-0be6eeb8/",
+          "source": "utopiaucronia/grande_messico/grande_guerra_grande_vittoria.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-ad5bf3975cb4",
+          "action": "work",
+          "title": "« I Papi Russi »",
+          "path": "/works/i-papi-russi-ad5bf397/",
+          "source": "utopiaucronia/grande_messico/papi_russi.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-9b7c4f7e9cfc",
+          "action": "work",
+          "title": "Mariano V sugli scudi",
+          "path": "/works/mariano-v-sugli-scudi-9b7c4f7e/",
+          "source": "utopiaucronia/grande_messico/ucronia_mariano_v.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-7c41c3ec2c5b",
+          "action": "work",
+          "title": "La mascherina",
+          "path": "/works/la-mascherina-7c41c3ec/",
+          "source": "utopiaucronia/grande_milano/mascherina.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-59b9363cff66",
+          "action": "work",
+          "title": "Il Conte Ugolino in lingua latina!",
+          "path": "/works/il-conte-ugolino-in-lingua-latina-59b9363c/",
+          "source": "utopiaucronia/keikyo/ugolino.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-fb29cb708d3d",
+          "action": "work",
+          "title": "Stryx",
+          "path": "/works/stryx-fb29cb70/",
+          "source": "utopiaucronia/keikyo/stryx.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-6a2681c6e62f",
+          "action": "work",
+          "title": "La politica del narcisismo",
+          "path": "/works/la-politica-del-narcisismo-6a2681c6/",
+          "source": "utopiaucronia/la_politica_del_narcisismo.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-6663ffbf2a44",
+          "action": "work",
+          "title": "Alien per davvero!",
+          "path": "/works/alien-per-davvero-6663ffbf/",
+          "source": "utopiaucronia/magellania/alien_cronologia.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-fc2f1d6b2228",
+          "action": "work",
+          "title": "Canale di Augusto 2020",
+          "path": "/works/canale-di-augusto-2020-fc2f1d6b/",
+          "source": "utopiaucronia/magellania/canale_di_augusto_2020.pdf",
+          "titleFrom": "text"
+        },
+        {
+          "proposalId": "proposal-doc-0a554dd695c5",
+          "action": "work",
+          "title": "L'Impero Astrale Terrestre",
+          "path": "/works/l-impero-astrale-terrestre-0a554dd6/",
+          "source": "utopiaucronia/magellania/impero_terrestre_feder.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-f61acf76d29d",
+          "action": "work",
+          "title": "Invasione: Anno Zero",
+          "path": "/works/invasione-anno-zero-f61acf76/",
+          "source": "utopiaucronia/magellania/invasione_anno_zero.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-fa4151ff034f",
+          "action": "work",
+          "title": "Il PCI nel 2020",
+          "path": "/works/il-pci-nel-2020-fa4151ff/",
+          "source": "utopiaucronia/magellania/pci_2020.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-4d946fd072e3",
+          "action": "work",
+          "title": "1976, il Compromesso Fantastorico",
+          "path": "/works/1976-il-compromesso-fantastorico-4d946fd0/",
+          "source": "utopiaucronia/maggio_1976.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-c13d44f273b4",
+          "action": "work",
+          "title": "Campionati Mondiali Ucronici 2018",
+          "path": "/works/campionati-mondiali-ucronici-2018-c13d44f2/",
+          "source": "utopiaucronia/mondiali_2018_nostradamus.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-02e9c9474485",
+          "action": "work",
+          "title": "La Confederazione Italiana",
+          "path": "/works/la-confederazione-italiana-02e9c947/",
+          "source": "utopiaucronia/nasc_conf_it.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-ba84bf2b2d8b",
+          "action": "work",
+          "title": "I Neodinosauri",
+          "path": "/works/i-neodinosauri-ba84bf2b/",
+          "source": "utopiaucronia/neodinosauri.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-65d7b27da858",
+          "action": "work",
+          "title": "È tutto un altro... calcio",
+          "path": "/works/e-tutto-un-altro-calcio-65d7b27d/",
+          "source": "utopiaucronia/nouivelle_france/calcio_ucronico.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-614f84eca569",
+          "action": "work",
+          "title": "Draghi e droghe",
+          "path": "/works/draghi-e-droghe-614f84ec/",
+          "source": "utopiaucronia/nouivelle_france/draghi_e_droghe_20082016.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-af1f53f6ac1c",
+          "action": "work",
+          "title": "È tutto un altro... calcio",
+          "path": "/works/e-tutto-un-altro-calcio-af1f53f6/",
+          "source": "utopiaucronia/nouivelle_france/ucronìa_calcistica.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-388ecc88daa7",
+          "action": "work",
+          "title": "Parallelo '63",
+          "path": "/works/parallelo-63-388ecc88/",
+          "source": "utopiaucronia/parallelo63.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-d6290372d7e0",
+          "action": "work",
+          "title": "Regni Uniti di Romania",
+          "path": "/works/regni-uniti-di-romania-d6290372/",
+          "source": "utopiaucronia/regni_uniti_di_romania.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-b0a815176106",
+          "action": "work",
+          "title": "Il Regno Italiano d'Etiopia",
+          "path": "/works/il-regno-italiano-d-etiopia-b0a81517/",
+          "source": "utopiaucronia/regno_italiano_d_etiopia.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-0e19a5908e09",
+          "action": "work",
+          "title": "L'impero di Siberia",
+          "path": "/works/l-impero-di-siberia-0e19a590/",
+          "source": "utopiaucronia/regno_di_siberia.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-16ef17f39841",
+          "action": "work",
+          "title": "Giulio Nepote restaura l'Impero",
+          "path": "/works/giulio-nepote-restaura-l-impero-16ef17f3/",
+          "source": "utopiaucronia/restauratio_imperii_di_giulio_nepote.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-4434f92bcbc3",
+          "action": "work",
+          "title": "Roma, la Città Eterna",
+          "path": "/works/roma-la-citta-eterna-4434f92b/",
+          "source": "utopiaucronia/roma_eterna.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-a2fbb1880f58",
+          "action": "work",
+          "title": "Campionati Mondiali Ucronici 2014",
+          "path": "/works/campionati-mondiali-ucronici-2014-a2fbb188/",
+          "source": "utopiaucronia/tawantinsuyu_2014.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-dd72b2c0e62c",
+          "action": "work",
+          "title": "Le tribù perdute",
+          "path": "/works/le-tribu-perdute-dd72b2c0/",
+          "source": "utopiaucronia/trib_perdute.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-d0627e08474e",
+          "action": "work",
+          "title": "Campionati Ucropei di Calcio",
+          "path": "/works/campionati-ucropei-di-calcio-d0627e08/",
+          "source": "utopiaucronia/ucropei.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-280c2feee01e",
+          "action": "work",
+          "title": "Un'altra Savoia",
+          "path": "/works/un-altra-savoia-280c2fee/",
+          "source": "utopiaucronia/un_altra_savoia.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-3518435829cd",
+          "action": "work",
+          "title": "Amanullah Khan il Grande",
+          "path": "/works/amanullah-khan-il-grande-35184358/",
+          "source": "utopiaucronia/valentino/amanullah_khan.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-83e8970fe5e2",
+          "action": "work",
+          "title": "Cesare Borgia, il Principe di Roma",
+          "path": "/works/cesare-borgia-il-principe-di-roma-83e8970f/",
+          "source": "utopiaucronia/valentino/borgia.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-2b0323ab9f47",
+          "action": "work",
+          "title": "Dinastie del Canale",
+          "path": "/works/dinastie-del-canale-2b0323ab/",
+          "source": "utopiaucronia/valentino/dinastie_canale.pdf",
+          "titleFrom": "text"
+        },
+        {
+          "proposalId": "proposal-doc-fe2d86be2f4d",
+          "action": "work",
+          "title": "L'Europa geopoliticamente congelata al 1815",
+          "path": "/works/l-europa-geopoliticamente-congelata-al-1815-fe2d86be/",
+          "source": "utopiaucronia/valentino/europa_congelata_al_1815.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-4583150d32ab",
+          "action": "work",
+          "title": "FantaMedicina",
+          "path": "/works/fantamedicina-4583150d/",
+          "source": "utopiaucronia/valentino/fanta_medicina.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-31238480afc7",
+          "action": "work",
+          "title": "Grande Pescara",
+          "path": "/works/grande-pescara-31238480/",
+          "source": "utopiaucronia/valentino/grande_pescara.pdf",
+          "titleFrom": "pdf"
+        },
+        {
+          "proposalId": "proposal-doc-5dbd2ef87c97",
+          "action": "work",
+          "title": "L'Impero Atlantideo",
+          "path": "/works/l-impero-atlantideo-5dbd2ef8/",
+          "source": "utopiaucronia/valentino/impero_atlantideo.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-39ba88b60b6e",
+          "action": "work",
+          "title": "Riflettendo sulle ucronie simmetriche",
+          "path": "/works/riflettendo-sulle-ucronie-simmetriche-39ba88b6/",
+          "source": "utopiaucronia/valentino/ucronie_simmetriche.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-0c76c725ad1f",
+          "action": "work",
+          "title": "Re Valiant I di Thule",
+          "path": "/works/re-valiant-i-di-thule-0c76c725/",
+          "source": "utopiaucronia/valentino/valiant_i.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-f33e9451e51b",
+          "action": "work",
+          "title": "Democrazia, buona la prima!",
+          "path": "/works/democrazia-buona-la-prima-f33e9451/",
+          "source": "utopiaucronia/vssa/democrazia_buona_la_prima.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-a2d1bba7b2d3",
+          "action": "work",
+          "title": "1905, l'anno cha cambiò la storia",
+          "path": "/works/1905-l-anno-cha-cambio-la-storia-a2d1bba7/",
+          "source": "utopiaucronia/vssa/fanta_1905.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-823b258554fc",
+          "action": "work",
+          "title": "Ferdinando I il Saggio",
+          "path": "/works/ferdinando-i-il-saggio-823b2585/",
+          "source": "utopiaucronia/vssa/fanta_ferdinando.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-c9d38af27e96",
+          "action": "work",
+          "title": "Il Trono della Balestra",
+          "path": "/works/il-trono-della-balestra-c9d38af2/",
+          "source": "utopiaucronia/vssa/fanta_tell.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-4305252e761a",
+          "action": "work",
+          "title": "La Grande Repubblica Ligure",
+          "path": "/works/la-grande-repubblica-ligure-4305252e/",
+          "source": "utopiaucronia/vssa/grande_repubblica_ligure.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-d94b37aea71a",
+          "action": "work",
+          "title": "I Secondi Paleologi",
+          "path": "/works/i-secondi-paleologi-d94b37ae/",
+          "source": "utopiaucronia/vssa/secondi_paleologi.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-a60e97293157",
+          "action": "work",
+          "title": "Storie delle Colonie",
+          "path": "/works/storie-delle-colonie-a60e9729/",
+          "source": "utopiaucronia/vssa/storiedellecolonie.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-0dcb7aa2291e",
+          "action": "work",
+          "title": "Homo angelus",
+          "path": "/works/homo-angelus-0dcb7aa2/",
+          "source": "racconti/homo_angelus.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-e01b5344f7a7",
+          "action": "work",
+          "title": "Code Geass per davvero!: Parte Seconda (476 - 1492)",
+          "path": "/works/code-geass-per-davvero-parte-seconda-476-1492-e01b5344/",
+          "source": "utopiaucronia/grande_messico/code_geass_per_davvero_2.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-2a15d2056969",
+          "action": "work",
+          "title": "Code Geass per davvero!: Parte Prima (55 a.C. - 476 d.C.)",
+          "path": "/works/code-geass-per-davvero-parte-prima-55-a-c-476-d-c-2a15d205/",
+          "source": "utopiaucronia/grande_messico/code_geass_per_davvero_1.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-2970e28d2862",
+          "action": "work",
+          "title": "Code Geass per davvero!: Parte Terza (1492 - 1807)",
+          "path": "/works/code-geass-per-davvero-parte-terza-1492-1807-2970e28d/",
+          "source": "utopiaucronia/grande_messico/code_geass_per_davvero_3.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-975200fdca95",
+          "action": "work",
+          "title": "Code Geass per davvero!: Parte Quarta (1807 - 1905)",
+          "path": "/works/code-geass-per-davvero-parte-quarta-1807-1905-975200fd/",
+          "source": "utopiaucronia/grande_messico/code_geass_per_davvero_4.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-d64b48fdb713",
+          "action": "work",
+          "title": "Code Geass per davvero!: Parte Sesta (1960 - 1987)",
+          "path": "/works/code-geass-per-davvero-parte-sesta-1960-1987-d64b48fd/",
+          "source": "utopiaucronia/grande_messico/code_geass_per_davvero_6.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-3663bbda4461",
+          "action": "work",
+          "title": "Code Geass per davvero!: Parte Quinta (1905 - 1959)",
+          "path": "/works/code-geass-per-davvero-parte-quinta-1905-1959-3663bbda/",
+          "source": "utopiaucronia/grande_messico/code_geass_per_davvero_5.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-d4633226d0d2",
+          "action": "work",
+          "title": "Code Geass per davvero!: Parte Settima (1988 - 2010)",
+          "path": "/works/code-geass-per-davvero-parte-settima-1988-2010-d4633226/",
+          "source": "utopiaucronia/grande_messico/code_geass_per_davvero_7.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-33a1553aae11",
+          "action": "work",
+          "title": "Code Geass per davvero!: Parte ottava (2011 - 2024)",
+          "path": "/works/code-geass-per-davvero-parte-ottava-2011-2024-33a1553a/",
+          "source": "utopiaucronia/grande_messico/code_geass_per_davvero_8.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-6fbcc2b428ec",
+          "action": "work",
+          "title": "La Libia potenza regionale",
+          "path": "/works/la-libia-potenza-regionale-6fbcc2b4/",
+          "source": "utopiaucronia/grande_messico/la_libia_potenza_regionale.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-57b67134a180",
+          "action": "work",
+          "title": "900 toponimi indoeuropei",
+          "path": "/works/900-toponimi-indoeuropei-57b67134/",
+          "source": "utopiaucronia/900_toponimi_indoeuropei.pdf",
+          "titleFrom": "text"
+        },
+        {
+          "proposalId": "proposal-doc-8d9c8321d265",
+          "action": "work",
+          "title": "L'Impero Romano Africano",
+          "path": "/works/l-impero-romano-africano-8d9c8321/",
+          "source": "utopiaucronia/magellania/impero_romano_africano.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-062a1c541ebb",
+          "action": "work",
+          "title": "Idi di marzo dell'anno 709",
+          "path": "/works/idi-di-marzo-dell-anno-709-062a1c54/",
+          "source": "utopiaucronia/etruschi/caesar_709_1.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-e5e6a99caa87",
+          "action": "work",
+          "title": "468, Genserico va KO",
+          "path": "/works/468-genserico-va-ko-e5e6a99c/",
+          "source": "utopiaucronia/gmr/fanta_genserico.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-1d4045926e46",
+          "action": "work",
+          "title": "Avanti, Canossa!",
+          "path": "/works/avanti-canossa-1d404592/",
+          "source": "utopiaucronia/uai/canale/fanta_canossa.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-211eda5c6e8c",
+          "action": "work",
+          "title": "L'Ucronia Sveva",
+          "path": "/works/l-ucronia-sveva-211eda5c/",
+          "source": "utopiaucronia/magellania/svevia_eterna_1.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-0d6b58eb7f68",
+          "action": "work",
+          "title": "L'Impero Bizantino dell'Isola Comacina",
+          "path": "/works/l-impero-bizantino-dell-isola-comacina-0d6b58eb/",
+          "source": "utopiaucronia/gmr/fanta_isola_comacina.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-68fbb5b1660a",
+          "action": "work",
+          "title": "L'Impero Latino d'Occidente",
+          "path": "/works/l-impero-latino-d-occidente-68fbb5b1/",
+          "source": "utopiaucronia/ilo.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-8d06c322ba16",
+          "action": "work",
+          "title": "La Grande Albania",
+          "path": "/works/la-grande-albania-8d06c322/",
+          "source": "utopiaucronia/due_imperi/la_grande_albania.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-c2e16e2f0da7",
+          "action": "work",
+          "title": "La Grande Lituania",
+          "path": "/works/la-grande-lituania-c2e16e2f/",
+          "source": "utopiaucronia/gmr/grande_lituania.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-84efbb67931c",
+          "action": "work",
+          "title": "Il Despotato di Morea",
+          "path": "/works/il-despotato-di-morea-84efbb67/",
+          "source": "utopiaucronia/due_imperi/bisanzio_eterna.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-93b2c00f37dd",
+          "action": "work",
+          "title": "Serica Caput Mundi",
+          "path": "/works/serica-caput-mundi-93b2c00f/",
+          "source": "utopiaucronia/dante33/serica_caput_mundi.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-8e8ddc93abbc",
+          "action": "work",
+          "title": "L'\"utopia nella storia\": un profilo mancato delle Americhe",
+          "path": "/works/l-utopia-nella-storia-un-profilo-mancato-delle-americhe-8e8ddc93/",
+          "source": "utopiaucronia/canale/borghi_utopia_nella_storia.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-165f8652b891",
+          "action": "work",
+          "title": "L'America Islamica",
+          "path": "/works/l-america-islamica-165f8652/",
+          "source": "utopiaucronia/nouivelle_france/spagna_islamica.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-930673418aec",
+          "action": "work",
+          "title": "Mustafa III Koca",
+          "path": "/works/mustafa-iii-koca-93067341/",
+          "source": "utopiaucronia/vssa/mustafa_iii_koca.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-093a34f24aa9",
+          "action": "work",
+          "title": "Federated Commonwealth Empire",
+          "path": "/works/federated-commonwealth-empire-093a34f2/",
+          "source": "utopiaucronia/dante33/federated_commonwealth_empire.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-cee25cb0523c",
+          "action": "work",
+          "title": "Luigi II il Grande",
+          "path": "/works/luigi-ii-il-grande-cee25cb0/",
+          "source": "utopiaucronia/luigi _i_il_grande.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-5db4b60ba09b",
+          "action": "work",
+          "title": "1848, nasce la Repubblica Italiana!",
+          "path": "/works/1848-nasce-la-repubblica-italiana-5db4b60b/",
+          "source": "utopiaucronia/magellania/1848 _repubblica_italiana.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-7233dd7cdce4",
+          "action": "work",
+          "title": "Un'utopia asburgica",
+          "path": "/works/un-utopia-asburgica-7233dd7c/",
+          "source": "utopiaucronia/due_imperi/utopia_asburgica.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-fba042584e3e",
+          "action": "work",
+          "title": "Nessuna Unità d'Italia",
+          "path": "/works/nessuna-unita-d-italia-fba04258/",
+          "source": "utopiaucronia/germaniinoriente/nessuna_unita_italiana.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-dc1f4595ce29",
+          "action": "work",
+          "title": "L'Impero Scandinavo",
+          "path": "/works/l-impero-scandinavo-dc1f4595/",
+          "source": "utopiaucronia/dante33/impero_scandinavo.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-0ea5b35b9c48",
+          "action": "work",
+          "title": "La Dinastia Aviz-Farnese",
+          "path": "/works/la-dinastia-aviz-farnese-0ea5b35b/",
+          "source": "utopiaucronia/magellania/aviz_farnese.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-dbcb27c8eba5",
+          "action": "work",
+          "title": "La Repubblica Islamica Federale di Khorasan-e-Hind",
+          "path": "/works/la-repubblica-islamica-federale-di-khorasan-e-hind-dbcb27c8/",
+          "source": "utopiaucronia/dante33/fanta_khorasan.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-d03876e529ca",
+          "action": "work",
+          "title": "Muhammad Ali il Grande",
+          "path": "/works/muhammad-ali-il-grande-d03876e5/",
+          "source": "utopiaucronia/dante33/muhammad_ali_il_grande.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-8bb8305513c8",
+          "action": "work",
+          "title": "Fath Ali I il Restauratore",
+          "path": "/works/fath-ali-i-il-restauratore-8bb83055/",
+          "source": "utopiaucronia/dante33/fath_ali_i_il_restauratore..pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-d683da888d82",
+          "action": "work",
+          "title": "La Repubblica di Balkania",
+          "path": "/works/la-repubblica-di-balkania-d683da88/",
+          "source": "utopiaucronia/magellania/balkania.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-a52352c7b41f",
+          "action": "work",
+          "title": "Storia alternativa del Nordamerica",
+          "path": "/works/storia-alternativa-del-nordamerica-a52352c7/",
+          "source": "utopiaucronia/storia_alternativa_del_nordamerica.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-3948261a9cbb",
+          "action": "work",
+          "title": "Restaurazione monarchica francese nel 1873",
+          "path": "/works/restaurazione-monarchica-francese-nel-1873-3948261a/",
+          "source": "utopiaucronia/gmr/monarchiafrancese.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-c472dcdbec74",
+          "action": "work",
+          "title": "La Repubblica Federale Democratica di Tutte le Russie",
+          "path": "/works/la-repubblica-federale-democratica-di-tutte-le-russie-c472dcdb/",
+          "source": "utopiaucronia/uai/canale/rfdtr.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-a41f82b72f7d",
+          "action": "work",
+          "title": "Il Grande Iraq",
+          "path": "/works/il-grande-iraq-a41f82b7/",
+          "source": "utopiaucronia/dante33/grande_iraq.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-779f8babad1f",
+          "action": "work",
+          "title": "Lunga vita al Celeste Impero!",
+          "path": "/works/lunga-vita-al-celeste-impero-779f8bab/",
+          "source": "utopiaucronia/fanta_celeste_impero.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-e450aebaab3d",
+          "action": "work",
+          "title": "22/11/1963, Kennedy sopravvive",
+          "path": "/works/22-11-1963-kennedy-sopravvive-e450aeba/",
+          "source": "utopiaucronia/etruschi/fanta_kennedy.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-2decaaec636e",
+          "action": "work",
+          "title": "Unione Sovietica e Cina scambiate!",
+          "path": "/works/unione-sovietica-e-cina-scambiate-2decaaec/",
+          "source": "utopiaucronia/dante33/unione_sovietica_e_cina_scambiate_di_posto.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-2ef4f30ef749",
+          "action": "work",
+          "title": "1999, Indipendenza della Padania",
+          "path": "/works/1999-indipendenza-della-padania-2ef4f30e/",
+          "source": "utopiaucronia/gmr/siamo_sicuri_della_vittoria.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-b0151b7183ff",
+          "action": "work",
+          "title": "Bin Laden filoamericano",
+          "path": "/works/bin-laden-filoamericano-b0151b71/",
+          "source": "utopiaucronia/francia_italia/bin_laden_filoamericano.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-9743f79be50f",
+          "action": "work",
+          "title": "Ho Chi Minh resta Saigon",
+          "path": "/works/ho-chi-minh-resta-saigon-9743f79b/",
+          "source": "utopiaucronia/uai/canale/niente_watergate.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-6608aedddf39",
+          "action": "work",
+          "title": "Unità marxista",
+          "path": "/works/unita-marxista-6608aedd/",
+          "source": "utopiaucronia/nouivelle_france/unita_marxista.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-070bad51006a",
+          "action": "work",
+          "title": "Apocalypse Now America",
+          "path": "/works/apocalypse-now-america-070bad51/",
+          "source": "utopiaucronia/magellania/apocalypse_now_america.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-c8b187ef4484",
+          "action": "work",
+          "title": "La Qâdisiyyah di Saddam",
+          "path": "/works/la-qadisiyyah-di-saddam-c8b187ef/",
+          "source": "utopiaucronia/germaniinoriente/qadisiyyah.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-528f68bc0a00",
+          "action": "work",
+          "title": "Il mondo balcanizzato",
+          "path": "/works/il-mondo-balcanizzato-528f68bc/",
+          "source": "utopiaucronia/nouivelle_france/mondo_balcanizzato.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-3a049bd2023e",
+          "action": "work",
+          "title": "Lo scontro India-Pakistan e la 3a Guerra Mondiale",
+          "path": "/works/lo-scontro-india-pakistan-e-la-3a-guerra-mondiale-3a049bd2/",
+          "source": "utopiaucronia/iiigm_tebaldi.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-71703ea49f3b",
+          "action": "work",
+          "title": "La Storia Futura secondo MorteBianca",
+          "path": "/works/la-storia-futura-secondo-mortebianca-71703ea4/",
+          "source": "utopiaucronia/grande_australia/storia_futura_1_valerio.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-b1ca1f1cfd49",
+          "action": "work",
+          "title": "La guerra delle risorse",
+          "path": "/works/la-guerra-delle-risorse-b1ca1f1c/",
+          "source": "utopiaucronia/grande_messico/guerradellerisorse.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-ea4a791aa9b1",
+          "action": "work",
+          "title": "La Repubblica d'Inghilterra",
+          "path": "/works/la-repubblica-d-inghilterra-ea4a791a/",
+          "source": "utopiaucronia/dante33/repubblica_d_inghilterra.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-6515c67d6ae0",
+          "action": "work",
+          "title": "2035, il Regno Unito adotta l'euro",
+          "path": "/works/2035-il-regno-unito-adotta-l-euro-6515c67d/",
+          "source": "utopiaucronia/due_imperi/uk_nell_euro.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-146875bc36ca",
+          "action": "work",
+          "title": "Italia neutrale, vittoria alleata",
+          "path": "/works/italia-neutrale-vittoria-alleata-146875bc/",
+          "source": "utopiaucronia/etruschi/italia_neutrale_vittoria_alleata.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-47899c573118",
+          "action": "work",
+          "title": "L'Operazione Valchiria è un successo",
+          "path": "/works/l-operazione-valchiria-e-un-successo-47899c57/",
+          "source": "utopiaucronia/uai/canale/fanta_valchiria.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-be69812f3372",
+          "action": "work",
+          "title": "A noi! (il Terzo Reich finisce nel 2008)",
+          "path": "/works/a-noi-il-terzo-reich-finisce-nel-2008-be69812f/",
+          "source": "utopiaucronia/egypte/a_noi.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-90d9267d4fac",
+          "action": "work",
+          "title": "Fascismo postbellico",
+          "path": "/works/fascismo-postbellico-90d9267d/",
+          "source": "utopiaucronia/grande_milano/fascismo_postbellico.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-64bacfb5f848",
+          "action": "work",
+          "title": "Il Terzo Reich ha vinto!",
+          "path": "/works/il-terzo-reich-ha-vinto-64bacfb5/",
+          "source": "utopiaucronia/etruschi/fanta_terzo_reich.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-1740c9c72e6f",
+          "action": "work",
+          "title": "The Man in the High Castle per davvero",
+          "path": "/works/the-man-in-the-high-castle-per-davvero-1740c9c7/",
+          "source": "utopiaucronia/themaninthehighcastleperdavvero.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-ba84cd6f70b6",
+          "action": "work",
+          "title": "Bao Dai il Grande",
+          "path": "/works/bao-dai-il-grande-ba84cd6f/",
+          "source": "utopiaucronia/valentino/bao_dai_il_grande.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-443d73615bb6",
+          "action": "work",
+          "title": "Asse Berlino-Mosca",
+          "path": "/works/asse-berlino-mosca-443d7361/",
+          "source": "utopiaucronia/asse_berlino_mosca.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-a01bc12a08a6",
+          "action": "work",
+          "title": "Il Libro di San Moriduno",
+          "path": "/works/il-libro-di-san-moriduno-a01bc12a/",
+          "source": "utopiaucronia/san_moriduno.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-9e2b5dfa5681",
+          "action": "work",
+          "title": "Westeros, Anno 751",
+          "path": "/works/westeros-anno-751-9e2b5dfa/",
+          "source": "utopiaucronia/dipinti_sandro/westeros_751.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-d4be1ede27d8",
+          "action": "work",
+          "title": "Cronologia de L'uomo nell'alto castello",
+          "path": "/works/cronologia-de-l-uomo-nell-alto-castello-d4be1ede/",
+          "source": "utopiaucronia/l_uomo_nell_alto_castello.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-e6212da88fab",
+          "action": "work",
+          "title": "Come un verme in una mela",
+          "path": "/works/come-un-verme-in-una-mela-e6212da8/",
+          "source": "racconti/come_un_verme_in_una_mela.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-b8a17b69098e",
+          "action": "work",
+          "title": "Alpha-Omega",
+          "path": "/works/alpha-omega-b8a17b69/",
+          "source": "racconti/alpha-omega.pdf",
+          "titleFrom": "catalog"
+        },
+        {
+          "proposalId": "proposal-doc-3a2ee71c2c53",
+          "action": "work",
+          "title": "Cosa sarebbe successo se Federico II il grande di Prussia avesse perso la guerra per la Slesia ?",
+          "path": "/works/cosa-sarebbe-successo-se-federico-ii-il-grande-di-prussia-avesse-perso-la-guerra-per-la-slesia-3a2ee71c/",
+          "source": "utopiaucronia/nouivelle_france/federico_il_navigatore.pdf",
+          "titleFrom": "pdf"
+        },
+        {
+          "proposalId": "proposal-doc-71963bfb863f",
+          "action": "work",
+          "title": "L'Uomo che potè essere Re",
+          "path": "/works/l-uomo-che-pote-essere-re-71963bfb/",
+          "source": "utopiaucronia/dante33/uomo_che_pote_essere_re.pdf",
+          "titleFrom": "text"
+        },
+        {
+          "proposalId": "proposal-doc-9f014aa87d76",
+          "action": "work",
+          "title": "Il sacrario delle sabbie",
+          "path": "/works/il-sacrario-delle-sabbie-9f014aa8/",
+          "source": "racconti/il_sacrario_delle_sabbie.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-87c2ef5d7343",
+          "action": "work",
+          "title": "Il piú potente",
+          "path": "/works/il-piu-potente-87c2ef5d/",
+          "source": "racconti/il_piu_potente.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-173952ce0531",
+          "action": "work",
+          "title": "L'Architetto di Kemet",
+          "path": "/works/l-architetto-di-kemet-173952ce/",
+          "source": "racconti/l_architetto_di_kemet.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-4305a979282b",
+          "action": "work",
+          "title": "La teiera spaziale",
+          "path": "/works/la-teiera-spaziale-4305a979/",
+          "source": "racconti/teiera_spaziale.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-7ca82dcb2102",
+          "action": "work",
+          "title": "Lo sposo di sangue",
+          "path": "/works/lo-sposo-di-sangue-7ca82dcb/",
+          "source": "racconti/sposo_di_sangue.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-48d6c2af88e8",
+          "action": "work",
+          "title": "Le Praterie del Cielo",
+          "path": "/works/le-praterie-del-cielo-48d6c2af/",
+          "source": "racconti/praterie_del_cielo.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-7b09652d1cbb",
+          "action": "work",
+          "title": "Un dramma in laguna",
+          "path": "/works/un-dramma-in-laguna-7b09652d/",
+          "source": "racconti/dramma_in_laguna.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-78835bf20c6b",
+          "action": "work",
+          "title": "I mostri sotto al letto",
+          "path": "/works/i-mostri-sotto-al-letto-78835bf2/",
+          "source": "racconti/mostri_sotto_al_letto.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-b212531db5fb",
+          "action": "work",
+          "title": "Procul a Procula",
+          "path": "/works/procul-a-procula-b212531d/",
+          "source": "racconti/procul_a_procula.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-1f0b3321ad18",
+          "action": "work",
+          "title": "Il Sentiero dell'Orsa",
+          "path": "/works/il-sentiero-dell-orsa-1f0b3321/",
+          "source": "racconti/sentiero_dell_orsa.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-a65fbd2be975",
+          "action": "work",
+          "title": "Il diamante nero",
+          "path": "/works/il-diamante-nero-a65fbd2b/",
+          "source": "racconti/diamante_nero.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-8f1a32bafa15",
+          "action": "work",
+          "title": "Lettera di Enoch",
+          "path": "/works/lettera-di-enoch-8f1a32ba/",
+          "source": "racconti/lettera_di_enoch.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-04ca1aa19b07",
+          "action": "work",
+          "title": "Colui che tutto vide",
+          "path": "/works/colui-che-tutto-vide-04ca1aa1/",
+          "source": "racconti/colui_che_tutto_vide.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-44eaac2ca3e3",
+          "action": "work",
+          "title": "Il trono in mezzo al mare",
+          "path": "/works/il-trono-in-mezzo-al-mare-44eaac2c/",
+          "source": "racconti/il_trono_in_mezzo_al_mare.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-3de7c9b1a2ae",
+          "action": "work",
+          "title": "Memorie di un ittita",
+          "path": "/works/memorie-di-un-ittita-3de7c9b1/",
+          "source": "racconti/memorie_di_un_ittita.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-f56f9079aa35",
+          "action": "work",
+          "title": "Dai confini del mondo",
+          "path": "/works/dai-confini-del-mondo-f56f9079/",
+          "source": "racconti/dai_confini_del_mondo.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-cf978d20f84e",
+          "action": "work",
+          "title": "Marco 16, 9-20",
+          "path": "/works/marco-16-9-20-cf978d20/",
+          "source": "racconti/marco16.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-325444691f09",
+          "action": "work",
+          "title": "Vangelo di Giuseppe e Maria",
+          "path": "/works/vangelo-di-giuseppe-e-maria-32544469/",
+          "source": "racconti/vangelo_di_giuseppe_e_maria.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-5d92f05eedca",
+          "action": "work",
+          "title": "I due orsi",
+          "path": "/works/i-due-orsi-5d92f05e/",
+          "source": "racconti/i_due_orsi.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-5ec5ad7414a7",
+          "action": "work",
+          "title": "Sotto il velame",
+          "path": "/works/sotto-il-velame-5ec5ad74/",
+          "source": "racconti/sotto_il_velame.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-e6f63dcff8e7",
+          "action": "work",
+          "title": "La settima tromba",
+          "path": "/works/la-settima-tromba-e6f63dcf/",
+          "source": "racconti/settima_tromba.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-9f43d4b4a7da",
+          "action": "work",
+          "title": "Il dente di drago",
+          "path": "/works/il-dente-di-drago-9f43d4b4/",
+          "source": "racconti/dente_di_drago.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-177d34174030",
+          "action": "work",
+          "title": "Nella durata di un sogno",
+          "path": "/works/nella-durata-di-un-sogno-177d3417/",
+          "source": "racconti/nella_durata_di_un_sogno.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-5207d4869fed",
+          "action": "work",
+          "title": "La torre del serpente",
+          "path": "/works/la-torre-del-serpente-5207d486/",
+          "source": "racconti/torre_del_serpente.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-a1f5e52be757",
+          "action": "work",
+          "title": "La Spada Laser",
+          "path": "/works/la-spada-laser-a1f5e52b/",
+          "source": "racconti/spada_laser.pdf",
+          "titleFrom": "link"
+        },
+        {
+          "proposalId": "proposal-doc-a5b22c3419c6",
+          "action": "work",
+          "title": "Il tuo amico",
+          "path": "/works/il-tuo-amico-a5b22c34/",
+          "source": "racconti/poesie colleghi/il_tuo_amico.pdf",
+          "titleFrom": "link"
+        }
+      ]
+    }
+  ]
+}

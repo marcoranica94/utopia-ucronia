@@ -13,7 +13,7 @@ import {
   sourceHtml,
 } from "./editorial-core.ts";
 import type { Gap } from "./link-resolution.ts";
-import { pdfEdition } from "./pdf.ts";
+import { pdfEdition, pdfLayoutText } from "./pdf.ts";
 import { safePath, sha256, urlKey, writeJson } from "./recovery/core.ts";
 import { compareItemKey } from "./unit-keys.ts";
 
@@ -21,7 +21,7 @@ export const normalize = (text: string) =>
   text
     .replace(/[\w.+-]+@[\w.-]+\.[a-z]{2,}/gi, "[email removed]")
     .replace(/mailto:/gi, "")
-    .replace(/\s/g, "")
+    .replace(/[\s\p{Cc}\p{Cf}]/gu, "")
     .normalize("NFC");
 function same(actual: string, expected: string, message: string) {
   if (actual === expected) return;
@@ -63,6 +63,7 @@ type Report = Awaited<ReturnType<typeof compareItem>>;
 const documentsDigest = digest(JSON.stringify(map.documents));
 const cache = await openCache<Report>("compare");
 const reports: Report[] = [];
+const failures: string[] = [];
 for (const c of conversions) {
   const pageBytes = await readFile(
     safePath("dist", `${c.path.slice(1)}index.html`),
@@ -100,7 +101,20 @@ for (const c of conversions) {
   });
   const cached = await cache.get(key);
   // A failing item throws before storing, so only verified reports are cached.
-  const report = cached ?? (await compareItem(c, pageBytes, item, corrections));
+  // COMPARE_ALL=1 lists every failing item before failing, instead of the first.
+  let report: Awaited<ReturnType<typeof compareItem>>;
+  try {
+    report = cached ?? (await compareItem(c, pageBytes, item, corrections));
+  } catch (error) {
+    if (!process.env.COMPARE_ALL) throw error;
+    failures.push(
+      String((error as Error).message)
+        .split("\n")
+        .slice(0, 3)
+        .join("\n  "),
+    );
+    continue;
+  }
   if (!cached) await cache.set(key, report);
   reports.push(report);
   if (reports.length % 10 === 0)
@@ -108,6 +122,8 @@ for (const c of conversions) {
       `Fidelity: ${reports.length}/${conversions.length} items compared`,
     );
 }
+if (failures.length)
+  throw new Error(`${failures.length} items failed:\n${failures.join("\n")}`);
 async function compareItem(
   c: Conversion,
   pageBytes: Buffer,
@@ -140,9 +156,7 @@ async function compareItem(
         await readFile(safePath("archive/original", document.path)),
       );
       assert.ok(edition);
-      const rawText = edition.rawText
-        .join("\n")
-        .replace(/([a-zà-ú])-\s*\n\s*([a-zà-ú])/gi, "$1$2");
+      const rawText = pdfLayoutText(edition.rawText);
       const reconstructed = load(edition.html)("body").text();
       same(
         normalize(reconstructed),
@@ -152,7 +166,11 @@ async function compareItem(
       expectedImagePaths.push(
         ...edition.images.map((image) => `/sample/${sha256(image.bytes)}.png`),
       );
-      assert.equal(load(edition.html)("img").length, edition.images.length);
+      assert.equal(
+        load(edition.html)("img").length,
+        edition.images.length,
+        `PDF illustration placement: ${c.slug}`,
+      );
       assert.equal(
         page("article img").length,
         edition.images.length,

@@ -361,8 +361,15 @@ const isSignature = (b: Block, author?: string) =>
   ((b.names.length > 0 && norm(b.names.join(" ")) === norm(b.text)) ||
     (author !== undefined && b.bold && norm(b.text) === norm(author)));
 
-const authorLine = (text: string) =>
-  /^(?:di|de|by|par|por)\s+(.+)$/iu.exec(text)?.[1]?.replace(/\s*\(.*\)$/, "");
+const authorLine = (text: string) => {
+  const name = /^(?:di|de|by|par|por)\s+(.+)$/iu
+    .exec(text)?.[1]
+    ?.replace(/\s*\(.*\)$/, "");
+  // "De Rossi in campo: e tutto iniziò così!" is a title, not "by Rossi…".
+  if (!name || /[:!?]/.test(name) || name.split(/\s+/).length > 6)
+    return undefined;
+  return name;
+};
 
 /** Splits a segment's blocks into lead text, POD and dated entries. */
 function structure(segment: Segment, body: Block[], idPrefix: string): void {

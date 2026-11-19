@@ -120,6 +120,8 @@ const it = {
   "browse.searchPrompts": "Cerca negli spunti",
   "source.title": "Fonte e provenienza",
   "source.open": "Apri fonte e provenienza",
+  "source.pdf":
+    "Testo ricavato dal PDF originale {file}: il file non è servito dal sito.",
   "source.intro":
     "Testo della fonte recuperata, mostrato senza codice attivo e senza indirizzi email.",
   "source.original": "Indirizzo della fonte",
@@ -631,6 +633,8 @@ const en: Record<keyof typeof it, string> = {
   "browse.searchPrompts": "Search the prompts",
   "source.title": "Source and provenance",
   "source.open": "Open source and provenance",
+  "source.pdf":
+    "Text taken from the original PDF {file}; the file itself is not served.",
   "source.intro":
     "Recovered source text, shown without active code or email addresses.",
   "source.original": "Source address",
