@@ -2,12 +2,13 @@
   "date": "2026-11-19",
   "files": 381,
   "totals": {
-    "published": 301,
-    "held: fails the text-layer check": 26,
+    "published": 318,
     "merged: download copy of a published page": 10,
-    "scan: OCR pending": 30,
+    "pictures, no text: OCR gives fragments": 4,
+    "held: fails the text-layer check": 11,
     "illustration of the PDF beside it": 12,
-    "discarded: presentation or spreadsheet": 2
+    "discarded: presentation or spreadsheet": 2,
+    "drawing or table without text: nothing to read": 24
   },
   "rows": [
     {
@@ -137,8 +138,8 @@
     },
     {
       "file": "utopiaucronia/dante33/ucronia_di_dago.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/dago-per-davvero-2ed4a2d0/"
     },
     {
       "file": "utopiaucronia/dante33/ucronia_yavana.pdf",
@@ -272,8 +273,8 @@
     },
     {
       "file": "utopiaucronia/etruschi/grande_giappone.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/il-celeste-impero-giapponese-2c0058ed/"
     },
     {
       "file": "utopiaucronia/etruschi/premiere_republique.pdf",
@@ -292,7 +293,8 @@
     },
     {
       "file": "utopiaucronia/fantarcheologia_2000.pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "published",
+      "detail": "/works/che-cos-e-la-fantarcheologia-9d5b12c1/"
     },
     {
       "file": "utopiaucronia/francia_italia/allemagne_mon_amour.pdf",
@@ -361,7 +363,7 @@
     },
     {
       "file": "utopiaucronia/grande_australia/ilpianetadegliuominisapiens.pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "pictures, no text: OCR gives fragments"
     },
     {
       "file": "utopiaucronia/grande_australia/le_scelte_dell_italia.pdf",
@@ -400,7 +402,8 @@
     },
     {
       "file": "utopiaucronia/grande_messico/bilib.pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "published",
+      "detail": "/works/la-bambina-di-bilibiza-d0e794c3/"
     },
     {
       "file": "utopiaucronia/grande_messico/bicentennialman.pdf",
@@ -689,7 +692,7 @@
     },
     {
       "file": "utopiaucronia/emmaida_ai.pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "pictures, no text: OCR gives fragments"
     },
     {
       "file": "utopiaucronia/grande_messico/la_libia_potenza_regionale.pdf",
@@ -863,8 +866,8 @@
     },
     {
       "file": "utopiaucronia/gmr/siamo_sicuri_della_vittoria.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/1999-indipendenza-della-padania-2ef4f30e/"
     },
     {
       "file": "utopiaucronia/francia_italia/bin_laden_filoamericano.pdf",
@@ -1208,8 +1211,8 @@
     },
     {
       "file": "utopiaucronia/vrbs_aeterna.zip › Vrbs Aeterna.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/vrbs-aeterna-b16fb97b/"
     },
     {
       "file": "utopiaucronia/nouivelle_france/borghi,_tacito_germanico.zip › Copertina_Borghi.pdf",
@@ -1316,11 +1319,11 @@
     },
     {
       "file": "utopiaucronia/dipinti_sandro/auto2000_1.zip › L'auto da oggi al 2000 - 1.pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "pictures, no text: OCR gives fragments"
     },
     {
       "file": "utopiaucronia/dipinti_sandro/auto2000_2.zip › L'auto da oggi al 2000 - 2.pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "pictures, no text: OCR gives fragments"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_1.zip › Ucronia - La II GM_1.pdf",
@@ -1369,11 +1372,11 @@
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/AvvSc_Galla Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/AvvSc_ImpRom Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/CAI.pdf",
@@ -1387,27 +1390,27 @@
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Corv_Isole II Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Ct_CittMarinare Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Ct_CittMarinare_II Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Ct_MOVM III Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Ct_Tp_Avv_Sc_Ucronici.pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Ct_Zara Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/FlottaFrancese.pdf",
@@ -1431,67 +1434,67 @@
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Freg_Uccelli Marini Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/IlAA_Firenze Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/IlAA_Liguria Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/IlAA_Nizza Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Nb_Colombo_N Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Np_Grifone Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Np_Insuperabile Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Np_Nibbio II Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Np_Rapace II Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Np_Vampiro Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Posam_Rimini Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Tp_Citt II Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_files.zip › II_GM_hdosbe_files/Tp_Citt III_BN Model (1).pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_divisioni.zip › Fant_41.pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_divisioni.zip › Fant_40.pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "utopiaucronia/ii_gm_hdosbe_divisioni.zip › Fant_42.pdf",
-      "outcome": "scan: OCR pending"
+      "outcome": "drawing or table without text: nothing to read"
     },
     {
       "file": "racconti/tre_giorni_di_cammino.zip › Tre_giorni_di_cammino.pdf",
@@ -1575,8 +1578,8 @@
     },
     {
       "file": "racconti/padre_futuro/solo_una_pagina.zip › Solo_una_pagina.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/solo-una-pagina-65bc807d/"
     },
     {
       "file": "racconti/padre_futuro/pianeta_d_oro.zip › Pianeta_d_oro.pdf",
@@ -1615,8 +1618,8 @@
     },
     {
       "file": "racconti/padre_futuro/vuoi_vedere_che.zip › Vuoi_vedere_che.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/vuoi-vedere-che-a496ea54/"
     },
     {
       "file": "racconti/padre_futuro/il_bruco_e_il_fiore.zip › Il_bruco_e_il_fiore.pdf",
@@ -1635,13 +1638,13 @@
     },
     {
       "file": "racconti/uccello_di_fuoco.zip › uccello_di_fuoco.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/l-uccello-di-fuoco-245471b9/"
     },
     {
       "file": "racconti/le_mura_silenziose.zip › Le_mura_silenziose.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/le-mura-silenziose-28a1cd60/"
     },
     {
       "file": "racconti/macchia_sul_sole.zip › La macchia sul sole.pdf",
@@ -1660,8 +1663,8 @@
     },
     {
       "file": "racconti/su_uno_stretto_ponte.zip › Su_uno_stretto_ponte.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/su-uno-stretto-ponte-e80a1ff4/"
     },
     {
       "file": "racconti/torre_incrollabile.zip › La_Torre_Incrollabile.pdf",
@@ -1675,8 +1678,8 @@
     },
     {
       "file": "racconti/con_ogni_mezzo.zip › Con_ogni_mezzo.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/con-ogni-mezzo-e9f49f5b/"
     },
     {
       "file": "racconti/di_che_vivono_gli_uomini.zip › Di che vivono gli uomini.pdf",
@@ -1685,18 +1688,18 @@
     },
     {
       "file": "racconti/occhio_del_gatto.zip › Occhio_del_gatto.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/l-occhio-del-gatto-52b10d87/"
     },
     {
       "file": "racconti/le_chemin_du_ciel.zip › Le_Chemin_du_Ciel.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/le-chemin-du-ciel-797c6c93/"
     },
     {
       "file": "racconti/quo_usque_jacobowski.zip › Quo_usque_Jacobowski.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/quo-usque-jacobowski-8ad2ca7b/"
     },
     {
       "file": "racconti/la_pisside_di_cera.zip › La pisside di cera.pdf",
@@ -1705,8 +1708,8 @@
     },
     {
       "file": "racconti/uccidere_per_amore.zip › Uccidere_per_amore.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/uccidere-per-amore-4ecdb40c/"
     },
     {
       "file": "racconti/passioni_pericolose.zip › Passioni_pericolose.pdf",
@@ -1755,8 +1758,8 @@
     },
     {
       "file": "racconti/nozze_di_piombo.zip › Nozze_di_piombo.pdf",
-      "outcome": "held: fails the text-layer check",
-      "detail": "approved, not published: overprinted text fails the independent text-layer check"
+      "outcome": "published",
+      "detail": "/works/nozze-di-piombo-03a6767f/"
     },
     {
       "file": "racconti/la_voce_del_vento.zip › La_voce_del_vento.pdf",

@@ -14,7 +14,7 @@ import {
   sourceHtml,
 } from "./editorial-core.ts";
 import type { Gap } from "./link-resolution.ts";
-import { pdfLayoutText } from "./pdf.ts";
+import { pdfLayoutText, readOcr } from "./pdf.ts";
 import { safePath, sha256, urlKey, writeJson } from "./recovery/core.ts";
 import { compareItemKey } from "./unit-keys.ts";
 
@@ -84,6 +84,8 @@ for (const c of conversions) {
       document
         ? digest(await readFile(safePath("archive/original", document.path)))
         : "missing",
+      // A stored OCR is part of a scanned PDF's source (S8).
+      document ? JSON.stringify((await readOcr(document.sha256)) ?? "") : "",
     );
   }
   const key = compareItemKey(cache, {

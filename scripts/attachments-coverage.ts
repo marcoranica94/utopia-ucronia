@@ -46,7 +46,10 @@ for (const pdf of inventory.pdfs as { path: string }[]) {
             detail: report.duplicateOf,
           }
         : report?.outcome.startsWith("scan")
-          ? { file: pdf.path, outcome: "scan: OCR pending" }
+          ? {
+              file: pdf.path,
+              outcome: "pictures, no text: OCR gives fragments",
+            }
           : {
               file: pdf.path,
               outcome: "held: fails the text-layer check",
@@ -76,7 +79,12 @@ for (const zip of inventory.zips as {
         : outcome.startsWith("illustration")
           ? { file: name, outcome: "illustration of the PDF beside it" }
           : outcome.startsWith("scan")
-            ? { file: name, outcome: "scan: OCR pending" }
+            ? {
+                file: name,
+                outcome: /Model|Fant_4|Ct_Tp_/.test(file.name)
+                  ? "drawing or table without text: nothing to read"
+                  : "pictures, no text: OCR gives fragments",
+              }
             : outcome.startsWith("not read")
               ? {
                   file: name,

@@ -629,6 +629,10 @@ blockquote:has(> .src-red-whole) {
   font-family: var(--font-ui);
   font-size: 0.98em;
 }
+.ocr-note {
+  color: var(--muted);
+  font: 0.92rem / 1.5 var(--font-ui);
+}
 .source-red-note {
   max-width: 70ch;
   margin: 0 0 1.5rem;

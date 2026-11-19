@@ -20,8 +20,13 @@ import { zipEntries, zipRead } from "./zip.ts";
 const { positionals } = parseArgs({
   allowPositionals: true,
   options: { zips: { type: "boolean" } },
+  strict: false,
 });
 const command = positionals[0] ?? "inventory";
+if (command === "ocr") {
+  await import("./attachments-ocr.ts");
+  process.exit(0);
+}
 if (command === "coverage") {
   await import("./attachments-coverage.ts");
   process.exit(0);

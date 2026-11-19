@@ -12,7 +12,7 @@ import {
   redact,
   unknownClassification,
 } from "./editorial-core.ts";
-import { pdfEdition } from "./pdf.ts";
+import { pdfEdition, readOcr } from "./pdf.ts";
 import { safePath, urlKey, writeJson } from "./recovery/core.ts";
 
 /**
@@ -43,6 +43,8 @@ type Inventory = {
 };
 // `propose --zips`: only the files inside zips (the loose PDFs are done).
 const zipsOnly = process.argv.includes("--zips");
+// `propose --ocr`: only the scanned PDFs that now have a stored OCR (S8).
+const ocrOnly = process.argv.includes("--ocr");
 type Browse = {
   entries: { title: string; authors: string[]; targets: string[] }[];
   targets: { id: string; source?: string; status: string }[];
@@ -242,7 +244,11 @@ const report: {
   containment?: number;
 }[] = [];
 
-for (const pdf of zipsOnly ? [] : inventory.pdfs) {
+for (const pdf of zipsOnly
+  ? []
+  : ocrOnly
+    ? inventory.pdfs.filter((p) => p.kind === "scan" || p.kind === "mixed")
+    : inventory.pdfs) {
   const document = byPath.get(pdf.path);
   if (!document) throw new Error(`PDF missing from the map: ${pdf.path}`);
   const proposal = map.proposals.find(
@@ -253,7 +259,8 @@ for (const pdf of zipsOnly ? [] : inventory.pdfs) {
     report.push({ path: pdf.path, outcome: `kept (${proposal.action})` });
     continue;
   }
-  if (pdf.kind === "scan" || pdf.kind === "mixed") {
+  const ocr = await readOcr(document.sha256);
+  if ((pdf.kind === "scan" || pdf.kind === "mixed") && !ocr) {
     report.push({ path: pdf.path, outcome: "scan: OCR pending" });
     continue;
   }
@@ -329,7 +336,7 @@ for (const pdf of zipsOnly ? [] : inventory.pdfs) {
     developedIn: [],
     composition: "single",
     review: proposed(
-      `A recovered PDF with a text layer, read as text like the HTML works (S7); title from the ${titleFrom === "catalog" ? "original works catalog" : titleFrom === "link" ? "link that cites it" : titleFrom === "text" ? "opening of the text" : "PDF itself"}.`,
+      `${ocr ? "A scanned PDF read once by OCR (S8)" : "A recovered PDF with a text layer"}, read as text like the HTML works; title from the ${titleFrom === "catalog" ? "original works catalog" : titleFrom === "link" ? "link that cites it" : titleFrom === "text" ? "opening of the text" : "PDF itself"}.`,
       quote,
     ),
   };
@@ -368,7 +375,7 @@ const zipReport: {
   title?: string;
   titleFrom?: string;
 }[] = [];
-for (const zip of inventory.zips) {
+for (const zip of ocrOnly ? [] : inventory.zips) {
   const document = byPath.get(zip.path);
   if (!document) throw new Error(`Zip missing from the map: ${zip.path}`);
   const proposal = map.proposals.find(
@@ -550,7 +557,19 @@ const next = lines.join("\n");
 // The edited map must still parse and validate before it is written.
 mapSchema.parse(JSON.parse(next));
 await writeFile("data/map.yaml", next);
-if (!zipsOnly)
+if (ocrOnly) {
+  // Replace only the rows of the scans just read.
+  const previous = JSON.parse(
+    await readFile("reports/attachments-proposals.json", "utf8"),
+  );
+  for (const row of report) {
+    const at = previous.pdfs.findIndex(
+      (p: { path: string }) => p.path === row.path,
+    );
+    if (at >= 0) previous.pdfs[at] = row;
+  }
+  await writeJson("reports/attachments-proposals.json", previous);
+} else if (!zipsOnly)
   await writeJson("reports/attachments-proposals.json", {
     date: new Date().toISOString().slice(0, 10),
     proposed: report.filter((r) => r.outcome === "proposed work").length,
@@ -562,14 +581,15 @@ if (!zipsOnly)
   });
 const count = (prefix: string) =>
   zipReport.filter((r) => r.outcome.startsWith(prefix)).length;
-await writeJson("reports/attachments-zip-proposals.json", {
-  date: new Date().toISOString().slice(0, 10),
-  proposed: count("proposed work"),
-  scans: count("scan"),
-  illustrations: count("illustration"),
-  notRead: count("not read"),
-  files: zipReport,
-});
+if (!ocrOnly)
+  await writeJson("reports/attachments-zip-proposals.json", {
+    date: new Date().toISOString().slice(0, 10),
+    proposed: count("proposed work"),
+    scans: count("scan"),
+    illustrations: count("illustration"),
+    notRead: count("not read"),
+    files: zipReport,
+  });
 console.log(
   `${newItems.length} work proposals, ${newAuthors.length} new author names; reports in reports/attachments-*proposals.json`,
 );

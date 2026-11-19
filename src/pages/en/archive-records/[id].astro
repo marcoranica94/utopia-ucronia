@@ -1,8 +1,11 @@
 ---
 import { browse } from "../../../browse/data";
+import { hasRecordPage } from "../../../browse/model";
 import ArchiveRecord from "../../../views/ArchiveRecord.astro";
 export const getStaticPaths = () =>
-  browse.targets.map((target) => ({
+  // A record whose text is in the edition has no page of its own: every
+  // index links straight to the reading work (S8, Cloudflare file limit).
+  browse.targets.filter(hasRecordPage).map((target) => ({
     params: { id: target.id },
     props: { target },
   }));

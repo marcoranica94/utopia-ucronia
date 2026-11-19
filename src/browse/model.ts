@@ -123,3 +123,7 @@ export type BrowseTarget = z.infer<typeof targetSchema>;
 export type BrowseGroup = z.infer<typeof groupSchema>;
 export type BrowsePrompt = z.infer<typeof promptSchema>;
 export type BrowseEntry = z.infer<typeof catalogEntrySchema>;
+
+/** Records that keep a page: those not (yet) readable in the edition. */
+export const hasRecordPage = (target: { readingHref?: string }) =>
+  !target.readingHref;

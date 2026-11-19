@@ -51,6 +51,47 @@ const median = (values: number[]) => {
   return v.length ? v[Math.floor(v.length / 2)] : 0;
 };
 
+/** Fake bold: the same glyphs drawn again a hair apart, possibly with other
+ * copies in between (A B A B). `recent` remembers the last items drawn. */
+function overprinted(
+  recent: { str: string; x: number; y: number }[],
+  item: TextItem,
+): boolean {
+  const [, , , , x, y] = item.transform;
+  const size = Math.abs(item.transform[3]) || item.height;
+  const copy =
+    item.str.trim() !== "" &&
+    recent.some(
+      (r) =>
+        r.str === item.str &&
+        Math.abs(x - r.x) < size * 0.12 &&
+        Math.abs(y - r.y) < size * 0.12,
+    );
+  recent.push({ str: item.str, x, y });
+  if (recent.length > 8) recent.shift();
+  return copy;
+}
+
+/** The text layer as pdf.js strings it (items in drawing order, a line break
+ * at each end of line), without overprinted copies: the reference of the
+ * independent fidelity check, one string per page. */
+export async function layerText(pdf: PdfDocument): Promise<string[]> {
+  const pages: string[] = [];
+  for (let n = 1; n <= pdf.numPages; n++) {
+    const { items } = await (await pdf.getPage(n)).getTextContent();
+    const recent: { str: string; x: number; y: number }[] = [];
+    let text = "";
+    for (const raw of items) {
+      if (!("str" in raw)) continue;
+      const item = raw as TextItem;
+      if (overprinted(recent, item)) continue;
+      text += item.str + (item.hasEOL ? "\n" : "");
+    }
+    pages.push(text);
+  }
+  return pages;
+}
+
 export async function pdfLines(pdf: PdfDocument): Promise<Line[]> {
   const lines: Line[] = [];
   for (let n = 1; n <= pdf.numPages; n++) {
@@ -65,18 +106,7 @@ export async function pdfLines(pdf: PdfDocument): Promise<Line[]> {
       const item = raw as TextItem;
       const [, , , , x, y] = item.transform;
       const size = Math.abs(item.transform[3]) || item.height;
-      // Fake bold: the same glyphs drawn twice a hair apart ("CCiinnaa").
-      const overprint =
-        item.str.trim() &&
-        recent.some(
-          (r) =>
-            r.str === item.str &&
-            Math.abs(x - r.x) < size * 0.12 &&
-            Math.abs(y - r.y) < size * 0.12,
-        );
-      recent.push({ str: item.str, x, y });
-      if (recent.length > 8) recent.shift();
-      if (overprint) continue;
+      if (overprinted(recent, item)) continue;
       const sameLine =
         current &&
         Math.abs(current.y - y) <= Math.max(size, current.size) * 0.5;
@@ -102,6 +132,11 @@ export async function pdfLines(pdf: PdfDocument): Promise<Line[]> {
     }
     if (current?.text.trim()) lines.push(current);
   }
+  return cleanLines(lines);
+}
+
+/** The declared layout removals on text-layer lines (see pdfLayoutText). */
+export function cleanLines(lines: Line[]): Line[] {
   const cleaned = lines
     .map((l) => ({
       ...l,
@@ -165,16 +200,58 @@ export function undouble(text: string): string {
     for (let i = 0; i < c.length; i += 2) if (c[i] !== c[i + 1]) return false;
     return true;
   };
-  if ([...text].length < 6 || !words.every(doubled)) return text;
-  return words
-    .map((w) => [...w].filter((_, i) => i % 2 === 0).join(""))
-    .join(" ");
+  if ([...text].length >= 6 && words.every(doubled))
+    return words
+      .map((w) => [...w].filter((_, i) => i % 2 === 0).join(""))
+      .join(" ");
+  return unrepeat(text);
+}
+
+/** Fake bold drawn as k shifted copies (S8): every character of the line
+ * appears k times in a row, a real double 2k times ("LL’’’UUUCCCCCCEEE…"
+ * with k = 3 is "L’UCCE…"). Changed only when nearly every run of a
+ * character in the line is repeated: ordinary text has few runs. */
+export function unrepeat(text: string): string {
+  const runs: { char: string; length: number }[] = [];
+  for (const char of text) {
+    const last = runs.at(-1);
+    if (last && last.char === char) last.length++;
+    else runs.push({ char, length: 1 });
+  }
+  const visible = runs.filter((r) => r.char.trim());
+  if (visible.reduce((a, r) => a + r.length, 0) < 8) return text;
+  // Nearly all runs repeated (the first copy of a line may fall short).
+  const repeated = visible.filter((r) => r.length >= 2).length;
+  if (repeated < visible.length * 0.85) return text;
+  let best = 0;
+  let k = 0;
+  for (const candidate of [2, 3, 4]) {
+    const fit = visible.filter(
+      (r) =>
+        Math.abs(r.length / candidate - Math.round(r.length / candidate)) <
+        0.34,
+    ).length;
+    if (fit > best) {
+      best = fit;
+      k = candidate;
+    }
+  }
+  if (!k || best < visible.length * 0.8) return text;
+  return runs
+    .map((r) =>
+      r.char.trim()
+        ? r.char.repeat(Math.max(1, Math.round(r.length / k)))
+        : r.char,
+    )
+    .join("");
 }
 
 export function linesToHtml(
   lines: Line[],
   metadataTitle?: string,
   images: PdfImage[] = [],
+  // OCR lines carry no reliable sizes: verse would read as subheadings.
+  { subheadings = true }: { subheadings?: boolean } = {},
 ): string {
   // A narrow year column can wrap a range onto two text-layer lines.
   lines = lines.flatMap((line, index) => {
@@ -254,6 +331,7 @@ export function linesToHtml(
   // even when the PDF sets it at body size (bold is not in the text layer).
   for (const [i, b] of blocks.entries())
     if (
+      subheadings &&
       b.tag === "p" &&
       b.lines === 1 &&
       b.text.length < 90 &&
@@ -332,6 +410,33 @@ async function extractEdition(data: Buffer): Promise<PdfEdition | undefined> {
   }
   const pdf = await lib.getDocumentProxy(new Uint8Array(data));
   const { info } = (await pdf.getMetadata()) as { info?: { Title?: string } };
+  // A scan read once by OCR (S8): its stored lines are the text layer.
+  const ocr = await readOcr(createHash("sha256").update(data).digest("hex"));
+  if (ocr) {
+    const lines = ocr.pages.flatMap((page) =>
+      page.lines.map((line) => ({
+        text: line.text,
+        x: line.x,
+        // Image rows grow downwards; text-layer y grows upwards.
+        y: -line.bottom,
+        size: line.height,
+        page: page.page,
+      })),
+    );
+    return {
+      html: linesToHtml(cleanLines(lines), undefined, [], {
+        subheadings: false,
+      }).replace(
+        "<body>",
+        '<body><p class="ocr-note" data-ui><span data-t="source.ocrNote"></span></p>',
+      ),
+      images: [],
+      pages: pdf.numPages,
+      rawText: ocr.pages.map((page) =>
+        page.lines.map((line) => line.text).join("\n"),
+      ),
+    };
+  }
   const meta =
     info?.Title &&
     !/^(?:documento|document|microsoft|untitled)|\.docx?$/i.test(info.Title)
@@ -371,14 +476,34 @@ async function extractEdition(data: Buffer): Promise<PdfEdition | undefined> {
       });
     }
   }
-  const raw = await lib.extractText(pdf, { mergePages: false });
   return {
     html: linesToHtml(await pdfLines(pdf), meta, images),
     images,
     pages: pdf.numPages,
-    rawText: raw.text,
+    rawText: await layerText(pdf),
   };
 }
+/** OCR of a scanned PDF, stored once in data/ocr/<sha256>.json. */
+export type OcrFile = {
+  engine: string;
+  sha256: string;
+  pages: {
+    page: number;
+    confidence: number;
+    lines: { text: string; x: number; bottom: number; height: number }[];
+  }[];
+};
+export async function readOcr(sha256: string): Promise<OcrFile | undefined> {
+  try {
+    const { readFile } = await import("node:fs/promises");
+    return JSON.parse(
+      await readFile(`data/ocr/${sha256}.json`, "utf8"),
+    ) as OcrFile;
+  } catch {
+    return undefined;
+  }
+}
+
 export async function pdfToHtml(data: Buffer): Promise<string | undefined> {
   return (await pdfEdition(data))?.html;
 }

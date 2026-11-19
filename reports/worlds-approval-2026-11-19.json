@@ -39,5 +39,23 @@
       "id": "l-albero-genealogico-dei-draghi",
       "chapters": 2
     }
-  ]
+  ],
+  "update": {
+    "date": "2026-11-19",
+    "note": "Stories released from the publication holds after the overprint fix (S8) re-entered the three cycles derived from racconti.htm, as told to the owner when the cycles were approved; their source rule is unchanged.",
+    "cycles": [
+      {
+        "id": "ciclo-di-morimondo-sanguinoso",
+        "chapters": 35
+      },
+      {
+        "id": "ciclo-di-padre-futuro",
+        "chapters": 18
+      },
+      {
+        "id": "ciclo-della-stella-maya",
+        "chapters": 13
+      }
+    ]
+  }
 }

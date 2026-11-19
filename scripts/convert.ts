@@ -27,6 +27,7 @@ import {
   sourceHtml,
 } from "./editorial-core.ts";
 import { explainedGap, type Gap, type GapReason } from "./link-resolution.ts";
+import { readOcr } from "./pdf.ts";
 import {
   baselineIds,
   publicationItems,
@@ -343,7 +344,12 @@ for (const page of pages)
     const bytes = await readFile(safePath("archive/original", document.path));
     // Illustrations depend only on the file bytes, the zip entry and the
     // toolchain.
-    const key = pdfCache.key(bytes, part.source.entry ?? "");
+    const ocr = await readOcr(document.sha256);
+    const key = pdfCache.key(
+      bytes,
+      part.source.entry ?? "",
+      ocr ? JSON.stringify(ocr) : "",
+    );
     let images = await pdfCache.get(key);
     if (!images) {
       images = (

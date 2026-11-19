@@ -1,0 +1,27 @@
+{
+  "ownerInstruction": "7 ok",
+  "authorization": "Owner approval of 19 November 2026 of OCR for the scanned PDFs (S8).",
+  "packets": [
+    {
+      "packetSha256": "5fe5c0888f24ad041008da57c6e0d7ef8c2fd0cf36fda8646881495ca278f6ca",
+      "action": "work",
+      "approvedAt": "2026-11-19T12:54:37.384Z",
+      "entries": [
+        {
+          "proposalId": "proposal-doc-9d5b12c113ab",
+          "action": "work",
+          "title": "Che cos'è la fantarcheologia?",
+          "path": "/works/che-cos-e-la-fantarcheologia-9d5b12c1/",
+          "source": "utopiaucronia/fantarcheologia_2000.pdf"
+        },
+        {
+          "proposalId": "proposal-doc-d0e794c3010e",
+          "action": "work",
+          "title": "La bambina di Bilibiza",
+          "path": "/works/la-bambina-di-bilibiza-d0e794c3/",
+          "source": "utopiaucronia/grande_messico/bilib.pdf"
+        }
+      ]
+    }
+  ]
+}

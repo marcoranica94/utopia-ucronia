@@ -1,7 +1,7 @@
 import assert from "node:assert/strict";
-import { readFile } from "node:fs/promises";
+import { access, readFile } from "node:fs/promises";
 import { load } from "cheerio";
-import { browseSchema } from "../src/browse/model.ts";
+import { browseSchema, hasRecordPage } from "../src/browse/model.ts";
 import { pageSizes, periodPath } from "../src/browse/pagination.ts";
 import { openCache } from "./build-cache.ts";
 import { safePath, sha256, writeJson } from "./recovery/core.ts";
@@ -206,6 +206,14 @@ for (const lang of ["it", "en"] as const) {
   }
   for (const target of data.targets) {
     const path = `${lang === "en" ? "en/" : ""}archive-records/${target.id}/index.html`;
+    // A readable record has no page: indexes link to the work itself.
+    if (!hasRecordPage(target)) {
+      await assert.rejects(
+        access(safePath("dist", path)),
+        `Readable record has a page: ${target.id}`,
+      );
+      continue;
+    }
     await verified(safePath("dist", path), { target }, (bytes) => {
       const page = load(bytes.toString("utf8"));
       assert.equal(normalize(page("h1").text()), normalize(target.title));
@@ -229,6 +237,7 @@ await writeJson("reports/browse-validation.json", {
   promptsPerLanguage: data.prompts.length,
   catalogEntriesPerLanguage: data.entries.length,
   recordsPerLanguage: data.targets.length,
+  recordPagesPerLanguage: data.targets.filter(hasRecordPage).length,
   listPages: visited.size,
   pageSizes: [...pageSizes],
   defaultPageSize: 40,

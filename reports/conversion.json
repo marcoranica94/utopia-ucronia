@@ -8203,19 +8203,8 @@
       }
     ],
     "gaps": [
-      "gap-31900d90ed96",
-      "gap-4cf7a09b040a",
-      "gap-2185c61e4b86",
-      "gap-e6dd1f4393a3",
       "gap-bfe2c209b2c4",
-      "gap-a8cbd11d5071",
       "gap-ae6e3a36c00b",
-      "gap-616fc7755d6f",
-      "gap-e5c0d67a503c",
-      "gap-955158d3a68a",
-      "gap-a210ec57a458",
-      "gap-6d9c5ed5cf6b",
-      "gap-6fe27dfa149c",
       "gap-0813139ffe34",
       "gap-9471e691395f",
       "gap-fc15a8e5dc65",
@@ -29478,6 +29467,36 @@
     }
   },
   {
+    "slug": "dago-per-davvero-2ed4a2d0",
+    "path": "/works/dago-per-davvero-2ed4a2d0/",
+    "editorialId": "item-35d89f5c6609",
+    "source": "http://www.fmboschetto.it/utopiaucronia/Dante33/Ucronia_di_Dago.pdf",
+    "sources": [
+      {
+        "documentId": "doc-2ed4a2d0567b",
+        "url": "http://www.fmboschetto.it/utopiaucronia/Dante33/Ucronia_di_Dago.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Dago per davvero!",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Dante33/Ucronia_di_Dago.pdf",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "unione-sovietica-e-cina-scambiate-ba9bf211",
     "path": "/works/unione-sovietica-e-cina-scambiate-ba9bf211/",
     "editorialId": "item-5e8f9fd8f798",
@@ -30182,6 +30201,37 @@
     "removed": [
       {
         "source": "http://www.fmboschetto.it:80/Utopiaucronia/etruschi/Fanta_Megalodonte.pdf",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "il-celeste-impero-giapponese-2c0058ed",
+    "path": "/works/il-celeste-impero-giapponese-2c0058ed/",
+    "editorialId": "item-fbe1cc04de8f",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/etruschi/Grande_Giappone.pdf",
+    "sources": [
+      {
+        "documentId": "doc-2c0058ed4e58",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/etruschi/Grande_Giappone.pdf",
+        "timestamp": "20140811012511",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Il Celeste Impero Giapponese",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/etruschi/Grande_Giappone.pdf",
         "text": []
       }
     ],
@@ -33591,6 +33641,36 @@
     }
   },
   {
+    "slug": "1999-indipendenza-della-padania-2ef4f30e",
+    "path": "/works/1999-indipendenza-della-padania-2ef4f30e/",
+    "editorialId": "item-e98849444e5f",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/GMR/Siamo_sicuri_della_Vittoria.pdf",
+    "sources": [
+      {
+        "documentId": "doc-2ef4f30ef749",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/GMR/Siamo_sicuri_della_Vittoria.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "1999, Indipendenza della Padania",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/GMR/Siamo_sicuri_della_Vittoria.pdf",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "bin-laden-filoamericano-b0151b71",
     "path": "/works/bin-laden-filoamericano-b0151b71/",
     "editorialId": "item-643308d7167f",
@@ -35498,6 +35578,37 @@
     }
   },
   {
+    "slug": "vrbs-aeterna-b16fb97b",
+    "path": "/works/vrbs-aeterna-b16fb97b/",
+    "editorialId": "item-b16fb97b5bf7",
+    "source": "http://www.fmboschetto.it/Utopiaucronia/Vrbs_Aeterna.zip",
+    "sources": [
+      {
+        "documentId": "doc-6003820d0c28",
+        "url": "http://www.fmboschetto.it/Utopiaucronia/Vrbs_Aeterna.zip",
+        "entry": "Vrbs Aeterna.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "« Vrbs Aeterna »",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Vrbs_Aeterna.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "copertina-borghi-029cb660",
     "path": "/works/copertina-borghi-029cb660/",
     "editorialId": "item-029cb66093cd",
@@ -36461,6 +36572,37 @@
     }
   },
   {
+    "slug": "solo-una-pagina-65bc807d",
+    "path": "/works/solo-una-pagina-65bc807d/",
+    "editorialId": "item-65bc807dfed5",
+    "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Solo_una_pagina.zip",
+    "sources": [
+      {
+        "documentId": "doc-76cd950b9bb0",
+        "url": "http://www.fmboschetto.it/racconti/Padre_Futuro/Solo_una_pagina.zip",
+        "entry": "Solo_una_pagina.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Solo una pagina",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Solo_una_pagina.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "il-pianeta-d-oro-41e299b4",
     "path": "/works/il-pianeta-d-oro-41e299b4/",
     "editorialId": "item-41e299b458a9",
@@ -36678,6 +36820,37 @@
     }
   },
   {
+    "slug": "vuoi-vedere-che-a496ea54",
+    "path": "/works/vuoi-vedere-che-a496ea54/",
+    "editorialId": "item-a496ea54b27a",
+    "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Vuoi_vedere_che.zip",
+    "sources": [
+      {
+        "documentId": "doc-167922a139d1",
+        "url": "http://www.fmboschetto.it/racconti/Padre_Futuro/Vuoi_vedere_che.zip",
+        "entry": "Vuoi_vedere_che.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Vuoi vedere che...",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Vuoi_vedere_che.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "il-bruco-e-il-fiore-c64ea1c0",
     "path": "/works/il-bruco-e-il-fiore-c64ea1c0/",
     "editorialId": "item-c64ea1c01979",
@@ -36762,6 +36935,68 @@
     "removed": [
       {
         "source": "http://www.fmboschetto.it/racconti/Pianeta_delle_Leggende.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "l-uccello-di-fuoco-245471b9",
+    "path": "/works/l-uccello-di-fuoco-245471b9/",
+    "editorialId": "item-245471b95031",
+    "source": "http://www.fmboschetto.it/racconti/uccello_di_fuoco.zip",
+    "sources": [
+      {
+        "documentId": "doc-42cc3ff8399f",
+        "url": "http://www.fmboschetto.it/racconti/uccello_di_fuoco.zip",
+        "entry": "uccello_di_fuoco.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'uccello di fuoco",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/uccello_di_fuoco.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "le-mura-silenziose-28a1cd60",
+    "path": "/works/le-mura-silenziose-28a1cd60/",
+    "editorialId": "item-28a1cd60a17b",
+    "source": "http://www.fmboschetto.it/racconti/Le_mura_silenziose.zip",
+    "sources": [
+      {
+        "documentId": "doc-7116128dc763",
+        "url": "http://www.fmboschetto.it/racconti/Le_mura_silenziose.zip",
+        "entry": "Le_mura_silenziose.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Le mura silenziose",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Le_mura_silenziose.zip",
         "text": []
       }
     ],
@@ -36864,6 +37099,37 @@
     }
   },
   {
+    "slug": "su-uno-stretto-ponte-e80a1ff4",
+    "path": "/works/su-uno-stretto-ponte-e80a1ff4/",
+    "editorialId": "item-e80a1ff4cd81",
+    "source": "http://www.fmboschetto.it/racconti/Su_uno_stretto_ponte.zip",
+    "sources": [
+      {
+        "documentId": "doc-4e8ebb48c7b1",
+        "url": "http://www.fmboschetto.it/racconti/Su_uno_stretto_ponte.zip",
+        "entry": "Su_uno_stretto_ponte.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Su uno stretto ponte",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Su_uno_stretto_ponte.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "tra-noi-e-il-nulla-70cb30a8",
     "path": "/works/tra-noi-e-il-nulla-70cb30a8/",
     "editorialId": "item-70cb30a80485",
@@ -36886,6 +37152,37 @@
     "removed": [
       {
         "source": "http://www.fmboschetto.it/racconti/Tra_noi_e_il_nulla.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "con-ogni-mezzo-e9f49f5b",
+    "path": "/works/con-ogni-mezzo-e9f49f5b/",
+    "editorialId": "item-e9f49f5bfb47",
+    "source": "http://www.fmboschetto.it/racconti/Con_ogni_mezzo.zip",
+    "sources": [
+      {
+        "documentId": "doc-86aed08473ef",
+        "url": "http://www.fmboschetto.it/racconti/Con_ogni_mezzo.zip",
+        "entry": "Con_ogni_mezzo.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Con ogni mezzo",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Con_ogni_mezzo.zip",
         "text": []
       }
     ],
@@ -36926,6 +37223,99 @@
     }
   },
   {
+    "slug": "l-occhio-del-gatto-52b10d87",
+    "path": "/works/l-occhio-del-gatto-52b10d87/",
+    "editorialId": "item-52b10d876809",
+    "source": "http://www.fmboschetto.it/racconti/Occhio_del_gatto.zip",
+    "sources": [
+      {
+        "documentId": "doc-75e672a7cef2",
+        "url": "http://www.fmboschetto.it/racconti/Occhio_del_gatto.zip",
+        "entry": "Occhio_del_gatto.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "L'occhio del gatto",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Occhio_del_gatto.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "le-chemin-du-ciel-797c6c93",
+    "path": "/works/le-chemin-du-ciel-797c6c93/",
+    "editorialId": "item-797c6c93ccef",
+    "source": "http://www.fmboschetto.it/racconti/Le_Chemin_du_Ciel.zip",
+    "sources": [
+      {
+        "documentId": "doc-cd5058591fd9",
+        "url": "http://www.fmboschetto.it/racconti/Le_Chemin_du_Ciel.zip",
+        "entry": "Le_Chemin_du_Ciel.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Le chemin du ciel",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Le_Chemin_du_Ciel.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "quo-usque-jacobowski-8ad2ca7b",
+    "path": "/works/quo-usque-jacobowski-8ad2ca7b/",
+    "editorialId": "item-8ad2ca7b4187",
+    "source": "http://www.fmboschetto.it/racconti/Quo_usque_Jacobowski.zip",
+    "sources": [
+      {
+        "documentId": "doc-0b4127964784",
+        "url": "http://www.fmboschetto.it/racconti/Quo_usque_Jacobowski.zip",
+        "entry": "Quo_usque_Jacobowski.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Quo usque, jacobowski?",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Quo_usque_Jacobowski.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
     "slug": "la-pisside-di-cera-639d07c6",
     "path": "/works/la-pisside-di-cera-639d07c6/",
     "editorialId": "item-639d07c69c99",
@@ -36948,6 +37338,37 @@
     "removed": [
       {
         "source": "http://www.fmboschetto.it/racconti/La_pisside_di_cera.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "uccidere-per-amore-4ecdb40c",
+    "path": "/works/uccidere-per-amore-4ecdb40c/",
+    "editorialId": "item-4ecdb40c9034",
+    "source": "http://www.fmboschetto.it/racconti/Uccidere_per_amore.zip",
+    "sources": [
+      {
+        "documentId": "doc-8eedf1ceae0a",
+        "url": "http://www.fmboschetto.it/racconti/Uccidere_per_amore.zip",
+        "entry": "Uccidere_per_amore.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Uccidere per amore",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Uccidere_per_amore.zip",
         "text": []
       }
     ],
@@ -37227,6 +37648,37 @@
     "removed": [
       {
         "source": "http://www.fmboschetto.it/racconti/La_misura_dell_amore.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "nozze-di-piombo-03a6767f",
+    "path": "/works/nozze-di-piombo-03a6767f/",
+    "editorialId": "item-03a6767fb347",
+    "source": "http://www.fmboschetto.it/racconti/Nozze_di_piombo.zip",
+    "sources": [
+      {
+        "documentId": "doc-9c5d8ea856e9",
+        "url": "http://www.fmboschetto.it/racconti/Nozze_di_piombo.zip",
+        "entry": "Nozze_di_piombo.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Nozze di piombo",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Nozze_di_piombo.zip",
         "text": []
       }
     ],
@@ -37940,6 +38392,67 @@
     "removed": [
       {
         "source": "http://www.fmboschetto.it/racconti/poesie%20colleghi/Sonpassatideglianni.zip",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "che-cos-e-la-fantarcheologia-9d5b12c1",
+    "path": "/works/che-cos-e-la-fantarcheologia-9d5b12c1/",
+    "editorialId": "item-beef28775507",
+    "source": "https://www.fmboschetto.it/Utopiaucronia/Fantarcheologia_2000.pdf",
+    "sources": [
+      {
+        "documentId": "doc-9d5b12c113ab",
+        "url": "https://www.fmboschetto.it/Utopiaucronia/Fantarcheologia_2000.pdf",
+        "timestamp": "20250418233845",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "Che cos'è la fantarcheologia?",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Fantarcheologia_2000.pdf",
+        "text": []
+      }
+    ],
+    "gaps": [],
+    "comparison": {
+      "status": "pending-build-comparison"
+    }
+  },
+  {
+    "slug": "la-bambina-di-bilibiza-d0e794c3",
+    "path": "/works/la-bambina-di-bilibiza-d0e794c3/",
+    "editorialId": "item-27fba56be976",
+    "source": "http://www.fmboschetto.it/utopiaucronia/Grande_Messico/Bilib.pdf",
+    "sources": [
+      {
+        "documentId": "doc-d0e794c3010e",
+        "url": "http://www.fmboschetto.it/utopiaucronia/Grande_Messico/Bilib.pdf",
+        "selection": {
+          "kind": "whole"
+        }
+      }
+    ],
+    "title": "La bambina di Bilibiza",
+    "structured": true,
+    "randomValidation": false,
+    "publicationSelection": true,
+    "legacyPreview": false,
+    "removed": [
+      {
+        "source": "http://www.fmboschetto.it/utopiaucronia/Grande_Messico/Bilib.pdf",
         "text": []
       }
     ],

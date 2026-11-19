@@ -120,6 +120,8 @@ const it = {
   "browse.searchPrompts": "Cerca negli spunti",
   "source.title": "Fonte e provenienza",
   "source.open": "Apri fonte e provenienza",
+  "source.ocrNote":
+    "Testo letto con il riconoscimento automatico dei caratteri (OCR) da una scansione: può contenere errori di lettura.",
   "source.pdf":
     "Testo ricavato dal file originale {file}: il file non è servito dal sito.",
   "source.intro":
@@ -633,6 +635,8 @@ const en: Record<keyof typeof it, string> = {
   "browse.searchPrompts": "Search the prompts",
   "source.title": "Source and provenance",
   "source.open": "Open source and provenance",
+  "source.ocrNote":
+    "Text read by optical character recognition (OCR) from a scan: it may contain misreadings.",
   "source.pdf":
     "Text taken from the original file {file}; the file itself is not served.",
   "source.intro":
