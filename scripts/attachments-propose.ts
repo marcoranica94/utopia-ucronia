@@ -2,6 +2,7 @@ import { readFile, writeFile } from "node:fs/promises";
 import { load } from "cheerio";
 import type { EditorialItem, EditorialMap } from "../src/editorial/model.ts";
 import { mapSchema } from "../src/editorial/model.ts";
+import { attachmentEdition } from "./attachment-source.ts";
 import { decode } from "./conversion.ts";
 import {
   authorId,
@@ -34,7 +35,14 @@ type Inventory = {
     kind?: string;
     linkedFrom: string[];
   }[];
+  zips: {
+    path: string;
+    linkedFrom: string[];
+    files?: { name: string; kind?: string }[];
+  }[];
 };
+// `propose --zips`: only the files inside zips (the loose PDFs are done).
+const zipsOnly = process.argv.includes("--zips");
 type Browse = {
   entries: { title: string; authors: string[]; targets: string[] }[];
   targets: { id: string; source?: string; status: string }[];
@@ -58,7 +66,7 @@ const catalog = new Map<string, { title: string; authors: string[] }>();
 for (const entry of browse.entries)
   for (const id of entry.targets) {
     const source = targetSource.get(id);
-    if (!source || !/\.pdf$/i.test(source)) continue;
+    if (!source || !/\.(?:pdf|zip)$/i.test(source)) continue;
     let key: string;
     try {
       key = urlKey(source);
@@ -107,6 +115,15 @@ const TITLE_FROM_TEXT: Record<string, string> = {
   "utopiaucronia/dante33/uomo_che_pote_essere_re.pdf":
     "L'Uomo che potè essere Re",
   "utopiaucronia/900_toponimi_indoeuropei.pdf": "900 toponimi indoeuropei",
+};
+// Files inside zips whose link and name say nothing (checked by hand,
+// 19/11/2026).
+const ZIP_TITLES: Record<string, string> = {
+  // Link text "La sua stesura"; the PDF's metadata title.
+  "utopiaucronia/confederacy_history.zip::Confederacy_history.pdf":
+    "Confederacy, history of",
+  // A table of the Corpo Aereo Italiano; the file is named "CAI".
+  "utopiaucronia/ii_gm_hdosbe_files.zip::II_GM_hdosbe_files/CAI.pdf": "CAI",
 };
 /** A usable title has two words with letters and is not a placeholder. */
 const usable = (t: string) =>
@@ -157,50 +174,17 @@ const language = (body: string) => {
   };
 };
 
-const lineOf = new Map<string, number>();
-const lines = text.split("\n");
-for (const [i, line] of lines.entries()) {
-  const id = /^\s*\{"id":"([^"]+)"/.exec(line)?.[1];
-  if (id) lineOf.set(id, i);
-}
-
-const newItems: EditorialItem[] = [];
-const authorDocs = new Map<string, { name: string; docs: Set<string> }>();
-const report: {
-  path: string;
-  outcome: string;
-  title?: string;
-  titleFrom?: string;
-  authors?: string[];
-  duplicateOf?: string;
-  containment?: number;
-}[] = [];
-
-for (const pdf of inventory.pdfs) {
-  const document = byPath.get(pdf.path);
-  if (!document) throw new Error(`PDF missing from the map: ${pdf.path}`);
-  const proposal = map.proposals.find(
-    (p) => p.id === `proposal-${document.id}`,
-  );
-  if (!proposal) throw new Error(`No proposal for ${pdf.path}`);
-  if (proposal.review.by === "owner" || proposal.action !== "attachment") {
-    report.push({ path: pdf.path, outcome: `kept (${proposal.action})` });
-    continue;
-  }
-  if (pdf.kind === "scan" || pdf.kind === "mixed") {
-    report.push({ path: pdf.path, outcome: "scan: OCR pending" });
-    continue;
-  }
-  const bytes = await readFile(safePath("archive/original", pdf.path));
-  const edition = await pdfEdition(bytes);
-  if (!edition) throw new Error("unpdf unavailable");
-  const body = plain(edition.html);
-
-  // Referring pages: link text, and whether they already hold this text.
+/** The text of the link that cites a document, and the citing page that
+ * already contains its text (then it is a download copy of that page). */
+async function referrers(
+  document: { url: string },
+  linkedFrom: string[],
+  body: string,
+) {
   let linkText: string | undefined;
   let duplicate: { path: string; containment: number } | undefined;
   const own = shingles(body);
-  for (const referrer of pdf.linkedFrom) {
+  for (const referrer of linkedFrom) {
     const page = byPath.get(referrer);
     if (!page) continue;
     const html = decode(await readFile(safePath("archive/original", referrer)));
@@ -222,7 +206,7 @@ for (const pdf of inventory.pdfs) {
       const quoted = /^["“«](.+?)["”»]/.exec(t)?.[1];
       linkText = /^(?:parte|part|capitolo|volume|vol\.)\b/i.test(t)
         ? `${redact($("title").first().text()).replace(/^\[[^\]]*\]\s*/, "") || "Parte"}: ${t}`
-        : (quoted ?? t);
+        : (quoted ?? t).trim();
     });
     if (own.size >= 20) {
       const theirs = shingles(plain(html));
@@ -236,6 +220,54 @@ for (const pdf of inventory.pdfs) {
         duplicate = { path: referrer, containment };
     }
   }
+  return { linkText, duplicate };
+}
+
+const lineOf = new Map<string, number>();
+const lines = text.split("\n");
+for (const [i, line] of lines.entries()) {
+  const id = /^\s*\{"id":"([^"]+)"/.exec(line)?.[1];
+  if (id) lineOf.set(id, i);
+}
+
+const newItems: EditorialItem[] = [];
+const authorDocs = new Map<string, { name: string; docs: Set<string> }>();
+const report: {
+  path: string;
+  outcome: string;
+  title?: string;
+  titleFrom?: string;
+  authors?: string[];
+  duplicateOf?: string;
+  containment?: number;
+}[] = [];
+
+for (const pdf of zipsOnly ? [] : inventory.pdfs) {
+  const document = byPath.get(pdf.path);
+  if (!document) throw new Error(`PDF missing from the map: ${pdf.path}`);
+  const proposal = map.proposals.find(
+    (p) => p.id === `proposal-${document.id}`,
+  );
+  if (!proposal) throw new Error(`No proposal for ${pdf.path}`);
+  if (proposal.review.by === "owner" || proposal.action !== "attachment") {
+    report.push({ path: pdf.path, outcome: `kept (${proposal.action})` });
+    continue;
+  }
+  if (pdf.kind === "scan" || pdf.kind === "mixed") {
+    report.push({ path: pdf.path, outcome: "scan: OCR pending" });
+    continue;
+  }
+  const bytes = await readFile(safePath("archive/original", pdf.path));
+  const edition = await pdfEdition(bytes);
+  if (!edition) throw new Error("unpdf unavailable");
+  const body = plain(edition.html);
+
+  // Referring pages: link text, and whether they already hold this text.
+  const { linkText, duplicate } = await referrers(
+    document,
+    pdf.linkedFrom,
+    body,
+  );
   if (duplicate) {
     report.push({
       path: pdf.path,
@@ -326,6 +358,149 @@ for (const pdf of inventory.pdfs) {
 }
 process.stdout.write("\n");
 
+// Files inside zips (S7): each PDF with a text layer and each Word document
+// becomes a work; the zip's proposal targets all of them. Pictures beside a
+// PDF are its illustrations; scans wait for OCR; other formats are listed.
+const zipReport: {
+  path: string;
+  entry?: string;
+  outcome: string;
+  title?: string;
+  titleFrom?: string;
+}[] = [];
+for (const zip of inventory.zips) {
+  const document = byPath.get(zip.path);
+  if (!document) throw new Error(`Zip missing from the map: ${zip.path}`);
+  const proposal = map.proposals.find(
+    (p) => p.id === `proposal-${document.id}`,
+  );
+  if (!proposal) throw new Error(`No proposal for ${zip.path}`);
+  if (proposal.review.by === "owner" || proposal.action !== "attachment") {
+    zipReport.push({ path: zip.path, outcome: `kept (${proposal.action})` });
+    continue;
+  }
+  const readable: { name: string }[] = [];
+  for (const file of zip.files ?? []) {
+    const outcome = /\.pdf$/i.test(file.name)
+      ? file.kind === "text"
+        ? undefined
+        : "scan: OCR pending"
+      : /\.doc$/i.test(file.name)
+        ? undefined
+        : /\.(?:jpe?g|png|gif)$/i.test(file.name)
+          ? "illustration of the PDF beside it"
+          : "not read: presentation or spreadsheet, kept in the archive";
+    if (outcome) zipReport.push({ path: zip.path, entry: file.name, outcome });
+    else readable.push(file);
+  }
+  const entryCatalog = catalog.get(urlKey(document.url));
+  const targets: EditorialItem[] = [];
+  for (const file of readable) {
+    const source = {
+      documentId: document.id,
+      url: document.url,
+      ...(document.timestamp ? { timestamp: document.timestamp } : {}),
+      selection: { kind: "whole" as const },
+      entry: file.name,
+    };
+    const edition = await attachmentEdition(source, map);
+    if (!edition) throw new Error(`Unreadable entry ${file.name}`);
+    const body = plain(edition.html);
+    const heading = redact(load(edition.html)("h2,h3").first().text());
+    const filename = (file.name.split("/").pop() ?? "")
+      .replace(/\.(?:pdf|doc)$/i, "")
+      .replace(/[_\s]+/g, " ")
+      .trim();
+    // The files' own metadata titles are unreliable (template names, the
+    // author, "x.rtf"). One readable file: the catalog, the citing link or
+    // the file name; several: each file's first heading, else its name.
+    const single = readable.length === 1;
+    const { linkText, duplicate } = single
+      ? await referrers(document, zip.linkedFrom, body)
+      : { linkText: undefined, duplicate: undefined };
+    if (duplicate) {
+      zipReport.push({
+        path: zip.path,
+        entry: file.name,
+        outcome: `download copy of a page: ${duplicate.path}`,
+      });
+      continue;
+    }
+    const checked = ZIP_TITLES[`${zip.path}::${file.name}`];
+    const [rawTitle, titleFrom] = checked
+      ? [checked, "text"]
+      : entryCatalog && single
+        ? [redact(entryCatalog.title), "catalog"]
+        : linkText
+          ? [linkText, "link"]
+          : // A name without lower case ("DRAGHI2") says little: the
+            // file's first heading then names it.
+            !single &&
+              !/\p{Ll}/u.test(filename) &&
+              usable(heading) &&
+              heading.length <= 120
+            ? [heading, "heading"]
+            : [filename, "file"];
+    const cased = checked ?? sentenceCase(rawTitle, body);
+    const title = cased.charAt(0).toLocaleUpperCase("it") + cased.slice(1);
+    const authors = (entryCatalog?.authors ?? [])
+      .map((name) => redact(name))
+      .filter((name) => name && name !== "[email removed]");
+    for (const name of authors) {
+      const id = authorId(name);
+      if (!authorDocs.has(id)) authorDocs.set(id, { name, docs: new Set() });
+      authorDocs.get(id)?.docs.add(document.id);
+    }
+    const quote = body.slice(0, 220);
+    const selector = `zip:${file.name}`;
+    const item: EditorialItem = {
+      id: itemId(document.url, selector),
+      slug: itemSlug(title, document.url, selector),
+      title,
+      level: "work",
+      authors: authors.map(authorId),
+      language: language(body),
+      sources: [source],
+      classification: unknownClassification(quote),
+      contributions: [],
+      developedIn: [],
+      composition: "single",
+      review: proposed(
+        `A ${/\.doc$/i.test(file.name) ? "Word document" : "PDF with a text layer"} inside a recovered zip, read as text like the HTML works (S7); title from the ${titleFrom === "catalog" ? "original works catalog" : titleFrom === "link" ? "link that cites it" : titleFrom === "heading" ? "file's first heading" : titleFrom === "text" ? "file, checked by hand" : "file name"}.`,
+        quote,
+      ),
+    };
+    targets.push(item);
+    zipReport.push({
+      path: zip.path,
+      entry: file.name,
+      outcome: "proposed work",
+      title,
+      titleFrom,
+    });
+  }
+  if (!targets.length) continue;
+  newItems.push(...targets);
+  lines[lineOf.get(proposal.id) ?? -1] = lines[
+    lineOf.get(proposal.id) ?? -1
+  ].replace(
+    /\{.*\}/,
+    JSON.stringify({
+      id: proposal.id,
+      documents: proposal.documents,
+      action: "work",
+      level: "work",
+      targets: targets.map((t) => t.id),
+      review: proposed(
+        `A recovered zip whose ${targets.length === 1 ? "file is" : `${targets.length} files are`} read as text (S7).`,
+        targets.map((t) => t.title).join(" · "),
+      ),
+    }),
+  );
+  process.stdout.write(":");
+}
+process.stdout.write("\n");
+
 // Authors: extend an existing entry's documents, or add a new one.
 const newAuthors: string[] = [];
 for (const [id, { name, docs }] of authorDocs) {
@@ -340,7 +515,7 @@ for (const [id, { name, docs }] of authorDocs) {
         id,
         name,
         review: proposed(
-          "A name/pseudonym from the original works catalog entry that links this PDF; no identity or alias equivalence is inferred.",
+          "A name/pseudonym from the original works catalog entry that links this attachment; no identity or alias equivalence is inferred.",
           name,
         ),
         documents: [...docs],
@@ -375,14 +550,26 @@ const next = lines.join("\n");
 // The edited map must still parse and validate before it is written.
 mapSchema.parse(JSON.parse(next));
 await writeFile("data/map.yaml", next);
-await writeJson("reports/attachments-proposals.json", {
+if (!zipsOnly)
+  await writeJson("reports/attachments-proposals.json", {
+    date: new Date().toISOString().slice(0, 10),
+    proposed: report.filter((r) => r.outcome === "proposed work").length,
+    downloadCopies: report.filter((r) => r.outcome.startsWith("download"))
+      .length,
+    scans: report.filter((r) => r.outcome.startsWith("scan")).length,
+    newAuthors: newAuthors.length,
+    pdfs: report,
+  });
+const count = (prefix: string) =>
+  zipReport.filter((r) => r.outcome.startsWith(prefix)).length;
+await writeJson("reports/attachments-zip-proposals.json", {
   date: new Date().toISOString().slice(0, 10),
-  proposed: report.filter((r) => r.outcome === "proposed work").length,
-  downloadCopies: report.filter((r) => r.outcome.startsWith("download")).length,
-  scans: report.filter((r) => r.outcome.startsWith("scan")).length,
-  newAuthors: newAuthors.length,
-  pdfs: report,
+  proposed: count("proposed work"),
+  scans: count("scan"),
+  illustrations: count("illustration"),
+  notRead: count("not read"),
+  files: zipReport,
 });
 console.log(
-  `${newItems.length} PDF work proposals, ${newAuthors.length} new author names; report in reports/attachments-proposals.json`,
+  `${newItems.length} work proposals, ${newAuthors.length} new author names; reports in reports/attachments-*proposals.json`,
 );

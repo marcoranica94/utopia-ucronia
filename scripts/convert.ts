@@ -9,6 +9,7 @@ import {
   vocabularySchema,
 } from "../src/editorial/vocabulary.ts";
 import { type Anatomy, anatomy } from "./anatomy.ts";
+import { attachmentEdition } from "./attachment-source.ts";
 import { openCache } from "./build-cache.ts";
 import {
   convertHtml,
@@ -26,7 +27,6 @@ import {
   sourceHtml,
 } from "./editorial-core.ts";
 import { explainedGap, type Gap, type GapReason } from "./link-resolution.ts";
-import { pdfEdition } from "./pdf.ts";
 import {
   baselineIds,
   publicationItems,
@@ -113,7 +113,8 @@ type Page = {
   cached?: CacheEntry;
 };
 const cache = await openCache<CacheEntry>("convert");
-const pdfCache = await openCache<{ id: string; png: string }[]>("convert-pdf");
+const pdfCache =
+  await openCache<{ id: string; png: string; ext?: string }[]>("convert-pdf");
 const pages: Page[] = [];
 const sourceFile = (source: EditorialSource) => {
   const document = map.documents.find((d) => d.id === source.documentId);
@@ -291,7 +292,11 @@ for (const page of [...pages].sort(
   for (const [index, part] of page.parts.entries()) {
     const key = urlKey(part.source.url);
     const target = pathFor(page);
-    if (part.source.selection.kind === "whole")
+    // A link to a zip leads to the reading edition of its first file.
+    if (
+      part.source.selection.kind === "whole" &&
+      !(part.source.entry && roots.has(key))
+    )
       roots.set(key, target + (part.prefix ? `#chapter-${index + 1}` : ""));
     for (const anchor of factsOf(page)[index].anchors)
       anchorRoutes.set(`${key}#${anchor}`, `${target}#${part.prefix}${anchor}`);
@@ -334,23 +339,28 @@ for (const page of pages)
     const document = map.documents.find((d) => d.id === part.source.documentId);
     if (!document)
       throw new Error(`Missing source document: ${part.source.documentId}`);
-    if (!document.mediaType.includes("pdf")) continue;
+    if (!document.mediaType.includes("pdf") && !part.source.entry) continue;
     const bytes = await readFile(safePath("archive/original", document.path));
-    // Illustrations depend only on the PDF bytes (and the toolchain).
-    const key = pdfCache.key(bytes);
+    // Illustrations depend only on the file bytes, the zip entry and the
+    // toolchain.
+    const key = pdfCache.key(bytes, part.source.entry ?? "");
     let images = await pdfCache.get(key);
     if (!images) {
-      images = ((await pdfEdition(bytes))?.images ?? []).map((image) => ({
+      images = (
+        (await attachmentEdition(part.source, map))?.illustrations ?? []
+      ).map((image) => ({
         id: image.id,
         png: image.bytes.toString("base64"),
+        ext: image.ext,
       }));
       await pdfCache.set(key, images);
     }
     for (const image of images.map((i) => ({
       id: i.id,
       bytes: Buffer.from(i.png, "base64"),
+      ext: i.ext ?? "png",
     }))) {
-      const filename = `${sha256(image.bytes)}.png`;
+      const filename = `${sha256(image.bytes)}.${image.ext}`;
       await writeFile(`public/sample/${filename}`, image.bytes);
       assets.set(
         `${urlKey(part.source.url)}#${image.id}`,
@@ -644,6 +654,7 @@ for (const result of results) {
     sources: page.parts.map((p) => ({
       url: p.source.url,
       documentId: p.source.documentId,
+      ...(p.source.entry ? { entry: p.source.entry } : {}),
       timestamp: p.source.timestamp,
     })),
     unverified: ["title", "authors", "language", "structure", "classification"],

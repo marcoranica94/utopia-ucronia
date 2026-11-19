@@ -146,10 +146,14 @@ export function publicationTargets(
       throw Error(`World publication is not implemented: ${id}`);
     for (const source of item.sources) {
       const document = map.documents.find((d) => d.id === source.documentId);
-      if (
-        !document ||
-        !/^(?:text\/html|application\/pdf)(?:;|$)/i.test(document.mediaType)
-      )
+      // A zip is read only through one of its files (S7).
+      const readable = source.entry
+        ? /zip/i.test(document?.mediaType ?? "") &&
+          /\.(?:pdf|doc)$/i.test(source.entry)
+        : /^(?:text\/html|application\/pdf)(?:;|$)/i.test(
+            document?.mediaType ?? "",
+          );
+      if (!document || !readable)
         throw Error(`Unsupported reading source: ${source.documentId}`);
       if (!proposal.documents.includes(source.documentId))
         throw Error(
@@ -167,6 +171,8 @@ function overlaps(a: EditorialItem, b: EditorialItem) {
   return a.sources.some((left) =>
     b.sources.some((right) => {
       if (left.documentId !== right.documentId) return false;
+      // Different files of one zip never overlap.
+      if ((left.entry ?? "") !== (right.entry ?? "")) return false;
       if (left.selection.kind === "whole" || right.selection.kind === "whole")
         return true;
       return (

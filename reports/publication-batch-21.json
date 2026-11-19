@@ -1,0 +1,1273 @@
+{
+  "ownerInstruction": "Sì, approvo tutte in blocco",
+  "authorization": "Owner approval of 18 November 2026, given through a question in conversation, of all new PDF/zip work proposals of S7 (files inside zips read as text); no classification approvals.",
+  "packets": [
+    {
+      "packetSha256": "849fdefedcc0032e710e6e70cc5a1e38c7f8b407217bbce18561407c13f1a2d5",
+      "action": "work",
+      "approvedAt": "2026-11-19T11:06:00.848Z",
+      "entries": [
+        {
+          "proposalId": "proposal-doc-007af9d26395",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-c097eed4f82f",
+              "title": "1 Documentazione Remus Repubblica Romana",
+              "path": "/works/1-documentazione-remus-repubblica-romana-c097eed4/",
+              "entry": "1 Documentazione Remus Repubblica Romana.doc"
+            },
+            {
+              "id": "item-f5ccac6a9564",
+              "title": "2 Documentazione Remus Principato",
+              "path": "/works/2-documentazione-remus-principato-f5ccac6a/",
+              "entry": "2 Documentazione Remus Principato.doc"
+            },
+            {
+              "id": "item-0ef55dd6418b",
+              "title": "3 Documentazione Remus Tardo Impero",
+              "path": "/works/3-documentazione-remus-tardo-impero-0ef55dd6/",
+              "entry": "3 Documentazione Remus Tardo Impero.doc"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-009166dd6eaf",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-fa15c6bea0e1",
+              "title": "L'Italia e la Seconda Guerra Mondiale parte seconda",
+              "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-seconda-fa15c6be/",
+              "entry": "Ucronia - La II GM_2.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-010bdecdef98",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-029cb66093cd",
+              "title": "Copertina Borghi",
+              "path": "/works/copertina-borghi-029cb660/",
+              "entry": "Copertina_Borghi.pdf"
+            },
+            {
+              "id": "item-4ee289fe234a",
+              "title": "Borghi, Tacito germanico",
+              "path": "/works/borghi-tacito-germanico-4ee289fe/",
+              "entry": "Borghi,_Tacito_germanico.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-01f24cc8fffb",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-546c5d45460e",
+              "title": "Amores",
+              "path": "/works/amores-546c5d45/",
+              "entry": "Amores.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-0b4127964784",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-8ad2ca7b4187",
+              "title": "Quo usque, jacobowski?",
+              "path": "/works/quo-usque-jacobowski-8ad2ca7b/",
+              "entry": "Quo_usque_Jacobowski.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-0e938b276593",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-564105ae42f1",
+              "title": "Morimondo Sanguinoso",
+              "path": "/works/morimondo-sanguinoso-564105ae/",
+              "entry": "Morimondo_Sanguinoso.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-0ee93d669e97",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-09052a42b28d",
+              "title": "Una storia strana",
+              "path": "/works/una-storia-strana-09052a42/",
+              "entry": "una_storia_strana.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-10d5ca3cd163",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-6a6ac170cc55",
+              "title": "La Bestia di Boscoscuro",
+              "path": "/works/la-bestia-di-boscoscuro-6a6ac170/",
+              "entry": "Bestia_di_Boscoscuro.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-11d782adc1dc",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-45f39caa26e3",
+              "title": "Il primo Libro dei Falerei",
+              "path": "/works/il-primo-libro-dei-falerei-45f39caa/",
+              "entry": "Il Primo Libro dei Falerei.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-14dfbcd9fd8c",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-c936298ce4d2",
+              "title": "Posto vuoto",
+              "path": "/works/posto-vuoto-c936298c/",
+              "entry": "Posto_vuoto.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-167922a139d1",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-a496ea54b27a",
+              "title": "Vuoi vedere che...",
+              "path": "/works/vuoi-vedere-che-a496ea54/",
+              "entry": "Vuoi_vedere_che.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-173bc927ae25",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-aba8ac458f5a",
+              "title": "Tre giorni di cammino",
+              "path": "/works/tre-giorni-di-cammino-aba8ac45/",
+              "entry": "Tre_giorni_di_cammino.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-1f92dc55c33f",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-771d1b456346",
+              "title": "L'Italia e la Seconda Guerra Mondiale parte quinta",
+              "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-quinta-771d1b45/",
+              "entry": "Ucronia - La II GM_5.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-2268b66aea8b",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-ef301668dd56",
+              "title": "Niente Ahimsa Dhârma",
+              "path": "/works/niente-ahimsa-dharma-ef301668/",
+              "entry": "Asoka.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-2673d6943c96",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-1addc7239c1f",
+              "title": "Il cigno nero",
+              "path": "/works/il-cigno-nero-1addc723/",
+              "entry": "Il_Cigno_Nero.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-2ff660c82adb",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-b9e27722fdeb",
+              "title": "La Scimitarra di Allah",
+              "path": "/works/la-scimitarra-di-allah-b9e27722/",
+              "entry": "La scimitarra di Allah.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-3d525c5cc0d2",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-6f79b18b5497",
+              "title": "Il pianeta delle leggende",
+              "path": "/works/il-pianeta-delle-leggende-6f79b18b/",
+              "entry": "Pianeta_delle_Leggende.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-3d7ddb982715",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-574ff20fedb5",
+              "title": "Fanta-Prima Guerra Mondiale",
+              "path": "/works/fanta-prima-guerra-mondiale-574ff20f/",
+              "entry": "FantaWWIFilo.doc"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-3e20c6c5c539",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-792fe098e4b8",
+              "title": "Il principio di Majorana",
+              "path": "/works/il-principio-di-majorana-792fe098/",
+              "entry": "Principio_di_Majorana.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-41ba5c85feb6",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-d24120232347",
+              "title": "Un buco nell'universo",
+              "path": "/works/un-buco-nell-universo-d2412023/",
+              "entry": "Buco_nell_universo.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-42cc3ff8399f",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-245471b95031",
+              "title": "L'uccello di fuoco",
+              "path": "/works/l-uccello-di-fuoco-245471b9/",
+              "entry": "uccello_di_fuoco.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-4633d7c9f9d8",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-639ca4e5f856",
+              "title": "Regno teutonico di Russia e Polonia",
+              "path": "/works/regno-teutonico-di-russia-e-polonia-639ca4e5/",
+              "entry": "Regno teutonico di Russia e Polonia.doc"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-46e8d9c748f7",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-b50ceab9538f",
+              "title": "Io, dio",
+              "path": "/works/io-dio-b50ceab9/",
+              "entry": "Io_Dio.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-49d4ba92249b",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-0b7de78562fe",
+              "title": "La misura dell'amore",
+              "path": "/works/la-misura-dell-amore-0b7de785/",
+              "entry": "La misura dell'amore.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-4b95e7b33808",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-bb4f15801ee3",
+              "title": "Storia d'Italia dal 2010 al 2019",
+              "path": "/works/storia-d-italia-dal-2010-al-2019-bb4f1580/",
+              "entry": "Italia_2010_2019.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-4e8ebb48c7b1",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-e80a1ff4cd81",
+              "title": "Su uno stretto ponte",
+              "path": "/works/su-uno-stretto-ponte-e80a1ff4/",
+              "entry": "Su_uno_stretto_ponte.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-4ed001d80031",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-e893c35918df",
+              "title": "A Cana di Galilea",
+              "path": "/works/a-cana-di-galilea-e893c359/",
+              "entry": "A_Cana_di_Galilea.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-52e68772830e",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-0b908ff1cae9",
+              "title": "De terra Incognita Sed Nunc Reperta",
+              "path": "/works/de-terra-incognita-sed-nunc-reperta-0b908ff1/",
+              "entry": "De Terra Incognita Sed Nunc Reperta.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-541470737f09",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-c12089c87304",
+              "title": "Il patto con lo scorpione",
+              "path": "/works/il-patto-con-lo-scorpione-c12089c8/",
+              "entry": "Patto_con_lo_scorpione.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-5423519550f3",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-b26db1e8fef5",
+              "title": "Padre nostro",
+              "path": "/works/padre-nostro-b26db1e8/",
+              "entry": "PADRE NOSTRO.doc"
+            },
+            {
+              "id": "item-bed7ef62baeb",
+              "title": "La Condanna",
+              "path": "/works/la-condanna-bed7ef62/",
+              "entry": "La Condanna.doc"
+            },
+            {
+              "id": "item-41bca9efb504",
+              "title": "Nataleoggi1",
+              "path": "/works/nataleoggi1-41bca9ef/",
+              "entry": "Nataleoggi1.doc"
+            },
+            {
+              "id": "item-edb2c0f001e5",
+              "title": "A Qoelet",
+              "path": "/works/a-qoelet-edb2c0f0/",
+              "entry": "A Qoelet.doc"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-544bf0295f29",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-18c967a7a669",
+              "title": "17campagna2",
+              "path": "/works/17campagna2-18c967a7/",
+              "entry": "17campagna2.doc"
+            },
+            {
+              "id": "item-76cfa090a88d",
+              "title": "Son passati degli anni",
+              "path": "/works/son-passati-degli-anni-76cfa090/",
+              "entry": "Son passati degli anni.doc"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-5742818da840",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-38704e2597e1",
+              "title": "Prologo al Ciclo",
+              "path": "/works/prologo-al-ciclo-38704e25/",
+              "entry": "Prologo con copertina.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-5befccc44d05",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-06e8338e45df",
+              "title": "L'Italia e la Seconda Guerra Mondiale parte terza",
+              "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-terza-06e8338e/",
+              "entry": "Ucronia - La II GM_3.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-6003820d0c28",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-b16fb97b5bf7",
+              "title": "« Vrbs Aeterna »",
+              "path": "/works/vrbs-aeterna-b16fb97b/",
+              "entry": "Vrbs Aeterna.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-6152cf495a70",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-228e15ed349b",
+              "title": "L'uomo senza codice",
+              "path": "/works/l-uomo-senza-codice-228e15ed/",
+              "entry": "L_uomo_senza_codice.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-631547ff43b5",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-3c153dcaed29",
+              "title": "L'Unione dei Cinque Regni",
+              "path": "/works/l-unione-dei-cinque-regni-3c153dca/",
+              "entry": "UCR.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-64dd27bc830f",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-c1406f621f93",
+              "title": "La leggenda del pianeta senza tempo",
+              "path": "/works/la-leggenda-del-pianeta-senza-tempo-c1406f62/",
+              "entry": "La_leggenda_del_pianeta_senza_tempo.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-6b02ea8a624a",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-e0ad3f3920bb",
+              "title": "Sorrisi e can...zoni",
+              "path": "/works/sorrisi-e-can-zoni-e0ad3f39/",
+              "entry": "Sorrisi_e_Can_zoni.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-6b7a6228d66a",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-6be21804bb7e",
+              "title": "Un bambino sconosciuto",
+              "path": "/works/un-bambino-sconosciuto-6be21804/",
+              "entry": "Bambino_sconosciuto.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-7116128dc763",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-28a1cd60a17b",
+              "title": "Le mura silenziose",
+              "path": "/works/le-mura-silenziose-28a1cd60/",
+              "entry": "Le_mura_silenziose.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-7375ced0e94e",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-9e1066c5c11a",
+              "title": "Sospirava la notte",
+              "path": "/works/sospirava-la-notte-9e1066c5/",
+              "entry": "Sospirava_la_notte.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-75e672a7cef2",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-52b10d876809",
+              "title": "L'occhio del gatto",
+              "path": "/works/l-occhio-del-gatto-52b10d87/",
+              "entry": "Occhio_del_gatto.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-76cd950b9bb0",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-65bc807dfed5",
+              "title": "Solo una pagina",
+              "path": "/works/solo-una-pagina-65bc807d/",
+              "entry": "Solo_una_pagina.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-82b932ae79e8",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-edc96ba07d1a",
+              "title": "Il medico e il bambino",
+              "path": "/works/il-medico-e-il-bambino-edc96ba0/",
+              "entry": "Il medico e il bambino.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-86aed08473ef",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-e9f49f5bfb47",
+              "title": "Con ogni mezzo",
+              "path": "/works/con-ogni-mezzo-e9f49f5b/",
+              "entry": "Con_ogni_mezzo.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-895d84ea537c",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-311e11bf4d8c",
+              "title": "L'Italia e la Seconda Guerra Mondiale parte prima",
+              "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-prima-311e11bf/",
+              "entry": "Ucronia - La II GM_1.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-89c57f2e17b1",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-878a4651b6fa",
+              "title": "Oltre la porta",
+              "path": "/works/oltre-la-porta-878a4651/",
+              "entry": "Oltre_la_porta.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-89da3fb8a3a9",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-02ffd201852f",
+              "title": "Il crocifisso di legno",
+              "path": "/works/il-crocifisso-di-legno-02ffd201/",
+              "entry": "Crocifisso_di_legno.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-8e30d4cc8763",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-00cfb900868e",
+              "title": "L'effetto farfalla",
+              "path": "/works/l-effetto-farfalla-00cfb900/",
+              "entry": "L'EFFETTO FARFALLA.doc"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-8eedf1ceae0a",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-4ecdb40c9034",
+              "title": "Uccidere per amore",
+              "path": "/works/uccidere-per-amore-4ecdb40c/",
+              "entry": "Uccidere_per_amore.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-8fd4538a3bf2",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-70cb30a80485",
+              "title": "Tra noi e il nulla",
+              "path": "/works/tra-noi-e-il-nulla-70cb30a8/",
+              "entry": "Tra_noi_e_il_nulla.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9115c608a63d",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-795932fdb5cf",
+              "title": "È tutto un altro... calcio",
+              "path": "/works/e-tutto-un-altro-calcio-795932fd/",
+              "entry": "UCRONIA STORIA DEL CALCIO ITALIANO E NON.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-91c4c2206795",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-61555c52061c",
+              "title": "Figlio dell'uomo",
+              "path": "/works/figlio-dell-uomo-61555c52/",
+              "entry": "Figlio_dell_uomo.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-94750313acfb",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-cfab7be3d4c2",
+              "title": "Il frastuono del silenzio",
+              "path": "/works/il-frastuono-del-silenzio-cfab7be3/",
+              "entry": "Frastuono del silenzio.DOC"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-95ebb217e07f",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-c64ea1c01979",
+              "title": "Il bruco e il fiore",
+              "path": "/works/il-bruco-e-il-fiore-c64ea1c0/",
+              "entry": "Il_bruco_e_il_fiore.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-99638d40e914",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-8636e2c05574",
+              "title": "AereiWWII A",
+              "path": "/works/aereiwwii-a-8636e2c0/",
+              "entry": "II_GM_hdosbe_files/AereiWWII_A.pdf"
+            },
+            {
+              "id": "item-992fe9034ce8",
+              "title": "AereiWWII B",
+              "path": "/works/aereiwwii-b-992fe903/",
+              "entry": "II_GM_hdosbe_files/AereiWWII_B.pdf"
+            },
+            {
+              "id": "item-73d34895b140",
+              "title": "ArtiglieriaNavale",
+              "path": "/works/artiglierianavale-73d34895/",
+              "entry": "II_GM_hdosbe_files/ArtiglieriaNavale.pdf"
+            },
+            {
+              "id": "item-081dc97b9b2f",
+              "title": "CAI",
+              "path": "/works/cai-081dc97b/",
+              "entry": "II_GM_hdosbe_files/CAI.pdf"
+            },
+            {
+              "id": "item-82b674e9f14f",
+              "title": "Corazzati e Motorizzati",
+              "path": "/works/corazzati-e-motorizzati-82b674e9/",
+              "entry": "II_GM_hdosbe_files/Corazzati e Motorizzati.pdf"
+            },
+            {
+              "id": "item-24fe4aad7a9b",
+              "title": "FlottaFrancese",
+              "path": "/works/flottafrancese-24fe4aad/",
+              "entry": "II_GM_hdosbe_files/FlottaFrancese.pdf"
+            },
+            {
+              "id": "item-59692159cfe7",
+              "title": "FlottaItaliana",
+              "path": "/works/flottaitaliana-59692159/",
+              "entry": "II_GM_hdosbe_files/FlottaItaliana.pdf"
+            },
+            {
+              "id": "item-af50846239af",
+              "title": "FlottaMinori",
+              "path": "/works/flottaminori-af508462/",
+              "entry": "II_GM_hdosbe_files/FlottaMinori.pdf"
+            },
+            {
+              "id": "item-55f79703b2f9",
+              "title": "FlottaTedesca",
+              "path": "/works/flottatedesca-55f79703/",
+              "entry": "II_GM_hdosbe_files/FlottaTedesca.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9c5d8ea856e9",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-03a6767fb347",
+              "title": "Nozze di piombo",
+              "path": "/works/nozze-di-piombo-03a6767f/",
+              "entry": "Nozze_di_piombo.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9ca0e91c3f06",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-31b386e99d25",
+              "title": "L'Altra Storia d'Italia, 1945-2006",
+              "path": "/works/l-altra-storia-d-italia-1945-2006-31b386e9/",
+              "entry": "Altra_storia_d_Italia.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9e44902858e3",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-0ea034806418",
+              "title": "Il trentasettesimo giusto",
+              "path": "/works/il-trentasettesimo-giusto-0ea03480/",
+              "entry": "Il_trentasettesimo_giusto.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-9fa312779ce6",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-d9b2fa713e88",
+              "title": "Di che vivono gli uomini",
+              "path": "/works/di-che-vivono-gli-uomini-d9b2fa71/",
+              "entry": "Di che vivono gli uomini.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-a141282eb6ec",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-17143fe5719b",
+              "title": "Anonimo",
+              "path": "/works/anonimo-17143fe5/",
+              "entry": "Anonimo.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-a4fef117939b",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-fe92011dbb04",
+              "title": "Che cos'è il tempo?",
+              "path": "/works/che-cos-e-il-tempo-fe92011d/",
+              "entry": "cos_e_il_tempo.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-aab6620fd3c4",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-053bfc0b25e9",
+              "title": "Cosmographia Universalis",
+              "path": "/works/cosmographia-universalis-053bfc0b/",
+              "entry": "Epitome.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-ab85c3874060",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-b134a2d2acae",
+              "title": "La macchia sul Sole",
+              "path": "/works/la-macchia-sul-sole-b134a2d2/",
+              "entry": "La macchia sul sole.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-abe4c2eb8392",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-a1e3b2d8bdec",
+              "title": "Il più bello dei mari",
+              "path": "/works/il-piu-bello-dei-mari-a1e3b2d8/",
+              "entry": "Il_piu_bello_dei_mari.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-ae44f256fa8b",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-2525cdd68a1b",
+              "title": "Passioni pericolose",
+              "path": "/works/passioni-pericolose-2525cdd6/",
+              "entry": "Passioni_pericolose.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-aee9809fdd55",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-6648e3349eca",
+              "title": "La Torre Incrollabile",
+              "path": "/works/la-torre-incrollabile-6648e334/",
+              "entry": "La_Torre_Incrollabile.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-afd2703e23cd",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-1fb9a5ee3bdc",
+              "title": "La voce del vento",
+              "path": "/works/la-voce-del-vento-1fb9a5ee/",
+              "entry": "La_voce_del_vento.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-c85fa26dd078",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-1a2846cfb4fc",
+              "title": "Il Crivello di Eratostene",
+              "path": "/works/il-crivello-di-eratostene-1a2846cf/",
+              "entry": "Crivello di Eratostene.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-c8e233b819c6",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-1f50e41f6043",
+              "title": "L’Albero genealogico dei draghi",
+              "path": "/works/l-albero-genealogico-dei-draghi-1f50e41f/",
+              "entry": "DRAGHI.pdf"
+            },
+            {
+              "id": "item-b891a808e6af",
+              "title": "Draghi2",
+              "path": "/works/draghi2-b891a808/",
+              "entry": "DRAGHI2.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-c98ae4d18ad8",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-35f7a33bb0b2",
+              "title": "Come un sacco di crine",
+              "path": "/works/come-un-sacco-di-crine-35f7a33b/",
+              "entry": "Come_un_sacco_di_crine.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-ca567e6b17bf",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-0ca3992f0c11",
+              "title": "Passa in Macedonia!",
+              "path": "/works/passa-in-macedonia-0ca3992f/",
+              "entry": "Passa_in_Macedonia.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-cd5058591fd9",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-797c6c93ccef",
+              "title": "Le chemin du ciel",
+              "path": "/works/le-chemin-du-ciel-797c6c93/",
+              "entry": "Le_Chemin_du_Ciel.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-d007d3a1f39e",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-bcb9325dbbb1",
+              "title": "Confessore e penitente",
+              "path": "/works/confessore-e-penitente-bcb9325d/",
+              "entry": "Confessore_e_penitente.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-d00871b2b993",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-d92af97470b6",
+              "title": "La spaziale Commedia",
+              "path": "/works/la-spaziale-commedia-d92af974/",
+              "entry": "La_Spaziale_Commedia.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-d047f8cbec2a",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-3cda1c092256",
+              "title": "Possedere Dio",
+              "path": "/works/possedere-dio-3cda1c09/",
+              "entry": "Possedere_Dio.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-d1597a8b3d5e",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-b08bac690666",
+              "title": "L'ultima missiva",
+              "path": "/works/l-ultima-missiva-b08bac69/",
+              "entry": "L'ultima missiva.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-d3a4a31275e7",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-ea0e983116a5",
+              "title": "Lo scarabeo di sardonice",
+              "path": "/works/lo-scarabeo-di-sardonice-ea0e9831/",
+              "entry": "Scarabeo_di_sardonice.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-da932f149bf7",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-2e90a94b186c",
+              "title": "Confederacy, history of",
+              "path": "/works/confederacy-history-of-2e90a94b/",
+              "entry": "Confederacy_history.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-dcbc98b36987",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-bcd758fc9dee",
+              "title": "La Commissione Ecumenica Islamica",
+              "path": "/works/la-commissione-ecumenica-islamica-bcd758fc/",
+              "entry": "Fanta_CEI.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-de059be1e273",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-e380d2f204bd",
+              "title": "Secondo Lucifero",
+              "path": "/works/secondo-lucifero-e380d2f2/",
+              "entry": "Secondo_Lucifero.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-df59dd72b3dd",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-ae3c6fef6cf8",
+              "title": "L'Italia e la Seconda Guerra Mondiale parte quarta",
+              "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-quarta-ae3c6fef/",
+              "entry": "Ucronia - La II GM_4.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-e1da63bea194",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-366c78f8fdfc",
+              "title": "Di là dal mistero",
+              "path": "/works/di-la-dal-mistero-366c78f8/",
+              "entry": "Al_di_la_del_mistero.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-e217d3075313",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-b470a2710c3b",
+              "title": "Helionautica",
+              "path": "/works/helionautica-b470a271/",
+              "entry": "Helionautica.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-e23b42fc6e49",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-7e8bf74f9b37",
+              "title": "L'Italia e la Seconda Guerra Mondiale parte sesta",
+              "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-sesta-7e8bf74f/",
+              "entry": "Ucronia - La II GM_6.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-e2f4a59b8d0b",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-67a8fd292873",
+              "title": "L'attentato di Sbardellotto riesce...",
+              "path": "/works/l-attentato-di-sbardellotto-riesce-67a8fd29/",
+              "entry": "Sbardellotto.doc"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-e61503300f32",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-1720be33b91b",
+              "title": "La leggenda del minatore",
+              "path": "/works/la-leggenda-del-minatore-1720be33/",
+              "entry": "La_leggenda_del_minatore.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-e98d570aa9df",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-2154439ea56f",
+              "title": "Una strana coppia",
+              "path": "/works/una-strana-coppia-2154439e/",
+              "entry": "Strana_coppia.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-f15e18ef0e70",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-41e299b458a9",
+              "title": "Il Pianeta d'Oro",
+              "path": "/works/il-pianeta-d-oro-41e299b4/",
+              "entry": "Pianeta_d_oro.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-f32d1f09b936",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-639d07c69c99",
+              "title": "La pisside di cera",
+              "path": "/works/la-pisside-di-cera-639d07c6/",
+              "entry": "La pisside di cera.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-f39347d64392",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-0c6125f99b4f",
+              "title": "Mio zio Cesare",
+              "path": "/works/mio-zio-cesare-0c6125f9/",
+              "entry": "Zio Cesare.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-f455eccb8b8e",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-30804f612d11",
+              "title": "Io ti battezzo",
+              "path": "/works/io-ti-battezzo-30804f61/",
+              "entry": "Io_ti_battezzo.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-f470ac75d0f2",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-a9ba3b6d6aa9",
+              "title": "Una splendida poesia di Natale di Elena Cristina Bolla",
+              "path": "/works/una-splendida-poesia-di-natale-di-elena-cristina-bolla-a9ba3b6d/",
+              "entry": "poesiaNatale06.doc"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-f484bf0c931e",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-f1067de9b8c3",
+              "title": "Idomeneide",
+              "path": "/works/idomeneide-f1067de9/",
+              "entry": "Idomeneide.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-f4c003a022d1",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-7609e6a87910",
+              "title": "La freccia di fuoco",
+              "path": "/works/la-freccia-di-fuoco-7609e6a8/",
+              "entry": "La freccia di fuoco.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-f894a9ea7043",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-fe8f25075368",
+              "title": "Un maledetto pulsante",
+              "path": "/works/un-maledetto-pulsante-fe8f2507/",
+              "entry": "Maledetto_pulsante.pdf"
+            }
+          ]
+        },
+        {
+          "proposalId": "proposal-doc-fb767b0c6a54",
+          "action": "work",
+          "items": [
+            {
+              "id": "item-9ee8dd886e2e",
+              "title": "Felice l'infelice",
+              "path": "/works/felice-l-infelice-9ee8dd88/",
+              "entry": "Felice_l_infelice.pdf"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

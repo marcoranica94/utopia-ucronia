@@ -12,7 +12,7 @@ import WorkContents from "../components/WorkContents.astro";
 import { transitionName } from "../content-path";
 import { type Lang, localePath, localizeHtml, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
-import { hasSourcePage } from "../source-pages";
+import { hasSourcePage, originalFile } from "../source-pages";
 import "../styles/reading.css";
 
 interface Props {
@@ -65,7 +65,7 @@ const captured = (s?: string) =>
         {hasSourceRed && <p class="source-red-note"><strong>{t("reader.redLabel")}</strong> {t("reader.redNote")}</p>}
         <article class="reading-copy structured" lang={data.language === "unknown" ? "" : data.language}><Fragment set:html={html} /></article>
         <WorldNav lang={lang} entries={worldEntries} itemId={work.id} end />
-        <footer class="uchronia-source" id="work-sources"><h2>{t("source.title")}</h2><FacetChips lang={lang} classification={data.classification} /><ul>{data.sources.map(source=><li>{hasSourcePage(source.url) ? <a data-reading-source href={localePath(lang,`/sources/${source.documentId ?? documentId(source.url)}/`)}>{t("source.open")} — {source.url.split("/").at(-1)}</a> : t("source.pdf", { file: source.url.split("/").at(-1) ?? "" })}</li>)}</ul><p>{t("source.resourcesHint")}</p>
+        <footer class="uchronia-source" id="work-sources"><h2>{t("source.title")}</h2><FacetChips lang={lang} classification={data.classification} /><ul>{data.sources.map(source=><li>{hasSourcePage(source.url) ? <a data-reading-source href={localePath(lang,`/sources/${source.documentId ?? documentId(source.url)}/`)}>{t("source.open")} — {source.url.split("/").at(-1)}</a> : t("source.pdf", { file: originalFile(source) })}</li>)}</ul><p>{t("source.resourcesHint")}</p>
           {data.sourceHeaders && data.sourceHeaders.length > 0 && <details><summary>{t("source.originalHeading")}</summary><ul lang={data.language === "unknown" ? undefined : data.language}>{data.sourceHeaders.map(text => <li>{text}</li>)}</ul></details>}
           {data.sources.map((source) => <p>{captured(source.timestamp) ? t("work.sourceCaptured", { url: source.url, date: captured(source.timestamp) ?? "" }) : t("work.source", { url: source.url })}</p>)}
           <p>{t("work.kept")}</p>
@@ -75,7 +75,7 @@ const captured = (s?: string) =>
     </div>
   ) : (
     <div class="reading-layout"><div class="reading-main"><p class="page-kicker">{t("work.kicker")} · {data.language.toUpperCase()}</p><h1 id="work-title" class="page-title" style={`view-transition-name:${transitionName(work.id)};view-transition-class:work-title`} lang={data.language === "unknown" ? "" : data.language}>{data.title}</h1><WorldNav lang={lang} entries={worldEntries} itemId={work.id} />{hasSourceRed && <p class="source-red-note"><strong>{t("reader.redLabel")}</strong> {t("reader.redNote")}</p>}<aside class="notice">{t("work.review")} {data.gaps > 0 && <>{t("work.reviewGaps")} <a href={localePath(lang, "/gaps/")}>{t("work.reviewGapsLink")}</a>.</>}</aside><article class="reading-copy" lang={data.language === "unknown" ? "" : data.language}><Content /></article><WorldNav lang={lang} entries={worldEntries} itemId={work.id} end /></div>
-      <aside class="reading-aside" aria-labelledby="source-title"><h2 id="source-title">{t("work.provenance")}</h2><FacetChips lang={lang} classification={data.classification} /><ul>{data.sources.map(source=><li>{hasSourcePage(source.url) ? <a data-reading-source href={localePath(lang,`/sources/${source.documentId ?? documentId(source.url)}/`)}>{t("source.open")}</a> : t("source.pdf", { file: source.url.split("/").at(-1) ?? "" })}</li>)}</ul>{data.sources.map((source) => <div><p>{source.timestamp ? t("work.captured", { date: captured(source.timestamp) ?? "" }) : t("work.fromOrigin")}</p><p>{source.url}</p></div>)}<p>{t("work.kept")}</p></aside>
+      <aside class="reading-aside" aria-labelledby="source-title"><h2 id="source-title">{t("work.provenance")}</h2><FacetChips lang={lang} classification={data.classification} /><ul>{data.sources.map(source=><li>{hasSourcePage(source.url) ? <a data-reading-source href={localePath(lang,`/sources/${source.documentId ?? documentId(source.url)}/`)}>{t("source.open")}</a> : t("source.pdf", { file: originalFile(source) })}</li>)}</ul>{data.sources.map((source) => <div><p>{source.timestamp ? t("work.captured", { date: captured(source.timestamp) ?? "" }) : t("work.fromOrigin")}</p><p>{source.url}</p></div>)}<p>{t("work.kept")}</p></aside>
     </div>
   )}
   <a class="back-top" href="#work-title" data-back-top>↑ {t("reader.top")}</a>

@@ -4,6 +4,7 @@ import path from "node:path";
 import { load } from "cheerio";
 import type { EditorialItem, EditorialSource } from "../src/editorial/model.ts";
 import { anatomy } from "./anatomy.ts";
+import { attachmentEdition } from "./attachment-source.ts";
 import { digest, openCache } from "./build-cache.ts";
 import {
   applyCorrections,
@@ -13,7 +14,7 @@ import {
   sourceHtml,
 } from "./editorial-core.ts";
 import type { Gap } from "./link-resolution.ts";
-import { pdfEdition, pdfLayoutText } from "./pdf.ts";
+import { pdfLayoutText } from "./pdf.ts";
 import { safePath, sha256, urlKey, writeJson } from "./recovery/core.ts";
 import { compareItemKey } from "./unit-keys.ts";
 
@@ -150,30 +151,31 @@ async function compareItem(
   const removals = [];
   for (const [index, source] of c.sources.entries()) {
     const html = await sourceHtml(source, map);
-    const document = map.documents.find((d) => d.id === source.documentId);
-    if (document?.mediaType.includes("pdf")) {
-      const edition = await pdfEdition(
-        await readFile(safePath("archive/original", document.path)),
-      );
-      assert.ok(edition);
-      const rawText = pdfLayoutText(edition.rawText);
-      const reconstructed = load(edition.html)("body").text();
-      same(
-        normalize(reconstructed),
-        normalize(rawText),
-        `Independent PDF text layer: ${c.slug}`,
-      );
+    // PDFs and Word documents, loose or inside a zip (S7).
+    const edition = await attachmentEdition(source, map);
+    if (edition) {
+      if (edition.rawText) {
+        // The text layer read independently, with only declared removals.
+        const reconstructed = load(edition.html)("body").text();
+        same(
+          normalize(reconstructed),
+          normalize(pdfLayoutText(edition.rawText)),
+          `Independent PDF text layer: ${c.slug}`,
+        );
+      }
       expectedImagePaths.push(
-        ...edition.images.map((image) => `/sample/${sha256(image.bytes)}.png`),
+        ...edition.illustrations.map(
+          (image) => `/sample/${sha256(image.bytes)}.${image.ext}`,
+        ),
       );
       assert.equal(
         load(edition.html)("img").length,
-        edition.images.length,
+        edition.illustrations.length,
         `PDF illustration placement: ${c.slug}`,
       );
       assert.equal(
         page("article img").length,
-        edition.images.length,
+        edition.illustrations.length,
         `PDF image loss: ${c.slug}`,
       );
     }
@@ -274,7 +276,7 @@ async function compareItem(
         )
       )
         explainedImageOccurrences++;
-      else if (!document?.mediaType.includes("pdf")) {
+      else if (!edition) {
         const imageDocument = map.documents.find(
           (d) => urlKey(d.url) === urlKey(resource),
         );

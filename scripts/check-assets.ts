@@ -7,9 +7,21 @@ import { readdir } from "node:fs/promises";
  */
 const limit = 20_000;
 const budget = Number(process.env.ASSET_FILE_BUDGET ?? 19_500);
-const files = (
+const entries = (
   await readdir("dist", { recursive: true, withFileTypes: true })
-).filter((entry) => entry.isFile()).length;
+).filter((entry) => entry.isFile());
+const files = entries.length;
+// S7: the site serves reading text only, never the attachments themselves.
+const attachments = entries.filter((entry) =>
+  /\.(?:pdf|zip|docx?|xlsx?|pptx?|ppsx?|rtf|odt)$/i.test(entry.name),
+);
+if (attachments.length)
+  throw new Error(
+    `dist must not serve attachment files: ${attachments
+      .slice(0, 5)
+      .map((entry) => entry.name)
+      .join(", ")}`,
+  );
 if (files > budget)
   throw new Error(
     `dist has ${files} files: over the ${budget}-file budget (Cloudflare free limit ${limit}). Reduce generated files before deploying.`,

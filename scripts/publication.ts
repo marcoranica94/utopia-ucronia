@@ -1,4 +1,4 @@
-import { writeFile } from "node:fs/promises";
+import { readFile, writeFile } from "node:fs/promises";
 import { parseArgs } from "node:util";
 import { itemPath, readMap } from "./editorial-core.ts";
 import {
@@ -66,6 +66,16 @@ if (command === "select-approved") {
   // same checks as `select`: one map read instead of one per proposal.
   // A split needs an explicit edition choice (`select <id> [--whole]`), so
   // bulk selection leaves split proposals alone.
+  // Approved proposals held back because they fail a fidelity check.
+  const held = new Set(
+    (
+      JSON.parse(
+        await readFile("data/publication-holds.json", "utf8").catch(
+          () => '{"holds":[]}',
+        ),
+      ) as { holds: { proposalId: string }[] }
+    ).holds.map((h) => h.proposalId),
+  );
   const pendingIds = (
     current: typeof publication,
     currentLedger: typeof ledger,
@@ -75,6 +85,7 @@ if (command === "select-approved") {
       .filter(
         (d) =>
           d.state === "approved" &&
+          !held.has(d.proposalId) &&
           currentMap.proposals.find((p) => p.id === d.proposalId)?.action !==
             "split" &&
           !current.selections.some((s) => s.proposalId === d.proposalId),

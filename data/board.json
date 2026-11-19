@@ -229,8 +229,8 @@
   ],
   "priorities": [
     {
-      "title": "Attachments as reading text (S7)",
-      "detail": "Loose PDFs done (209 published, 19/11/2026). Next: the 126 PDFs and 15 Word documents inside zips, then links to reading editions and the coverage of every PDF and zip."
+      "title": "Scans and held attachments (S7 follow-up)",
+      "detail": "30 scanned PDFs need an OCR decision; 26 files with overprinted text are held (data/publication-holds.json). See reports/attachments-coverage.md."
     }
   ]
 }

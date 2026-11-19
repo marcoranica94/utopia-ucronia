@@ -38297,6 +38297,2469 @@
     "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
   },
   {
+    "slug": "sospirava-la-notte-9e1066c5",
+    "editorialId": "item-9e1066c5c11a",
+    "randomValidation": false,
+    "path": "/works/sospirava-la-notte-9e1066c5/",
+    "parts": [
+      {
+        "source": "https://www.fmboschetto.it/racconti/Sospirava_la_notte.zip",
+        "characters": 206605,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 206605,
+    "tables": 0,
+    "headings": 52,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-albero-genealogico-dei-draghi-1f50e41f",
+    "editorialId": "item-1f50e41f6043",
+    "randomValidation": false,
+    "path": "/works/l-albero-genealogico-dei-draghi-1f50e41f/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Dante33/DRAGHI.zip",
+        "characters": 25663,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 25663,
+    "tables": 0,
+    "headings": 18,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 6,
+      "viewable": 6,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "draghi2-b891a808",
+    "editorialId": "item-b891a808e6af",
+    "randomValidation": false,
+    "path": "/works/draghi2-b891a808/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Dante33/DRAGHI.zip",
+        "characters": 844,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 844,
+    "tables": 0,
+    "headings": 13,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-effetto-farfalla-00cfb900",
+    "editorialId": "item-00cfb900868e",
+    "randomValidation": false,
+    "path": "/works/l-effetto-farfalla-00cfb900/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/EFFETTO_FARFALLA.zip",
+        "characters": 82462,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 82462,
+    "tables": 0,
+    "headings": 11,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "niente-ahimsa-dharma-ef301668",
+    "editorialId": "item-ef301668dd56",
+    "randomValidation": false,
+    "path": "/works/niente-ahimsa-dharma-ef301668/",
+    "parts": [
+      {
+        "source": "https://www.fmboschetto.it/Utopiaucronia/Egypte/Asoka.zip",
+        "characters": 21863,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 21863,
+    "tables": 0,
+    "headings": 13,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-altra-storia-d-italia-1945-2006-31b386e9",
+    "editorialId": "item-31b386e99d25",
+    "randomValidation": false,
+    "path": "/works/l-altra-storia-d-italia-1945-2006-31b386e9/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Altra_storia_d_Italia.zip",
+        "characters": 220148,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 220148,
+    "tables": 0,
+    "headings": 10,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "un-buco-nell-universo-d2412023",
+    "editorialId": "item-d24120232347",
+    "randomValidation": false,
+    "path": "/works/un-buco-nell-universo-d2412023/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Buco_nell_universo.zip",
+        "characters": 779813,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 779813,
+    "tables": 0,
+    "headings": 96,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "a-cana-di-galilea-e893c359",
+    "editorialId": "item-e893c35918df",
+    "randomValidation": false,
+    "path": "/works/a-cana-di-galilea-e893c359/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/A_Cana_di_Galilea.zip",
+        "characters": 47176,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 47176,
+    "tables": 0,
+    "headings": 9,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "1-documentazione-remus-repubblica-romana-c097eed4",
+    "editorialId": "item-c097eed4f82f",
+    "randomValidation": false,
+    "path": "/works/1-documentazione-remus-repubblica-romana-c097eed4/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/canale/Remus.zip",
+        "characters": 29724,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 29724,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "2-documentazione-remus-principato-f5ccac6a",
+    "editorialId": "item-f5ccac6a9564",
+    "randomValidation": false,
+    "path": "/works/2-documentazione-remus-principato-f5ccac6a/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/canale/Remus.zip",
+        "characters": 75851,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 75851,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "3-documentazione-remus-tardo-impero-0ef55dd6",
+    "editorialId": "item-0ef55dd6418b",
+    "randomValidation": false,
+    "path": "/works/3-documentazione-remus-tardo-impero-0ef55dd6/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/canale/Remus.zip",
+        "characters": 40320,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 40320,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-uomo-senza-codice-228e15ed",
+    "editorialId": "item-228e15ed349b",
+    "randomValidation": false,
+    "path": "/works/l-uomo-senza-codice-228e15ed/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/L_uomo_senza_codice.zip",
+        "characters": 547172,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 547172,
+    "tables": 0,
+    "headings": 108,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "copertina-borghi-029cb660",
+    "editorialId": "item-029cb66093cd",
+    "randomValidation": false,
+    "path": "/works/copertina-borghi-029cb660/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Nouivelle_France/Borghi,_Tacito_germanico.zip",
+        "characters": 793,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 793,
+    "tables": 0,
+    "headings": 2,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "borghi-tacito-germanico-4ee289fe",
+    "editorialId": "item-4ee289fe234a",
+    "randomValidation": false,
+    "path": "/works/borghi-tacito-germanico-4ee289fe/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Nouivelle_France/Borghi,_Tacito_germanico.zip",
+        "characters": 92889,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 92889,
+    "tables": 0,
+    "headings": 255,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-unione-dei-cinque-regni-3c153dca",
+    "editorialId": "item-3c153dcaed29",
+    "randomValidation": false,
+    "path": "/works/l-unione-dei-cinque-regni-3c153dca/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Due_Imperi/UCR.zip",
+        "characters": 89519,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 89519,
+    "tables": 0,
+    "headings": 32,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 12,
+      "viewable": 12,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "regno-teutonico-di-russia-e-polonia-639ca4e5",
+    "editorialId": "item-639ca4e5f856",
+    "randomValidation": false,
+    "path": "/works/regno-teutonico-di-russia-e-polonia-639ca4e5/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Fanta_Ordine_Teutonico.zip",
+        "characters": 11124,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 11124,
+    "tables": 0,
+    "headings": 3,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-commissione-ecumenica-islamica-bcd758fc",
+    "editorialId": "item-bcd758fc9dee",
+    "randomValidation": false,
+    "path": "/works/la-commissione-ecumenica-islamica-bcd758fc/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Grande_Australia/Fanta_CEI.zip",
+        "characters": 96297,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 96297,
+    "tables": 0,
+    "headings": 51,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Grande_Australia/Fanta_CEI.zip",
+        "category": "contact-invitation",
+        "text": "Per farmi sapere che ne pensate, scrivetemi all'indirizzo t.mazzoni@yahoo.it"
+      }
+    ],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "fanta-prima-guerra-mondiale-574ff20f",
+    "editorialId": "item-574ff20fedb5",
+    "randomValidation": false,
+    "path": "/works/fanta-prima-guerra-mondiale-574ff20f/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/FantaWWIFilo.zip",
+        "characters": 27695,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 27695,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-attentato-di-sbardellotto-riesce-67a8fd29",
+    "editorialId": "item-67a8fd292873",
+    "randomValidation": false,
+    "path": "/works/l-attentato-di-sbardellotto-riesce-67a8fd29/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Sbardellotto.zip",
+        "characters": 44042,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 44042,
+    "tables": 0,
+    "headings": 1,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "una-storia-strana-09052a42",
+    "editorialId": "item-09052a42b28d",
+    "randomValidation": false,
+    "path": "/works/una-storia-strana-09052a42/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Nouivelle_France/una_storia_strana.zip",
+        "characters": 17677,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 17677,
+    "tables": 0,
+    "headings": 2,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-scimitarra-di-allah-b9e27722",
+    "editorialId": "item-b9e27722fdeb",
+    "randomValidation": false,
+    "path": "/works/la-scimitarra-di-allah-b9e27722/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Nouivelle_France/La_scimitarra_di_Allah.zip",
+        "characters": 17158,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 17158,
+    "tables": 0,
+    "headings": 1,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "storia-d-italia-dal-2010-al-2019-bb4f1580",
+    "editorialId": "item-bb4f15801ee3",
+    "randomValidation": false,
+    "path": "/works/storia-d-italia-dal-2010-al-2019-bb4f1580/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Nouivelle_France/Italia_2010_2019.zip",
+        "characters": 23589,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 23589,
+    "tables": 0,
+    "headings": 1,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-italia-e-la-seconda-guerra-mondiale-parte-prima-311e11bf",
+    "editorialId": "item-311e11bf4d8c",
+    "randomValidation": false,
+    "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-prima-311e11bf/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/II_GM_hdosbe_1.zip",
+        "characters": 23416,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 23416,
+    "tables": 0,
+    "headings": 46,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 3,
+      "viewable": 3,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-italia-e-la-seconda-guerra-mondiale-parte-seconda-fa15c6be",
+    "editorialId": "item-fa15c6bea0e1",
+    "randomValidation": false,
+    "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-seconda-fa15c6be/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/II_GM_hdosbe_2.zip",
+        "characters": 19248,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 19248,
+    "tables": 0,
+    "headings": 57,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 7,
+      "viewable": 7,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-italia-e-la-seconda-guerra-mondiale-parte-terza-06e8338e",
+    "editorialId": "item-06e8338e45df",
+    "randomValidation": false,
+    "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-terza-06e8338e/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/II_GM_hdosbe_3.zip",
+        "characters": 20911,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 20911,
+    "tables": 0,
+    "headings": 46,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 5,
+      "viewable": 5,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-italia-e-la-seconda-guerra-mondiale-parte-quarta-ae3c6fef",
+    "editorialId": "item-ae3c6fef6cf8",
+    "randomValidation": false,
+    "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-quarta-ae3c6fef/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/II_GM_hdosbe_4.zip",
+        "characters": 19435,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 19435,
+    "tables": 0,
+    "headings": 35,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 8,
+      "viewable": 8,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-italia-e-la-seconda-guerra-mondiale-parte-quinta-771d1b45",
+    "editorialId": "item-771d1b456346",
+    "randomValidation": false,
+    "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-quinta-771d1b45/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/II_GM_hdosbe_5.zip",
+        "characters": 21808,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 21808,
+    "tables": 0,
+    "headings": 56,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 8,
+      "viewable": 8,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-italia-e-la-seconda-guerra-mondiale-parte-sesta-7e8bf74f",
+    "editorialId": "item-7e8bf74f9b37",
+    "randomValidation": false,
+    "path": "/works/l-italia-e-la-seconda-guerra-mondiale-parte-sesta-7e8bf74f/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/II_GM_hdosbe_6.zip",
+        "characters": 22346,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 22346,
+    "tables": 0,
+    "headings": 30,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 7,
+      "viewable": 7,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "tre-giorni-di-cammino-aba8ac45",
+    "editorialId": "item-aba8ac458f5a",
+    "randomValidation": false,
+    "path": "/works/tre-giorni-di-cammino-aba8ac45/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Tre_giorni_di_cammino.zip",
+        "characters": 171196,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 171196,
+    "tables": 0,
+    "headings": 42,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 3,
+      "viewable": 3,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "cosmographia-universalis-053bfc0b",
+    "editorialId": "item-053bfc0b25e9",
+    "randomValidation": false,
+    "path": "/works/cosmographia-universalis-053bfc0b/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Nouivelle_France/Epitome.zip",
+        "characters": 18471,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 18471,
+    "tables": 0,
+    "headings": 12,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "che-cos-e-il-tempo-fe92011d",
+    "editorialId": "item-fe92011dbb04",
+    "randomValidation": false,
+    "path": "/works/che-cos-e-il-tempo-fe92011d/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Nouivelle_France/cos_e_il_tempo.zip",
+        "characters": 29882,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 29882,
+    "tables": 0,
+    "headings": 3,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "e-tutto-un-altro-calcio-795932fd",
+    "editorialId": "item-795932fdb5cf",
+    "randomValidation": false,
+    "path": "/works/e-tutto-un-altro-calcio-795932fd/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/UAI/canale/ucronia_calcio_Nostradamus.zip",
+        "characters": 393147,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 393147,
+    "tables": 0,
+    "headings": 3398,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "confederacy-history-of-2e90a94b",
+    "editorialId": "item-2e90a94b186c",
+    "randomValidation": false,
+    "path": "/works/confederacy-history-of-2e90a94b/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/Utopiaucronia/Confederacy_history.zip",
+        "characters": 223021,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 223021,
+    "tables": 0,
+    "headings": 6,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 3,
+      "viewable": 3,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "possedere-dio-3cda1c09",
+    "editorialId": "item-3cda1c092256",
+    "randomValidation": false,
+    "path": "/works/possedere-dio-3cda1c09/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Possedere_Dio.zip",
+        "characters": 97559,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 97559,
+    "tables": 0,
+    "headings": 23,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "helionautica-b470a271",
+    "editorialId": "item-b470a2710c3b",
+    "randomValidation": false,
+    "path": "/works/helionautica-b470a271/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Helionautica.zip",
+        "characters": 497939,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 497939,
+    "tables": 0,
+    "headings": 4951,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-spaziale-commedia-d92af974",
+    "editorialId": "item-d92af97470b6",
+    "randomValidation": false,
+    "path": "/works/la-spaziale-commedia-d92af974/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/La_Spaziale_Commedia.zip",
+        "characters": 467980,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 467980,
+    "tables": 0,
+    "headings": 100,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "felice-l-infelice-9ee8dd88",
+    "editorialId": "item-9ee8dd886e2e",
+    "randomValidation": false,
+    "path": "/works/felice-l-infelice-9ee8dd88/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Felice_l_infelice.zip",
+        "characters": 37861,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 37861,
+    "tables": 0,
+    "headings": 39,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "una-strana-coppia-2154439e",
+    "editorialId": "item-2154439ea56f",
+    "randomValidation": false,
+    "path": "/works/una-strana-coppia-2154439e/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Strana_coppia.zip",
+        "characters": 15857,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 15857,
+    "tables": 0,
+    "headings": 5,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "figlio-dell-uomo-61555c52",
+    "editorialId": "item-61555c52061c",
+    "randomValidation": false,
+    "path": "/works/figlio-dell-uomo-61555c52/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Figlio_dell_uomo.zip",
+        "characters": 28287,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 28287,
+    "tables": 0,
+    "headings": 9,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "confessore-e-penitente-bcb9325d",
+    "editorialId": "item-bcb9325dbbb1",
+    "randomValidation": false,
+    "path": "/works/confessore-e-penitente-bcb9325d/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Confessore_e_penitente.zip",
+        "characters": 14663,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 14663,
+    "tables": 0,
+    "headings": 6,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "anonimo-17143fe5",
+    "editorialId": "item-17143fe5719b",
+    "randomValidation": false,
+    "path": "/works/anonimo-17143fe5/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Anonimo.zip",
+        "characters": 47355,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 47355,
+    "tables": 0,
+    "headings": 8,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-leggenda-del-minatore-1720be33",
+    "editorialId": "item-1720be33b91b",
+    "randomValidation": false,
+    "path": "/works/la-leggenda-del-minatore-1720be33/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/La_leggenda_del_minatore.zip",
+        "characters": 10024,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 10024,
+    "tables": 0,
+    "headings": 9,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-crocifisso-di-legno-02ffd201",
+    "editorialId": "item-02ffd201852f",
+    "randomValidation": false,
+    "path": "/works/il-crocifisso-di-legno-02ffd201/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Crocifisso_di_legno.zip",
+        "characters": 9780,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 9780,
+    "tables": 0,
+    "headings": 6,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-pianeta-d-oro-41e299b4",
+    "editorialId": "item-41e299b458a9",
+    "randomValidation": false,
+    "path": "/works/il-pianeta-d-oro-41e299b4/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Pianeta_d_oro.zip",
+        "characters": 205521,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 205521,
+    "tables": 0,
+    "headings": 130,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "come-un-sacco-di-crine-35f7a33b",
+    "editorialId": "item-35f7a33bb0b2",
+    "randomValidation": false,
+    "path": "/works/come-un-sacco-di-crine-35f7a33b/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Come_un_sacco_di_crine.zip",
+        "characters": 25721,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 25721,
+    "tables": 0,
+    "headings": 12,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "un-bambino-sconosciuto-6be21804",
+    "editorialId": "item-6be21804bb7e",
+    "randomValidation": false,
+    "path": "/works/un-bambino-sconosciuto-6be21804/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Bambino_sconosciuto.zip",
+        "characters": 20006,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 20006,
+    "tables": 0,
+    "headings": 9,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "io-ti-battezzo-30804f61",
+    "editorialId": "item-30804f612d11",
+    "randomValidation": false,
+    "path": "/works/io-ti-battezzo-30804f61/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Io_ti_battezzo.zip",
+        "characters": 36212,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 36212,
+    "tables": 0,
+    "headings": 48,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "io-dio-b50ceab9",
+    "editorialId": "item-b50ceab9538f",
+    "randomValidation": false,
+    "path": "/works/io-dio-b50ceab9/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Io_Dio.zip",
+        "characters": 16215,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 16215,
+    "tables": 0,
+    "headings": 12,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "secondo-lucifero-e380d2f2",
+    "editorialId": "item-e380d2f204bd",
+    "randomValidation": false,
+    "path": "/works/secondo-lucifero-e380d2f2/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Secondo_Lucifero.zip",
+        "characters": 16566,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 16566,
+    "tables": 0,
+    "headings": 6,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "posto-vuoto-c936298c",
+    "editorialId": "item-c936298ce4d2",
+    "randomValidation": false,
+    "path": "/works/posto-vuoto-c936298c/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Posto_vuoto.zip",
+        "characters": 9966,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 9966,
+    "tables": 0,
+    "headings": 10,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-bruco-e-il-fiore-c64ea1c0",
+    "editorialId": "item-c64ea1c01979",
+    "randomValidation": false,
+    "path": "/works/il-bruco-e-il-fiore-c64ea1c0/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Il_bruco_e_il_fiore.zip",
+        "characters": 10832,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 10832,
+    "tables": 0,
+    "headings": 10,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "un-maledetto-pulsante-fe8f2507",
+    "editorialId": "item-fe8f25075368",
+    "randomValidation": false,
+    "path": "/works/un-maledetto-pulsante-fe8f2507/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Maledetto_pulsante.zip",
+        "characters": 16277,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 16277,
+    "tables": 0,
+    "headings": 6,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-pianeta-delle-leggende-6f79b18b",
+    "editorialId": "item-6f79b18b5497",
+    "randomValidation": false,
+    "path": "/works/il-pianeta-delle-leggende-6f79b18b/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Pianeta_delle_Leggende.zip",
+        "characters": 152289,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 152289,
+    "tables": 0,
+    "headings": 35,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-macchia-sul-sole-b134a2d2",
+    "editorialId": "item-b134a2d2acae",
+    "randomValidation": false,
+    "path": "/works/la-macchia-sul-sole-b134a2d2/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/macchia_sul_sole.zip",
+        "characters": 36534,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 36534,
+    "tables": 0,
+    "headings": 4,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "prologo-al-ciclo-38704e25",
+    "editorialId": "item-38704e2597e1",
+    "randomValidation": false,
+    "path": "/works/prologo-al-ciclo-38704e25/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Prologo.zip",
+        "characters": 27438,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 27438,
+    "tables": 0,
+    "headings": 9,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "morimondo-sanguinoso-564105ae",
+    "editorialId": "item-564105ae42f1",
+    "randomValidation": false,
+    "path": "/works/morimondo-sanguinoso-564105ae/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Morimondo_Sanguinoso.zip",
+        "characters": 167235,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 167235,
+    "tables": 0,
+    "headings": 37,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "tra-noi-e-il-nulla-70cb30a8",
+    "editorialId": "item-70cb30a80485",
+    "randomValidation": false,
+    "path": "/works/tra-noi-e-il-nulla-70cb30a8/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Tra_noi_e_il_nulla.zip",
+        "characters": 1005320,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 1005320,
+    "tables": 0,
+    "headings": 188,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "di-che-vivono-gli-uomini-d9b2fa71",
+    "editorialId": "item-d9b2fa713e88",
+    "randomValidation": false,
+    "path": "/works/di-che-vivono-gli-uomini-d9b2fa71/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Di_che_vivono_gli_uomini.zip",
+        "characters": 636579,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 636579,
+    "tables": 0,
+    "headings": 119,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-pisside-di-cera-639d07c6",
+    "editorialId": "item-639d07c69c99",
+    "randomValidation": false,
+    "path": "/works/la-pisside-di-cera-639d07c6/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/La_pisside_di_cera.zip",
+        "characters": 299002,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 299002,
+    "tables": 0,
+    "headings": 72,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "passioni-pericolose-2525cdd6",
+    "editorialId": "item-2525cdd68a1b",
+    "randomValidation": false,
+    "path": "/works/passioni-pericolose-2525cdd6/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Passioni_pericolose.zip",
+        "characters": 453175,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 453175,
+    "tables": 0,
+    "headings": 82,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "passa-in-macedonia-0ca3992f",
+    "editorialId": "item-0ca3992f0c11",
+    "randomValidation": false,
+    "path": "/works/passa-in-macedonia-0ca3992f/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Passa_in_Macedonia.zip",
+        "characters": 480817,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 480817,
+    "tables": 0,
+    "headings": 77,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-trentasettesimo-giusto-0ea03480",
+    "editorialId": "item-0ea034806418",
+    "randomValidation": false,
+    "path": "/works/il-trentasettesimo-giusto-0ea03480/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Il_trentasettesimo_giusto.zip",
+        "characters": 255519,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 255519,
+    "tables": 0,
+    "headings": 58,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-leggenda-del-pianeta-senza-tempo-c1406f62",
+    "editorialId": "item-c1406f621f93",
+    "randomValidation": false,
+    "path": "/works/la-leggenda-del-pianeta-senza-tempo-c1406f62/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/La_leggenda_del_pianeta_senza_tempo.zip",
+        "characters": 546949,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 546949,
+    "tables": 0,
+    "headings": 87,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "sorrisi-e-can-zoni-e0ad3f39",
+    "editorialId": "item-e0ad3f3920bb",
+    "randomValidation": false,
+    "path": "/works/sorrisi-e-can-zoni-e0ad3f39/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Sorrisi_e_Can_zoni.zip",
+        "characters": 112880,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 112880,
+    "tables": 0,
+    "headings": 22,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-freccia-di-fuoco-7609e6a8",
+    "editorialId": "item-7609e6a87910",
+    "randomValidation": false,
+    "path": "/works/la-freccia-di-fuoco-7609e6a8/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/La_freccia_di_fuoco.zip",
+        "characters": 604415,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 604415,
+    "tables": 0,
+    "headings": 83,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 3,
+      "viewable": 3,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-piu-bello-dei-mari-a1e3b2d8",
+    "editorialId": "item-a1e3b2d8bdec",
+    "randomValidation": false,
+    "path": "/works/il-piu-bello-dei-mari-a1e3b2d8/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Il_piu_bello_dei_mari.zip",
+        "characters": 447666,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 447666,
+    "tables": 0,
+    "headings": 94,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "di-la-dal-mistero-366c78f8",
+    "editorialId": "item-366c78f8fdfc",
+    "randomValidation": false,
+    "path": "/works/di-la-dal-mistero-366c78f8/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Di_la_dal_mistero.zip",
+        "characters": 474860,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 474860,
+    "tables": 0,
+    "headings": 66,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-misura-dell-amore-0b7de785",
+    "editorialId": "item-0b7de78562fe",
+    "randomValidation": false,
+    "path": "/works/la-misura-dell-amore-0b7de785/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/La_misura_dell_amore.zip",
+        "characters": 756588,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 756588,
+    "tables": 0,
+    "headings": 148,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-voce-del-vento-1fb9a5ee",
+    "editorialId": "item-1fb9a5ee3bdc",
+    "randomValidation": false,
+    "path": "/works/la-voce-del-vento-1fb9a5ee/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/La_voce_del_vento.zip",
+        "characters": 1020612,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 1020612,
+    "tables": 0,
+    "headings": 147,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "oltre-la-porta-878a4651",
+    "editorialId": "item-878a4651b6fa",
+    "randomValidation": false,
+    "path": "/works/oltre-la-porta-878a4651/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Oltre_la_porta.zip",
+        "characters": 663797,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 663797,
+    "tables": 0,
+    "headings": 115,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "lo-scarabeo-di-sardonice-ea0e9831",
+    "editorialId": "item-ea0e983116a5",
+    "randomValidation": false,
+    "path": "/works/lo-scarabeo-di-sardonice-ea0e9831/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Scarabeo_di_sardonice.zip",
+        "characters": 345268,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 345268,
+    "tables": 0,
+    "headings": 62,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-frastuono-del-silenzio-cfab7be3",
+    "editorialId": "item-cfab7be3d4c2",
+    "randomValidation": false,
+    "path": "/works/il-frastuono-del-silenzio-cfab7be3/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Frastuono_del_silenzio.zip",
+        "characters": 377496,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 377496,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-principio-di-majorana-792fe098",
+    "editorialId": "item-792fe098e4b8",
+    "randomValidation": false,
+    "path": "/works/il-principio-di-majorana-792fe098/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Principio_di_Majorana.zip",
+        "characters": 449166,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 449166,
+    "tables": 0,
+    "headings": 78,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-bestia-di-boscoscuro-6a6ac170",
+    "editorialId": "item-6a6ac170cc55",
+    "randomValidation": false,
+    "path": "/works/la-bestia-di-boscoscuro-6a6ac170/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Bestia_di_Boscoscuro.zip",
+        "characters": 358579,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 358579,
+    "tables": 0,
+    "headings": 54,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-cigno-nero-1addc723",
+    "editorialId": "item-1addc7239c1f",
+    "randomValidation": false,
+    "path": "/works/il-cigno-nero-1addc723/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Il_Cigno_Nero.zip",
+        "characters": 698141,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 698141,
+    "tables": 0,
+    "headings": 108,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-patto-con-lo-scorpione-c12089c8",
+    "editorialId": "item-c12089c87304",
+    "randomValidation": false,
+    "path": "/works/il-patto-con-lo-scorpione-c12089c8/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Patto_con_lo_scorpione.zip",
+        "characters": 619289,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 619289,
+    "tables": 0,
+    "headings": 78,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "mio-zio-cesare-0c6125f9",
+    "editorialId": "item-0c6125f99b4f",
+    "randomValidation": false,
+    "path": "/works/mio-zio-cesare-0c6125f9/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Zio_Cesare.zip",
+        "characters": 18935,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 18935,
+    "tables": 0,
+    "headings": 6,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "l-ultima-missiva-b08bac69",
+    "editorialId": "item-b08bac690666",
+    "randomValidation": false,
+    "path": "/works/l-ultima-missiva-b08bac69/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Ultima_missiva.zip",
+        "characters": 8258,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 8258,
+    "tables": 0,
+    "headings": 6,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-primo-libro-dei-falerei-45f39caa",
+    "editorialId": "item-45f39caa26e3",
+    "randomValidation": false,
+    "path": "/works/il-primo-libro-dei-falerei-45f39caa/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Falerei.zip",
+        "characters": 95711,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 95711,
+    "tables": 0,
+    "headings": 26,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "de-terra-incognita-sed-nunc-reperta-0b908ff1",
+    "editorialId": "item-0b908ff1cae9",
+    "randomValidation": false,
+    "path": "/works/de-terra-incognita-sed-nunc-reperta-0b908ff1/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/De_Terra_Incognita.zip",
+        "characters": 111265,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 111265,
+    "tables": 0,
+    "headings": 39,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 1,
+      "viewable": 1,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-medico-e-il-bambino-edc96ba0",
+    "editorialId": "item-edc96ba07d1a",
+    "randomValidation": false,
+    "path": "/works/il-medico-e-il-bambino-edc96ba0/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Il_medico_e_il%20bambino.zip",
+        "characters": 24446,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 24446,
+    "tables": 0,
+    "headings": 4,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "idomeneide-f1067de9",
+    "editorialId": "item-f1067de9b8c3",
+    "randomValidation": false,
+    "path": "/works/idomeneide-f1067de9/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Idomeneide.zip",
+        "characters": 49714,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 49714,
+    "tables": 0,
+    "headings": 67,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 2,
+      "viewable": 2,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "amores-546c5d45",
+    "editorialId": "item-546c5d45460e",
+    "randomValidation": false,
+    "path": "/works/amores-546c5d45/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Amores.zip",
+        "characters": 60930,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 60930,
+    "tables": 0,
+    "headings": 48,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "il-crivello-di-eratostene-1a2846cf",
+    "editorialId": "item-1a2846cfb4fc",
+    "randomValidation": false,
+    "path": "/works/il-crivello-di-eratostene-1a2846cf/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/Padre_Futuro/Crivello_di_Eratostene.zip",
+        "characters": 118842,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 118842,
+    "tables": 0,
+    "headings": 39,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "padre-nostro-b26db1e8",
+    "editorialId": "item-b26db1e8fef5",
+    "randomValidation": false,
+    "path": "/works/padre-nostro-b26db1e8/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/poesie%20colleghi/poesie_Picciafuoco.zip",
+        "characters": 629,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 629,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "la-condanna-bed7ef62",
+    "editorialId": "item-bed7ef62baeb",
+    "randomValidation": false,
+    "path": "/works/la-condanna-bed7ef62/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/poesie%20colleghi/poesie_Picciafuoco.zip",
+        "characters": 598,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 598,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "nataleoggi1-41bca9ef",
+    "editorialId": "item-41bca9efb504",
+    "randomValidation": false,
+    "path": "/works/nataleoggi1-41bca9ef/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/poesie%20colleghi/poesie_Picciafuoco.zip",
+        "characters": 1014,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 1014,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "a-qoelet-edb2c0f0",
+    "editorialId": "item-edb2c0f001e5",
+    "randomValidation": false,
+    "path": "/works/a-qoelet-edb2c0f0/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/poesie%20colleghi/poesie_Picciafuoco.zip",
+        "characters": 740,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 740,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "una-splendida-poesia-di-natale-di-elena-cristina-bolla-a9ba3b6d",
+    "editorialId": "item-a9ba3b6d6aa9",
+    "randomValidation": false,
+    "path": "/works/una-splendida-poesia-di-natale-di-elena-cristina-bolla-a9ba3b6d/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/poesie%20colleghi/poesiaNatale06.zip",
+        "characters": 258,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 258,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "17campagna2-18c967a7",
+    "editorialId": "item-18c967a7a669",
+    "randomValidation": false,
+    "path": "/works/17campagna2-18c967a7/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/poesie%20colleghi/Sonpassatideglianni.zip",
+        "characters": 968,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 968,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
+    "slug": "son-passati-degli-anni-76cfa090",
+    "editorialId": "item-76cfa090a88d",
+    "randomValidation": false,
+    "path": "/works/son-passati-degli-anni-76cfa090/",
+    "parts": [
+      {
+        "source": "http://www.fmboschetto.it/racconti/poesie%20colleghi/Sonpassatideglianni.zip",
+        "characters": 1641,
+        "parserCoverage": "all source text accounted for"
+      }
+    ],
+    "text": "identical after whitespace normalization and explicitly checked removals/corrections",
+    "characters": 1641,
+    "tables": 0,
+    "headings": 0,
+    "anchors": 0,
+    "images": {
+      "sourceKept": 0,
+      "viewable": 0,
+      "explainedGaps": 0,
+      "explainedOccurrences": 0
+    },
+    "declaredRemovals": [],
+    "corrections": [],
+    "visualCheck": "Browser audit is recorded separately in reports/s2-browser.json; this script verifies source fidelity."
+  },
+  {
     "slug": "benvenuti-in-utopiaucronia-667e9ba1",
     "randomValidation": false,
     "path": "/works/benvenuti-in-utopiaucronia-667e9ba1/",

@@ -8,8 +8,8 @@ import type {
 } from "../src/editorial/model.ts";
 import { correctionSchema, mapSchema } from "../src/editorial/model.ts";
 import { blocks } from "./anatomy.ts";
+import { attachmentEdition, sourceFile } from "./attachment-source.ts";
 import { decode, titleSlug } from "./conversion.ts";
-import { pdfToHtml } from "./pdf.ts";
 import { safePath, sha256, urlKey } from "./recovery/core.ts";
 import { applyDecisions, readDecisions } from "./review-decisions.ts";
 
@@ -68,14 +68,10 @@ export async function sourceHtml(
 ): Promise<string> {
   const document = map.documents.find((d) => d.id === source.documentId);
   if (!document) throw new Error(`Unknown source: ${source.documentId}`);
-  const raw = await readFile(safePath(archiveRoot, document.path));
-  if (sha256(raw) !== document.sha256)
-    throw new Error(`Original changed: ${document.path}`);
-  const html = document.mediaType.includes("pdf")
-    ? await pdfToHtml(raw)
-    : decode(raw);
-  if (!html)
-    throw new Error(`Required PDF converter unavailable: ${document.path}`);
+  // PDFs and Word documents, loose or inside a zip (S7), become reading HTML.
+  const edition = await attachmentEdition(source, map, archiveRoot);
+  const html =
+    edition?.html ?? decode((await sourceFile(source, map, archiveRoot)).bytes);
   if (source.selection.kind === "whole") return html;
   const selected = blocks(html).slice(
     source.selection.start,

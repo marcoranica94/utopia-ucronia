@@ -36,6 +36,7 @@ export const workContentSchema = z.object({
       z.object({
         url: z.url(),
         documentId: identifier.optional(),
+        entry: z.string().min(1).max(300).optional(),
         timestamp: z
           .string()
           .regex(/^\d{14}$/)

@@ -365,9 +365,11 @@ const authorLine = (text: string) => {
   const name = /^(?:di|de|by|par|por)\s+(.+)$/iu
     .exec(text)?.[1]
     ?.replace(/\s*\(.*\)$/, "");
-  // "De Rossi in campo: e tutto iniziò così!" is a title, not "by Rossi…".
+  // "De Rossi in campo: e tutto iniziò così!" and "DE TERRA INCOGNITA" are
+  // titles, not "by Rossi…" or "by Terra Incognita".
   if (!name || /[:!?]/.test(name) || name.split(/\s+/).length > 6)
     return undefined;
+  if (/^de\s/i.test(text) && !/\p{Ll}/u.test(text)) return undefined;
   return name;
 };
 

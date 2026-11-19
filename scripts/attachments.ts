@@ -17,8 +17,15 @@ import { zipEntries, zipRead } from "./zip.ts";
  * them. Output: reports/attachments-inventory.json and a short summary.
  */
 
-const { positionals } = parseArgs({ allowPositionals: true });
+const { positionals } = parseArgs({
+  allowPositionals: true,
+  options: { zips: { type: "boolean" } },
+});
 const command = positionals[0] ?? "inventory";
+if (command === "coverage") {
+  await import("./attachments-coverage.ts");
+  process.exit(0);
+}
 if (command === "propose") {
   await import("./attachments-propose.ts");
   process.exit(0);

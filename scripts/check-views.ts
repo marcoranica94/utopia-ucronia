@@ -41,6 +41,9 @@ const ROUTES = [
   // pages, 58 illustrations).
   "/works/canale-di-augusto-2020-fc2f1d6b/",
   "/works/operazione-leone-marino-85adca28/",
+  // From zips: a PDF with the maps beside it, and a Word document (a poem).
+  "/works/l-unione-dei-cinque-regni-3c153dca/",
+  "/works/padre-nostro-b26db1e8/",
   "/divergences/",
   "/divergences/il-business-plot-1ee21bfc/",
   "/eras/",

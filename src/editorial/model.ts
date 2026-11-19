@@ -36,6 +36,8 @@ export const documentSchema = z.object({
 export const sourceSchema = z.object({
   documentId: identifier,
   url: z.url(),
+  /** A file inside a zip document (S7), named exactly as in the archive. */
+  entry: z.string().min(1).max(300).optional(),
   timestamp: z
     .string()
     .regex(/^\d{14}$/)

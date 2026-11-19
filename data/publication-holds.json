@@ -1,0 +1,78 @@
+{
+  "version": 1,
+  "note": "Approved proposals that select-approved must not select: they fail a fidelity check. Remove an entry only after its conversion passes.",
+  "holds": [
+    {
+      "proposalId": "proposal-doc-2c0058ed4e58",
+      "reason": "PDF with text overprinted several times: fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-2ed4a2d0567b",
+      "reason": "PDF with text overprinted several times: fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-2ef4f30ef749",
+      "reason": "PDF with text overprinted several times: fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-b1ca1f1cfd49",
+      "reason": "PDF with text overprinted several times: fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-6003820d0c28",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-99638d40e914",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-76cd950b9bb0",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-167922a139d1",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-42cc3ff8399f",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-7116128dc763",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-4e8ebb48c7b1",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-aee9809fdd55",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-86aed08473ef",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-75e672a7cef2",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-cd5058591fd9",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-0b4127964784",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-8eedf1ceae0a",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    },
+    {
+      "proposalId": "proposal-doc-9c5d8ea856e9",
+      "reason": "Zip whose PDF has text overprinted several times (or tables whose page numbers interleave): fails the independent text-layer check (S7, 19/11/2026)."
+    }
+  ]
+}

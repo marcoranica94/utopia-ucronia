@@ -1,18 +1,18 @@
 {
   "passed": true,
-  "readingItems": 1005,
+  "readingItems": 1096,
   "sourceDocuments": 795,
   "sourceLinks": 1598,
   "localNoteLinks": 3050,
-  "searchIndexCountPerInterface": 1005,
+  "searchIndexCountPerInterface": 1096,
   "reviewExcludedFromProduction": true,
   "explainedResources": {
-    "attachment-pending": 92,
     "edition-pending": 570,
     "external-excluded": 778,
     "archive-unlisted": 104,
     "anchor-missing": 70,
     "archive-missing": 73,
+    "attachment-pending": 23,
     "unsupported-format": 8
   }
 }
