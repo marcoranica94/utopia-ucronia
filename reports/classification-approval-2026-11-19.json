@@ -1,0 +1,6790 @@
+{
+  "date": "2026-11-19",
+  "ownerInstruction": "5. fai tu. approvatele da solo con un controllo",
+  "authorization": "Owner-delegated approval: only agent proposals passing every automated check become owner-approved; the rest stay proposals; unknown values are never approved.",
+  "checks": [
+    "value in data/vocabulary.json",
+    "quotation found in the work's text",
+    "eras: cited year in the text and inside the era, or the original catalog section",
+    "places/themes: the evidence words for each value occur at least 3 times"
+  ],
+  "dryRun": false,
+  "approved": {
+    "eras": 174,
+    "places": 269,
+    "themes": 266
+  },
+  "keptProposed": {
+    "eras": 1,
+    "places": 1,
+    "themes": 0
+  },
+  "kept": [
+    {
+      "item": "item-cf07c5fbc52f",
+      "facet": "places",
+      "value": [
+        "imaginary"
+      ],
+      "why": "fewer than 3 occurrences of the words for imaginary"
+    },
+    {
+      "item": "item-b891a808e6af",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "quotation not found in the text"
+    }
+  ],
+  "approvedAssignments": [
+    {
+      "item": "item-96b9953bf326",
+      "facet": "eras",
+      "value": [
+        "postwar"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-96b9953bf326",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-96b9953bf326",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "society-utopia",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a4acd3e36ced",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a4acd3e36ced",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a4acd3e36ced",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ca42da9f9a17",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ca42da9f9a17",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ca42da9f9a17",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "napoleon",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-76502d09f398",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-76502d09f398",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-76502d09f398",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e7586e169d2f",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e7586e169d2f",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e7586e169d2f",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "society-utopia",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c1f606b3b45e",
+      "facet": "places",
+      "value": [
+        "italy",
+        "eastern-europe-russia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c1f606b3b45e",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "cold-war",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-86091cbcc1db",
+      "facet": "eras",
+      "value": [
+        "first-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-86091cbcc1db",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-86091cbcc1db",
+      "facet": "themes",
+      "value": [
+        "revolutions",
+        "society-utopia",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-51fd91ebbdd3",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-51fd91ebbdd3",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "east-asia",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-51fd91ebbdd3",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "religions",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5dc51349fae6",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-857c02cfdb76",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "east-asia",
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-857c02cfdb76",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "cold-war",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e8d1e9d9ecbb",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e8d1e9d9ecbb",
+      "facet": "themes",
+      "value": [
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ad3bfe701116",
+      "facet": "eras",
+      "value": [
+        "first-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ad3bfe701116",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "central-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ad3bfe701116",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "society-utopia",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-49139eb2e7eb",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-49139eb2e7eb",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-49139eb2e7eb",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-eb8fed1dfb21",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-eb8fed1dfb21",
+      "facet": "places",
+      "value": [
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-eb8fed1dfb21",
+      "facet": "themes",
+      "value": [
+        "risorgimento",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5044d1ad30df",
+      "facet": "places",
+      "value": [
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5044d1ad30df",
+      "facet": "themes",
+      "value": [
+        "napoleon",
+        "empires-dynasties",
+        "risorgimento"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ace96cb463ed",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ace96cb463ed",
+      "facet": "places",
+      "value": [
+        "north-america",
+        "western-europe",
+        "latin-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ace96cb463ed",
+      "facet": "themes",
+      "value": [
+        "united-states",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-62390c0eda6c",
+      "facet": "themes",
+      "value": [
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-74c7984bef76",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-74c7984bef76",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-74c7984bef76",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "empires-dynasties",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-33c59997e91a",
+      "facet": "eras",
+      "value": [
+        "first-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-33c59997e91a",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-33c59997e91a",
+      "facet": "themes",
+      "value": [
+        "society-utopia",
+        "asia",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f77476bfd69",
+      "facet": "places",
+      "value": [
+        "world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f77476bfd69",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-40d332c94212",
+      "facet": "places",
+      "value": [
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-40d332c94212",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "world-wars",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0ff9c965522e",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0ff9c965522e",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0ff9c965522e",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "exploration-colonies",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5e8f9fd8f798",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5e8f9fd8f798",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5e8f9fd8f798",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e06c9c6c1d2e",
+      "facet": "places",
+      "value": [
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a80fe343524b",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a80fe343524b",
+      "facet": "places",
+      "value": [
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a80fe343524b",
+      "facet": "themes",
+      "value": [
+        "united-states",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-804cff91dc22",
+      "facet": "eras",
+      "value": [
+        "roman"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-804cff91dc22",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-804cff91dc22",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-714b7d82233a",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-714b7d82233a",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "africa",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-714b7d82233a",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "united-states",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2a456f939f69",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2a456f939f69",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "eastern-europe-russia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2a456f939f69",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-eb3430df0dd5",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-eb3430df0dd5",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "east-asia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-eb3430df0dd5",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "islamic-world",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e2a5891edb26",
+      "facet": "places",
+      "value": [
+        "north-america",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e2a5891edb26",
+      "facet": "themes",
+      "value": [
+        "united-states",
+        "disasters",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-242fa84ecde7",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-242fa84ecde7",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "science-technology",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-68aaa09cfb06",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-68aaa09cfb06",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-68aaa09cfb06",
+      "facet": "themes",
+      "value": [
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9829e6b05bae",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9829e6b05bae",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9829e6b05bae",
+      "facet": "themes",
+      "value": [
+        "revolutions",
+        "disasters"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0aab8b4a254d",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0aab8b4a254d",
+      "facet": "places",
+      "value": [
+        "italy",
+        "central-europe",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0aab8b4a254d",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "napoleon",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a419c57c299c",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a419c57c299c",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a419c57c299c",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "asia",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-50936a3be708",
+      "facet": "eras",
+      "value": [
+        "roman"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-50936a3be708",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-50936a3be708",
+      "facet": "themes",
+      "value": [
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ec525640ad4e",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ec525640ad4e",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ec525640ad4e",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "religions",
+        "napoleon"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8ad1194b83d3",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8ad1194b83d3",
+      "facet": "places",
+      "value": [
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-02949e51f9f7",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-02949e51f9f7",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2364abcec6b0",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2364abcec6b0",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "napoleon",
+        "risorgimento"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e866d05f959d",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e866d05f959d",
+      "facet": "places",
+      "value": [
+        "latin-america",
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e866d05f959d",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "united-states",
+        "risorgimento"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a9782af83c5e",
+      "facet": "places",
+      "value": [
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a9782af83c5e",
+      "facet": "themes",
+      "value": [
+        "revolutions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d6ad7daf72ec",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d6ad7daf72ec",
+      "facet": "places",
+      "value": [
+        "north-america",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d6ad7daf72ec",
+      "facet": "themes",
+      "value": [
+        "united-states",
+        "empires-dynasties",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5f302935857f",
+      "facet": "eras",
+      "value": [
+        "postwar"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5f302935857f",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "eastern-europe-russia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5f302935857f",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "cold-war",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4d86b8dc6345",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4d86b8dc6345",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "mediterranean-middle-east",
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4d86b8dc6345",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "exploration-colonies",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4483dfb4f282",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4483dfb4f282",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "mediterranean-middle-east",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4483dfb4f282",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "empires-dynasties",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a9e31076dab6",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-171d7e78d5f7",
+      "facet": "eras",
+      "value": [
+        "belle-epoque"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-171d7e78d5f7",
+      "facet": "places",
+      "value": [
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-171d7e78d5f7",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-fa7f8e212151",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "western-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-fa7f8e212151",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "exploration-colonies",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3ff6d66f7029",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3ff6d66f7029",
+      "facet": "places",
+      "value": [
+        "africa"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3ff6d66f7029",
+      "facet": "themes",
+      "value": [
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8be8f68455b9",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8be8f68455b9",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8be8f68455b9",
+      "facet": "themes",
+      "value": [
+        "risorgimento"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-aaad41e78637",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-aaad41e78637",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "eastern-europe-russia",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-aaad41e78637",
+      "facet": "themes",
+      "value": [
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a67e6b597917",
+      "facet": "eras",
+      "value": [
+        "roman"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a67e6b597917",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a67e6b597917",
+      "facet": "themes",
+      "value": [
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5934e50fd268",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5934e50fd268",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5934e50fd268",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-cc8edeba07de",
+      "facet": "places",
+      "value": [
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-cc8edeba07de",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "united-states",
+        "revolutions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-09548e336a42",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-09548e336a42",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-09548e336a42",
+      "facet": "themes",
+      "value": [
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-79d51b043d14",
+      "facet": "eras",
+      "value": [
+        "1000-1299"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-79d51b043d14",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "western-europe",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-79d51b043d14",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "revolutions",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-50b696e1cf7f",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-50b696e1cf7f",
+      "facet": "themes",
+      "value": [
+        "culture-sport",
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3a092b0d7be1",
+      "facet": "eras",
+      "value": [
+        "1500s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3a092b0d7be1",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3a092b0d7be1",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions",
+        "revolutions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-582ad12aa2ab",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-582ad12aa2ab",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-582ad12aa2ab",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "islamic-world",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ef9d42c41ce7",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ef9d42c41ce7",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "western-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ef9d42c41ce7",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "islamic-world",
+        "risorgimento"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e5107e5216d7",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e5107e5216d7",
+      "facet": "places",
+      "value": [
+        "world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e5107e5216d7",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c3a3db93abfb",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c3a3db93abfb",
+      "facet": "themes",
+      "value": [
+        "society-utopia",
+        "cold-war",
+        "revolutions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-86b299411305",
+      "facet": "themes",
+      "value": [
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7de5005c91c3",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7de5005c91c3",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-877e91dda000",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "imaginary",
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-877e91dda000",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "asia",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4140ddda0b18",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4140ddda0b18",
+      "facet": "themes",
+      "value": [
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-762f4b354b29",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-762f4b354b29",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "mediterranean-middle-east",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-762f4b354b29",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "asia",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4016ec22b23a",
+      "facet": "eras",
+      "value": [
+        "first-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4016ec22b23a",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4016ec22b23a",
+      "facet": "themes",
+      "value": [
+        "united-states",
+        "asia",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-755ff4e73957",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-755ff4e73957",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-755ff4e73957",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "revolutions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-64a915ab16f6",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-64a915ab16f6",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-64a915ab16f6",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-46a7b01fefbb",
+      "facet": "themes",
+      "value": [
+        "disasters"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f97fef6fdf5",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f97fef6fdf5",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f97fef6fdf5",
+      "facet": "themes",
+      "value": [
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-6d272ffab949",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-6d272ffab949",
+      "facet": "places",
+      "value": [
+        "italy",
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-6d272ffab949",
+      "facet": "themes",
+      "value": [
+        "united-states",
+        "society-utopia",
+        "disasters"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-37f4cb86f85d",
+      "facet": "places",
+      "value": [
+        "imaginary",
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-37f4cb86f85d",
+      "facet": "themes",
+      "value": [
+        "exploration-colonies",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c344a9c0a7be",
+      "facet": "eras",
+      "value": [
+        "roman"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c344a9c0a7be",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "africa"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c344a9c0a7be",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1ff96abf32da",
+      "facet": "places",
+      "value": [
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1ff96abf32da",
+      "facet": "themes",
+      "value": [
+        "exploration-colonies",
+        "science-technology",
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c0177f32ebad",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "north-america",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c0177f32ebad",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "united-states",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0dd29b484ede",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0dd29b484ede",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0dd29b484ede",
+      "facet": "themes",
+      "value": [
+        "society-utopia",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-dc8266a45c69",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-dc8266a45c69",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-dc8266a45c69",
+      "facet": "themes",
+      "value": [
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-974a9b06a217",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-974a9b06a217",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "western-europe",
+        "latin-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-974a9b06a217",
+      "facet": "themes",
+      "value": [
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2d8fc1fbc02e",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2d8fc1fbc02e",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2d8fc1fbc02e",
+      "facet": "themes",
+      "value": [
+        "united-states",
+        "religions",
+        "risorgimento"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5fed55938759",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5fed55938759",
+      "facet": "places",
+      "value": [
+        "africa",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-68bef745b881",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-68bef745b881",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "western-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-68bef745b881",
+      "facet": "themes",
+      "value": [
+        "culture-sport",
+        "risorgimento"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-724b9a2fe23b",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-cbcf8181aee0",
+      "facet": "eras",
+      "value": [
+        "belle-epoque"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-cbcf8181aee0",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-cbcf8181aee0",
+      "facet": "themes",
+      "value": [
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-94dccf539291",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-94dccf539291",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "eastern-europe-russia",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-94dccf539291",
+      "facet": "themes",
+      "value": [
+        "cold-war",
+        "society-utopia",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-11786f358bb6",
+      "facet": "places",
+      "value": [
+        "italy",
+        "central-europe",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-11786f358bb6",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-23920004d5dc",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-23920004d5dc",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe",
+        "africa"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-23920004d5dc",
+      "facet": "themes",
+      "value": [
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f0d5019fe93d",
+      "facet": "eras",
+      "value": [
+        "first-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f0d5019fe93d",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f0d5019fe93d",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-39f24e737056",
+      "facet": "eras",
+      "value": [
+        "early-medieval"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-39f24e737056",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy",
+        "africa"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-39f24e737056",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "rome",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9a03df114a6c",
+      "facet": "eras",
+      "value": [
+        "roman"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9a03df114a6c",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9a03df114a6c",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "rome",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-580eeeb41763",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-580eeeb41763",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "latin-america",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-580eeeb41763",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bd277501e288",
+      "facet": "eras",
+      "value": [
+        "ancient"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bd277501e288",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bd277501e288",
+      "facet": "themes",
+      "value": [
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-fdbe9d1a6132",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-fdbe9d1a6132",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-29723c6f480f",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-29723c6f480f",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ac057778fcdf",
+      "facet": "eras",
+      "value": [
+        "first-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ac057778fcdf",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "south-asia",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ac057778fcdf",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "cold-war",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d0f6733bcce4",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d0f6733bcce4",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d0f6733bcce4",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9a5333dfc656",
+      "facet": "eras",
+      "value": [
+        "roman"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9a5333dfc656",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "africa",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9a5333dfc656",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-86d784dc17c8",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-86d784dc17c8",
+      "facet": "places",
+      "value": [
+        "italy",
+        "central-europe",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-86d784dc17c8",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d0ecee10075b",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d0ecee10075b",
+      "facet": "themes",
+      "value": [
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-737929fb73b4",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-737929fb73b4",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4894c285a7a9",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "east-asia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4894c285a7a9",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "religions",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f46ab3513e0",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f46ab3513e0",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "islamic-world",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-03d083a408c2",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "mediterranean-middle-east",
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-03d083a408c2",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "asia",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-88a55032ad42",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-88a55032ad42",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-88a55032ad42",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2d821eba2112",
+      "facet": "eras",
+      "value": [
+        "belle-epoque"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2d821eba2112",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "central-europe",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2d821eba2112",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "society-utopia",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c8cc267e8ee1",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c8cc267e8ee1",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "eastern-europe-russia",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c8cc267e8ee1",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "asia",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-25f5eac360dd",
+      "facet": "eras",
+      "value": [
+        "1000-1299"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-25f5eac360dd",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-25f5eac360dd",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bcdce9cce11f",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bcdce9cce11f",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bcdce9cce11f",
+      "facet": "themes",
+      "value": [
+        "napoleon",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3dfdcbc0971f",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3dfdcbc0971f",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "islamic-world",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e5c3ed89a059",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "eastern-europe-russia",
+        "africa"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e5c3ed89a059",
+      "facet": "themes",
+      "value": [
+        "exploration-colonies",
+        "science-technology",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a789c54f0086",
+      "facet": "eras",
+      "value": [
+        "first-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a789c54f0086",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a789c54f0086",
+      "facet": "themes",
+      "value": [
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-df8b53445613",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-df8b53445613",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "empires-dynasties",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b8a0d708d498",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b8a0d708d498",
+      "facet": "places",
+      "value": [
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b8a0d708d498",
+      "facet": "themes",
+      "value": [
+        "rome",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e5c4cdb46175",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e5c4cdb46175",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e5c4cdb46175",
+      "facet": "themes",
+      "value": [
+        "exploration-colonies",
+        "empires-dynasties",
+        "revolutions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5d5e3ee36c92",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5d5e3ee36c92",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "latin-america",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5d5e3ee36c92",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "exploration-colonies",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e672c40d3e07",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "africa",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e672c40d3e07",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "empires-dynasties",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3ec1f108f732",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3ec1f108f732",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "east-asia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3ec1f108f732",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "asia",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-079a5434106d",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-079a5434106d",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-079a5434106d",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "islamic-world",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7c6d55dcbde4",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7c6d55dcbde4",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7c6d55dcbde4",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3b1ec8e2ec9b",
+      "facet": "places",
+      "value": [
+        "africa",
+        "mediterranean-middle-east",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3b1ec8e2ec9b",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "asia",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f1862f1b3ebe",
+      "facet": "eras",
+      "value": [
+        "roman"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f1862f1b3ebe",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy",
+        "africa"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f1862f1b3ebe",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "rome",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d57fd3f71c56",
+      "facet": "eras",
+      "value": [
+        "roman"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d57fd3f71c56",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d57fd3f71c56",
+      "facet": "themes",
+      "value": [
+        "rome",
+        "exploration-colonies",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8c468d563510",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe",
+        "africa"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8c468d563510",
+      "facet": "themes",
+      "value": [
+        "rome",
+        "religions",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-35ff709ac0fc",
+      "facet": "eras",
+      "value": [
+        "1000-1299"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-35ff709ac0fc",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-35ff709ac0fc",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8d8f8171afb9",
+      "facet": "eras",
+      "value": [
+        "1000-1299"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8d8f8171afb9",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8d8f8171afb9",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f51d9ccff174",
+      "facet": "eras",
+      "value": [
+        "early-medieval"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f51d9ccff174",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f51d9ccff174",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "islamic-world",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-fb317154a428",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-fb317154a428",
+      "facet": "places",
+      "value": [
+        "italy",
+        "mediterranean-middle-east",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-fb317154a428",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "empires-dynasties",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-035a7d6938d3",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-035a7d6938d3",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-035a7d6938d3",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "islamic-world",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-05b61bb168df",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "eastern-europe-russia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-05b61bb168df",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "revolutions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-67bef5abe132",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-67bef5abe132",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-67bef5abe132",
+      "facet": "themes",
+      "value": [
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-46a023241ab3",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "east-asia",
+        "latin-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-46a023241ab3",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "exploration-colonies",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e6241f8bbfff",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "western-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e6241f8bbfff",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "risorgimento"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c8bf8668dd3f",
+      "facet": "places",
+      "value": [
+        "latin-america",
+        "western-europe",
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c8bf8668dd3f",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "religions",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ceb0d778a137",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ceb0d778a137",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ceb0d778a137",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "asia",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c1e0b9c2a968",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c1e0b9c2a968",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "western-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c1e0b9c2a968",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "empires-dynasties",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-84ea0298d203",
+      "facet": "eras",
+      "value": [
+        "1500s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-84ea0298d203",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "central-europe",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-84ea0298d203",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "islamic-world",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c1850cfe6e95",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c1850cfe6e95",
+      "facet": "places",
+      "value": [
+        "italy",
+        "central-europe",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c1850cfe6e95",
+      "facet": "themes",
+      "value": [
+        "risorgimento",
+        "society-utopia",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b2593f848dcf",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b2593f848dcf",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "eastern-europe-russia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b2593f848dcf",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "islamic-world",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-433eea9fb294",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-433eea9fb294",
+      "facet": "places",
+      "value": [
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-433eea9fb294",
+      "facet": "themes",
+      "value": [
+        "risorgimento",
+        "world-wars",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7f38470cc572",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "latin-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7f38470cc572",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "asia",
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c5d628151e1a",
+      "facet": "eras",
+      "value": [
+        "1500s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c5d628151e1a",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c5d628151e1a",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e0bf22cf2215",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "south-asia",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e0bf22cf2215",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "asia",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a388b4773ea2",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a388b4773ea2",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "central-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a388b4773ea2",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "islamic-world",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-553b1f0eb9ca",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-553b1f0eb9ca",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "eastern-europe-russia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-553b1f0eb9ca",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "asia",
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e0ea22950275",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "mediterranean-middle-east",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e0ea22950275",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "society-utopia",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bc3509e790b1",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bc3509e790b1",
+      "facet": "places",
+      "value": [
+        "north-america",
+        "central-europe",
+        "latin-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bc3509e790b1",
+      "facet": "themes",
+      "value": [
+        "united-states",
+        "society-utopia",
+        "revolutions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-20bad77b8be6",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-20bad77b8be6",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-20bad77b8be6",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-95d8fe19eb34",
+      "facet": "eras",
+      "value": [
+        "first-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-95d8fe19eb34",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-95d8fe19eb34",
+      "facet": "themes",
+      "value": [
+        "revolutions",
+        "society-utopia",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-096799ff553f",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "eastern-europe-russia",
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-096799ff553f",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "asia",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c629df63c5b4",
+      "facet": "eras",
+      "value": [
+        "belle-epoque"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c629df63c5b4",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "east-asia",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c629df63c5b4",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "islamic-world",
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7bc287ef59ec",
+      "facet": "eras",
+      "value": [
+        "postwar"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7bc287ef59ec",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "north-america",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7bc287ef59ec",
+      "facet": "themes",
+      "value": [
+        "cold-war",
+        "society-utopia",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c797c88442bd",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c797c88442bd",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "eastern-europe-russia",
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c797c88442bd",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "asia",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-643308d7167f",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-643308d7167f",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "mediterranean-middle-east",
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-643308d7167f",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "islamic-world",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-452c27c11cf6",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-452c27c11cf6",
+      "facet": "places",
+      "value": [
+        "north-america",
+        "east-asia",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-452c27c11cf6",
+      "facet": "themes",
+      "value": [
+        "united-states",
+        "cold-war",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2bafdd12f16f",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2bafdd12f16f",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2bafdd12f16f",
+      "facet": "themes",
+      "value": [
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7c69b55d7cbf",
+      "facet": "places",
+      "value": [
+        "north-america",
+        "central-europe",
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7c69b55d7cbf",
+      "facet": "themes",
+      "value": [
+        "united-states",
+        "asia",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-75c3d8ca461a",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-75c3d8ca461a",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe",
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-75c3d8ca461a",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "united-states",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-52c9839e7817",
+      "facet": "places",
+      "value": [
+        "africa",
+        "italy",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-52c9839e7817",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "united-states",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-764432383d4f",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-764432383d4f",
+      "facet": "places",
+      "value": [
+        "south-asia",
+        "east-asia",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-764432383d4f",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b1459f692c84",
+      "facet": "places",
+      "value": [
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b1459f692c84",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "religions",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1de8f9051ab9",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1de8f9051ab9",
+      "facet": "places",
+      "value": [
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1de8f9051ab9",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-78e12d7e6cc8",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-78e12d7e6cc8",
+      "facet": "places",
+      "value": [
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f5f0e12abef",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f5f0e12abef",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "eastern-europe-russia",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f5f0e12abef",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "asia",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9dd08aeec974",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9dd08aeec974",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "eastern-europe-russia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9dd08aeec974",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-29abe441fa4b",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "italy",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-29abe441fa4b",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "religions",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8583b5f520c1",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8583b5f520c1",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "religions",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-11d0747698c8",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-11d0747698c8",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "italy",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-11d0747698c8",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "religions",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5c0f8bb81a4c",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5c0f8bb81a4c",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "eastern-europe-russia",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5c0f8bb81a4c",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "asia",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-60d99dcaf497",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-60d99dcaf497",
+      "facet": "places",
+      "value": [
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-60d99dcaf497",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "society-utopia",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8fc318c9d742",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8fc318c9d742",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8fc318c9d742",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "asia",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f452021aa0bd",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f452021aa0bd",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f452021aa0bd",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-cf07c5fbc52f",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0270cfca8cfe",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0270cfca8cfe",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "eastern-europe-russia",
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0270cfca8cfe",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "world-wars",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ca2f170d8615",
+      "facet": "places",
+      "value": [
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ca2f170d8615",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "religions",
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ce66990fbb6b",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "imaginary",
+        "world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ce66990fbb6b",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "religions",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9e9f0304d1a1",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9e9f0304d1a1",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9e9f0304d1a1",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "exploration-colonies",
+        "napoleon"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e912e8b1f7c3",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e912e8b1f7c3",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e912e8b1f7c3",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "asia",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-74f8feb46f84",
+      "facet": "places",
+      "value": [
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-74f8feb46f84",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "empires-dynasties",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a250e83b487e",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a250e83b487e",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "science-technology",
+        "disasters"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5904e176c602",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-5904e176c602",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "science-technology",
+        "disasters"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c4ecbdf0a82c",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c4ecbdf0a82c",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-82736fde2626",
+      "facet": "places",
+      "value": [
+        "imaginary",
+        "north-america",
+        "latin-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-82736fde2626",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "exploration-colonies",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0f11b8e9d939",
+      "facet": "eras",
+      "value": [
+        "belle-epoque"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0f11b8e9d939",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "italy",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0f11b8e9d939",
+      "facet": "themes",
+      "value": [
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-10dc5456b534",
+      "facet": "places",
+      "value": [
+        "italy",
+        "north-america",
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-10dc5456b534",
+      "facet": "themes",
+      "value": [
+        "culture-sport",
+        "science-technology",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7079433572ee",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7079433572ee",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "science-technology",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3a126b88706e",
+      "facet": "places",
+      "value": [
+        "latin-america",
+        "western-europe",
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3a126b88706e",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-def2d7e4d54a",
+      "facet": "places",
+      "value": [
+        "italy",
+        "africa",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-def2d7e4d54a",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "disasters"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c927a38fbdd7",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c927a38fbdd7",
+      "facet": "themes",
+      "value": [
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8a2ecd05385b",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-8a2ecd05385b",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f9c017c05f43",
+      "facet": "eras",
+      "value": [
+        "ancient"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f9c017c05f43",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "africa",
+        "world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f9c017c05f43",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c36f8213e3ff",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c36f8213e3ff",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c36f8213e3ff",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3e4f2967cb5a",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3e4f2967cb5a",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bc19de07f93a",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bc19de07f93a",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e6568301a60a",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e6568301a60a",
+      "facet": "themes",
+      "value": [
+        "rome",
+        "empires-dynasties",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-89a26c9ad796",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-89a26c9ad796",
+      "facet": "themes",
+      "value": [
+        "rome",
+        "empires-dynasties",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f5963263ff30",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "italy",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f5963263ff30",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "religions",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-66c49afe30e7",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-66c49afe30e7",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "disasters"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-00d179c183bf",
+      "facet": "eras",
+      "value": [
+        "1500s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-00d179c183bf",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-00d179c183bf",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "disasters"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f151873fde37",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f151873fde37",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "culture-sport",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-644946295ccf",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-644946295ccf",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "rome",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9e1066c5c11a",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9e1066c5c11a",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9e1066c5c11a",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "science-technology",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f50e41f6043",
+      "facet": "places",
+      "value": [
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1f50e41f6043",
+      "facet": "themes",
+      "value": [
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b891a808e6af",
+      "facet": "places",
+      "value": [
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b891a808e6af",
+      "facet": "themes",
+      "value": [
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-00cfb900868e",
+      "facet": "eras",
+      "value": [
+        "postwar"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-00cfb900868e",
+      "facet": "places",
+      "value": [
+        "north-america",
+        "western-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-00cfb900868e",
+      "facet": "themes",
+      "value": [
+        "culture-sport",
+        "science-technology",
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ef301668dd56",
+      "facet": "eras",
+      "value": [
+        "roman"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ef301668dd56",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ef301668dd56",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-31b386e99d25",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-31b386e99d25",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-31b386e99d25",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "world-wars",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d24120232347",
+      "facet": "places",
+      "value": [
+        "italy",
+        "imaginary",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d24120232347",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "world-wars",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e893c35918df",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e893c35918df",
+      "facet": "themes",
+      "value": [
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c097eed4f82f",
+      "facet": "eras",
+      "value": [
+        "ancient"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c097eed4f82f",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "latin-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c097eed4f82f",
+      "facet": "themes",
+      "value": [
+        "rome",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f5ccac6a9564",
+      "facet": "eras",
+      "value": [
+        "ancient"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f5ccac6a9564",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f5ccac6a9564",
+      "facet": "themes",
+      "value": [
+        "rome",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0ef55dd6418b",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0ef55dd6418b",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties",
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-228e15ed349b",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-228e15ed349b",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "imaginary",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-228e15ed349b",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "culture-sport",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4ee289fe234a",
+      "facet": "eras",
+      "value": [
+        "roman"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4ee289fe234a",
+      "facet": "places",
+      "value": [
+        "italy",
+        "mediterranean-middle-east",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-4ee289fe234a",
+      "facet": "themes",
+      "value": [
+        "culture-sport",
+        "religions",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3c153dcaed29",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3c153dcaed29",
+      "facet": "places",
+      "value": [
+        "italy",
+        "mediterranean-middle-east",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3c153dcaed29",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "religions",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-639ca4e5f856",
+      "facet": "eras",
+      "value": [
+        "1000-1299"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-639ca4e5f856",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-639ca4e5f856",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bcd758fc9dee",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe",
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bcd758fc9dee",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "asia",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-574ff20fedb5",
+      "facet": "eras",
+      "value": [
+        "first-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-574ff20fedb5",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "central-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-574ff20fedb5",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "empires-dynasties",
+        "risorgimento"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-67a8fd292873",
+      "facet": "eras",
+      "value": [
+        "first-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-67a8fd292873",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "italy",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-67a8fd292873",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "asia",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-09052a42b28d",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-09052a42b28d",
+      "facet": "themes",
+      "value": [
+        "islamic-world",
+        "religions",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b9e27722fdeb",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b9e27722fdeb",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "western-europe",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b9e27722fdeb",
+      "facet": "themes",
+      "value": [
+        "asia",
+        "islamic-world",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bb4f15801ee3",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bb4f15801ee3",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bb4f15801ee3",
+      "facet": "themes",
+      "value": [
+        "risorgimento",
+        "society-utopia",
+        "islamic-world"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-311e11bf4d8c",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-311e11bf4d8c",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-311e11bf4d8c",
+      "facet": "themes",
+      "value": [
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-fa15c6bea0e1",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-fa15c6bea0e1",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "risorgimento"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-06e8338e45df",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "italy",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-06e8338e45df",
+      "facet": "themes",
+      "value": [
+        "cold-war",
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ae3c6fef6cf8",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ae3c6fef6cf8",
+      "facet": "places",
+      "value": [
+        "italy",
+        "eastern-europe-russia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ae3c6fef6cf8",
+      "facet": "themes",
+      "value": [
+        "cold-war",
+        "world-wars",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-771d1b456346",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-771d1b456346",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "italy",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-771d1b456346",
+      "facet": "themes",
+      "value": [
+        "cold-war",
+        "asia",
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7e8bf74f9b37",
+      "facet": "eras",
+      "value": [
+        "second-world-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7e8bf74f9b37",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7e8bf74f9b37",
+      "facet": "themes",
+      "value": [
+        "cold-war",
+        "world-wars",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-aba8ac458f5a",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-aba8ac458f5a",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-aba8ac458f5a",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "asia",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-053bfc0b25e9",
+      "facet": "eras",
+      "value": [
+        "outside-time"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-053bfc0b25e9",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "east-asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-053bfc0b25e9",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "asia",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-795932fdb5cf",
+      "facet": "eras",
+      "value": [
+        "belle-epoque"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-795932fdb5cf",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "italy",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-795932fdb5cf",
+      "facet": "themes",
+      "value": [
+        "cold-war",
+        "asia",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2e90a94b186c",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2e90a94b186c",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "north-america",
+        "latin-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2e90a94b186c",
+      "facet": "themes",
+      "value": [
+        "united-states",
+        "society-utopia",
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3cda1c092256",
+      "facet": "eras",
+      "value": [
+        "1800s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3cda1c092256",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "eastern-europe-russia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-3cda1c092256",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "world-wars",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b470a2710c3b",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b470a2710c3b",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b470a2710c3b",
+      "facet": "themes",
+      "value": [
+        "culture-sport",
+        "religions",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d92af97470b6",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d92af97470b6",
+      "facet": "places",
+      "value": [
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d92af97470b6",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "world-wars",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9ee8dd886e2e",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-9ee8dd886e2e",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2154439ea56f",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-61555c52061c",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "eastern-europe-russia",
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-61555c52061c",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "rome",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bcb9325dbbb1",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-17143fe5719b",
+      "facet": "places",
+      "value": [
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-17143fe5719b",
+      "facet": "themes",
+      "value": [
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-41e299b458a9",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-41e299b458a9",
+      "facet": "places",
+      "value": [
+        "east-asia",
+        "mediterranean-middle-east",
+        "africa"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-41e299b458a9",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "culture-sport",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-35f7a33bb0b2",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-35f7a33bb0b2",
+      "facet": "places",
+      "value": [
+        "italy",
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-35f7a33bb0b2",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "disasters"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-6be21804bb7e",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-6be21804bb7e",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-6be21804bb7e",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-30804f612d11",
+      "facet": "eras",
+      "value": [
+        "present-future"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-30804f612d11",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-30804f612d11",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b50ceab9538f",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e380d2f204bd",
+      "facet": "places",
+      "value": [
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-6f79b18b5497",
+      "facet": "places",
+      "value": [
+        "imaginary",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-6f79b18b5497",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "religions",
+        "exploration-colonies"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b134a2d2acae",
+      "facet": "eras",
+      "value": [
+        "1700s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b134a2d2acae",
+      "facet": "places",
+      "value": [
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b134a2d2acae",
+      "facet": "themes",
+      "value": [
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-38704e2597e1",
+      "facet": "places",
+      "value": [
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-38704e2597e1",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "world-wars",
+        "society-utopia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-564105ae42f1",
+      "facet": "places",
+      "value": [
+        "italy",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-564105ae42f1",
+      "facet": "themes",
+      "value": [
+        "culture-sport",
+        "religions",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-70cb30a80485",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "italy",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-70cb30a80485",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "culture-sport",
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d9b2fa713e88",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d9b2fa713e88",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "mediterranean-middle-east",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-d9b2fa713e88",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "culture-sport",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-639d07c69c99",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-639d07c69c99",
+      "facet": "places",
+      "value": [
+        "italy",
+        "western-europe",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-639d07c69c99",
+      "facet": "themes",
+      "value": [
+        "culture-sport",
+        "religions",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2525cdd68a1b",
+      "facet": "places",
+      "value": [
+        "italy",
+        "eastern-europe-russia",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-2525cdd68a1b",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "culture-sport",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0ca3992f0c11",
+      "facet": "eras",
+      "value": [
+        "1970s-1990s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0ca3992f0c11",
+      "facet": "places",
+      "value": [
+        "eastern-europe-russia",
+        "italy",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0ca3992f0c11",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "culture-sport",
+        "world-wars"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0ea034806418",
+      "facet": "places",
+      "value": [
+        "italy",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0ea034806418",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c1406f621f93",
+      "facet": "places",
+      "value": [
+        "imaginary",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c1406f621f93",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "culture-sport",
+        "disasters"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e0ad3f3920bb",
+      "facet": "places",
+      "value": [
+        "italy",
+        "north-america",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-e0ad3f3920bb",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "islamic-world",
+        "united-states"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7609e6a87910",
+      "facet": "places",
+      "value": [
+        "italy",
+        "eastern-europe-russia",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-7609e6a87910",
+      "facet": "themes",
+      "value": [
+        "culture-sport",
+        "religions",
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a1e3b2d8bdec",
+      "facet": "places",
+      "value": [
+        "italy",
+        "eastern-europe-russia",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-a1e3b2d8bdec",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "world-wars",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-366c78f8fdfc",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-366c78f8fdfc",
+      "facet": "places",
+      "value": [
+        "italy",
+        "mediterranean-middle-east",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-366c78f8fdfc",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "culture-sport",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0b7de78562fe",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy",
+        "eastern-europe-russia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0b7de78562fe",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "culture-sport",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1fb9a5ee3bdc",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1fb9a5ee3bdc",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "culture-sport",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-878a4651b6fa",
+      "facet": "eras",
+      "value": [
+        "postwar"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-878a4651b6fa",
+      "facet": "places",
+      "value": [
+        "italy",
+        "eastern-europe-russia",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-878a4651b6fa",
+      "facet": "themes",
+      "value": [
+        "world-wars",
+        "science-technology",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ea0e983116a5",
+      "facet": "eras",
+      "value": [
+        "ancient"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ea0e983116a5",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-ea0e983116a5",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "science-technology",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-cfab7be3d4c2",
+      "facet": "places",
+      "value": [
+        "imaginary",
+        "eastern-europe-russia",
+        "western-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-cfab7be3d4c2",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "religions",
+        "cold-war"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-792fe098e4b8",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "eastern-europe-russia",
+        "italy"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-792fe098e4b8",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "science-technology",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-6a6ac170cc55",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-6a6ac170cc55",
+      "facet": "places",
+      "value": [
+        "italy",
+        "mediterranean-middle-east",
+        "north-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-6a6ac170cc55",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "culture-sport",
+        "religions"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1addc7239c1f",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1addc7239c1f",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe",
+        "imaginary"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1addc7239c1f",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "science-technology",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c12089c87304",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "western-europe",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-c12089c87304",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "islamic-world",
+        "science-technology"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0c6125f99b4f",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0c6125f99b4f",
+      "facet": "themes",
+      "value": [
+        "rome",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b08bac690666",
+      "facet": "themes",
+      "value": [
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-45f39caa26e3",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-45f39caa26e3",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "rome",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0b908ff1cae9",
+      "facet": "eras",
+      "value": [
+        "1300-1499"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0b908ff1cae9",
+      "facet": "places",
+      "value": [
+        "western-europe",
+        "italy",
+        "latin-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-0b908ff1cae9",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "islamic-world",
+        "empires-dynasties"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-edc96ba07d1a",
+      "facet": "places",
+      "value": [
+        "central-europe",
+        "latin-america"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-edc96ba07d1a",
+      "facet": "themes",
+      "value": [
+        "religions",
+        "culture-sport"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f1067de9b8c3",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-f1067de9b8c3",
+      "facet": "themes",
+      "value": [
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-546c5d45460e",
+      "facet": "places",
+      "value": [
+        "mediterranean-middle-east",
+        "italy",
+        "central-europe"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-546c5d45460e",
+      "facet": "themes",
+      "value": [
+        "empires-dynasties",
+        "religions",
+        "rome"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1a2846cfb4fc",
+      "facet": "places",
+      "value": [
+        "imaginary",
+        "east-asia",
+        "mediterranean-middle-east"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-1a2846cfb4fc",
+      "facet": "themes",
+      "value": [
+        "science-technology",
+        "religions",
+        "asia"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-b26db1e8fef5",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-bed7ef62baeb",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    },
+    {
+      "item": "item-41bca9efb504",
+      "facet": "eras",
+      "value": [
+        "2000s"
+      ],
+      "why": "all checks passed"
+    }
+  ],
+  "items": [
+    "item-96b9953bf326",
+    "item-a4acd3e36ced",
+    "item-ca42da9f9a17",
+    "item-76502d09f398",
+    "item-e7586e169d2f",
+    "item-c1f606b3b45e",
+    "item-86091cbcc1db",
+    "item-51fd91ebbdd3",
+    "item-5dc51349fae6",
+    "item-857c02cfdb76",
+    "item-96e1fe5ee6dd",
+    "item-e8d1e9d9ecbb",
+    "item-ad3bfe701116",
+    "item-49139eb2e7eb",
+    "item-eb8fed1dfb21",
+    "item-5044d1ad30df",
+    "item-9d443492820e",
+    "item-ace96cb463ed",
+    "item-62390c0eda6c",
+    "item-74c7984bef76",
+    "item-33c59997e91a",
+    "item-1f77476bfd69",
+    "item-40d332c94212",
+    "item-0ff9c965522e",
+    "item-5e8f9fd8f798",
+    "item-e06c9c6c1d2e",
+    "item-a80fe343524b",
+    "item-804cff91dc22",
+    "item-714b7d82233a",
+    "item-2a456f939f69",
+    "item-eb3430df0dd5",
+    "item-e2a5891edb26",
+    "item-242fa84ecde7",
+    "item-68aaa09cfb06",
+    "item-9829e6b05bae",
+    "item-0aab8b4a254d",
+    "item-a419c57c299c",
+    "item-50936a3be708",
+    "item-ec525640ad4e",
+    "item-8ad1194b83d3",
+    "item-02949e51f9f7",
+    "item-2364abcec6b0",
+    "item-e866d05f959d",
+    "item-a9782af83c5e",
+    "item-d6ad7daf72ec",
+    "item-5f302935857f",
+    "item-4d86b8dc6345",
+    "item-4483dfb4f282",
+    "item-a9e31076dab6",
+    "item-171d7e78d5f7",
+    "item-fa7f8e212151",
+    "item-3ff6d66f7029",
+    "item-8be8f68455b9",
+    "item-aaad41e78637",
+    "item-a67e6b597917",
+    "item-5934e50fd268",
+    "item-cc8edeba07de",
+    "item-09548e336a42",
+    "item-79d51b043d14",
+    "item-50b696e1cf7f",
+    "item-3a092b0d7be1",
+    "item-582ad12aa2ab",
+    "item-ef9d42c41ce7",
+    "item-e5107e5216d7",
+    "item-c3a3db93abfb",
+    "item-86b299411305",
+    "item-7de5005c91c3",
+    "item-877e91dda000",
+    "item-4140ddda0b18",
+    "item-762f4b354b29",
+    "item-4016ec22b23a",
+    "item-755ff4e73957",
+    "item-64a915ab16f6",
+    "item-46a7b01fefbb",
+    "item-1f97fef6fdf5",
+    "item-dfacf5e5e57b",
+    "item-6d272ffab949",
+    "item-37f4cb86f85d",
+    "item-c344a9c0a7be",
+    "item-1ff96abf32da",
+    "item-c0177f32ebad",
+    "item-0dd29b484ede",
+    "item-dc8266a45c69",
+    "item-974a9b06a217",
+    "item-2d8fc1fbc02e",
+    "item-5fed55938759",
+    "item-68bef745b881",
+    "item-724b9a2fe23b",
+    "item-cbcf8181aee0",
+    "item-94dccf539291",
+    "item-11786f358bb6",
+    "item-23920004d5dc",
+    "item-f0d5019fe93d",
+    "item-39f24e737056",
+    "item-9a03df114a6c",
+    "item-580eeeb41763",
+    "item-bd277501e288",
+    "item-fdbe9d1a6132",
+    "item-29723c6f480f",
+    "item-ac057778fcdf",
+    "item-d0f6733bcce4",
+    "item-9a5333dfc656",
+    "item-86d784dc17c8",
+    "item-d0ecee10075b",
+    "item-737929fb73b4",
+    "item-4894c285a7a9",
+    "item-1f46ab3513e0",
+    "item-03d083a408c2",
+    "item-88a55032ad42",
+    "item-2d821eba2112",
+    "item-c8cc267e8ee1",
+    "item-25f5eac360dd",
+    "item-bcdce9cce11f",
+    "item-3dfdcbc0971f",
+    "item-e5c3ed89a059",
+    "item-a789c54f0086",
+    "item-df8b53445613",
+    "item-b8a0d708d498",
+    "item-e5c4cdb46175",
+    "item-5d5e3ee36c92",
+    "item-e672c40d3e07",
+    "item-3ec1f108f732",
+    "item-079a5434106d",
+    "item-7c6d55dcbde4",
+    "item-3b1ec8e2ec9b",
+    "item-ef853b63a2c8",
+    "item-f1862f1b3ebe",
+    "item-d57fd3f71c56",
+    "item-8c468d563510",
+    "item-35ff709ac0fc",
+    "item-8d8f8171afb9",
+    "item-f51d9ccff174",
+    "item-fb317154a428",
+    "item-035a7d6938d3",
+    "item-05b61bb168df",
+    "item-67bef5abe132",
+    "item-46a023241ab3",
+    "item-e6241f8bbfff",
+    "item-c8bf8668dd3f",
+    "item-ceb0d778a137",
+    "item-c1e0b9c2a968",
+    "item-84ea0298d203",
+    "item-c1850cfe6e95",
+    "item-b2593f848dcf",
+    "item-433eea9fb294",
+    "item-7f38470cc572",
+    "item-c5d628151e1a",
+    "item-e0bf22cf2215",
+    "item-a388b4773ea2",
+    "item-553b1f0eb9ca",
+    "item-e0ea22950275",
+    "item-bc3509e790b1",
+    "item-20bad77b8be6",
+    "item-95d8fe19eb34",
+    "item-096799ff553f",
+    "item-c629df63c5b4",
+    "item-7bc287ef59ec",
+    "item-c797c88442bd",
+    "item-643308d7167f",
+    "item-452c27c11cf6",
+    "item-2bafdd12f16f",
+    "item-7c69b55d7cbf",
+    "item-75c3d8ca461a",
+    "item-52c9839e7817",
+    "item-764432383d4f",
+    "item-b1459f692c84",
+    "item-1de8f9051ab9",
+    "item-78e12d7e6cc8",
+    "item-1f5f0e12abef",
+    "item-9dd08aeec974",
+    "item-29abe441fa4b",
+    "item-8583b5f520c1",
+    "item-11d0747698c8",
+    "item-5c0f8bb81a4c",
+    "item-60d99dcaf497",
+    "item-8fc318c9d742",
+    "item-f452021aa0bd",
+    "item-cf07c5fbc52f",
+    "item-0270cfca8cfe",
+    "item-ca2f170d8615",
+    "item-ce66990fbb6b",
+    "item-9e9f0304d1a1",
+    "item-e912e8b1f7c3",
+    "item-74f8feb46f84",
+    "item-e515f4280aef",
+    "item-a250e83b487e",
+    "item-5904e176c602",
+    "item-c4ecbdf0a82c",
+    "item-82736fde2626",
+    "item-0f11b8e9d939",
+    "item-10dc5456b534",
+    "item-7079433572ee",
+    "item-3a126b88706e",
+    "item-def2d7e4d54a",
+    "item-c927a38fbdd7",
+    "item-8a2ecd05385b",
+    "item-f9c017c05f43",
+    "item-c36f8213e3ff",
+    "item-3e4f2967cb5a",
+    "item-bc19de07f93a",
+    "item-e6568301a60a",
+    "item-89a26c9ad796",
+    "item-f5963263ff30",
+    "item-66c49afe30e7",
+    "item-00d179c183bf",
+    "item-f151873fde37",
+    "item-644946295ccf",
+    "item-ce14278d5762",
+    "item-8311baf5e8a1",
+    "item-9e1066c5c11a",
+    "item-1f50e41f6043",
+    "item-b891a808e6af",
+    "item-00cfb900868e",
+    "item-ef301668dd56",
+    "item-31b386e99d25",
+    "item-d24120232347",
+    "item-e893c35918df",
+    "item-c097eed4f82f",
+    "item-f5ccac6a9564",
+    "item-0ef55dd6418b",
+    "item-228e15ed349b",
+    "item-029cb66093cd",
+    "item-4ee289fe234a",
+    "item-3c153dcaed29",
+    "item-639ca4e5f856",
+    "item-bcd758fc9dee",
+    "item-574ff20fedb5",
+    "item-67a8fd292873",
+    "item-09052a42b28d",
+    "item-b9e27722fdeb",
+    "item-bb4f15801ee3",
+    "item-311e11bf4d8c",
+    "item-fa15c6bea0e1",
+    "item-06e8338e45df",
+    "item-ae3c6fef6cf8",
+    "item-771d1b456346",
+    "item-7e8bf74f9b37",
+    "item-aba8ac458f5a",
+    "item-053bfc0b25e9",
+    "item-fe92011dbb04",
+    "item-795932fdb5cf",
+    "item-2e90a94b186c",
+    "item-3cda1c092256",
+    "item-b470a2710c3b",
+    "item-d92af97470b6",
+    "item-9ee8dd886e2e",
+    "item-2154439ea56f",
+    "item-61555c52061c",
+    "item-bcb9325dbbb1",
+    "item-17143fe5719b",
+    "item-1720be33b91b",
+    "item-02ffd201852f",
+    "item-41e299b458a9",
+    "item-35f7a33bb0b2",
+    "item-6be21804bb7e",
+    "item-30804f612d11",
+    "item-b50ceab9538f",
+    "item-e380d2f204bd",
+    "item-c936298ce4d2",
+    "item-c64ea1c01979",
+    "item-fe8f25075368",
+    "item-6f79b18b5497",
+    "item-b134a2d2acae",
+    "item-38704e2597e1",
+    "item-564105ae42f1",
+    "item-70cb30a80485",
+    "item-d9b2fa713e88",
+    "item-639d07c69c99",
+    "item-2525cdd68a1b",
+    "item-0ca3992f0c11",
+    "item-0ea034806418",
+    "item-c1406f621f93",
+    "item-e0ad3f3920bb",
+    "item-7609e6a87910",
+    "item-a1e3b2d8bdec",
+    "item-366c78f8fdfc",
+    "item-0b7de78562fe",
+    "item-1fb9a5ee3bdc",
+    "item-878a4651b6fa",
+    "item-ea0e983116a5",
+    "item-cfab7be3d4c2",
+    "item-792fe098e4b8",
+    "item-6a6ac170cc55",
+    "item-1addc7239c1f",
+    "item-c12089c87304",
+    "item-0c6125f99b4f",
+    "item-b08bac690666",
+    "item-45f39caa26e3",
+    "item-0b908ff1cae9",
+    "item-edc96ba07d1a",
+    "item-f1067de9b8c3",
+    "item-546c5d45460e",
+    "item-1a2846cfb4fc",
+    "item-b26db1e8fef5",
+    "item-bed7ef62baeb",
+    "item-41bca9efb504",
+    "item-edb2c0f001e5",
+    "item-a9ba3b6d6aa9",
+    "item-18c967a7a669",
+    "item-76cfa090a88d"
+  ],
+  "sampleCheck": "15 random items read by hand on 19/11/2026: assignments consistent with the texts."
+}

@@ -16,6 +16,7 @@ import {
   normalText,
   numberedParts,
   reciprocalClusters,
+  sectionLinks,
 } from "./worlds-core.ts";
 
 /**
@@ -41,13 +42,36 @@ const file: WorldsFile = worldsFileSchema.parse(
   JSON.parse(await readFile(FILE, "utf8")),
 );
 const map = await readMap();
+const conversions = JSON.parse(
+  await readFile("reports/conversion.json", "utf8"),
+) as {
+  title: string;
+  sources: { documentId: string; entry?: string }[];
+}[];
+const sourceKey = (s: { documentId: string; entry?: string }) =>
+  `${s.documentId}::${s.entry ?? ""}`;
 const published = new Set(
-  (
-    JSON.parse(await readFile("reports/conversion.json", "utf8")) as {
-      sources: { documentId: string }[];
-    }[]
-  ).flatMap((item) => item.sources.map((s) => s.documentId)),
+  conversions.flatMap((item) => item.sources.map(sourceKey)),
 );
+const documentById = new Map(map.documents.map((d) => [d.id, d]));
+const ORDINALS = [
+  "prima",
+  "seconda",
+  "terza",
+  "quarta",
+  "quinta",
+  "sesta",
+  "settima",
+  "ottava",
+  "nona",
+  "decima",
+];
+/** "Parte Quarta (1807 - 1905)" → 4; "parte 2" → 2. */
+const partNumber = (rest: string) => {
+  const word = /^\W*parte\s+(\w+)/i.exec(rest)?.[1]?.toLowerCase() ?? "";
+  return /^\d+$/.test(word) ? Number(word) : ORDINALS.indexOf(word) + 1;
+};
+type Chapter = World["chapters"][number];
 const pages = map.documents.filter((d) => /\.html?$/.test(d.path));
 const byPath = new Map(pages.map((d) => [d.path.toLowerCase(), d]));
 
@@ -68,9 +92,85 @@ const errors: string[] = [];
 const fail = (world: World, message: string) =>
   errors.push(`${world.id}: ${message}`);
 
-/** Chapter paths from the archive, in order. */
-function derive(world: World): string[] {
+/** Chapters from the archive or the edition, in order. */
+function derive(world: World): Chapter[] {
   const source = world.source;
+  if (source.kind === "zip") {
+    const zip = map.documents.find((d) => d.path === source.document);
+    if (!zip) {
+      fail(world, `zip not archived: ${source.document}`);
+      return [];
+    }
+    return conversions
+      .flatMap((item) => item.sources)
+      .filter((s) => s.documentId === zip.id && s.entry)
+      .map((s) => s.entry as string)
+      .sort((a, b) => a.localeCompare(b, "it", { numeric: true }))
+      .map((entry) => ({ documentId: zip.id, path: zip.path, entry }));
+  }
+  if (source.kind === "section") {
+    const page = html.get(source.document);
+    const links = page
+      ? sectionLinks(page, source.document, source.heading)
+      : undefined;
+    if (!links) {
+      fail(world, `no section "${source.heading}" in ${source.document}`);
+      return [];
+    }
+    // Each linked file that is read in the edition, a zip as its files;
+    // files not (yet) read, such as scans pending OCR, are left out.
+    const byLowerPath = new Map(
+      map.documents.map((d) => [d.path.toLowerCase(), d]),
+    );
+    return links.flatMap((path) => {
+      const document = byLowerPath.get(path);
+      if (!document) return [];
+      return conversions
+        .flatMap((item) => item.sources)
+        .filter((s) => s.documentId === document.id)
+        .map((s) => s.entry)
+        .filter((entry, i, all) => all.indexOf(entry) === i)
+        .sort((a, b) =>
+          (a ?? "").localeCompare(b ?? "", "it", { numeric: true }),
+        )
+        .map((entry) => ({
+          documentId: document.id,
+          path: document.path,
+          ...(entry ? { entry } : {}),
+        }));
+    });
+  }
+  if (source.kind === "series") {
+    const parts = conversions
+      .filter((item) => item.title.startsWith(source.prefix))
+      .map((item) => ({
+        n: partNumber(item.title.slice(source.prefix.length)),
+        source: item.sources[0],
+      }));
+    for (const part of parts)
+      if (!part.n) fail(world, `no part number after "${source.prefix}"`);
+    return parts
+      .sort((a, b) => a.n - b.n)
+      .map(({ source: s }) => ({
+        documentId: s.documentId,
+        path: documentById.get(s.documentId)?.path ?? "",
+        ...(s.entry ? { entry: s.entry } : {}),
+      }));
+  }
+  return derivePaths(world).map((path) => ({
+    documentId: byPath.get(path)?.id as string,
+    path,
+  }));
+}
+/** Chapter paths of the page-based sources. */
+function derivePaths(world: World): string[] {
+  const source = world.source;
+  if (
+    source.kind === "zip" ||
+    source.kind === "series" ||
+    source.kind === "section"
+  )
+    return [];
   if (source.kind === "contents") {
     const page = html.get(source.document);
     if (page === undefined) {
@@ -102,21 +202,17 @@ function derive(world: World): string[] {
 const owner = new Map<string, string>();
 const worlds: World[] = [];
 for (const world of file.worlds) {
-  const paths = derive(world);
-  const chapters = paths.map((path) => ({
-    documentId: byPath.get(path)?.id as string,
-    path,
-  }));
+  const chapters = derive(world);
   const quoted = text(world.evidence.document);
   if (!quoted.includes(normalText(world.evidence.quote)))
     fail(world, `evidence quote not in ${world.evidence.document}`);
   if (chapters.length < 2) fail(world, "fewer than two chapters");
   for (const c of chapters) {
-    if (!published.has(c.documentId))
+    if (!published.has(sourceKey(c)))
       fail(world, `chapter not in the reading edition: ${c.path}`);
-    const other = owner.get(c.documentId);
+    const other = owner.get(sourceKey(c));
     if (other) fail(world, `${c.path} already belongs to ${other}`);
-    owner.set(c.documentId, world.id);
+    owner.set(sourceKey(c), world.id);
   }
   const reviewed = world.review.by === "owner";
   if (command === "propose" && !reviewed) worlds.push({ ...world, chapters });

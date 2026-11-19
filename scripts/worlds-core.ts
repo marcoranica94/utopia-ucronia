@@ -50,6 +50,38 @@ function pagesIn($: CheerioAPI, root: Parameters<CheerioAPI>[0], self: string) {
   return out;
 }
 
+/**
+ * The links listed under `heading` on one page (S8): from the block that
+ * reads exactly `heading` to the next block set in the same font size that
+ * holds no link, in order, each once, as archive paths of any file type.
+ */
+export function sectionLinks(
+  html: string,
+  documentPath: string,
+  heading: string,
+): string[] | undefined {
+  const $ = load(html);
+  const start = $("p,h1,h2,h3,h4,div")
+    .filter((_, el) => normalText($(el).text()) === heading)
+    .first();
+  if (!start.length) return undefined;
+  const size = start.find("font[size]").attr("size");
+  const out: string[] = [];
+  for (let el = start.next(); el.length; el = el.next()) {
+    if (
+      size &&
+      el.find(`font[size="${size}"]`).length &&
+      !el.find("a[href]").length
+    )
+      break;
+    el.find("a[href]").each((_, a) => {
+      const target = linkTarget($(a).attr("href") ?? "", documentPath);
+      if (target && !out.includes(target)) out.push(target);
+    });
+  }
+  return out;
+}
+
 /** Chapters listed by a contents page: its page links in order, without itself. */
 export function contentsChapters(html: string, documentPath: string) {
   const $ = load(html);

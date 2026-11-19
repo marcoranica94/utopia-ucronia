@@ -29,11 +29,25 @@ export const worldSourceSchema = z.discriminatedUnion("kind", [
   }),
   // A heading repeated on each member above the list of the other members.
   z.object({ kind: z.literal("navigation"), heading: z.string().min(1) }),
+  // The links listed under a section heading of one page, up to the next
+  // heading set in the same type (an author's cycles on racconti.htm, S8).
+  z.object({
+    kind: z.literal("section"),
+    document: z.string().min(1),
+    heading: z.string().min(1),
+  }),
+  // The readable files inside one zip, in the order of their names (S8).
+  z.object({ kind: z.literal("zip"), document: z.string().min(1) }),
+  // Published works titled "<prefix> Parte prima", "… seconda", … in the
+  // order of the part number (S8).
+  z.object({ kind: z.literal("series"), prefix: z.string().min(1) }),
 ]);
 
 export const worldChapterSchema = z.object({
   documentId: z.string().regex(/^doc-[0-9a-f]{12}$/),
   path: z.string().min(1),
+  /** A file inside the zip at `path`. */
+  entry: z.string().min(1).optional(),
 });
 
 export const worldSchema = z.object({

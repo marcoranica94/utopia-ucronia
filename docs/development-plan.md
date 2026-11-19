@@ -2,7 +2,7 @@
 
 Updated 16/11/2026; board reconciled with implementation and validation evidence. Analysis, content model and risks are in [analysis.md](analysis.md).
 
-Seven sprints, S0 to S6. The first proves that the material can be recovered and converted well, on about ten files chosen on purpose, and sets up repository, private deploy and backups. The third already delivers a useful version: reading, simple catalog and search. Classification, final design and the divergence tree grow around it. Every sprint ends with a demo: we move to the next one only if it succeeds without touch-ups.
+Nine sprints, S0 to S8 (S7 and S8 added after the original plan). The first proves that the material can be recovered and converted well, on about ten files chosen on purpose, and sets up repository, private deploy and backups. The third already delivers a useful version: reading, simple catalog and search. Classification, final design and the divergence tree grow around it. Every sprint ends with a demo: we move to the next one only if it succeeds without touch-ups.
 
 ## Roadmap
 
@@ -286,3 +286,15 @@ Separate epic, not part of S4 (owner decision of 17/11/2026). The 225 recovered 
 
 Demo: a work that existed only as a PDF and one that existed only inside a zip are found by search and read on the page, on phone and desktop; no attachment file is downloadable from the site.
 
+
+### S8 · Classification, cycles and the remaining attachments
+
+Owner request of 19/11/2026, after S7: "5. fai tu. approvatele da solo con un controllo 6. si ok 7 ok 8 ok 9 ok. Crea S8 con questi task".
+
+- [x] Eras, places and themes for the works published in S7 (19/11/2026): `pnpm classify` proposed for the 300 new items (eras 175, places 270, themes 266, the rest unknown); `scripts/classify-approve.ts` approved, on the owner's delegation ("5. fai tu. approvatele da solo con un controllo"), only the proposals that pass every check: value in the vocabulary, quotation found in the text (or, for an era from the original catalog section, the catalog title), cited year in the text and inside the era, at least 3 occurrences of the evidence words for each place or theme. 709 approved (eras 174, places 269, themes 266), 2 kept as proposals; 15 random items read by hand. `reports/classification-approval-2026-11-19.json`
+- [x] New worlds and cycles among the S7 works (19/11/2026), approved by the owner ("6. si ok", `reports/worlds-approval-2026-11-19.json`). Three new derivation rules in `scripts/worlds.ts`, chapters still never written by hand: `section` (the links under a heading of one page, up to the next heading in the same type: Sandro Degiani's cycles on `racconti/racconti.htm`), `series` (works titled "<name> Parte prima, seconda…" in part order) and `zip` (the readable files of one zip by name). Nine new entries, 100 chapters: the cycles of Morimondo Sanguinoso (28; 8 more held for overprint), Padre Futuro (16), Stella Maya (11), Passato anteriore (22); Code Geass per davvero (8), L'Italia e la Seconda Guerra Mondiale (6), Documentazione di Remus (3), Composizioni di Giovanni Picciafuoco (4), L'albero genealogico dei draghi (2). Chapters of a zip are told apart by their file
+- [ ] OCR of the 30 scanned PDFs, read as text like the others when the result passes a check
+- [ ] Clean the 26 held files whose text is overprinted several times, and publish those that then pass the independent text-layer check
+- [ ] Room under the Cloudflare free-plan file limit (19,175 of 20,000 files): reduce generated files without losing reading content
+
+Demo: an S7 work appears under its era and theme and in the tree of eras; a cycle from S7 reads in order with previous/next; a scanned PDF reads as text.

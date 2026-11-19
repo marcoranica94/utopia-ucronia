@@ -124,8 +124,10 @@ test("data/worlds.json is valid, approvals only by the owner, no shared chapters
     if (world.review.state === "approved")
       assert.equal(world.review.by, "owner", world.id);
     for (const c of world.chapters) {
-      assert.ok(!seen.has(c.documentId), `${c.path} in two worlds`);
-      seen.add(c.documentId);
+      // A zip's files are separate chapters of one document.
+      const key = `${c.documentId}::${c.entry ?? ""}`;
+      assert.ok(!seen.has(key), `${c.path} ${c.entry ?? ""} in two worlds`);
+      seen.add(key);
     }
   }
 });

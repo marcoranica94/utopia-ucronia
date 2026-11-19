@@ -13,7 +13,7 @@ export interface WorldItem {
     editorialId?: string;
     authors: string[];
     language: string;
-    sources: { documentId?: string }[];
+    sources: { documentId?: string; entry?: string }[];
   };
 }
 export interface WorldChapterEntry {
@@ -47,15 +47,18 @@ function resolve(items: WorldItem[]): WorldEntry[] {
     if (!item.data.editorialId) continue;
     for (const source of item.data.sources)
       if (source.documentId) {
-        const list = byDocument.get(source.documentId) ?? [];
+        const key = `${source.documentId}::${source.entry ?? ""}`;
+        const list = byDocument.get(key) ?? [];
         if (!list.includes(item)) list.push(item);
-        byDocument.set(source.documentId, list);
+        byDocument.set(key, list);
       }
   }
   return worlds.map((world) => {
     const chapters: WorldChapterEntry[] = [];
     for (const chapter of world.chapters) {
-      const found = byDocument.get(chapter.documentId);
+      const found = byDocument.get(
+        `${chapter.documentId}::${chapter.entry ?? ""}`,
+      );
       if (!found?.length)
         throw new Error(`World ${world.id}: unpublished ${chapter.path}`);
       for (const item of found)
