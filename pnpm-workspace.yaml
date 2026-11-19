@@ -1,6 +1,8 @@
 allowBuilds:
   esbuild: true
   sharp: true
+  # postinstall only prints an Open Collective message
+  tesseract.js: false
   workerd: true
 minimumReleaseAgeExclude:
   - "@astrojs/internal-helpers@0.13.2"
