@@ -244,6 +244,116 @@ for (const group of data.workGroups) {
     group.count++;
   }
 }
+// Works the 2004 catalog never listed (pages added later, PDFs and the files
+// inside zips): each joins the category of its owner-approved era, after the
+// catalog's own entries and marked `added`; works without an approved era go
+// to a separate category. The catalog's grouping and order are untouched.
+const ERA_GROUP: Record<string, string> = {
+  prehistory: "ancient",
+  ancient: "ancient",
+  roman: "roman",
+  "early-medieval": "medieval",
+  "1000-1299": "medieval",
+  "1300-1499": "medieval",
+  "1500s": "modern",
+  "1600s": "modern",
+  "1700s": "modern",
+  "1800s": "modern",
+  "belle-epoque": "1860-1940",
+  "first-world-war": "1860-1940",
+  "second-world-war": "1940-1960",
+  postwar: "1940-1960",
+  "1970s-1990s": "post-1960",
+  "2000s": "post-1960",
+  "present-future": "post-1960",
+};
+const ADDED_GROUP = "found";
+data.workGroups.push({
+  id: ADDED_GROUP,
+  source: "",
+  title: { it: "Altre opere ritrovate", en: "Other recovered works" },
+  count: 0,
+});
+const catalogued = new Set(
+  data.entries.flatMap((entry) =>
+    entry.targets.flatMap((id) => {
+      const href = [...targets.values()].find((t) => t.id === id)?.readingHref;
+      return href ? [href.split("#")[0]] : [];
+    }),
+  ),
+);
+const classification = JSON.parse(
+  await readFile("data/classification.json", "utf8"),
+) as {
+  items: Record<
+    string,
+    { eras?: { value: string[] | "unknown"; review: { state: string } } }
+  >;
+};
+const added = [];
+for (const page of conversions) {
+  if (
+    page.legacyPreview ||
+    !page.editorialId ||
+    !page.path.startsWith("/works/") ||
+    catalogued.has(page.path)
+  )
+    continue;
+  const markdown = await readFile(
+    safePath("src/content/works", `${page.slug}.md`),
+    "utf8",
+  );
+  const field = (name: string) => {
+    const line = new RegExp(`^${name}: (.*)$`, "m").exec(markdown)?.[1];
+    return line === undefined ? undefined : JSON.parse(line);
+  };
+  if (field("level") !== "work") continue;
+  const eras = classification.items[page.editorialId]?.eras;
+  const era =
+    eras?.review.state === "approved" && Array.isArray(eras.value)
+      ? eras.value.find((id) => ERA_GROUP[id])
+      : undefined;
+  const source = page.sources[0];
+  // A whole file keeps its usual record, so the prompts that link to it later
+  // share it; a part of a page or a file inside a zip gets its own.
+  const whole = source.selection?.kind === "whole" && !source.entry;
+  const id = recordId(whole ? source.url : `${source.url}#work=${page.path}`);
+  const title = redact(String(field("title") ?? "")) || page.slug;
+  const doc = documents.get(urlKey(source.url));
+  const key = whole ? resourceKey(source.url) : `added:${page.path}`;
+  const existing = targets.get(key);
+  if (existing && existing.readingHref !== page.path)
+    throw new Error(`Record ${existing.id} leads elsewhere: ${page.path}`);
+  targets.set(key, {
+    id,
+    title,
+    source: redact(source.url),
+    status: "ready",
+    href: page.path,
+    readingHref: page.path,
+    ...(doc?.timestamp ? { timestamp: doc.timestamp } : {}),
+    ...(doc?.type ? { mediaType: doc.type } : {}),
+  });
+  added.push({
+    id: `added-${page.slug}`,
+    title,
+    caption: "",
+    authors: (field("authors") as string[] | undefined) ?? [],
+    group: era ? ERA_GROUP[era] : ADDED_GROUP,
+    source: "",
+    cell: 0,
+    added: true,
+    targets: [id],
+  });
+}
+for (const group of data.workGroups)
+  for (const entry of added
+    .filter((e) => e.group === group.id)
+    .sort((a, b) => a.title.localeCompare(b.title, "it"))) {
+    data.entries.push(entry);
+    group.count++;
+  }
+
 const workReferences = new Set(
   map.items
     .filter((i) => i.level === "work")

@@ -9,7 +9,6 @@ import { writeJson } from "./recovery/core.ts";
 /** Everything this check reads from a rendered page. Extracted once per page
  * content (cached by its bytes); every assertion below runs on each build. */
 type Facts = {
-  workCards: (string | null)[];
   authorIndex: (string | null)[];
   h1: string;
   authorTexts: number;
@@ -31,7 +30,6 @@ const page = (file: string) => {
   const facts = fileFacts(cache, file, (bytes): Facts => {
     const $ = load(bytes.toString("utf8"));
     return {
-      workCards: hrefs($, "[data-work] .work-card"),
       authorIndex: hrefs($, ".author-index a"),
       h1: $("h1").text(),
       authorTexts: $(".author-texts li").length,
@@ -74,13 +72,28 @@ const authors = buildAuthorIndex(items);
 const works = conversions.filter(
   (entry) => entry.editorialId && entry.path.startsWith("/works/"),
 );
+const browse = JSON.parse(
+  await readFile("src/generated/browse.json", "utf8"),
+) as {
+  entries: { targets: string[] }[];
+  targets: { id: string; readingHref?: string }[];
+};
+const listed = new Set(browse.entries.flatMap((entry) => entry.targets));
+const indexed = new Set(
+  browse.targets
+    .filter((target) => listed.has(target.id) && target.readingHref)
+    .map((target) => target.readingHref?.split("#")[0]),
+);
+for (const work of works)
+  assert.ok(indexed.has(work.path), `Not in the works index: ${work.path}`);
 let checkedAnchors = 0;
 for (const prefix of ["", "/en"]) {
-  const library = await page(`dist${prefix}/library/index.html`);
-  assert.deepEqual(
-    [...library.workCards].sort(),
-    works.map((work) => prefix + work.path).sort(),
-  );
+  // The home catalog list and the works index each reach every reading work.
+  const cards = JSON.parse(
+    await readFile(`dist/catalog/${prefix ? "en" : "it"}.json`, "utf8"),
+  ) as { href: string }[];
+  const carded = new Set(cards.map((card) => card.href));
+  for (const work of works) assert.ok(carded.has(prefix + work.path));
   const index = await page(`dist${prefix}/authors/index.html`);
   assert.deepEqual(
     [...index.authorIndex].sort(),

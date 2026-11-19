@@ -509,6 +509,18 @@
 .catalog-empty p {
   color: var(--muted);
 }
+.catalog-more {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin: 2rem 0 0;
+}
+.catalog-more[hidden],
+.catalog-more button[hidden] {
+  display: none;
+}
+.catalog-more button,
 .catalog-empty button {
   border: 1px solid var(--line);
   border-radius: 6px;

@@ -1,10 +1,10 @@
 {
   "passed": true,
   "promptsPerLanguage": 7093,
-  "catalogEntriesPerLanguage": 825,
-  "recordsPerLanguage": 927,
+  "catalogEntriesPerLanguage": 1145,
+  "recordsPerLanguage": 1235,
   "recordPagesPerLanguage": 96,
-  "listPages": 1650,
+  "listPages": 1722,
   "pageSizes": [
     20,
     40,
@@ -12,7 +12,7 @@
     100
   ],
   "defaultPageSize": 40,
-  "contentDigest": "0d68f3d6d745706a915650654b0b26a52bf9125881a436edb2ab4adc4e9028c0",
+  "contentDigest": "f8e2e4f7a6ee1b36751c2e5063f14b368e449e01a1fcd4c29da19ab63705dcdd",
   "checks": [
     {
       "lang": "it",
@@ -551,196 +551,196 @@
       "kind": "works",
       "group": "ancient",
       "size": 20,
-      "count": 72
+      "count": 88
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "ancient",
       "size": 40,
-      "count": 72
+      "count": 88
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "ancient",
       "size": 80,
-      "count": 72
+      "count": 88
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "ancient",
       "size": 100,
-      "count": 72
+      "count": 88
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "roman",
       "size": 20,
-      "count": 66
+      "count": 68
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "roman",
       "size": 40,
-      "count": 66
+      "count": 68
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "roman",
       "size": 80,
-      "count": 66
+      "count": 68
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "roman",
       "size": 100,
-      "count": 66
+      "count": 68
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "medieval",
       "size": 20,
-      "count": 120
+      "count": 152
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "medieval",
       "size": 40,
-      "count": 120
+      "count": 152
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "medieval",
       "size": 80,
-      "count": 120
+      "count": 152
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "medieval",
       "size": 100,
-      "count": 120
+      "count": 152
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "modern",
       "size": 20,
-      "count": 114
+      "count": 145
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "modern",
       "size": 40,
-      "count": 114
+      "count": 145
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "modern",
       "size": 80,
-      "count": 114
+      "count": 145
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "modern",
       "size": 100,
-      "count": 114
+      "count": 145
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "1860-1940",
       "size": 20,
-      "count": 81
+      "count": 94
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "1860-1940",
       "size": 40,
-      "count": 81
+      "count": 94
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "1860-1940",
       "size": 80,
-      "count": 81
+      "count": 94
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "1860-1940",
       "size": 100,
-      "count": 81
+      "count": 94
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "1940-1960",
       "size": 20,
-      "count": 67
+      "count": 85
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "1940-1960",
       "size": 40,
-      "count": 67
+      "count": 85
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "1940-1960",
       "size": 80,
-      "count": 67
+      "count": 85
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "1940-1960",
       "size": 100,
-      "count": 67
+      "count": 85
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "post-1960",
       "size": 20,
-      "count": 70
+      "count": 107
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "post-1960",
       "size": 40,
-      "count": 70
+      "count": 107
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "post-1960",
       "size": 80,
-      "count": 70
+      "count": 107
     },
     {
       "lang": "it",
       "kind": "works",
       "group": "post-1960",
       "size": 100,
-      "count": 70
+      "count": 107
     },
     {
       "lang": "it",
@@ -797,6 +797,34 @@
       "group": "utopias-stories",
       "size": 100,
       "count": 115
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "found",
+      "size": 20,
+      "count": 171
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "found",
+      "size": 40,
+      "count": 171
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "found",
+      "size": 80,
+      "count": 171
+    },
+    {
+      "lang": "it",
+      "kind": "works",
+      "group": "found",
+      "size": 100,
+      "count": 171
     },
     {
       "lang": "en",
@@ -1335,196 +1363,196 @@
       "kind": "works",
       "group": "ancient",
       "size": 20,
-      "count": 72
+      "count": 88
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "ancient",
       "size": 40,
-      "count": 72
+      "count": 88
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "ancient",
       "size": 80,
-      "count": 72
+      "count": 88
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "ancient",
       "size": 100,
-      "count": 72
+      "count": 88
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "roman",
       "size": 20,
-      "count": 66
+      "count": 68
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "roman",
       "size": 40,
-      "count": 66
+      "count": 68
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "roman",
       "size": 80,
-      "count": 66
+      "count": 68
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "roman",
       "size": 100,
-      "count": 66
+      "count": 68
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "medieval",
       "size": 20,
-      "count": 120
+      "count": 152
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "medieval",
       "size": 40,
-      "count": 120
+      "count": 152
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "medieval",
       "size": 80,
-      "count": 120
+      "count": 152
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "medieval",
       "size": 100,
-      "count": 120
+      "count": 152
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "modern",
       "size": 20,
-      "count": 114
+      "count": 145
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "modern",
       "size": 40,
-      "count": 114
+      "count": 145
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "modern",
       "size": 80,
-      "count": 114
+      "count": 145
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "modern",
       "size": 100,
-      "count": 114
+      "count": 145
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "1860-1940",
       "size": 20,
-      "count": 81
+      "count": 94
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "1860-1940",
       "size": 40,
-      "count": 81
+      "count": 94
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "1860-1940",
       "size": 80,
-      "count": 81
+      "count": 94
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "1860-1940",
       "size": 100,
-      "count": 81
+      "count": 94
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "1940-1960",
       "size": 20,
-      "count": 67
+      "count": 85
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "1940-1960",
       "size": 40,
-      "count": 67
+      "count": 85
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "1940-1960",
       "size": 80,
-      "count": 67
+      "count": 85
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "1940-1960",
       "size": 100,
-      "count": 67
+      "count": 85
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "post-1960",
       "size": 20,
-      "count": 70
+      "count": 107
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "post-1960",
       "size": 40,
-      "count": 70
+      "count": 107
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "post-1960",
       "size": 80,
-      "count": 70
+      "count": 107
     },
     {
       "lang": "en",
       "kind": "works",
       "group": "post-1960",
       "size": 100,
-      "count": 70
+      "count": 107
     },
     {
       "lang": "en",
@@ -1581,6 +1609,34 @@
       "group": "utopias-stories",
       "size": 100,
       "count": 115
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "found",
+      "size": 20,
+      "count": 171
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "found",
+      "size": 40,
+      "count": 171
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "found",
+      "size": 80,
+      "count": 171
+    },
+    {
+      "lang": "en",
+      "kind": "works",
+      "group": "found",
+      "size": 100,
+      "count": 171
     }
   ]
 }

@@ -61,12 +61,12 @@ const menu: { label: string; href?: string; lang?: string }[] = [
   { label: "Tutti i nostri lavori", href: localePath(lang, "/works/") },
   {
     label: "Uchronies en Français",
-    href: `${localePath(lang, "/library/")}?lang=fr`,
+    href: `${localePath(lang, "/")}?lang=fr#collection`,
     lang: "fr",
   },
   {
     label: "Ucronías en Español",
-    href: `${localePath(lang, "/library/")}?lang=es`,
+    href: `${localePath(lang, "/")}?lang=es#collection`,
     lang: "es",
   },
   { label: "Alternate History Wiki", lang: "en" },
@@ -142,9 +142,8 @@ const menu: { label: string; href?: string; lang?: string }[] = [
       <div class="history-copy">
         <p>{t("history.now1", { works: n(works) })}</p>
         <ul class="history-links">
-          <li><a href={localePath(lang, "/library/")}>{t("library.title")}</a></li>
+          <li><a href={localePath(lang, "/works/")}>{t("browse.works.title")}</a></li>
           <li><a href={localePath(lang, "/divergences/")}>{t("site.nav.prompts")}</a></li>
-          <li><a href={localePath(lang, "/tree/")}>{t("tree.title")}</a></li>
           <li><a href={localePath(lang, "/whatif/")}>{t("whatif.title")}</a></li>
         </ul>
       </div>

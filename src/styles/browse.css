@@ -392,7 +392,8 @@
   text-decoration: underline;
   text-underline-offset: 0.15em;
 }
-.browse-attribution {
+.browse-attribution,
+.browse-byline {
   margin: 0 0 1rem;
   font-size: 0.98rem;
   color: var(--muted);
@@ -849,4 +850,10 @@
 
 .browse-period-page [hidden] {
   display: none;
+}
+.browse-added {
+  margin: -0.5rem 0 1rem;
+  font-size: 0.9rem;
+  font-style: italic;
+  color: var(--muted);
 }

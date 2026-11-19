@@ -1,7 +1,7 @@
 {
   "prompts": 7093,
-  "workEntries": 825,
-  "uniqueTargets": 927,
+  "workEntries": 1145,
+  "uniqueTargets": 1235,
   "promptGroups": [
     {
       "id": "prehistory",
@@ -185,7 +185,7 @@
         "it": "Antichità",
         "en": "Ancient history"
       },
-      "count": 72
+      "count": 88
     },
     {
       "id": "roman",
@@ -194,7 +194,7 @@
         "it": "Roma antica",
         "en": "Ancient Rome"
       },
-      "count": 66
+      "count": 68
     },
     {
       "id": "medieval",
@@ -203,7 +203,7 @@
         "it": "Medioevo",
         "en": "Middle Ages"
       },
-      "count": 120
+      "count": 152
     },
     {
       "id": "modern",
@@ -212,7 +212,7 @@
         "it": "Età moderna",
         "en": "Early modern history"
       },
-      "count": 114
+      "count": 145
     },
     {
       "id": "1860-1940",
@@ -221,7 +221,7 @@
         "it": "1860–1940",
         "en": "1860–1940"
       },
-      "count": 81
+      "count": 94
     },
     {
       "id": "1940-1960",
@@ -230,7 +230,7 @@
         "it": "1940–1960",
         "en": "1940–1960"
       },
-      "count": 67
+      "count": 85
     },
     {
       "id": "post-1960",
@@ -239,7 +239,7 @@
         "it": "Dopo il 1960",
         "en": "After 1960"
       },
-      "count": 70
+      "count": 107
     },
     {
       "id": "fantasy",
@@ -258,12 +258,21 @@
         "en": "Utopias and stories"
       },
       "count": 115
+    },
+    {
+      "id": "found",
+      "source": "",
+      "title": {
+        "it": "Altre opere ritrovate",
+        "en": "Other recovered works"
+      },
+      "count": 171
     }
   ],
   "linkedPrompts": 280,
-  "documentedDevelopments": 222,
+  "documentedDevelopments": 228,
   "statuses": {
-    "ready": 831,
+    "ready": 1139,
     "recovered": 17,
     "missing": 8,
     "external": 71

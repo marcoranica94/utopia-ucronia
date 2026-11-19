@@ -14,7 +14,7 @@ import { writeJson } from "./recovery/core.ts";
  * address in the visible text, axe (WCAG 2.2 A/AA) without violations, and a
  * visible focus on the first Tab. Run after `pnpm build`:
  *
- *   pnpm views:check [--only /library/] [--report reports/s6-views.json]
+ *   pnpm views:check [--only /works/] [--report reports/s6-views.json]
  */
 
 const { values } = parseArgs({
@@ -31,8 +31,9 @@ const axeSource = require.resolve("axe-core/axe.min.js");
 /** One page per kind of view; EN shares the templates, so a subset suffices. */
 const ROUTES = [
   "/",
-  "/library/",
   "/works/",
+  "/works/period/found/",
+  "/works/period/post-1960/3/",
   "/works/ucronia-25-luglio-1943-ordine-del-giorno-farinacci-ef21eb1c/",
   "/works/keikyo-il-giappone-nestoriano-7176c306/",
   "/works/1848-nasce-la-repubblica-italiana-7c5e68c2/",
@@ -56,7 +57,6 @@ const ROUTES = [
   "/authors/adriano-boni-f4bd43eb4006/",
   "/worlds/",
   "/worlds/capvt-mvndi/",
-  "/tree/",
   "/whatif/",
   "/history/",
   "/search/",
@@ -66,11 +66,10 @@ const ROUTES = [
   "/design/",
   "/404.html",
   "/en/",
-  "/en/library/",
+  "/en/works/",
   "/en/works/ucronia-25-luglio-1943-ordine-del-giorno-farinacci-ef21eb1c/",
   "/en/eras/",
   "/en/worlds/capvt-mvndi/",
-  "/en/tree/",
   "/en/whatif/",
   "/en/history/",
   "/en/search/",

@@ -18,7 +18,7 @@ const groups = Map.groupBy(authors, (author) =>
 );
 ---
 <Base title={t("authors.title")} lang={lang}>
-  <header class="page-intro"><h1 class="page-title">{t("authors.title")}</h1><p class="page-lede">{t("authors.intro")}</p><p class="small-note">{t("authors.scope")}</p><a href={localePath(lang, "/library/")}>{t("library.title")}</a></header>
+  <header class="page-intro"><h1 class="page-title">{t("authors.title")}</h1><p class="page-lede">{t("authors.intro")}</p><p class="small-note">{t("authors.scope")}</p><a href={localePath(lang, "/works/")}>{t("browse.works.title")}</a></header>
   <nav class="author-letters" aria-label={t("authors.letters")}>
     {[...groups.keys()].map((letter, i) => <a href={`#letter-${i}`}>{letter}</a>)}
   </nav>

@@ -28,7 +28,7 @@ const others = (["eras", "places", "themes"] as Facet[]).filter(
 );
 ---
 <Base title={t(`facet.${facet}.title`)} lang={lang}>
-  <header class="page-intro"><h1 class="page-title">{t(`facet.${facet}.title`)}</h1><p class="page-lede">{t(`facet.${facet}.intro`)}</p><p class="small-note">{t("facet.proposalNote")}</p><nav class="library-links" aria-label={t("facet.explore")}>{others.map((f) => <a href={localePath(lang, facetRoots[f])}>{t(`facet.${f}.title`)}</a>)}<a href={localePath(lang, "/worlds/")}>{t("worlds.title")}</a><a href={localePath(lang, "/library/")}>{t("library.title")}</a></nav></header>
+  <header class="page-intro"><h1 class="page-title">{t(`facet.${facet}.title`)}</h1><p class="page-lede">{t(`facet.${facet}.intro`)}</p><p class="small-note">{t("facet.proposalNote")}</p><nav class="library-links" aria-label={t("facet.explore")}>{others.map((f) => <a href={localePath(lang, facetRoots[f])}>{t(`facet.${f}.title`)}</a>)}<a href={localePath(lang, "/worlds/")}>{t("worlds.title")}</a><a href={localePath(lang, "/works/")}>{t("browse.works.title")}</a></nav></header>
   <ol class="facet-index">
     {values.map((value) => {
       const n = value.approved.length + value.proposed.length;

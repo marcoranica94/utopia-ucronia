@@ -19,7 +19,7 @@ const groups = (["world", "cycle"] as const)
   .filter(([, list]) => list.length);
 ---
 <Base title={t("worlds.title")} lang={lang}>
-  <header class="page-intro"><h1 class="page-title">{t("worlds.title")}</h1><p class="page-lede">{t("worlds.intro")}</p><p class="small-note">{t("worlds.note")}</p><nav class="library-links" aria-label={t("facet.explore")}><a href={localePath(lang, "/library/")}>{t("library.title")}</a><a href={localePath(lang, "/eras/")}>{t("facet.eras.title")}</a><a href={localePath(lang, "/themes/")}>{t("facet.themes.title")}</a></nav></header>
+  <header class="page-intro"><h1 class="page-title">{t("worlds.title")}</h1><p class="page-lede">{t("worlds.intro")}</p><p class="small-note">{t("worlds.note")}</p><nav class="library-links" aria-label={t("facet.explore")}><a href={localePath(lang, "/works/")}>{t("browse.works.title")}</a><a href={localePath(lang, "/eras/")}>{t("facet.eras.title")}</a><a href={localePath(lang, "/themes/")}>{t("facet.themes.title")}</a></nav></header>
   {groups.map(([form, list]) => (
     <section class="facet-section" aria-labelledby={`worlds-${form}`}>
       <h2 id={`worlds-${form}`}>{t(`worlds.group.${form}`)} <small>({list.length})</small></h2>

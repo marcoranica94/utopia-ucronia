@@ -12,14 +12,6 @@ const it = {
   "review.sourceReferences": "Rimandi presenti nella fonte",
   "review.sourceNote":
     "Testo della fonte recuperata per la revisione. La struttura grafica originale non è riprodotta; approvazioni e selezioni di pubblicazione restano separate.",
-  "library.nav": "Leggi",
-  "library.title": "Opere da leggere",
-  "library.intro":
-    "Apri un’opera e leggi il testo, con immagini, note e contributi. Qui trovi le opere già disponibili nella nuova edizione.",
-  "library.choose": "Scegli un’opera",
-  "library.scope":
-    "Gli spunti brevi e le anteprime storiche restano nella raccolta della home. Per le opere ancora da pubblicare, consulta l’indice storico.",
-  "library.historical": "Indice storico di tutte le opere",
   "authors.title": "Autori e contributori",
   "authors.nav": "Autori",
   "authors.intro":
@@ -180,7 +172,7 @@ const it = {
 
   "browse.otherReferences": "Altri riferimenti citati",
   "site.nav.prompts": "Spunti",
-  "site.nav.completeWorks": "Indice opere",
+  "site.nav.completeWorks": "Opere",
   "browse.indexes": "Indici della raccolta",
   "browse.prompts.short": "Spunti per periodo",
   "browse.works.short": "Opere per periodo",
@@ -189,10 +181,9 @@ const it = {
   "browse.prompts.intro":
     "Gli spunti del sito originale, dalla preistoria al futuro. Ogni idea conserva il suo testo, gli autori indicati e i rimandi agli sviluppi e alle discussioni.",
   "browse.works.intro":
-    "Le opere segnalate nel catalogo originale, ordinate per epoca. Fantastorie, utopie e racconti hanno anche le loro sezioni, oltre i confini della cronologia.",
+    "Tutte le opere da leggere, per epoca, nelle sezioni del catalogo originale. Le opere che il catalogo non elencava stanno nella loro epoca con una nota; quelle ancora senza epoca sono in «Altre opere ritrovate».",
   "browse.prompts.count": "{n} voci nelle {groups} sezioni del menu originale.",
-  "browse.works.count":
-    "{n} voci nelle {groups} categorie del catalogo originale.",
+  "browse.works.count": "{n} voci in {groups} sezioni.",
   "browse.linkedCount": "{n} spunti rimandano a opere o discussioni.",
   "browse.prompts.choose": "Da quale periodo vuoi partire?",
   "browse.works.choose": "Epoche e altre storie",
@@ -271,6 +262,10 @@ const it = {
   "browse.capture": "Copia conservata del {date}",
   "browse.format": "Formato della fonte: {format}",
   "browse.sourceGrouping": "Raggruppamento e ordine dalla pagina originale:",
+  "browse.works.other": "Altri modi di sfogliare",
+  "browse.foundNote":
+    "Opere che il catalogo originale non elencava e che non hanno ancora un’epoca approvata.",
+  "browse.added": "Non nel catalogo originale",
   "browse.homeIntro": "Cerchi tutte le idee o le opere per epoca?",
 
   "source.image": "Immagine dal documento originale",
@@ -306,7 +301,6 @@ const it = {
     "Mappe, racconti e cronologie per esplorare ciò che sarebbe potuto accadere. Un archivio di mondi possibili, una storia alla volta.",
   "atlas.explore": "Entra nella raccolta",
   "atlas.originalSince": "Testi originali. Altri mondi.",
-  "atlas.tree": "Segui le diramazioni",
   "atlas.mapAlt":
     "Mappa alternativa dell’Europa e del Mediterraneo, dal gioco Spot the POD",
   "atlas.mapPrompt": "Riconosci questo mondo?",
@@ -331,14 +325,19 @@ const it = {
   "atlas.variants": "{n} varianti",
   "atlas.read": "Leggi",
   "atlas.noResults": "Qui la storia prende un’altra strada.",
-  "atlas.reset": "Mostra tutta la raccolta",
+  "atlas.reset": "Azzera i filtri",
+  "atlas.more": "Mostra altre",
+  "atlas.shuffle": "Altre a caso",
+  "atlas.foundOne": "1 opera trovata",
+  "atlas.foundCount": "{n} opere trovate",
+  "atlas.randomCount": "{n} opere a caso su {total}",
+  "atlas.featuredCount": "{n} opere scelte su {total}",
 
   "site.version": "Versione",
   "site.skip": "Vai al contenuto",
   "site.home": "UtopiaUcronia, pagina iniziale",
   "site.navLabel": "Navigazione principale",
   "site.nav.works": "Ucronie",
-  "site.nav.tree": "Albero",
   "site.nav.preview": "Anteprima",
   "site.footer": "Archivio in lavorazione. Testi e attribuzioni in revisione.",
   "site.languageLabel": "Lingua dell’interfaccia",
@@ -373,24 +372,6 @@ const it = {
   "home.none": "I primi testi appariranno qui dopo la conversione.",
   "home.note":
     "La raccolta è in revisione: titoli, attribuzioni e collegamenti saranno controllati durante la conversione editoriale.",
-  "tree.title": "Albero delle epoche",
-  "tree.heading": "L’albero delle epoche",
-  "tree.lede":
-    "Il tronco è la storia reale, dalla preistoria al futuro. Da ogni epoca partono le opere ambientate lì: segui un ramo per leggerle.",
-  "tree.yearNote":
-    "L’anno accanto al titolo è il primo citato all’inizio del testo e ordina i rami; non è per forza il punto in cui la storia diverge.",
-  "tree.jump": "Vai a un’epoca",
-  "tree.trunk": "Epoche in ordine cronologico",
-  "tree.more": "Mostra altre {n} opere",
-  "tree.showAll": "Mostra l’elenco",
-  "tree.outsideNote":
-    "Utopie, mondi immaginari e testi che non si collocano in un’epoca storica.",
-  "tree.unplaced": "Opere senza epoca",
-  "tree.unplacedNote":
-    "{n} opere non hanno ancora un’epoca: nel testo non c’è un anno utile e il catalogo originale non le collocava. Le altre {placed} sono sul tronco.",
-  "tree.caveat":
-    "Una stessa opera compare in più epoche se le attraversa. Le brevi proposte della Lista delle ucronie restano ordinate per periodo nel loro indice:",
-  "tree.listaLink": "apri la Lista delle ucronie",
   "whatif.title": "E se…?",
   "whatif.heading": "E se…?",
   "whatif.lede":
@@ -398,7 +379,7 @@ const it = {
   "whatif.read": "Leggi l’opera",
   "whatif.again": "Un’altra storia",
   "whatif.note": "Preferisci scegliere tu?",
-  "whatif.tree": "Sfoglia l’albero delle epoche",
+  "whatif.tree": "Sfoglia le opere per epoca",
   "history.title": "Storia del sito",
   "history.heading": "Storia del sito",
   "history.lede":
@@ -528,14 +509,6 @@ const en: Record<keyof typeof it, string> = {
   "review.sourceReferences": "References present in the source",
   "review.sourceNote":
     "Recovered source text for review. The original visual layout is not reproduced; approval and publication selection remain separate.",
-  "library.nav": "Read",
-  "library.title": "Works to read",
-  "library.intro":
-    "Open a work to read its text, with images, notes and contributions. These works are already available in the new edition.",
-  "library.choose": "Choose a work",
-  "library.scope":
-    "Short prompts and historical previews remain in the home collection. See the historical index for works awaiting publication.",
-  "library.historical": "Historical index of all works",
   "authors.title": "Authors and contributors",
   "authors.nav": "Authors",
   "authors.intro":
@@ -692,7 +665,7 @@ const en: Record<keyof typeof it, string> = {
 
   "browse.otherReferences": "Other cited references",
   "site.nav.prompts": "Prompts",
-  "site.nav.completeWorks": "Works index",
+  "site.nav.completeWorks": "Works",
   "browse.indexes": "Collection indexes",
   "browse.prompts.short": "Prompts by period",
   "browse.works.short": "Works by period",
@@ -701,11 +674,10 @@ const en: Record<keyof typeof it, string> = {
   "browse.prompts.intro":
     "The original site’s prompts, from prehistory to the future. Each idea retains its text, credited authors and references to developments and discussions.",
   "browse.works.intro":
-    "Works listed in the original catalog, arranged by period. Imaginary histories, utopias and stories also have their own sections beyond chronology.",
+    "Every work to read, by period, in the original catalog’s sections. Works the catalog did not list sit in their period with a note; those without a period yet are under “Other recovered works”.",
   "browse.prompts.count":
     "{n} entries in the original menu’s {groups} sections.",
-  "browse.works.count":
-    "{n} entries in the original catalog’s {groups} categories.",
+  "browse.works.count": "{n} entries in {groups} sections.",
   "browse.linkedCount": "{n} prompts refer to works or discussions.",
   "browse.prompts.choose": "Where in history will you start?",
   "browse.works.choose": "Periods and other stories",
@@ -785,6 +757,10 @@ const en: Record<keyof typeof it, string> = {
   "browse.capture": "Preserved capture dated {date}",
   "browse.format": "Source format: {format}",
   "browse.sourceGrouping": "Grouping and order from the original page:",
+  "browse.works.other": "Other ways to browse",
+  "browse.foundNote":
+    "Works the original catalog did not list that have no approved period yet.",
+  "browse.added": "Not in the original catalog",
   "browse.homeIntro": "Looking for all the ideas or works by period?",
 
   "source.image": "Image from the original document",
@@ -820,7 +796,6 @@ const en: Record<keyof typeof it, string> = {
     "Maps, stories and chronologies exploring what might have happened. An archive of possible worlds, one story at a time.",
   "atlas.explore": "Explore the collection",
   "atlas.originalSince": "Original stories. Other worlds.",
-  "atlas.tree": "Follow the branches",
   "atlas.mapAlt":
     "An alternative map of Europe and the Mediterranean, from Spot the POD",
   "atlas.mapPrompt": "Do you recognise this world?",
@@ -844,14 +819,19 @@ const en: Record<keyof typeof it, string> = {
   "atlas.variants": "{n} variants",
   "atlas.read": "Read",
   "atlas.noResults": "No stories found here yet.",
-  "atlas.reset": "Show the whole collection",
+  "atlas.reset": "Clear the filters",
+  "atlas.more": "Show more",
+  "atlas.shuffle": "Pick others",
+  "atlas.foundOne": "1 work found",
+  "atlas.foundCount": "{n} works found",
+  "atlas.randomCount": "{n} random works of {total}",
+  "atlas.featuredCount": "{n} chosen works of {total}",
 
   "site.version": "Version",
   "site.skip": "Skip to content",
   "site.home": "UtopiaUcronia, home page",
   "site.navLabel": "Main navigation",
   "site.nav.works": "Uchronias",
-  "site.nav.tree": "Tree",
   "site.nav.preview": "Preview",
   "site.footer": "Archive in progress. Texts and attributions under review.",
   "site.languageLabel": "Interface language",
@@ -886,24 +866,6 @@ const en: Record<keyof typeof it, string> = {
   "home.none": "The first texts will appear here after conversion.",
   "home.note":
     "The collection is under review: titles, attributions and links will be checked during editorial conversion.",
-  "tree.title": "Tree of eras",
-  "tree.heading": "The tree of eras",
-  "tree.lede":
-    "The trunk is real history, from prehistory to the future. From each era branch the works set there: follow a branch to read them.",
-  "tree.yearNote":
-    "The year beside a title is the first one cited at the start of the text and orders the branches; it is not necessarily where the story diverges.",
-  "tree.jump": "Go to an era",
-  "tree.trunk": "Eras in chronological order",
-  "tree.more": "Show {n} more works",
-  "tree.showAll": "Show the list",
-  "tree.outsideNote":
-    "Utopias, imaginary worlds and texts that belong to no historical era.",
-  "tree.unplaced": "Works without an era",
-  "tree.unplacedNote":
-    "{n} works have no era yet: the text cites no usable year and the original catalog did not place them. The other {placed} are on the trunk.",
-  "tree.caveat":
-    "A work appears in several eras if it spans them. The short prompts of the Lista delle ucronie stay ordered by period in their own index:",
-  "tree.listaLink": "open the Lista delle ucronie",
   "whatif.title": "What if…?",
   "whatif.heading": "What if…?",
   "whatif.lede":
@@ -911,7 +873,7 @@ const en: Record<keyof typeof it, string> = {
   "whatif.read": "Read the work",
   "whatif.again": "Another story",
   "whatif.note": "Rather choose yourself?",
-  "whatif.tree": "Browse the tree of eras",
+  "whatif.tree": "Browse the works by period",
   "history.title": "Site history",
   "history.heading": "Site history",
   "history.lede":

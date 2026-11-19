@@ -1,8 +1,7 @@
 ---
-import { getCollection } from "astro:content";
-import catalogNotes from "../../data/catalog.json";
+import { catalogCards, catalogFormats, featuredIds } from "../catalog-entries";
 import CatalogCover from "../components/CatalogCover.astro";
-import { contentPath, transitionName } from "../content-path";
+import { transitionName } from "../content-path";
 import { type Lang, localePath, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
 import "../styles/catalog.css";
@@ -10,101 +9,64 @@ import "../styles/authors.css";
 
 interface Props {
   lang: Lang;
-  library?: boolean;
 }
-const { lang, library = false } = Astro.props;
+const { lang } = Astro.props;
 const t = useTranslations(lang);
-const notes = catalogNotes as Record<
-  string,
-  { cover?: string; motif: string; it: string; en: string }
->;
-const priority = [
-  "ucronia-spot-the-pod-49f6bc7d",
-  "ucronie-presidenziali-americane-7418c6de",
-  "akhenaton-superstar-633d74ed",
-  "fantacomneni-2cf7f0fc",
-  "avanti-sardegna-come-la-sardegna-ha-riunito-l-italia-1249f6c1",
-  "come-il-mago-pietro-bailardo-si-salvo-l-anima-con-l-aiuto-del-diavolo-1b190b4f",
-];
-const works = (await getCollection("works"))
-  .filter(
-    (work) =>
-      !library ||
-      (work.data.level === "work" && Boolean(work.data.editorialId)),
-  )
-  .sort((a, b) => {
-    const rank = (id: string) => {
-      const i = priority.indexOf(id);
-      return i < 0 ? 100 : i;
-    };
-    const archive = (id: string) => (notes[id]?.motif === "archive" ? 1000 : 0);
-    return (
-      rank(a.id) + archive(a.id) - (rank(b.id) + archive(b.id)) ||
-      a.data.title.localeCompare(b.data.title, lang)
-    );
-  });
-const clean = (s: string) => s.replace(/^\[ucronia\]\s*/i, "");
-const format = (work: (typeof works)[number]) =>
-  work.data.level === "divergence"
-    ? "divergence"
-    : notes[work.id]?.motif === "archive"
-      ? "archive"
-      : (work.data.shape ?? "work");
-const count = (n: number) =>
-  `${n} ${n === 1 ? t("home.count.one") : t("home.count.many")}`;
-const types = [
-  "all",
-  "divergence",
-  "chronology",
-  "narrative",
-  "discussion",
-  "collection",
-  "archive",
-] as const;
-const featured = works.find((w) => w.id === "ucronia-spot-the-pod-49f6bc7d");
-const featuredPath = featured
-  ? localePath(lang, `/works/${featured.id}/`)
-  : "#collection";
+// The page carries only the featured cards; /catalog.js replaces them with a
+// random pick from /catalog/<lang>.json and filters that list on demand.
+const cards = await catalogCards(lang);
+const featured = cards.slice(0, featuredIds.length);
+const featuredPath = localePath(lang, `/works/${featuredIds[0]}/`);
+const labels = {
+  formats: Object.fromEntries(
+    [...catalogFormats, "work"].map((f) => [
+      f,
+      t(`atlas.type.${f}` as Parameters<typeof t>[0]),
+    ]),
+  ),
+  languages: Object.fromEntries(
+    ["it", "fr", "es", "en", "unknown"].map((l) => [
+      l,
+      t(`lang.${l}` as Parameters<typeof t>[0]),
+    ]),
+  ),
+  random: t("atlas.randomCount", { n: "{n}", total: "{total}" }),
+  found: t("atlas.foundCount", { n: "{n}" }),
+  one: t("atlas.foundOne"),
+};
 ---
-<Base title={t(library ? "library.title" : "home.title")} lang={lang}>
+<Base title={t("home.title")} lang={lang}>
   <div class="atlas-home">
-    {library ? <header class="page-intro"><h1 class="page-title">{t("library.title")}</h1><p class="page-lede">{t("library.intro")}</p><nav class="library-links" aria-label={t("browse.indexes")}><a href={localePath(lang, "/authors/")}>{t("authors.title")}</a><a href={localePath(lang, "/worlds/")}>{t("worlds.title")}</a><a href={localePath(lang, "/eras/")}>{t("facet.eras.title")}</a><a href={localePath(lang, "/places/")}>{t("facet.places.title")}</a><a href={localePath(lang, "/themes/")}>{t("facet.themes.title")}</a><a href={localePath(lang, "/works/")}>{t("library.historical")}</a></nav><p class="small-note">{t("library.scope")}</p></header> : <><section class="atlas-opening" aria-labelledby="atlas-title">
+    <section class="atlas-opening" aria-labelledby="atlas-title">
       <div class="atlas-intro">
         <p class="atlas-signature">{t("atlas.signature")}</p>
         <h1 id="atlas-title">{t("atlas.heading")}</h1>
         <p class="atlas-description">{t("atlas.description")}</p>
         <a class="atlas-button" href="#collection">{t("atlas.explore")}<svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 4v16m-6-6 6 6 6-6" stroke="currentColor" stroke-width="1.5" /></svg></a>
-        <div class="atlas-footnote"><span>{t("atlas.originalSince")}</span><a href={localePath(lang, "/tree/")}>{t("atlas.tree")}</a><a href={localePath(lang, "/whatif/")}>{t("whatif.title")}</a></div>
+        <div class="atlas-footnote"><span>{t("atlas.originalSince")}</span><a href={localePath(lang, "/whatif/")}>{t("whatif.title")}</a></div>
       </div>
       <a class="atlas-map" href={featuredPath}>
         <div class="atlas-map-image"><img src="/design/spot-the-pod.gif" width="944" height="599" alt={t("atlas.mapAlt")} fetchpriority="high" /><svg class="map-forks" viewBox="0 0 640 420" fill="none" aria-hidden="true"><path d="M65 420V310Q65 270 110 270H245Q290 270 290 220V-20M110 270H390Q450 270 450 210V70M390 270H540Q585 270 585 320V440" stroke="currentColor" stroke-width="2"/><circle cx="290" cy="120" r="7" fill="currentColor"/><circle cx="450" cy="125" r="7" fill="currentColor"/><circle cx="585" cy="335" r="7" fill="currentColor"/></svg><span class="map-invitation">{t("atlas.mapPrompt")}</span></div>
         <div class="atlas-map-caption"><div><span class="atlas-map-label">{t("atlas.startHere")}</span><h2 id="map-feature-title">Spot the POD</h2></div><span class="feature-open" aria-hidden="true">↗</span></div>
       </a>
     </section>
-    <nav class="atlas-index-links" aria-label={t("browse.indexes")}><a href={localePath(lang,"/library/")}>{t("library.title")} ↗</a><a href={localePath(lang,"/authors/")}>{t("authors.title")} ↗</a><a href={localePath(lang,"/worlds/")}>{t("worlds.title")} ↗</a><a href={localePath(lang,"/eras/")}>{t("facet.eras.title")} ↗</a><a href={localePath(lang,"/themes/")}>{t("facet.themes.title")} ↗</a><p>{t("browse.homeIntro")}</p><a href={localePath(lang,"/divergences/")}>{t("browse.prompts.short")} ↗</a><a href={localePath(lang,"/works/")}>{t("browse.works.short")} ↗</a></nav>
-    </>}
+    <nav class="atlas-index-links" aria-label={t("browse.indexes")}><a href={localePath(lang,"/works/")}>{t("browse.works.title")} ↗</a><a href={localePath(lang,"/authors/")}>{t("authors.title")} ↗</a><a href={localePath(lang,"/worlds/")}>{t("worlds.title")} ↗</a><a href={localePath(lang,"/eras/")}>{t("facet.eras.title")} ↗</a><a href={localePath(lang,"/themes/")}>{t("facet.themes.title")} ↗</a><p>{t("browse.homeIntro")}</p><a href={localePath(lang,"/divergences/")}>{t("browse.prompts.short")} ↗</a></nav>
     <section class="collection-section" id="collection" aria-labelledby="catalog-title">
-      <div class="collection-heading"><div><h2 id="catalog-title">{t(library ? "library.choose" : "atlas.collection")}</h2>{!library && <p>{t("atlas.collectionIntro")}</p>}</div><div class="catalog-view-switch" role="group" aria-label={t("atlas.view")} data-catalog-tools hidden><button type="button" data-view="covers" aria-pressed="true"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2h6v6H2zm10 0h6v6h-6zM2 12h6v6H2zm10 0h6v6h-6z" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.covers")}</button><button type="button" data-view="list" aria-pressed="false"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 4h16M2 10h16M2 16h16" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.list")}</button></div></div>
+      <div class="collection-heading"><div><h2 id="catalog-title">{t("atlas.collection")}</h2><p>{t("atlas.collectionIntro")}</p></div><div class="catalog-view-switch" role="group" aria-label={t("atlas.view")} data-catalog-tools hidden><button type="button" data-view="covers" aria-pressed="true"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 2h6v6H2zm10 0h6v6h-6zM2 12h6v6H2zm10 0h6v6h-6z" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.covers")}</button><button type="button" data-view="list" aria-pressed="false"><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M2 4h16M2 10h16M2 16h16" stroke="currentColor" stroke-width="1.5" /></svg>{t("atlas.list")}</button></div></div>
       <form class="atlas-filters" role="search" aria-label={t("home.filters")} data-catalog-tools hidden>
         <div class="atlas-search"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5" stroke="currentColor" stroke-width="1.7"/><path d="m16 16 5 5" stroke="currentColor" stroke-width="1.7"/></svg><label class="visually-hidden" for="catalog-search">{t("home.search")}</label><input id="catalog-search" name="q" type="search" placeholder={t("atlas.searchPlaceholder")} autocomplete="off" /></div>
         <label class="atlas-language" for="catalog-language"><span>{t("home.language")}</span><select id="catalog-language" name="lang"><option value="">{t("home.allLanguages")}</option><option value="it">{t("lang.it")}</option><option value="fr">{t("lang.fr")}</option><option value="es">{t("lang.es")}</option><option value="en">{t("lang.en")}</option><option value="unknown">{t("lang.unknown")}</option></select></label>
       </form>
-      <div class="catalog-toolbar"><div class="format-filters" role="group" aria-label={t("atlas.format")} data-catalog-tools hidden>{types.map(type => <button type="button" data-format={type} aria-pressed={type === "all" ? "true" : "false"}>{t(`atlas.type.${type}`)}</button>)}</div><p id="catalog-count" role="status" data-one={t("home.count.one")} data-many={t("home.count.many")}>{count(works.length)}</p></div>
-      <ul class="atlas-catalog" data-catalog data-view="covers">
-        {works.map((work) => {
-          const note = notes[work.id];
-          const title = clean(work.data.title);
-          const summary = note?.[lang] ?? work.data.summary ?? "";
-          const authors = work.data.authors;
-          const variants = work.data.outline?.filter(i => i.contribution === "variant").length ?? 0;
-          return <li data-work data-title={`${title} ${authors.join(" ")} ${(work.data.contributors ?? []).join(" ")} ${summary}`} data-language={work.data.language} data-format={format(work)}>
-            <a class="work-card" href={localePath(lang, contentPath(work))}>
-              <CatalogCover image={note?.cover ?? work.data.cover} motif={note?.motif ?? "story"} title={title} />
-              <div class="work-info"><div class="work-card-meta"><span>{t(`atlas.type.${format(work)}`)}</span><span>{t(`lang.${work.data.language}`)}</span></div><h3 id={`title-${work.id}`} style={`view-transition-name:${transitionName(work.id)};view-transition-class:work-title`} lang={work.data.language === "unknown" ? "" : work.data.language}>{title}</h3><p class="work-description" lang={note ? lang : work.data.language === "unknown" ? "" : work.data.language}>{summary}</p><div class="work-card-foot"><span>{authors.length ? authors.join(", ") : work.data.contributors?.length ? t("atlas.collective") : t("atlas.fromArchive")}</span><span class="work-read">{variants > 0 ? t("atlas.variants", { n: variants }) : t("atlas.read")}<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></span></div></div>
+      <div class="catalog-toolbar"><div class="format-filters" role="group" aria-label={t("atlas.format")} data-catalog-tools hidden>{catalogFormats.map(type => <button type="button" data-format={type} aria-pressed={type === "all" ? "true" : "false"}>{t(`atlas.type.${type}`)}</button>)}</div><p id="catalog-count" role="status">{t("atlas.featuredCount", { n: featured.length, total: cards.length })}</p></div>
+      <ul class="atlas-catalog" data-catalog data-view="covers" data-source={`/catalog/${lang}.json`} data-labels={JSON.stringify(labels)}>
+        {featured.map((card) => <li data-work>
+            <a class="work-card" href={card.href}>
+              <CatalogCover image={card.c} motif={card.m} title={card.title} />
+              <div class="work-info"><div class="work-card-meta"><span>{labels.formats[card.f]}</span><span>{labels.languages[card.l]}</span></div><h3 style={`view-transition-name:${transitionName(card.href.split("/").at(-2) ?? "")};view-transition-class:work-title`} lang={card.l === "unknown" ? "" : card.l}>{card.title}</h3><p class="work-description" lang={card.sl}>{card.s}</p><div class="work-card-foot"><span>{card.b}</span><span class="work-read">{card.r}<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"><path d="M4 10h12m-5-5 5 5-5 5" stroke="currentColor" stroke-width="1.5"/></svg></span></div></div>
             </a>
-          </li>;
-        })}
+          </li>)}
       </ul>
+      <div class="catalog-more" data-catalog-tools hidden><button type="button" data-shuffle>{t("atlas.shuffle")}</button><button type="button" data-more hidden>{t("atlas.more")}</button></div>
       <div class="catalog-empty" id="catalog-empty" hidden><h3>{t("atlas.noResults")}</h3><p>{t("home.empty")}</p><button type="button" data-reset-filters>{t("atlas.reset")}</button></div>
       <p class="atlas-archive-note">{t("home.note")}</p>
     </section>

@@ -59,6 +59,8 @@ export const catalogEntrySchema = z.object({
   group: z.string(),
   source: z.string(),
   cell: z.number().int().nonnegative(),
+  /** Not in the 2004 catalog: placed by its approved era (or in "found"). */
+  added: z.boolean().optional(),
   targets: z.array(z.string()).min(1),
 });
 export const browseSchema = z
