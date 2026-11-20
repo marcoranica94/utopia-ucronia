@@ -61,7 +61,7 @@ const ROUTES = [
   "/history/",
   "/search/",
   "/sources/doc-005bfe47becd/",
-  "/archive-records/record-0c74d1535acd/",
+  "/archive-records/record-0efe278faf87/",
   "/gaps/",
   "/design/",
   "/404.html",

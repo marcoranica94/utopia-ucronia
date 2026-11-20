@@ -272,8 +272,8 @@
   "linkedPrompts": 280,
   "documentedDevelopments": 228,
   "statuses": {
-    "ready": 1139,
-    "recovered": 17,
+    "ready": 1141,
+    "recovered": 15,
     "missing": 8,
     "external": 71
   },
@@ -349,6 +349,10 @@
     {
       "url": "http://www.fmboschetto.it/racconti/iperimpero/cartina_impero_Marco_Aurelio.htm",
       "sha256": "58e20c310b20fa56e2ca95c07cd7087811a1299381c313f9db8e7f997b6eb41e"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/iperimpero/Index.htm",
+      "sha256": "e7ad8ae6bf45c0e84906c447ddff1b6898dfa75617129fddf743dda92172e2a4"
     },
     {
       "url": "http://www.fmboschetto.it/racconti/iperimpero/Intestazione.htm",
@@ -473,6 +477,10 @@
     {
       "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Fanta_Olimpiadi.htm",
       "sha256": "4d3d987b836adc31cd344e92386109374335f20a2023f8ac58dc989bbee14212"
+    },
+    {
+      "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Index.htm",
+      "sha256": "07c5fa6847626bd08bb64ea46f011d0c7888818d4fb6572174b4b95d761ca994"
     },
     {
       "url": "http://www.fmboschetto.it/racconti/Roma_in_America/Intestazione.htm",

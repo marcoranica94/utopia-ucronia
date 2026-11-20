@@ -6,6 +6,7 @@ import {
   browseSchema,
 } from "../src/browse/model.ts";
 import type { EditorialSource } from "../src/editorial/model.ts";
+import { worldsFileSchema } from "../src/editorial/worlds.ts";
 import { blocks } from "./anatomy.ts";
 import {
   catalogCells,
@@ -24,6 +25,7 @@ import {
   urlKey,
   writeJson,
 } from "./recovery/core.ts";
+import { linkTarget } from "./worlds-core.ts";
 
 const map = await readMap();
 const manifest = await readManifest();
@@ -167,6 +169,29 @@ for (const page of conversions.filter((c) => !c.legacyPreview)) {
     }
   }
 }
+// A world told from a contents page is read from its world page: the
+// contents page, and a frameset page that shows it, lead there.
+const worldEntrances = new Map<string, string>();
+const worldsFile = worldsFileSchema.parse(
+  JSON.parse(await readFile("data/worlds.json", "utf8")),
+);
+for (const world of worldsFile.worlds) {
+  if (world.source.kind !== "contents") continue;
+  const contents = world.source.document.toLowerCase();
+  const folder = contents.slice(0, contents.lastIndexOf("/") + 1);
+  for (const doc of manifest.documents) {
+    const path = doc.path?.toLowerCase() ?? "";
+    if (!path.startsWith(folder) || !isRecovered(doc)) continue;
+    if (!/html/i.test(doc.type ?? "")) continue;
+    const showsContents =
+      path === contents ||
+      load(await html(doc.url))("frame[src]")
+        .toArray()
+        .some((f) => linkTarget(f.attribs.src ?? "", path) === contents);
+    if (showsContents)
+      worldEntrances.set(urlKey(doc.url), `/worlds/${world.id}/`);
+  }
+}
 const targets = new Map<string, BrowseTarget>();
 async function target(url: string, title: string) {
   const key = resourceKey(url);
@@ -183,7 +208,7 @@ async function target(url: string, title: string) {
   const fragment = new URL(url).hash;
   const readingHref = fragment
     ? (readyAnchors.get(key) ?? readyRoots.get(root))
-    : readyRoots.get(root);
+    : (readyRoots.get(root) ?? worldEntrances.get(root));
   const status = readingHref
     ? "ready"
     : !internal
