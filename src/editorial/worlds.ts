@@ -41,6 +41,9 @@ export const worldSourceSchema = z.discriminatedUnion("kind", [
   // Published works titled "<prefix> Parte prima", "… seconda", … in the
   // order of the part number (S8).
   z.object({ kind: z.literal("series"), prefix: z.string().min(1) }),
+  // The numbered pages of one work, "x.htm", "x_2.htm", "x_3.htm"… in the
+  // same folder, which link to each other as its parts (S8).
+  z.object({ kind: z.literal("parts"), document: z.string().min(1) }),
 ]);
 
 export const worldChapterSchema = z.object({

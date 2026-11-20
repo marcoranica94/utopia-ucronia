@@ -7,6 +7,7 @@ import {
   mergeOrders,
   navigationList,
   navigationMembers,
+  numberedPages,
   numberedParts,
   reciprocalClusters,
 } from "../scripts/worlds-core.ts";
@@ -111,6 +112,25 @@ test("reciprocal clusters skip site menus; numbered parts are recognised", () =>
   assert.equal(numberedParts(["u/x.htm", "u/x_2.htm", "u/x_3.htm"]), true);
   assert.equal(numberedParts(["r/iperimp1.htm", "r/iperimp12.htm"]), true);
   assert.equal(numberedParts(["u/x.htm", "u/y.htm"]), false);
+});
+
+test("numbered pages follow their number, the unnumbered page first", () => {
+  const paths = [
+    "u/x_10.htm",
+    "u/x_2.htm",
+    "u/x.htm",
+    "u/x_extra.htm",
+    "u/xy.htm",
+    "v/x_3.htm",
+    "u/x_3.htm",
+  ];
+  assert.deepEqual(numberedPages(paths, "u/x.htm"), [
+    "u/x.htm",
+    "u/x_2.htm",
+    "u/x_3.htm",
+    "u/x_10.htm",
+  ]);
+  assert.deepEqual(numberedPages(paths, "u/missing.pdf"), []);
 });
 
 test("data/worlds.json is valid, approvals only by the owner, no shared chapters", async () => {

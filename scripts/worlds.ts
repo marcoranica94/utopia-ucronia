@@ -14,6 +14,7 @@ import {
   navigationList,
   navigationMembers,
   normalText,
+  numberedPages,
   numberedParts,
   reciprocalClusters,
   sectionLinks,
@@ -181,6 +182,11 @@ function derivePaths(world: World): string[] {
     for (const x of source.exclude)
       if (!listed.includes(x)) fail(world, `excluded page not listed: ${x}`);
     return listed.filter((p) => byPath.has(p) && !source.exclude.includes(p));
+  }
+  if (source.kind === "parts") {
+    if (!byPath.has(source.document))
+      fail(world, `first part not archived: ${source.document}`);
+    return numberedPages(byPath.keys(), source.document);
   }
   const lists = new Map<string, string[]>();
   for (const [path, page] of html) {

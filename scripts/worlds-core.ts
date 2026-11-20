@@ -231,3 +231,23 @@ export function numberedParts(pages: string[]) {
   );
   return stems.size === 1;
 }
+
+/**
+ * The numbered pages of one work (S8): `first` ("u/x.htm") and the pages
+ * named "u/x_2.htm", "u/x_3.htm"… in the same folder, in number order, the
+ * page without a number first. Paths are lowercase archive paths.
+ */
+export function numberedPages(paths: Iterable<string>, first: string) {
+  const match = /^(.*)\.(html?)$/.exec(first);
+  if (!match) return [];
+  const [, stem] = match;
+  const escaped = stem.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+  const part = new RegExp(`^${escaped}(?:_(\\d+))?\\.html?$`);
+  return [...paths]
+    .flatMap((path) => {
+      const m = part.exec(path);
+      return m ? [{ path, n: m[1] ? Number(m[1]) : 1 }] : [];
+    })
+    .sort((a, b) => a.n - b.n || (a.path < b.path ? -1 : 1))
+    .map((p) => p.path);
+}

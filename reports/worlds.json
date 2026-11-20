@@ -89,9 +89,81 @@
       "form": "world",
       "state": "approved",
       "chapters": 2
+    },
+    {
+      "id": "la-grande-muraglia-romana",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 7
+    },
+    {
+      "id": "il-re-sole-muore-nel-1680",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 4
+    },
+    {
+      "id": "l-empoisonnement-de-louis-xiv",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 3
+    },
+    {
+      "id": "pitea-il-bugiardo",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 3
+    },
+    {
+      "id": "pytheas-le-menteur",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 3
+    },
+    {
+      "id": "francia-e-italia-scambiate-di-posto",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 3
+    },
+    {
+      "id": "ottocento-italiano",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 2
+    },
+    {
+      "id": "i-germani-in-oriente",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 2
+    },
+    {
+      "id": "le-tre-italie",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 2
+    },
+    {
+      "id": "restauratio-imperii",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 3
+    },
+    {
+      "id": "fantacomneni",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 2
+    },
+    {
+      "id": "il-signore-degli-anelli-per-davvero",
+      "form": "cycle",
+      "state": "proposed",
+      "chapters": 2
     }
   ],
-  "rejected": 10,
+  "rejected": 7,
   "unreviewed": [],
   "errors": []
 }

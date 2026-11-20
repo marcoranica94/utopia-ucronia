@@ -1282,6 +1282,462 @@
           "entry": "DRAGHI2.pdf"
         }
       ]
+    },
+    {
+      "id": "la-grande-muraglia-romana",
+      "title": "La Grande Muraglia Romana",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "Un Grande Vallo romano sul confine occidentale, in sette parti scritte a turno da Lord Wilmore e William Riker.",
+        "en": "A great Roman wall on the western frontier, in seven parts written in turn by Lord Wilmore and William Riker."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/grande_muraglia_romana.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/grande_muraglia_romana_2.htm",
+        "quote": "Ecco la seconda parte dell'ucronia che prevede un Grande Vallo eretto dai Romani"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Seven numbered pages of one uchronia; each part links to the previous ones and to the next (\"Continua: per leggere il seguito\").",
+        "quote": "Ecco la seconda parte dell'ucronia che prevede un Grande Vallo eretto dai Romani"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-117f50193141",
+          "path": "utopiaucronia/grande_muraglia_romana.htm"
+        },
+        {
+          "documentId": "doc-6e8bb67b77c7",
+          "path": "utopiaucronia/grande_muraglia_romana_2.htm"
+        },
+        {
+          "documentId": "doc-b3c1575daec0",
+          "path": "utopiaucronia/grande_muraglia_romana_3.htm"
+        },
+        {
+          "documentId": "doc-356f761737cd",
+          "path": "utopiaucronia/grande_muraglia_romana_4.htm"
+        },
+        {
+          "documentId": "doc-f8b701af4d72",
+          "path": "utopiaucronia/grande_muraglia_romana_5.htm"
+        },
+        {
+          "documentId": "doc-60faa70e4d31",
+          "path": "utopiaucronia/grande_muraglia_romana_6.htm"
+        },
+        {
+          "documentId": "doc-685eb614cba2",
+          "path": "utopiaucronia/grande_muraglia_romana_7.htm"
+        }
+      ]
+    },
+    {
+      "id": "il-re-sole-muore-nel-1680",
+      "title": "Il Re Sole muore nel 1680...",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "La Francia alternativa nata dalla morte di Luigi XIV nel 1680, in quattro pagine di Perché No?.",
+        "en": "The alternative France born from the death of Louis XIV in 1680, in four pages by Perché No?."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/fanta_luigi_xiv.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/fanta_luigi_xiv_2.htm",
+        "quote": "Continua la vicenda di questa Francia alternativa; per leggere la prima parte, cliccate qui"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Four numbered pages of one uchronia, each linking back to the earlier parts.",
+        "quote": "Continua la vicenda di questa Francia alternativa; per leggere la prima parte, cliccate qui"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-0ba873d559e1",
+          "path": "utopiaucronia/fanta_luigi_xiv.htm"
+        },
+        {
+          "documentId": "doc-5b0800a1f588",
+          "path": "utopiaucronia/fanta_luigi_xiv_2.htm"
+        },
+        {
+          "documentId": "doc-576c9f9158e7",
+          "path": "utopiaucronia/fanta_luigi_xiv_3.htm"
+        },
+        {
+          "documentId": "doc-af4d23a0dec3",
+          "path": "utopiaucronia/fanta_luigi_xiv_4.htm"
+        }
+      ]
+    },
+    {
+      "id": "l-empoisonnement-de-louis-xiv",
+      "title": "L’empoisonnement de Louis XIV (1680)",
+      "form": "cycle",
+      "language": "fr",
+      "description": {
+        "it": "La versione francese della stessa storia di Perché No?, in tre pagine che si seguono.",
+        "en": "The French version of the same history by Perché No?, in three consecutive pages."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/uchroniesenfrancais/sans_louis_xiv.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/uchroniesenfrancais/sans_louis_xiv_2.htm",
+        "quote": "Continue de la première page"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Three numbered pages of one French uchronia, linked with \"Allez à la page suivante\".",
+        "quote": "Continue de la première page"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-b8464b305666",
+          "path": "utopiaucronia/uchroniesenfrancais/sans_louis_xiv.htm"
+        },
+        {
+          "documentId": "doc-0f74cfa06fd1",
+          "path": "utopiaucronia/uchroniesenfrancais/sans_louis_xiv_2.htm"
+        },
+        {
+          "documentId": "doc-305d744e957d",
+          "path": "utopiaucronia/uchroniesenfrancais/sans_louis_xiv_3.htm"
+        }
+      ]
+    },
+    {
+      "id": "pitea-il-bugiardo",
+      "title": "Pitea il bugiardo",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "La scoperta dell'America da parte del navigatore greco Pitea, in tre parti di Perchè No?.",
+        "en": "The discovery of America by the Greek navigator Pytheas, in three parts by Perchè No?."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/fanta_pitea.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/fanta_pitea_2.htm",
+        "quote": "Ecco ora la seconda parte dell'ucronia di Perchè No?"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Three numbered pages of one uchronia, linked as its second and third part.",
+        "quote": "Ecco ora la seconda parte dell'ucronia di Perchè No?"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-7de4b9432f24",
+          "path": "utopiaucronia/fanta_pitea.htm"
+        },
+        {
+          "documentId": "doc-108dd9ae30f5",
+          "path": "utopiaucronia/fanta_pitea_2.htm"
+        },
+        {
+          "documentId": "doc-0dadf4a43e30",
+          "path": "utopiaucronia/fanta_pitea_3.htm"
+        }
+      ]
+    },
+    {
+      "id": "pytheas-le-menteur",
+      "title": "Pythéas le menteur",
+      "form": "cycle",
+      "language": "fr",
+      "description": {
+        "it": "La versione francese di Pitea il bugiardo, in tre epoche.",
+        "en": "The French version of Pitea il bugiardo, in three epochs."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/uchroniesenfrancais/pytheas_le_menteur.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/uchroniesenfrancais/pytheas_le_menteur_2.htm",
+        "quote": "Première époque Deuxième époque : Moyen-âge I"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Three numbered pages of one French uchronia, one per epoch, linked to each other.",
+        "quote": "Première époque Deuxième époque : Moyen-âge I"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-adb26e99454b",
+          "path": "utopiaucronia/uchroniesenfrancais/pytheas_le_menteur.htm"
+        },
+        {
+          "documentId": "doc-b93da8215a1d",
+          "path": "utopiaucronia/uchroniesenfrancais/pytheas_le_menteur_2.htm"
+        },
+        {
+          "documentId": "doc-5edc26278992",
+          "path": "utopiaucronia/uchroniesenfrancais/pytheas_le_menteur_3.htm"
+        }
+      ]
+    },
+    {
+      "id": "francia-e-italia-scambiate-di-posto",
+      "title": "Francia e Italia scambiate di posto!",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "L'ucronia simmetrizzante di William Riker in cui Francia e Italia si scambiano il posto, in tre parti.",
+        "en": "William Riker's mirror uchronia in which France and Italy swap places, in three parts."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/francia_italia.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/francia_italia_2.htm",
+        "quote": "Ed ecco la seconda parte della mia ucronia simmetrizzante"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Three numbered pages of one uchronia, each linking to the other parts.",
+        "quote": "Ed ecco la seconda parte della mia ucronia simmetrizzante"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-00fa65e3b7c3",
+          "path": "utopiaucronia/francia_italia.htm"
+        },
+        {
+          "documentId": "doc-cc6e3a11f675",
+          "path": "utopiaucronia/francia_italia_2.htm"
+        },
+        {
+          "documentId": "doc-ef672a9069d9",
+          "path": "utopiaucronia/francia_italia_3.htm"
+        }
+      ]
+    },
+    {
+      "id": "ottocento-italiano",
+      "title": "Ottocento Italiano",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "L'Italia che arriva divisa al Novecento, in due parti di William Riker.",
+        "en": "An Italy still divided at the start of the twentieth century, in two parts by William Riker."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/sissi_napoletana.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/sissi_napoletana_2.htm",
+        "quote": "Per leggere la prima parte, cliccate qui"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Two numbered pages of one uchronia, linked as first and second part.",
+        "quote": "Per leggere la prima parte, cliccate qui"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-99e614e5a9ac",
+          "path": "utopiaucronia/sissi_napoletana.htm"
+        },
+        {
+          "documentId": "doc-167878df7ef0",
+          "path": "utopiaucronia/sissi_napoletana_2.htm"
+        }
+      ]
+    },
+    {
+      "id": "i-germani-in-oriente",
+      "title": "I Germani in Oriente",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "L'invasione germanica dell'Impero d'Oriente, nel primo e nel secondo millennio.",
+        "en": "The Germanic invasion of the Eastern Empire, in the first and the second millennium."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/germani_in_oriente.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/germani_in_oriente_2.htm",
+        "quote": "Ed ecco la seconda parte dell'ucronia che prevede l'invasione da parte dei Germani"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Two numbered pages of one uchronia, linked as first and second part.",
+        "quote": "Ed ecco la seconda parte dell'ucronia che prevede l'invasione da parte dei Germani"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-f78b776060a1",
+          "path": "utopiaucronia/germani_in_oriente.htm"
+        },
+        {
+          "documentId": "doc-fe5b49bc2e33",
+          "path": "utopiaucronia/germani_in_oriente_2.htm"
+        }
+      ]
+    },
+    {
+      "id": "le-tre-italie",
+      "title": "Le Tre Italie",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "L'ucronia di Enrica S. per la Festa di Utopiaucronia del 2016, in due parti.",
+        "en": "Enrica S.'s uchronia for the 2016 Utopiaucronia festival, in two parts."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/tre_italie.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/tre_italie_2.htm",
+        "quote": "Per leggere la prima parte di questa ucronia, cliccate qui"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Two numbered pages of one uchronia, linked as first and second part.",
+        "quote": "Per leggere la prima parte di questa ucronia, cliccate qui"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-3d54c4d5204f",
+          "path": "utopiaucronia/tre_italie.htm"
+        },
+        {
+          "documentId": "doc-53025885202e",
+          "path": "utopiaucronia/tre_italie_2.htm"
+        }
+      ]
+    },
+    {
+      "id": "restauratio-imperii",
+      "title": "Restauratio Imperii",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "Tre versioni della riconquista di Giustiniano, scritte da Enrico Pizzo, Basileus TFT e Iacopo.",
+        "en": "Three versions of Justinian's reconquest, by Enrico Pizzo, Basileus TFT and Iacopo."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/restauratio_imperii.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/restauratio_imperii_3.htm",
+        "quote": "Cliccate qui se volete leggere l'ucronia sullo stesso tema di Enrico Pizzo, mentre cliccando qui leggerete la versione di Basileus TFT"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Three numbered pages, each a different author's uchronia on the same theme, linked to each other.",
+        "quote": "Cliccate qui se volete leggere l'ucronia sullo stesso tema di Enrico Pizzo, mentre cliccando qui leggerete la versione di Basileus TFT"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-2e0c25d17bf0",
+          "path": "utopiaucronia/restauratio_imperii.htm"
+        },
+        {
+          "documentId": "doc-962a79efad68",
+          "path": "utopiaucronia/restauratio_imperii_2.htm"
+        },
+        {
+          "documentId": "doc-442af9608f6e",
+          "path": "utopiaucronia/restauratio_imperii_3.htm"
+        }
+      ]
+    },
+    {
+      "id": "fantacomneni",
+      "title": "FantaComneni!",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "Le linee alternative sui Comneni di Filobeche e la versione della stessa ucronia di Iacopo Maffi.",
+        "en": "Filobeche's alternative lines on the Komnenoi and Iacopo Maffi's version of the same uchronia."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/fanta_comneni.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/fanta_comneni.htm",
+        "quote": "Per leggere una versione della stessa ucronia scritta da Iacopo Maffi, cliccate qui"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Two numbered pages: the first links to the second as another version of the same uchronia.",
+        "quote": "Per leggere una versione della stessa ucronia scritta da Iacopo Maffi, cliccate qui"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-2cf7f0fc7b6a",
+          "path": "utopiaucronia/fanta_comneni.htm"
+        },
+        {
+          "documentId": "doc-c4b37807693a",
+          "path": "utopiaucronia/fanta_comneni_2.htm"
+        }
+      ]
+    },
+    {
+      "id": "il-signore-degli-anelli-per-davvero",
+      "title": "Il Signore degli Anelli per davvero!",
+      "form": "cycle",
+      "language": "it",
+      "description": {
+        "it": "L'idea di Pedro Felipe di \"storicizzare\" il Signore degli Anelli e lo sviluppo di William Riker.",
+        "en": "Pedro Felipe's idea of turning The Lord of the Rings into history, and William Riker's development of it."
+      },
+      "source": {
+        "kind": "parts",
+        "document": "utopiaucronia/tolkien_per_davvero.htm"
+      },
+      "evidence": {
+        "document": "utopiaucronia/tolkien_per_davvero_2.htm",
+        "quote": "Per leggere invece la discussione e la versione di Pedro Felipe, cliccate qui"
+      },
+      "review": {
+        "by": "agent",
+        "state": "proposed",
+        "reason": "Two numbered pages: the proposal and a second version, linked to each other.",
+        "quote": "Per leggere invece la discussione e la versione di Pedro Felipe, cliccate qui"
+      },
+      "chapters": [
+        {
+          "documentId": "doc-23aac510a747",
+          "path": "utopiaucronia/tolkien_per_davvero.htm"
+        },
+        {
+          "documentId": "doc-f8d57134e197",
+          "path": "utopiaucronia/tolkien_per_davvero_2.htm"
+        }
+      ]
     }
   ],
   "rejected": [
@@ -1299,25 +1755,10 @@
     },
     {
       "documents": [
-        "utopiaucronia/francia_italia.htm",
-        "utopiaucronia/francia_italia_2.htm",
-        "utopiaucronia/francia_italia_3.htm",
         "utopiaucronia/cristianesimo_islam.htm",
         "utopiaucronia/italia_jugoslavia.htm"
       ],
-      "reason": "One work in three numbered parts plus two other swap uchronias it cites in its prose; no shared heading or contents page makes them a cycle."
-    },
-    {
-      "documents": [
-        "utopiaucronia/grande_muraglia_romana.htm",
-        "utopiaucronia/grande_muraglia_romana_2.htm",
-        "utopiaucronia/grande_muraglia_romana_3.htm",
-        "utopiaucronia/grande_muraglia_romana_4.htm",
-        "utopiaucronia/grande_muraglia_romana_5.htm",
-        "utopiaucronia/grande_muraglia_romana_6.htm",
-        "utopiaucronia/grande_muraglia_romana_7.htm"
-      ],
-      "reason": "Numbered parts of one work: a merge question for the map, not a world."
+      "reason": "Two other swap uchronias cited in the prose of Francia e Italia scambiate di posto; no shared heading or contents page makes them part of its cycle."
     },
     {
       "documents": [
@@ -1345,22 +1786,6 @@
         "utopiaucronia/fanta_pitea_3.htm"
       ],
       "reason": "Numbered parts of one work: a merge question for the map, not a world."
-    },
-    {
-      "documents": [
-        "utopiaucronia/uchroniesenfrancais/pytheas_le_menteur.htm",
-        "utopiaucronia/uchroniesenfrancais/pytheas_le_menteur_2.htm",
-        "utopiaucronia/uchroniesenfrancais/pytheas_le_menteur_3.htm"
-      ],
-      "reason": "Numbered parts of one French work: a merge question for the map, not a world."
-    },
-    {
-      "documents": [
-        "utopiaucronia/uchroniesenfrancais/sans_louis_xiv.htm",
-        "utopiaucronia/uchroniesenfrancais/sans_louis_xiv_2.htm",
-        "utopiaucronia/uchroniesenfrancais/sans_louis_xiv_3.htm"
-      ],
-      "reason": "Numbered parts of one French work: a merge question for the map, not a world."
     },
     {
       "documents": [

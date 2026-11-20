@@ -75,6 +75,10 @@ const it = {
   "facet.back": "Tutte le voci",
   "facet.explore": "Esplora per epoca, luogo e tema",
   "facet.workLabel": "Classificazione proposta",
+  "facet.inWorld.world": "{n} di {total} capitoli qui",
+  "facet.inWorld.cycle": "{n} di {total} opere qui",
+  "type.work": "Opera",
+  "type.divergence": "Spunto",
   "worlds.title": "Mondi e cicli",
   "worlds.intro":
     "Storie alternative raccontate in molti capitoli e serie di opere che il sito originale raccoglieva sotto un titolo comune. I capitoli restano opere a sé: qui sono messi in fila nell'ordine della fonte.",
@@ -571,6 +575,10 @@ const en: Record<keyof typeof it, string> = {
   "facet.back": "All entries",
   "facet.explore": "Explore by era, place and theme",
   "facet.workLabel": "Proposed classification",
+  "facet.inWorld.world": "{n} of {total} chapters here",
+  "facet.inWorld.cycle": "{n} of {total} works here",
+  "type.work": "Work",
+  "type.divergence": "Prompt",
   "worlds.title": "Worlds and cycles",
   "worlds.intro":
     "Alternative histories told across many chapters, and series of works the original site gathered under a shared title. Chapters remain works of their own: here they are lined up in the source's order.",

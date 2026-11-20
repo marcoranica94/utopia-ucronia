@@ -1,13 +1,16 @@
 ---
+import { getCollection } from "astro:content";
 import type { Facet as FacetName } from "../editorial/vocabulary";
 import {
   type FacetEntry,
   type FacetValue,
   facetRoots,
+  facetRows,
   rangeLabel,
 } from "../facet-index";
 import { type Lang, localePath, useTranslations } from "../i18n";
 import Base from "../layouts/Base.astro";
+import { buildWorlds, type WorldItem, worldPath } from "../world-index";
 import "../styles/authors.css";
 import "../styles/facets.css";
 
@@ -19,10 +22,14 @@ interface Props {
 const { facet, value, lang } = Astro.props;
 const t = useTranslations(lang);
 const range = rangeLabel(value, lang);
+const worlds = buildWorlds(
+  (await getCollection("works")) as unknown as WorldItem[],
+);
 const sections: [string, FacetEntry[]][] = [
   ["approved", value.approved],
   ["proposed", value.proposed],
 ];
+const itemLang = (l: string) => (l === "unknown" ? undefined : l);
 ---
 <Base title={`${value.label[lang]} · ${t(`facet.${facet}.title`)}`} lang={lang}>
   <a class="back-link" href={localePath(lang, facetRoots[facet])}>{t("facet.back")}: {t(`facet.${facet}.title`)}</a>
@@ -32,7 +39,15 @@ const sections: [string, FacetEntry[]][] = [
     <section class="facet-section" aria-labelledby={`facet-${state}`}>
       <h2 id={`facet-${state}`}>{t(`facet.${state}` as "facet.approved")} <small>({entries.length})</small></h2>
       <ul class="facet-entries">
-        {entries.map((entry) => <li><a href={localePath(lang, entry.path)} lang={entry.language === "unknown" ? undefined : entry.language}>{entry.title}</a>{entry.authors.length > 0 && <span class="facet-authors">{entry.authors.join(", ")}</span>}{state === "proposed" && <p class="facet-reason">{entry.reason}</p>}</li>)}
+        {facetRows(entries, worlds).map((row) => row.kind === "item" ? (
+          <li><span class={`type-tag type-${row.entry.type}`}>{t(`type.${row.entry.type}`)}</span> <a href={localePath(lang, row.entry.path)} lang={itemLang(row.entry.language)}>{row.entry.title}</a>{row.entry.authors.length > 0 && <span class="facet-authors">{row.entry.authors.join(", ")}</span>}{state === "proposed" && <p class="facet-reason">{row.entry.reason}</p>}</li>
+        ) : (
+          <li class="facet-world"><span class={`type-tag type-${row.world.form}`}>{t(`worlds.form.${row.world.form}`)}</span> <a href={localePath(lang, worldPath(row.world.id))} lang={row.world.language}>{row.world.title}</a><span class="facet-authors">{t(`facet.inWorld.${row.world.form}`, { n: row.chapters.length, total: row.total })}{row.world.state !== "approved" && ` · ${t(`worlds.state.${row.world.state}` as "worlds.state.proposed")}`}</span>
+            <ol class="facet-world-chapters">
+              {row.chapters.map((entry) => <li value={entry.n}><a href={localePath(lang, entry.path)} lang={itemLang(entry.language)}>{entry.title}</a>{entry.authors.length > 0 && <span class="facet-authors">{entry.authors.join(", ")}</span>}{state === "proposed" && <p class="facet-reason">{entry.reason}</p>}</li>)}
+            </ol>
+          </li>
+        ))}
       </ul>
     </section>
   ))}

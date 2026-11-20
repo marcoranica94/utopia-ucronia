@@ -15,6 +15,15 @@
   --branch: #e2b69b;
   /* Words that were red in the original: the editors' frame. */
   --source-mark: #9a2a1c;
+  /* Entry types on facet pages: text and soft background per type. */
+  --tag-work-ink: #2c5578;
+  --tag-work-bg: #e6eef6;
+  --tag-prompt-ink: #7a4510;
+  --tag-prompt-bg: #f8ecdc;
+  --tag-world-ink: #1d5e4f;
+  --tag-world-bg: #dff1eb;
+  --tag-cycle-ink: #5a3d86;
+  --tag-cycle-bg: #eee8f6;
   --font-ui: "Titillium Web", "Segoe UI", Arial, sans-serif;
   --font-reading: Georgia, "Times New Roman", serif;
   --content-width: 1440px;
@@ -36,6 +45,14 @@
     --on-night: #f6f1e9;
     --branch: #e2b69b;
     --source-mark: #f2a593;
+    --tag-work-ink: #a9d1f2;
+    --tag-work-bg: #1f3349;
+    --tag-prompt-ink: #f0c48f;
+    --tag-prompt-bg: #3a2c1c;
+    --tag-world-ink: #8fd8c4;
+    --tag-world-bg: #173a33;
+    --tag-cycle-ink: #cdb6f2;
+    --tag-cycle-bg: #2f2742;
   }
 }
 :root[data-theme="dark"] {
@@ -53,4 +70,12 @@
   --on-night: #f6f1e9;
   --branch: #e2b69b;
   --source-mark: #f2a593;
+  --tag-work-ink: #a9d1f2;
+  --tag-work-bg: #1f3349;
+  --tag-prompt-ink: #f0c48f;
+  --tag-prompt-bg: #3a2c1c;
+  --tag-world-ink: #8fd8c4;
+  --tag-world-bg: #173a33;
+  --tag-cycle-ink: #cdb6f2;
+  --tag-cycle-bg: #2f2742;
 }

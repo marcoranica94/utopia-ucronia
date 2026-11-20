@@ -35,6 +35,9 @@ export interface ClassifiedItem {
   };
 }
 export interface FacetEntry {
+  id: string;
+  /** What the item is, shown as a tag next to its title. */
+  type: "work" | "divergence";
   title: string;
   path: string;
   authors: string[];
@@ -72,6 +75,8 @@ export function buildFacetIndex(
     )
       continue;
     const entry: FacetEntry = {
+      id: item.id,
+      type: item.data.level === "divergence" ? "divergence" : "work",
       title: item.data.title,
       path: contentPath(item),
       authors: item.data.authors,
@@ -104,4 +109,73 @@ export function rangeLabel(value: FacetValue, lang: "it" | "en") {
   if (value.start <= -100000) return `→ ${year(value.end ?? 0)}`;
   if ((value.end ?? 0) >= 9999) return `${year(value.start)} →`;
   return `${year(value.start)}–${year(value.end ?? value.start)}`;
+}
+
+/** One line of a facet page: an item, or a world or cycle with the items
+ * of it assigned to this entry, in the world's order. */
+export type FacetRow =
+  | { kind: "item"; entry: FacetEntry }
+  | {
+      kind: "world";
+      world: {
+        id: string;
+        title: string;
+        form: "world" | "cycle";
+        language: string;
+        state: string;
+      };
+      total: number;
+      /** `n`: the item's place in the world, counted from 1. */
+      chapters: (FacetEntry & { n: number })[];
+    };
+
+export function facetRows(
+  entries: FacetEntry[],
+  worlds: {
+    world: {
+      id: string;
+      title: string;
+      form: "world" | "cycle";
+      language: string;
+      review: { state: string };
+    };
+    chapters: { id: string }[];
+  }[],
+): FacetRow[] {
+  const worldOf = new Map<string, (typeof worlds)[number]>();
+  for (const w of worlds) for (const c of w.chapters) worldOf.set(c.id, w);
+  const rows: FacetRow[] = [];
+  const grouped = new Map<string, Extract<FacetRow, { kind: "world" }>>();
+  for (const entry of entries) {
+    const w = worldOf.get(entry.id);
+    if (!w) {
+      rows.push({ kind: "item", entry });
+      continue;
+    }
+    let row = grouped.get(w.world.id);
+    if (!row) {
+      row = {
+        kind: "world",
+        world: {
+          id: w.world.id,
+          title: w.world.title,
+          form: w.world.form,
+          language: w.world.language,
+          state: w.world.review.state,
+        },
+        total: w.chapters.length,
+        chapters: [],
+      };
+      grouped.set(w.world.id, row);
+      rows.push(row);
+    }
+    row.chapters.push({
+      ...entry,
+      n: w.chapters.findIndex((c) => c.id === entry.id) + 1,
+    });
+  }
+  for (const row of grouped.values()) row.chapters.sort((a, b) => a.n - b.n);
+  const title = (r: FacetRow) =>
+    r.kind === "item" ? r.entry.title : r.world.title;
+  return rows.sort((a, b) => title(a).localeCompare(title(b), "it"));
 }

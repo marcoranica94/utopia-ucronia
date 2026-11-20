@@ -171,3 +171,46 @@
 .world-description {
   font-size: 0.95rem;
 }
+/* What an entry is: work, prompt, world or cycle, one tint each. */
+.type-tag {
+  display: inline-block;
+  margin-inline-end: 0.35rem;
+  padding: 0.05rem 0.45rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1.5;
+  vertical-align: 0.1em;
+  color: var(--tag-ink);
+  background: var(--tag-bg);
+}
+.type-work {
+  --tag-ink: var(--tag-work-ink);
+  --tag-bg: var(--tag-work-bg);
+}
+.type-divergence {
+  --tag-ink: var(--tag-prompt-ink);
+  --tag-bg: var(--tag-prompt-bg);
+}
+.type-world {
+  --tag-ink: var(--tag-world-ink);
+  --tag-bg: var(--tag-world-bg);
+}
+.type-cycle {
+  --tag-ink: var(--tag-cycle-ink);
+  --tag-bg: var(--tag-cycle-bg);
+}
+/* A world's items hang from it, as on the world's own page. */
+.facet-world-chapters {
+  margin: 0.4rem 0 0;
+  padding-inline-start: 2.2rem;
+  border-inline-start: 2px solid var(--line);
+}
+.facet-entries .facet-world-chapters li {
+  padding: 0.35rem 0;
+  border-bottom: 0;
+}
+.facet-world-chapters li::marker {
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
